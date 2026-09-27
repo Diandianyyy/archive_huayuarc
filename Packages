@@ -2617,6 +2617,23 @@ Name: 微信输入法自定义
 Author: Doki
 Icon: https://huayuarc.github.io/icon/WXKeyboardUIHook.png
 
+Package: com.HBWechatHelper.ailun
+Architecture: iphoneos-arm64
+Version: 2.1.2
+Section: Tweaks
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.HBWechatHelper.ailun_2.1.2_iphoneos-arm64_7ecde944e3d3df25559e1de89c5babe68cfa4ea98cf8638fd6264d62f994f7fc.deb
+Size: 11026744
+MD5sum: 77fc73ed344af76622e24c772ca737cd
+SHA1: d5588d234cd1905c249766d696a9bba8de8b3ff6
+SHA256: 7ecde944e3d3df25559e1de89c5babe68cfa4ea98cf8638fd6264d62f994f7fc
+SHA512: 765d67fcdcae51b1461ef5ae023355465e301094d6ee2fbe54f20b4f28e1a430a97c79708ada2aaa1e2981ab958b2282727e07a0573b30fde728af039f4889ba
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Name: 黄白助手(微信插件)
+Author: HuangBai <QQ:1343309363@qq.com>
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
 Package: com.Mr.Zhang.lookinloader
 Architecture: iphoneos-arm64
 Version: 1.2.8-2
@@ -7941,6 +7958,25 @@ Author: colorblack
 icon: https://huayuarc.github.io/icon/wifi.jpg
 
 Package: com.example.wifileasekeeper
+Architecture: iphoneos-arm64
+Version: 1.0.12
+Priority: optional
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 1096
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.example.wifileasekeeper_1.0.12_iphoneos-arm64_aeefdc896496d42c5bed6ccb415020744333da24e4dc8129f733dc64b5103b34.deb
+Size: 311816
+MD5sum: a1adcf472f023a8f4b018b313622d02b
+SHA1: 5e544c8356c103770c8de47766b50ee1d34c8da7
+SHA256: aeefdc896496d42c5bed6ccb415020744333da24e4dc8129f733dc64b5103b34
+SHA512: cf9726ab2052b5a16a33edf5726e0424670bcdaf6027d2597a32f1c81ed0d529db6778fc9885ea484a69c1820a9a9e9abeec45ff6238720422edf6a1092069da
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Name: wifi 锁屏不断连
+Author: colorblack
+icon: https://huayuarc.github.io/icon/wifi.jpg
+
+Package: com.example.wifileasekeeper
 Architecture: iphoneos-arm64e
 Version: 1.0.10
 Priority: optional
@@ -7996,6 +8032,2119 @@ Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插
 Name: wifi 锁屏不断连
 Author: colorblack
 icon: https://huayuarc.github.io/icon/wifi.jpg
+
+Package: com.fluoxetine.jumor
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: Fluoxetine <1103945342@qq.com>
+Installed-Size: 1361
+Depends: ldid, ellekit
+Replaces: com.opa334.trollstorelite
+Filename: debs/iphoneos-arm64e/com.fluoxetine.jumor_1.0.4_iphoneos-arm64e_ef6152e622082e81bdb2b0cb908b18618535ee30d190ddaf46c3a3dfd3c63889.deb
+Size: 592392
+MD5sum: d0690a7dcc1aa0244626ad9cd5a480b8
+SHA1: 2cef3c332ee233adf770d256837b49d8b7f7d65b
+SHA256: ef6152e622082e81bdb2b0cb908b18618535ee30d190ddaf46c3a3dfd3c63889
+SHA512: cc86d56b104c2dd2db5fe06618643ce458cdcdc7cb4ea3cc94bdfcb1803c485c189439bb3b9360bbd4496235a294bc3c97b3f24a89cc9c0249e3a17d99df61ee
+Description: 巨魔 R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。
+Name: 巨魔R
+Author: Fluoxetine为Relaxin越狱特别制作
+icon: https://huayuarc.github.io/icon/jumor.jpg
+
+Package: com.gdzhujun.sneakycam
+Architecture: iphoneos-arm64e
+Version: 1.3.6
+Section: Tweaks
+Maintainer: gdzhujun
+Installed-Size: 816
+Provides: com.spark.sneakycam
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.spark.sneakycam
+Replaces: com.spark.sneakycam
+Filename: debs/iphoneos-arm64e/com.gdzhujun.sneakycam_1.3.6_iphoneos-arm64e_f733c59d51e52de0c94e0dc5f94703b57749700f7f278ce71c79140625c859d6.deb
+Size: 58916
+MD5sum: a6551272638467e1ab4526226de5452c
+SHA1: c3c69d9d6548bf8d895b847e2df14f06acdcbe74
+SHA256: f733c59d51e52de0c94e0dc5f94703b57749700f7f278ce71c79140625c859d6
+SHA512: 77306dab42ed2be856ee20f542180b4ef33cb7bf27e1f3b73ec97cd835abdba0404d7768f7b98689120345f50d980c7f4883b75d06945ca7fc3f1bb60466d78f
+Description: Discretely take a photo or record a video from anywhere, even with your screen off. iOS 17 roothide port of SparkDev's SneakyCam 2.0.6 (Activator replaced by Control Center modules).即使屏幕关闭，也可以在任何地方隐蔽地拍照或录制视频。SparkDev的SneakyCam 2.0.6的iOS 17根隐藏端口（激活器被控制中心模块取代）。
+Name: SneakyCam 隐私相机
+Author: gdzhujun (original tweak by Spark, hook targets referenced from the 2.0.6 analysis)
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.guiqi.cleanjd
+Architecture: iphoneos-arm64
+Version: 0.0.1-26+debug
+Section: Tweaks
+Maintainer: guiqi
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.guiqi.cleanjd_0.0.1-26+debug_iphoneos-arm64_7299d5a624a9d7e286c83463c0d3c62d2b766e62307caf63f243db6c00326cc6.deb
+Size: 6820
+MD5sum: 1f4a3ef1e59299a4bbc87683943620c1
+SHA1: 4371280859751eb2fd55e4447dcf46a8fd527158
+SHA256: 7299d5a624a9d7e286c83463c0d3c62d2b766e62307caf63f243db6c00326cc6
+SHA512: 79daa3b5a9cd919a0827b80937248037a8fd5228a0f8c187eb4130f940e124110b530c2671670a0e9f1543cae59129b84ac4ffa514ffd818dd41a1388dce09d1
+Description: 精简京东底栏、首页
+Name: CleanJD
+Author: guiqi
+Icon: https://huayuarc.github.io/icon/jd.jpg
+
+Package: com.guiqi.cleanjd
+Architecture: iphoneos-arm64e
+Version: 0.0.1-26+debug
+Section: Tweaks
+Maintainer: guiqi
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.guiqi.cleanjd_0.0.1-26+debug_iphoneos-arm64e_b71d869313018b768dd3433ea77ad4642edf6ee9a5393b752041152b9676ac1e.deb
+Size: 7004
+MD5sum: eb1d3b22694224add8c8274a23b87845
+SHA1: 7efe541e77052d375eb516d357e471f8186ec67e
+SHA256: b71d869313018b768dd3433ea77ad4642edf6ee9a5393b752041152b9676ac1e
+SHA512: 39c936e4c71a489d3420e94f8a35e9d49a7a683429e4b4f388d32b55c6793a20fe4becc8b74e47e505e3acddb5cd69030375eb1eaba4d1095d988c7c7755c304
+Description: 精简京东底栏、首页
+Name: CleanJD
+Author: guiqi
+Icon: https://huayuarc.github.io/icon/jd.jpg
+
+Package: com.guiqi.cleanpdd
+Architecture: iphoneos-arm64
+Version: 0.0.1-8+debug
+Section: Tweaks
+Maintainer: guiqi
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.guiqi.cleanpdd_0.0.1-8+debug_iphoneos-arm64_eb1092d5b4420a7ec482deda8f3f96edd9f087a2878b1afd6a2672c7e541add6.deb
+Size: 6008
+MD5sum: 55071eeba3aa49d67388c3938887aba2
+SHA1: da942ffc29e3495312a16332c5fcde02a697a8cc
+SHA256: eb1092d5b4420a7ec482deda8f3f96edd9f087a2878b1afd6a2672c7e541add6
+SHA512: 3b3ce6d3d1052f295d926f49015f798c8e63905e45228fde2e756ac97545e989eb37c537fb10c331d32c1b5a71abe930af8c0f3a0400ffb4c7632dad4d1a37cb
+Description: 精简拼多多底栏
+Name: CleanPDD
+Author: guiqi
+Icon: https://huayuarc.github.io/icon/pdd.jpg
+
+Package: com.guiqi.cleanpdd
+Architecture: iphoneos-arm64e
+Version: 0.0.1-8+debug
+Section: Tweaks
+Maintainer: guiqi
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.guiqi.cleanpdd_0.0.1-8+debug_iphoneos-arm64e_cca2352bdae20fcee016ebef726a8e90242b43bde600b5534bb41357ec18b7f1.deb
+Size: 5840
+MD5sum: 78cc94cac67f6e42c096db3ffb1a15bc
+SHA1: e38be18a0c58f5a81ad4440d18ac55326595c24a
+SHA256: cca2352bdae20fcee016ebef726a8e90242b43bde600b5534bb41357ec18b7f1
+SHA512: 96238d32175dccc2234b40152a0adcd902a762373c08524bc9a6c0ad108763ff942df29742e4ec6e25be84a5ea56becb24a34c59236e97ec9b90a9aec92490bc
+Description: 精简拼多多底栏
+Name: CleanPDD
+Author: guiqi
+Icon: https://huayuarc.github.io/icon/pdd.jpg
+
+Package: com.guiqi.cleantb
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Section: Tweaks
+Maintainer: GUIQI
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.guiqi.cleantb_1.0.9_iphoneos-arm64_d51a389aa11657367c3cddd011e1196dd53a3410fa2ba71d73a85f9607f6b29f.deb
+Size: 5688
+MD5sum: cf614be74b57336e49fec3f371ebd74a
+SHA1: d0d80b4a9e72cce984848752d655b3be159eb93e
+SHA256: d51a389aa11657367c3cddd011e1196dd53a3410fa2ba71d73a85f9607f6b29f
+SHA512: e150f13111a9a98c34a85f6a2cc823deeacebea932b42567a6de1b24c7fa60e8f0c0d8bfa80f0b01326b27451137432291fd2416a6433b03aa9a8bb660300fff
+Description: 淘宝底栏去视频，排版重构。
+Name: CleanTB
+Author: GUIQI
+Icon: https://huayuarc.github.io/icon/tb.jpg
+
+Package: com.guiqi.cleantb
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Section: Tweaks
+Maintainer: GUIQI
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.guiqi.cleantb_1.0.9_iphoneos-arm64e_b6f8ca0d6e6cfb44e22ee8cfcb8180aa0e076c5ceb8732b5ed9dd126d01d424b.deb
+Size: 5864
+MD5sum: b6bfdcd1ceeae636cf71f619522d3359
+SHA1: 9745fddeb42e6323f2227fa22436383f1e4c8ae0
+SHA256: b6f8ca0d6e6cfb44e22ee8cfcb8180aa0e076c5ceb8732b5ed9dd126d01d424b
+SHA512: 18502eff4a6a4c15d200b6333b2c8f681ff7453432575d589c31d832dfbf8f1a27d0788860c66c77b4009c61a6336615fd11998405ebe036d797f6ebb7344b36
+Description: 淘宝底栏去视频，排版重构。
+Name: CleanTB
+Author: GUIQI
+Icon: https://huayuarc.github.io/icon/tb.jpg
+
+Package: com.gyddpu.keyboardhook
+Architecture: iphoneos-arm64
+Version: 2.1-3+debug
+Section: Tweaks
+Maintainer: t.me/gyddpu
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.gyddpu.keyboardhook_2.1-3+debug_iphoneos-arm64_987c7fc8426336f9775c3a6a6b53da28bbb84fe3bf2eb19a0b20acf9907be4ac.deb
+Size: 43456
+MD5sum: 90b24b6a75cd015f861c6a450b7dde01
+SHA1: a13de09a4dc4f1c945ba25c49ce3158328580b37
+SHA256: 987c7fc8426336f9775c3a6a6b53da28bbb84fe3bf2eb19a0b20acf9907be4ac
+SHA512: 63aa227d792e32557bf7280ac4c3730490cbf5d86ae9e5bf692717599aec98347749a2f9bf4983767772ab101cef6166bed3e03d7fcea6ac4fbf0be105e06876
+Description: 关于系统输入法和微信输入法的一些自定义，包括：键盘背景自定义、预选词语自定义。
+Name: KeyboardHook
+Author: t.me/gyddpu
+Installed‑Size: 524
+Icon: https://huayuarc.github.io/icon/keyboardhook.png
+
+Package: com.gyddpu.keyboardhook
+Architecture: iphoneos-arm64e
+Version: 2.1-3~debug
+Section: Tweaks
+Maintainer: t.me/gyddpu
+Installed-Size: 524
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.gyddpu.keyboardhook_2.1-3~debug_iphoneos-arm64e_07265056e98b08782a97a0bbd4d93243ddaad7c1b1678626194d6d13dc41c3ab.deb
+Size: 43092
+MD5sum: a240d7448e4277901db49a8bcf5c65b1
+SHA1: 618a49d1f5998855785c0aedd36a5904cf188991
+SHA256: 07265056e98b08782a97a0bbd4d93243ddaad7c1b1678626194d6d13dc41c3ab
+SHA512: 5efea82791d1bd7b6acd8bc6f7c04feb3344aad14e3dc57ed68a3f762eaebbf735fe7b233f12379ee3f48511acfbaa3ba22a4cf97914af98dd1823f9cce22a24
+Description: 关于系统输入法和微信输入法的一些自定义，包括：键盘背景自定义、预选词语自定义。
+Name: KeyboardHook
+Author: t.me/gyddpu
+Icon: https://huayuarc.github.io/icon/keyboardhook.png
+
+Package: com.hang.kayoko
+Architecture: iphoneos-arm64
+Version: 4.7.0
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 3152
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Filename: debs/iphoneos-arm64/com.hang.kayoko_4.7.0_iphoneos-arm64_78c5b4207d89dfac1a1727db9ba99779b4a2ede7ca0aa25401154d25be122032.deb
+Size: 649980
+MD5sum: 96f41de973907d111880e98720bc97cf
+SHA1: cf9b429531ec8181a3f4a5150ccdab7004e13765
+SHA256: 78c5b4207d89dfac1a1727db9ba99779b4a2ede7ca0aa25401154d25be122032
+SHA512: b95de0bb8a7ae0bdb892985bcc5f60a37cf20f400f973cf06b11712aaa022f4f72b28bb9713c6d7d18833dfd3fe327726c2954e434d568cf8df85f472fe2f9ac
+Description: 感谢kayoko开源，魔改自用
+Name: Kayoko
+Author: 航
+icon: https://huayuarc.github.io/icon/Kayoko.png
+
+Package: com.hang.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.7.0
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 1744
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Filename: debs/iphoneos-arm64e/com.hang.kayoko_4.7.0_iphoneos-arm64e_55b561c5d7f59a6a4f4628533b46006d1e24ab9c0c7c798f3088e0bb7cb177da.deb
+Size: 475644
+MD5sum: ad5214509fe260102ea2a1a496a7b887
+SHA1: ae557e06f7f93481673f61c5998c4171e4925780
+SHA256: 55b561c5d7f59a6a4f4628533b46006d1e24ab9c0c7c798f3088e0bb7cb177da
+SHA512: ae1f42365207c000e46862dc6f63cda4e4eb8691128a88ba2af3f91204ae61f24e76302158313ff0a892630a322328f2b806d08a2a7e2aaf1068fa958efdc465
+Description: 感谢kayoko开源，魔改自用
+Name: Kayoko
+Author: 航
+icon: https://huayuarc.github.io/icon/Kayoko.png
+
+Package: com.hang.squidgesturepro-ios17fix
+Architecture: iphoneos-arm64e
+Version: 2.3
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
+Conflicts: com.codex.squidgesture17fix
+Filename: debs/iphoneos-arm64e/com.hang.squidgesturepro-ios17fix_2.3_iphoneos-arm64e_3d0f4c47fc73d9fa34254e4b6f703d9a67f834a27aba0bdd444bc08ce1f240cb.deb
+Size: 15036
+MD5sum: f64e63681d86479a64a1640d32cfdb45
+SHA1: b3df1bf9b8483e23d436177fc145adc8ef93bd6e
+SHA256: 3d0f4c47fc73d9fa34254e4b6f703d9a67f834a27aba0bdd444bc08ce1f240cb
+SHA512: b4a874eac4bc1cc771afb69e626adaf462ada03c08d15b5412a9b67d78daae6205c092c7f6e578ef8d14381af62615d4f0a19ea5bb8544a2889d05946c14db0c
+Description: 修复SquidGesturePro在iOS17状态栏不生效与启动快捷指令时导致的安全模式。
+ 不生效就把手势内总开关跟小开关重新开启一下，有问题请卸载。
+Name: 乌贼手势 iOS 17 补丁
+Author: 航
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+
+Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64
+Version: 0.5.5
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 1052
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.hierarch.dykiller_0.5.5_iphoneos-arm64_75330876b2139f54368e3af58617dc0bfb0379a9985ee38923893bdefd5c94ea.deb
+Size: 244632
+MD5sum: 6d8654a9f3e35f2497f8fc7342af6e0f
+SHA1: c092b991306d752b6be1b2e71e4f911e8adbf303
+SHA256: 75330876b2139f54368e3af58617dc0bfb0379a9985ee38923893bdefd5c94ea
+SHA512: 76e6342d04fb7f5b955794bd6f4bb3b06725c9ed162215aa2d411c4b613f44c3753268a96fba96b371e322ffb9ebfa7e30e5a6378246690c436eb249b8507484
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller 抖音 UI 增强
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64
+Version: 0.5.8
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 1216
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.hierarch.dykiller_0.5.8_iphoneos-arm64_5173cbd2dde2781158be8b4167fd7c1bc3cd32cf4485b53964303ae0763c42eb.deb
+Size: 292012
+MD5sum: 679c7d3c36a0b3d47ee683a32804a592
+SHA1: 040ff6025457dd2ce0aedbb0b129ce867e4ff48e
+SHA256: 5173cbd2dde2781158be8b4167fd7c1bc3cd32cf4485b53964303ae0763c42eb
+SHA512: f8f9cb4fc54334301e86cebb923ff10950bbb3daf519cfe7c1154cf588f9459079a3ce8442ef1429f47af74ff58be9b753bdc6a2ab14bcd96f72545d4b2730f6
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller 抖音 UI 增强
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64e
+Version: 0.5.5
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 1052
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.hierarch.dykiller_0.5.5_iphoneos-arm64e_38981a012fcabcb7bb686a92cbd9545d001f142b38ecc022b2a1ca2374a7d2ab.deb
+Size: 244388
+MD5sum: e3e472d226956d5ab269761556f29d4c
+SHA1: 8a387c2b892a0013899b23c4a6a526450e4dbdd7
+SHA256: 38981a012fcabcb7bb686a92cbd9545d001f142b38ecc022b2a1ca2374a7d2ab
+SHA512: 4fc1ca0e4d78e7884631f57bf583d1b0636c1d0ce8df0f9ce3d1a62a7bf005c7781df0a101ee2e6176ffdc63ea80928f6542bdf04dc79b971e686e226ab33e22
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller 抖音 UI 增强
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64e
+Version: 0.5.8
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 1216
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.hierarch.dykiller_0.5.8_iphoneos-arm64e_e7131ee202ecf09689fc12eabebcdc26d5a39b408a9ab8a312109e4d53d8918b.deb
+Size: 292812
+MD5sum: 4167e7ce657c056c50d84c7ecd53d9d6
+SHA1: ec9b439dfcc4f2686d6c136d95ea572a002b36bb
+SHA256: e7131ee202ecf09689fc12eabebcdc26d5a39b408a9ab8a312109e4d53d8918b
+SHA512: fda29f108c26224bedcdebc0b9de3f233450c92785e92339838ef0fd941f515d5ccbdd548365dacd5e96af6f0483b135446d3824496e5720c957280ea04b63bb
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller 抖音 UI 增强
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hitori.misaki
+Architecture: iphoneos-arm64
+Version: 2.2
+Section: Tweaks
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 1049
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: debs/iphoneos-arm64/com.hitori.misaki_2.2_iphoneos-arm64_9f12b6b16227d7931e68aab71da624c6665cefe28455e359acae5b3da3b7f0ec.deb
+Size: 305896
+MD5sum: 7380c887d2923cf7b15973bea372e79e
+SHA1: 943b03eaea0ba8bfcadc063fb7bbd6768d445ecd
+SHA256: 9f12b6b16227d7931e68aab71da624c6665cefe28455e359acae5b3da3b7f0ec
+SHA512: bb275aad80d64fedd1e929645be3d50ce5f3abd556bfb244149dac7eaea93bcbb07459cf154e62d5285234e03030003c5f0dda29428f4acd7595083c0cbded8a
+Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours. 使用Misaki自定义您的iOS 15和16体验。自定义选项，让您的iPhone真正成为您的。
+Author: Hitori <mikasa-san@outlook.jp>
+Name: Misaki
+icon: https://huayuarc.github.io/icon/misaki.jpg
+Taq: cydia::commercial, compatible_min::ios15.0
+
+Package: com.hitori.misaki
+Architecture: iphoneos-arm64e
+Version: 2.2
+Section: Tweaks
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 1049
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: debs/iphoneos-arm64e/com.hitori.misaki_2.2_iphoneos-arm64e_1f73248c4f534474cf50678507c85c91d378d8b8df084cf6bcf3529f7633930d.deb
+Size: 301300
+MD5sum: 853e27ea8e2b48a36aa1cdef3e05aea6
+SHA1: 13c0f77f910d3f9d48ac91e9ebfcdb44345b4090
+SHA256: 1f73248c4f534474cf50678507c85c91d378d8b8df084cf6bcf3529f7633930d
+SHA512: d60b84b45693b2f45ae0beef0a5bf7e8339c682e7980f12966385af00b260ce545b90454a50e84fb757eab68db045983d7d39a5d682e39a07a570590b3a512ac
+Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours. 使用Misaki自定义您的iOS 15和16体验。自定义选项，让您的iPhone真正成为您的。
+Author: Hitori <mikasa-san@outlook.jp>
+Name: Misaki
+icon: https://huayuarc.github.io/icon/misaki.jpg
+Taq: cydia::commercial, compatible_min::ios15.0
+
+Package: com.hitori.zeppelinreborn.roothide
+Architecture: iphoneos-arm64e
+Version: 1.4.2
+Section: Tweaks
+Maintainer: Hitori
+Installed-Size: 3100
+Provides: com.alexzielenski.zeppelin
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.muirey03.libimagepicker
+Filename: debs/iphoneos-arm64e/com.hitori.zeppelinreborn.roothide_1.4.2_iphoneos-arm64e_6230941d2a85298e5cb4f423766eb073b5789f655c8f996de1106beaf97a03c8.deb
+Size: 1471128
+MD5sum: f4fb402d6ee03f0146db10e55f032577
+SHA1: d236b8354fa557240395a8feec20e4f3f6910fa8
+SHA256: 6230941d2a85298e5cb4f423766eb073b5789f655c8f996de1106beaf97a03c8
+SHA512: a398e881ad44263f947f02ffa4d26634b1e5a115b3b863899ec23ebfa0d54a044928ac71d2b84c33e43f43c6a4258273040b726cbe16b7d7fbacebda5075df1e
+Description: Zeppelin Reborn: A plugin that displays images next to the time and allows carrier customization. It supports themes, static images and GIFs, comes with abundant custom options and great scalability. Zeppelin Reborn，是一款时间旁边显示图片和自定义运营商的插件。支持主题、图片及GIF动图，自定义选项丰富，扩展性强。
+Name: Zeppelin Reborn
+Author: Hitori
+Icon: https://huayuarc.github.io/icon/zeppelinreborn.jpg
+
+Package: com.hitori.zeppelinreborn.rootless
+Architecture: iphoneos-arm64
+Version: 1.4.2
+Section: Tweaks
+Maintainer: Hitori
+Installed-Size: 3100
+Provides: com.alexzielenski.zeppelin
+Depends: mobilesubstrate, preferenceloader, com.muirey03.libimagepicker
+Filename: debs/iphoneos-arm64/com.hitori.zeppelinreborn.rootless_1.4.2_iphoneos-arm64_f97ca38853371e5274d363a8dc6e164d0515bdac34b02afbbf42dac0ca968138.deb
+Size: 1472692
+MD5sum: f17450847e284a1008d43d8ea76d034e
+SHA1: 91315c671e747f70d2a019d63cf931932fa17fce
+SHA256: f97ca38853371e5274d363a8dc6e164d0515bdac34b02afbbf42dac0ca968138
+SHA512: 89884fc12b30493395488319adb164e55057bb98fbbfe577caa16bee44c30b154a5e1a763c1067b659473dab4db0abbcd898ff2ce2e7d691284fe6ae99f725be
+Description: Zeppelin Reborn: A plugin that displays images next to the time and allows carrier customization. It supports themes, static images and GIFs, comes with abundant custom options and great scalability. Zeppelin Reborn，是一款时间旁边显示图片和自定义运营商的插件。支持主题、图片及GIF动图，自定义选项丰富，扩展性强。
+Name: Zeppelin Reborn
+Author: Hitori
+Icon: https://huayuarc.github.io/icon/zeppelinreborn.jpg
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64
+Version: 0.2.2
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 7584
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64/com.hmmzzz.fontmanager_0.2.2_iphoneos-arm64_a63b77cf3ba03b4af95195ce8180dc46c3075199d889fa7e3a3e2aa39cee52c5.deb
+Size: 2308464
+MD5sum: 9f16dc69b8b5c4ad7e059591c427f8b2
+SHA1: 2268eaab4208f2a3e9dd7efc961b57caab1da41f
+SHA256: a63b77cf3ba03b4af95195ce8180dc46c3075199d889fa7e3a3e2aa39cee52c5
+SHA512: 512eaeb2fa2d1bfe47afcca8fdd6eb10b6cdc06588ad514ae07aa6af54b48f70594a8c645d7bbfb9270dcab9f5e0b6d2f2a3fd1bb0fede4bd4e0e69c7f17ad64
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 2324
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/iphoneos-arm64/com.hmmzzz.fontmanager_0.3.0_iphoneos-arm64_536aac70e35134660911be9d191c899cdb8deab1c53e601442146d3b1efa7d3c.deb
+Size: 434616
+MD5sum: e248be913c55b6eafff07f3dfe53e447
+SHA1: 5244aad1eeaec428ad3ea53518dfcc7e6fbee6c3
+SHA256: 536aac70e35134660911be9d191c899cdb8deab1c53e601442146d3b1efa7d3c
+SHA512: 42dee08ce2a8847cc51c322fdcf440578db285c37dd70f66a60a856bfb8508100fa4cbc7a09f085e7cb1652b67f9b3101242d3f6925a3e13be300d5f97dc1efb
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 全局字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64
+Version: 0.3.1
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 2328
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/iphoneos-arm64/com.hmmzzz.fontmanager_0.3.1_iphoneos-arm64_38a7a8747758b555781cb6e7e26c30ea0bcb2cf2901a8471462bdc0f40baad8b.deb
+Size: 435600
+MD5sum: d43f581bde523b1fee12bffe5433f22c
+SHA1: 394d6882109857ecc4227574234efdcf457b1631
+SHA256: 38a7a8747758b555781cb6e7e26c30ea0bcb2cf2901a8471462bdc0f40baad8b
+SHA512: 361f3127747b852124ccce689f20f42a0f6d63112cee4cf98830ee801a38c6bcec2941169ae133f135e07fa00dbe40cafcb7b89882b4a3ef05323f356182c74e
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 全局字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64
+Version: 0.3.3
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 2392
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/iphoneos-arm64/com.hmmzzz.fontmanager_0.3.3_iphoneos-arm64_481854af55ff0e33cf575340672c3742a4ca00963300d633e255a41c14f3ff5c.deb
+Size: 463624
+MD5sum: 508c5729debcbfdc77d20dde175e3da9
+SHA1: 471156de0e0fc6f37b980f454b2e13b49c2c28b8
+SHA256: 481854af55ff0e33cf575340672c3742a4ca00963300d633e255a41c14f3ff5c
+SHA512: 91d7c923037153d258ac8f8cea728a75f5b02fc2df0335dd8a0044a252dc9cb6ae6946eaa94aa31a71958470b1bc66baa2cf58c479611fbb9f514c89694732e5
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 全局字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64
+Version: 0.3.5
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 2392
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/iphoneos-arm64/com.hmmzzz.fontmanager_0.3.5_iphoneos-arm64_cbeec8900e458f970eaf800114a8f58ec9095b3a2beec3986219c410b30a4894.deb
+Size: 462420
+MD5sum: aabd66a4befcd42b4a5db3181891446e
+SHA1: f9569a6bd6b53757f0478e90d1b3d8c03d314a36
+SHA256: cbeec8900e458f970eaf800114a8f58ec9095b3a2beec3986219c410b30a4894
+SHA512: 0aefac4d06e4e0a01bcc8fff46413395f969f9c71d7373dcaa11519ea62136805cbbac10de8bb6f77c4ceaa6e32e33e8eca8b8c27269688441a65aff66a0b617
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 全局字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64
+Version: 0.3.7
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 2528
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/iphoneos-arm64/com.hmmzzz.fontmanager_0.3.7_iphoneos-arm64_649391dae103b84f1fef4dcd06fd96d9504d94b2e484bc6d1d9800c2fed91c40.deb
+Size: 504328
+MD5sum: 0629b24546f205f3be694685e8e9f6e7
+SHA1: 3eba7ae3106f41bbf0b2fcdb6993ca1f7d268640
+SHA256: 649391dae103b84f1fef4dcd06fd96d9504d94b2e484bc6d1d9800c2fed91c40
+SHA512: 6a2356e9960e3528b87265bb2622e39636b6b31be5efc77e333d5626e6b6034c71ce3be87db32fd0b54bb8fad3702d8b1ce20a9e65c295c4dc0082865d19d125
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64
+Version: 0.3.8
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 2528
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/iphoneos-arm64/com.hmmzzz.fontmanager_0.3.8_iphoneos-arm64_f8eebe8b562d8a73ac0ddad86d8a8dac5b0fa9973d06ccd96292913a5e593155.deb
+Size: 503524
+MD5sum: 482ed7c78534b40ba35d8e4992440a27
+SHA1: e0ab33d509fc717724581188be8762f1b8f65196
+SHA256: f8eebe8b562d8a73ac0ddad86d8a8dac5b0fa9973d06ccd96292913a5e593155
+SHA512: a9fff76545d616614423f1b23e2a590978e3c90d3d53652d1d0f4364956f9d1a4ee2739777ecf1110a95dee0111aad41680b652ee22f1e86b3dc8653b85d9d7c
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64e
+Version: 0.2.2
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 7548
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64e/com.hmmzzz.fontmanager_0.2.2_iphoneos-arm64e_19784763cc0ae8ade55ab3732348ba1fa8a5f983b0e36d0165a0dd4dc01616e7.deb
+Size: 2313600
+MD5sum: 80087140c694f2bab4f361db09e5035b
+SHA1: 8731121d7ae7ef96b3f8621d894a143e24a9cf7e
+SHA256: 19784763cc0ae8ade55ab3732348ba1fa8a5f983b0e36d0165a0dd4dc01616e7
+SHA512: bc94fd0d646e637fe990f33ce166189b140cc41ba7dc6d74f99e761612276b58397872fd01bfa5794665b141343ac55f514d451f98acab000026d42b436592ad
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64e
+Version: 0.3.0
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 2308
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/iphoneos-arm64e/com.hmmzzz.fontmanager_0.3.0_iphoneos-arm64e_66d21513bbdc3629054638a729da167c749a3d39d49bb2627e6902e77c6665b2.deb
+Size: 434484
+MD5sum: 9083e4783d10ff3311d6980eab5eeb85
+SHA1: 413fcbc261829be48e6a390da67152cea372dd0c
+SHA256: 66d21513bbdc3629054638a729da167c749a3d39d49bb2627e6902e77c6665b2
+SHA512: 3ed77c0016aead4f1715bafd779a46f7d5f56dc96d43dd05ecaaa6a7779153982c0dcc5206c9e5efb3e1255b154c325fbcf4874961f50eb76289f6b93c80d4c3
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 全局字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64e
+Version: 0.3.1
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 2308
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/iphoneos-arm64e/com.hmmzzz.fontmanager_0.3.1_iphoneos-arm64e_2aec3a47f205227bc2c5196c7ca782b345aed2421bfd6f05c457cb9104f1a582.deb
+Size: 435680
+MD5sum: 382ddbcb8a24011705e02942ed29ab88
+SHA1: 5e676f7c56dd77ef81e408d3a6ac81541fd8fbab
+SHA256: 2aec3a47f205227bc2c5196c7ca782b345aed2421bfd6f05c457cb9104f1a582
+SHA512: 36a940f231be298eadc21419ddc39b03f2c38973eff548f300e5a83b7df8f1ad1d197fe9f9206e45447792966c0844b75a8d675e4b203e1760aef444af355670
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 全局字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64e
+Version: 0.3.3
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 2376
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/iphoneos-arm64e/com.hmmzzz.fontmanager_0.3.3_iphoneos-arm64e_a891d258e3a205c01b4375bd9b15df4f395c6747a922c45002f924bb16e7d936.deb
+Size: 453956
+MD5sum: 84f21bb33978fe239895d691b4f84f05
+SHA1: f278bf551f24dba52175385f0794a0f4906148c8
+SHA256: a891d258e3a205c01b4375bd9b15df4f395c6747a922c45002f924bb16e7d936
+SHA512: cd80d9366b8a2ce338dd4c9d62f7e4f4320137143210bc5dee046fb2bf2dd08ddc2f5e4536a1f83b7d3506243c152a60280f893a3fbbe306568249368711bd7a
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 全局字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64e
+Version: 0.3.5
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 2376
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/iphoneos-arm64e/com.hmmzzz.fontmanager_0.3.5_iphoneos-arm64e_d5f7e99ab98c1400a3226f78337313f356b0127027f8563a2218b53bd348563e.deb
+Size: 454576
+MD5sum: 27a2de55142a87a579b926038e029ced
+SHA1: f9d1d13c0b944f39953700d1c2381dc5f6fd394f
+SHA256: d5f7e99ab98c1400a3226f78337313f356b0127027f8563a2218b53bd348563e
+SHA512: 5d54dde1042a314a56c76e682e6567c10edff0b5647f2fd89a50203ab77d570effeea9d704739b6e34947f251262a0c98eb7346ff031ca89809ffb96257fafb5
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 全局字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64e
+Version: 0.3.7
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 2512
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/iphoneos-arm64e/com.hmmzzz.fontmanager_0.3.7_iphoneos-arm64e_c11e2df12a5bbde71b5e0893f26a25e7d838fc5e193f1d91dc30e3f5806dc8c5.deb
+Size: 494332
+MD5sum: c0726ae3a112a488c5bfc7951052151b
+SHA1: 94b78c892a4a4ba388e30a8656ff5d87316f0031
+SHA256: c11e2df12a5bbde71b5e0893f26a25e7d838fc5e193f1d91dc30e3f5806dc8c5
+SHA512: 2a9dd088b0595f50fca8457834dac21a78dd210cc43c094a176d3533fba6f25238d1c77c0ba6a9854003c35acd9b8b10934de6aaf382f3d303bed3ddf36a9484
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64e
+Version: 0.3.8
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 2512
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/iphoneos-arm64e/com.hmmzzz.fontmanager_0.3.8_iphoneos-arm64e_70a5d96cfc65f56e196cdc450b534d4a225574254b5fb96543d1d99e04093f47.deb
+Size: 496768
+MD5sum: fd37c0b069da3c2778cf971c94f3574b
+SHA1: ad9fdf5dbd7e6b93fa4c8d68588f856f11ebac3c
+SHA256: 70a5d96cfc65f56e196cdc450b534d4a225574254b5fb96543d1d99e04093f47
+SHA512: ee53e5bcacca70bae7b8cd58ce6be52f5fd58d152ba58b3ecad632601608d67f5fef998d0cb7f632e273ff3615f2bdb4c97d9826232c77106bf43f37e54cd9d7
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64
+Version: 0.1.5
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8692
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64/com.hmmzzz.marktheme_0.1.5_iphoneos-arm64_333ec8285bfd044c921708d1a9db9e168277c6af9aa363ccd03cb03560d6cd32.deb
+Size: 2357012
+MD5sum: 2b4e36caf025c6de12dcb356bbce857f
+SHA1: 07918c4ee605beb2bee59c513cb6cba962b88690
+SHA256: 333ec8285bfd044c921708d1a9db9e168277c6af9aa363ccd03cb03560d6cd32
+SHA512: e0fd635b1ec3e5a5434f2c734688796a0e8466e308e781089fe62876cbd432754ae7914337930b9e2c427c3519af8263940611694737240fa0c8aeb63d2774f3
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64
+Version: 0.1.6
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8836
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64/com.hmmzzz.marktheme_0.1.6_iphoneos-arm64_1a5e530e1b945ec2a44dd51c66df56a12f02db5e620dc8a641e42cabd7524c52.deb
+Size: 2393348
+MD5sum: 67521e6f3f88378fa4713a17c8f9accb
+SHA1: 0bdc5e5d4354fa7dbadf7583a25a1d112d5c96d0
+SHA256: 1a5e530e1b945ec2a44dd51c66df56a12f02db5e620dc8a641e42cabd7524c52
+SHA512: 2025bed0c78e376c21dfd09fa0b1bfc752c1c39ed1dd8f19e984ade3d8c6d82560393825b68b79050f145b2466a61b9f6e9c6fc743f21df59f03e533dd77a8df
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64
+Version: 0.1.7
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8860
+Depends: firmware (>= 16.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64/com.hmmzzz.marktheme_0.1.7_iphoneos-arm64_c2d3950e8e7f3fb74dfa18849a9fc5b786ac5abb76bd4feeb5244e8c4b36fe91.deb
+Size: 2387272
+MD5sum: 9e36b7e3a6cb1efc8371f2dd8db41d59
+SHA1: 772e06eff91990fd289acbe3b941bccb9b0cadf4
+SHA256: c2d3950e8e7f3fb74dfa18849a9fc5b786ac5abb76bd4feeb5244e8c4b36fe91
+SHA512: f91c793bd1e0648cb34816e89f67f4287a8e76e6374e83844d592604bf3cf8f557b4ee9765b5629ecf69f9c0608e33b70aa699bce93ada2327f0dabbab32e501
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64
+Version: 0.1.9
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8964
+Depends: firmware (>= 16.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64/com.hmmzzz.marktheme_0.1.9_iphoneos-arm64_87bd4de2823bbe536ff61b5a560b4a8a1759e1cc3d26442910f7695e7c078020.deb
+Size: 2418172
+MD5sum: 5cda466558533f0173fc6f933d4ce417
+SHA1: d9669d5f001e61b3b71a8d46a6097b9fb230a751
+SHA256: 87bd4de2823bbe536ff61b5a560b4a8a1759e1cc3d26442910f7695e7c078020
+SHA512: 2519beb5da96fe07eea745b2145726ac1e6068b44e888d448301010a397ecb2ca199020093319799e3e94acdae7a647f4802807c3a5014fc834ebb6205aef76c
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64
+Version: 0.2.1
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 9052
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64/com.hmmzzz.marktheme_0.2.1_iphoneos-arm64_bce2046f94c14603171cc633e2fd61fc67e5c4bb256b34f1522cebbcae9c69db.deb
+Size: 2437144
+MD5sum: b46f13ec1d1bbd33e6d3af5e649cce1e
+SHA1: d38cf5c7e0a08dcc935788a4c724cc46d51177d3
+SHA256: bce2046f94c14603171cc633e2fd61fc67e5c4bb256b34f1522cebbcae9c69db
+SHA512: 2ddd3088891c0650e9d80520d49dd449687f5dd85eb9ffcefa1f586e586d04c5ed34efbab1af6e224e9c81e3506c1a434f8e0ac189d97ea8d483008cbd0a88e3
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64
+Version: 0.2.6
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 7868
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64/com.hmmzzz.marktheme_0.2.6_iphoneos-arm64_dbaa5d141cb34075af66e639e83c2a5387e1cb56230db2016d9b1e744306f6ed.deb
+Size: 2372368
+MD5sum: 649c5703569aab4dd801ce28e647ba38
+SHA1: 3981baebc87129737c3488afadcd2a997a1d811d
+SHA256: dbaa5d141cb34075af66e639e83c2a5387e1cb56230db2016d9b1e744306f6ed
+SHA512: 6361fe4f6edd1156e001af1b7c5cbf356c09a5c1e220c2b329a898bf998b1f3b04e2c7464685bc6968acfb6daff9b7433cda4e065187b8ac7d68605adb7e1337
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64
+Version: 0.2.7
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8644
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64/com.hmmzzz.marktheme_0.2.7_iphoneos-arm64_1330f74bb3e7fc82a5741bb24da74bc969035ad332573f4db6b7d5a566a16180.deb
+Size: 2437380
+MD5sum: e6c2d6d79fd695122cbe1b26044002a3
+SHA1: e85b0738063c3aba43cccbcd99cd1ae90f1984bb
+SHA256: 1330f74bb3e7fc82a5741bb24da74bc969035ad332573f4db6b7d5a566a16180
+SHA512: 8f4bec8a7b1b00d7a414e0feb13cf913b3593b9440a9422df45925c3d10a413731e90082c5bdf684d19b53eaea231aa08f93becda97d810a548d6bff43b680e5
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64
+Version: 0.2.9
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8644
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64/com.hmmzzz.marktheme_0.2.9_iphoneos-arm64_ee8bd19faa19cecdb60a975d90c65b7dc76e6647a10ad6989c42219baf0cfa91.deb
+Size: 2437676
+MD5sum: 858f574919109ec979e08e5978721b61
+SHA1: 901219218bd1d55efe1b6401f3065d0c946cf24c
+SHA256: ee8bd19faa19cecdb60a975d90c65b7dc76e6647a10ad6989c42219baf0cfa91
+SHA512: 4f6c6504573cd9d58157705e521df48b9b3d53071e14c96580c2af2eca08de1103d4777195ad4d9c22d43135dd89b95972d71d7d0b7c5b04acd5f3ca711c9beb
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8668
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64/com.hmmzzz.marktheme_0.3.0_iphoneos-arm64_29339282f0be7f181b25d92bc5125cf7166490b624bd9f66770a77e75e73cddf.deb
+Size: 2444292
+MD5sum: d8b4f92047833ffe70f00bbe9f2eb159
+SHA1: a20ad164970d4eb4a4c07518438b0a1cb6ee7af2
+SHA256: 29339282f0be7f181b25d92bc5125cf7166490b624bd9f66770a77e75e73cddf
+SHA512: 66dafe8430f97b92cda69daed4b4388cb008c2f3dd0cd265e3f65d14b55ec057b19ebdeeeebf956c63826cd39ffcf82b37ce51bb2bfa78b98e6eb05cd574dca8
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ MarkTheme 0.3.0 支持导入 SnowBoard / IconBundles 风格主题，可主题化应用图标、
+ 文件夹、角标、状态栏、拨号盘、设置与分享界面。
+ .
+ 支持跨主题混搭和功能独立开关；切换主题或混搭后，按提示 Respring 即可应用新外观。
+ .
+ 提供 conventional rootless 与 RootHide 独立软件包，支持 iOS 17.0 至 18.x。
+ 请安装与你的越狱环境匹配的软件包，两个版本不可混装。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64
+Version: 0.3.1
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8668
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64/com.hmmzzz.marktheme_0.3.1_iphoneos-arm64_c1eec34adee7b3ac49a632d4bfa79f9bcd3395612a5d2ef31cd795e473c11e05.deb
+Size: 2440216
+MD5sum: 61e8e11b85408c6aa32ecf2e7e10762e
+SHA1: 7f809ef4dc1f169dabbd63895b9d9a0e0221bfce
+SHA256: c1eec34adee7b3ac49a632d4bfa79f9bcd3395612a5d2ef31cd795e473c11e05
+SHA512: 2a94fccdc4a6750b146c4405cabbfe9a2b56e64eca53c501a3b59f8930493d2cd87149ea8ea7a7af27fe62d9636453e0481030c3ec2da0a0fa19f05264f993d9
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64e
+Version: 0.1.5
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8656
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64e/com.hmmzzz.marktheme_0.1.5_iphoneos-arm64e_e4e267b4f208f63daa0aaaaa44e571db4031e7497c4414843ba51e54fd8ed938.deb
+Size: 2354668
+MD5sum: 7e5a046d451fb103152b60e7201eb19b
+SHA1: c9ecd92f60b4fc0b219ac5b495e3fac04bea2914
+SHA256: e4e267b4f208f63daa0aaaaa44e571db4031e7497c4414843ba51e54fd8ed938
+SHA512: 5f6dabbbacc15e7bb9b66887de0ef3e4ce4fbd2a0a69a07101845940e89523aae796f81bd5b00b1a29507d815f35d612261eee115a732a64f802b3ec0ab7153c
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64e
+Version: 0.1.6
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8820
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64e/com.hmmzzz.marktheme_0.1.6_iphoneos-arm64e_9245cad36f65f304b049012a7497295ce47a101ad86325d164828894a83a64a6.deb
+Size: 2385992
+MD5sum: a184af28ad378aa680e251ff05cb0268
+SHA1: 09ab9490adde79c6a5d78fa57a573951ef239ac3
+SHA256: 9245cad36f65f304b049012a7497295ce47a101ad86325d164828894a83a64a6
+SHA512: 06cb491a520657ec1d453ba3256298893781c17500ac4d1c2cb78fcec9f373f501a3876c7e71e931301fcc2dafe10f58d3baf54120af5fc7be7726339e711e97
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64e
+Version: 0.1.7
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8844
+Depends: firmware (>= 16.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64e/com.hmmzzz.marktheme_0.1.7_iphoneos-arm64e_c86e8c773ce8f4fd0c62455f1e3c2a0e412ca8a5432be5baecfdd85364a897b5.deb
+Size: 2392632
+MD5sum: 333549da71d60c2eca0557cf128fc461
+SHA1: efc5dc8cc8108772c9a12b7ca66370a2d8ee7aac
+SHA256: c86e8c773ce8f4fd0c62455f1e3c2a0e412ca8a5432be5baecfdd85364a897b5
+SHA512: 6d0963e888433b668d35de085c4c167bb968b3a9668a8f78d09d82ee5eb895acca26f1b5e556d6e7f701cdcec4eb43e68e874a8e5c92d55ac6a76fd401f0d5a4
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64e
+Version: 0.1.9
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8960
+Depends: firmware (>= 16.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64e/com.hmmzzz.marktheme_0.1.9_iphoneos-arm64e_fa4bb4500c48607c65ad6ea72e75511919212c1da52b9ea22a2b283843a5122c.deb
+Size: 2417412
+MD5sum: 2be50e2d07eb984c563658da2e3ce444
+SHA1: a6a6110ab85fd504f930ad717fd23737bdcba8a7
+SHA256: fa4bb4500c48607c65ad6ea72e75511919212c1da52b9ea22a2b283843a5122c
+SHA512: 10603c41259e964976e5ad2b4e41214c87a067ea91cb4c0314f58980fc911f3e819021bac65893c68b7c130586c9518740eb6d746a7d736d32127e75817845b8
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64e
+Version: 0.2.1
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 9048
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64e/com.hmmzzz.marktheme_0.2.1_iphoneos-arm64e_fb6aca4f07e10ddf9c748d30fc64e0aaeb22e06603a505ef0e3ba5932f82180a.deb
+Size: 2433820
+MD5sum: d5fb3b81b70cac1c57417219600843f2
+SHA1: 48b66b62c1ad7daedcdd70602bda6f65e46014de
+SHA256: fb6aca4f07e10ddf9c748d30fc64e0aaeb22e06603a505ef0e3ba5932f82180a
+SHA512: 7d47a0fe0710acb2d66f2743d3dd52e95df8ab367971cdf02f7f69addcc41ed401f06fa82136d00cd8e5c8a745b357936d1ada225a5d304f80d06160ac6719fd
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64e
+Version: 0.2.6
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 7864
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64e/com.hmmzzz.marktheme_0.2.6_iphoneos-arm64e_0f033732b9481f17d0090381d22265582e85769f823fac6f7a14f348b7c0994a.deb
+Size: 2371316
+MD5sum: 7be0129036ef95bb85df8922c0da8e1e
+SHA1: 757953f7677a8b5f4a1bba00362ed9ff65d43f1b
+SHA256: 0f033732b9481f17d0090381d22265582e85769f823fac6f7a14f348b7c0994a
+SHA512: 4b3104e0aca11925ded9f13c9bb350293b3181901e9b393c32f15ec573506e55732b5d942db1809000af80092aab938ad9d5cc373054429c1794fbdf0ff8828f
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64e
+Version: 0.2.7
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8640
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64e/com.hmmzzz.marktheme_0.2.7_iphoneos-arm64e_42d2643fbf9389ca7eff3e65a5d34cbc3833ac607516dffe99936afe16a530d7.deb
+Size: 2429336
+MD5sum: b9868db6bac54b273956f5bd9f3b7b28
+SHA1: b4f1ed4f5e5ee3019d060c78c4fd81df95a27ba3
+SHA256: 42d2643fbf9389ca7eff3e65a5d34cbc3833ac607516dffe99936afe16a530d7
+SHA512: 82a50367840b915e7d21a9f3d76b64a88d83864acd3b4d8754ef297ba69b96422b1f52a17387c480acd50c29e858cd280efaaefc1c8f61e9d5d4eb77c7a32d41
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64e
+Version: 0.2.9
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8620
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64e/com.hmmzzz.marktheme_0.2.9_iphoneos-arm64e_695dc212eb513cc42dfd521482d54c733a1f8e230c84de2e6fc742c9567ea16e.deb
+Size: 2425652
+MD5sum: 5000c352aba3aa4ee767426e6166b388
+SHA1: 8b1e3960b4f8f9e07eca0ec67fe831ea779375a0
+SHA256: 695dc212eb513cc42dfd521482d54c733a1f8e230c84de2e6fc742c9567ea16e
+SHA512: cb9f41c1e088c6ffd4f588b0e0e42c05a47288155c0cafe2ce19d42653de04f67fb790990e2dc32d6d31426860a7a3832ddbc294d80d0e6d6ff3cd52a10a9449
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64e
+Version: 0.3.0
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8648
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64e/com.hmmzzz.marktheme_0.3.0_iphoneos-arm64e_ac6c4af21474608424d3d96cb875f6171c5aa37007abf92006fb9fde31334c2c.deb
+Size: 2435172
+MD5sum: 686138dc715ea54dba9831fbf02e1e5c
+SHA1: d12c7050c188afa248a0a114121415c756b0cf99
+SHA256: ac6c4af21474608424d3d96cb875f6171c5aa37007abf92006fb9fde31334c2c
+SHA512: cf22a824696fcbabe6c80aea5b4610235d7f65a54dad59c470457dfe7f75c92f1a3f021c67540b2311e22ebe3567885d31ca36eb9b028ca50316095c05bba75a
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ MarkTheme 0.3.0 支持导入 SnowBoard / IconBundles 风格主题，可主题化应用图标、
+ 文件夹、角标、状态栏、拨号盘、设置与分享界面。
+ .
+ 支持跨主题混搭和功能独立开关；切换主题或混搭后，按提示 Respring 即可应用新外观。
+ .
+ 提供 conventional rootless 与 RootHide 独立软件包，支持 iOS 17.0 至 18.x。
+ 请安装与你的越狱环境匹配的软件包，两个版本不可混装。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.marktheme
+Architecture: iphoneos-arm64e
+Version: 0.3.1
+Section: System
+Maintainer: Hmmzzz
+Installed-Size: 8660
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/iphoneos-arm64e/com.hmmzzz.marktheme_0.3.1_iphoneos-arm64e_086ad25ce69e5dcca2aed1b34a39d7ffdaa2ed2c9797c9b9b19d8351aaded837.deb
+Size: 2435868
+MD5sum: f88992e4b45adb409aff62411169e118
+SHA1: 7490f671c21cbc3ef8e94ae2f5ee5ddc4c936997
+SHA256: 086ad25ce69e5dcca2aed1b34a39d7ffdaa2ed2c9797c9b9b19d8351aaded837
+SHA512: 7f735e91f9a8e4ca5694b0629abc64cfe71c23c5f563168f79fb9cca9b5405be78c0be1838f9704d537b994d7bec78991f342403440d57dcb2f75d06d055bd82
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme 主题引擎管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hoangdus.konban
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: HoangDus
+Installed-Size: 580
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 15.0), com.opa334.altlist, preferenceloader
+Conflicts: me.nepeta.konban, com.nicho1asdev.konban
+Filename: debs/iphoneos-arm64/com.hoangdus.konban_1.0.1_iphoneos-arm64_ce15460ba6fa9a7d1eaf1dab1da8b9acc78f66aed0d7c358c582258be70a691c.deb
+Size: 43964
+MD5sum: 01349854b7d6ec121d506c022089854b
+SHA1: 5523271b8f6da736774ea25112897b847271d2c9
+SHA256: ce15460ba6fa9a7d1eaf1dab1da8b9acc78f66aed0d7c358c582258be70a691c
+SHA512: 8d522ad24da1104942838af4a46b9f70a34c83d79df278bb7abab94cf0c236f47d16dd1d78d83afd98b7cadf664fd8c6204d962b749e687c754829e473e241e0
+Description: An app in "Today" view. Rewritten for iOS 15 and 16 by HoangDus.KonbanxV1插件：主要功能是替换负一屏。桌面首页向右滑动，会打开所选择的App，而不是负一屏的小组件。
+Name: KonbanXV
+Author: HoangDus, nicho1asdev, Nepeta
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.hoangdus.konban
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: HoangDus
+Installed-Size: 580
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 15.0), com.opa334.altlist, preferenceloader
+Conflicts: me.nepeta.konban, com.nicho1asdev.konban
+Filename: debs/iphoneos-arm64e/com.hoangdus.konban_1.0.1_iphoneos-arm64e_b007fb5993b7cb0c089ec2e8129b48846a5188bec551c7ee0639bb5027daa3c1.deb
+Size: 43032
+MD5sum: dcf593d35a2d5cce43653e9f8d59b07d
+SHA1: 33349cab62c8c68795ace5fd42fc85c58935dd22
+SHA256: b007fb5993b7cb0c089ec2e8129b48846a5188bec551c7ee0639bb5027daa3c1
+SHA512: da28b4b088f88931c59de4e9e30ad2de6999189a953c8ea8246ce32c00aeedc8c282643dfa1e26ffae6ef2a6146d1595a0fb880794b35f78e5f9335f2350524b
+Description: An app in "Today" view. Rewritten for iOS 15 and 16 by HoangDus.KonbanxV1插件：主要功能是替换负一屏。桌面首页向右滑动，会打开所选择的App，而不是负一屏的小组件。
+Name: KonbanXV
+Author: HoangDus, nicho1asdev, Nepeta
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.huami.ChoicyConfigPin
+Architecture: iphoneos-arm64
+Version: 1.0-2
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy, com.opa334.altlist
+Filename: debs/iphoneos-arm64/com.huami.ChoicyConfigPin_1.0-2_iphoneos-arm64_5479197ed2865a4e7552f54463cb05c259cb74d016b9c0eb90e25881a48a7c23.deb
+Size: 6892
+MD5sum: 471c4a4134800ef7ba476e2abfd8b610
+SHA1: 778612aa32702a32b4ba7bbd21a6ad7b4ce7ce5e
+SHA256: 5479197ed2865a4e7552f54463cb05c259cb74d016b9c0eb90e25881a48a7c23
+SHA512: 1dbd7459c5cea416d631b10a4caeaaac52768881a63e5aa045a0beac655b17508d853a2694fd452da48b18c7ebe348fb23a23b5a023b29006c2da8da851724cb
+Description: Pin apps with custom tweak configuration to the top in Choicy
+Name: ChoicyConfigPin
+Author: huami
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.huami.ChoicyConfigPin
+Architecture: iphoneos-arm64e
+Version: 1.0-2
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334.altlist
+Filename: debs/iphoneos-arm64e/com.huami.ChoicyConfigPin_1.0-2_iphoneos-arm64e_12d6a1a42c3a685c13d01bfa0eead86b1e7e87767f04193ebb2e6264707f5bdb.deb
+Size: 5828
+MD5sum: c09f09701e2970bb4a9727f0a0295784
+SHA1: 8642736679d054f4a1876e914169923b79dab765
+SHA256: 12d6a1a42c3a685c13d01bfa0eead86b1e7e87767f04193ebb2e6264707f5bdb
+SHA512: dc0772d5d78667a37b070b34a542305a3e6a782b2d2b135f3bd63ca399e62360db71bfa789005a553c3583a3cc021d7ac742fd8a55ab6d6abc900fa4f8a837b9
+Description: Pin apps with custom tweak configuration to the top in Choicy
+Name: ChoicyConfigPin
+Author: huami
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.huami.WCPulse
+Architecture: iphoneos-arm64
+Version: 1.6-3
+Section: Tweaks
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.huami.WCPulse_1.6-3_iphoneos-arm64_2c3966236ef8f979f6b76297af2963aa3089932dc92e9e7ff789114a37ef4e37.deb
+Size: 4302568
+MD5sum: dfb0d63f3177ea0417c00eed271a8a71
+SHA1: 486ab232128d740bf8a6aa163ce5ca800d73f724
+SHA256: 2c3966236ef8f979f6b76297af2963aa3089932dc92e9e7ff789114a37ef4e37
+SHA512: 15561cf5adea8d542eedc0d915ccb28777d03c70a4908177dc51f7d02ffefe50e29459d7a6b19e25cbe4777e9a1111f2378693f755919d4c25a9c2902fbbf912
+Description: WCPulse
+Name: WCPulse
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.WCPulse
+Architecture: iphoneos-arm64
+Version: 1.7-3
+Section: Tweaks
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.huami.WCPulse_1.7-3_iphoneos-arm64_6d6dfb77b8c39301333a4e5c48ec575fc6962a9fc0145455f84f8e04144fb55d.deb
+Size: 3553912
+MD5sum: 38188f229e6a98473472e3811a4f3b5e
+SHA1: 2ba7959913001d4ef471e0f9e0ea4b6bd3bdab0e
+SHA256: 6d6dfb77b8c39301333a4e5c48ec575fc6962a9fc0145455f84f8e04144fb55d
+SHA512: 3c1f950a9bca75e3ab004103b50a4a4e8740f7a0ab879f2a3fcc75a35584cd4e57e6c740eb663a8169aec0ae0122ae1e5a7f8a9bfd903f8c8874b846708abe15
+Description: WCPulse with same-version grouping-bar startup timing compatibility for WeChatGroups.
+Name: WCPulse
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.WCPulse
+Architecture: iphoneos-arm64
+Version: 1.7-4
+Section: Tweaks
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.huami.WCPulse_1.7-4_iphoneos-arm64_5504d8117b798b531477263c71b330031e8a20a8e84a797c6e78abb875c4ae19.deb
+Size: 3559068
+MD5sum: 664efd54d274953dc78ce47fadd9260d
+SHA1: 46bb3bb86f984f747b32357a049b2869b093ca1e
+SHA256: 5504d8117b798b531477263c71b330031e8a20a8e84a797c6e78abb875c4ae19
+SHA512: 2fb7214406698eb06595ab9fb12f37b58787a9cff3e2c06300be82cb3776d1adb0628f89ff6a523d041d114dcbc934a2e555aebb839622ec98ae8a29713457dd
+Description: WCPulse
+ * 新增系统原生相册选择
+ * 修复点击聊天记录偶尔进入礼物页面的问题
+ * 修复艾特提醒在迁移聊天记录后的逻辑问题
+ * 原生相册开启后在聊天页面将会以系统原生的 picker 展开选择 比微信原来的MediaPicker 好用超级多
+ * 如果你想查看那张图片的大图 就点下边正中间的显示内容 预览完 右上角勾就行了
+Name: WCPulse
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.WCPulse
+Architecture: iphoneos-arm64e
+Version: 1.6-3
+Section: Tweaks
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.huami.WCPulse_1.6-3_iphoneos-arm64e_4fda5661308e1cd0dabdaa579ec133c2eb5685dc9ddba1371ee72c2082053333.deb
+Size: 4304964
+MD5sum: 183a19a96cc18439ea093bcce99767cd
+SHA1: 5b6a26d9ba92cc58cf618379b644df852c7c59c0
+SHA256: 4fda5661308e1cd0dabdaa579ec133c2eb5685dc9ddba1371ee72c2082053333
+SHA512: ed2c43d755c760a16451f395a28dcad13df96bb7589dd73daa886c04ae89b045e75c233fb85d394d05db210bab40201fce1de155c84b3e80fbb0c2a58731dc68
+Description: WCPulse
+Name: WCPulse
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.WCPulse
+Architecture: iphoneos-arm64e
+Version: 1.7-3
+Section: Tweaks
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.huami.WCPulse_1.7-3_iphoneos-arm64e_ffe7127ffc7c7a89ee6b967121aaf0d25d3b943dbeb82b24721eac8720a0341f.deb
+Size: 3552764
+MD5sum: cd784d810e9fcfdac5eeebed6b3027e8
+SHA1: 3c8944cbe588dfc3636fd8bcbea17c8188cff721
+SHA256: ffe7127ffc7c7a89ee6b967121aaf0d25d3b943dbeb82b24721eac8720a0341f
+SHA512: cd761c327618c65931d9cb786e43ee248daaa21680151b8bf3693b27538c45223ef75e86ec9d5fd1521ad4477788ad2407d64e1952e0ab70c267d63ef8903ccd
+Description: WCPulse with same-version grouping-bar startup timing compatibility for WeChatGroups.
+Name: WCPulse
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.WCPulse
+Architecture: iphoneos-arm64e
+Version: 1.7-4
+Section: Tweaks
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.huami.WCPulse_1.7-4_iphoneos-arm64e_f7c1acb5d411e700cecf329c048c3696570f30287055c6a8004f31da89635b1f.deb
+Size: 3558136
+MD5sum: 22e54a3daee97330a4a7db319a6b49ab
+SHA1: e4f565328645b47024ba1c630f57664c68f044cc
+SHA256: f7c1acb5d411e700cecf329c048c3696570f30287055c6a8004f31da89635b1f
+SHA512: ea3a30cf540856ef9cc3b2f3d89c00f94fb6a1cc9c5e3aa96f8ea184cb326c5a86cae95ead4564e59a7197449fff621f28b61d2b3bca40694609397ebd8f3d7e
+Description: WCPulse
+ * 新增系统原生相册选择
+ * 修复点击聊天记录偶尔进入礼物页面的问题
+ * 修复艾特提醒在迁移聊天记录后的逻辑问题
+ * 原生相册开启后在聊天页面将会以系统原生的 picker 展开选择 比微信原来的MediaPicker 好用超级多
+ * 如果你想查看那张图片的大图 就点下边正中间的显示内容 预览完 右上角勾就行了
+Name: WCPulse
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.WCallRecorder
+Architecture: iphoneos-arm64
+Version: 1.0-8
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 11964
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.huami.WCallRecorder_1.0-8_iphoneos-arm64_c3850737613227e643cb07314889aaf3ff5330d25de12369509820cd7686671e.deb
+Size: 3266192
+MD5sum: 60e2a63f9dbb74201442b8deb1df51ac
+SHA1: 7f507cf2c5cbbe71a35be93fd323d187ba1a306e
+SHA256: c3850737613227e643cb07314889aaf3ff5330d25de12369509820cd7686671e
+SHA512: ecd6b83dd633cf91876ee3ae22a809db541a0f29431311ef88e05017187b61c39fd63a58878264029cff0a713a3fbbe2abd20701e510b31d5c678cb511b834ae
+Description: Standalone WeChat call recorder 独立的微信通话录音机
+Name: WCallRecorder 微信通话录音
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.WCallRecorder
+Architecture: iphoneos-arm64e
+Version: 1.0-8
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 11948
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.huami.WCallRecorder_1.0-8_iphoneos-arm64e_201cda1d734812364f685ba39b01041d148cbe04d2b98d700ac835da2826b762.deb
+Size: 3267328
+MD5sum: 2f4766b7e4af81b6ee9ab111be933e99
+SHA1: 6100d6248e20a35631ba41ab6cdf085f1bf10565
+SHA256: 201cda1d734812364f685ba39b01041d148cbe04d2b98d700ac835da2826b762
+SHA512: 0b153b381d9bf6c2daf69c034f376e3df17098f3fd0205548beaa4c3f583e8402371e1b693211cd6b7518782edec1b80e4fd1e4f251446ffba936de314bb61fe
+Description: Standalone WeChat call recorder 独立的微信通话录音机
+Name: WCallRecorder 微信通话录音
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.actiongesture
+Architecture: iphoneos-arm64e
+Version: 0.0-2
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 268
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.huami.actiongesture_0.0-2_iphoneos-arm64e_1f965fec53b707bfe15d3738c4e5111be7a01dc561f9db3ded9691bffe958352.deb
+Size: 30924
+MD5sum: 028ca675d6ddba4e6739f7dddaba1371
+SHA1: 98ac002cf5353fbb24d52ba0345990a08f9df98e
+SHA256: 1f965fec53b707bfe15d3738c4e5111be7a01dc561f9db3ded9691bffe958352
+SHA512: 112eae9bb763d3bdfd38a2e979d68bde95fec764d43f79a9d0311cf5685cb50faf32c3d1aeec026361c13870f34ce8949a0ec81332d93f2e94d3e27c0ce2b6b9
+Description: Custom gesture actions for the iPhone Action Button iPhone 操作按钮的自定手势操作且支持iPhone15系列
+Name: ActionGesture 手势
+Author: huami
+icon: https://huayuarc.github.io/icon/actiongesture.jpg
+
+Package: com.huami.actiongesture
+Architecture: iphoneos-arm64e
+Version: 0.0-3
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 268
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.huami.actiongesture_0.0-3_iphoneos-arm64e_8f79c4cb7d7f2e873fa964d7a8452c9697198cab44084fedcca81c0c11d0889a.deb
+Size: 31192
+MD5sum: f168b96683df459ffa89dc3b99f5d0da
+SHA1: 16c334b313f611da3ca32a5ac8716693b629559c
+SHA256: 8f79c4cb7d7f2e873fa964d7a8452c9697198cab44084fedcca81c0c11d0889a
+SHA512: 0ab76995fdf0679ffc3d7ecc86e55717aebbf03a2da5c91b201110fec4ad4a8c0ae6ee1eea992ff82b16342b1d17eb0bba164bf8cf1f111d1b68b722ead557e6
+Description: Custom gesture actions for the iPhone Action Button 操作按钮的自定手势操作且支持iPhone15系列
+Name: ActionGesture
+Author: huami
+icon: https://huayuarc.github.io/icon/actiongesture.jpg
+
+Package: com.huami.chatcapture
+Architecture: iphoneos-arm64
+Version: 1.0-3
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 756
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.huami.chatcapture_1.0-3_iphoneos-arm64_ea565e2f3aeb712b88485063e06ee8adf13c4d6d2cef520ca008c04292d0e85a.deb
+Size: 168428
+MD5sum: 080547ef638c65c19660c653c3df9a9f
+SHA1: 3ad76e9cbdbc6ee973606c424c4fbc5775c72724
+SHA256: ea565e2f3aeb712b88485063e06ee8adf13c4d6d2cef520ca008c04292d0e85a
+SHA512: 15a361397d9ebdf828b0daadaad34f64c9e1bc220407fbad99932beec52df371eab2c2e3e9481e9a1cea078e7e702d9f22c0ea8d70ceff18177aeef58d952212
+Description: 多选微信私聊、群聊消息长截图，完整保留原生聊天界面样式。操作方式：选中多条消息后点击「更多」，选择截图功能；点击页面齿轮图标可进入插件自定义设置页面。Capture selected WeChat messages with their original chat appearance for private & group chat. After multi-select messages, tap More to take long screenshot, tap gear icon to open preference settings.
+Name: ChatCapture
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.chatcapture
+Architecture: iphoneos-arm64
+Version: 1.0-4
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 772
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.huami.chatcapture_1.0-4_iphoneos-arm64_902b40740135f5022a425aab85133dc927821995d822438a3a321a598887676a.deb
+Size: 175008
+MD5sum: 4464497e26a8d7210becbf373fdaece1
+SHA1: f29a20c60e210780a5eb7e8e3499a0a812c37e66
+SHA256: 902b40740135f5022a425aab85133dc927821995d822438a3a321a598887676a
+SHA512: eaf3d6ba458df71448163b8d56d05d91529084a2695a8ed9a7b9395d66bcaac720ad991cbb3e5ba74b4835b3b3699064babe9f11971efe18e400299bfae19b76
+Description: 多选微信私聊、群聊消息长截图，完整保留原生聊天界面样式。操作方式：选中多条消息后点击「更多」，选择截图功能；点击页面齿轮图标可进入插件自定义设置页面。Capture selected WeChat messages with their original chat appearance for private & group chat. After multi-select messages, tap More to take long screenshot, tap gear icon to open preference settings.
+Name: ChatCapture
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.chatcapture
+Architecture: iphoneos-arm64
+Version: 1.0-6
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 1176
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.huami.chatcapture_1.0-6_iphoneos-arm64_76e2af29dfd6ad4999ad3254220f2200033dcb5c0799bee23f9b8de8ee276aab.deb
+Size: 253252
+MD5sum: 376224757aca661245f75531518a1ba0
+SHA1: 77c25bb0c5f9007a0389596db5f1c7d4c2b36ee5
+SHA256: 76e2af29dfd6ad4999ad3254220f2200033dcb5c0799bee23f9b8de8ee276aab
+SHA512: 989d8f227deccd6b7b74caa8c49fdb263bddb21cde027c2179c55e63a316ada6cf640a1a30a30ec8881e02024330f7bee5a3b8de8206d8b8a2752745b4b473a7
+Description: 多选微信私聊、群聊消息长截图，完整保留原生聊天界面样式。操作方式：选中多条消息后点击「更多」，选择截图功能；点击页面齿轮图标可进入插件自定义设置页面。Capture selected WeChat messages with their original chat appearance for private & group chat. After multi-select messages, tap More to take long screenshot, tap gear icon to open preference settings.
+Name: ChatCapture
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.chatcapture
+Architecture: iphoneos-arm64
+Version: 1.0-7
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 1760
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.huami.chatcapture_1.0-7_iphoneos-arm64_ec668bb97757dc908f8d51da51b062cb840c638ae1828c40705af2cda0c6a89b.deb
+Size: 422796
+MD5sum: d51fb6920b2a8af3f3aca2e0762526ed
+SHA1: 582151077d09fc0c5ad32db6312cdbb7552fb221
+SHA256: ec668bb97757dc908f8d51da51b062cb840c638ae1828c40705af2cda0c6a89b
+SHA512: 3e4538504206e2414a314a1263943427da6d9dba08584879351f9b50828a1bbb3c877b242b0f849cfbd9a2fe8f328df1c022fce9267808079160781705e3ee35
+Description: 多选微信私聊、群聊消息长截图，完整保留原生聊天界面样式。操作方式：选中多条消息后点击「更多」，选择截图功能；点击页面齿轮图标可进入插件自定义设置页面。Capture selected WeChat messages with their original chat appearance for private & group chat. After multi-select messages, tap More to take long screenshot, tap gear icon to open preference settings.
+Name: ChatCapture
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.chatcapture
+Architecture: iphoneos-arm64e
+Version: 1.0-3
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 756
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.huami.chatcapture_1.0-3_iphoneos-arm64e_8800540a383fc982ec6c97e16f1a8377b1e20577c01cb4d965f0c98459adef20.deb
+Size: 157784
+MD5sum: 6cebe8af70a9a9d40ae1e92ec411f7e7
+SHA1: c2f3b068fd51610a7ccc9c94afd6a379f6b70470
+SHA256: 8800540a383fc982ec6c97e16f1a8377b1e20577c01cb4d965f0c98459adef20
+SHA512: bd971715f6c6535ff976fa3ce26355a91b86212970e67a6db277dec1c54bdc8f77a4d9db34165bcd2b5df52f396ffb539df433ff01884e2dc752d5a7bafc36c8
+Description: 多选微信私聊、群聊消息长截图，完整保留原生聊天界面样式。操作方式：选中多条消息后点击「更多」，选择截图功能；点击页面齿轮图标可进入插件自定义设置页面。Capture selected WeChat messages with their original chat appearance for private & group chat. After multi-select messages, tap More to take long screenshot, tap gear icon to open preference settings.
+Name: ChatCapture
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.chatcapture
+Architecture: iphoneos-arm64e
+Version: 1.0-4
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 772
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.huami.chatcapture_1.0-4_iphoneos-arm64e_c8103d34a9923d336e5f37a116500b50c81c749f79bc67986ebdd6bd2d9634d0.deb
+Size: 167968
+MD5sum: f6695bc1a02da86d4da44d3e1f8ee507
+SHA1: 37c580d23c97d37f87fabd10bf49c47119fc13a8
+SHA256: c8103d34a9923d336e5f37a116500b50c81c749f79bc67986ebdd6bd2d9634d0
+SHA512: fe675ff45c525bfb962973dbab92d9319ec51c8efc30815265110fc9202a77e42062a2dad9d8524f07787b5f6558199e8e9d2c6958a829103eaff12f5258c7df
+Description: 多选微信私聊、群聊消息长截图，完整保留原生聊天界面样式。操作方式：选中多条消息后点击「更多」，选择截图功能；点击页面齿轮图标可进入插件自定义设置页面。Capture selected WeChat messages with their original chat appearance for private & group chat. After multi-select messages, tap More to take long screenshot, tap gear icon to open preference settings.
+Name: ChatCapture
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.chatcapture
+Architecture: iphoneos-arm64e
+Version: 1.0-6
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 1176
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.huami.chatcapture_1.0-6_iphoneos-arm64e_d0af11d13c8786ed8cf669f8e7c2d3adb735bd0e1262632d34c63632f2e2cee1.deb
+Size: 248092
+MD5sum: ca43f11c07d8e35ca05ccd966051cfc4
+SHA1: f8a61003d3f428e61b83527b6db619f6fed52c1b
+SHA256: d0af11d13c8786ed8cf669f8e7c2d3adb735bd0e1262632d34c63632f2e2cee1
+SHA512: 39fc953c2786b1ad70122dedfbfd1d6cc3e485c6700664b125ebb9444f4af876dc65b47a9a86fdd31e394ec73ed25da8892eff2b539c055e0f9ec3e4ea48b476
+Description: 多选微信私聊、群聊消息长截图，完整保留原生聊天界面样式。操作方式：选中多条消息后点击「更多」，选择截图功能；点击页面齿轮图标可进入插件自定义设置页面。Capture selected WeChat messages with their original chat appearance for private & group chat. After multi-select messages, tap More to take long screenshot, tap gear icon to open preference settings.
+Name: ChatCapture
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.chatcapture
+Architecture: iphoneos-arm64e
+Version: 1.0-7
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 1792
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.huami.chatcapture_1.0-7_iphoneos-arm64e_8ff37649b39dd4fb31f040defa22574933416a19940a0e8ab648ba6dd73ab326.deb
+Size: 389844
+MD5sum: 71b9ac50c7e51ff5fafda5887041ac38
+SHA1: 21546518fd73a5ce5ed6206ad255f8c6bc4e233f
+SHA256: 8ff37649b39dd4fb31f040defa22574933416a19940a0e8ab648ba6dd73ab326
+SHA512: 3158a3b351f05cc2c21996d9d73ecac8ee47ac97a07838703ba15f16fb1b1d766776860c7185f45ce143c425665ac3336ea6985ff8f44f57bf7e313749ba29c0
+Description: 多选微信私聊、群聊消息长截图，完整保留原生聊天界面样式。操作方式：选中多条消息后点击「更多」，选择截图功能；点击页面齿轮图标可进入插件自定义设置页面。Capture selected WeChat messages with their original chat appearance for private & group chat. After multi-select messages, tap More to take long screenshot, tap gear icon to open preference settings.
+Name: ChatCapture
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.chatcaptureplus
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: huami, Mallin
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Replaces: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Filename: debs/iphoneos-arm64/com.huami.chatcaptureplus_1.0_iphoneos-arm64_61b800a30a08cf3b4afeb4882bcf1e0e40938592ed57b1773a3837195cd28c67.deb
+Size: 281440
+MD5sum: 50567300c457a97eb84a4a59860fc108
+SHA1: 5054370965f3dd87c7f22c4f7cd20773c27152ce
+SHA256: 61b800a30a08cf3b4afeb4882bcf1e0e40938592ed57b1773a3837195cd28c67
+SHA512: 1be3f37c04001f729b4eca74fcf68da766153dbad8f12cf9491aeef3830a3df373f1fabefe7041e97ae0aa97e443269ac3246792ac4873054be9af22fc0be529
+Description: 一款用于聊天界面多选(长)截图自动拼接的小插件，增加时间标签     • 支持按选择拼接截图     • 支持快捷分享给联系人     • 支持聊天背景图展示配置     • 支持隐藏群成员名字标签     • 支持选择是否显示群名、输入框     • 适配主题情况下的导航栏资源裁剪等布局     • 支持选择成员显示名类型（备注、网名、群名） 注意：此插件默认开启 触发方式如下：多选消息后点击「更多」→ 截图；齿轮图标进入设置。
+Tag: role::enduser
+Name: ChatCapture+
+Author: huami, Mallin
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.chatcaptureplus
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: huami, Mallin
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Replaces: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Filename: debs/iphoneos-arm64/com.huami.chatcaptureplus_2.0_iphoneos-arm64_9b74bee2fe8e7599e451cfd68de49e2e6e455bd21278d3b383c3fdc7d2c11e4a.deb
+Size: 420236
+MD5sum: 1ddce77a5263584fc087d081c22b7a56
+SHA1: 5102b8213f7f495a0f21e41f8050691d6fbf201c
+SHA256: 9b74bee2fe8e7599e451cfd68de49e2e6e455bd21278d3b383c3fdc7d2c11e4a
+SHA512: d41e5bfc450b188cfbec015f7aff2b1836a425c3b0876bf68b402338eb9f21fe9198293e4245c0db29b14fdf18af97764574e71511a1f2fed85d09c5f5e9860e
+Description: 一款用于聊天界面多选(长)截图自动拼接的小插件，增加时间标签     • 支持按选择拼接截图     • 支持快捷分享给联系人     • 支持聊天背景图展示配置     • 支持隐藏群成员名字标签     • 支持选择是否显示群名、输入框     • 适配主题情况下的导航栏资源裁剪等布局     • 支持选择成员显示名类型（备注、网名、群名）  注意：此插件默认开启  触发方式如下：多选消息后点击「更多」→ 截图；齿轮图标进入设置。
+Tag: role::enduser
+Name: ChatCapture+
+Author: huami, Mallin
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.chatcaptureplus
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: huami, Mallin
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Replaces: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Filename: debs/iphoneos-arm64e/com.huami.chatcaptureplus_1.0_iphoneos-arm64e_5e6da54740dcd61e6956a2bc626660734339b98a0893df51eb011668a39b7e15.deb
+Size: 281596
+MD5sum: 9bc447ff66ddb3a459ddf33b399c310b
+SHA1: 1f2c4297aa41021a764b96ff92bee640fa8afcf8
+SHA256: 5e6da54740dcd61e6956a2bc626660734339b98a0893df51eb011668a39b7e15
+SHA512: 86dc8b468faa8608584499dcebab2523e50bf36484a37b7c6a4787cebe592d9788daf1ca3f493a4a25c286eee6284b5838143b940982811331055947948a74d2
+Description: 一款用于聊天界面多选(长)截图自动拼接的小插件，增加时间标签     • 支持按选择拼接截图     • 支持快捷分享给联系人     • 支持聊天背景图展示配置     • 支持隐藏群成员名字标签     • 支持选择是否显示群名、输入框     • 适配主题情况下的导航栏资源裁剪等布局     • 支持选择成员显示名类型（备注、网名、群名） 注意：此插件默认开启 触发方式如下：多选消息后点击「更多」→ 截图；齿轮图标进入设置。
+Tag: role::enduser
+Name: ChatCapture+
+Author: huami, Mallin
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.chatcaptureplus
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: huami, Mallin
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Replaces: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Filename: debs/iphoneos-arm64e/com.huami.chatcaptureplus_2.0_iphoneos-arm64e_4adaae2aa96c065948ed03205736f5285d24834d6db5f8ac1171eebb81f0465e.deb
+Size: 423128
+MD5sum: e82f5b7134cabe50101420e1959c62c7
+SHA1: cb0e31edc0b4629f66fb82aaac87c2ebc7c7e464
+SHA256: 4adaae2aa96c065948ed03205736f5285d24834d6db5f8ac1171eebb81f0465e
+SHA512: 433c9c02655dfff08f5f09680edda501d69f5870aaa2eb7be73c911b1d23b8d3b4170f720b706b6a4ecd6dc2756e7c56117e37dd30ea34f147437784f1cff765
+Description: 一款用于聊天界面多选(长)截图自动拼接的小插件，增加时间标签     • 支持按选择拼接截图     • 支持快捷分享给联系人     • 支持聊天背景图展示配置     • 支持隐藏群成员名字标签     • 支持选择是否显示群名、输入框     • 适配主题情况下的导航栏资源裁剪等布局     • 支持选择成员显示名类型（备注、网名、群名）  注意：此插件默认开启  触发方式如下：多选消息后点击「更多」→ 截图；齿轮图标进入设置。
+Tag: role::enduser
+Name: ChatCapture+
+Author: huami, Mallin
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.dyyy
+Architecture: iphoneos-arm64
+Version: 2.2-9
+Priority: optional
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 2184
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.huami.dyyy_2.2-9_iphoneos-arm64_9a65551e0800a22568876584494b2295d4311a352097606168683c07343195a7.deb
+Size: 462628
+MD5sum: 27609e4c8274c0aaefeb33cdc841c8f0
+SHA1: d9500bd0ac1732aa02ba3fc69a173192f2969351
+SHA256: 9a65551e0800a22568876584494b2295d4311a352097606168683c07343195a7
+SHA512: b0ac2f4c73d519c6de33ebb3bf212d1e184c7c4f9974fe29966f93485d7a4356c5b7c64ec6c1b4d0fa0d396beed13cfc2bcb0290f9b79584dff7c5063e564f59
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Name: DYYY
+Author: huami
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.huami.dyyy
+Architecture: iphoneos-arm64e
+Version: 2.2-9
+Priority: optional
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 2184
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.huami.dyyy_2.2-9_iphoneos-arm64e_26745dd799b7b0347878b3599dcf7529244a40df474bf2a49eaa873d8aa25527.deb
+Size: 460652
+MD5sum: 4c141d67ee0f5b7b6a41da7fdd6243e7
+SHA1: cd19510cce96f42ca6f301052c7fc3119182b890
+SHA256: 26745dd799b7b0347878b3599dcf7529244a40df474bf2a49eaa873d8aa25527
+SHA512: d2dff50c83e8fa4d4678c7fde12b7af4861b071a4cc3b6a8ba1f9404eec710ab20a8bff4db53711d2e633c5a22c45750a9241710daf54871720b43d3b8921470
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Name: DYYY
+Author: huami
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.huami.wcpulse
+Architecture: iphoneos-arm64
+Version: 1.7-2
+Section: Tweaks
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.huami.wcpulse_1.7-2_iphoneos-arm64_5daa71cbc920b5bf485e38c7113ec10f4c4d6b3005621ed84ecf5c39bbe8fd02.deb
+Size: 3562288
+MD5sum: 6f384f49377e83168f43153a636c66d6
+SHA1: 89dd420569c23e22bd4db1ff9028020897a4f872
+SHA256: 5daa71cbc920b5bf485e38c7113ec10f4c4d6b3005621ed84ecf5c39bbe8fd02
+SHA512: 98369c4f85f6877e7944bb8b3715e2baec4f8718958f252362daa2a4648f5fdf713b14b76ebf6ea8993a58c323b6c66e922b5e65d8dd6a5e99b954901cdc850c
+Description: WCPulse 1.7-2 with same-version grouping-bar startup timing compatibility for WeChatGroups.
+Name: WCPulse
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huami.wcpulse
+Architecture: iphoneos-arm64e
+Version: 1.7-2
+Section: Tweaks
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.huami.wcpulse_1.7-2_iphoneos-arm64e_74132a634400b05cf808f3df5e20027cbcd510d1b891c960d43b666df48107fc.deb
+Size: 3561452
+MD5sum: c56d025548840b16c25df99f9165a6a2
+SHA1: 4bdfe82488fc581c836e938af429813996a9301d
+SHA256: 74132a634400b05cf808f3df5e20027cbcd510d1b891c960d43b666df48107fc
+SHA512: 642496f89ad015a8d2b5a57ba0a0741dbbde3d7e45a6a677122460214161bb93f84e42f40f35ca5e7437e673231c831dac16d6ecea7d918bd3e908a12753afb3
+Description: WCPulse 1.7-2 with same-version grouping-bar startup timing compatibility for WeChatGroups.
+Name: WCPulse
+Author: huami
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.huayuarc.acesecuritybypass
+Architecture: iphoneos-arm64
+Version: 0.0.1-rootless
+Section: Tweaks
+Maintainer: Huayuarc
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/iphoneos-arm64/com.huayuarc.acesecuritybypass_0.0.1-rootless_iphoneos-arm64_a48a42344ab9977897dc8ef3a34b90a6e1f7ee50ad751d974d2d7dff7464062e.deb
+Size: 5708
+MD5sum: b4b9dd0b42568db29873c08b4fbb0f0b
+SHA1: 217879066b15cdde5225dcf9083f45ec773828c1
+SHA256: a48a42344ab9977897dc8ef3a34b90a6e1f7ee50ad751d974d2d7dff7464062e
+SHA512: 51ac0c00bcfe9cbc2bf33fa1188856a3e8a8d91af4779ce3d6f5b2754dff5523f37ed467b13ea81db472f9813f89d7d89479abc6df4b4797c8a492488036a2fd
+Description: 屏蔽王者荣耀ACE安全检测
+Name: 屏蔽王者荣耀ACE安全检测
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/wzry.jpg
+
+Package: com.huayuarc.acesecuritybypass
+Architecture: iphoneos-arm64e
+Version: 0.0.1-roothide
+Section: Tweaks
+Maintainer: Huayuarc
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/iphoneos-arm64e/com.huayuarc.acesecuritybypass_0.0.1-roothide_iphoneos-arm64e_a0cf1e6229d4bbfc025332a84805786a36896845f942555656cc7bdae5c225aa.deb
+Size: 5640
+MD5sum: 2fe9a987b17c2c6e07d787dfcd05c88f
+SHA1: 8c4b23d1879a9f0152498e93dce14a0aae6134f5
+SHA256: a0cf1e6229d4bbfc025332a84805786a36896845f942555656cc7bdae5c225aa
+SHA512: b49243e2be3aca939b75bc573bb35bc18e55d13f7cfc38829be8065164ddd5438a6da7fce53ae711dd5f91219a67afc835e46c2e25374ee20dd8277b340fa3ce
+Description: 屏蔽王者荣耀ACE安全检测
+Name: 屏蔽王者荣耀ACE安全检测
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/wzry.jpg
+
+Package: com.huayuarc.bdtbnoads
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.huayuarc.bdtbnoads_0.0.1_iphoneos-arm64_06fc8b018f6937fab89d72db2740a56256b52439b9646ad4478e15694b98543b.deb
+Size: 9252
+MD5sum: a43f3d5a42d826db8e0a3ea78019cd8e
+SHA1: cd3a30393d82c483b308f48fb10daf896b1d4055
+SHA256: 06fc8b018f6937fab89d72db2740a56256b52439b9646ad4478e15694b98543b
+SHA512: 2a28779ffb36359f3780cd8f25d4dbbb6464f08cf0c8b253876d0795c69f86e366b9de5a613d5527d5d3ba509e2b9966689e6aeb721dd6c0325fc9156a7b1b02
+Description: 1.去除启动广告、2.去除首页推荐广告、3.去除图片浏览广告、4.去除帖子下方广告、5.去除贴吧吧内广告、6.去除帖子评论区广告、7.去除首页视频播放结束广告、8.去除帖子内部直播推荐
+Name: 百度贴吧 NoAds
+Author: Huayuarc｜poqw312 <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/tieba.jpg
+
+Package: com.huayuarc.bdtbnoads
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.huayuarc.bdtbnoads_0.0.1_iphoneos-arm64e_f8fd2e2f5e3857c76d1e1ab72840f52d7a83b6c5e1f9a12c7e526f744106971a.deb
+Size: 9188
+MD5sum: 8b5f51d0cee77d92a7d9500e3601e8b4
+SHA1: 244514cca14b1410f799f94b68ed1f0dcf78171c
+SHA256: f8fd2e2f5e3857c76d1e1ab72840f52d7a83b6c5e1f9a12c7e526f744106971a
+SHA512: b604f5686d06107a39b0fa8c20d90618440571247bc58269498586fc08ba7fc1ab1c74a745813dfeb0bc5ab3337277c8671a48898f3c0c48251f5b6ac610473d
+Description: 1.去除启动广告、2.去除首页推荐广告、3.去除图片浏览广告、4.去除帖子下方广告、5.去除贴吧吧内广告、6.去除帖子评论区广告、7.去除首页视频播放结束广告、8.去除帖子内部直播推荐
+Name: 百度贴吧 NoAds
+Author: Huayuarc｜poqw312 <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/tieba.jpg
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64
+Version: 1.6.2-242
+Section: Tweaks
+Maintainer: 391160
+Installed-Size: 1940
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.cputhermal_1.6.2-242_iphoneos-arm64_f5bf4b314815b29744fcea6dd7968c58557329b3dd98653f5217983a65951bb1.deb
+Size: 177224
+MD5sum: aff3ad2ee7269175049c3581f34df4f8
+SHA1: 0a690e0b7e7863183ab103d1edf8022daf3f6555
+SHA256: f5bf4b314815b29744fcea6dd7968c58557329b3dd98653f5217983a65951bb1
+SHA512: a570efe1508b76998918fec4849d2d6768e12cf61e3a4a98e768f7551226134a829693500a5f7fbea668ea5a8dc288c86b2b0ff6d65bce9d1a18e6baf7e9046e
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Name: CPU 解除温控
+Author: 391160
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64
+Version: 1.6.2-246
+Section: Tweaks
+Maintainer: 391160
+Installed-Size: 1972
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.cputhermal_1.6.2-246_iphoneos-arm64_e691999e7718ca957103a561ab65c3da596dc9cf78d5fb7b74c44a4b4d483749.deb
+Size: 182140
+MD5sum: 7932b5ce87f474e55c64ec54c774d643
+SHA1: c8e147506df029933f9edaa9aaf3d05760d94d60
+SHA256: e691999e7718ca957103a561ab65c3da596dc9cf78d5fb7b74c44a4b4d483749
+SHA512: bd29c6ded29102ee5cf9ff3539325b97e1f60e4871fec94b45b5ae8948fb0cc178d384d9aad6e66aabc9c2ab2d1983e957f8ff52366f8d3039e0f7277360b3ed
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Name: CPU 解除温控
+Author: 391160
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64
+Version: 1.6.2-286
+Section: Tweaks
+Maintainer: 391160
+Installed-Size: 2180
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.cputhermal_1.6.2-286_iphoneos-arm64_8ab3710937397489674feb54629c443c315a0a6fefc70f02c889b354d3d6dacc.deb
+Size: 234068
+MD5sum: a8c86c4f9c03a05de749a4b107fde295
+SHA1: 5a633611220b4c4d4fc002e94bf591034776df12
+SHA256: 8ab3710937397489674feb54629c443c315a0a6fefc70f02c889b354d3d6dacc
+SHA512: e7c6853176fb32c2718efbb0b258efd0faa5c920f0e28ded12639b3b7f5c5f350b39251b9fc833792c549f6c8382d17ac0fb41d04518a571433f0ae00fbcda0a
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Name: CPU智能温控
+Author: 391160
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64
+Version: 1.6.2-300
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 2320
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.cputhermal_1.6.2-300_iphoneos-arm64_a140c7006840c53dbd3fbf5ebba1e782fb389df4e95f42f1314d65487850a926.deb
+Size: 272648
+MD5sum: 2a4aee28c5ff13828f479f1575dbc654
+SHA1: 04c9241e8f94ec3c2fe5bdb519c64c78f139e6a7
+SHA256: a140c7006840c53dbd3fbf5ebba1e782fb389df4e95f42f1314d65487850a926
+SHA512: 15ed9685f4852a345b397e2fafd8c2a7dbf4a3e47cc3eb50d3098798149e236d5111f65b6dc3eb7b0dbc59b6dbe1234d908573bd9c61d4a7c7607e80babc32ea
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Name: CPU智能温控
+Author: Huayuarc
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-242
+Section: Tweaks
+Maintainer: 391160
+Installed-Size: 1940
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.cputhermal_1.6.2-242_iphoneos-arm64e_81a1c2884da17c90bca4ded22fa5fe30434ea760506de3ed1d6dddcd41b3ec85.deb
+Size: 171992
+MD5sum: 3a9cac6acd9eb83c93f9bb1e5a04504b
+SHA1: f7870debdb8dd4d22f3ed95ac6c9600b338eaa0f
+SHA256: 81a1c2884da17c90bca4ded22fa5fe30434ea760506de3ed1d6dddcd41b3ec85
+SHA512: dbe60669dba8283e46e92472cfa29ed760a1027bf66860afcc2bd965cdd06189179a08c341d7d1201a4b3b84e23973f6072346981a0cf607b9ce34fc527e7a92
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Name: CPU 解除温控
+Author: 391160
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-246
+Section: Tweaks
+Maintainer: 391160
+Installed-Size: 1972
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.cputhermal_1.6.2-246_iphoneos-arm64e_39a50817398bd7064645d7835b38e22c5e3388198b59dbeff90b018c8ae8c249.deb
+Size: 176848
+MD5sum: b24920985d9dbcc6d28e6c663bb0c5f0
+SHA1: e07bbb8968787e5949bf8f85b08643fc03682068
+SHA256: 39a50817398bd7064645d7835b38e22c5e3388198b59dbeff90b018c8ae8c249
+SHA512: b5c3bdf29e4aff130aaf090348dfa7f4e7a031800c5d92f057205cbd55311b9b0ac06ca25a2c8a52bfb68461d40c33a1b5d252aa42ee3b6df2ade4b0c01bfc04
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Name: CPU 解除温控
+Author: 391160
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-286
+Section: Tweaks
+Maintainer: 391160
+Installed-Size: 2180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.cputhermal_1.6.2-286_iphoneos-arm64e_a6ebfa772c9f31d4b65e62f50a5a4ded87a38c875036bcec3ce80a0c0166131f.deb
+Size: 227720
+MD5sum: 0f533ae3fb0bfc17947ecc99720b6baa
+SHA1: b53b412bbc1d41c971e7ecf2af8d625324a3b741
+SHA256: a6ebfa772c9f31d4b65e62f50a5a4ded87a38c875036bcec3ce80a0c0166131f
+SHA512: 2df607a6611da395fb044b6c3b1e66f852099e15f1b2fb685dca90add1473bc98681699a05f0d96afb8f7bcfcc227b20870e3aade84758bb13246b3e1979c0a7
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Name: CPU智能温控
+Author: 391160
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-300
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 2320
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.cputhermal_1.6.2-300_iphoneos-arm64e_637b4519b724d33754c7054e81b25e291f806c489708ef9b6c27ad5ae66e8842.deb
+Size: 279764
+MD5sum: 0e5b0146581a8d005668de2256fd17a8
+SHA1: d698379423c9cad30d443703b583e427f6199452
+SHA256: 637b4519b724d33754c7054e81b25e291f806c489708ef9b6c27ad5ae66e8842
+SHA512: c588a50831634f571c92d6754359196dd74c5bcfa45df243dc27f442f6ce0e3a8297c9c0d575000ccfe689441a971f3b3016756f3cd2eeacaae64a27b79e2456
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Name: CPU智能温控
+Author: Huayuarc
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-303
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 2320
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.cputhermal_1.6.2-303_iphoneos-arm64e_546bf4194099fc00a4a3b849b88c0f622ef611c669205bc9222990a5c322edb8.deb
+Size: 280184
+MD5sum: cd05e910665700e81f75b89b66e41185
+SHA1: f0b8dc63729b83900de88f69990b72458e7bf466
+SHA256: 546bf4194099fc00a4a3b849b88c0f622ef611c669205bc9222990a5c322edb8
+SHA512: cf5fafbc7016669d1d823e83e0bdf44855e4a914474c3517b83fa89cac26b2f4157d151d38775eb92fbf58519bb34b4e4f72a5556ad3f9a74a4eb8273a8e5a07
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Name: CPU智能温控
+Author: Huayuarc
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
