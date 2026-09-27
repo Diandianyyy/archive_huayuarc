@@ -3670,6 +3670,78 @@ icon: https://huayuarc.github.io/icon/Insulation.png
 
 Package: com.be-huge.insulation
 Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: be-huge
+Installed-Size: 484
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64/com.be-huge.insulation_0.0.3_iphoneos-arm64_07be55c7edd4cfbc84cf2263df9e5a6f3a73de8a6aef5fab780c721aa8c33535.deb
+Size: 57816
+MD5sum: 70ed3d958e9d9ee6da4fe0a4beabc3f5
+SHA1: 3d0a1aaadd73a5a0cb3dbe5e28951dc3460fb032
+SHA256: 07be55c7edd4cfbc84cf2263df9e5a6f3a73de8a6aef5fab780c721aa8c33535
+SHA512: 1e1431b9002fd8a55b54d18c2e284a34c2f58e9db741d29ca7aa700f5c4ce76689b6a8c2a51b30971174761e3a029b1c5af7ed40e7a1f971b21084f29b2901fb
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Name: insulation
+Author: be-huge
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64
+Version: 0.0.9
+Section: Tweaks
+Maintainer: be-huge
+Installed-Size: 812
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64/com.be-huge.insulation_0.0.9_iphoneos-arm64_7e32b10a1e58b3d211e76a357c4f6126ae12a11c07d129810d4fa9e12747a75c.deb
+Size: 98440
+MD5sum: 381abb07c0c710b179b7c23e2c09831c
+SHA1: eb875923554e2c7ec5190475d5926eacf00345a2
+SHA256: 7e32b10a1e58b3d211e76a357c4f6126ae12a11c07d129810d4fa9e12747a75c
+SHA512: 4229daa9fe571ec0f017ba3497c9821ae91cf918ebb7894324be30fc273ccbd6c9b598c890fbed6f05f0070431c07fa0f30b6da7c1d1913c5fc94a5d28ecefd2
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Name: insulation
+Author: be-huge
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64
+Version: 0.1.20-End
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 844
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64/com.be-huge.insulation_0.1.20-End_iphoneos-arm64_d952d1eaf776da23ed668dbd7bf958c3e0b08c60491b659affac2f54efc85823.deb
+Size: 112904
+MD5sum: 4209c477d6ccadc946009de435f947ca
+SHA1: cda2e849170b008e2749dfdc57b37808fadffb08
+SHA256: d952d1eaf776da23ed668dbd7bf958c3e0b08c60491b659affac2f54efc85823
+SHA512: 4146e0a3dec760dc25f994f0d97779fb2b02fb06f240db5076a88634b0661bd5e0007975baaa49545394416d2819becec1331225c17addb00625224f4b8ffd23
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64
+Version: 0.1.21
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 844
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64/com.be-huge.insulation_0.1.21_iphoneos-arm64_e336ed71f7f4656469b194366849af3c8d7289b9ca59b2f3a73e757631fa8f51.deb
+Size: 112792
+MD5sum: 726319b88e1ef924019a4bb7840eef04
+SHA1: e3f33b213510d31b0e5775e226a4955179a7043e
+SHA256: e336ed71f7f4656469b194366849af3c8d7289b9ca59b2f3a73e757631fa8f51
+SHA512: 2a7fc1c430c74984f4d92aaf336e7b79c3b419bc224c3ca469b48d70688c73c96588cb0decdc113e2f7905dbf2cd3bcecc47a35ed33d77edfc829c35a9e43a19
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64
 Version: 0.1.31
 Section: Tweaks
 Maintainer: doimty
@@ -3681,6 +3753,24 @@ MD5sum: 12f9d19252613f5cb04240f13460c9bf
 SHA1: 1818797f9582f3ba2926a3083abab8e4b17c1fab
 SHA256: 3fe2ae304fbd0dd91011083df3ea890242f676166619cdf8fb5d08b190d21f10
 SHA512: f80a6abcdabe273c61cdd3b4a0ad7697586b74c9fba237ad6b4c48cd0473e8f4a5f577e95de99e2336ffa39a94ffaa2e2175ab40bea72f543496caad5e848ccb
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64
+Version: 0.1.31.1
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 628
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.be-huge.insulation_0.1.31.1_iphoneos-arm64_aec8f35027b099c16040ab4d35fa7d56bea2409a0c5965ec1213fd7c523f858d.deb
+Size: 53292
+MD5sum: 0e10746d629180a1890fff7b94e97da3
+SHA1: 8676aa0e380e1291e23df58d0d00cdf31fa63006
+SHA256: aec8f35027b099c16040ab4d35fa7d56bea2409a0c5965ec1213fd7c523f858d
+SHA512: 1e593b4f3c18aae1fd8f8f6e70a74bf3c65db0c0a16188e16833ba764bb2c7513c57dd14a262243491f5a6996dd95d183815a8a45944d2107cfc88f913d64dff
 Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
 Name: insulation
 Author: be-huge & doimty
@@ -3849,6 +3939,96 @@ icon: https://huayuarc.github.io/icon/Insulation.png
 
 Package: com.be-huge.insulation
 Architecture: iphoneos-arm64e
+Version: 0.0.18
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 704
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64e/com.be-huge.insulation_0.0.18_iphoneos-arm64e_6b025e815a13e6ac9f0fc34f8ca0c530b8eff97f857ef66d65c546d88681a0b0.deb
+Size: 105608
+MD5sum: 4c597d5475897722cc86356b4712df78
+SHA1: 1a113f463b5b5f48cd1101c9c2a55c8e79f11b29
+SHA256: 6b025e815a13e6ac9f0fc34f8ca0c530b8eff97f857ef66d65c546d88681a0b0
+SHA512: 5b0f6fe8474d298a6eb693177e4f9d6364441c3a06fa76d809d383e8a4d021153f689163213aed3c49bec562e004bcce69c88f0b68b7785716eb102fa2573d3d
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: be-huge
+Installed-Size: 484
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64e/com.be-huge.insulation_0.0.3_iphoneos-arm64e_e9e3a7e33fcc02d7377766083c0bda091480b0af134d8f72967708e1524db9aa.deb
+Size: 55636
+MD5sum: acc1a6c2c86243655daf1b046ba6a2fa
+SHA1: c29c5701b6bf101a67cc5fa85f3540b2108ae1cc
+SHA256: e9e3a7e33fcc02d7377766083c0bda091480b0af134d8f72967708e1524db9aa
+SHA512: 08a1b02683b528798068f85da18a9f16f07915c9f030e5d4a8fece14da80c2b34557fe549196d4f8203da9f4addc9e595afc9f595a6a592b54c6eef3e5e4f5db
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Name: insulation
+Author: be-huge
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.0.9
+Section: Tweaks
+Maintainer: be-huge
+Installed-Size: 812
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64e/com.be-huge.insulation_0.0.9_iphoneos-arm64e_e9eeeed3c14f148984a631ff1b3e8fccdd6efa9c5020fe67ee3846b685928381.deb
+Size: 96464
+MD5sum: 091711a0e7037fdc64ee9933b354c710
+SHA1: ca4f9598b0fdf7bc9a9c8fc465664da38edde2bd
+SHA256: e9eeeed3c14f148984a631ff1b3e8fccdd6efa9c5020fe67ee3846b685928381
+SHA512: 10d13ba2ba411475678bde93c05166c69ff77362dedad059b48b3157bcbe1ae2b3ecb55c053ee7217a7648e715df157c85468d50bc30e45c2e2571c4a98d6a6e
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Name: insulation
+Author: be-huge
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.1.20-End
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 844
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64e/com.be-huge.insulation_0.1.20-End_iphoneos-arm64e_d3425b58289e146ed8cc645541454e8207249e5696e84e384ca67a89de33d0dc.deb
+Size: 110348
+MD5sum: bddec05caff1b74e20ad6eefb213198c
+SHA1: a4e688831482323a6dc3462d5b6c2aec676aabce
+SHA256: d3425b58289e146ed8cc645541454e8207249e5696e84e384ca67a89de33d0dc
+SHA512: 242d47c61d04c4903dee3da4c346ab12ab85fa4f96486c1387e910a8f7ae257b448d6a8924da2588c80369e22e014dd3012aa3fb27a39566d0eff6767435d83e
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.1.21
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 844
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64e/com.be-huge.insulation_0.1.21_iphoneos-arm64e_5bfb442aefaf2c3a630f6b57dc0099b2aad264055bdae63ca2890655c42f19f2.deb
+Size: 110188
+MD5sum: 63b2b56e8139291644b7bcbd1a984a21
+SHA1: 272dc9c2213d9cf84724e2fae220cd6dff57d374
+SHA256: 5bfb442aefaf2c3a630f6b57dc0099b2aad264055bdae63ca2890655c42f19f2
+SHA512: 9a93a9b5842d61ebe7ebab30854ed37bb33e921c06e5843f2849760bf95da2031194428093ba205a710ec66705e4ec22839d63b266c6c3be7d59f3ddc0ae9542
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
 Version: 0.1.31
 Section: Tweaks
 Maintainer: doimty
@@ -3861,6 +4041,24 @@ MD5sum: 9418c739e38fc47cee56faff734f508f
 SHA1: 6e213b862c5fb112044e99812653623e14732cef
 SHA256: 7f869797fdfc0871cad0828b6f28e7f25d4044c44963f5879383eed98649fbe4
 SHA512: 7684506ab9ca974a1b0390b341ad1529926d13134928c3656d7ca26ec2f484ccb3a0087b7bb586c09429c524d34cfb34181d94fe78c55db12729ba50e6efea17
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.1.31.1
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 612
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.be-huge.insulation_0.1.31.1_iphoneos-arm64e_47affbb955d63a116bc47517ad699e893aa818e6dd31125cab326b9b513ade5f.deb
+Size: 50936
+MD5sum: b443d54832728b0d51a32f4f535ce474
+SHA1: ff78b4608cb0042a427053909e2a5e36f3a98a30
+SHA256: 47affbb955d63a116bc47517ad699e893aa818e6dd31125cab326b9b513ade5f
+SHA512: 3304f0da4afc2c3b14df1e10e3b359c69e51db30e123198e32a9980b647caab6d81962845b1c4f783d84d8655ae60d3a1ec6edca57923f723f2c993906d7936b
 Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
 Name: insulation
 Author: be-huge & doimty
@@ -4009,6 +4207,1803 @@ Description: 解除温控，一切从简即可。支持命令行切换模式：i
 Name: insulation
 Author: be-huge & doimty
 icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.binglan.dynamicfx
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: Tweaks
+Maintainer: 冰蓝
+Installed-Size: 772
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.binglan.dynamicfx_1.0.7_iphoneos-arm64_f597483d84419e609e114e90bfb7fb873122b19421eb5a061808258347830f64.deb
+Size: 116088
+MD5sum: 52af048b8bd7bf259e8afb06f1a65828
+SHA1: 3d89f3fe3c05e3e5513c290949d9cd670f6d6754
+SHA256: f597483d84419e609e114e90bfb7fb873122b19421eb5a061808258347830f64
+SHA512: 2fcee2fb727910a1c022846954b23bf4750fe4249f3a03ba9c36e1189e011ed2dd011187e69f521b3a7050b8bd014d255e5b176f2db22a844e770a1262fe3650
+Description: DynamicFX 是一款灵动岛美化插件，可自由修改灵动岛背景颜色、透明度、圆角大小、过渡动画。
+Name: DynamicFX
+Author: 冰蓝
+Icon: https://huayuarc.github.io/icon/DynamicFX.png
+
+Package: com.binglan.dynamicfx
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: Tweaks
+Maintainer: 冰蓝
+Installed-Size: 772
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.binglan.dynamicfx_1.0.7_iphoneos-arm64e_98bbeb84c34e1c83d91e032c4c99973bb7647b4bba8212411ffb7d95cd534bcd.deb
+Size: 113380
+MD5sum: 7918930acf22f9b0c5da2c3966ce70c8
+SHA1: b87b68179627fb1d1c283d33468039820f8017c1
+SHA256: 98bbeb84c34e1c83d91e032c4c99973bb7647b4bba8212411ffb7d95cd534bcd
+SHA512: b27eb383257a024bca0c1a8a4de470a4783e9bb6008cddfd8b0498c14d39f4dde5fdd1354ee6dc96073a2459b0e214d35d2801b4d8f78be63f235ad3081a775a
+Description: DynamicFX 用于美化 iPhone 灵动岛，支持自定义灵动岛背景、颜色、透明度、圆角以及过渡动画。
+Name: DynamicFX
+Author: 冰蓝
+Icon: https://huayuarc.github.io/icon/DynamicFX.png
+
+Package: com.binglan.kongzhidiy
+Architecture: iphoneos-arm64
+Version: 2.3.3-end
+Section: Tweaks
+Maintainer: binglan
+Installed-Size: 3028
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.binglan.kongzhidiy_2.3.3-end_iphoneos-arm64_ca6454dc08a1f9bcdefa0f5d9f68a26d0c4811caeac5e741903647cf7ac279c0.deb
+Size: 816276
+MD5sum: 9ecfa3ad63167d5203efbedd34cf9e42
+SHA1: 2822d409bccd088b036e1fcbd19df54335c0334b
+SHA256: ca6454dc08a1f9bcdefa0f5d9f68a26d0c4811caeac5e741903647cf7ac279c0
+SHA512: 9827fe4dd8b2c7646b1758ce601354ac087cbda7b7bdfc7ee46d90f7d918ef4eb39af75030ae3dc87807c1af23ddb898b71f69930b1d576e3cec71b0f60e9404
+Description: 控制中心中心美化？
+Name: CCPrimeX
+Author: binglan
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+
+Package: com.binglan.kongzhidiy
+Architecture: iphoneos-arm64
+Version: 2.3.6-end
+Section: Tweaks
+Maintainer: binglan
+Installed-Size: 8024
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64_6610555adbb206f8cf6cbab512932eebbdd52c34ceb93a3f4365cd95e6907523.deb
+Size: 3739616
+MD5sum: 08a71c77d5c704436e811c0e2b48f356
+SHA1: e817b8601f00fb7986c80af574eead5aa124d4a4
+SHA256: 6610555adbb206f8cf6cbab512932eebbdd52c34ceb93a3f4365cd95e6907523
+SHA512: baf3cf96d88cf3c16b2b57cfd8b28ab21589d789786696509b0f22b356cb95705a4e889e32dbb3543806ee3e28604719e61c957d5e070d2d8463229a9c99f087
+Description: 控制中心中心美化？
+Name: CCPrimeX
+Author: binglan
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+
+Package: com.binglan.kongzhidiy
+Architecture: iphoneos-arm64e
+Version: 2.3.3-end
+Section: Tweaks
+Maintainer: binglan
+Installed-Size: 3028
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.binglan.kongzhidiy_2.3.3-end_iphoneos-arm64e_fa6fb01d5d2699f573602a2ee1a204c438a6ffe68ab6f09a5fc779745921bd0c.deb
+Size: 813104
+MD5sum: bb6aac981e1a2c708ac4c292fdfb2cd9
+SHA1: 6c04645d4a55c7bb7c3b2b74937cb7820ab99c16
+SHA256: fa6fb01d5d2699f573602a2ee1a204c438a6ffe68ab6f09a5fc779745921bd0c
+SHA512: fe9b101a9f09b627e481e9fc7dd040ba6d417e14c75376e9d38ea19b648a72e4718e2d6877ba4b30717d3c7550dc2cdb05bf6d935227c2c4ef161cf4bd59cb2d
+Description: 控制中心中心美化？
+Name: CCPrimeX
+Author: binglan
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+
+Package: com.binglan.kongzhidiy
+Architecture: iphoneos-arm64e
+Version: 2.3.6-end
+Section: Tweaks
+Maintainer: binglan
+Installed-Size: 8024
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64e_7fa738c9656cb092ce6d995210025d3110b7ea77466591bca0864936569675e3.deb
+Size: 3733296
+MD5sum: 7c881c8b252f9f1a33f909ebbbbe44fb
+SHA1: b28aefac1863a50400846c2fb40805d16be8ae7f
+SHA256: 7fa738c9656cb092ce6d995210025d3110b7ea77466591bca0864936569675e3
+SHA512: 0e852f9d46712de99ff09ca2cce97cf5ad525d533d3c6f664eda3683439090dd2d3e7ad8cd4ef84bd34e41c1ee747de24770eaede7a4d8f059eab976856dd0af
+Description: 控制中心中心美化？
+Name: CCPrimeX
+Author: binglan
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+
+Package: com.binglanqjsy.deb
+Architecture: iphoneos-arm64
+Version: 3.0.0
+Section: Tweaks
+Maintainer: 冰蓝
+Installed-Size: 908
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Filename: debs/iphoneos-arm64/com.binglanqjsy.deb_3.0.0_iphoneos-arm64_b147ad4e908511aac94dc96cc6e9f6dc9b7b8dc34e948fa40c0188acb467c357.deb
+Size: 163872
+MD5sum: d646cfc06345a96844daa52aff6e838e
+SHA1: 0a5e7f67a9e10c66a299355826204fece5473cb0
+SHA256: b147ad4e908511aac94dc96cc6e9f6dc9b7b8dc34e948fa40c0188acb467c357
+SHA512: 1ac2bc9bdd57a8fd8afc7250fbfd11981bcb59bdba484b9a658c8105e3417b75c5a3b0472ffea25ea78fccd12a1671274efc7b52b3426a4f8691ebf711fa5606
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Name: 全局水印
+Author: 冰蓝
+icon: https://huayuarc.github.io/icon/IceBlue.png
+
+Package: com.binglanqjsy.deb
+Architecture: iphoneos-arm64
+Version: 4.1.6-end
+Section: Tweaks
+Maintainer: 冰蓝
+Installed-Size: 2496
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.binglanqjsy.deb_4.1.6-end_iphoneos-arm64_30811c63ed6991e4d7bbf39dbb24c3b70c4624ac1d098fc978322074c21268a0.deb
+Size: 337000
+MD5sum: a3a1d5f827b528898cfcba69dac33341
+SHA1: c4d384d1d4bc32e5672a0f4612e3cd964dc87374
+SHA256: 30811c63ed6991e4d7bbf39dbb24c3b70c4624ac1d098fc978322074c21268a0
+SHA512: 5cc384de5f5ed2c4f54edfd8e8994d8c6398ba4ae76b3aec1fb74606e7b976bf14f1a36a0b277b56697c437f02822117d837f959e14c381f36e5d6d77b17183d
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Name: 全局水印 Pro
+Author: 冰蓝
+icon: https://huayuarc.github.io/icon/IceBlue.png
+
+Package: com.binglanqjsy.deb
+Architecture: iphoneos-arm64e
+Version: 3.0.0
+Section: Tweaks
+Maintainer: 冰蓝
+Installed-Size: 908
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Filename: debs/iphoneos-arm64e/com.binglanqjsy.deb_3.0.0_iphoneos-arm64e_8995054c241a419c169d4f926815db6c1857c35a552d7eef9ba71e8cb566dc7c.deb
+Size: 160164
+MD5sum: 396fd40e77da31b4802fd9ffcb2eed79
+SHA1: a5dad85c2d1779cec65c6366e74f7d74432020f1
+SHA256: 8995054c241a419c169d4f926815db6c1857c35a552d7eef9ba71e8cb566dc7c
+SHA512: 69856ab8037a7c7b95c68dc4313a94db564d14316896319951264a71eee8a9dd98e705db6ff32a62cc696dc41c359129854ae31552137e2ee4963304e7434440
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Name: 全局水印
+Author: 冰蓝
+icon: https://huayuarc.github.io/icon/IceBlue.png
+
+Package: com.binglanqjsy.deb
+Architecture: iphoneos-arm64e
+Version: 4.1.6-end
+Section: Tweaks
+Maintainer: 冰蓝
+Installed-Size: 2496
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.binglanqjsy.deb_4.1.6-end_iphoneos-arm64e_06cd825f04d6bc6f2da4d15a50ffa5f5c19a2cc308f1475d520df07857c66842.deb
+Size: 289908
+MD5sum: 9e0c3a628b0dc41747d3eece259e4002
+SHA1: 566d72c0591de11cd1816d415c30fd5e6188a67f
+SHA256: 06cd825f04d6bc6f2da4d15a50ffa5f5c19a2cc308f1475d520df07857c66842
+SHA512: 0d2fa86e7ff670d0f89c90a04208042ba76f880ed1a6884e1919669a5b1123b55bbf91dde90611e8dd9fda754d39256387d79befa6d6c9b5adc00c529ee0806e
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Name: 全局水印 Pro
+Author: 冰蓝
+icon: https://huayuarc.github.io/icon/IceBlue.png
+
+Package: com.boss.wctweak
+Architecture: iphoneos-arm64
+Version: 1.0.330-1+debug
+Section: Tweaks
+Maintainer: boss
+Installed-Size: 4216
+Depends: mobilesubstrate | ellekit | libhooker
+Filename: debs/iphoneos-arm64/com.boss.wctweak_1.0.330-1+debug_iphoneos-arm64_740e7cd142ccabee528609a544139acaf1083be48fb56f3e4924d9e6f2f43661.deb
+Size: 733408
+MD5sum: b1618cb5e5ea7af23f496daa08e79af1
+SHA1: 6ac95f82b01df7f0f83e1346c23ff476532c487d
+SHA256: 740e7cd142ccabee528609a544139acaf1083be48fb56f3e4924d9e6f2f43661
+SHA512: e377408382bf11b10a54ed6d311e1a95f3a6bda71e0579ef6fca5086dcbd70b565bcc16e7a84d68def4fef4a006f7a2141bd24aeb254583f94c3d322f87d221c
+Description: 微信手势(左滑自己撤回/对方删除、双击复读) + 小丑改字 + 插件聚合 (基于 CW-5200 移植)
+Name: 微信手势增强
+Author: boss
+icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.boss.wctweak
+Architecture: iphoneos-arm64e
+Version: 1.0.330-1+debug
+Section: Tweaks
+Maintainer: boss
+Installed-Size: 4216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate | ellekit | libhooker
+Filename: debs/iphoneos-arm64e/com.boss.wctweak_1.0.330-1+debug_iphoneos-arm64e_09659d5948bd052cc41c3f184f2af329699a86425d1a73b0f14e73548c0489f9.deb
+Size: 714868
+MD5sum: 3c025aa3d7018162edabb39640aa1d96
+SHA1: 136b61d6b3da3740003b501307c16bc502b5d890
+SHA256: 09659d5948bd052cc41c3f184f2af329699a86425d1a73b0f14e73548c0489f9
+SHA512: 858cb39e1dbd576955b91502a6b4552eeab321b92dd0b5938a84f58f41c3d9c94878ec9359e27700b66cc3a2102e537e55e61d0a5fd22ca0713dc8b7a60e3c99
+Description: 微信手势(左滑自己撤回/对方删除、双击复读) + 小丑改字 + 插件聚合 (基于 CW-5200 移植)
+Name: 微信手势增强
+Author: boss
+icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.brend0n.nopassafterrespringsafe
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.brend0n.nopassafterrespringsafe_0.0.3_iphoneos-arm64_5545bb5442c8f25a20d2605dac81b2a1c9e5cf78b1d77ac6ff3436b186ddd5cc.deb
+Size: 3472
+MD5sum: cc22d8b83f377ac69c138c98d18123d9
+SHA1: 94ea94d3910b1fcb8f91476553635448360f2cff
+SHA256: 5545bb5442c8f25a20d2605dac81b2a1c9e5cf78b1d77ac6ff3436b186ddd5cc
+SHA512: fd9c0974d9beeef72e72e9f2f5f18f9157846cd2f15ed5c6f9c0f890ff555411e0f26b110fafca7bcd491f73a6ad169eefa46b106a05d3a0b7032e194fa04bee
+Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
+Name: NoPassAfterRespring (Safe)
+Author: Brend0n <brendonjkding@126.com>
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.brend0n.nopassafterrespringsafe
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.brend0n.nopassafterrespringsafe_0.0.3_iphoneos-arm64e_b1d05b4dda007a15ecfcd2880c88feaff8dd5957e18e559132b094174a3e5083.deb
+Size: 3404
+MD5sum: 009ac62354e087b0e47e6d901c2a670d
+SHA1: 51dacbe364b41f2860e0671f6a4495bdf2b11dc6
+SHA256: b1d05b4dda007a15ecfcd2880c88feaff8dd5957e18e559132b094174a3e5083
+SHA512: fc2cec79f9a34dfb0c0b2508a46494c3dc6cdf46b48fd014ffbc9021a2e934b7a4c2b5bf5e260572cf01b59dae1042ff51bca6d9202e442963726302580effa3
+Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
+Name: NoPassAfterRespring (Safe)
+Author: Brend0n <brendonjkding@126.com>
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.brend0n.volumemixer
+Architecture: iphoneos-arm64e
+Version: 0.0.7
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64e/com.brend0n.volumemixer_0.0.7_iphoneos-arm64e_17541e9315b2bc4d362f253c74defe1013da9dcc1ab77d362af8ececdc05fe08.deb
+Size: 172200
+MD5sum: f312ea23e2b01e980a24f9214814710b
+SHA1: c08fec5ab37d06a2965cb2c18d42e6f1e7cf53e3
+SHA256: 17541e9315b2bc4d362f253c74defe1013da9dcc1ab77d362af8ececdc05fe08
+SHA512: 26ed9ea44ddf41957beae3d5f2c151002a2adb2fa95462f39b7bffceda6c0436639ecd776f1283864f0cc245417995b71b667b87fc259d098d2d5d2e31afdebd
+Description: Volume control for individual app 1.音量单独控制，可以为每个 App 单独调节音量，不影响系统音量。2.多种呼出面板方式。3.支持音频混音，音频同时播放，音乐App 不会被打断。
+Name: VolumeMixer
+Author: Brend0n <brendonjkding@126.com>
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.bvm.wuzeililiang
+Architecture: iphoneos-arm64
+Version: 1.0.1-1
+Section: Tweaks
+Maintainer: BVN
+Installed-Size: 328
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64_42f54603f40650d871dd733aa8048a0c7bb9040489a2716fbbb86d2886207ae6.deb
+Size: 38016
+MD5sum: 6447058b15f8e1f6b10afcf3840b54ef
+SHA1: 73f234b0d6f1f372b3d9f43ccb8a50ed3cb78c08
+SHA256: 42f54603f40650d871dd733aa8048a0c7bb9040489a2716fbbb86d2886207ae6
+SHA512: 86b9e3db09e9a4e106af5060ac013f6ee13a64c72cbac5d836dfcf803e576d73a2074d92359a5c65e626e6f22501604094f2987172c1f7496e80fec266806f9f
+Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
+Name: 乌贼本地离线授权
+Author: BVN
+icon: https://huayuarc.github.io/icon/wuzeililiang.jpg
+
+Package: com.bvm.wuzeililiang
+Architecture: iphoneos-arm64e
+Version: 1.0.1-1
+Section: Tweaks
+Maintainer: BVN
+Installed-Size: 328
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e_d74a79f75baae62cf7514a781c9884e5c980c2b5187ca30da3319315710d03be.deb
+Size: 38100
+MD5sum: 04a86be5dacc7b092396fad0149d354a
+SHA1: 0d3bae08a3d9b5f513e194124fdfc45438385d2b
+SHA256: d74a79f75baae62cf7514a781c9884e5c980c2b5187ca30da3319315710d03be
+SHA512: dc07a8731dd27cc6ac517a61c0ead3dbba8a72a880a5b656d0ab4e33d70cc90e6db328bf7d977c46a132de6cbc9860e709bad1003a9840d903f6775563161141
+Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
+Name: 乌贼本地离线授权
+Author: BVN
+icon: https://huayuarc.github.io/icon/wuzeililiang.jpg
+
+Package: com.callassist.caiphoneduostatus
+Architecture: iphoneos-arm64e
+Version: 1.5.10
+Section: Tweaks
+Maintainer: 热心网友CallAssist
+Installed-Size: 204
+Depends: firmware (>= 16.0)
+Conflicts: com.xybp888.caanimatedstatus
+Replaces: com.xybp888.caanimatedstatus
+Filename: debs/iphoneos-arm64e/com.callassist.caiphoneduostatus_1.5.10_iphoneos-arm64e_308adbeaffe24000f2d48000018b4f529d3a7d1ae687e32b7838e1a4640a0ae1.deb
+Size: 18876
+MD5sum: f6c808e038b70e01bd0f01e931b67ba7
+SHA1: 8ef3c846478f50944c50cde159257de8cb3e0523
+SHA256: 308adbeaffe24000f2d48000018b4f529d3a7d1ae687e32b7838e1a4640a0ae1
+SHA512: 362df31f5e0207b6b61f0a9fcaecc58778789ec1797c9f67bffe30171a2de2b960402980c1141bc87ca16598ee018f8ec18c8a7a54c6c399866101b9a9e2c9ff
+Description: 本插件仅为体验版,不得用于商业收费,插件本身也不会收取任何费用,如遇收费,请立即拒绝,本插件发布后不会再进行更新,所以不用提要求和bug报告,如果不满意请自行卸载,信号,WIFI,数据,电量均为安装设备的真实交互
+Name: CAiPhoneDuoStatus
+Author: 热心网友CallAssist
+icon: https://huayuarc.github.io/icon/iPhoneDuoStatus.png
+
+Package: com.callassist.caiphoneduostatus
+Architecture: iphoneos-arm64e
+Version: 1.5.9
+Section: Tweaks
+Maintainer: 热心网友CallAssist
+Installed-Size: 204
+Depends: firmware (>= 16.0)
+Conflicts: com.xybp888.caanimatedstatus
+Replaces: com.xybp888.caanimatedstatus
+Filename: debs/iphoneos-arm64e/com.callassist.caiphoneduostatus_1.5.9_iphoneos-arm64e_7fcbf2c829ef5c124609c5f81a06cf15b5599c00e285f79f29c5a6566a9221d2.deb
+Size: 17612
+MD5sum: fcfe576ec8dc7ae7dba469a08b662b72
+SHA1: 4441147d1ae0b6aaed1a08ae32f797242f39ac51
+SHA256: 7fcbf2c829ef5c124609c5f81a06cf15b5599c00e285f79f29c5a6566a9221d2
+SHA512: 6464d9f300884a3486837812fd9fe9c02fc39804ff7f3a572dbe43b5a688ec795c0992d43d2da824de80cc7997acf08d2225f263cc4c312cfc16c690240878ff
+Description: 本插件仅为体验版,不得用于商业收费,插件本身也不会收取任何费用,如遇收费,请立即拒绝,本插件发布后不会再进行更新,所以不用提要求和bug报告,如果不满意请自行卸载,信号,WIFI,数据,电量均为安装设备的真实交互
+Name: CAiPhoneDuoStatus
+Author: 热心网友CallAssist
+icon: https://huayuarc.github.io/icon/iPhoneDuoStatus.png
+
+Package: com.charlieleung.liquidify
+Architecture: iphoneos-arm64e
+Version: 1.3.5
+Section: Tweaks
+Maintainer: Charlie Leung
+Installed-Size: 37676
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.charlieleung.liquidify_1.3.5_iphoneos-arm64e_162590e035a2d5267ed957eba6772f5b78b08ae412331119a7e154671bb11ed6.deb
+Size: 10046104
+MD5sum: 1e1ca106e5504e6a4788261887feb0b4
+SHA1: e31a4ed5bb09fd4d00fa24b24863036035203be7
+SHA256: 162590e035a2d5267ed957eba6772f5b78b08ae412331119a7e154671bb11ed6
+SHA512: ad6c50a88473a1c0fc388410e503343f602c02e4e03ae3018e9046ed41447fe5786a30660ee0261e8f3616b65944509a9b804d994b590d8ec704ecb84e2e4b32
+Description: 为 iOS 界面注入液态玻璃质感。
+Name: Liquidify 88 元 液态玻璃
+Author: Charlie Leung
+icon: https://huayuarc.github.io/icon/Liquidify.png
+
+Package: com.charlieleung.snapvision
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Charlie Leung
+Installed-Size: 1032
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64e/com.charlieleung.snapvision_0.0.1_iphoneos-arm64e_e141a8bb7fe3ee41f7c3d7b37a588abc7b0bc15c051bbdd9fbd6c0ddb7a8a76b.deb
+Size: 182700
+MD5sum: 1a9d96e32747c462e6d3afcbff8897b8
+SHA1: 4c30efeae1778020952f238d33f77c442d1d233b
+SHA256: e141a8bb7fe3ee41f7c3d7b37a588abc7b0bc15c051bbdd9fbd6c0ddb7a8a76b
+SHA512: 2d1c7ea8184c78a98e9d87fba2d874248c9c81d234e37771df90faf4002b56f6c4f56567f9424c72f5a440caaf53d621a789c912f7b4bdc4fdd092f34c2c1255
+Description: 长截图 区域截图OCR 截图仅复制。
+Name: 长截图 区域截图OCR
+Author: Charlie Leung
+icon: https://huayuarc.github.io/icon/SuSuOCR.png
+
+Package: com.charlieleung.trollopenjb
+Architecture: iphoneos-arm64
+Version: 1.3.6
+Section: Tweaks
+Maintainer: Charlie Leung
+Installed-Size: 6080
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64/com.charlieleung.trollopenjb_1.3.6_iphoneos-arm64_a1f3c7b61d02f2f67351d3961b772aa47862ed274ce33f6f2cb49418b33ad4e4.deb
+Size: 1561988
+MD5sum: 40499b8ae6af6d569c736fe7ad764902
+SHA1: ef41ad1b5a6f0e4d2226adbcaeee6bd0fa4ace1c
+SHA256: a1f3c7b61d02f2f67351d3961b772aa47862ed274ce33f6f2cb49418b33ad4e4
+SHA512: e63e33495c326a404abda201c80c525781e2cb963f9c64feb0983306afbb5d88dbafcf76454688c49fd94f72f9e8256dee0499704953a03a9b2696ab3744b573
+Description: TrollOpen 的越狱版本，自带分屏功能，支持 ios16 及以上。
+Name: TrollOpen 分屏
+Author: Charlie Leung
+Icon: https://axs66.github.io/pro/icon/trollopen.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopenjb/js.json
+
+Package: com.charlieleung.trollopenjb
+Architecture: iphoneos-arm64
+Version: 1.3.7
+Section: Tweaks
+Maintainer: Charlie Leung
+Installed-Size: 4460
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64/com.charlieleung.trollopenjb_1.3.7_iphoneos-arm64_523e2a9376ed17d4569b6a5e0f65bb16661e85cc05109ba79abe94e13467ba5d.deb
+Size: 1120856
+MD5sum: 06f63c129769e030d62339403830e536
+SHA1: 2d78ab6193fc0413f96a02624412d033877918bb
+SHA256: 523e2a9376ed17d4569b6a5e0f65bb16661e85cc05109ba79abe94e13467ba5d
+SHA512: 25e3f2f8c73b291ee617b9c47ced3f409f61d6e37e9b7988e841ce570744945163338115d5ac1fb8660c56bed4a8895915e375a31fe6670981bf9ae42dad3bf7
+Description: TrollOpen 的越狱版本，支持 ios16 及以上，免费公开版，无后续更新，不需要反馈 bug。QQ 群：1094778353，后续付费更新联系群主或群管理。小黑子闭嘴吧，看看什么是最强分屏！
+Name: TrollOpen 分屏
+Author: Charlie Leung
+Icon: https://axs66.github.io/pro/icon/trollopen.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopenjb/js.json
+
+Package: com.choco.tgextra
+Architecture: iphoneos-arm64
+Version: 1.7.8
+Section: Tweaks
+Maintainer: choco
+Installed-Size: 3256
+Filename: debs/iphoneos-arm64/com.choco.tgextra_1.7.8_iphoneos-arm64_bc2b9f3ba25234a750b9a90fba80d16422bf9187218e974f93e113a315006a9b.deb
+Size: 837008
+MD5sum: 64f67ec012a2c085a5cada18766c866c
+SHA1: 080f079c4ae5bb0e7783c3936e6339d146c044cb
+SHA256: bc2b9f3ba25234a750b9a90fba80d16422bf9187218e974f93e113a315006a9b
+SHA512: e0c6feb95a82786cd5f0f161a08d94fe1cba28e3812275cba8f36031ac3f9f38fc3b016ce6c536a93b9f259afd717bf2ad6aed3426b7d11a982b78181ff565ea
+Description: Telegram 增强插件
+ * 最后在 Telegram 12.9.3 进行测试
+ * 去除广告
+ * 虚拟定位
+ * 隐藏一些输入状态
+ * 允许保存频道限制下载的文件
+ * 设置界面-长按倒数第三个选项“客服”或者三指长按打开插件
+ * 支持 Telegram、Turrit 等第三方客户端，具体自测
+Name: Telegram TGExtra
+Author: choco
+icon: https://huayuarc.github.io/icon/tgextra.jpg
+
+Package: com.choco.tgextra
+Architecture: iphoneos-arm64e
+Version: 1.7.8
+Section: Tweaks
+Maintainer: choco
+Installed-Size: 3256
+Filename: debs/iphoneos-arm64e/com.choco.tgextra_1.7.8_iphoneos-arm64e_67f906ada84219b2fc3f54bbb06204ed6f7dca6f0f7a4daae080feb54069a831.deb
+Size: 832332
+MD5sum: 544bf0b1ef3cb606808e0c3b62c8335b
+SHA1: 003a1e38576b71003b47c1cc6e115c30d75742f4
+SHA256: 67f906ada84219b2fc3f54bbb06204ed6f7dca6f0f7a4daae080feb54069a831
+SHA512: 52700d05d577e03538451daaa091cf68f0ac6de382a07f11f8f136d60d17292668ec1fd9fb608154bf4d99f66eec0f776fee1c01de035a369ec08ed33c13a826
+Description: Telegram 增强插件
+ * 最后在 Telegram 12.9.3 进行测试
+ * 去除广告
+ * 虚拟定位
+ * 隐藏一些输入状态
+ * 允许保存频道限制下载的文件
+ * 设置界面-长按倒数第三个选项“客服”或者三指长按打开插件
+ * 支持 Telegram、Turrit 等第三方客户端，具体自测
+Name: Telegram TGExtra
+Author: choco
+icon: https://huayuarc.github.io/icon/tgextra.jpg
+
+Package: com.colorblack.alinfcwakefix
+Architecture: iphoneos-arm64
+Version: 0.0.36
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 996
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.colorblack.alinfcwakefix_0.0.36_iphoneos-arm64_598b3202fa884af5d22b83f2e3c03f6395c666e1fe28fa34a4cb215bf3ea6edf.deb
+Size: 334492
+MD5sum: 8d2e528db62145988445a41d08eceb96
+SHA1: 033a347c75580b614c14af34dfbec1bfc2795afb
+SHA256: 598b3202fa884af5d22b83f2e3c03f6395c666e1fe28fa34a4cb215bf3ea6edf
+SHA512: 4e5e6d06619b673f1ae95599b01ba7b46aa13c9ea430aac4eaa50f93352551d0a6d6f89339e5257f35bc23aff68ccd4760e3fac15623e6727c3983728be072a3
+Description: 支付宝助手，优化支付宝碰一碰支付功能，改善碰一碰没反应、反应过慢问题。仅 beta 测试版。QQ群：205928931
+Name: 支付宝助手
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/zfbpyp.jpg
+
+Package: com.colorblack.alinfcwakefix
+Architecture: iphoneos-arm64e
+Version: 0.0.36
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 996
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.colorblack.alinfcwakefix_0.0.36_iphoneos-arm64e_a1048569363499fe3b5a2f5b9c6f35da41c5b30ec98e369a1f03e05229481fe4.deb
+Size: 334368
+MD5sum: d599de0e0dedfc06b2f4bafc7854a5e0
+SHA1: 2cc49d837cb529392e06d5974288369b098f8914
+SHA256: a1048569363499fe3b5a2f5b9c6f35da41c5b30ec98e369a1f03e05229481fe4
+SHA512: 83dc2dd25c4382361c23851b5ca4a638aa8c0fb2506dd20c85f766c0bcb780e50644ccab58ee7844272c12e3c00ab94e01a640a9ec882faa20bc8cd728239ed5
+Description: 支付宝助手，优化支付宝碰一碰支付功能，改善碰一碰没反应、反应过慢问题。仅 beta 测试版。QQ群：205928931
+Name: 支付宝助手
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/zfbpyp.jpg
+
+Package: com.colorblack.amap.nosplashad
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.amap.nosplashad_1.0.1_iphoneos-arm64_5bea8cadb4d33d6bd5f17822993bf15e5f5ee12027b10c0416def608fe815256.deb
+Size: 6868
+MD5sum: b14342ef57a54ae158ee4afa4511a270
+SHA1: 26e61edd98342d053686a5b8d7877bf6b66de50e
+SHA256: 5bea8cadb4d33d6bd5f17822993bf15e5f5ee12027b10c0416def608fe815256
+SHA512: 2cc5af733875b3dfa5c1ae3cceddb624c3e61663c8a02b3283b29ab53b5a19e20505a898bdf45b19d0f334bbc187763eb5f12c9474fff24cf660c66c1a7baa16
+Description: 去掉高德开屏广告、去掉中间升级弹窗  QQ群 205928931
+Name: Gaode-NoAd
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/gaode.jpg
+
+Package: com.colorblack.amap.nosplashad
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.amap.nosplashad_1.0.1_iphoneos-arm64e_dc4276e4b59558c1e8a165e709b1416ed7b36eda3a6e5d47d2c234ca830df395.deb
+Size: 6836
+MD5sum: 58a95ff7870836a08c255fef12deedb0
+SHA1: f70e05bd8fb9c22b7b57b69251abcb62c5284a05
+SHA256: dc4276e4b59558c1e8a165e709b1416ed7b36eda3a6e5d47d2c234ca830df395
+SHA512: 1f798bd2c817a204fae32041281bb2000cc9686b07c8cf96b7d602f39e2f4f372dd7ceec216ac8d676cbac0c0df9dd76a532cb60ef5d557ed9ff792c2dad6790
+Description: 去掉高德开屏广告、去掉中间升级弹窗  QQ群 205928931
+Name: Gaode-NoAd
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/gaode.jpg
+
+Package: com.colorblack.baidumapadblock
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.baidumapadblock_1.0.0-1+debug_iphoneos-arm64_577658c378e3cf2c6e9f9e074f3c5889253d5f331fc5c5b20069cece5562bc82.deb
+Size: 4280
+MD5sum: 5ec99e4f53aee621604d8bfb75b2e9d7
+SHA1: 3eccefe0fa2837cd698e160586387f5926d4e7a1
+SHA256: 577658c378e3cf2c6e9f9e074f3c5889253d5f331fc5c5b20069cece5562bc82
+SHA512: 5c788a57662a7cdb5d2c69e620e341ad2f50c09f8d62fede1a8ad4e71137fc8e702607f0e7f0a3b1743cf82a290b39db4f5e6915d040308ba8536ff6967dc7ba
+Description: Disable Splash Ads in Baidu Map.
+Name: BaiduMapAdBlock
+Author: colorblack
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.colorblack.baidumapadblock
+Architecture: iphoneos-arm64e
+Version: 1.0.0-4+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.baidumapadblock_1.0.0-4+debug_iphoneos-arm64e_456e496f3019ecd52d78fb44886cef679ddbbea54081b6b2c8ba3da2708fb144.deb
+Size: 4224
+MD5sum: de3b8cb1ad1dfa68ef8e505fc0026756
+SHA1: f89ec00ae1bb5d7e7c4b6e4580ffe32f892a3bd2
+SHA256: 456e496f3019ecd52d78fb44886cef679ddbbea54081b6b2c8ba3da2708fb144
+SHA512: 39c6f7141f23f152353f96505dd7a5065cec91087193bc44f77f79973447dd1c51c9be0b1ea974301b1a76a3cf8704a0d433e2fed20aa844f34fb50fedd89e31
+Description: Disable Splash Ads in Baidu Map.
+Name: BaiduMapAdBlock
+Author: colorblack
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64
+Version: 0.2.30
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 832
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx_0.2.30_iphoneos-arm64_762a9e738a73e7e5e1a2823094619c9da193c8d800f7271d332c492bcc0c6a0f.deb
+Size: 97252
+MD5sum: abac7ba0893f90906e154e894a18f9ee
+SHA1: 6f056bb2db33438026eac5c74686517f52ac53fd
+SHA256: 762a9e738a73e7e5e1a2823094619c9da193c8d800f7271d332c492bcc0c6a0f
+SHA512: 5e5d8eb5659572bfb5b2954e5dbd60f7668e036fd9424db2ac65c5474fec5a421feb44e34439b64a09b6738a686816245adfeb8677b5c9fd182d9de5193d7ea8
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64
+Version: 0.2.32-1+debug
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 1168
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx_0.2.32-1+debug_iphoneos-arm64_7da7567b63ba3bf6b81ece81e8ade2ed47a746c7d47f129d3507fb2381f4e519.deb
+Size: 138008
+MD5sum: c4c764dbd6de288e2e951917e619f697
+SHA1: 1231c47c4fd852fa3777e8ebc1cf130641d3502e
+SHA256: 7da7567b63ba3bf6b81ece81e8ade2ed47a746c7d47f129d3507fb2381f4e519
+SHA512: 4773b28479e45f9e157e17f32235264cab0581cb51fd7b05c55f42877e33bd907f01e228ac10bd74b86900f6cadd4d53f8a874f5355b0ac8af40a558689b3e7e
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64
+Version: 0.2.67
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 1944
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx_0.2.67_iphoneos-arm64_e3b12a8a7d88c58f1ec71ff97902514ad0766aa2026f830b20e5b8bed209e158.deb
+Size: 497308
+MD5sum: 39ebc7ad76ee776e90e7e456d119fd5b
+SHA1: 5c5d696813ca4405c7cffd4f292b67b689690cc7
+SHA256: e3b12a8a7d88c58f1ec71ff97902514ad0766aa2026f830b20e5b8bed209e158
+SHA512: 5e2cca4b45f0c5f7e9f324d93c8bcf6d6befb0730f7c47b9477a9421431aae72c28b86b639beb37c5cb6c30fa32f69feaff44b81db1a6280ac02c0b4e8d8eec5
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64
+Version: 0.2.68
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 1944
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx_0.2.68_iphoneos-arm64_ae15f4bb606bd4495882f17c6466a6bbef03cd49b3a974c08ef8947fdd43d94f.deb
+Size: 502988
+MD5sum: e85bc2842fc91976cdd0e74b5ef01105
+SHA1: b703193a07f44bd341d050be92c54fc3a4a70c37
+SHA256: ae15f4bb606bd4495882f17c6466a6bbef03cd49b3a974c08ef8947fdd43d94f
+SHA512: 787d72a3330bb4d36737e56344a26f16f4bed82b64df82190784a86c5e925b68cb2c2ccdb6a0440de282ef1b02e083ac262afb21ee1b959ce1491c29b247fd42
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64
+Version: 0.2.68-1
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 2008
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx_0.2.68-1_iphoneos-arm64_160fd0cd35f0b66ca885a687d95d76a9ee96ab3694647bf02b332fa48d457b34.deb
+Size: 520660
+MD5sum: e77a1409416bacd30e175cf228e2fab1
+SHA1: 3584bfcaa6fb522ad42cfa78b995ee2856462f6d
+SHA256: 160fd0cd35f0b66ca885a687d95d76a9ee96ab3694647bf02b332fa48d457b34
+SHA512: eb5ccfff2204baec6dfa95749b02f3c6af61bebcaaae8bb37d705ace37306ff5a706305b6858a96aeb5719e4c5e892807aa793365aea845edd1e6ae835f5816a
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64
+Version: 0.2.69
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 3024
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx_0.2.69_iphoneos-arm64_1718d69852b091f037be84e1e0b46dcd34efd0d1eb1bec07ea5fa2128af295b0.deb
+Size: 728020
+MD5sum: b28009acbef21fd1b702bf6ef587adbd
+SHA1: ba3951635a832ef4e77001c68ceb9d7e1024b2a0
+SHA256: 1718d69852b091f037be84e1e0b46dcd34efd0d1eb1bec07ea5fa2128af295b0
+SHA512: e26f59aa99bdbcdbd7fea801319f5ccd5b12bfc502d73cb44629bb9d1e376bb77041374208c5e8411e97f13bbfb8155a16167879fc0fa5c3223666b1c63416ea
+Description: 点击底部小白条逐级返回，到app最顶层就会返回桌面，新增学习返回模式，视觉返回保留。; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64
+Version: 0.2.70
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 3428
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx_0.2.70_iphoneos-arm64_5833c898d4850456a06f66c233661b41fd9a34e59948a112376b64e765deda8e.deb
+Size: 828512
+MD5sum: ce5fe49d17c8ab0b0a103c64a900e795
+SHA1: 4f20ab549c00950a981e1a92fd443d7216fa6071
+SHA256: 5833c898d4850456a06f66c233661b41fd9a34e59948a112376b64e765deda8e
+SHA512: da9977f6620f2d7f7c0076bbe63102523cda52dff24d2cb86b00b77fb0cfb39d1b8d661188d6dad92883a4f5e9f1eba53ba45cd3e7594d4d469c6722e36ddeac
+Description: 点击底部小白条逐级返回，到app最顶层就会返回桌面，新增学习返回模式，视觉返回保留。; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64
+Version: 0.2.71
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 3044
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx_0.2.71_iphoneos-arm64_067ccbed3e17d09644193747794cf8362d1c32244142aab587d74647854f2c64.deb
+Size: 728888
+MD5sum: 2890d9ec9c9c3b6d38fb4f765acd0e22
+SHA1: f8357258fdf0d19c97cab71141251dda7a3e944b
+SHA256: 067ccbed3e17d09644193747794cf8362d1c32244142aab587d74647854f2c64
+SHA512: 4f5ed66de459d7a8cd72847da1b90f2306e0ec45aadd7d351d1e1005beb7fbabf8b0b0eda7024bf7c9d5183095426e968e37881219b0426564230ea5b44d7b84
+Description: 点击底部小白条逐级返回，到app最顶层就会返回桌面，新增学习返回模式，视觉返回保留。; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64e
+Version: 0.2.30
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 832
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx_0.2.30_iphoneos-arm64e_fd3bb24f55031090389d14696aa655b700b7df0ce1d1aa13e8ab3693c75195bd.deb
+Size: 94616
+MD5sum: b597bef6ce22041e2305380c15745c30
+SHA1: b04f5d1ac5903988442219bc51b811003a08b92d
+SHA256: fd3bb24f55031090389d14696aa655b700b7df0ce1d1aa13e8ab3693c75195bd
+SHA512: 0dc0da75b8c06fad01f1f08ef669d0fe52dcbe2a0ed41e343c01c6105a9628930176c0ca8a76eb574a801102ac7735ab53700fdb6900d1a34e22d8165488fc93
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64e
+Version: 0.2.32-1+debug
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 1168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx_0.2.32-1+debug_iphoneos-arm64e_82b9fbfd25229f3772fc3d3b7380b0d93d715967ecb62faaeb7d718d1f13c878.deb
+Size: 133520
+MD5sum: 05ae8f72af541c039f1a36ce2bd43704
+SHA1: eaeecbdf08815403ad99226771cebf904fd738c4
+SHA256: 82b9fbfd25229f3772fc3d3b7380b0d93d715967ecb62faaeb7d718d1f13c878
+SHA512: 883b083240bc54abf24e4723997a08ad9a72c826dabcbcb9643565b6a798af3917f739b27d5bdb9ccaa860392388771e90fcdaf052eda00ea095435e5e791014
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64e
+Version: 0.2.32-2+debug
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 1168
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx_0.2.32-2+debug_iphoneos-arm64e_649f8acd50a8db744a68470d23931becbeed8eb8b3065510732ae7ebd545b74f.deb
+Size: 137752
+MD5sum: e1d6937615ff528dd39ff1aca0ec3ea9
+SHA1: 2de8be90d19492e040477d4281869c700b5140b7
+SHA256: 649f8acd50a8db744a68470d23931becbeed8eb8b3065510732ae7ebd545b74f
+SHA512: 898b3a43f8ba602ebaaefe51033299fd58231f4d57caff6be725ccd7cba2d4edd1fb30b445a71765dc848e606e59d2f664e37e58f7b070c7850c1dbe38b53e91
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64e
+Version: 0.2.62
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 1928
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx_0.2.62_iphoneos-arm64e_708b5c0939b7b1179d6189bd9f561c238e5bb3baaa3f48a7950874770bf5eece.deb
+Size: 491956
+MD5sum: 0f4a9cb3b5285aaa4baae2bb91ec4deb
+SHA1: f6c4f705a46dd0cc57d6e4192acf2727b38d7e14
+SHA256: 708b5c0939b7b1179d6189bd9f561c238e5bb3baaa3f48a7950874770bf5eece
+SHA512: 40ff1c65940ec17c30f20fbe47125010ce418e699bd483767538720674c95e40d2d848977d66c7ddf6d7f8d69dff3c31a610e23dcb3242b60a6fa0202095790a
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64e
+Version: 0.2.67
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 1944
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx_0.2.67_iphoneos-arm64e_bd0fab523553feb26db2ce18f24853222a777fdbcf2a0c454875f68893f32e03.deb
+Size: 498160
+MD5sum: 08b47795edae60f024e8d6d4d5b4f8e2
+SHA1: c5de5ebd06682901926224ea2b73c69ff8450578
+SHA256: bd0fab523553feb26db2ce18f24853222a777fdbcf2a0c454875f68893f32e03
+SHA512: 241154c04d27f50179b5e57e1649bf907fe704ea2913349d5cca639530e2b1cb3545b8d1a87e38f3b3c38376288619e5e767a569126610a31d9625ed765c295a
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64e
+Version: 0.2.68
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 1944
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx_0.2.68_iphoneos-arm64e_df50266f37aec3441306191a22e3961e053babb306e590949833e937e15ac5e5.deb
+Size: 504640
+MD5sum: 27a165b6dd8f497b52b6aeac19714eca
+SHA1: 96765cdd5ef3184c579356ab45f12e6998a5e386
+SHA256: df50266f37aec3441306191a22e3961e053babb306e590949833e937e15ac5e5
+SHA512: 5bb006b7795759b040a354e17b7ebf26e410244f9d0036436d4b97dc48510562c6d184d8e65be144fd8e09b115c0dfc3117b24aeb69fb2b3474450f56ae76595
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64e
+Version: 0.2.68-1
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 2008
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx_0.2.68-1_iphoneos-arm64e_04862a43594b8f7d6205a4b7827b1c61d92550fb792658e41a62eac357238c37.deb
+Size: 519304
+MD5sum: 2e7f0b75b69c9072fa17cffd2e8729a2
+SHA1: 74f757351220d81da1c8d9da33b852ff9714e802
+SHA256: 04862a43594b8f7d6205a4b7827b1c61d92550fb792658e41a62eac357238c37
+SHA512: 8cb2dec7eb6548d141b0c29d1ca1fcb2f512e2f846c37705b94d501d50cea14f673f4adcb2dd3fe552f1621ce51e69a39c6f1b640b634c146ccb1662e4240335
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64e
+Version: 0.2.69
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 3024
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx_0.2.69_iphoneos-arm64e_9e8ae843b2a951e1daaaff290f6f8d7b1f4679c0c829f701bcb08411932d4a29.deb
+Size: 727700
+MD5sum: 595b8944010865f368d296513ae9f037
+SHA1: 7136b2593bfd4d429567975b6b4b61c9516ef043
+SHA256: 9e8ae843b2a951e1daaaff290f6f8d7b1f4679c0c829f701bcb08411932d4a29
+SHA512: 818df19b9520d6bf30c11e3d431d2f68be9482354a2d1ea52418b8f9b5a0931d649510a7aa73cfbc4c83b6cee704bfb6785e7620fccfaca68c306d34a4552816
+Description: 点击底部小白条逐级返回，到app最顶层就会返回桌面，新增学习返回模式，视觉返回保留。; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64e
+Version: 0.2.70
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 3428
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx_0.2.70_iphoneos-arm64e_b90d39a16183cdbd2ea894ac58d78c9def15f80cbead0f3fb838f1d8ce2da995.deb
+Size: 828516
+MD5sum: 658adde915fe0c881f2750894b5055d5
+SHA1: 22293d9830f76dd2500a119b2eff1d32cdcaefaa
+SHA256: b90d39a16183cdbd2ea894ac58d78c9def15f80cbead0f3fb838f1d8ce2da995
+SHA512: ace52475d5527c9357158f6beea4008c65eda01e4403dca69f6c775de7a94dff722fa5ab4ffec270f80beb7b07f6b0f701baf1dac178fe16f2ac493c5ec0db45
+Description: 点击底部小白条逐级返回，到app最顶层就会返回桌面，新增学习返回模式，视觉返回保留。; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64e
+Version: 0.2.71
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 3044
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx_0.2.71_iphoneos-arm64e_916a8c941a847642c1515cf66f7b0893fdba265aa168fb3b9139a944a2c788b1.deb
+Size: 729596
+MD5sum: f0a813eac691392dea8566bce92e95aa
+SHA1: 32d8349ca8ac927aeeb72ae5df333b24bba2ffef
+SHA256: 916a8c941a847642c1515cf66f7b0893fdba265aa168fb3b9139a944a2c788b1
+SHA512: e5b7fe2bd8eb6b6fad0492e4c6d684469796d362dff10566a94232bbf568d877c294efa800d39870f1308fd3cfb11207951604a0c4ce053f5ca0acd1bcb382e8
+Description: 点击底部小白条逐级返回，到app最顶层就会返回桌面，新增学习返回模式，视觉返回保留。; 感兴趣可以加 QQ 群 2059 28931
+Name: Bottom-x
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 3044
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 17.0), firmware (<< 18.0)
+Conflicts: com.colorblack.bottomx
+Replaces: com.colorblack.bottomx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx_1.0_iphoneos-arm64e_45c9b5e466589b6bb37a2af36902dfd3bccf4144062af7d6d9c19e6df4baaa7a.deb
+Size: 730728
+MD5sum: 375ce09dfaf03e00ccfc38ed972f8c0b
+SHA1: 1da8c833b0c2de96a0d950a1a7aff15c0ff5332a
+SHA256: 45c9b5e466589b6bb37a2af36902dfd3bccf4144062af7d6d9c19e6df4baaa7a
+SHA512: 16ceb3a3559e649310399263ed0163319b35d25dedc27dc81cdbedb2f953985a3c12e2f3cfef928ff263886fc52f97860d14cf882058617f6a7d70038414e095
+Description: Bottom-x iOS 17 专用版，兼容 Relaxin RootHide；点击底部小白条逐级返回，到 App 最顶层返回桌面，保留学习返回与视觉返回。; QQ 群 2059 28931
+Name: Bottom-x iOS17 Relaxin
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.51
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1048
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.51_iphoneos-arm64_27103215f41ec0391f9066ad4d6f54d6684acf65cc9105039f4bde5946eec8e5.deb
+Size: 401656
+MD5sum: 0e6d2a6c36475c7675459d7a522e9e89
+SHA1: 78277b47049b1da03c7a0a368a55a9a0b119ce1e
+SHA256: 27103215f41ec0391f9066ad4d6f54d6684acf65cc9105039f4bde5946eec8e5
+SHA512: e82affee14fda835e0b685f7824f034e3a9c82a6eb50fe2bcbf25ff2106c52129613d98d9f76ab2a4ca36a676407c341c39ddf8f31318c7344d6b9c4eac61ae0
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.51 兼容更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 仅前台 App 显示一个球，跨 App 记忆位置，桌面和设置隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 按视频恢复贴边青蓝柔光与慢速流动，点击光效缩小至约 1.7 倍球直径
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.56
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1052
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.56_iphoneos-arm64_707a69bcd3311965d1b1a212460e4585307dc58ebb4a0e6897fdc87d49daeb5a.deb
+Size: 406712
+MD5sum: de66e89319bb71288c27b943818c6128
+SHA1: a4c2fc3f40d2ad2efa4c11372332b004c372fd58
+SHA256: 707a69bcd3311965d1b1a212460e4585307dc58ebb4a0e6897fdc87d49daeb5a
+SHA512: 511528366c2fb8f4ae3201614d4d0b0cacf3d5d68a7cd657be27eb1a346ebba215c9557060b3dc15b03cfa7af742ce267e5eb1e25ecd2160005cb2040b549cc8
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.53 设置与分屏更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.59
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1084
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.59_iphoneos-arm64_1dba6c831bcc79d0a37345b86e1da3209edc6de105967bff1749035e96e8191f.deb
+Size: 413004
+MD5sum: 483df3d5dc22ecd4539232e1968f4b9a
+SHA1: 8adfa3283d97bebb906a688d6db3036402fe879d
+SHA256: 1dba6c831bcc79d0a37345b86e1da3209edc6de105967bff1749035e96e8191f
+SHA512: ff11643909add654f987ccac0fd00f31b6b154d01609a56dca1d7207cbb3c52c221375dbe9a2b2cf1fb23869237f55eebb35c2b241fd49fa61eebd06468199b5
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.59 SmartDeck Home】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.37
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 804
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 17.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.37_iphoneos-arm64e_7595d84f318c2387db7cb1dddd2d6265af51d81b20566575b6554150b7aff723.deb
+Size: 403696
+MD5sum: 91fcdcaf1d4c40983886056d5c51a36c
+SHA1: 5cceade3390cdf82e7596ba12bb57fffee09c185
+SHA256: 7595d84f318c2387db7cb1dddd2d6265af51d81b20566575b6554150b7aff723
+SHA512: 9b14b1a85805296fb5e2c0256388cbcfebbaed15052b728eaaf28eb82362ad4afa79bc90650fb19d951c6efd0843249da9e60eef15dd0b119f2369798430a892
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动淡回低透明度，不遮挡界面
+ - 内置哆啦A梦圆形图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【已知问题】
+ - 桌面悬浮球暂无法去除（透明度已调至很低，基本不影响使用，有强迫症者请谨慎安装）
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.51
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1048
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.51_iphoneos-arm64e_e938dfd88f44b2c72f8cb6b6c153b1fd818a4b5e8ad7db24897b2cd9738ffcd0.deb
+Size: 401996
+MD5sum: ecf87b3ee169c1082b7b8606a9c69f06
+SHA1: 053aa40ba96a2ede871d4316bffdc323836f45ac
+SHA256: e938dfd88f44b2c72f8cb6b6c153b1fd818a4b5e8ad7db24897b2cd9738ffcd0
+SHA512: fcaaf8076407f31b9737c726a9030ca1611269f88e6d4af74d7adda77b0b8112e7a2389ab21e12254415f123e76cf456db4014d3c38dd478c7b0b63431047f32
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.51 兼容更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 仅前台 App 显示一个球，跨 App 记忆位置，桌面和设置隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 按视频恢复贴边青蓝柔光与慢速流动，点击光效缩小至约 1.7 倍球直径
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.56
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1052
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.56_iphoneos-arm64e_cb48439118b62a81134d176f45bdf66fb2114a3b39d7ac4e8b00fe56fafda8f3.deb
+Size: 407016
+MD5sum: e7ca239dce1f405f37cad3c05c679e6e
+SHA1: b408edd59a2e784bcac78a3739c576cc987fd7e3
+SHA256: cb48439118b62a81134d176f45bdf66fb2114a3b39d7ac4e8b00fe56fafda8f3
+SHA512: 103fa6fd14121d4f07423d676e00c6ac9df96f691eac65299fe60bb2bcc63196a4a900f7823ae77c5f759521103a7b259c4582cc2e2b0b3e27c27b102a7dd17b
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.53 设置与分屏更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.59
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1084
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.59_iphoneos-arm64e_d0b1def03da9c9198de2e40de65f05c2ffe3bc1d953fcdb95371d48941861dc9.deb
+Size: 413280
+MD5sum: fb33eae2f12ba8ea6923a3e2a65a9fa7
+SHA1: 5f1b0309898a187c4e0560fe6335bc2f80e603b3
+SHA256: d0b1def03da9c9198de2e40de65f05c2ffe3bc1d953fcdb95371d48941861dc9
+SHA512: bdbfe6a499226383b1a17af896bd8fcfd63e4e53b55e0c11b2eb74de14bfbe8f2803186965376b76d28b66bdefa452107400539c7109ca4a58bb2a4a1e8d6206
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.59 SmartDeck Home】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.ios17
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Color Black
+Installed-Size: 3044
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 17.0), firmware (<< 18.0)
+Conflicts: com.colorblack.bottomx
+Replaces: com.colorblack.bottomx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.ios17_1.0_iphoneos-arm64e_4e67f96b4bca7e781f99b291edeb0c897c6c7545dd9c01f584ef3ba3824a38df.deb
+Size: 730024
+MD5sum: dd4550106fe9108506d15630b7dc65b2
+SHA1: 901c4503273cc78f752be4fb5609d7187687de07
+SHA256: 4e67f96b4bca7e781f99b291edeb0c897c6c7545dd9c01f584ef3ba3824a38df
+SHA512: da277b24c2435a35c6174fde4ac0a5bfa60ed3ab24660bf85f86b6fe6157b7cc3bb1df1e46a4817e3329cc3b0804fe4c10809990b1a2bd962b316076758e45a0
+Description: Bottom-x iOS 17 专用版，兼容 Relaxin RootHide；点击底部小白条逐级返回，到 App 最顶层返回桌面，保留学习返回与视觉返回。; QQ 群 2059 28931
+Name: Bottom-x iOS17 Relaxin
+Author: Color Black
+icon: https://huayuarc.github.io/icon/Bottom.png
+
+Package: com.colorblack.dongchedinoad
+Architecture: iphoneos-arm64
+Version: 1.0.0-4+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.dongchedinoad_1.0.0-4+debug_iphoneos-arm64_a10e989520e2683bdd8894247f2b1dd3b4107ec06ab62c44a42e749a679034e8.deb
+Size: 4980
+MD5sum: cf5ae47b6ffdfa0644700e2314df61b8
+SHA1: 35bc1db04d695d5408e12833bb780430cc52c3c7
+SHA256: a10e989520e2683bdd8894247f2b1dd3b4107ec06ab62c44a42e749a679034e8
+SHA512: 039141dfdf68ff098f699395c3b42b3e79daac6ca89ba7d29e62e6d412219bcdaae970ab238711b05f057fdba66e3171b47c547bac941cff025ea0b3baaeffa8
+Description: 移除懂车帝启动开屏广告。适配 RootHide 隐根环境。
+Name: Dongchedi-NoAd
+Author: colorblack
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.colorblack.dongchedinoad
+Architecture: iphoneos-arm64e
+Version: 1.0.0-3+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.dongchedinoad_1.0.0-3+debug_iphoneos-arm64e_f2e3c6b786d9725e1c38852934d4afff64f18a77b1c612f1dcc3079d4361bd64.deb
+Size: 4900
+MD5sum: f1a8f2ef57bb4e5529eed7b6092be421
+SHA1: 3cc89d2814f983f5b230c3fc22f0491a72db30bb
+SHA256: f2e3c6b786d9725e1c38852934d4afff64f18a77b1c612f1dcc3079d4361bd64
+SHA512: 99faff021b71f4407ecf786a3d5313fb6c53be0476acba928a02fb83ae900ed97f4f206e559966ddca4c186ccf6d12bcf676b62fc26dd8f4cd67551c32f4313d
+Description: 移除懂车帝启动开屏广告。适配 RootHide 隐根环境。
+Name: 懂车帝去开屏广告
+Author: colorblack
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.colorblack.kiwinoad
+Architecture: iphoneos-arm64
+Version: 1.0.0-2+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.kiwinoad_1.0.0-2+debug_iphoneos-arm64_ca239f44bf026e61dd503d46f693c5a646d2c9e0597fccd8d1feca7c44d3724f.deb
+Size: 6268
+MD5sum: 850026d7bd75be9584de3f81012f51f8
+SHA1: ffc5f68d3e1c3c6a3a6398ca9a7158c22491f501
+SHA256: ca239f44bf026e61dd503d46f693c5a646d2c9e0597fccd8d1feca7c44d3724f
+SHA512: ec25183f367de56fd5132a09a186dbbb55b30263606255b007eb6bb0a429a6b59c737fd783e5b6f7f61074c25a86e3a389eaec98e994d2d1aba6d9935b9e3f6d
+Description: Disable Splash Ads in Huya.
+Name: KiwiNoAd
+Author: colorblack
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.colorblack.kiwinoad
+Architecture: iphoneos-arm64e
+Version: 1.0.0-1+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.kiwinoad_1.0.0-1+debug_iphoneos-arm64e_977e4631fcd25616c8ac5763c5496e97f989c5ea5099b9ef98c81762e5c2de4c.deb
+Size: 6208
+MD5sum: 4dbac87186c3a64238ad81dbce0ecf99
+SHA1: 901eaa8940046954141e06e01b2bece4bb9b4b89
+SHA256: 977e4631fcd25616c8ac5763c5496e97f989c5ea5099b9ef98c81762e5c2de4c
+SHA512: b6ebdbe82379770a04d9e6e06f1782e62b7740eadf521e500cd46fbbfa6e908a3cb0a6edbcf6c77f3aeee474a2d54df8fc035fda8a0aba2508dae5abc1102f5d
+Description: Disable Splash Ads in Huya.
+Name: KiwiNoAd
+Author: colorblack
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.colorblack.liantongzhijianoad
+Architecture: iphoneos-arm64
+Version: 1.0.0-5+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.liantongzhijianoad_1.0.0-5+debug_iphoneos-arm64_39358adc2cfcf9f8dfd8ac973859b60f8c9e90f5e521e85dff9b72d008c1d06f.deb
+Size: 6076
+MD5sum: 18b9ef95a4b3bbec7b3c30c520849f24
+SHA1: e314953939f897b7cb3cc7949b728158073d9e44
+SHA256: 39358adc2cfcf9f8dfd8ac973859b60f8c9e90f5e521e85dff9b72d008c1d06f
+SHA512: b059458facae3658ee4609fed62e14c1ec97a50a1f301c23855845bf9a941ea5be70ecbfc8f124044a96b5d36088f38722366ea4665e8110d3ddb6e30c0f413d
+Description: 移除联通智家启动开屏广告。适配 RootHide 环境。
+Name: Liantongzhijia-NoAd
+Author: colorblack
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.colorblack.liantongzhijianoad
+Architecture: iphoneos-arm64e
+Version: 1.0.0-4+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.liantongzhijianoad_1.0.0-4+debug_iphoneos-arm64e_cae87711027a435147f0f7a101a59bf76ac4c762c091f2e85ab0fe3a9f1bab41.deb
+Size: 6004
+MD5sum: 31e6cdc4dbcae7b98df8d1340bd111e0
+SHA1: dc282670e9160091556a8f42260f20c9909f6c79
+SHA256: cae87711027a435147f0f7a101a59bf76ac4c762c091f2e85ab0fe3a9f1bab41
+SHA512: 988d29c2c41078d774e26ab1d2947f2ee6495d4e1dfa90a542522aea77439913b2c41bfe858d1ea1ff5fd89d8e37e8606c3d05d23af7fde1bc47abb2e395a2d4
+Description: 移除联通智家启动开屏广告。适配 RootHide 环境。
+Name: Liantongzhijia-NoAd
+Author: colorblack
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.colorblack.pan123noads
+Architecture: iphoneos-arm64
+Version: 1.0.17-1+debug
+Section: Tweaks
+Maintainer: ColorBlack
+Installed-Size: 532
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.pan123noads_1.0.17-1+debug_iphoneos-arm64_81c507a199a825fe2cfae872b324a9041a8c9d5a1e660a2da16c7760be003fd3.deb
+Size: 69784
+MD5sum: 742a90258e2e8d4d4443d48614105ae6
+SHA1: 9e630f56e36b921dafe21aa31534783cfa097b65
+SHA256: 81c507a199a825fe2cfae872b324a9041a8c9d5a1e660a2da16c7760be003fd3
+SHA512: d2a908dc62e14a1034f743753afb67a3e396627bb04bb04d19c03632e1d52050afad87061865d33ac1ae4ab4baffec94552122b3364e184d118c2a259aac7b20
+Description: 移除123盘启动广告及一些内置广告弹窗等   QQ 群：205928931
+Name: 123PanNoAds
+Author: ColorBlack
+Icon: https://huayuarc.github.io/icon/123.jpg
+
+Package: com.colorblack.pan123noads
+Architecture: iphoneos-arm64e
+Version: 1.0.17-2+debug
+Section: Tweaks
+Maintainer: ColorBlack
+Installed-Size: 532
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.pan123noads_1.0.17-2+debug_iphoneos-arm64e_a5778568699223742e4f6656ff68055790397348965d1a8dc75766bc40df9c00.deb
+Size: 69076
+MD5sum: 7d5bf3cda3033e6cf801110da8d37998
+SHA1: c84fe521728c752ec40fec09c22a4ac8220a3ef5
+SHA256: a5778568699223742e4f6656ff68055790397348965d1a8dc75766bc40df9c00
+SHA512: 1a9d4fe163c3aafc62d05c5e388984b7108cfc5d346f033c51114a3672cc7f78be03ef5ff54c90c0b7381cdc0084ef6f078380592a3ccb0732a8979ebf4efc8e
+Description: 移除123盘启动广告及一些内置广告弹窗等   QQ 群：205928931
+Name: 123PanNoAds
+Author: ColorBlack
+Icon: https://huayuarc.github.io/icon/123.jpg
+
+Package: com.colorblack.shouji360noad
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.shouji360noad_0.0.3_iphoneos-arm64_5d73901f14335abb6ad17f6d3ace69b5403bbe4fcab027ced06c74b1182da024.deb
+Size: 23304
+MD5sum: 5295df65e6d322fa69ed926739dc6513
+SHA1: 1f3f03ccf84c096a556024cffa6208ef69934f80
+SHA256: 5d73901f14335abb6ad17f6d3ace69b5403bbe4fcab027ced06c74b1182da024
+SHA512: b303552a0ccb34147a06fa58182416137677f946f0df4c1e5a09304987e66a460d6aa56185ef3e8164e519cf12d2c06ee2c0734dcffcc67c09cf69dd59e462f0
+Description: 去掉 360 手机卫士开屏广告、首页广告位和一些不必要的天气及其他模块，保留了主要功能。 QQ群 205928931
+Name: 360Shouji-NoAd
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/360.jpg
+
+Package: com.colorblack.shouji360noad
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.shouji360noad_0.0.3_iphoneos-arm64e_c876d4f232cf834a2f735d121e819b14789eddcd707f80976c0918841a6a3d68.deb
+Size: 23084
+MD5sum: fb56acd1546faca02d7c840575fc4370
+SHA1: f2cafc98f98b5bbca2f3a3009c99f99c1e2743d5
+SHA256: c876d4f232cf834a2f735d121e819b14789eddcd707f80976c0918841a6a3d68
+SHA512: f621fefa171d0bdaad62249d5dc42d0d47956e9ae4d6bb311ee24fd30eee6ee754bca5e744c38857b724fb627ed194aabc0b7bd2baac4a05b8bdbe2a6676948f
+Description: 去掉 360 手机卫士开屏广告、首页广告位和一些不必要的天气及其他模块，保留了主要功能。 QQ群 205928931
+Name: 360Shouji-NoAd
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/360.jpg
+
+Package: com.colorblack.tencentguanjia.nosplash
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.tencentguanjia.nosplash_1.0.3_iphoneos-arm64_ba9f67de5ffd0fb5c35207db848c9bccc02b46f2150cf6dcdfe33b1504c6421f.deb
+Size: 9820
+MD5sum: fdc181f3222c422e62c7e7d46013b80e
+SHA1: 6fbed07ebd781cd9caa67d35bd2ea7043b27e7a8
+SHA256: ba9f67de5ffd0fb5c35207db848c9bccc02b46f2150cf6dcdfe33b1504c6421f
+SHA512: 27af682b5ed470c6f78cb0971ab7b4fa8d503d7766a32a5d31ea1ffcf93243999aa73b7248b9c4faebe5a53ca7783b04862be0c5b7fc008cd911a2bd5b3ede90
+Description: 去除腾讯手机管家开屏广告
+Name: TencentGuanjia-NoSplash
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/tenxun.jpg
+
+Package: com.colorblack.tencentguanjia.nosplash
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.tencentguanjia.nosplash_1.0.3_iphoneos-arm64e_a750adfca910a43cf8404ff3b8cc832127b17207b5a137884f04e1aede2f3d52.deb
+Size: 9732
+MD5sum: bde12d03656eed74e093236a438f32c1
+SHA1: 3c948b19d444823353f4ffdaa8c165e6dbeb1de9
+SHA256: a750adfca910a43cf8404ff3b8cc832127b17207b5a137884f04e1aede2f3d52
+SHA512: 5ec2c8e73a1dfcf7cb1a4e3d9e3948f48b1d5bd8269404b96ce85a40695c6bec108ba270b0587894732ef8d76d3f29db4425c15009f2e55fb7a6f61ea420353f
+Description: 去除腾讯手机管家开屏广告
+Name: TencentGuanjia-NoSplash
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/tenxun.jpg
+
+Package: com.colorblack.wetypecolorgoogle
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 128
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.wetypecolorgoogle_1.1.2_iphoneos-arm64_352c65a8d3fdea437564d24d5098044ff8776782517bae901cfb166582550c03.deb
+Size: 26340
+MD5sum: a768a8a73b8140fa4641c1b705eb2bd5
+SHA1: ee6c61fe7e9e12142189da8799df94dd7a338171
+SHA256: 352c65a8d3fdea437564d24d5098044ff8776782517bae901cfb166582550c03
+SHA512: 9d86be3b0631cb7db138ca66dc8216dca23be5c209c948f8e9af3a1247deedc52f18871567e29d5d74f100143fa451d2c2d195d10fcae8348f2843c703207638
+Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
+Name: 微信输入法_Google配色
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
+
+Package: com.colorblack.wetypecolorgoogle
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.wetypecolorgoogle_1.1.3_iphoneos-arm64_efddc313b22cd4ba0bbc2504d0b83c6541ee4724902d7ba08d1b29bbceea1cd3.deb
+Size: 28648
+MD5sum: ab78f10c44cb397def569c6891a4e6c2
+SHA1: 0baa011b26571322dee85165c601a8373030a8db
+SHA256: efddc313b22cd4ba0bbc2504d0b83c6541ee4724902d7ba08d1b29bbceea1cd3
+SHA512: 57e52bbd2935cf874b5d3962ba5f6c28a8eb3a4d438a2960eb866d650cbb455bcafad5682b9c52980e534d441637ada6e081a2072a21c88c751010e848bc170c
+Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
+Name: 微信输入法_Google配色
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
+
+Package: com.colorblack.wetypecolorgoogle
+Architecture: iphoneos-arm64
+Version: 1.1.4
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.wetypecolorgoogle_1.1.4_iphoneos-arm64_4e8ba76f653133ca4473b031f5b28d4b35e4391c940089b1dd1c5f823c162079.deb
+Size: 29000
+MD5sum: d7b86520a73b38cbbdc452486d09459b
+SHA1: bb1b6720d139ab328c94bc3a1ef77aa847a1a80f
+SHA256: 4e8ba76f653133ca4473b031f5b28d4b35e4391c940089b1dd1c5f823c162079
+SHA512: 3a1ee38964ceaca0e1ae28a7cb8982ef06c6a60b548aa47f5b7b3a1ecf043a8a6f15c5ebe54270d4c65c2eeda5e1860fccef3469ffe4cb371ab4596e045cde5a
+Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
+Name: 微信输入法_Google配色
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
+
+Package: com.colorblack.wetypecolorgoogle
+Architecture: iphoneos-arm64
+Version: 1.1.5
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.wetypecolorgoogle_1.1.5_iphoneos-arm64_4afb31a4cb910a47247640d9096a3af7c272c66d23972a7b77dbb71d81b5dcda.deb
+Size: 30316
+MD5sum: 7b3455767bbb7c1e93c4cb8fa675c6f3
+SHA1: 1e1cf95bff69c8d1c78401de8b3eb7a5b479f87f
+SHA256: 4afb31a4cb910a47247640d9096a3af7c272c66d23972a7b77dbb71d81b5dcda
+SHA512: c421a629ee698ef8ed0e734e6776fcaa53cfb0d4d60695329e6e6d5bbd7a38faec7d7d03384076a303d13e67f1f44be3a859e8a6c23006043f335cfe07bccef3
+Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
+Name: 微信输入法_Google配色
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
+
+Package: com.colorblack.wetypecolorgoogle
+Architecture: iphoneos-arm64e
+Version: 1.1.2
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 128
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.wetypecolorgoogle_1.1.2_iphoneos-arm64e_6e1c91d0a646aa10bec7499c2fb4f5d42ae3b49011226aff66f74009fe2a3357.deb
+Size: 26544
+MD5sum: dca633a4f94d4be891c3f22edf7d4f40
+SHA1: 14c8dc343f9b86f582184ddcab3cd9570faf6704
+SHA256: 6e1c91d0a646aa10bec7499c2fb4f5d42ae3b49011226aff66f74009fe2a3357
+SHA512: edec58d4f29650f59790261a787cdff9658f9cc6308524a66aff59741fbc6898dfa8c5ecd09aa0060ff5745ebdc70f35e07cce8730c67a3a97e29f0ede5efd37
+Description: 微信输入法 Google 风格毛玻璃键盘配色 Roothide 版，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
+Name: 微信输入法_Google配色
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
+
+Package: com.colorblack.wetypecolorgoogle
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.wetypecolorgoogle_1.1.3_iphoneos-arm64e_1c8f5dedc15cd07d3f279d5fd5d2258dd97be3cd66bda0f1a9b43e123d7225e7.deb
+Size: 28888
+MD5sum: 5f5f07f75cebf3bc49a2ff767f6dee9c
+SHA1: 0c4350dc8ca600d77ebe161b37ddf4e5e32e160e
+SHA256: 1c8f5dedc15cd07d3f279d5fd5d2258dd97be3cd66bda0f1a9b43e123d7225e7
+SHA512: 6cc2e4deb20eb62eee27de11307f20070ff263811030a5eb9810e88e54b39a7618547314f070435625c20565f25ef6d981715c40fd50e3deaf901f66c0e38a03
+Description: 微信输入法 Google 风格毛玻璃键盘配色 Roothide 版，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
+Name: 微信输入法_Google配色
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
+
+Package: com.colorblack.wetypecolorgoogle
+Architecture: iphoneos-arm64e
+Version: 1.1.4
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.wetypecolorgoogle_1.1.4_iphoneos-arm64e_fb4e65033c5b028dc8864d9d0b2ee4708778ece3355e23b696544598d84a0d7c.deb
+Size: 29416
+MD5sum: 29bf9e1c4504783c34fa5d2c3bf2aa6d
+SHA1: e72747ff1a84d61e2789c1a756d5302188783163
+SHA256: fb4e65033c5b028dc8864d9d0b2ee4708778ece3355e23b696544598d84a0d7c
+SHA512: ecdb2fb8ef14f952d25e3886bd6e3cc6e1b34141aa7041af3cc3fd295f8df0afe756642d1cec8f2f24788e467c33fd911100ff9ac670f1d3d470cd8386490295
+Description: 微信输入法 Google 风格毛玻璃键盘配色 Roothide 版，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
+Name: 微信输入法_Google配色
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
+
+Package: com.colorblack.wetypecolorgoogle
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.wetypecolorgoogle_1.1.5_iphoneos-arm64e_9e3d41c2fc72c2f9557198cba61b701e71551fc3ea0fcebf0f5e0c89fcd2b58c.deb
+Size: 30556
+MD5sum: dc0ec8d23f9621c882f442efd0ccadc1
+SHA1: 808e9f05cce9ecb5e8f3aeb96b712bb745dd2578
+SHA256: 9e3d41c2fc72c2f9557198cba61b701e71551fc3ea0fcebf0f5e0c89fcd2b58c
+SHA512: 7524660d61cfeafbd3475cb71d2b20d3beb691279c8b23483ead763afced68f809992f5d6d821e78f52dd772eb11b585748d0768a548aad498eb360f147dbd02
+Description: 微信输入法 Google 风格毛玻璃键盘配色 Roothide 版，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
+Name: 微信输入法_Google配色
+Author: colorblack
+Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
+
+Package: com.colorblack.xbnoads
+Architecture: iphoneos-arm64
+Version: 1.15.0
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.xbnoads_1.15.0_iphoneos-arm64_90252dc10c0b8e3a94e0a952e60559a936d4fc0204f1875ec0ba49b3abfdf793.deb
+Size: 29968
+MD5sum: 4b7bcb3cb3d031a17a8247699417b8a9
+SHA1: 8f6b9e25d56f3a1b15e79e911f88a9c77ced65aa
+SHA256: 90252dc10c0b8e3a94e0a952e60559a936d4fc0204f1875ec0ba49b3abfdf793
+SHA512: 02b0ea1e65168647806ff44bfb25cbed9274ec5a5179e3cc305151ba8f7e577f499185e878fd3ad96434743132e9fb4db220904a25863569a1aaffda5eb17670
+Description: 小白学习打印 4.45.0 去开屏、首页广告、升级/活动弹窗及页面推广； 关闭原生开屏加载完成后的无需额外等待。软件广告有些毒瘤，QQ群：205928931
+Name: 小白学习打印 NoAds
+Author: colorblack
+icon: https://huayuarc.github.io/icon/xbnoads.jpg
+
+Package: com.colorblack.xbnoads
+Architecture: iphoneos-arm64e
+Version: 1.15.0
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.xbnoads_1.15.0_iphoneos-arm64e_a977e3482e5c36add7d5d1862e2d1f89557775f915860dca65bba5187f66b2d1.deb
+Size: 29900
+MD5sum: 9399bdcb98b962088aac62cea9504a74
+SHA1: 5ef15b4c353f80c8a23fcad558e40c5232ae4d65
+SHA256: a977e3482e5c36add7d5d1862e2d1f89557775f915860dca65bba5187f66b2d1
+SHA512: 755c10ecc835eb114c83cbc6a81879c469e21728195db036900d70cdaa42f4e7ee1b11949fa6eb15bdccc6dbe4b479b06e788f71e46ac92696f45b68e1a91610
+Description: 小白学习打印 4.45.0 去开屏、首页广告、升级/活动弹窗及页面推广； 关闭原生开屏加载完成后的无需额外等待。软件广告有些毒瘤，QQ群：205928931
+Name: 小白学习打印 NoAds
+Author: colorblack
+icon: https://huayuarc.github.io/icon/xbnoads.jpg
+
+Package: com.colorblack.xcfnoad
+Architecture: iphoneos-arm64
+Version: 1.0.0-9+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 176
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.xcfnoad_1.0.0-9+debug_iphoneos-arm64_a72251a6e4679dea71b187fef87a0700959a73a0e4f998102412d25de75aa09b.deb
+Size: 7224
+MD5sum: fa01e5d7032ec3b5fa00e5ff1c15998d
+SHA1: 5c5f131ced058171cf585fbfa292d404ee0e397b
+SHA256: a72251a6e4679dea71b187fef87a0700959a73a0e4f998102412d25de75aa09b
+SHA512: 9f1b67b47d712391df19e5ff43ec15c905ed9f3b3c424483ca41ae9ecb529cd0f926e9047cc0bc566dd61727badeac56fd448c685cc83103ac24b09e4af62102
+Description: Disable Splash Ads in Xiachufang.
+Name: XCFNoAd
+Author: colorblack
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.colorblack.xcfnoad
+Architecture: iphoneos-arm64e
+Version: 1.0.0-8+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 176
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.xcfnoad_1.0.0-8+debug_iphoneos-arm64e_99bbb3633268885c7af1954fccd9fb751d13704fa69b0a10c3a60bfce5d33ad0.deb
+Size: 7152
+MD5sum: fcc965ff030fcf61e9332d16a42352e2
+SHA1: d0e32791cae8691e09082699b4e3b56ffa04a06b
+SHA256: 99bbb3633268885c7af1954fccd9fb751d13704fa69b0a10c3a60bfce5d33ad0
+SHA512: 4aa9d997a77f6c2365ac27a8322000b25a3768e7692d1ddb4d9fc940cff308628bafd9fa0c270886e0ddc61e39db820323f9c762104aec6a4019bbe51abe32e8
+Description: Disable Splash Ads in Xiachufang.
+Name: XCFNoAd
+Author: colorblack
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.colorblack.xiaoxiongyouhao.nosplashad
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.xiaoxiongyouhao.nosplashad_1.0.0_iphoneos-arm64_3e5c472cb5cc1089823c66f803f74822d8213f9d8237abec718d1e759ffbb517.deb
+Size: 9876
+MD5sum: a46e87aeceb04dae5a1061062ac0d39e
+SHA1: d3637421315a96e98982e7502ef6aa262647b26f
+SHA256: 3e5c472cb5cc1089823c66f803f74822d8213f9d8237abec718d1e759ffbb517
+SHA512: 70cdd633b0098bf3077c086605df54352bcc30f2d4d34599339bc68cbf1b2f186489fa0361c4e8f8438a0f40bd2e2eca5e01bad7cd59276e24c0f93f3be8b145
+Description: 移除小熊油耗启动开屏广告，测试版本号 3.8.3 感兴趣可加 QQ群：205928931
+Name: 小熊油耗 NoAd
+Author: colorblack
+icon: https://huayuarc.github.io/icon/xiaoxiongyouhao.jpg
+
+Package: com.colorblack.xiaoxiongyouhao.nosplashad
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.xiaoxiongyouhao.nosplashad_1.0.0_iphoneos-arm64e_1bb9649e19997b77d62dbf12370c424fbb4b7ca70aeda5ae481c905efb784799.deb
+Size: 9804
+MD5sum: fbad9ba2abe8bf46066803d251625ca0
+SHA1: 655a1e87e158dc5111bda2d93db4358b8243311b
+SHA256: 1bb9649e19997b77d62dbf12370c424fbb4b7ca70aeda5ae481c905efb784799
+SHA512: 2c4d219c4ae870700f65158fbd62820d806e54bae1c646d2b0a382e646bed126f24f7117a8a0fd4f58ab98495d699252b48990d87a63f5c922049fa86c34a07f
+Description: 移除小熊油耗启动开屏广告，测试版本号 3.8.3 感兴趣可加 QQ群：205928931
+Name: 小熊油耗 NoAd
+Author: colorblack
+icon: https://huayuarc.github.io/icon/xiaoxiongyouhao.jpg
+
+Package: com.colorblack.youdaoyunbiji
+Architecture: iphoneos-arm64
+Version: 0.0.1-11+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.youdaoyunbiji_0.0.1-11+debug_iphoneos-arm64_5e1219bf7e56b21ebd2079d948071827a6ced8ff8f16eeb6984b54662c0b61b5.deb
+Size: 7660
+MD5sum: 7cf3437090fd7620e34ef3629543f7ec
+SHA1: 6d4679111d4f364d9f404bf937899857510c6e3f
+SHA256: 5e1219bf7e56b21ebd2079d948071827a6ced8ff8f16eeb6984b54662c0b61b5
+SHA512: 169fcefa34aae3e9495fe2eb0589d922644706b2176fd33e75d6d7448ed01c278ea62e2e4027953f72a18b762946ce9dda063c518b097b136e15375f3725f006
+Description: 有道云笔记启动屏广告跳过插件，适配隐根(RootHide) ,
+Name: youdaoyunbiji-NoAd
+Author: colorblack
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.colorblack.youdaoyunbiji
+Architecture: iphoneos-arm64e
+Version: 0.0.1-10+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.youdaoyunbiji_0.0.1-10+debug_iphoneos-arm64e_d17c7877cd079cf09783fbdf76933c69f1896a69ca6f6c5ec87f4c0322b96064.deb
+Size: 7600
+MD5sum: 02254b93fbfc68c378a87d19b9fb5ac9
+SHA1: 1c5835211f03cf401080b740eb4858943662d07d
+SHA256: d17c7877cd079cf09783fbdf76933c69f1896a69ca6f6c5ec87f4c0322b96064
+SHA512: e9707ff07d7022939f8d90b82cef307f14f0d323bc828abf0c77f8799cc1558964e5bd702451438821fbcb06fb704c4b04b46b8c25a2efb878b8404b860aea8f
+Description: 有道云笔记启动屏广告跳过插件，适配隐根(RootHide) ,
+Name: youdaoyunbiji-NoAd
+Author: colorblack
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Architecture: iphoneos-arm64e
+Version: 2024.05.26
+Section: Tweaks
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Installed-Size: 756
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, oldabi
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
+Filename: debs/iphoneos-arm64e/com.cpdigitaldarkroom.itsevanesco_2024.05.26_iphoneos-arm64e_2cef869a2aad196ee6cfe289e19a18e2ef858a978e8fb656859b1f91cef0e36e.deb
+Size: 98400
+MD5sum: e13d33080d02d19cfb55fefd593606fd
+SHA1: 757ebfbc6cfeb22a417cc6ec899cc506208b1154
+SHA256: 2cef869a2aad196ee6cfe289e19a18e2ef858a978e8fb656859b1f91cef0e36e
+SHA512: d7ab340df11cbc4aa9b09cf6749979efe6cc52a6233216593c0ef4ff1ec737df6ed71716a294ff57adf77c8af73f122cc46f18cccba0c94c61a1eb589ad6c848
+Description: Clear Your Homescreen After Inactivity 无操时显示壁纸
+Name: Evanesco!
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.crassna.appcardlite
+Architecture: iphoneos-arm64
+Version: 3.3.3-END
+Section: Tweaks
+Maintainer: Crassna
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.crassna.appcardlite_3.3.3-END_iphoneos-arm64_81f61553026a8870135279ac9c659473b7cca43ab3c01104d528668dae981968.deb
+Size: 409440
+MD5sum: c1bffcf3ec68484ce6735217131fd2b2
+SHA1: 7bec74e339e25f7e8bec752081be74329aa4d87f
+SHA256: 81f61553026a8870135279ac9c659473b7cca43ab3c01104d528668dae981968
+SHA512: 4e7fb6a6106a91f7da65f9892b013751fa83c256c8d39fd25ddbaa163388d2f5d80977bf1bac039164b62d6fdd475c4965f9708c20e4149f7935fa4e0e2820d6
+Description: Jailbrea!分屏
+  * 首次使用：从左至右或从右至左划出圆盘并拖动至边缘进入插件设置页面。当圆盘中心由X变成★代表验证通过。点击★进入app选择页面，将用户或系统应用选至收藏即可在圆环中添加。圆环内app可小窗存在亦可挂机存在。
+  * 手势：快切可呼出关闭所有小窗或挂机app，拖动可呼出圆盘。
+  * 圆盘：左右呼出滑至圆盘中心可悬停并选定app以显示小窗，选定app并滑出圆环外以切至大屏。（彩蛋老式拨号电话：双指旋转可放大增加圆环显示app数量，缩小圆环或调整app在圆环内位置）。
+  * 小窗：小横条上滑关闭当前小窗，小横条快速下滑可切至大屏，单击小横条可切至挂机模式。拖动边缘移动位置，长按边缘上下滑动放大缩小，单击边缘置顶小窗。
+  * 挂机：单击图标显示小窗，长按图标关闭当前app。
+  * 特色功能：通知激活小窗，窗口自适应大小，横竖屏裁切画面，小窗主动避让主视图键盘等等。
+Name: App Lecard
+Author: Crassna
+icon: https://huayuarc.github.io/icon/appcardlite.jpg
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.mobileslideshowhook_0.0.1_iphoneos-arm64e_ff4f116f48520d4fe8bf3aa009f4737da9bc854d858423fc85cbe520b764f542.deb
+Size: 22332
+MD5sum: 5c725302e3179c322530762d098125e0
+SHA1: d0aa456e0d77bc5cd31a4c5d860f1424d4ad2b54
+SHA256: ff4f116f48520d4fe8bf3aa009f4737da9bc854d858423fc85cbe520b764f542
+SHA512: d3c342190e5ca848f7dd9a49a6d22e631616cf4978aa7e81fa61f653645c5f9957d19a615a6b1812eda1b617659db552c2bc2494a083c649c16aa516464ee794
+Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
+Name: 系统相册视频进度条
+Author: crctdd
+icon: https://huayuarc.github.io/icon/xc.jpg
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
