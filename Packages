@@ -136,6 +136,27 @@ Icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: aweme.x
 Architecture: iphoneos-arm64e
+Version: 2.3.9-3
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 9976
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.dyhook
+Replaces: com.xx.dyhook
+Filename: debs/iphoneos-arm64e/aweme.x_2.3.9-3_iphoneos-arm64e_1b23f242dfa93e8ad542d2f3738d62508f4feb4cc05fc09fc762c9378b131995.deb
+Size: 3150288
+MD5sum: a74f92f6aef41248efbb323c1117c000
+SHA1: a58b5cbdb93a84dab5e19f22c8bc8376aa3f6be5
+SHA256: 1b23f242dfa93e8ad542d2f3738d62508f4feb4cc05fc09fc762c9378b131995
+SHA512: f706e2bd0d8d3701fbab751e3d96fa1e5613111619df9f4124450f27040bd183650138e43de74964245b1c8d94d91069e40061aab9b163f7a56fc337b4fb2ce5
+Description: 自用
+Name: 抖音图层
+Author: 𝙓
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: aweme.x
+Architecture: iphoneos-arm64e
 Version: 2.3.9-6
 Section: Tweaks
 Maintainer: 𝙓
@@ -154,6 +175,1889 @@ Description: 自用
 Name: 抖音图层
 Author: 𝙓
 Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: ayao.aipowerbutton
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: ayao
+Installed-Size: 540
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Replaces: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Filename: debs/iphoneos-arm64/ayao.aipowerbutton_1.0.0_iphoneos-arm64_76dbf4c79d2d6f19c67531be302c3f5a09b7d5377cd66ac89be910ba96d40106.deb
+Size: 20220
+MD5sum: 9cdf9ab23cde266a0d99325e8d6eaa80
+SHA1: b1b29bc5ba422c42215957707de27e7cfb584331
+SHA256: 76dbf4c79d2d6f19c67531be302c3f5a09b7d5377cd66ac89be910ba96d40106
+SHA512: 590ecc1d4c6ad51b24a1f73c655d7fbea7b1a2a5f4a4b01ab436acdc9872785f517abefab18e010d3d04f68d5b047dc59bb751bd06a2bec494ce1fcb8a9a0980
+Description: iOS 16 Dopamine rootless 插件：长按关机键启动语音 AI 助手，可在设置中选择豆包或 DeepSeek；豆包模式启动语音输入，DeepSeek 模式长按录音、松开发送，并保留音量键加关机键的系统原始关机/SOS 操作。
+Name: AiPowerButton
+Author: ayao
+icon: https://huayuarc.github.io/icon/AiPowerButton.png
+
+Package: ayao.aipowerbutton
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: ayao
+Installed-Size: 540
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Replaces: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Filename: debs/iphoneos-arm64e/ayao.aipowerbutton_1.0.0_iphoneos-arm64e_49e807740ca771228bda216086975c2a20d90a70ceed7e5e074c46f6632f90f6.deb
+Size: 20368
+MD5sum: 519aa906e0545c8931bdc116a52f25ec
+SHA1: fa2e3f46b06c5971c6c66149b794702f967dbdfd
+SHA256: 49e807740ca771228bda216086975c2a20d90a70ceed7e5e074c46f6632f90f6
+SHA512: 2810ab52bc7c4ef1729b6a4a692b835cad5ac0c088aa1273826d8cd55a31542cc9a01b865a0ba03aa1a608341113fb82ca87911b5de6535587bdfd32964c1025
+Description: iOS 16 Dopamine rootless 插件：长按关机键启动语音 AI 助手，可在设置中选择豆包或 DeepSeek；豆包模式启动语音输入，DeepSeek 模式长按录音、松开发送，并保留音量键加关机键的系统原始关机/SOS 操作。
+Name: AiPowerButton
+Author: ayao
+icon: https://huayuarc.github.io/icon/AiPowerButton.png
+
+Package: ayao.airpodsautonoise
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: ayao
+Installed-Size: 380
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/ayao.airpodsautonoise_1.0.0_iphoneos-arm64_f5d948cf4ad68c2b9f6cdb7a2d260bef457d6b8ba3afb9eddc64447bb5bd62d4.deb
+Size: 50048
+MD5sum: e3f2d947454452eb577700db1fee6c18
+SHA1: 01a438435fb646949870080caa46a213a970ea8a
+SHA256: f5d948cf4ad68c2b9f6cdb7a2d260bef457d6b8ba3afb9eddc64447bb5bd62d4
+SHA512: f13b9b5705b9e6b2fb0c8c9e743db10b8ae6818d6f12d07c2d690a6307307e7e363c30fd9e6e93aa796136ee3cb38494930ac504afaed69d28da70ff5b8fedcd
+Description: AirPods Pro 系列自动降噪稳定版。仅注入 SpringBoard，识别支持降噪/通透的 AirPods 后自动切主动降噪；播放停止回通透仅在信号可靠时触发。
+Name: AirPodsAutoNoise
+Author: ayao
+icon: https://huayuarc.github.io/icon/AirPods.jpg
+
+Package: ayao.hidedoubaopip
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Section: Tweaks
+Maintainer: ayao
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/ayao.hidedoubaopip_0.0.5_iphoneos-arm64_76ef2f3bbf72045bebc1254299482cd6e6b107b7787bbb2f4ae8638cae1ac9bd.deb
+Size: 10492
+MD5sum: 068fdf7760c134fddd8dd74ec5df468a
+SHA1: 7d7f40308c50cbac4d511532df1156ab5445b791
+SHA256: 76ef2f3bbf72045bebc1254299482cd6e6b107b7787bbb2f4ae8638cae1ac9bd
+SHA512: f8e9c06db113a5859998a7b4873eba6c55051319db81aacbf6928c83f5ead0fe9bc59c2cfc9259761e8b7c7350c5af8492650b2e503233456b1e86a0a8d0fbd5
+Description: 隐藏豆包输入法画中画悬浮窗，保留正常视频画中画功能。仅对豆包输入法生效，不影响系统及其他应用。
+Name: HideDoubaoPiP
+Author: ayao
+icon: https://huayuarc.github.io/icon/doubao.jpg
+
+Package: ayao.hidedoubaopip
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: ayao
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/ayao.hidedoubaopip_1.0.0_iphoneos-arm64_c087ddfea0074a936a612c0026778a574c574faf31bba7384ea0df5a03ca8e3b.deb
+Size: 9940
+MD5sum: 18404cce6b03c7f6e5a6d8ec2bf4689b
+SHA1: f6423f6543d1ab4b1a7dff9e6426b1253a28c6c6
+SHA256: c087ddfea0074a936a612c0026778a574c574faf31bba7384ea0df5a03ca8e3b
+SHA512: b321280ee992b7c7d2718702c6d3d6b657db01b7694525eb73950cab29c1570961bd0f1214ac5095203707183849aac78f84a06e440cee4ad9e06fb93cca4daa
+Description: 隐藏豆包输入法画中画悬浮窗，保留正常视频画中画功能。仅对豆包输入法生效，不影响系统及其他应用。
+Name: HideDoubaoPiP
+Author: ayao
+icon: https://huayuarc.github.io/icon/doubao.jpg
+
+Package: ayao.hidedoubaopip
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: ayao
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/ayao.hidedoubaopip_1.0.2_iphoneos-arm64_f5f8816472358a8bf20d9360739a732da3a48e0c57481ca92e0e97abc799a2ac.deb
+Size: 10932
+MD5sum: 47e6da20fd0601eed3d7157a53644c1b
+SHA1: 7a0d15fd078c3f346d2d4778474fd994af8a0fbb
+SHA256: f5f8816472358a8bf20d9360739a732da3a48e0c57481ca92e0e97abc799a2ac
+SHA512: 4590d907f165b87d9397e6c9f6bb9736fb79c7c764d15fa5b8f65caa6529cbbde47f4fc17e771342e6fa47cef26c67b51028caf84d5579a2261d7c009f38ff17
+Description: 隐藏豆包输入法画中画悬浮窗，保留正常视频画中画功能。仅对豆包输入法生效，不影响系统及其他应用。
+Name: HideDoubaoPiP
+Author: ayao
+icon: https://huayuarc.github.io/icon/doubao.jpg
+
+Package: ayao.hidedoubaopip
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: Tweaks
+Maintainer: ayao
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/ayao.hidedoubaopip_1.0.5_iphoneos-arm64_b832b2ae98bf5fbd41378369be01143497b2f1dc19158aa41c5ee82c517fc493.deb
+Size: 11692
+MD5sum: fa3320343835c7459a81d481f55bf9b8
+SHA1: ef8c900d795cd19c7f080d9842ccbeb384d05136
+SHA256: b832b2ae98bf5fbd41378369be01143497b2f1dc19158aa41c5ee82c517fc493
+SHA512: c05062336a0a0183da7a8599b7fcfda20fd6b3a5a2bb18f65f97e5d3a4827ad92cc6eff07e92406e214af6d73fecafbf2ee876a77a8ff22489cfc3c162f47522
+Description: 隐藏豆包/微信输入法画中画悬浮窗。保留正常视频画中画功能。
+Name: HideDoubaoPiP
+Author: ayao
+icon: https://huayuarc.github.io/icon/doubao.jpg
+
+Package: ayao.hidedoubaopip
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: ayao
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/ayao.hidedoubaopip_1.0.2_iphoneos-arm64e_1b05c774d19e1777e5434db52e38bf79a36b43ba73fcbfc352aad1fc1a805e40.deb
+Size: 11112
+MD5sum: afa33d1273d2414422d063c885aacfc9
+SHA1: 6f03eda0228e038c65cbfd5b2434285f67400847
+SHA256: 1b05c774d19e1777e5434db52e38bf79a36b43ba73fcbfc352aad1fc1a805e40
+SHA512: 45e6885933ea391aee0b90b7c63ae5d1ebdbdd69ab7ae652dde7384e5b98dc365ff63277df578702d1668f677ee3a8c791b942f63f6bac45eb467c18897b44b2
+Description: 隐藏豆包输入法画中画悬浮窗，保留正常视频画中画功能。仅对豆包输入法生效，不影响系统及其他应用。
+Name: HideDoubaoPiP
+Author: ayao
+icon: https://huayuarc.github.io/icon/doubao.jpg
+
+Package: ayao.hidedoubaopip
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Section: Tweaks
+Maintainer: ayao
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/ayao.hidedoubaopip_1.0.5_iphoneos-arm64e_d4c60c528ca0f401ba2cd41cb4c9a4adf1576c7776e5877bd67c5c46ec96d063.deb
+Size: 11460
+MD5sum: d595fa3160c5c4a2ff4539450a121bdf
+SHA1: 1dc9a77f041eef7c560bf9d9fecb91a44d65fc3e
+SHA256: d4c60c528ca0f401ba2cd41cb4c9a4adf1576c7776e5877bd67c5c46ec96d063
+SHA512: f853f7295e5a26aa7416606f2e20241c3fee4a794098a000d049b9507bb6fe44c63f90a51ff46b937d5416708f13ce9e14c51791f3df9d4f86005b7677c1475f
+Description: 隐藏豆包/微信输入法画中画悬浮窗。保留正常视频画中画功能。
+Name: HideDoubaoPiP
+Author: ayao
+icon: https://huayuarc.github.io/icon/doubao.jpg
+
+Package: callshidevoicemailios
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: z
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/callshidevoicemailios_1.0_iphoneos-arm64_2dbfaa43e2ce2afe7619b462594c30276fe7fbd5628224aaf1a04b1056efdd3b.deb
+Size: 2508
+MD5sum: 54e50f708f6da74f1d2b9eb3165dcb41
+SHA1: 5f52e8b2f30a01bd894227f36385ed74b3e913d6
+SHA256: 2dbfaa43e2ce2afe7619b462594c30276fe7fbd5628224aaf1a04b1056efdd3b
+SHA512: 41ffb83bdf3518335eedf8c7e9c8085269cc0cab83ee9e595dc7b32b9f48ed8ce82af6adca5c794c84e88535797be30bccd72ab66cb36b8704e84387d148ed17
+Description: 隐藏语音留言。微信电话
+Name: 隐藏语音留言
+Author: z
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: callshidevoicemailios
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: z
+Installed-Size: 88
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/callshidevoicemailios_1.0_iphoneos-arm64e_cd29b90ad458db90cd3fc332af1940798571efd6d0797a3b239c92f65b0989dc.deb
+Size: 2540
+MD5sum: 08f7439427a44e1a78758918dcb08863
+SHA1: 16389b6c6b9638588ae4607dfde5df4eba025a92
+SHA256: cd29b90ad458db90cd3fc332af1940798571efd6d0797a3b239c92f65b0989dc
+SHA512: 19cf399f8ae380219a5fe2312c6cf4bf61e9d87804daf9137e57e5e2f1ea774deafb209e8f1d73bbf66fc8a0cca5edb0e36fddd47750a8f3289f9dc6ea52b8d6
+Description: 隐藏语音留言。微信电话
+Name: 隐藏语音留言
+Author: z
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: chaoge.ChargeLimiter
+Architecture: iphoneos-arm64
+Version: 1.7
+Priority: optional
+Section: Tweaks
+Maintainer: chaoge
+Depends: firmware (>= 5.0)
+Filename: debs/iphoneos-arm64/chaoge.ChargeLimiter_1.7_iphoneos-arm64_8784bd8fbe5f4aa0b4d23f9a522d71bc061f31b851d9a8ee0c98fdfbc289af62.deb
+Size: 2014356
+MD5sum: 23b3c4b48b73d615b9074cc62a07c225
+SHA1: d2889c44f7a349d6b5fd15c68b68ff6db9101c16
+SHA256: 8784bd8fbe5f4aa0b4d23f9a522d71bc061f31b851d9a8ee0c98fdfbc289af62
+SHA512: de41d1a23d08232d9adb6fce5007869de7d9ab21ac52ca1ff46a4241b1e4744c9ae0b12f086bb16731923d134135085563fd1eaf87cb34ddd3ee84690a86c10b
+Description: ChargeLimiter
+Name: ChargeLimiter 电池助手
+Author: chaoge
+icon: https://huayuarc.github.io/icon/ChargeLimiter.jpg
+
+Package: chaoge.ChargeLimiter
+Architecture: iphoneos-arm64e
+Version: 1.7
+Priority: optional
+Section: Tweaks
+Maintainer: chaoge
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/iphoneos-arm64e/chaoge.ChargeLimiter_1.7_iphoneos-arm64e_c8480832599135b7d481ec5c9f211d14f0d7acba3c33941e6d5cc0b8e403b9f9.deb
+Size: 2011488
+MD5sum: aab99e3ed16aaa9bf0b3498348e624e5
+SHA1: ae63f77c3fc65373cab36ba80b4fabc41b013cb6
+SHA256: c8480832599135b7d481ec5c9f211d14f0d7acba3c33941e6d5cc0b8e403b9f9
+SHA512: a6b2e1c4bd6244194949a66c326724263056513bfcd4fae1b83d434a23706e4ed6930bc6107c3bfaf4ea07e90bb93d4ea664de93076853dcc92e3df394b4a95f
+Description: ChargeLimiter
+Name: ChargeLimiter 电池助手
+Author: chaoge
+icon: https://huayuarc.github.io/icon/ChargeLimiter.jpg
+
+Package: claude-code-roothide
+Architecture: iphoneos-arm64e
+Version: 2.1.19-1
+Section: Development
+Maintainer: Bryan
+Installed-Size: 142528
+Provides: claude-code
+Depends: firmware (>= 14.0), zsh, ldid
+Conflicts: com.anthropic.claude-code-beta
+Filename: debs/iphoneos-arm64e/claude-code-roothide_2.1.19-1_iphoneos-arm64e_e267115ac7fb0d6d083701655293c75aefd0bda75afda67b7ae226efb21aa0a2.deb
+Size: 27882708
+MD5sum: aaa1c832a98c655ca5f2cf72905cdc10
+SHA1: c884be108d7c11feedfaaddca16e1737e16feed9
+SHA256: e267115ac7fb0d6d083701655293c75aefd0bda75afda67b7ae226efb21aa0a2
+SHA512: 94d167166abc05637a717113fa0115b6a3d4dbe4d889d63534612bf825768c417ae0fe87f4ef61b83836cb6609c57db9722945f37d4164dbf57f19e4feb26b3a
+Homepage: https://claude.ai
+Description: Claude Code CLI for iOS 人工智能 在越狱iPhone 上本 地运行Claude Code终端执行claude-auth以开始认证 配置 终端执行 claude以开始使用 可以配置 DeepSeek模型API和第三方模型API
+Tag: purpose::console, role::developer
+Name: Claude Code
+Author: Anthropic (iOS package by Bryan) DaFei(修改优化)
+Depiction: https://github.com/anthropics/claude-code
+SileoDepiction: https://github.com/anthropics/claude-code
+
+Package: claude-code-rootless
+Architecture: iphoneos-arm64
+Version: 2.1.19-1
+Section: Development
+Maintainer: Bryan
+Installed-Size: 142528
+Provides: claude-code
+Depends: firmware (>= 14.0), zsh, ldid
+Conflicts: com.anthropic.claude-code-beta
+Filename: debs/iphoneos-arm64/claude-code-rootless_2.1.19-1_iphoneos-arm64_abc6f7b76538ab9ba9f514f9ffcbcb6df2f1e1667ef00b5fc80897ddb2df69c1.deb
+Size: 27882768
+MD5sum: 1dfa801d79f68a660eebca54b27641da
+SHA1: 63c8fc268afcd0f0c5a40fc12e2ad50fa186040c
+SHA256: abc6f7b76538ab9ba9f514f9ffcbcb6df2f1e1667ef00b5fc80897ddb2df69c1
+SHA512: 878eb2cd0f644362d1a10d9e4d52a3d5bc72e675cea42134256be54499c41f65906e4bb1840b77d849fc9301a5d8679330209f48c1fb354428cc508ac78c7615
+Homepage: https://claude.ai
+Description: Claude Code CLI for iOS 人工智能 在越狱iPhone 上本 地运行Claude Code终端执行claude-auth以开始认证 配置 终端执行 claude以开始使用 可以配置 DeepSeek模型API和第三方模型API
+Tag: purpose::console, role::developer
+Name: Claude Code
+Author: Anthropic (iOS package by Bryan) DaFei(修改优化)
+Depiction: https://github.com/anthropics/claude-code
+SileoDepiction: https://github.com/anthropics/claude-code
+
+Package: cn.fkj233.watchfix
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Section: Tweaks
+Maintainer: 577FKJ
+Installed-Size: 4608
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/cn.fkj233.watchfix_2.0.1_iphoneos-arm64_e6de690e98589822154b06b6e3398111ebd5b444331b803354dce9823d35b046.deb
+Size: 602568
+MD5sum: 09bd5ea9b88d4eaae239d7fb1db54669
+SHA1: 1b80d69bc114762149e57e9218fa8b57f2027ff6
+SHA256: e6de690e98589822154b06b6e3398111ebd5b444331b803354dce9823d35b046
+SHA512: 9d041c1e05c5f3433f967e4a65f9ebcdabb8b6f741e952ab6ec3b5092183a88316ffe2358a130cedb1b7ff5487249bb5e13ffd27a85061664bb552ecf8a84d7a
+Description: Fix Apple watch connection issues
+Name: WatchFix
+Author: 577FKJ
+Icon: https://huayuarc.github.io/icon/watch.jpg
+
+Package: cn.fkj233.watchfix
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Section: Tweaks
+Maintainer: 577FKJ
+Installed-Size: 4632
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/cn.fkj233.watchfix_2.0.1_iphoneos-arm64e_32da4464c7758241ee7937df7cd6aff1da21af7645b5d4a9bf495a3289df31d1.deb
+Size: 607264
+MD5sum: 8286f2f73f22ab011364fc805e4ce28a
+SHA1: dcd875ab1e7cfad241fbd46453b898f672748f22
+SHA256: 32da4464c7758241ee7937df7cd6aff1da21af7645b5d4a9bf495a3289df31d1
+SHA512: 9ae2769989d5955b59dee96974aa02c8b798eb850fd27fb8884dd61f11fb17ef1d1b46faed786668ec9a84cb6fe2d9bb8941a8fc5581f476a4a7dc647e405ff2
+Description: Fix Apple watch connection issues
+Name: WatchFix
+Author: 577FKJ
+Icon: https://huayuarc.github.io/icon/watch.jpg
+
+Package: cn.llld.2playerbj
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/cn.llld.2playerbj_1.0_iphoneos-arm64_15ee1fcd359708952a8f5455ac49fda198f1cf18dd19dc6778c09649eafad355.deb
+Size: 3668
+MD5sum: 02ed202d1e5fa712a57c25c7a35af607
+SHA1: c8186fc11468411472e75c49b2e6d461662b5fac
+SHA256: 15ee1fcd359708952a8f5455ac49fda198f1cf18dd19dc6778c09649eafad355
+SHA512: b093dbe6d104549c48399fb887ee683d4777d39b8e070a2e91e7b6d39e43ba46b8162ab5a8e0263bec40fdf9c065bf18b747f74a0849a03dbe56aafc9aacb908
+Description: Hide player Notification background。半透版本，隐藏播放器通知背景2-rootless
+Name: 隐藏播放器通知背景2
+Author: 来了老弟 h_h_x_t
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: cn.llld.2playerbj
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/cn.llld.2playerbj_1.0_iphoneos-arm64e_3787bb9ca2989ac6ff5a41169afe32d6235af8feff5887f8e5d2b6ec75302cbf.deb
+Size: 3572
+MD5sum: 3da07e2d4165a9370127d17c158bc0e8
+SHA1: 9e3db5754ffef012565a2a92569bb0f021064227
+SHA256: 3787bb9ca2989ac6ff5a41169afe32d6235af8feff5887f8e5d2b6ec75302cbf
+SHA512: e8b95b82ec07e5cf0a5b3762574128ce192e1775148e70d64fa8d86f5f10b29f96e026a872bae04985d0fee7bd0f70c2929d489383adec9d143efe54026297c0
+Description: Hide player Notification background。半透版本，隐藏播放器通知背景2-rootless
+Name: 隐藏播放器通知背景2
+Author: 来了老弟 h_h_x_t
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: cn.llld.appfix
+Architecture: iphoneos-arm64
+Version: 0.0.36
+Section: Development
+Maintainer: 来了老弟
+Installed-Size: 1452
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.appfix_0.0.36_iphoneos-arm64_093f6abed1a76e866778723338b3d2ede0b849baabcee492f28ecbcd762bd5c1.deb
+Size: 456304
+MD5sum: d1f863bba431bfef1527e7d58d54ee00
+SHA1: f8738fa2e2b6a9008102e5346e10304edd02a753
+SHA256: 093f6abed1a76e866778723338b3d2ede0b849baabcee492f28ecbcd762bd5c1
+SHA512: 54da27772ea19883aa9290167d45fb53f6c84c989752ac15b2809656ce1506fbe0b94256ed9f827a13325f466c7608708f92510561b27fb1545c11c46a293d50
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Tag: purpose::uikit, compatible::ios14
+Name: 应用修改器
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/appfix.png
+
+Package: cn.llld.appfix
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Development
+Maintainer: 来了老弟
+Installed-Size: 1548
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.appfix_1.0.0_iphoneos-arm64_a5bfab39f4994c6fad6c488c7d797c06695685f7e4d464b71fe5f8a9922fc5d9.deb
+Size: 478484
+MD5sum: 050f08347f854096829f2c756c985653
+SHA1: 85564070d0b14852376a92302e6609afc6aa5cac
+SHA256: a5bfab39f4994c6fad6c488c7d797c06695685f7e4d464b71fe5f8a9922fc5d9
+SHA512: d6f9e72b0e310cdd631a940de33b09047d9bf05412e4ecebed024dc75d9183354bed4a12a6e4abf794049e90c132af27a591206233e34efa8b9012b4cd182714
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强，1.0版本之后支持导入Flex3配置），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Tag: purpose::uikit, compatible::ios14
+Name: 应用修改器
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/appfix.png
+
+Package: cn.llld.avphotos
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: 来了老弟
+Depends: firmware (>=14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.avphotos_1.0.1_iphoneos-arm64_28f36bd11101505a7694b32b4a69a2775297eebcf29881e8c5146ee001d87bd5.deb
+Size: 7216
+MD5sum: 2e5efbf3c104148e07ee55bb2a26255a
+SHA1: 06fc2f6bebfc651b35d7d2b16f7a43882a4036cd
+SHA256: 28f36bd11101505a7694b32b4a69a2775297eebcf29881e8c5146ee001d87bd5
+SHA512: 953b06b979537c557da4ff757bf4d9fbcdbf1368897519ddda5aebaacb3e727906dbbab60211aebe5331836f2fe16ad7d6fe860cfe6f17e29f8ba0e9293a4691
+Description: Playing photos and videos in the album can produce picture-in-picture effects!在相册中播放照片视频可以画中画效果！_________仅测试，有问题请卸载
+Name: AVPhotos照片视频画中画
+Author: MiRO 来了老弟
+Icon: https://huayuarc.github.io/icon/avphotos.jpg
+
+Package: cn.llld.avphotos
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: 来了老弟
+Depends: firmware (>=14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.avphotos_1.0.1_iphoneos-arm64e_afade1e4398da3781445f59d0dac30c26b38377e445e2b38fbe74a20f9250efa.deb
+Size: 5524
+MD5sum: 42a9e3ade69f4b18c5cf8d6b914e1569
+SHA1: d4336f34b43e05246ea57dd84f5404eef6be918d
+SHA256: afade1e4398da3781445f59d0dac30c26b38377e445e2b38fbe74a20f9250efa
+SHA512: 6201143026071d38606a6cd030378ebf5a2fd367695b27969209e35a2f642804344610e0e187062c993a5203ead4d92c593b50332a205b2b4256a241117b4fe6
+Description: Playing photos and videos in the album can produce picture-in-picture effects!在相册中播放照片视频可以画中画效果！_________仅测试用,有问题卸载---roothide
+Name: AVPhotos照片视频画中画
+Author: MiRO 来了老弟
+Icon: https://huayuarc.github.io/icon/avphotos.jpg
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 96
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.biaoji_1.0_iphoneos-arm64_39f424863f6fab4fec1bcbf39e233d8b38602b6354417068989c499a83482935.deb
+Size: 15924
+MD5sum: a96eb27491a411d62cf6a81195105a6a
+SHA1: 197a0adb07080ae5c07e8a9287b40f762b0e3c4d
+SHA256: 39f424863f6fab4fec1bcbf39e233d8b38602b6354417068989c499a83482935
+SHA512: d70f40a4e7ed2fe52c9490d89549fc7a3eabc5c92bfbe6e08d68b5805301767e51ea6e6b9cb0dcdba97da20666a2fb54f942fbb2bdefee7235b1c33f66c1584b
+Description: 给Snappr 截图插件增加标记功能，快速对图进行箭头，打码，复制，保存等，免去了装第三方软件，或者跳转程序的繁琐
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 112
+Depends: mobilesubstrate
+Conflicts: cn.llld.bioaji
+Filename: debs/iphoneos-arm64/cn.llld.biaoji_1.1_iphoneos-arm64_7fe06fac87ed1216c7edee3204449759d82d2217dede822bf406f3d3a09a3761.deb
+Size: 17944
+MD5sum: f8138807cf42cd3042316f64bec8a053
+SHA1: 3817e58f96030d0bdffab8c99e6bf30ca742e741
+SHA256: 7fe06fac87ed1216c7edee3204449759d82d2217dede822bf406f3d3a09a3761
+SHA512: 6e2acdf17d1483c6d78631c14490fc3f155ada0b8be80c83364b0e7d68dba02a671747e27b701009bbcbfbace331ebc055186623f7fb779d687273bb122709d2
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 112
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.biaoji_1.2_iphoneos-arm64_9d4e52991734b1a982dfbb56427d07ea85128d451ee21fca7764d6ba6e3eccd6.deb
+Size: 19728
+MD5sum: e587d258e83af7aa4b7e572b871a2129
+SHA1: a2ec03d318f558b871940add0b62457045479812
+SHA256: 9d4e52991734b1a982dfbb56427d07ea85128d451ee21fca7764d6ba6e3eccd6
+SHA512: bda4cc513dd882e06f0e713905b0097be9d85a2f83017860cd3e015a514c69a1e012cf5ad4f2f13c0b33e606510405117be2deaf74355d6819e859d4ee29a0ff
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 128
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.biaoji_1.3_iphoneos-arm64_0736ddc8c60991e18395f50437c7b6e6b0ab07344a742e4f3da73825e4f7238d.deb
+Size: 26736
+MD5sum: 8dbf00f312d9eaa1daed08edc2dffb0b
+SHA1: 080ba485e0119af61a5547750c742eb4e4b47376
+SHA256: 0736ddc8c60991e18395f50437c7b6e6b0ab07344a742e4f3da73825e4f7238d
+SHA512: 2f7c70d74e0319e420501d3a266ad8f504cc8feba0778f0cc6f7ada927b136e7c2ab27b86e634486da1e483abc4b8207afc5e45d4e1768c761271e5c0a381362
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64
+Version: 1.5
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 164
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.biaoji_1.5_iphoneos-arm64_21fe9615c88fc1e3740f0dcc7658da4de01f66137a1d633f60e98e424cd019f0.deb
+Size: 36492
+MD5sum: 596f2c95e1b8dbd615b43363baea1d91
+SHA1: 83b4802bc390ad2c698ed4bf85b935969aec6b49
+SHA256: 21fe9615c88fc1e3740f0dcc7658da4de01f66137a1d633f60e98e424cd019f0
+SHA512: 370132cb86fc1db6a29e07630650cd1a35b80b1ad1c5d32acf42d4e43c623ec83d549f0e44849719618f368fc7448d30f724036e4ae53e0a260dc7997c8695eb
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64
+Version: 1.6
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 164
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.biaoji_1.6_iphoneos-arm64_f2bb973ae3ae491cb7b4c349c2696390070262311cb74f1f63c7ce084f0898ee.deb
+Size: 38256
+MD5sum: 31bf4951bb9d914c397dfaddaaabc340
+SHA1: e6408867c156f4b4a4b51a1f98a46da0b247269f
+SHA256: f2bb973ae3ae491cb7b4c349c2696390070262311cb74f1f63c7ce084f0898ee
+SHA512: 2aa0573a418c7f09cb16ad67ccc9874ad92d4fa42991d8f477d0f577e269a767ef5ba12b5c8b61c73d7dd81cf86f51a49cfa7a30ef053c9173084af28c3de959
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存，高亮，文字等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 96
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.biaoji_1.0_iphoneos-arm64e_83a3e018ddccc494e2a1999902f3620b30a055a07346913f07c1042168ddf20b.deb
+Size: 15720
+MD5sum: f6d8ec95a6e2e9dd38e8f29f57ef7ece
+SHA1: e9fe03120ab773c5de9a108a113aa9e37cbce4ce
+SHA256: 83a3e018ddccc494e2a1999902f3620b30a055a07346913f07c1042168ddf20b
+SHA512: dde501638bc9cb20f4ae2ac4acea13498703cf53d73205a66698ad8f1da8ff0fe3aecd7f28e1a253f8d8b5c2072e4dc67843a9c0501d711686f4ad3ba37f40ce
+Description: 给Snappr 截图插件增加标记功能，快速对图进行箭头，打码，复制，保存等，免去了装第三方软件，或者跳转程序的繁琐
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 112
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: cn.llld.bioaji
+Filename: debs/iphoneos-arm64e/cn.llld.biaoji_1.1_iphoneos-arm64e_b9fe9bb4f903954d29db8d4f00357531f8c16d4f805392c2da2495ebe149f339.deb
+Size: 17648
+MD5sum: 783d8ad6ed9ec5453bcf0dcf24d57bd8
+SHA1: 370d6896c9b83780799c98f9a281fec5dca16b10
+SHA256: b9fe9bb4f903954d29db8d4f00357531f8c16d4f805392c2da2495ebe149f339
+SHA512: 4c3944e03290568e0a4fe3ac2513737ce42cd67dcb0fe2cff41bd32b584081edfce794d9c2f1bc34c231ef45d68bb843aeccff9cdae94751c2ab56c03c733f2e
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 112
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.biaoji_1.2_iphoneos-arm64e_1cc65ba7b7c2d260bea9095deb78e899027d966a0bafe0205411d0559123718a.deb
+Size: 19476
+MD5sum: 0f1faf8ab3a8a2bbc0359ac04107ef6f
+SHA1: 0aae219a989aaf1f65dcf4df17181c9c07bc13b7
+SHA256: 1cc65ba7b7c2d260bea9095deb78e899027d966a0bafe0205411d0559123718a
+SHA512: 2ff716cbbaa706dd51150be074231c37f8ff968b281b85227ba457dcea9e2aa359267c8f51a18cf316c55c4fbbb83c05e5ff01929596e08526e05d83e5c52277
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 128
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.biaoji_1.3_iphoneos-arm64e_17cd263b80d4fab8c8579bbd5be14f964df2fe8408a4b9852b6bf1d49c89b399.deb
+Size: 26356
+MD5sum: d7999a3924e525fe386150296f746f4a
+SHA1: 2b0b757a26a22d5bf245f23e34bfee7ade5d9c87
+SHA256: 17cd263b80d4fab8c8579bbd5be14f964df2fe8408a4b9852b6bf1d49c89b399
+SHA512: 390d478fe2d49eb58cef6cc46ebaf63c985d9ef5c509c5c2bb65c08b18bcc81703aa0ce23d0e4fc43c99ca9749ec9e9fe46d71e3b485c6644d960750950610f6
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64e
+Version: 1.5
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 164
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.biaoji_1.5_iphoneos-arm64e_b90eea39b3b5285a9ce50116b0cfd7797f42fe62d6c22d167338029f13dce3d3.deb
+Size: 35876
+MD5sum: 713a8479246f0f691e133ea2cb0dbb82
+SHA1: 8908addedef5e4cd20cf8e27f4821cc6dd29fb36
+SHA256: b90eea39b3b5285a9ce50116b0cfd7797f42fe62d6c22d167338029f13dce3d3
+SHA512: 2c71c69609f05062aab911a5025dcd2f37ba157bf5d71b9bba86166b1df9b2cc87b244852ca51ac75d345370e0ca43a609865b787f52a77db75ebf8ad488d3b7
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64e
+Version: 1.6
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 164
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.biaoji_1.6_iphoneos-arm64e_d860b83425df5687341f07244d829b6d271c6318f5a895362c7ccf05e93dd44a.deb
+Size: 37576
+MD5sum: 33fdfdf486b83a05bfe23ea1ddc3d0f8
+SHA1: 56417035eaa274e76ac7fd824908ea3ddc5ba7af
+SHA256: d860b83425df5687341f07244d829b6d271c6318f5a895362c7ccf05e93dd44a
+SHA512: 947d2419122a441727cc8d775e54954f10b5e31aeaf66997d8897836e3b69847bd478663606971d08951afd1bee4ab9bab9aea6c02ff8e40fc283f6993784b5a
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存，高亮，文字等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.fixdh
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/cn.llld.fixdh_0.0.2_iphoneos-arm64_1545d2b936ffdc69bf3a24e6a89e294e72cc70d88c5fe250e3ac581d3dbcef69.deb
+Size: 4284
+MD5sum: 635d07577682bac4d23eb7bd50491168
+SHA1: 2457f995d6f5867d0932d1eaf65516e54f30c41e
+SHA256: 1545d2b936ffdc69bf3a24e6a89e294e72cc70d88c5fe250e3ac581d3dbcef69
+SHA512: d53dd7914b52a1e126058fe6dccb77552e9875654a3dd857a905cc658eeaa379f70ef391f98db43df9d18c2ce0df97fa411c9164dda9f0cbe494785943f0d8f3
+Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度3050-3350）
+Name: phonefix
+Author: 来了老弟 h_h_x_t
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+
+Package: cn.llld.fixdh
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/cn.llld.fixdh_0.0.2_iphoneos-arm64e_450e8446eae526159c4864a122888fa2bf898d415e4b715b10b2d2824bc9e0f6.deb
+Size: 4180
+MD5sum: 3303004f08716f906592eeaec8773e98
+SHA1: 00e08b9c67e4c192c02c7d144a84e27befc21b03
+SHA256: 450e8446eae526159c4864a122888fa2bf898d415e4b715b10b2d2824bc9e0f6
+SHA512: 553ae328fbbc48f262099c8cb0cc8b25bf00c53ceadd4b7979c622be420b094597f3df4ad646d38728a926e108f52c8ae3b150a3770f95b2cef11206d1507f7d
+Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度3050-3350）
+Name: phonefix
+Author: 来了老弟 h_h_x_t
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+
+Package: cn.llld.fixdh1
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/cn.llld.fixdh1_0.0.2_iphoneos-arm64_f4db1187f52a36ff44159232c8667dd32854543f4436b5e6612a9a9e16d3002a.deb
+Size: 4276
+MD5sum: 25a3253c04f9ba86873a285d55d0b4a2
+SHA1: 245a8882b6d55a82578d4856857475a47ff40a37
+SHA256: f4db1187f52a36ff44159232c8667dd32854543f4436b5e6612a9a9e16d3002a
+SHA512: 050a855cae67e78074c5e6a153c26f77d84b91ca09879b652591d9d9217cececd252df73af1475304aab57bd3bd0b5ebe508e46c01bebdc22570f2aa34711836
+Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度2850-3150）
+Name: phonefix
+Author: 来了老弟 h_h_x_t
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+
+Package: cn.llld.fixdh1
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/cn.llld.fixdh1_0.0.2_iphoneos-arm64e_e1b30003a0d073dcafe05b387c357e19d50d04305cf0f0b631709dff4aa34841.deb
+Size: 4184
+MD5sum: 31763cd274292546b50d3d62fa5b6cd5
+SHA1: 6b7c78c560e935140f93a7bbc849bde0acc5e51c
+SHA256: e1b30003a0d073dcafe05b387c357e19d50d04305cf0f0b631709dff4aa34841
+SHA512: bd7a23db50dc29fd5ed430977a10f501d99eeb4cd11a42db0acbca3a40d5209ce9916570d6dc96bb999a9c40825a60a9aa246155ad49a9ba6c418ccb19ca2df6
+Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度2850-3150）
+Name: phonefix
+Author: 来了老弟 h_h_x_t
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+
+Package: cn.llld.flexcopy
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/cn.llld.flexcopy_1.0_iphoneos-arm64_c1d8babffbdd5af82bd3c14fb7f08494b3110042ecbe30e77b3445e09ccd722a.deb
+Size: 4736
+MD5sum: 45251d616d953c1cf78266686b1465cc
+SHA1: 40f260ef3aea1d0d67a099762b83c5443521c940
+SHA256: c1d8babffbdd5af82bd3c14fb7f08494b3110042ecbe30e77b3445e09ccd722a
+SHA512: 22b0c9e0553bc269c5ad1753519ab577b6b3885cb6773093ba8e069204a1c9a5c49b716a7cde5d6bc35f66bd9950356445825dcb7fb70822a84aa2f4ca1835d9
+Description: Specifically customized for Flex3, long press to copy the description or popup content, combined with translation tools or software, making it convenient for you to understand languages you don't know.（专门为Flex3定制，长按描述或者弹窗复制内容，配合翻译工具或者软件，方便你去了解不懂的语言）
+Name: Flex3Copy
+Author: 来了老弟
+Icon: https://huayuarc.github.io/icon/flexcopy.jpg
+
+Package: cn.llld.flexcopy
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/cn.llld.flexcopy_1.0_iphoneos-arm64e_c7e4f64dd075991f2bc309a4125e5920bfbe5f9aad62de0e46e3de0add1d1550.deb
+Size: 4700
+MD5sum: f28b2d434c8eeb1ea03f9ea3b4f31625
+SHA1: 3d362fb1aa87dfc9c4b4e88f6c7c54682333bb4d
+SHA256: c7e4f64dd075991f2bc309a4125e5920bfbe5f9aad62de0e46e3de0add1d1550
+SHA512: 34c573b13ef79ed13f003f184d014fbf5ccb8dc8681cb0e5e0618ae59e298b17a62156e5ffc3265f6a9c529df7c9f5d8f8e7db34cb1ae3d5ce728f7e0551d71f
+Description: Specifically customized for Flex3, long press to copy the description or popup content, combined with translation tools or software, making it convenient for you to understand languages you don't know.（专门为Flex3定制，长按描述或者弹窗复制内容，配合翻译工具或者软件，方便你去了解不懂的语言）
+Name: Flex3Copy
+Author: 来了老弟
+Icon: https://huayuarc.github.io/icon/flexcopy.jpg
+
+Package: cn.llld.ftt
+Architecture: iphoneos-arm64
+Version: 0.1
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Filename: debs/iphoneos-arm64/cn.llld.ftt_0.1_iphoneos-arm64_eebee98e3d09d344a1938b2c4245f544ee0ad91cd3807d2988c998b3eedbc42e.deb
+Size: 42940
+MD5sum: a8f716dde02241e716779e77f42e3225
+SHA1: b80f9c551be1983095b291defc5a5aa0e3963420
+SHA256: eebee98e3d09d344a1938b2c4245f544ee0ad91cd3807d2988c998b3eedbc42e
+SHA512: a67391e8ec3b93a24d0769e605e7e08181258c0f5323586b0cc7ae5eee307071735f043cc1a56eb7a3fbe2bed71c34c6e25de15474f6a0dddf6bd876a82efe7a
+Description: This is just the Chinese version of "ftt", the English version in（ https://github.com/randy-420/ftt ）Download。。。。工具作用：把Flex3补丁转换为Theos项目，原版(https://github.com/Randy-420/ftt)，补丁路径：/var/mobile/Library/Application Support/Flex3/patches.plist或前面加/var/jb
+Name: ftt中文版
+Author: iPadKid358 Randy420
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: cn.llld.ftt
+Architecture: iphoneos-arm64e
+Version: 0.1
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/iphoneos-arm64e/cn.llld.ftt_0.1_iphoneos-arm64e_c9b8cf53e1dbd1d127872b3c18e55cfdb3f14aefc4d5a672c4773a191ad6de13.deb
+Size: 42312
+MD5sum: dd2a00859094fd24b07762139e4c9185
+SHA1: 9120c9c6812619d8d9e354b23e8d6a4686596c3d
+SHA256: c9b8cf53e1dbd1d127872b3c18e55cfdb3f14aefc4d5a672c4773a191ad6de13
+SHA512: a98c7adde420ba5adf3347b09a4d82473645fb2b6d119c6b9ced10706390b22e2b7bcb581d671851bed96c04fc06b20a3d89500033d1754689d0b282d183c5c7
+Description: This is just the Chinese version of "ftt", the English version in（ https://github.com/randy-420/ftt ）Download。。。。工具作用：把Flex3补丁转换为Theos项目，原版(https://github.com/Randy-420/ftt)，补丁路径：/var/mobile/Library/Application Support/Flex3/patches.plist或前面加/var/jb
+Name: ftt中文版
+Author: iPadKid358 Randy420
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: cn.llld.litten.rose
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0),cn.llld.hhxt
+Conflicts: love.litten.rose
+Filename: debs/iphoneos-arm64/cn.llld.litten.rose_1.0.9_iphoneos-arm64_a2fc360fe45d507ff0d062bab500e49eb64160839326eff3121c6f68dd6a2b54.deb
+Size: 449556
+MD5sum: ee17a45952c04c80f3b8a7af649610db
+SHA1: d62c1dc920c5a9f6a5aea6290a973db55fbe6674
+SHA256: a2fc360fe45d507ff0d062bab500e49eb64160839326eff3121c6f68dd6a2b54
+SHA512: 3ece78279f16fa0a8c5720e4a1c5dec71517118c07c73da7574cfd3f1750e46ee76ae6eb49212d2df7fc186bba2a75d2076dbfaa747fdd9e3cce95f06f239a54
+Description: Global vibration configuration, covering almost any vibration adjustment that can be touched，全局震动配置，几乎覆盖能触摸的任意震感调节
+Name: Rose 振动配置
+Author: Litten 来了老弟
+Icon: https://huayuarc.github.io/icon/Rose.png
+
+Package: cn.llld.litten.rose
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0),cn.llld.hhxt
+Conflicts: love.litten.rose
+Filename: debs/iphoneos-arm64e/cn.llld.litten.rose_1.0.9_iphoneos-arm64e_c3bb619bcbd2e45f7a0d0759a2a71a5ab20fc821367dcd96300156006e9dc5ac.deb
+Size: 450388
+MD5sum: 54b38454241e1d7adb77cdde831eded2
+SHA1: 771480be157060a0100f5faeb299ee2d5a472dd0
+SHA256: c3bb619bcbd2e45f7a0d0759a2a71a5ab20fc821367dcd96300156006e9dc5ac
+SHA512: 5a090bfe8f8a08495d1e5ec219643a0c44ab0a0c903bfaeab4f0b560ef8f995be83655af76b5ee070eba09101d80650c093d6112bdfabedd8c9fcb24d0378845
+Description: Global vibration configuration, covering almost any vibration adjustment that can be touched，全局震动配置，几乎覆盖能触摸的任意震感调节
+Name: Rose 振动配置
+Author: Litten 来了老弟
+Icon: https://huayuarc.github.io/icon/Rose.png
+
+Package: cn.llld.playerbj
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/cn.llld.playerbj_1.0_iphoneos-arm64_2aabacded9500e783e5f091ff5c0b80f71fa3de612df27bfddb12a7f8ccf9207.deb
+Size: 3700
+MD5sum: c885fc556d24308318cd3f2b8ca37faa
+SHA1: 485ff01610d420c4b156e815db882cd2063156e7
+SHA256: 2aabacded9500e783e5f091ff5c0b80f71fa3de612df27bfddb12a7f8ccf9207
+SHA512: 4871bfd79c7fe7bf80295a99ab99aed68721caf7b71356a7021b17062bad5a03e2f9b7a5d357b0e0a3a115f52df2ef9a91b45a10c7b49b64efd4248d019dbfa1
+Description: Hide player Notification background。全透版本，隐藏播放器通知背景-rootless
+Name: 隐藏播放器通知背景
+Author: 来了老弟 h_h_x_t
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.playerbj/playerbj-rootless.json
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: cn.llld.playerbj
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/cn.llld.playerbj_1.0_iphoneos-arm64e_55fa49ab98a7890e0c39b74525ccf414a4b1459b2f0d53a27d25336882952928.deb
+Size: 3684
+MD5sum: bc50b5471b8d0b8ed1d9e8e8b8d2247b
+SHA1: 243913f514fa03cb50432a0a9cdcb4c918a5c5c1
+SHA256: 55fa49ab98a7890e0c39b74525ccf414a4b1459b2f0d53a27d25336882952928
+SHA512: ffde68bd7b4131c360f68938a2dc947f8273fddfd95b7aaeac986eba0a2d60a4ae39ae01f4ec897a493c176bdc1d53e658b4dc214c24061f9808ecef9b0f1a59
+Description: Hide player Notification background。全透版本，隐藏播放器通知背景-roothide
+Name: 隐藏播放器通知背景
+Author: 来了老弟 h_h_x_t
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.playerbj/playerbj-rootless.json
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: cn.llld.sjhx
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: 来了老弟
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/cn.llld.sjhx_1.0_iphoneos-arm64e_31cdffc86ffb356cc767a216cce7d8f86aea49ea86234c33309704d821b64d29.deb
+Size: 3132
+MD5sum: 810cfddd9fedb466e96021412e6dbcab
+SHA1: 9c592062e5ae1588c3e58fd23037e1f308a73ce3
+SHA256: 31cdffc86ffb356cc767a216cce7d8f86aea49ea86234c33309704d821b64d29
+SHA512: 690cbe7a1b724edfa10307519298af3b83f8558d7cdcc4198f56e378f87d913a8f7348f9d58aa941fa9ca8f32b74a27ec3fa1b2f3b38be74b6f26724bd5790f5
+Description: Change single-click to wake to double-click to wake (Settings-Accessibility-Touch-Tap to wake)单击唤醒改为双击唤醒(设置-辅助功能-触控-轻点唤醒)---roothide
+Author: 来了老弟
+Name: 双击唤醒
+dev: 来了老弟
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: cn.llld.sjsp
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: 来了老弟
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.sjsp_1.0_iphoneos-arm64e_1363e6a77bf98cea11802e096835179d6d8f3071bbf2001fc686322e9e1cc811.deb
+Size: 8620
+MD5sum: 8bbdf9543c288b024ce00a6cf653d896
+SHA1: c0aae82d7dae941d5e59ab29f368231321e372fc
+SHA256: 1363e6a77bf98cea11802e096835179d6d8f3071bbf2001fc686322e9e1cc811
+SHA512: 0de5049a1712dc2af9e0f1dac94ec65fcfe447401d4130884aa41e4627f46794fb69eba168fd90ad19a48a9a65ecca9553199e34f24262e3df3f8a3878a3d331
+Description: Double-click the home screen to lock the device双击锁屏---roothide
+Name: 双击锁屏
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: cn.llld.smartnotifications2
+Architecture: iphoneos-arm64
+Version: 1.7.1
+Section: Tweaks
+Maintainer: 来了老弟 X：h_h_x_t
+Depends: mobilesubstrate, com.spark.libsparkapplist, com.cokepokes.libnotifications, cn.llld.hhxt
+Conflicts: com.eliassfeir.SmartNotifications
+Filename: debs/iphoneos-arm64/cn.llld.smartnotifications2_1.7.1_iphoneos-arm64_fca713c03bc5f50fa4769a18ca77fac4d3812d11c6d18f7b626a58b6e3a50e8a.deb
+Size: 2473732
+MD5sum: 578e2b100f24950d2a8a841c0e68b5bf
+SHA1: 30da2cee91ab2adb3659104c5cfa6423a412badf
+SHA256: fca713c03bc5f50fa4769a18ca77fac4d3812d11c6d18f7b626a58b6e3a50e8a
+SHA512: 0d210a504ef256d17140bf05dbf54867ba3a1443cf83622d0e1e3115892c92eea7c4a7611cb000917824a375889dfc414f29ac75f2f24ea12f80e5a914e73e38
+Description: The ultimate tweak to customize your notifications such as adding custom ringtones for apps, enable time frame, snooze notifications, block contacts and much more。（Don't turn on the custom volume level）自定义通知的终极调整，为应用程序添加自定义通知铃声、启用时间框架、暂停某个时间段的通知、阻止联系人，通知闪光灯等。待处理问题：(自定义音量级别不要开，会引发注销，需要等我打个补丁)
+Name: SmartNotifications 2
+Author: Elias Sfeir
+Icon: https://huayuarc.github.io/icon/SmartNotifications.png
+
+Package: cn.llld.smartnotifications2
+Architecture: iphoneos-arm64e
+Version: 1.7.1
+Section: Tweaks
+Maintainer: 来了老弟 X：h_h_x_t
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.libsparkapplist, com.cokepokes.libnotifications, cn.llld.hhxt
+Conflicts: com.eliassfeir.SmartNotifications
+Filename: debs/iphoneos-arm64e/cn.llld.smartnotifications2_1.7.1_iphoneos-arm64e_93da0a06dd8ad8f83263b52d35968b7a327af04e035059f847e3384692d5e5c4.deb
+Size: 2473924
+MD5sum: de19b7054ffbffedf93c8e7a05ce9cf7
+SHA1: cc40422c2eb4d7c77d7e8a9e00c76b44107ade99
+SHA256: 93da0a06dd8ad8f83263b52d35968b7a327af04e035059f847e3384692d5e5c4
+SHA512: 149a3f7451d2e94863ec2f554fc41f45329522cb84ec6d605baad5ea89f89ac04b490de4fda10791539bec401cb616cd736c122b8ef3d34a77267c1e7ed135b5
+Description: The ultimate tweak to customize your notifications such as adding custom ringtones for apps, enable time frame, snooze notifications, block contacts and much more。（Don't turn on the custom volume level）自定义通知的终极调整，为应用程序添加自定义通知铃声、启用时间框架、暂停某个时间段的通知、阻止联系人，通知闪光灯等。待处理问题：(自定义音量级别不要开，会引发注销，需要等我打个补丁)
+Name: SmartNotifications 2
+Author: Elias Sfeir
+Icon: https://huayuarc.github.io/icon/SmartNotifications.png
+
+Package: cn.llld.snapshottool
+Architecture: iphoneos-arm64
+Version: 1.4.0-1
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 3044
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.snapshottool_1.4.0-1_iphoneos-arm64_d02195012b28db467a0bc04c97058294784267f36db0fc9c7aeb7e90b49429f1.deb
+Size: 867068
+MD5sum: 06fadd63dc6b87eb5eada2b4f9964613
+SHA1: e942cf4b92b8ab798d6100fecc86e3652e00d67d
+SHA256: d02195012b28db467a0bc04c97058294784267f36db0fc9c7aeb7e90b49429f1
+SHA512: 438ddf41d221a6c9f00e8965729da086c63dc9e08d298f2de93235489cbe69ac97518944128d8d3e5e44437a32fcac72b1e47cc7218ea688dc605406d9d52985
+Description: ---对于应用软件的图片，（无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Name: STTool
+Author: 来了老弟
+Icon: https://huayuarc.github.io/icon/SnapshotTool.png
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
+Package: cn.llld.snapshottool
+Architecture: iphoneos-arm64
+Version: 4.2-2+debug
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 1644
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.snapshottool_4.2-2+debug_iphoneos-arm64_6cd0923ca1af5713b5832f62de413f6fd84cbf513400a841d0ac816b2708fbd3.deb
+Size: 525052
+MD5sum: f61973f52435bfd23a1407ea31d87aec
+SHA1: 97e9b17f24e46cbb4db013a3aaa0e98e53bd9c45
+SHA256: 6cd0923ca1af5713b5832f62de413f6fd84cbf513400a841d0ac816b2708fbd3
+SHA512: 525c3b9975bb7e61a2b61bdac02f19722d89093543865f682dfe95227cfc5b7f63edcb0a9887da133d0d2f709879dc338352b6619503957df98ea7112d6b40a6
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Name: STTool
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/SnapshotTool.png
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
+Package: cn.llld.snapshottool
+Architecture: iphoneos-arm64
+Version: 4.2-5+debug
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 2640
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.snapshottool_4.2-5+debug_iphoneos-arm64_30d5a2fe76039e860d60cab40e51632846f7e2056034db3d25de53dd824b852a.deb
+Size: 1531220
+MD5sum: 205fa8985e3b897418ffcd1ec65b2648
+SHA1: 2ad7606751084cf376b97a246305cb0551ed1d42
+SHA256: 30d5a2fe76039e860d60cab40e51632846f7e2056034db3d25de53dd824b852a
+SHA512: 276284e9cbb7e26b60fd14c5583114769f9320f483dfaf34a7fc28c870d102949756d77222977348c4b3445efc8d2b42bbf2a727b98a0814feab7a73bf7633d8
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Name: STTool
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/SnapshotTool.png
+
+Package: cn.llld.snapshottool
+Architecture: iphoneos-arm64
+Version: 4.3
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 1076
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.snapshottool_4.3_iphoneos-arm64_66e49926fe88c6586d60ec70af3dea7ac98b511583eec0d6ca446983041735e4.deb
+Size: 462904
+MD5sum: f050c34df455bd132ac29b9de4dc906a
+SHA1: 1d077bb84ed9c677a924d7a01fffbb2bb4168381
+SHA256: 66e49926fe88c6586d60ec70af3dea7ac98b511583eec0d6ca446983041735e4
+SHA512: ccbed84adde98f5884f476e86a7b3efc0eb38f62aef8b5ab7b1f37b832b987c49fdb35ccc53c77644049d17c8670459f00b1cefa9c0519fdaed65289dc9d1499
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Name: STTool
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/SnapshotTool.png
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
+Package: cn.llld.snapshottool
+Architecture: iphoneos-arm64
+Version: 4.4
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 1092
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.snapshottool_4.4_iphoneos-arm64_4223adcceaed9d6fb49e85afdfe3f21984c51d012366d42ebe8a97965f5117fa.deb
+Size: 465716
+MD5sum: 9eabe35588d118a11d87eb785fff3b57
+SHA1: 181a38e8a7ede6128186412810b34c0931c79efb
+SHA256: 4223adcceaed9d6fb49e85afdfe3f21984c51d012366d42ebe8a97965f5117fa
+SHA512: 3053409e037c117c094632e11f2db938c29fca6414f9fbd4149e1c5ee37448123354bc6bd627f63ee834d88150d20f04eb9a83255d852e43fdaa7872ee362aa3
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Name: STTool
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/SnapshotTool.png
+
+Package: cn.llld.snapshottool
+Architecture: iphoneos-arm64e
+Version: 1.4.0-1
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 3044
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.snapshottool_1.4.0-1_iphoneos-arm64e_6e5b32508173022a39459350ae7bbde2c225b0f0df542ad5e47934c94a812831.deb
+Size: 866512
+MD5sum: 8e4531588521ab4c899961647bb5e4f3
+SHA1: 1e014e5ab9c7a0b00cfccfb0704bd5d5be0777bc
+SHA256: 6e5b32508173022a39459350ae7bbde2c225b0f0df542ad5e47934c94a812831
+SHA512: bd00a2a846e6a93e522aaf49360be6b0617f25f80acb484f7a069eeb0e0b9051e4b8033a859eb167ea2f755748c8940e14ce8649fa1cae3168c1557553edf249
+Description: ---对于应用软件的图片，（无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Name: STTool
+Author: 来了老弟
+Icon: https://huayuarc.github.io/icon/SnapshotTool.png
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
+Package: cn.llld.snapshottool
+Architecture: iphoneos-arm64e
+Version: 4.2-2+debug
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 1644
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.snapshottool_4.2-2+debug_iphoneos-arm64e_8a570da2e1f7263e46b22a30fa732ef09969a290290bf2246d34f6cfe243976c.deb
+Size: 516568
+MD5sum: b6533244d44fe302bf4ff0611e4e51e6
+SHA1: c8ea2f4844e4603856e2e3d78b3b20d1f2a938e1
+SHA256: 8a570da2e1f7263e46b22a30fa732ef09969a290290bf2246d34f6cfe243976c
+SHA512: d315128d58c25f2c40c3bbf27b89aa1c0406308a318c3bfd9ce314fe2342cd034f27ec6cedabfde5bf63dc86f199e040279827268399119468c5fc0d0552881d
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Name: STTool
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/SnapshotTool.png
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
+Package: cn.llld.snapshottool
+Architecture: iphoneos-arm64e
+Version: 4.2-5+debug
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 2640
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.snapshottool_4.2-5+debug_iphoneos-arm64e_0e202377297d6e681c38ccd483cf4c3e7ac5f33ee2b6faa68dd1a53c320b58db.deb
+Size: 1522964
+MD5sum: 4df84a23b702cf700ee5c4b7cc3d0c7c
+SHA1: 66c84cf2a12281a46ce0c5b3d1996161e2962d9f
+SHA256: 0e202377297d6e681c38ccd483cf4c3e7ac5f33ee2b6faa68dd1a53c320b58db
+SHA512: c10d3a46039b9a6fc35cd6cfbb80162e188771ff72e2767eec8e879a7d791814e7dc5a43a94f9b4dd40dbc16cea6f474ccf4e48088011e626445b2b241fc3f00
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Name: STTool
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/SnapshotTool.png
+
+Package: cn.llld.snapshottool
+Architecture: iphoneos-arm64e
+Version: 4.3
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 1076
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.snapshottool_4.3_iphoneos-arm64e_03624b6e14ee20b82424ede8e77f02371d284aa80e7fe202b655054f6fb412da.deb
+Size: 457380
+MD5sum: c478049afe80de50f93659c0264fd172
+SHA1: d23aca950799b917e3b52527feda30aeabcbcb1b
+SHA256: 03624b6e14ee20b82424ede8e77f02371d284aa80e7fe202b655054f6fb412da
+SHA512: 663a09f2a225239f2149bbb765c62644517aca289e487df5a42f34a6f85b6ed87555641017f72a97888971ba29440be481eee415c6f0fb5f0afbdb2a1e710dd5
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Name: STTool
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/SnapshotTool.png
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
+Package: cn.llld.snapshottool
+Architecture: iphoneos-arm64e
+Version: 4.4
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 1092
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.snapshottool_4.4_iphoneos-arm64e_bdea382a122002c3228ee6e5dd1de1cd1b4cb9177a572151d5357b2bf8d3df33.deb
+Size: 460044
+MD5sum: 64392081823a5746d85a69374cc70aa3
+SHA1: 5620ba50eecc0e78ef9f050da48749f8704e4920
+SHA256: bdea382a122002c3228ee6e5dd1de1cd1b4cb9177a572151d5357b2bf8d3df33
+SHA512: 374eb792970453bdec5d606f25c34cddca9c98c0717d593df4c35596150b9d5f26bab4c08c54093831528aba3033d7cc06f46a2c4a9e93d7b25c69f3bc76517e
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Name: STTool
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/SnapshotTool.png
+
+Package: cn.llld.tmts
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 480
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/cn.llld.tmts_1.2_iphoneos-arm64_59d81d03f15b54c550ba229466e447512cc3bb4cf3722ea60e511bcc0b42dabf.deb
+Size: 125392
+MD5sum: 72b06e9c386504a93d57dc31862271c9
+SHA1: 864092ac9d89006a9c7415ea8fa9ed1c8603ea20
+SHA256: 59d81d03f15b54c550ba229466e447512cc3bb4cf3722ea60e511bcc0b42dabf
+SHA512: 1df0799b9626fa00c6288ccb64bc8f7e4f9581d3048a2e363c45147e9cff8419630e73ef7697610ee9b97c36547017b627b360c90070d20d135f1247171f7794
+Description: Customize notifications, player，control center, multitasking background module transparency(alpha)，Customize the size and location of the player and control center，Each fill in the blank has a numerical value.自定义播放器大小和控制中心大小及位置，自定义SpringBoard全局透明度(包含 锁屏 ，播放器，负一屏，通知，控制中心，多任务后台模块等)----240305:增加锁屏手电相机透明度，兼顾16.2-16.3.1版本调节播放器透明度，***记得每个填空得有数值，以最新版本为准，之前代码是垃圾***
+Name: 全局透明 Max
+Author: 来了老弟 X：h_h_x_t
+Icon: https://huayuarc.github.io/icon/tmllld.png
+
+Package: cn.llld.tmts
+Architecture: iphoneos-arm64e
+Version: 0.2
+Section: Tweaks
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 448
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/cn.llld.tmts_0.2_iphoneos-arm64e_baf8aba140edcff39202817c886931f0473c505edea35617b1090e032859f448.deb
+Size: 118164
+MD5sum: c71314d44c4e8be3cc2b553af3a11d19
+SHA1: df63cdbb5d5476f52862b8148f670233c090b3f3
+SHA256: baf8aba140edcff39202817c886931f0473c505edea35617b1090e032859f448
+SHA512: 681159c19db547be263c0565913f43c1512eb45fbd9bd4855fcf7db69f3f6fa81d27df3e633d5275b0620325f211d64d01311e9f04099bc0aafb6a107a9e5208
+Description: Customize notifications, control center, multitasking background module transparency（alpha）。自定义全局透明度(包含 播放器，负一屏，通知，控制中心，多任务后台模块等，有空就更)，202401192005:增加专注模式和二级模式，拆开负一屏和文件夹背景单独设定.(群是那个芭比Q，满了，待扩张)
+Name: 全局透明 Max
+Author: 来了老弟 X：h_h_x_t
+Icon: https://huayuarc.github.io/icon/tmllld.png
+
+Package: cn.llld.urljg
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: System
+Maintainer: 来了老弟
+Installed-Size: 1072
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.urljg_1.1.0_iphoneos-arm64_32f78b2e0c3340a4cf00fcf524cc54d1c9e931da25837a1c3a2a16ee6a62eaf6.deb
+Size: 668572
+MD5sum: 725a2153115d1dc6025f8681abe3d217
+SHA1: 2077b24bb5e3cb05e489dc3d6949a4699d9becd7
+SHA256: 32f78b2e0c3340a4cf00fcf524cc54d1c9e931da25837a1c3a2a16ee6a62eaf6
+SHA512: 587ebc82eae31086877d1d2ef874c554f9410816ae1ad43d440aad52588d9e7cc8d9a1d53185dc79c86e131f155159a3e08bf357ed73404bbcbec1bc145ff4ee
+Description: URL管家 — 统一接管本机 URL Scheme（隐藏 / 重定向），支持单应用或者全局，也可防范某些应用检测某东东
+Tag: purpose::uikit, compatible::ios14
+Name: URL管家
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/urljg.png
+
+Package: cn.llld.urljg.roothide
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: System
+Maintainer: 来了老弟
+Installed-Size: 1104
+Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.urljg.roothide_1.1.0_iphoneos-arm64e_683e6b92a1b0ca3434d41c5f8c225de5942d4db407df92dd8cdd6750489a2a40.deb
+Size: 672904
+MD5sum: 1f79456e58bc359a7f5feefca814cb30
+SHA1: de4059c26b1529222a86725d277c388698758ab6
+SHA256: 683e6b92a1b0ca3434d41c5f8c225de5942d4db407df92dd8cdd6750489a2a40
+SHA512: 400c3bd427686ae805e0d52859a61c9e4e0061527d25d120c9b2b3ceb511e31d94ca4ed336dd378aa11250ca6673b528cddb52f2da1b164ccd709fa657a84841
+Description: URL管家 — 统一接管本机 URL Scheme（隐藏 / 重定向），支持单应用或者全局，也可防范某些应用检测某东东
+Tag: purpose::uikit, compatible::ios14
+Name: URL管家
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/urljg.png
+
+Package: cn.llld.vibrato
+Architecture: iphoneos-arm64
+Version: 2.12
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), preferenceloader
+Filename: debs/iphoneos-arm64/cn.llld.vibrato_2.12_iphoneos-arm64_b01e25f8e0dd58c71ff989654eca6ce22d48d23bc2de8128c4067a5da99650da.deb
+Size: 195788
+MD5sum: f9b3d460fb8d05e3d14e3a19021eadde
+SHA1: aec56027b82129cc88360fd1c994450920d9c1ea
+SHA256: b01e25f8e0dd58c71ff989654eca6ce22d48d23bc2de8128c4067a5da99650da
+SHA512: 7271dea78e8f89216e94d5c8db9658779295e5cc2357e55bc31b903d69f5f88baae09ae459ad2d814508789688495997a39168a0d86894695011e732561d02d4
+Description: Global custom vibration feedback全局自定义震动反馈，设置若显示空白，则换PreferenceLoader版本_________仅测试用,有问题卸载
+Name: Vibrato全局自定义震动
+Author: SynnyG 来了老弟
+Icon: https://huayuarc.github.io/icon/Vibrato.png
+
+Package: cn.llld.vibrato
+Architecture: iphoneos-arm64e
+Version: 2.12
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), preferenceloader
+Filename: debs/iphoneos-arm64e/cn.llld.vibrato_2.12_iphoneos-arm64e_a1ef92b0429ffa8c4b297ee345cceb8c3f5b7a684ef6ec646915a01cd5bde5d2.deb
+Size: 196016
+MD5sum: c3d489e1d73b3c9f19a16b122f18c7e2
+SHA1: 9edb8efbda8892f2b8c2e308c2085a20ed9c853c
+SHA256: a1ef92b0429ffa8c4b297ee345cceb8c3f5b7a684ef6ec646915a01cd5bde5d2
+SHA512: d1a45816fe7dd86671485b3768605ae12e7aaa8043a198b5d0dd2921ebce103db934bdd4ee756ec57c45b0be8e8d2282153a2a14e488c5c08c72d9a573a20eb6
+Description: Global custom vibration feedback全局自定义震动反馈，设置若显示空白，则换PreferenceLoader版本_________仅测试用,有问题卸载
+Name: Vibrato 全局自定义震动
+Author: SynnyG 来了老弟
+Icon: https://huayuarc.github.io/icon/Vibrato.png
+
+Package: cn.llld.ycvpn
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 436
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/cn.llld.ycvpn_0.0.2_iphoneos-arm64_cd09dd8e976ab2bfe75093833a942282be1f62d736923a81ab3d5f92588aaea3.deb
+Size: 162432
+MD5sum: 35ca660ea428717016aefab6a3a4360e
+SHA1: a3def555800a23e2deef5a6d6f40d6cd3d821fd9
+SHA256: cd09dd8e976ab2bfe75093833a942282be1f62d736923a81ab3d5f92588aaea3
+SHA512: 6bd923e94df05f95790d8d623ca78c2f7a0bb3aea54d35cce21307c829339624d3268e429fa2d476704b095d093ddb8458729ec202c1c81b0fad9d901d5dc7fd
+Description: 隐藏手机设置内VPN或某些选项或应用
+Name: 隐藏项
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/ycvpn.jpg
+
+Package: cn.llld.ycvpn
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 436
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/cn.llld.ycvpn_0.0.2_iphoneos-arm64e_b1df78392096a8d3ce321b25ebffd51f218ea2e885da3e9fba5f7fc20cd668ec.deb
+Size: 161944
+MD5sum: 6bba45b3dcedc5bb91c751631481b253
+SHA1: 4c383bc7ce59b33247d79ca8c1e16c658682bf21
+SHA256: b1df78392096a8d3ce321b25ebffd51f218ea2e885da3e9fba5f7fc20cd668ec
+SHA512: 20e9686c4b5862f3848ca345e11d8a2d3ac4da67ca55e909bff617b872b03bd9d2b53c54695cf611e2ddb1c4f1220fc7ddd17548c6a9641ba9c243b10494829a
+Description: 隐藏手机设置内VPN或某些选项或应用
+Name: 隐藏项
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/ycvpn.jpg
+
+Package: cn.octoforce.copyvault
+Architecture: iphoneos-arm64
+Version: 1.9.0
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6220
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: debs/iphoneos-arm64/cn.octoforce.copyvault_1.9.0_iphoneos-arm64_7a36ee951ff3222dd61e9bc603edbc58b796fdc19e0cd96390e36e7cd71a5471.deb
+Size: 1668684
+MD5sum: 5cf2692950c4a200c0afdd255f981c8b
+SHA1: 28bb2f68ab0d83a9960f60e0111a3132cfb9c06a
+SHA256: 7a36ee951ff3222dd61e9bc603edbc58b796fdc19e0cd96390e36e7cd71a5471
+SHA512: 6c0c7efcf9aa04006d18a62a338b79ffc4e6a2aa0c52046dce300bb312dedd740058ccf7fd3745978e2775de9ca6751752565870d1bed82ea55ce55c09456117
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Name: CopyVault(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+icon: https://huayuarc.github.io/icon/CopyVault@2x.png
+
+Package: cn.octoforce.copyvault
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6380
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: debs/iphoneos-arm64e/cn.octoforce.copyvault_1.9.0_iphoneos-arm64e_2c657a466a43716939232d79cbadfd87f0cb01f30c737ef91662ff9bf17c5fc4.deb
+Size: 1706972
+MD5sum: 1a521f308c287f34e1afb8eb271f98ac
+SHA1: c7e4e8d95c0d60096e581890bae4485b80b15b29
+SHA256: 2c657a466a43716939232d79cbadfd87f0cb01f30c737ef91662ff9bf17c5fc4
+SHA512: a980e7cbcfdcdad67d581a98dff30b284cf61a0972ac10478fee9966013052f969907c2b3e04e9d8ca139b2729d047b87152872d9ecef3606c817af24fe4249e
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Name: CopyVault(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+icon: https://huayuarc.github.io/icon/CopyVault@2x.png
+
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64
+Version: 3.7.2
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 9972
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/iphoneos-arm64/cn.octoforce.squidextender_3.7.2_iphoneos-arm64_90b629f057d610b8029083475d595f32365e46f5b09710b0d205eba974ec4593.deb
+Size: 2272056
+MD5sum: 3faa15634a7b15b59a34251c91fb65f3
+SHA1: 97ef968e143829ab8dcb288db2dc4b806e12982e
+SHA256: 90b629f057d610b8029083475d595f32365e46f5b09710b0d205eba974ec4593
+SHA512: c9cb4bbad970b6ccf9316513844a1a072572e17e12f68761152f70a1a4f86db1ffc4033c9879c0b936b9caaf84a3ba7243e35fcb28289f3d65ac75f2c4c07f2c
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
+
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64
+Version: 3.7.3-1
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 9972
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/iphoneos-arm64/cn.octoforce.squidextender_3.7.3-1_iphoneos-arm64_ce0ac8fcaad92c9cd3f7a7f5dee3e75a2ecb58ee801dce5bc818e654d1cef5ea.deb
+Size: 2273356
+MD5sum: b744f2cdc0eba21d6bb34be05564574a
+SHA1: 3d33f491ef4336783c170a47e022f38b256fe4eb
+SHA256: ce0ac8fcaad92c9cd3f7a7f5dee3e75a2ecb58ee801dce5bc818e654d1cef5ea
+SHA512: 54914a89c6ee6e53af1e15a88b3880f2803b1c741a86336da6e3efda5932da9cd51c60082584653504bc1c9bf5908df46aa63723b4871754794adae65798b887
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
+
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64
+Version: 3.7.4
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/iphoneos-arm64/cn.octoforce.squidextender_3.7.4_iphoneos-arm64_6badcdbe7dfe726fe6a1af0cbd475b409dc36216a79ca006c00fdc91efd0f03c.deb
+Size: 2285736
+MD5sum: b39c2907df5421bbf05c593921538247
+SHA1: 5166d5c1978b7aeffc6b12c86b7f1b40bd0acfa8
+SHA256: 6badcdbe7dfe726fe6a1af0cbd475b409dc36216a79ca006c00fdc91efd0f03c
+SHA512: 6a5e7ad3767fc9d856e004fef706fb9ddafbb34fbcac5e4e2a6a3d39f6e25eecb93f25a9adfc567af9d0f59ee7fd4240cf34508aea16737d76594c8c30779dbe
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
+
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64e
+Version: 3.7.2
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 9972
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/iphoneos-arm64e/cn.octoforce.squidextender_3.7.2_iphoneos-arm64e_665f75b504bfd994da4285d90e3beb45ab1bb1f3c1947ff50b578d0e91091426.deb
+Size: 2223324
+MD5sum: 08bb5c7ec79aa641d0d9716708ca9b16
+SHA1: 749fbbc04ba8f2897feb5e92898edc91edaab70b
+SHA256: 665f75b504bfd994da4285d90e3beb45ab1bb1f3c1947ff50b578d0e91091426
+SHA512: 6b26fbf88fb1926c70f19480b1df3fe05107e7b3543568611770e4d4cc4b17b5b8430a52d2bea00a525f29faf4873fa47fea210b49bf4cceb28151d834be2ad6
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
+
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64e
+Version: 3.7.3-1
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 9972
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/iphoneos-arm64e/cn.octoforce.squidextender_3.7.3-1_iphoneos-arm64e_ace498974ce048ca615ff159c73bf04fa41b4c41cd1a9e0fb15ac55d73e822b4.deb
+Size: 2226620
+MD5sum: 125dc48b4e79b8bb73c36dbc18a55b17
+SHA1: c1dba5f03c0ddc6b5407198f3b4b4c84ad62038e
+SHA256: ace498974ce048ca615ff159c73bf04fa41b4c41cd1a9e0fb15ac55d73e822b4
+SHA512: 3cb9bea2ed765a2a45b5b6e8b642d4834d5b6df5994ba74881a7b1fe87d7983ebd3ea1d57355a75ba3f33ed97fda699ff5e31be758f2cae5fb2a6b8ab75aae0d
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
+
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64e
+Version: 3.7.4
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/iphoneos-arm64e/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e_52a03aa40b3aed65f50f32b73286f587444e5d057d8999cdc294eae46fe0bb98.deb
+Size: 2236912
+MD5sum: c920bd8c454f8a9f8e8ee3f2e4e51a6e
+SHA1: 4f89b8ccdda6c93b174b441c87447e13126d0b37
+SHA256: 52a03aa40b3aed65f50f32b73286f587444e5d057d8999cdc294eae46fe0bb98
+SHA512: e2b556a708f5959123a5c50de8c65f66aca43d547e2d1cb3b46c34d36e2efc9e6a640fb7b1cdc8f47ec3dc523a43163e29bd5d732b5056b8aac21abab7386581
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
+
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64
+Version: 2.7.2
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6460
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/iphoneos-arm64/cn.octoforce.squidgesturepro_2.7.2_iphoneos-arm64_f0e9d85440c693c7189feff3b3f28de7697b008a3f1d58871f43bd624f652176.deb
+Size: 1736648
+MD5sum: 4fd6a7650dc414d63c810efd06ffbc3f
+SHA1: 0fe0e9d3729527a2c703dba4c8f0e256e0a95133
+SHA256: f0e9d85440c693c7189feff3b3f28de7697b008a3f1d58871f43bd624f652176
+SHA512: d69f6ca3fedc3f58aee88e93c23c5712c0ae668aef9b754e9b70da01c302c25ccb8f77df6aa75912a17eef7fd86b261a0adad5395584b7db24b0de10b92ecca7
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64
+Version: 2.7.5
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6588
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/iphoneos-arm64/cn.octoforce.squidgesturepro_2.7.5_iphoneos-arm64_f1a3e2339b0128ea0e221e9502dbdea3a75f867b80a4f09451a93e77c143df21.deb
+Size: 1764932
+MD5sum: 150aaf71963a00fd93d41c7e053a1fd8
+SHA1: 142311a6db6d165f8934c61a1617e9d760fef653
+SHA256: f1a3e2339b0128ea0e221e9502dbdea3a75f867b80a4f09451a93e77c143df21
+SHA512: 0eeabe99ef021bc7e4318a39fddcca7e8375e7dfd30d9135434b23b919aa55fdd9e7aa2995490ebbf22cd1fa6fd484158556e517a1c7bf7399ac7655a3c5a1aa
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64
+Version: 2.7.6-1
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6620
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/iphoneos-arm64/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64_e77ff170d55d583525b21e7fc9c9040b3e2a8ed51170abe6018b6d0dc1b93508.deb
+Size: 1769976
+MD5sum: 5260729de2b051536e9157e970b9b8bd
+SHA1: 92f79a70f90685a693eefb78d795f1b5a3810d35
+SHA256: e77ff170d55d583525b21e7fc9c9040b3e2a8ed51170abe6018b6d0dc1b93508
+SHA512: 514fcd56c761ed05fa37bc400983281304a89202ae152661a34021cf566bb6034d6e75942f4c07fb97070cc82c174aa85e068103fe32f29878e6a5f57d6163f6
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64e
+Version: 2.7.2
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6408
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/iphoneos-arm64e/cn.octoforce.squidgesturepro_2.7.2_iphoneos-arm64e_d4a06a554770a01305c597099f75d8af5d48aa24a509393670fdaa69fdd7bc0c.deb
+Size: 1727196
+MD5sum: 752766fe5e286c8a15efb7247d1e2635
+SHA1: c4d368f04c1c6e56279a76d741a1ed31c0214966
+SHA256: d4a06a554770a01305c597099f75d8af5d48aa24a509393670fdaa69fdd7bc0c
+SHA512: 6d3255f89151fc1f72bf6fb8d865adf43e191eb752e45044135895da691c8abaf0880a17e1b5c1fcac9c9574db4fff396344ec97ce094ccffb63d1076b3a03b5
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64e
+Version: 2.7.5
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/iphoneos-arm64e/cn.octoforce.squidgesturepro_2.7.5_iphoneos-arm64e_a162ae960a3092864b04870e510b306126e4dbf90095f640770757c3d95b079c.deb
+Size: 1787360
+MD5sum: 79b1ba6a3c969769b465b598d9ebcdd7
+SHA1: 3b7270277dd3df362dfacf0cfda4e1d9af07718f
+SHA256: a162ae960a3092864b04870e510b306126e4dbf90095f640770757c3d95b079c
+SHA512: 389979b95ef308b76e66c0046db43fe2f6819b9f96e88776fda1ab4ee0bd74e36b44581d2feb6ca4251bf7fe7da30d37c311c40360649d4857fb1da3dfa3a8ae
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64e
+Version: 2.7.6-1
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/iphoneos-arm64e/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64e_a1ec2cc72389697b7d0c73211f7850a5fee0938316d290f80daa1f6f32ef894d.deb
+Size: 1789620
+MD5sum: 3fc4ca46da84b6872dc4bc5d12408788
+SHA1: 5fd30422efd401d19c202b395e0ad066f3f149be
+SHA256: a1ec2cc72389697b7d0c73211f7850a5fee0938316d290f80daa1f6f32ef894d
+SHA512: 294b8427b47609f0cd8ea0b57f7d63b53eec340f078bdfb23768abf277f8ad2bbfefac96e3690cb476ceb561460c3c710dc7a816e763a739eb8c04bd1f2c41df
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+
+Package: cn.tinyapps.antitracker
+Architecture: iphoneos-arm64
+Version: 2.2
+Section: Tweaks
+Maintainer: BigBoss
+Installed-Size: 4020
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/cn.tinyapps.antitracker_2.2_iphoneos-arm64_4a76806d5657fbd8e744eb78d29701a1dbd7b024732bc98659b1c90c99449760.deb
+Size: 1045676
+MD5sum: 63993361c03e43d4a758276563ba2899
+SHA1: fd44566dd1f2ee1c5ecec8bdc8f1a8e547158e6a
+SHA256: 4a76806d5657fbd8e744eb78d29701a1dbd7b024732bc98659b1c90c99449760
+SHA512: 319a6a3df2ab026b5bfc0e3f1ba2a34927deb3cf760f826843f6fc821fa4244a077d2f17687dfa8e5721b2cfade94ad3f3e9f46c4fc037dd68e6e4f9c7311bf3
+Description: Notifies you immediately when tracked by others via [FindMyiPhone] or [FindMyFriends], and stores all tracking records as well, running in BACKGROUND。support all iOS versions(5.1.1~17.6), and all iOS devices 当被其他人通过[FindMyiPhone]或[FindMyFriends]跟踪时，会立即通知您，并存储所有跟踪记录，在后台运行。支持所有iOS版本（5.1.1‑17.6）和所有iOS设备。
+Tag: purpose::extension, role::enduser
+Author: Tinyapps.cn
+Name: AntiTracker(查岗报警器)-Alerts you when tracked by others in real time
+Sponsor: thebigboss.org
+dev: tinyapps
+icon: https://huayuarc.github.io/icon/AntiTracker.png
+
+Package: cn.tinyapps.antitracker
+Architecture: iphoneos-arm64e
+Version: 2.2
+Section: Tweaks
+Maintainer: BigBoss
+Installed-Size: 4020
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/cn.tinyapps.antitracker_2.2_iphoneos-arm64e_4789b2732682fb5d923e165a928d56923f386c0392a67e37f29e7652bab5257f.deb
+Size: 1028128
+MD5sum: 6a9602acced0524d7df35abc53788d9f
+SHA1: 60695ecfc0af54e911b16d3fd7c553a0511fdd28
+SHA256: 4789b2732682fb5d923e165a928d56923f386c0392a67e37f29e7652bab5257f
+SHA512: 08854bf6379b5eb1cc00005516f2f991d69e1c01e7e9256cd4eecd29c7843a5a074d41d21c7c0bd508066ea67f44051f9758c89744fa354de8dca657b2abc72a
+Description: Notifies you immediately when tracked by others via [FindMyiPhone] or [FindMyFriends], and stores all tracking records as well, running in BACKGROUND。support all iOS versions(5.1.1~17.6), and all iOS devices 当被其他人通过[FindMyiPhone]或[FindMyFriends]跟踪时，会立即通知您，并存储所有跟踪记录，在后台运行。支持所有iOS版本（5.1.1‑17.6）和所有iOS设备。
+Tag: purpose::extension, role::enduser
+Author: Tinyapps.cn
+Name: AntiTracker(查岗报警器)-Alerts you when tracked by others in real time
+Sponsor: thebigboss.org
+dev: tinyapps
+icon: https://huayuarc.github.io/icon/AntiTracker.png
+
+Package: cn.zqbb.ccatop
+Architecture: iphoneos-arm64e
+Version: 2.3
+Section: Tweaks
+Maintainer: SXX, Domo
+Installed-Size: 840
+Depends:
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Filename: debs/iphoneos-arm64e/cn.zqbb.ccatop_2.3_iphoneos-arm64e_d91b21ef4dc3054988d05a71d330908cb8f9e1a038b7fc8bbc9964d332f3c6cb.deb
+Size: 183572
+MD5sum: 8e97cc70da357ddc09b54b719672a7ba
+SHA1: 9de05678f48083f629920e209f1d506af5d62b90
+SHA256: d91b21ef4dc3054988d05a71d330908cb8f9e1a038b7fc8bbc9964d332f3c6cb
+SHA512: 5988d6ed07f3325c5b97c2876a5df5911552a93a63a326bb122bd328f746b32c1a7babcdfa30d4bf693ae8d6e30d6101120f0531ac771ef2be67fde679350ab9
+Description: Process Viewer for iOS GUI, updated for iOS 13 by SXX.
+Name: CocoaTop
+Author: Domo, SXX
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.ccatop.png
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.ccatop
+
+Package: cn.zqbb.hello.varjb
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.zqbb.hello.varjb_1.0_iphoneos-arm64e_2e90723484781713dca670f443cb9487d5e96a583a06de6cca9fb38133320561.deb
+Size: 2588
+MD5sum: 62dcdc7e2ce7fb688d95664a7248fa60
+SHA1: f82723d0a47e08f4c7f93e4e90378e8ee9c3443c
+SHA256: 2e90723484781713dca670f443cb9487d5e96a583a06de6cca9fb38133320561
+SHA512: efb6db711132ce1a29bc50d3155340e22588754246ed745735a4685bac208aebe5333b492495fc68cbe7c49c65977f01c703ad60bc40ab775144de0c1df94247
+Description: 可以修复 relaxin 中的 snapper3 问题!
+Name: Hello VarJB snapper3
+Author: zqbb
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.zqbb.holdcpu
+Architecture: iphoneos-arm64
+Version: 2.0.0-23
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 2304
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: debs/iphoneos-arm64/cn.zqbb.holdcpu_2.0.0-23_iphoneos-arm64_47e7a6fb9c3081ab585ae02b05b54bcbaa6a0bd36aab164e3b8664cd4311cbe8.deb
+Size: 577040
+MD5sum: 9e2a30c85d38ccf4493b072816e82adf
+SHA1: fc97a31bc2f9f9960bdbd1d2ce5b67649590c409
+SHA256: 47e7a6fb9c3081ab585ae02b05b54bcbaa6a0bd36aab164e3b8664cd4311cbe8
+SHA512: 88a29258854ff7dadb7ba32935ff85696b26288022626e44a4525929788f2b0ea3c7f85a83e9726d8cb5cea28707518408cda7646268fd53b38246c24ef720c9
+Description: (解除温控) (锁定低电量CPU频率)
+Name: Hello CPU
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: cn.zqbb.holdcpu
+Architecture: iphoneos-arm64
+Version: 2.0.0-6
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 2208
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: debs/iphoneos-arm64/cn.zqbb.holdcpu_2.0.0-6_iphoneos-arm64_7fdf3970f423ccc8b4267910942f7f9136578a82d130f1ba7cad7a1e06316967.deb
+Size: 547888
+MD5sum: d1278512a774f3f45560da85f11043e9
+SHA1: 3e4cf942e2bdba1a65a99559f870e9ae34537f4a
+SHA256: 7fdf3970f423ccc8b4267910942f7f9136578a82d130f1ba7cad7a1e06316967
+SHA512: ce4bf9f86a080655d6ed0f473ab8925e9c3aba2a04d6ac170d054ff476168eb374a22244916b60bdb029f6ea9633d8e6acba4c70435cda0ead98ca95e3bc17de
+Description: (解除温控) (锁定低电量CPU频率)
+Name: Hello CPU
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: cn.zqbb.holdcpu
+Architecture: iphoneos-arm64e
+Version: 2.0.0-23
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 2304
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: debs/iphoneos-arm64e/cn.zqbb.holdcpu_2.0.0-23_iphoneos-arm64e_b0968133a3c83f80cce394e1f111f706decdd93e98d620e5794f40b1d92a732a.deb
+Size: 577228
+MD5sum: 7b66d58682f7df3676209b8b9be72594
+SHA1: 3b13d9edf3523809b527148f2ec85f349d953577
+SHA256: b0968133a3c83f80cce394e1f111f706decdd93e98d620e5794f40b1d92a732a
+SHA512: dbb8baaa54d4ab1d5fe553385c7e5e439b45bc345e95ae73f1127675aeed4480d605207c13e4bdac9d1933ff311780eaf8b690241887af0ee08666ef5b3d6f82
+Description: (解除温控) (锁定低电量CPU频率)
+Name: Hello CPU
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: cn.zqbb.holdcpu
+Architecture: iphoneos-arm64e
+Version: 2.0.0-6
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 2208
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: debs/iphoneos-arm64e/cn.zqbb.holdcpu_2.0.0-6_iphoneos-arm64e_7b59580d00463f532898ee93be6179ee0635b5ab63b0951cfb416aac84f25a0d.deb
+Size: 547648
+MD5sum: 820d02a503306801a582151294d60e1e
+SHA1: e00c883b256d0fe72f7d75fec89c0bd841ae521c
+SHA256: 7b59580d00463f532898ee93be6179ee0635b5ab63b0951cfb416aac84f25a0d
+SHA512: 711e2da6e1f8bb653452eaf0aac39a4343fff39ccf426470a2efa32ba229236803b1cc0b7a87aa870dc3b624dc549c8f7bf04db75777418d96da72fd750eb896
+Description: (解除温控) (锁定低电量CPU频率)
+Name: Hello CPU
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: cn.zqbb.jailfools
+Architecture: iphoneos-arm64e
+Version: 5.2.1
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 16700
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/cn.zqbb.jailfools_5.2.1_iphoneos-arm64e_ccb5914caa3e8467da5605d1dc38f1a69b9f06c194e56701449cb3444476bdcb.deb
+Size: 5100192
+MD5sum: f048e747e409e921ae8615ebdbc66819
+SHA1: 88275f463cd04c4ee2ebed692441649524c38866
+SHA256: ccb5914caa3e8467da5605d1dc38f1a69b9f06c194e56701449cb3444476bdcb
+SHA512: 5e6818259664886fcb8ccfc08476f0fa74f04ea62ab13d2f5921c838f327b551de68cf53f588b0aad18693c2d5db1ba79cdd195e7ef87e60522e184e7f434b0c
+Description: 越狱版 TrollFools 注入工具
+ * 支持将 dylib 注入到应用内
+Name: JailFools 越狱版 TrollFools
+Author: zqbb
+icon: https://huayuarc.github.io/icon/JailFools.jpg
+
+Package: cn.zqbb.jailfools
+Architecture: iphoneos-arm64e
+Version: 5.2.2
+Section: Tweaks
+Maintainer: zqbb <zqbbzz@gmail.com>
+Installed-Size: 16700
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/cn.zqbb.jailfools_5.2.2_iphoneos-arm64e_9d02187e628b0a3dc2b439a0c36bb6bd61924db317dbc07c4f7d2078408be9d8.deb
+Size: 5100068
+MD5sum: 6104acf409c93ad63e1b86b72f2e71cb
+SHA1: b301f3d122d71c9a2c4a257cbaa00e098afc81f1
+SHA256: 9d02187e628b0a3dc2b439a0c36bb6bd61924db317dbc07c4f7d2078408be9d8
+SHA512: 96665a91674284a1b0525eb950754f055c811ea6a8b1cd3784cf6d3ccb49b482b2bcef86f58fb6ac83acd1ba426b98e4291a0def15e6d434a6cb97429bca48ee
+Description: 越狱版 TrollFools 注入工具
+ * 支持将 dylib 注入到应用内
+Name: JailFools 越狱版 TrollFools
+Author: zqbb <zqbbzz@gmail.com>
+icon: https://huayuarc.github.io/icon/JailFools.jpg
+
+Package: cn.zqbb.jailfools
+Architecture: iphoneos-arm64e
+Version: 5.2.3
+Section: Tweaks
+Maintainer: zqbb <zqbbzz@gmail.com>
+Installed-Size: 17696
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e_8f6af6b2982d79aec67f94b859d979fd2f634385b6705120553f874cd7d28bce.deb
+Size: 5288668
+MD5sum: f41761c4bb6a021b1ddbead132f5a7f9
+SHA1: f7c7ce08df827866ee45e0db39c2cf488e85a1be
+SHA256: 8f6af6b2982d79aec67f94b859d979fd2f634385b6705120553f874cd7d28bce
+SHA512: 3f2e13d1c073dd2636acafa85186cbd7fb2422401af9665cb89e65de5959e8f1a09e70558bcc01ca88f7e9b6bea8861c11cef859cc974d1099cf474a1b033ec8
+Description: 越狱版 TrollFools 注入工具
+  * 支持将 dylib 注入到应用内
+Name: JailFools 越狱版 TrollFools
+Author: zqbb <zqbbzz@gmail.com>
+icon: https://huayuarc.github.io/icon/JailFools.jpg
+
+Package: codes.aurora.kayoko
+Architecture: iphoneos-arm64
+Version: 3.3.9-3
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 1044
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: debs/iphoneos-arm64/codes.aurora.kayoko_3.3.9-3_iphoneos-arm64_429eeaa8cfde5cae9cd83c2ee0d12cc443c4b221422ef5f4c3359ec7eabeb163.deb
+Size: 143368
+MD5sum: fc9b79503ce75abc95873303af4349b2
+SHA1: 6825684bea6def82ab48341a0ac9bf82f1623f70
+SHA256: 429eeaa8cfde5cae9cd83c2ee0d12cc443c4b221422ef5f4c3359ec7eabeb163
+SHA512: e06fca835e379c8e488e9032dd420a5d4075289296852496bf6829779c6e70052a4b595509c6316c7d86eef1726f36175394f862cf14f3a200f409c3f17d0713
+Description: Kayoko 剪切板，基于「乌龙工作室」版进行修改
+Name: Hello Kayoko 剪切板
+Author: Alexandra Aurora Göttlicher
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+
+Package: codes.aurora.kayoko
+Architecture: iphoneos-arm64
+Version: 3.6.0-9
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 1244
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: debs/iphoneos-arm64/codes.aurora.kayoko_3.6.0-9_iphoneos-arm64_bd38db02a6f7750dfbb49c327c4b2bf1481424746dabc7a7b8c41ab8472eb4fd.deb
+Size: 176160
+MD5sum: c4de1a492806e86e7337046cbc51bc30
+SHA1: 6501295b82274c3c6c5bfe6bbdace70494a62866
+SHA256: bd38db02a6f7750dfbb49c327c4b2bf1481424746dabc7a7b8c41ab8472eb4fd
+SHA512: c7aaee8023b7ac0d2d299e34a71a540b6c43f4ef77e0088cb72b2246f0c5a02d296dfe752e1a0acf3aa82e476b89ee4239933db0a0058c9c2bdafaa3b480819d
+Description: Kayoko 剪切板，基于「乌龙工作室」版进行修改
+Name: Hello Kayoko 剪切板
+Author: Alexandra Aurora Göttlicher
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+
+Package: codes.aurora.kayoko
+Architecture: iphoneos-arm64e
+Version: 3.3.9-3
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 1040
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: debs/iphoneos-arm64e/codes.aurora.kayoko_3.3.9-3_iphoneos-arm64e_06dfb9674ca82af4adb4628fd9f3a6ad51be47af127ec66f0a883c381bcc3f9d.deb
+Size: 141288
+MD5sum: bdcc08486098dc87ba12914b1bb66060
+SHA1: 9a2a015219e035894125dc8ff23ac7b312f0b2ca
+SHA256: 06dfb9674ca82af4adb4628fd9f3a6ad51be47af127ec66f0a883c381bcc3f9d
+SHA512: 46f24b51409c3741d16684ae3bd525e829837f85f8b5f69470781f03e47cbe5cae9875a3e37d5cc67ecdafd20bdc37e46f9ecf70ad1b6383b7b667a265b8e4d9
+Description: Kayoko 剪切板，基于「乌龙工作室」版进行修改
+Name: Hello Kayoko 剪切板
+Author: Alexandra Aurora Göttlicher
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+
+Package: codes.aurora.kayoko
+Architecture: iphoneos-arm64e
+Version: 3.6.0-9
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 1212
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: debs/iphoneos-arm64e/codes.aurora.kayoko_3.6.0-9_iphoneos-arm64e_1023cce552b35d71d0339ec2f9ae9ce5df2c0e05e43acac1c947f277daa2035b.deb
+Size: 177200
+MD5sum: 705c82164101dc540392d2bd8b7b6e13
+SHA1: 3bef14df66d4035f5665898630da31ebd64ff14f
+SHA256: 1023cce552b35d71d0339ec2f9ae9ce5df2c0e05e43acac1c947f277daa2035b
+SHA512: 7c81eb709531799ffb62fa688e938bb6f886e0a9c7ccf9068b7b0cf425ec7fcbd8d470746cd9765aaa01b41e6a7f9545eb2361fafc04de2cb6d67498bea11f77
+Description: Kayoko 剪切板，基于「乌龙工作室」版进行修改
+Name: Hello Kayoko 剪切板
+Author: Alexandra Aurora Göttlicher
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+
+Package: codes.wingchan.ve-enhanced
+Architecture: iphoneos-arm64e
+Version: 2.1-1+debug
+Section: Tweaks
+Maintainer: Wing CHAN
+Installed-Size: 1304
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/codes.wingchan.ve-enhanced_2.1-1+debug_iphoneos-arm64e_868c2602d71c053e4107754d1ee245fd3092d9a02225da3cf755545951765b91.deb
+Size: 129352
+MD5sum: 8395ae562f73d34c4cef4c60d4eca6d5
+SHA1: ffcb8175c171f0c9a049f434f99db5fcaba95dda
+SHA256: 868c2602d71c053e4107754d1ee245fd3092d9a02225da3cf755545951765b91
+SHA512: ef6532937add1e73645929596ea0432371867825d757867ba7fb1402999d90f7c7e36c637e8db189a03a97cd63379e7d88104018684d3f85ec0cbbc1f2ed30ef
+Description: Enhanced notification logger with notification forwarding capabilities. Fork of Ve with added Bark integration.具有通知转发功能的增强通知记录器。可以转发任意app的通知和短信到另一台手机的bark，类似iOS版sms #短信转发器#Bark api key里只需要填写bark url的api.day.app/后面的部分，不需要加/符号。
+Name: VE Enhanced
+Author: Wing CHAN (Original: Alexandra Aurora Göttlicher, 74k1_)
+Icon: https://huayuarc.github.io/icon/VEEnhanced.png
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
