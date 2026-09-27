@@ -1,0 +1,198 @@
+Package: ai-config-gui
+Architecture: iphoneos-arm64
+Version: 3.3.1
+Section: Development
+Maintainer: DaFei
+Installed-Size: 680
+Depends: firmware (>= 14.0), libvterm0,libvterm-bin
+Filename: debs/iphoneos-arm64/ai-config-gui_3.3.1_iphoneos-arm64_a06cf6c9d228c0db774e00337b3b7868af93e2738088ada6408a093fc98813c6.deb
+Size: 131384
+MD5sum: edd116f5d2940d72517cfc8d2a08727b
+SHA1: 7801a29a1ad9ac43789d5bca9a87669165a916ff
+SHA256: a06cf6c9d228c0db774e00337b3b7868af93e2738088ada6408a093fc98813c6
+SHA512: 37f7790f908a42981fe0c430cd3bf5d789d5061ebf78314693f12550ae8a4da22cf2441b0da60ebaefb91bec0c2c72b4c11b3d5b29c07885f20006707bd9078b
+Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，修复roothide闪退问题.
+Name: AI-Config-GUI
+Author: DaFei
+icon: https://huayuarc.github.io/icon/ClaudeAuth.png
+
+Package: ai-config-gui
+Architecture: iphoneos-arm64
+Version: 3.4.0-1+debug
+Section: Development
+Maintainer: DaFei
+Installed-Size: 1000
+Depends: firmware (>= 14.0), libvterm0,libvterm-bin
+Filename: debs/iphoneos-arm64/ai-config-gui_3.4.0-1+debug_iphoneos-arm64_d5c13b2e9a74e9e1b97bade3ba9d4653a1426ea7c00081b7b0d9d4934a1521a5.deb
+Size: 200916
+MD5sum: 47e917f8ca075039ffbc1996364e9bf3
+SHA1: bc15df79c4ed855c64d091c491e1c0365ba85cdd
+SHA256: d5c13b2e9a74e9e1b97bade3ba9d4653a1426ea7c00081b7b0d9d4934a1521a5
+SHA512: c496e4ce30cc974650c2fd5ff342fbcc45d6fb66224d36a0697f2ec11c40f27c8d1896b1542e340a55e88c65eb20e096d76864777bc7a197352628c5d6682cc4
+Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，更新面板显示🤔
+Name: AI-Config-GUI
+Author: DaFei
+icon: https://huayuarc.github.io/icon/ClaudeAuth.png
+
+Package: ai-config-gui
+Architecture: iphoneos-arm64e
+Version: 3.3.1
+Section: Development
+Maintainer: DaFei
+Installed-Size: 680
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), libvterm0,libvterm-bin
+Filename: debs/iphoneos-arm64e/ai-config-gui_3.3.1_iphoneos-arm64e_565a28d1fa2ea7d75c1904ba27fa44fe252a62e9f5517a037b7b87979ed87bdd.deb
+Size: 131388
+MD5sum: 10069df8bfa0d9ea58dc02f252c957c2
+SHA1: 96010d15dc2467c4f7ee4c003637ecbd16ef1218
+SHA256: 565a28d1fa2ea7d75c1904ba27fa44fe252a62e9f5517a037b7b87979ed87bdd
+SHA512: 1384926ef39df8a1ddfdd8eefa0074572ddd9fef120dcaf2f4428e4a239d3c2eb98d2c3c6f73d4c4931a2a4bdb5a5883b5a0f87c0d45864ea0896affd486032a
+Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，修复roothide闪退问题.
+Name: AI-Config-GUI
+Author: DaFei
+icon: https://huayuarc.github.io/icon/ClaudeAuth.png
+
+Package: ai-config-gui
+Architecture: iphoneos-arm64e
+Version: 3.4.0-1+debug
+Section: Development
+Maintainer: DaFei
+Installed-Size: 1000
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), libvterm0,libvterm-bin
+Filename: debs/iphoneos-arm64e/ai-config-gui_3.4.0-1+debug_iphoneos-arm64e_8c1bc24b4eddd936f3520ccd4ad733a43cb864ef26ed274e5e1bf51e83f2900b.deb
+Size: 201112
+MD5sum: ed0cec255d2abd31c83c5718598c7cf8
+SHA1: 8d230f9d2240b409d768e68f2b639c2d67c5d64e
+SHA256: 8c1bc24b4eddd936f3520ccd4ad733a43cb864ef26ed274e5e1bf51e83f2900b
+SHA512: 58857ad7c0636c190a43c461ac27484c85c840642b4024729359eb628e27a6384e8f3547d2d6df272754ca55e326236cd5988210f03da98952cf0f0d9141087c
+Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，更新面板显示🤔
+Name: AI-Config-GUI
+Author: DaFei
+icon: https://huayuarc.github.io/icon/ClaudeAuth.png
+
+Package: ai.akemi.appsyncunified
+Architecture: iphoneos-arm64e
+Version: 116.0
+Section: System
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 700
+Provides: appsync, net.angelxwind.appsyncunified
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (<< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Filename: debs/iphoneos-arm64e/ai.akemi.appsyncunified_116.0_iphoneos-arm64e_54b42828a318de5a5d37d5828092d1932c61ed779a06b43866f4db11ad705a8c.deb
+Size: 34988
+MD5sum: cae0d43ada786f9a9ab03e4ab4b5297e
+SHA1: c815cea9a0cd2d7c3818fe5223839020579403b1
+SHA256: 54b42828a318de5a5d37d5828092d1932c61ed779a06b43866f4db11ad705a8c
+SHA512: 4897f7690eb8924cb366a9ee4fd69c0c8fa4e20aea4c07fc0a12b3189b98209b4edc6c775634ceea1a5226977482e7ef98828e5d9577dc1f78e60943c5c4ad5f
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+
+Package: aweme.x
+Architecture: iphoneos-arm64
+Version: 2.3.9-3
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 9976
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.dyhook
+Replaces: com.xx.dyhook
+Filename: debs/iphoneos-arm64/aweme.x_2.3.9-3_iphoneos-arm64_543f2f8e01438967f3d3240ce12c1767909862c4eab28d6ac527c4ecbbb5be53.deb
+Size: 3199840
+MD5sum: 4b5e902f3bc79f1e3be0971de7ec295e
+SHA1: db8dffb60b40a29065373b0e2b75707c334c30e0
+SHA256: 543f2f8e01438967f3d3240ce12c1767909862c4eab28d6ac527c4ecbbb5be53
+SHA512: 53ed80dba5af154b207a9b587954ff570e956f2c2582b227e47c44e945bf497a1c6bad2f2432df838a6fde0342d34a9f1e129661ca7765cee7e3645e01425bca
+Description: 自用
+Name: 抖音图层
+Author: 𝙓
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: aweme.x
+Architecture: iphoneos-arm64
+Version: 2.3.9-6
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 10472
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.dyhook
+Replaces: com.xx.dyhook
+Filename: debs/iphoneos-arm64/aweme.x_2.3.9-6_iphoneos-arm64_bede739017ba7be54924c0a361f603ac1fd60ccb9e73270ae65794ffdf9d61a6.deb
+Size: 3327044
+MD5sum: 3bc7216edaf146953de1d00af6fc9ac4
+SHA1: a3c54c6f1b41b93e55057fbb423fb2aa5d34ca07
+SHA256: bede739017ba7be54924c0a361f603ac1fd60ccb9e73270ae65794ffdf9d61a6
+SHA512: 1813a8f2f3ffb6d1d95911504d7a656da94a04d952d3b7680bb95c1dd53afe78a5d2a0ed7bc3486c1e98db3b6a387973d38e5e89ca0b82ee3795ccaacf17bf2e
+Description: 自用
+Name: 抖音图层
+Author: 𝙓
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: aweme.x
+Architecture: iphoneos-arm64e
+Version: 2.3.9-6
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 10472
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.dyhook
+Replaces: com.xx.dyhook
+Filename: debs/iphoneos-arm64e/aweme.x_2.3.9-6_iphoneos-arm64e_50741415d75d06e616cf42b5f9b6350f275a942590a1b5e6a9483f0e07f04f7c.deb
+Size: 3270848
+MD5sum: 1c48c1ba96b57b7facd8a1247d8e190f
+SHA1: 4de62cb8b99ca32ca8815f6c5f03bc2c8fe7ab57
+SHA256: 50741415d75d06e616cf42b5f9b6350f275a942590a1b5e6a9483f0e07f04f7c
+SHA512: 44584f2e35c0a785a94aa67be0b68b000b0d083c17fbb831611192e0b7ceb6f0a23baa7571d21d094d0324e5c9a69fa26fede282b1ec142f56862355c0e590b3
+Description: 自用
+Name: 抖音图层
+Author: 𝙓
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 1.3.13-2-15+debug
+Section: Tweaks
+Maintainer: opa334
+Installed-Size: 716
+Provides: com.ioscreatix.silo
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Filename: debs/iphoneos-arm64e/com.opa334.ccsupport_1.3.13-2-15+debug_iphoneos-arm64e_51ff0060cb88235b1e098b8c5a550ed6280313ed29b42d5d4c809109b0e498bc.deb
+Size: 78138
+MD5sum: c08c9a3794e51d9d6ec64434f812b2ce
+SHA1: 5be2c804015f0c45ec4661e1e833165972b4b312
+SHA256: 51ff0060cb88235b1e098b8c5a550ed6280313ed29b42d5d4c809109b0e498bc
+SHA512: 44fc2e5a2af4edd54c881d379cff8c7e303743d4c935d1f48ae7b45bc5b7c4f49c581ff69c9f5f19ad28057b9e4518986d7dc79e106b9417cd7c61e160fd640e
+Description: Support tweak for CC modules!
+Name: CCSupport
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
+Package: com.tsangbaby.randomiconsflip
+Architecture: iphoneos-arm64e
+Version: 0.0.7
+Section: Tweaks
+Maintainer: Tsangbaby
+Installed-Size: 156
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: net.limneos.randomiconsflip
+Replaces: net.limneos.randomiconsflip
+Filename: debs/iphoneos-arm64e/com.tsangbaby.randomiconsflip_0.0.7_iphoneos-arm64e_fc8c156266220d1514ad09801926c0c2c35d75deecf24cb0e16c93b17ff8cf6b.deb
+Size: 29688
+MD5sum: 45b2d45d71fbc4f179070da46cab3772
+SHA1: 4e549d40075fe4ee9efd5f835abe9af8737c8b6c
+SHA256: fc8c156266220d1514ad09801926c0c2c35d75deecf24cb0e16c93b17ff8cf6b
+SHA512: b7b9f2061f0fb0d802de7507125f3b51a7231957e4c0ba6c5f5275442040d4ad5b60fc3f554916ee2b1808c3770dc2c7a8cf80bbde326fa94b62bd9546309edd
+Description: Randomly flips visible Home Screen icons. Swift-core rewrite for iOS 15 and later.
+Name: Random Icon Flip
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/RandomIconFlip.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.randomiconsflip/depiction.json
