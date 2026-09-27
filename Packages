@@ -2041,6 +2041,24 @@ Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
 SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
 
 Package: codes.wingchan.ve-enhanced
+Architecture: iphoneos-arm64
+Version: 2.1-1+debug
+Section: Tweaks
+Maintainer: Wing CHAN
+Installed-Size: 1304
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/codes.wingchan.ve-enhanced_2.1-1+debug_iphoneos-arm64_a346c42428754cb873a6f6e6f658dffcb8c8065e0597d195266e37cacf226b3b.deb
+Size: 133884
+MD5sum: f20a4640ec6aeb79e58cc26453163b0c
+SHA1: 0f27f19305b79460eb90d8c0fba957e951d7f751
+SHA256: a346c42428754cb873a6f6e6f658dffcb8c8065e0597d195266e37cacf226b3b
+SHA512: f53c772de80cfdb34201c67a9ab256536aa8687783da44131e3ffefbcc3e4a4473ccf49041e86e5309541f5185eea722bea4947667108d328cccd47f6c6e1225
+Description: Enhanced notification logger with notification forwarding capabilities. Fork of Ve with added Bark integration.具有通知转发功能的增强通知记录器。可以转发任意app的通知和短信到另一台手机的bark，类似iOS版sms #短信转发器#Bark api key里只需要填写bark url的api.day.app/后面的部分，不需要加/符号。
+Name: VE Enhanced
+Author: Wing CHAN (Original: Alexandra Aurora Göttlicher, 74k1_)
+Icon: https://huayuarc.github.io/icon/VEEnhanced.png
+
+Package: codes.wingchan.ve-enhanced
 Architecture: iphoneos-arm64e
 Version: 2.1-1+debug
 Section: Tweaks
