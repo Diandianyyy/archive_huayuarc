@@ -12,6 +12,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: sync-huayuarc-apt
@@ -21,6 +23,9 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 330
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     env:
       MAX_DOWNLOADS: ${{ inputs.max_downloads || '100' }}
       REQUEST_INTERVAL: "3"
@@ -56,3 +61,15 @@ jobs:
               if (( remaining <= 0 )); then break; fi
             fi
           done
+
+      - name: Build public APT source
+        run: python3 scripts/build_pages.py
+
+      - name: Upload source index
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Publish refreshed source
+        id: deployment
+        uses: actions/deploy-pages@v4
