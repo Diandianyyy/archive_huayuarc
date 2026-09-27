@@ -5988,6 +5988,60 @@ Author: Crassna
 icon: https://huayuarc.github.io/icon/appcardlite.jpg
 
 Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.mobileslideshowhook_0.0.1_iphoneos-arm64_7e1317dc8d1543669123f04792a27586d3e18f637192c392f3aec3310a60cb91.deb
+Size: 22432
+MD5sum: 7349a7d21bb5960ce8bbf27b5f75193c
+SHA1: 8e45cf3b1d1795451130d8f310b2a5b2c8a91a9f
+SHA256: 7e1317dc8d1543669123f04792a27586d3e18f637192c392f3aec3310a60cb91
+SHA512: 71a0d2ad70570d1495a42e7071658433de8f0d5da15014b0204fcced15c8842ac5136ab50666c64c6d5d383a7a110ba0a48b859458df6119864f9dde70a2da31
+Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
+Name: 系统相册视频进度条
+Author: crctdd
+icon: https://huayuarc.github.io/icon/xc.jpg
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.mobileslideshowhook_0.0.3_iphoneos-arm64_52019f50902afaf08aaf77dcfd7efec00274ace6df1fb3498febbf80750be490.deb
+Size: 31884
+MD5sum: bc6f6f4574ef1629fdc3570b446a7d18
+SHA1: 55d2fe69da95fcc6b8540c52028c81c5c69df97c
+SHA256: 52019f50902afaf08aaf77dcfd7efec00274ace6df1fb3498febbf80750be490
+SHA512: ae8d23cae07534324b6c6ec8bb0fed04ac1462574c7bb071e7b75e6ccbc7b01e582617811f20140cca5203189d6311056c7c6fcb67acccb27724d8c82ada7a27
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Name: 系统相册视频进度条
+Author: crctdd
+icon: https://huayuarc.github.io/icon/xc.jpg
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 256
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.mobileslideshowhook_0.0.4_iphoneos-arm64_03e5543ff4909b2528efd20b3162f42753ff27832c4d15c5a81413aa0172b318.deb
+Size: 32944
+MD5sum: ea5f31f6e95ed068176f252fa87dbf09
+SHA1: d4a26cf7ff5fb9f2cc80aecf2c0d0e4a2726863b
+SHA256: 03e5543ff4909b2528efd20b3162f42753ff27832c4d15c5a81413aa0172b318
+SHA512: af6066971a0f55539ecc18a367aad2d92fe3c7232958cbec63d74438666f976107a391fc80950fa302fcb9585d6108c89f12870dacd56ef3ed35c103639d554a
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Name: 系统相册视频进度条
+Author: crctdd
+icon: https://huayuarc.github.io/icon/xc.jpg
+
+Package: com.crctdd.mobileslideshowhook
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -6004,6 +6058,1944 @@ Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 1
 Name: 系统相册视频进度条
 Author: crctdd
 icon: https://huayuarc.github.io/icon/xc.jpg
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.mobileslideshowhook_0.0.3_iphoneos-arm64e_cde1a98a86a0ba01172188f97a50c6a65ef4cdad89d39085a8aa459f2da8eb19.deb
+Size: 31800
+MD5sum: 6aad7c7ea08a30883b626977123d51ed
+SHA1: 41b39f1ae998ff86f767fe7099c527c7b39bdfa4
+SHA256: cde1a98a86a0ba01172188f97a50c6a65ef4cdad89d39085a8aa459f2da8eb19
+SHA512: 7c88e4da68ecca0c96de419b99e655d30eebc7efe14359827c9fe3c65bd8f99e4047dec482262fb5395c975309699c67f331306b39f66813700136d1afc973fa
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Name: 系统相册视频进度条
+Author: crctdd
+icon: https://huayuarc.github.io/icon/xc.jpg
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64e
+Version: 0.0.4
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 256
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.mobileslideshowhook_0.0.4_iphoneos-arm64e_5425a202ff5692f276c8b7bf0d13e9cc1eaec36d42a45b591ad08775a8ed39d5.deb
+Size: 32924
+MD5sum: f8204d825937fee3250efce37d49aed6
+SHA1: dbec1552a67bf2dc19ac984b755d883ee14d16d0
+SHA256: 5425a202ff5692f276c8b7bf0d13e9cc1eaec36d42a45b591ad08775a8ed39d5
+SHA512: 7eb8bada166189ea0dbc1e68bbb3a917617304a4aa7a27a8b2ab5a3be496138205df4977ce9f9c1c4b354632be8aaf4a97b4499d2af952b95559d2f580351692
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Name: 系统相册视频进度条
+Author: crctdd
+icon: https://huayuarc.github.io/icon/xc.jpg
+
+Package: com.crctdd.shorbar
+Architecture: iphoneos-arm64
+Version: 0.0.7
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 380
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.crctdd.shorbar_0.0.7_iphoneos-arm64_9542a838d77e36c2e2740fb9bac14b09fbd88fa2a1e1da404dcd7fc2b535e530.deb
+Size: 36072
+MD5sum: 10e06aeaa0a41e1246ba089751a15187
+SHA1: aad4a0bb3526b2c7e9cf6f20296c3f27519bef03
+SHA256: 9542a838d77e36c2e2740fb9bac14b09fbd88fa2a1e1da404dcd7fc2b535e530
+SHA512: 1b984be610798faa7475095b414a84aa24d78acebe9933d6e78c805c3c3a92fadeff068a66baf03b4598e2b8921ee4da767691f0a007a6accd37fb758fd5a99e
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Name: ShortBar
+Author: crctdd
+icon: https://huayuarc.github.io/icon/ShortBar.png
+
+Package: com.crctdd.shorbar
+Architecture: iphoneos-arm64e
+Version: 0.0.7
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 380
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.crctdd.shorbar_0.0.7_iphoneos-arm64e_1a75c00c8465960cae4c91ffd6be319f24de81cf4ae4f38bded5f587892af69b.deb
+Size: 36016
+MD5sum: d774052c01d4b172b6b455aa07027650
+SHA1: 670bcef4cbd81947b52a2ab17a0b878da8745364
+SHA256: 1a75c00c8465960cae4c91ffd6be319f24de81cf4ae4f38bded5f587892af69b
+SHA512: f3fe38516c1f65620461c3681921ae87de4b2463bd541b82d43718fb065b0b17cabe8f5e8107869435c84918ca220e95751161d39082f3c990c6113dbba7bfdf
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Name: ShortBar
+Author: crctdd
+icon: https://huayuarc.github.io/icon/ShortBar.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 572
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.1.3_iphoneos-arm64_fe01de620cca4fc8388e686b72aa3cfcb5c0886df11889721c066af2ddc9a834.deb
+Size: 82520
+MD5sum: 2411773087ec2046dcef65c453158eb5
+SHA1: 5eef0d6878050116630d43f515aa0e763f61172b
+SHA256: fe01de620cca4fc8388e686b72aa3cfcb5c0886df11889721c066af2ddc9a834
+SHA512: d40cc896894853e52b6b845b9be11c9de6f5f64b1cdceee3b93deb9c2555b32ac80fdf8aa83870387a70edceec7a6975a01bd332a633f7ad6a673b7a6dd6d381
+Description: 为指定App开启守护后台，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.1.7
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 604
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.1.7_iphoneos-arm64_a51b0891e10f50bc706cdd7661716dce1027e38a0b4e22a831a5d68042be58fe.deb
+Size: 88760
+MD5sum: 439e32bc5709074f6155f7b50c13c155
+SHA1: 2e81fc46557fad1e52bbf24695bb55aa9d0a3cac
+SHA256: a51b0891e10f50bc706cdd7661716dce1027e38a0b4e22a831a5d68042be58fe
+SHA512: 1de40fbebf865dd30137ee7596b723afbaea43978f1d7271890d7715b134949d04e320abb4fa90d3e57480c1aaf36aa58c65f66b532bf643330b24be704834b7
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.1.9
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 816
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.1.9_iphoneos-arm64_24c5f8a12759a10d0c73363d17af23ba45f8cf726fdee334c8c35e4cc87e6485.deb
+Size: 98920
+MD5sum: 344ce414dd59620904520bcc1ea543c3
+SHA1: 5daf36ae834b89be52a1df667320ba8599e68600
+SHA256: 24c5f8a12759a10d0c73363d17af23ba45f8cf726fdee334c8c35e4cc87e6485
+SHA512: cfd5c038bf358617b5c54166dfcca61c02c109d85258ed2468982957afcfc8dc835850730ec378099c7c41ebd475f21db824974fed481f2074c7852434e4f8eb
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.2.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1004
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.2.2_iphoneos-arm64_c0750401ffdb7d41d7fc54faa8c5b145a457201580549ee4753912a70b7abc1d.deb
+Size: 107680
+MD5sum: bec4666d629a2857a9c2322f4d3faec6
+SHA1: 203a88adbccb56f9c0dac423606f56fdaff8556d
+SHA256: c0750401ffdb7d41d7fc54faa8c5b145a457201580549ee4753912a70b7abc1d
+SHA512: bc2150d085c033dd89957785db16406a5c1ff4c6759ec9f36b3d363b40439bb19d5ed6f3280fe19e96f9cb73d91ee68592e6f4b46d5b8b8a051d70eee3d7ff3a
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.2.4
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1008
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.2.4_iphoneos-arm64_f82906ec7d03f5df6d4b02e3be45f7b55006de0446b548d756390b37a6530528.deb
+Size: 110776
+MD5sum: 6e5ff76f40f97b69990e890eb9764255
+SHA1: a7f2b207e041d7be53cb45348b442db4816adb83
+SHA256: f82906ec7d03f5df6d4b02e3be45f7b55006de0446b548d756390b37a6530528
+SHA512: 614acd3c82729aa2609283ffb390bb2ed1be32ab7d85869e8eb289d3018175ddec5efee02efb2a62b9f3439cc073ab8ea82cdc5b7c7938a834e22350b22caf9c
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.2.5
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1040
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.2.5_iphoneos-arm64_8e190934871f034087623b7d2735a111fe714ff6aed0b9f65cbbe190d9cd2291.deb
+Size: 116468
+MD5sum: 99612adeaa6b66618bffc41a3ba09a86
+SHA1: a97d02aa70f5de366eb67c08487330c9566e5a65
+SHA256: 8e190934871f034087623b7d2735a111fe714ff6aed0b9f65cbbe190d9cd2291
+SHA512: d5d22754b48ef84ad4823b14e7000032a6e80e8d90ef30a20a94521ec7d7dea1f5c2a72e85f27348d5d644df11acbb99ddee17a2bd478137a3508cc6fb8a4c8c
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.2.9
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1376
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.2.9_iphoneos-arm64_0acedb164f4dce39a0a28285c908abc7c11488897f6145a73d0b650453421ba0.deb
+Size: 150368
+MD5sum: 51b36bc14b3de6af62c581fe96cf150a
+SHA1: bbb3cb67c6e87b40a9a697e9426a86854797a6fb
+SHA256: 0acedb164f4dce39a0a28285c908abc7c11488897f6145a73d0b650453421ba0
+SHA512: 7d63dfec01ec044574a3ce3ebe850c14c1f75813c5fff899d86a58c710c258f70d5a3a0b4424ea35432c6f01c50923767528fc8e817a23782d892c7cfba882d8
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 284
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.1.3_iphoneos-arm64e_0118746fd808088b583e089c62051b73926736b6c693d06625ce5cbb517130f5.deb
+Size: 61576
+MD5sum: 344026c522088705ebd49e783b8188e0
+SHA1: 4fa1345afe9bb018f9dcfacee26d926e3c747b77
+SHA256: 0118746fd808088b583e089c62051b73926736b6c693d06625ce5cbb517130f5
+SHA512: 0bcc04a2e2cf642151bdfe7a08056ab9e4ff1e13219e4d4b63db0fabe6153125d4063cba3c2874b3023197fa728aeab42a36101d8454c506d85a652007c780e2
+Description: 为指定App开启守护后台，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.1.7
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 300
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.1.7_iphoneos-arm64e_f7954655d8ff7fdcc64ca31ba22fe82039c079748d58acd430908b3e7579affb.deb
+Size: 65732
+MD5sum: 3174b869d8a5b625e3cb558892414e24
+SHA1: 6b81153c2b2042d24530996c7133e40c7b333ec5
+SHA256: f7954655d8ff7fdcc64ca31ba22fe82039c079748d58acd430908b3e7579affb
+SHA512: 59f0cdee2e014d93f4506d7f259ec6dfd30184aef326ed34c72ddb7266285b47fdba91dfb88d6d8069566b8f8823e3d4e7a583038a905afe6b35d5443371ae45
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.1.9
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 416
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.1.9_iphoneos-arm64e_2d6959cc8255fdf348aa7cc7b66ef43b4a89f1f1b23560e6f1d4af0eaf00874d.deb
+Size: 72104
+MD5sum: 0aa0b8d2e681bade8bd52267ff79a5b5
+SHA1: b94966ba7e176be8b6cc96165b32a0a7cda68b56
+SHA256: 2d6959cc8255fdf348aa7cc7b66ef43b4a89f1f1b23560e6f1d4af0eaf00874d
+SHA512: 0befc1ae039373cf46b94e0d6b782ea0ed27d70db32785fca82fdc0230fd16a889638850bcf34ca49f3cb9189349695c825d3f73f5228793abed36050a9f2ce2
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.2.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 492
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.2.2_iphoneos-arm64e_85ebce9752254dbe002bec246d931bccd69afbfeb65b4458f362950e41746a3e.deb
+Size: 79224
+MD5sum: 822b9bd46be5e5b0d534d6cf987ab499
+SHA1: 67ab2693c293c0d5f112b79f6ba1cba0ed9c8bfe
+SHA256: 85ebce9752254dbe002bec246d931bccd69afbfeb65b4458f362950e41746a3e
+SHA512: 7d8831bd955a27e8ffa56e01bf6d0e127930a96b42aba073b7255bdb8bbc1f421f848758f0ffdb72e377859d0bbac70bede74a64011fc46b67cfeade3ee4b523
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.2.4
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 496
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.2.4_iphoneos-arm64e_196075e332d593e85d58363d16ee7984cf643049e68f21dbf2f11f7140cc6f44.deb
+Size: 80736
+MD5sum: 6dda0b54213524ec627312ac97fffa7a
+SHA1: 0eb99bd79a545aaf8bd5e016edc9c3f34b4ca1dc
+SHA256: 196075e332d593e85d58363d16ee7984cf643049e68f21dbf2f11f7140cc6f44
+SHA512: f92959588ff29210f70553c66449ff732d299e35afeac5e2c93d0a7462bf7aae16b5e0b2e678f03c3e5bafdd3d5636073974befbf37d4d3fb486d9b24177ba3e
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.2.5
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 512
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.2.5_iphoneos-arm64e_18db9ddf86efcf6dffc958a31cb9d6e3f28718a9aa56217ab1626aebb465442d.deb
+Size: 84396
+MD5sum: c63880efdb6310fadb1045e76bf8a0ef
+SHA1: e03ba38277feae0c2d241701a51b04329b240e46
+SHA256: 18db9ddf86efcf6dffc958a31cb9d6e3f28718a9aa56217ab1626aebb465442d
+SHA512: 5f6ac186b9094e1631f1b97382450022e256271ca7e1d0c3f893d50202b774fedfb7a396a322960201fc2052291ac72dfed3d7dd8f1f0a38c1dc9342349b0457
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.2.9
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 672
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.2.9_iphoneos-arm64e_00b0a04a4457559ee3863b45557fc7784c20f7ad4a14178c62d02a1d4a7ba704.deb
+Size: 106540
+MD5sum: 069afa0e6a92e208029899cdfa46dd72
+SHA1: 9254d94f826fad4211d151e87a364ba95d2ecde4
+SHA256: 00b0a04a4457559ee3863b45557fc7784c20f7ad4a14178c62d02a1d4a7ba704
+SHA512: e7c54c035f6823a81eee477e4b60ab31e3815c1e13b054935cb82e80f2520f088bda2f296091f90947cdb68def6ce8ae3506fdf672e8110575736d772ba34ad7
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.surgectl
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Priority: optional
+Section: Tweaks
+Maintainer: RrrankkK
+Installed-Size: 720
+Depends: firmware (>= 14.0), com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.surgectl_0.0.1_iphoneos-arm64_5d07ce002733b03eeb0114a9ac922c0c645d7e5e25eb861bce64d7a14c4640e0.deb
+Size: 22156
+MD5sum: b2ec3f5450ff0d5741dbecdb996e160c
+SHA1: 551e1d10bf9b54de171a59ee82285deaf52117db
+SHA256: 5d07ce002733b03eeb0114a9ac922c0c645d7e5e25eb861bce64d7a14c4640e0
+SHA512: 274db7810e99fada8fed314db105c8bc5293d1f09d9e9b33681fa18567a4e328c216263a184b2a001090cb61506f25ebcd8e1f0cf8aba6044c4aa152c68df1d4
+Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
+Name: SurgeCTL
+Author: RrrankkK
+Icon: https://huayuarc.github.io/icon/surgectl.png
+
+Package: com.crctdd.surgectl
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Priority: optional
+Section: Tweaks
+Maintainer: RrrankkK
+Installed-Size: 720
+Depends: firmware (>= 14.0), com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.surgectl_0.0.1_iphoneos-arm64e_33590030a353510a54bba4eb406ea52cac55a73a327d56fe821435d8290f7172.deb
+Size: 20744
+MD5sum: 33cb4129b9ed2504000ce10eb237bbe5
+SHA1: bd15ee4ea7344d4dacb78cb2e2c140e32d6108b1
+SHA256: 33590030a353510a54bba4eb406ea52cac55a73a327d56fe821435d8290f7172
+SHA512: 4a4a6cfded179c11dc40b55d5587d0a7203cdd59932223d2721063960c52a11d9df0af2f7538a87144221dcd9f3a046729706430700b1c9d09f87931b21ae613
+Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
+Name: SurgeCTL
+Author: RrrankkK
+Icon: https://huayuarc.github.io/icon/surgectl.png
+
+Package: com.creaturecoding.libcspreferences
+Architecture: iphoneos-arm64
+Version: 1.5.8
+Section: Tweaks
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: debs/iphoneos-arm64/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64_d1377e473bc689829b65ef4ac9ea39b1a5539b6a65a37547af807d96bac9001d.deb
+Size: 334700
+MD5sum: 3f75dd6260f7bb7d997ccf731a2a1c8b
+SHA1: 4f0505e614dc1d3c648db31669de0a1d637e811c
+SHA256: d1377e473bc689829b65ef4ac9ea39b1a5539b6a65a37547af807d96bac9001d
+SHA512: 079c50b78d6d69036af18cd3d729b3a060253f807e90f65e32e012a10d4fd96278837a2145667a8ed3b9b0176e1db16cad9a3d62f1085435feb45be19f8e6e09
+Description: 有些插件需要这个依赖
+Author: CreatureSurvive <support@creaturecoding.com>
+icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/libcspreferences/js.json
+Name: libCSPreferences
+
+Package: com.curtin.pkc.rootless
+Architecture: iphoneos-arm64
+Version: 0.9-6
+Priority: optional
+Section: Tweaks
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/iphoneos-arm64/com.curtin.pkc.rootless_0.9-6_iphoneos-arm64_6d43e3299416100d5f3378f143064f224fc63f658a6c7ca44253fa18dbfac3f6.deb
+Size: 1366320
+MD5sum: 6d2e456489f52f9905c968da7e67d0b3
+SHA1: 90c92662c7f57fbfc2a628f077f08ef0901eea67
+SHA256: 6d43e3299416100d5f3378f143064f224fc63f658a6c7ca44253fa18dbfac3f6
+SHA512: 6a241475e663d31fad5d16129452523469fc34317de72ec875afb0b7f11ff41fe8e3d3467d4ead1d56db4c3d9582d5e95d210636e249d5de96bba6caab63417a
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Name: PKC
+Author: Curtin
+icon: https://huayuarc.github.io/icon/pkc.jpg
+
+Package: com.curtin.pkc.rootless
+Architecture: iphoneos-arm64
+Version: 0.9-7
+Priority: optional
+Section: Tweaks
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/iphoneos-arm64/com.curtin.pkc.rootless_0.9-7_iphoneos-arm64_6c76308ba9e1185dcd58415b1831bf5471b70b0890817d019d3e6c2e7fdc8aff.deb
+Size: 1367596
+MD5sum: fcf0a7a66092671b61f9add6f5c5f523
+SHA1: 494bc51326980d60292c68655662d7439d765022
+SHA256: 6c76308ba9e1185dcd58415b1831bf5471b70b0890817d019d3e6c2e7fdc8aff
+SHA512: a2ddc62c8156e4dd65ea7123f9a0df577997e305ba45cf58811fdbc33f5c9302cddc07606108e758a720bac68d511d6bcc035c968d68fc1184f4de6ee4745aaa
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Name: PKC
+Author: Curtin
+icon: https://huayuarc.github.io/icon/pkc.jpg
+
+Package: com.curtin.pkc.rootless
+Architecture: iphoneos-arm64
+Version: 0.9-8
+Priority: optional
+Section: Tweaks
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/iphoneos-arm64/com.curtin.pkc.rootless_0.9-8_iphoneos-arm64_bee0676350eab4ded371435b52d9c7ec65c72b46e37c33b391a9c98d85b76e3b.deb
+Size: 1378976
+MD5sum: 831c9f672150c9e47d7e94c817aafe73
+SHA1: 4134b2c09a4cd813115b8acab349b0c4f4854848
+SHA256: bee0676350eab4ded371435b52d9c7ec65c72b46e37c33b391a9c98d85b76e3b
+SHA512: 5377a49b2560d492efee71d79e4c646d67fe1743e8d56aab682daa3b6786b56bcfa586f260d9ce9a7f1506465fd85f6eeef508feac536e05180cf376ea23cd08
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Name: PKC
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+
+Package: com.curtin.pkc.rootless
+Architecture: iphoneos-arm64e
+Version: 0.9-6
+Priority: optional
+Section: Tweaks
+Maintainer: curtinlv@126.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/iphoneos-arm64e/com.curtin.pkc.rootless_0.9-6_iphoneos-arm64e_62d2a5d312e97219f8fdf23ccecf7522532383c0352db25a43546c0e600b7467.deb
+Size: 1341476
+MD5sum: e70fc1fb3a61eb30d6c0605520edf9ce
+SHA1: 73154efdf4be45a6a45d45a1517738fe6a394bf2
+SHA256: 62d2a5d312e97219f8fdf23ccecf7522532383c0352db25a43546c0e600b7467
+SHA512: d2a4278fd284762603a7d7a2699484224faf2e4d4cf22759ac9a7ed52d1e12fc5f0ef13b56c5032807cd94bb8761d36602e0e3e3c6d21a32b8fd58db20c15998
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Name: PKC
+Author: Curtin
+icon: https://huayuarc.github.io/icon/pkc.jpg
+
+Package: com.curtin.pkc.rootless
+Architecture: iphoneos-arm64e
+Version: 0.9-7
+Priority: optional
+Section: Tweaks
+Maintainer: curtinlv@126.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/iphoneos-arm64e/com.curtin.pkc.rootless_0.9-7_iphoneos-arm64e_7bae2343b6684828feb31c04dc6b154d1f3395fabc9a34837cd94615a0ee41a1.deb
+Size: 1342780
+MD5sum: f190bfe66692a1cf4bc545381c61933c
+SHA1: e6bc8aa70a8f9b2c58c74c0a331db33b416dce13
+SHA256: 7bae2343b6684828feb31c04dc6b154d1f3395fabc9a34837cd94615a0ee41a1
+SHA512: 5e5d5b010f97d3d31de862842ceebb8ff741964f5353478ca95f33ee5147c6bc462c96dfc0c7e39a7ce34869198ac8356dc4333f6fe67a718e5e9d0f71983579
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Name: PKC
+Author: Curtin
+icon: https://huayuarc.github.io/icon/pkc.jpg
+
+Package: com.curtin.pkc.rootless
+Architecture: iphoneos-arm64e
+Version: 0.9-8
+Priority: optional
+Section: Tweaks
+Maintainer: curtinlv@126.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/iphoneos-arm64e/com.curtin.pkc.rootless_0.9-8_iphoneos-arm64e_ffa5f4f97dac88e0223dadbe751b44292c6cc9dffb34b04b82f7388106cef4ec.deb
+Size: 1887008
+MD5sum: 96ab8bf96058e41aa7647099132b0325
+SHA1: dbedddc6531eac64d67cc5edc7879a0af55cba2a
+SHA256: ffa5f4f97dac88e0223dadbe751b44292c6cc9dffb34b04b82f7388106cef4ec
+SHA512: 32d6979e30de03f69980f481f05ded34165d4bfa372b1bba1251e2014d857a54ef8cb76e4347c34bb05b732863d999f1490fad62d61f9b31141ba4a52400e439
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Name: PKC
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+
+Package: com.cydiageek.morelinesnotifications
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 178
+Depends: mobilesubstrate, firmware (>= 8.0)
+Filename: debs/iphoneos-arm64/com.cydiageek.morelinesnotifications_1.0.5_iphoneos-arm64_772c5f465541bdf3d26f112234dc97bad37b11f28e938daf03776f5addfcb5be.deb
+Size: 4944
+MD5sum: 02e0fe414ecd462f0069c3f027a65c81
+SHA1: c5471a2d39b4c560b1359e4336846fafee5c7913
+SHA256: 772c5f465541bdf3d26f112234dc97bad37b11f28e938daf03776f5addfcb5be
+SHA512: e8e625568bfe20aba4b38118b7cdb0dc1cf5b0412f48e09854052a6f483ea1c3ac8006729c16ca2327ef73698c8bf80a96d669021701bc453bbfc8f4c666f44b
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
+Description: Increase the Lines for the Notifications!为通知增加更多的行，显示更多的通知！
+Tag: purpose::extension
+Name: MoreLinesNotifications
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+dev: lucaluca86
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.cydiageek.morelinesnotifications
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 179
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 8.0)
+Filename: debs/iphoneos-arm64e/com.cydiageek.morelinesnotifications_1.0.5_iphoneos-arm64e_44777d90061c435fd1c98d25214c636e6bec97e5a4a149c839e234b981ed7acd.deb
+Size: 4660
+MD5sum: fe8caade2db1c73653f92191f2474098
+SHA1: 742ea8412b40bc43742f49932f29a223858ff930
+SHA256: 44777d90061c435fd1c98d25214c636e6bec97e5a4a149c839e234b981ed7acd
+SHA512: 683efee2e60c566ff21af2eb912a408d75386b95a2c66b86c54f58c276ca0b1d9a8802bc59dca3883984ceac64971f75a0069af789d96f73d9bf8e8c8a83e814
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
+Description: Increase the Lines for the Notifications!为通知增加更多的行，显示更多的通知！
+Tag: purpose::extension
+Name: MoreLinesNotifications
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+dev: lucaluca86
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.dada.hidedoubaopip
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: dada
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.dada.hidedoubaopip_1.0.0_iphoneos-arm64_043d99de76adfcf27cd86771a931d7712b090c45f3e99b00ec00c78d7525563f.deb
+Size: 9516
+MD5sum: 916e25898c7f376d295d46b59b770911
+SHA1: 8f646007568b7fe745c879816605b6ca9493e1c0
+SHA256: 043d99de76adfcf27cd86771a931d7712b090c45f3e99b00ec00c78d7525563f
+SHA512: 653aa9601bfcd26ab39645f2fe35204bca539b83949667238c8dc29665188be51bef56ea63dc0b91369aea988197676eb4fd20973f20caf7e798f40b727966fb
+Description: Hide only Doubao IME PiP floating window while preserving normal video PiP. Changes from early v2: removes broad SBPIPPegasusAdapter matching, uses conservative multi-signal Doubao detection, avoids hidden=YES, adds PiP internal layout triggers, and release builds do not write log files. 仅隐藏抖音IME PiP浮动窗口，同时保留正常视频PiP。与早期v2相比的变化：删除广泛的SBPIPPegasusAdapter匹配，使用保守的多信号淘宝检测，避免隐藏=是，添加PiP内部布局触发器，以及发布版本不写入日志文件。
+Name: HideDoubaoPiP
+Author: dada
+icon: https://huayuarc.github.io/icon/doubao.jpg
+
+Package: com.dada.hidedoubaopip
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+Section: Tweaks
+Maintainer: dada
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.dada.hidedoubaopip_1.0.0-1+debug_iphoneos-arm64_ae6890974205bae5e630f0d89c760ee64e93cd0ef3ff467c6289781e2939c8e7.deb
+Size: 8408
+MD5sum: 6bd62eabe70997c6c0f30440e570a18a
+SHA1: a60721af46a8dd044913185a73c01ae3d184b433
+SHA256: ae6890974205bae5e630f0d89c760ee64e93cd0ef3ff467c6289781e2939c8e7
+SHA512: 1c96e8aa4624d8ca0e4c029885bf129fd47289c2644e89e71023283499466581637517d4505a97bbabe547dcb1d00625ee66ef966148ba6c2aa64c03801f1ae5
+Description: Hide Doubao PiP edge stash indicator and residual floating window on iOS 16+ 在iOS 16+上隐藏Doubao PiP边缘藏匿指示器和剩余浮动窗口
+Name: HideDoubaoPiP
+Author: dada
+icon: https://huayuarc.github.io/icon/doubao.jpg
+
+Package: com.dafei.terminal
+Architecture: iphoneos-arm64
+Version: 1.0.0-25+debug
+Section: Terminal Support
+Maintainer: DaFei
+Installed-Size: 732
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Filename: debs/iphoneos-arm64/com.dafei.terminal_1.0.0-25+debug_iphoneos-arm64_e24075a63bf05a14f41729ba49d82d02738e1239df6b361ae4ff5666d5952bdd.deb
+Size: 175632
+MD5sum: 7b20be5b9c4ed1ec58332b7a85daf903
+SHA1: 948995545da9cfb7f6c1e506d12c1daa5ab3969e
+SHA256: e24075a63bf05a14f41729ba49d82d02738e1239df6b361ae4ff5666d5952bdd
+SHA512: 69c3c1669a57f883b66e77de5f75b9d96f7d829d1b219c0f324cf7a79eaed3887680a5f6cbcfdeb2e7bc4aa1b9543de5f44d84cc7e1986e2ca5e3ca4ca55fae6
+Description: iOS终端模拟器，支持多标签、中文显示、硬件键盘、手势缩放字体、滚动回看历史。
+ A full-featured terminal emulator for iOS with multi-tab, CJK support,
+ hardware keyboard, pinch-to-zoom, and scrollback history.
+Name: DFTerminal
+Author: DaFei
+icon: https://huayuarc.github.io/icon/mterminal.jpg
+
+Package: com.dafei.terminal
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Section: Terminal Support
+Maintainer: DaFei
+Installed-Size: 596
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Filename: debs/iphoneos-arm64/com.dafei.terminal_2.0.0_iphoneos-arm64_5f50fdf7fb9dfffa4cad6963baa644cce9ae2e60dc378d57f1b7910937c586eb.deb
+Size: 181492
+MD5sum: 4aed4d40af146f768410c5f24759c92e
+SHA1: cc1aa85756e139748e350d0f4810937b89f6d1c4
+SHA256: 5f50fdf7fb9dfffa4cad6963baa644cce9ae2e60dc378d57f1b7910937c586eb
+SHA512: d3e5913da376754a4db78adeec93d9a48ae5aa6f34c1c2182d4c9936721c65aceb635997e9f8fbb470f7174f1dc510e038b6ca1871314bcfabde8f7193e445af
+Description: 现代化 iOS 终端，支持多标签、主题、中文/emoji、复制粘贴、双指缩放和本地 AI 辅助。更新了一些功能
+ A modern iOS terminal emulator with tabs, themes, CJK/emoji rendering,
+ copy/paste, pinch-to-zoom, scrollback, and local AI context helpers.
+Name: DFTerminal
+Author: DaFei
+icon: https://huayuarc.github.io/icon/mterminal.jpg
+
+Package: com.dafei.terminal
+Architecture: iphoneos-arm64e
+Version: 1.0.0-25+debug
+Section: Terminal Support
+Maintainer: DaFei
+Installed-Size: 732
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Filename: debs/iphoneos-arm64e/com.dafei.terminal_1.0.0-25+debug_iphoneos-arm64e_2fa05ce9bf0d203b0d21adf2b228b2a71915776e8bfa850bca8e0dbf39d5c7c4.deb
+Size: 175808
+MD5sum: bb375e4b551d4130bf6c117d2b578ab3
+SHA1: 0a9c2b97eb67bb755b07cfbaab5776f89e8ad6e7
+SHA256: 2fa05ce9bf0d203b0d21adf2b228b2a71915776e8bfa850bca8e0dbf39d5c7c4
+SHA512: 76263de05b4180f9dd52a631a60870778309da1a1c3ea9cce87ce07372a21f701ace461a6d8ecebd0a5eda823a669b3c71d2bf1d8a80b5875e02eaba2487ff4a
+Description: iOS终端模拟器，支持多标签、中文显示、硬件键盘、手势缩放字体、滚动回看历史。
+ A full-featured terminal emulator for iOS with multi-tab, CJK support,
+ hardware keyboard, pinch-to-zoom, and scrollback history.
+Name: DFTerminal
+Author: DaFei
+icon: https://huayuarc.github.io/icon/mterminal.jpg
+
+Package: com.dafei.terminal
+Architecture: iphoneos-arm64e
+Version: 1.0.0-27+debug
+Section: Terminal Support
+Maintainer: DaFei
+Installed-Size: 732
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Filename: debs/iphoneos-arm64e/com.dafei.terminal_1.0.0-27+debug_iphoneos-arm64e_87af383f1879fe8305d78bd692e8b9b5fb5c312b40a4e6068d5fd7ff9ad251cd.deb
+Size: 175308
+MD5sum: da575cb352543a047ac99b554e235278
+SHA1: a74ab2ed3f956b3f0b2a8479e6861523dba364a6
+SHA256: 87af383f1879fe8305d78bd692e8b9b5fb5c312b40a4e6068d5fd7ff9ad251cd
+SHA512: 5a5e0c4a10e6ab8ed7c813d7a8be0da74d5fca4264d032a1a5866f0c7bb64f362bb9ca84b619e1b743148eb73055b7195bf041678033388b13f4e03cd6171229
+Description: iOS终端模拟器，支持多标签、中文显示、硬件键盘、手势缩放字体、滚动回看历史。
+ A full-featured terminal emulator for iOS with multi-tab, CJK support,
+ hardware keyboard, pinch-to-zoom, and scrollback history.
+Name: DFTerminal
+Author: DaFei
+icon: https://huayuarc.github.io/icon/mterminal.jpg
+
+Package: com.dafei.terminal
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Section: Terminal Support
+Maintainer: DaFei
+Installed-Size: 596
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Filename: debs/iphoneos-arm64e/com.dafei.terminal_2.0.0_iphoneos-arm64e_33bd9888508799abfa04c7e526a78949405d9edbcb5afbfba83d27e8e8e1ae78.deb
+Size: 181428
+MD5sum: 05abee030818d2d10de99184adcff1a7
+SHA1: 9b85837580647302466dc51ae11c512e74414770
+SHA256: 33bd9888508799abfa04c7e526a78949405d9edbcb5afbfba83d27e8e8e1ae78
+SHA512: 568383a343c0372cdfe3e0fe0ccbfa6bbfdfc4a5cc64bdcee99a534d4fba427a14e1b6c5456732243db2cd1741e81168a6fb0deaffdc4ca93429e588b29762cc
+Description: 现代化 iOS 终端，支持多标签、主题、中文/emoji、复制粘贴、双指缩放和本地 AI 辅助。更新了一些功能
+ A modern iOS terminal emulator with tabs, themes, CJK/emoji rendering,
+ copy/paste, pinch-to-zoom, scrollback, and local AI context helpers.
+Name: DFTerminal
+Author: DaFei
+icon: https://huayuarc.github.io/icon/mterminal.jpg
+
+Package: com.dangkhoa.hotspotpro
+Architecture: iphoneos-arm64
+Version: 0.6.9
+Section: Networking
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Installed-Size: 1060
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.dangkhoa.hotspotpro_0.6.9_iphoneos-arm64_00527e6fc7a02a8bfa29d9e277cdc58b00f042d6b34b429ffdea5f869f4cb4d2.deb
+Size: 100056
+MD5sum: 334de3a356c0bc4268fd4774583225a5
+SHA1: 60f60a3cacc9ba431c83993d62f1a014f0fa461f
+SHA256: 00527e6fc7a02a8bfa29d9e277cdc58b00f042d6b34b429ffdea5f869f4cb4d2
+SHA512: f9cd4d19180ad7eb10ea202a4819b779a8107f7da6154e1ac8b21a6ce817eafcfb9664655b0610ddcfea9812a8cce5bd3156271de605cf3c0c3cbc1299c151cc
+Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
+Tag: purpose::extension, role::enduser
+Name: HotspotPro
+Author: DangKhoa <dangkhoa116@gmail.com>
+icon: https://huayuarc.github.io/icon/HotspotPro.jpg
+
+Package: com.dangkhoa.hotspotpro
+Architecture: iphoneos-arm64
+Version: 0.7.0
+Section: Networking
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Installed-Size: 1064
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.dangkhoa.hotspotpro_0.7.0_iphoneos-arm64_834bc7a864e983ae58d7a97ca4b7a7566fe987aabddf687ce368ca451a72391d.deb
+Size: 106452
+MD5sum: b1ce98eac699fa9b7bfcfe1d96cc93e9
+SHA1: 0377c1a1dbfe4e534a8887f430b7f33445e5484b
+SHA256: 834bc7a864e983ae58d7a97ca4b7a7566fe987aabddf687ce368ca451a72391d
+SHA512: 855b519303a3a20b49af184f39fe154df387e639da14c44b13e7bd7ce5ac3adc19930f591128cb2c0a5df93386e2c073838ebcb6123eeaa791f0d7a8fcc0b142
+Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
+Tag: purpose::extension, role::enduser
+Name: HotspotPro
+Author: DangKhoa <dangkhoa116@gmail.com>
+icon: https://huayuarc.github.io/icon/HotspotPro.jpg
+
+Package: com.dangkhoa.hotspotpro
+Architecture: iphoneos-arm64e
+Version: 0.6.9
+Section: Networking
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Installed-Size: 1060
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.dangkhoa.hotspotpro_0.6.9_iphoneos-arm64e_9012db883317c74e383981b99f46d482b5e08d1545bffb1bebe6842103a7ab67.deb
+Size: 97392
+MD5sum: c48a83d9fb3139e4d3fcb10820a65e12
+SHA1: b3be376fbfdb726fcb39acbc248d2137eb29d5b8
+SHA256: 9012db883317c74e383981b99f46d482b5e08d1545bffb1bebe6842103a7ab67
+SHA512: 82419e813118238a57eec30d07245f955ca86b4109bf07c8083845483ca9f9252f767ed057c2679606c0aa724ae81e32485ff1b2ed347936a10f97d12336234b
+Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
+Tag: purpose::extension, role::enduser
+Name: HotspotPro
+Author: DangKhoa <dangkhoa116@gmail.com>
+icon: https://huayuarc.github.io/icon/HotspotPro.jpg
+
+Package: com.dangkhoa.hotspotpro
+Architecture: iphoneos-arm64e
+Version: 0.7.0
+Section: Networking
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Installed-Size: 1064
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.dangkhoa.hotspotpro_0.7.0_iphoneos-arm64e_74e6107f37aef87427ec33ee60399ca1dc2f4e320b8cd65b23b561ef15122217.deb
+Size: 103328
+MD5sum: f0ace6ea230ad9e5f72d9e1caae35883
+SHA1: e9302a5479ab05e56b420604d419d6e8f3f623fe
+SHA256: 74e6107f37aef87427ec33ee60399ca1dc2f4e320b8cd65b23b561ef15122217
+SHA512: ceb0ba5d7f5ca8175f6538dc65a428e1e09bf5c141cd692616155a41cf9331ac7c1226f306c5901634892b4203db5f79e89665e427e6a160508daf9ac3274814
+Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
+Tag: purpose::extension, role::enduser
+Name: HotspotPro
+Author: DangKhoa <dangkhoa116@gmail.com>
+icon: https://huayuarc.github.io/icon/HotspotPro.jpg
+
+Package: com.dao.cchide
+Architecture: iphoneos-arm64e
+Version: 2.1
+Section: Tweaks
+Maintainer: 妖刀
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 17.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Filename: debs/iphoneos-arm64e/com.dao.cchide_2.1_iphoneos-arm64e_7bd73f47e701c2dbdfb82c58c09b93c5d066bc625856eec0876f66751843d837.deb
+Size: 493180
+MD5sum: 3e8e7e966715d2614040cd47247fbb4a
+SHA1: 7d22fede3279bbf639416c014b222036ddb9aa3f
+SHA256: 7bd73f47e701c2dbdfb82c58c09b93c5d066bc625856eec0876f66751843d837
+SHA512: 90341ab811a6808c40119562268c3f662dcb06c9d65cc19460513b1a2a6b743fab219d9cfa42483bd6e26280d64da8f33f894b20901bb6df29622436961d1290
+Description: 📱控制中心模块集合：定位、注销、设置、VPN、自动亮度、截屏、锁屏、一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动 QX/推特/油管/Filza/Sileo/Tg 等、静音、实时 CPU 使用率、系统运行时间、Snapper2、微信/支付宝付款码等。适合iOS17(Bootstrap)
+Name: CCLess++(bootstrap)
+Author: 妖刀
+icon: https://huayuarc.github.io/icon/CCLess.jpg
+
+Package: com.dao.ccless
+Architecture: iphoneos-arm64
+Version: 2.1.0.1
+Section: Tweaks
+Maintainer: 妖刀
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.rootless.cc
+Filename: debs/iphoneos-arm64/com.dao.ccless_2.1.0.1_iphoneos-arm64_a28c03dfdbdeef07c5988e95933083036a76eb9e0d135d240003ff5ec276f331.deb
+Size: 513092
+MD5sum: 7d36fb5b4a4c32d004bd690550a793e0
+SHA1: e926ae787d5e7fb3f71fc7a8acd27083a444516f
+SHA256: a28c03dfdbdeef07c5988e95933083036a76eb9e0d135d240003ff5ec276f331
+SHA512: 1f2a839ff2b6dab842e9517d646e9d0384471264b837cc703a0986ac72f587649e94561ac773dbdeaed667e2f04bf840f47799ea30d28628049a97deba11a7b2
+Description: 📱控制中心模块集合：定位、注销、设置、VPN、自动亮度、截屏、锁屏、一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动 QX/推特/油管/Filza/Sileo/Tg 等、静音、实时 CPU 使用率、系统运行时间、Snapper2、微信/支付宝付款码等。
+Name: CCLess++(rootless)
+Author: 妖刀
+icon: https://huayuarc.github.io/icon/CCLess.jpg
+
+Package: com.dao.ccless
+Architecture: iphoneos-arm64e
+Version: 2.1.0.1
+Section: Tweaks
+Maintainer: 妖刀
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Filename: debs/iphoneos-arm64e/com.dao.ccless_2.1.0.1_iphoneos-arm64e_f56f380b78daf1edd926717488d2b5baf06efa5c121d15b9e2f3555ca75d4fca.deb
+Size: 499128
+MD5sum: 75db2705236a5d23f7746ce952a81ca8
+SHA1: 11a9d011f1dcff669a659d5b4e83f74fdd37cb44
+SHA256: f56f380b78daf1edd926717488d2b5baf06efa5c121d15b9e2f3555ca75d4fca
+SHA512: dad75a15f77717b95689a440235e1cf39ecea9dfae313f6712cebc3f4377e4052070dd705b6e7c1a8563abbb77c2f49bf3de0eeb91a0f60ebe3f41748688a11a
+Description: 📱控制中心模块集合：定位、注销、设置、VPN、自动亮度、截屏、锁屏、一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动 QX/推特/油管/Filza/Sileo/Tg 等、静音、实时 CPU 使用率、系统运行时间、Snapper2、微信/支付宝付款码等。
+Name: CCLess++(roothide)
+Author: 妖刀
+icon: https://huayuarc.github.io/icon/CCLess.jpg
+
+Package: com.dao.donut
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 412
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.noisyflake.cozybadges, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd, com.dao.ocd5lite, com.dao.ocd5, com.sini921.donut
+Filename: debs/iphoneos-arm64/com.dao.donut_2.0_iphoneos-arm64_41ec0c61f3beb1df7402f442e45c9c22ec95982b0b037ceed1df5136e82306ed.deb
+Size: 44712
+MD5sum: fa83251d55128137a447f7b125696450
+SHA1: df038870f7c0fbcb12cd1272970f922fe5e87a07
+SHA256: 41ec0c61f3beb1df7402f442e45c9c22ec95982b0b037ceed1df5136e82306ed
+SHA512: 9b03a80999bf0c94c64d2f609777015fbcb6ba2c5175386387d1360ff1624aa68b281ee31ae545b966c27b379f78181fd67baddf07e1427887b14d3f53c85901
+Description: 桌面图标通知角标变成空心小圆圈，自适应颜色。
+Name: Donut 图标通知角标
+Author: daodao
+icon: https://huayuarc.github.io/icon/Donut.png
+
+Package: com.dao.donut
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 412
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.noisyflake.cozybadges, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd, com.dao.ocd5lite, com.dao.ocd5, com.sini921.donut
+Filename: debs/iphoneos-arm64/com.dao.donut_2.0.1_iphoneos-arm64_143d87cc700c00c1449fb06a27c4db598d6348e4eda78aabd18f6743004e8c9e.deb
+Size: 45788
+MD5sum: f41cc68ac7bb6870cf7974f0a41c456a
+SHA1: c1b6c7670f39528a07d563889b9254d8008d31cb
+SHA256: 143d87cc700c00c1449fb06a27c4db598d6348e4eda78aabd18f6743004e8c9e
+SHA512: dac7188abd9c3327b5f0cf045f81cc877fc25030a54cee2e38bdb68359c2f6508dd31e6845f771320d4e54256c20aea84a323e15f6ed251b569b4925ee2b1f62
+Description: 桌面图标通知角标变成空心小圆圈，自适应颜色。
+Name: Donut 图标通知角标
+Author: daodao
+icon: https://huayuarc.github.io/icon/Donut.png
+
+Package: com.dao.donut
+Architecture: iphoneos-arm64
+Version: 2.0.2
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 412
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.noisyflake.cozybadges, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd, com.dao.ocd5lite, com.dao.ocd5, com.sini921.donut
+Filename: debs/iphoneos-arm64/com.dao.donut_2.0.2_iphoneos-arm64_9ab2ac2c1aaae6bf00633bf779e8d69283b7c8d329f0042b9095dd5f7e21e395.deb
+Size: 46104
+MD5sum: c4642e97c20bda75718fce77b2857d0a
+SHA1: 2678a37e1f56a1cfb7577bebc0c9e8e51065a2a7
+SHA256: 9ab2ac2c1aaae6bf00633bf779e8d69283b7c8d329f0042b9095dd5f7e21e395
+SHA512: b7aa9ea1d0c2d2d920173e5e9c93febc1cb89ae176c122154d0504099568cccb7d60fd0fc7d1ec090e87162949702c355c08443bf89a8af2df1b5498d84e6650
+Description: 桌面图标通知角标变成空心小圆圈，自适应颜色。
+Name: Donut 图标通知角标
+Author: daodao
+icon: https://huayuarc.github.io/icon/Donut.png
+
+Package: com.dao.donut
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 380
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.noisyflake.cozybadges, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd, com.dao.ocd5lite, com.dao.ocd5, com.sini921.donut
+Filename: debs/iphoneos-arm64e/com.dao.donut_2.0_iphoneos-arm64e_6f45bd5374657a789960c0ba5cbfe7f0269d4e9203216cb8d521f28f76a0c9f9.deb
+Size: 43456
+MD5sum: 7131aa1b836c8db1fd4647abc56582c9
+SHA1: b93cdb6a250b1468d0eda7209e4217fa1afda9fa
+SHA256: 6f45bd5374657a789960c0ba5cbfe7f0269d4e9203216cb8d521f28f76a0c9f9
+SHA512: 56a9d611a99ee9598c31cb28d666c4c14348403204c44f0afcd3051de5a14b131ed75cd57fcbe7c5bf733b9b86e5d4f23dfd906f1609a4974bee65af85fbff55
+Description: 桌面图标通知角标变成空心小圆圈，自适应颜色。
+Name: Donut 图标通知角标
+Author: daodao
+icon: https://huayuarc.github.io/icon/Donut.png
+
+Package: com.dao.donut
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 380
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.noisyflake.cozybadges, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd, com.dao.ocd5lite, com.dao.ocd5, com.sini921.donut
+Filename: debs/iphoneos-arm64e/com.dao.donut_2.0.1_iphoneos-arm64e_0970e99fd7c95caf8f33489608dbe4d608f69c70ca526bb55425ae1330b14884.deb
+Size: 44552
+MD5sum: ca12506ee6b6d38904ab9c6c5c3a9d00
+SHA1: 9202fcce77df00afbd8b4bbae104cbd66ada75a8
+SHA256: 0970e99fd7c95caf8f33489608dbe4d608f69c70ca526bb55425ae1330b14884
+SHA512: 40a083d278eb33c18202251e453ad62fa5436661b6e4d8affb16d6582cb4c1aafd54e2e2e99a067310f4e725917a5c643ce0a644d44ec00c117d9e22eb43ddf9
+Description: 桌面图标通知角标变成空心小圆圈，自适应颜色。
+Name: Donut 图标通知角标
+Author: daodao
+icon: https://huayuarc.github.io/icon/Donut.png
+
+Package: com.dao.donut
+Architecture: iphoneos-arm64e
+Version: 2.0.2
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 380
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.noisyflake.cozybadges, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd, com.dao.ocd5lite, com.dao.ocd5, com.sini921.donut
+Filename: debs/iphoneos-arm64e/com.dao.donut_2.0.2_iphoneos-arm64e_23aaa3e5687b61cf7b256e07a4a46483535cf6e8a90c3b5fa4c17b8eb5ea1c58.deb
+Size: 44924
+MD5sum: 4f3ba98ef34aba90fcee19d83b3c96bd
+SHA1: d39fa68449b52e74909899859292f1ec178cb844
+SHA256: 23aaa3e5687b61cf7b256e07a4a46483535cf6e8a90c3b5fa4c17b8eb5ea1c58
+SHA512: 9166d1353d48fea265c93389190e368a122d9d3e9c772a47c1447ee2961aa17782c75d410138f1f288ac0da929454a256534f9d1330290fb04a83f901f9e92f3
+Description: 桌面图标通知角标变成空心小圆圈，自适应颜色。
+Name: Donut 图标通知角标
+Author: daodao
+icon: https://huayuarc.github.io/icon/Donut.png
+
+Package: com.dao.pulloverx
+Architecture: iphoneos-arm64
+Version: 2.2.1
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 796
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: debs/iphoneos-arm64/com.dao.pulloverx_2.2.1_iphoneos-arm64_eeef19480c201db3f3171900ebd20dc80a2ec99100699798f14fa20233b0324b.deb
+Size: 175892
+MD5sum: 70b2f0293170ae787fc17abbd25435a2
+SHA1: ffa9f4c314ff9087c4c1259ba1ae3594ed20983a
+SHA256: eeef19480c201db3f3171900ebd20dc80a2ec99100699798f14fa20233b0324b
+SHA512: fd6fbc48afab292e2c57e8c703659d4efe98705919b1d9b7f434e4de251373a5a1883f6a11d5fed22b8162cccd15d2b4d01f075656304e638c8271edc209f276
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOverX 分屏
+Author: mlgm
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.dao.pulloverx
+Architecture: iphoneos-arm64
+Version: 2.2.3
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 796
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: debs/iphoneos-arm64/com.dao.pulloverx_2.2.3_iphoneos-arm64_bd216ada41858dc8192252cd0958b21490b142eff0c4f4e97fc30fbd04d9d2d1.deb
+Size: 178256
+MD5sum: a9822c2cee5c4bc5727361d76c16d2eb
+SHA1: 7e06060e0cfee78c5127694f679f22d9f47f4b9e
+SHA256: bd216ada41858dc8192252cd0958b21490b142eff0c4f4e97fc30fbd04d9d2d1
+SHA512: a8d817a236d15e2c936fc2065ee765b95dab624f505e196fc32ef26a5fedff074b1ca931594fb952e6134242cc5e12f21817cc32dc20a2bf838d9f4690613826
+Description: 悬浮多任务窗口工具，基于 mlgm 的 PullOver X 打造的客制化版本。
+Name: PullOverX 分屏
+Author: mlgm
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.dao.pulloverx
+Architecture: iphoneos-arm64
+Version: 2.2.9
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 812
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: debs/iphoneos-arm64/com.dao.pulloverx_2.2.9_iphoneos-arm64_20dab2fa5c8dd20dfde3ef4dc4928f60ac7477ba6073cb8226b27b82ad99629b.deb
+Size: 180260
+MD5sum: 54b838dd571b632e172f27fac09915ec
+SHA1: e3554ae1450551dc0ac5924eabcfea17308eaead
+SHA256: 20dab2fa5c8dd20dfde3ef4dc4928f60ac7477ba6073cb8226b27b82ad99629b
+SHA512: a33d28aa417c0d2a163aa38f2be37a167217614559b80cb6fb8fa694ca274d5cf8875c4e50ecbcda8353507014cd0a95703e89d44f316db445e6277235066317
+Description: 悬浮多任务窗口工具，基于 mlgm 的 PullOver X 打造的客制化版本。
+Name: PullOverX 分屏
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.dao.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.2.1
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 796
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: debs/iphoneos-arm64e/com.dao.pulloverx_2.2.1_iphoneos-arm64e_360cf0e57b6cacea6f2e868de6f6bac7230abf247d9a3a1b3249385a60e57f9f.deb
+Size: 175848
+MD5sum: 3f747049beed88146d9656bd4c4b4a31
+SHA1: 1967ce9170a7b2120d1f50d0385175d56bdbd0c4
+SHA256: 360cf0e57b6cacea6f2e868de6f6bac7230abf247d9a3a1b3249385a60e57f9f
+SHA512: 6465bd3cc5243ef5dd2a875a4c7f4f5c8a8296fe85b684121c4623f9e09c0fa55994739647ed7841507a244232d6b6bfdf659847f88c014262fb1b46f4fb98e0
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOverX 分屏
+Author: mlgm
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.dao.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.2.3
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 796
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: debs/iphoneos-arm64e/com.dao.pulloverx_2.2.3_iphoneos-arm64e_ce5dace085ed9027c809fed57e577307048637dc6b5220d0c3d9b6fe18abadb7.deb
+Size: 176312
+MD5sum: e767db6e6dc05062023772736919f2a3
+SHA1: 64977d16ca892f62477834c20146380d304173aa
+SHA256: ce5dace085ed9027c809fed57e577307048637dc6b5220d0c3d9b6fe18abadb7
+SHA512: 9b31c632fe14b39aa77167a88cfdc475617541aca81540e74e34132917bab84b3d9f05befe8dcab9419ffa996ba0fa4f317a37330b6438555a90b5877a22caf5
+Description: 悬浮多任务窗口工具，基于 mlgm 的 PullOver X 打造的客制化版本。
+Name: PullOverX 分屏
+Author: mlgm
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.dao.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.2.9
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 796
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: debs/iphoneos-arm64e/com.dao.pulloverx_2.2.9_iphoneos-arm64e_3c3fa1be0ef371f7a21e06abb7fb36870df8a265b282a40d24f002e48a133327.deb
+Size: 177368
+MD5sum: a74430318b46cf29ce412b829702c00d
+SHA1: e8290a2569b14cdd2ce04c14f02547b70313886d
+SHA256: 3c3fa1be0ef371f7a21e06abb7fb36870df8a265b282a40d24f002e48a133327
+SHA512: a320c74eab92bc6763ef4e2eebe92a17998414b3499413bcc77af015f5480934b1b14d5a83c1d51b81e328a666fc6dd458aef46d33f28b768f544332586dbcfd
+Description: 悬浮多任务窗口工具，基于 mlgm 的 PullOver X 打造的客制化版本。
+Name: PullOverX 分屏
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.daodao.goodwifi
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Section: Tweaks
+Maintainer: 妖刀
+Installed-Size: 424
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Conflicts: com.julioverne.goodwifi, com.qms.goodwifi, com.hk.goodwifi, com.daodao.goodwifi16
+Filename: debs/iphoneos-arm64/com.daodao.goodwifi_1.6.2_iphoneos-arm64_3569dd966b62e8013d867152cbad0ea1133e8d54b958d028cf14f0a042af6814.deb
+Size: 68492
+MD5sum: 09d80a93c85194b1a64e48d7f6b075de
+SHA1: 077394d38afe015a5066d1cf04a67bff3f4c8943
+SHA256: 3569dd966b62e8013d867152cbad0ea1133e8d54b958d028cf14f0a042af6814
+SHA512: 50bee5d01ce2d2af720ade42e12210440ef0b31fd03f56b99e2c4b7b861a92bacb8f1b568530b1703ffb06bc24537a20d686e59c7dbb1ff1c1e8d30c32d511f5
+Description: 更好的 WiFi 配置，可自动适配不同 iOS 版本，查看 WiFi 信道、加密方式和密码、信号值，去除 RSSI 限制，显示 MAC 地址等；简体中文版。
+Name: GoodWiFi
+Author: julioverne & 妖刀
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/goodwifi/js.json
+icon: https://huayuarc.github.io/icon/goodwifi.png
+
+Package: com.daodao.goodwifi
+Architecture: iphoneos-arm64e
+Version: 1.6.2
+Section: Tweaks
+Maintainer: 妖刀
+Installed-Size: 424
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Conflicts: com.julioverne.goodwifi, com.qms.goodwifi, com.hk.goodwifi, com.daodao.goodwifi16
+Filename: debs/iphoneos-arm64e/com.daodao.goodwifi_1.6.2_iphoneos-arm64e_3fa26f97f1af7b3272ec1125af540f1e2ee18cfba7b1ce7127a704bb2bd2f240.deb
+Size: 66096
+MD5sum: d69d4d4ed12ea367beff36285495038f
+SHA1: d9c794bcfb34a4307da29d617a34500a59c2d65f
+SHA256: 3fa26f97f1af7b3272ec1125af540f1e2ee18cfba7b1ce7127a704bb2bd2f240
+SHA512: 4c5ed6b82d3be92fc920adbd5f2e7629a93694473fc97dba79393fa256218012738f5b7a0819e12e9fd18b426fcc8de0914558c8f118f387925d25430359e0b6
+Description: 更好的 WiFi 配置，可自动适配不同 iOS 版本，查看 WiFi 信道、加密方式和密码、信号值，去除 RSSI 限制，显示 MAC 地址等；简体中文版。
+Name: GoodWiFi
+Author: julioverne & 妖刀
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/goodwifi/js.json
+icon: https://huayuarc.github.io/icon/goodwifi.png
+
+Package: com.dgr.fipad
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+Section: Tweaks
+Maintainer: dgr
+Installed-Size: 364
+Provides: com.dgr.fipad
+Depends: firmware (>= 16.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.dgr.fipad
+Replaces: com.dgr.fipad
+Filename: debs/iphoneos-arm64/com.dgr.fipad_1.0.0-1+debug_iphoneos-arm64_e6bf00a85854493746cc015814df3667601993fd62d88ed31f056aa35c6bce89.deb
+Size: 13924
+MD5sum: b19ab91cc43e4e730e7197a96235d7b8
+SHA1: ec87233ee597a470bb66f18d714362cdaf2e20a6
+SHA256: e6bf00a85854493746cc015814df3667601993fd62d88ed31f056aa35c6bce89
+SHA512: bcd6503e445e928d05a925a998e6d6acd3752b2272bb697cb000ecc7e25bf9ea51a4efb2219b7c4d8fbbbf5227283830b3f4e7a19e22e77975d69c876f714e67
+Description: 仿ipad可调节后台！
+Name: Fipad 仿IPAD可调节后台
+Author: dgr
+icon: https://huayuarc.github.io/icon/fipad.png
+
+Package: com.dgr.fipad
+Architecture: iphoneos-arm64
+Version: 1.3.0
+Section: Tweaks
+Maintainer: dgr
+Installed-Size: 352
+Depends: firmware (>= 16.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.dgr.fipad_1.3.0_iphoneos-arm64_8ba157e65a3f99c16fd2cbedbacf88a08ff39d266b96d3b08e9a68325107ec00.deb
+Size: 11864
+MD5sum: af271e8e3474906a021bdbc741188fb5
+SHA1: 7df4bb31fef0c56a906e023be13969262427ff35
+SHA256: 8ba157e65a3f99c16fd2cbedbacf88a08ff39d266b96d3b08e9a68325107ec00
+SHA512: 8b9e3b4c197fdb441fa465d5a0e25cfbdee39c93ebc9638ab2a0bdb35a1d1bd24a348835de7364ad631858cd83983b9b5f22bf4537da27168be9457f5d7eeb9f
+Description: 仿ipad可调节后台！
+Name: Fipad 仿IPAD可调节后台
+Author: dgr
+icon: https://huayuarc.github.io/icon/fipad.png
+
+Package: com.dgr.fipad
+Architecture: iphoneos-arm64e
+Version: 1.0.0-1+debug
+Section: Tweaks
+Maintainer: dgr
+Installed-Size: 364
+Provides: com.dgr.fipad
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.dgr.fipad
+Replaces: com.dgr.fipad
+Filename: debs/iphoneos-arm64e/com.dgr.fipad_1.0.0-1+debug_iphoneos-arm64e_1d7f67507b8ccd4526077730f9a7ef66596f4cdef87c7c6d29724f4d74d19ead.deb
+Size: 13304
+MD5sum: 1f7f7060974cf31ce1046259200f29f1
+SHA1: 35514f7b45d86558f73fd51c3b0a1cf7320d99a5
+SHA256: 1d7f67507b8ccd4526077730f9a7ef66596f4cdef87c7c6d29724f4d74d19ead
+SHA512: 138d68c1f7faa59877f663455a9baec1e325755c199a327602a7d039134997c81cb4edbc816cb4456e164f3e631fd4912402e402fcccc032b5f15be56dde2438
+Description: 仿ipad可调节后台！
+Name: Fipad 仿IPAD可调节后台
+Author: dgr
+icon: https://huayuarc.github.io/icon/fipad.png
+
+Package: com.dgr.fipad
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Section: Tweaks
+Maintainer: dgr
+Installed-Size: 352
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.dgr.fipad_1.3.0_iphoneos-arm64e_24171515585784d3ea4509f1c97149ae2b9a8f1ad11b08ae31ca0052380b9986.deb
+Size: 11332
+MD5sum: 952dcc263661ed23a315229cd189a841
+SHA1: dc52a0a3aa0ad1a209dfd3d6e8853415357dbb4e
+SHA256: 24171515585784d3ea4509f1c97149ae2b9a8f1ad11b08ae31ca0052380b9986
+SHA512: 0a6b2529b438791ec00438955ef4821bf1e30f2dce3f5b751fdd59ddc59e133e69a79744baa15cf98542c48d0103b6a363924099ba3e940eff50c5add0f15a86
+Description: 仿ipad可调节后台！
+Name: Fipad 仿IPAD可调节后台
+Author: dgr
+icon: https://huayuarc.github.io/icon/fipad.png
+
+Package: com.doimty.promotion
+Architecture: iphoneos-arm64
+Version: 1.0.11
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 108
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.doimty.promotion_1.0.11_iphoneos-arm64_02c3d21e24fdcf66d65edb35730b69ae723d7cd3ce61a2e1060e9ee24daa27e0.deb
+Size: 16880
+MD5sum: 51cfc0c0dec51674c2b7a3819e9495ee
+SHA1: 14e7cf0ccf3d093793863f02cec872affa897428
+SHA256: 02c3d21e24fdcf66d65edb35730b69ae723d7cd3ce61a2e1060e9ee24daa27e0
+SHA512: 6094dc6370be71fae3dfaaf6db3a268d4c4b68fa91313538a48ef7bd4e778ac675f64581895e6934fe086a9b24fb5414a37103704fdefe7e1a8168cb0914db65
+Description: Force 120Hz ProMotion — Overrides the 80Hz system limit. Requires iPhone 13 Pro or later.强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: doimty
+icon: https://huayuarc.github.io/icon/120hz.jpg
+
+Package: com.doimty.promotion
+Architecture: iphoneos-arm64
+Version: 1.0.13
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 108
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.doimty.promotion_1.0.13_iphoneos-arm64_91fbf1cd642da31e8ce1a72b9851a5322dfdd303b7962c2b6f10145cade05051.deb
+Size: 17100
+MD5sum: 28c71c780423998c60661046e319d932
+SHA1: d0719bdfa15bac997fd4898a00bf4e6c9d83d589
+SHA256: 91fbf1cd642da31e8ce1a72b9851a5322dfdd303b7962c2b6f10145cade05051
+SHA512: 135a04b068839089b0731481b68fd73713887900ad7a5f11131705f41feabf1c69845aed54ffac1bacb3c4530dd09d54108de712d152541da369bdcc1a158df0
+Description: 在 iPhone 13 Pro+ 上强制使用全局 120Hz ProMotion。绕过80Hz系统上限，并在通过持久keepalive DisplayLink阻止调整注入的应用程序中保持120Hz。
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: doimty
+icon: https://huayuarc.github.io/icon/120hz.jpg
+
+Package: com.doimty.promotion
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.doimty.promotion_1.0.6_iphoneos-arm64_bc7dd30373cf571fe55bf3817e5d68c8f59275633fba31b57e59c207ab2ca476.deb
+Size: 24860
+MD5sum: 03020a248236a3641f523878aca56aef
+SHA1: 7a643a01cf608967f096afe2530ecce9a58d7e52
+SHA256: bc7dd30373cf571fe55bf3817e5d68c8f59275633fba31b57e59c207ab2ca476
+SHA512: 2b1d8aa58e8d49b668e80fe1ed18ea4ab4efd6a5394ceade612f02f14c37884b1a58dc8789945a8dc1f48367543bd662dd4c655f5e40d6325163d1cd1fd1c99c
+Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: doimty
+icon: https://huayuarc.github.io/icon/120hz.jpg
+
+Package: com.doimty.promotion
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.doimty.promotion_1.0.7_iphoneos-arm64_f33d176a0dc71150299a8464984336dd57fb35008430686679f2912c71fc95c0.deb
+Size: 25552
+MD5sum: f33bea042e0f43245311c855eaf20db2
+SHA1: 1dc4042c27d0d62cfe0a136673c654fa51f21166
+SHA256: f33d176a0dc71150299a8464984336dd57fb35008430686679f2912c71fc95c0
+SHA512: 61a1ee437bd2913e6f1e57f0009d70a38090f45c2cac83fd1253f2e5b4c0583d2285bb30f26cd9c5725c203231ca5dfc24585a8654278079ea8bba1abd20ffab
+Description: Force 120Hz ProMotion — Overrides the 80Hz system limit. Requires iPhone 13 Pro or later.强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: doimty
+icon: https://huayuarc.github.io/icon/120hz.jpg
+
+Package: com.doimty.promotion
+Architecture: iphoneos-arm64e
+Version: 1.0.11
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 108
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.doimty.promotion_1.0.11_iphoneos-arm64e_83605e3673363412cbfa3639227120f488fa4e79b84a685be56f84974ac18c16.deb
+Size: 16812
+MD5sum: b5aa4bfa2705311ba33083fbb0218f0e
+SHA1: 9a1a736c000d19c089539594c5fb7f162ce42cea
+SHA256: 83605e3673363412cbfa3639227120f488fa4e79b84a685be56f84974ac18c16
+SHA512: 953a513888452589f83f7ef73013c3c70c6a797ee120f0a75bb89753679b8e9795b37b4125c48f52a0cab2445fca0373aaba2d6ebdc4a20de4feceb9acc19b08
+Description: Force 120Hz ProMotion — Overrides the 80Hz system limit. Requires iPhone 13 Pro or later.强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: doimty
+icon: https://huayuarc.github.io/icon/120hz.jpg
+
+Package: com.doimty.promotion
+Architecture: iphoneos-arm64e
+Version: 1.0.13
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 108
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.doimty.promotion_1.0.13_iphoneos-arm64e_2cc80a70e655b4c51cbefc5fa993013dfa56cceb088aad60bb68c0ecd47ca417.deb
+Size: 17036
+MD5sum: 0431ca679678ff7ee76fa36668a59e96
+SHA1: 92b9488bcddcb929411e98484b5ffd259f4a371d
+SHA256: 2cc80a70e655b4c51cbefc5fa993013dfa56cceb088aad60bb68c0ecd47ca417
+SHA512: f9cfb8d59caa666811dde09acd908b19a77f13a4e5e46da279a93e2e69a91c7ae1160cb1adc3597f70a6da7fe5e3987061ac81782242f464ceb745a179f5c849
+Description: 在 iPhone 13 Pro+ 上强制使用全局 120Hz ProMotion。绕过80Hz系统上限，并在通过持久keepalive DisplayLink阻止调整注入的应用程序中保持120Hz。
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: doimty
+icon: https://huayuarc.github.io/icon/120hz.jpg
+
+Package: com.doimty.promotion
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.doimty.promotion_1.0.6_iphoneos-arm64e_b3485e05e75bbd483af201390fc2b245b84f7e024b2bdd2cebb5c77d71c6bf51.deb
+Size: 24788
+MD5sum: 8c9597a8c79b4fcf00879ec08099eedb
+SHA1: f36720296a866848efa7e0e047a32aae22696144
+SHA256: b3485e05e75bbd483af201390fc2b245b84f7e024b2bdd2cebb5c77d71c6bf51
+SHA512: 8ae7718a0a28b0e1166e55ad7061492c73d8bc5cb3f0cba573162ae8c34879789498ad4e9524879f4d67c1f92c88e22486516a958cd4eab03abbf2b5d93e0cbc
+Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: doimty
+icon: https://huayuarc.github.io/icon/120hz.jpg
+
+Package: com.doimty.promotion
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.doimty.promotion_1.0.7_iphoneos-arm64e_8aeac5aa5f3c91df9ce53b0ad965984e18164143bbacd05b3b7f15b438e69196.deb
+Size: 25476
+MD5sum: 64606f49ea12f5ae0b5adc74532c247c
+SHA1: 98187d50c00980d7544d05194b6f2272aaf2f59c
+SHA256: 8aeac5aa5f3c91df9ce53b0ad965984e18164143bbacd05b3b7f15b438e69196
+SHA512: 866d37241cec8e84090562e1905e828bcad0e5434f5d3aed59e68398ee7bc3c28fc059b41f25261921498f48022a469bb5f34f5b1c09e07f00fc420d3a3ffcf3
+Description: Force 120Hz ProMotion — Overrides the 80Hz system limit. Requires iPhone 13 Pro or later.强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: doimty
+icon: https://huayuarc.github.io/icon/120hz.jpg
+
+Package: com.doimty.promotion
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.doimty.promotion_1.0.8_iphoneos-arm64e_50f73d28842e382c36ba8609d8e4f2cffa34e8e9c82087f90f342b485c76336f.deb
+Size: 26064
+MD5sum: 8dc60ff7acde10cf811b7e9fbf19fb09
+SHA1: af70033f7c6f5ca787733a0f8f71c6adc28a9af4
+SHA256: 50f73d28842e382c36ba8609d8e4f2cffa34e8e9c82087f90f342b485c76336f
+SHA512: 7ecd92fad0c33c52d1f4c7f86482506374221a62926a149bb24fff7bb224c120b87505c8fd2aaea1b4f2bde41b70229283badc8f26e34eea5dfbac189c65eb64
+Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上 ProMotion 设备。
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: doimty
+icon: https://huayuarc.github.io/icon/120hz.jpg
+
+Package: com.dvntm.infuseplus
+Architecture: iphoneos-arm64
+Version: 2.6
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 972
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.dvntm.infuseplus_2.6_iphoneos-arm64_80d0a3d618426cf309a699c06253fb8a036438996ecd728333f3b27b20029d50.deb
+Size: 495744
+MD5sum: 3be022dcf5ae7c16acdec9a205d81667
+SHA1: 6e84ae073ff33513cfa0834009dd9cca776a30b3
+SHA256: 80d0a3d618426cf309a699c06253fb8a036438996ecd728333f3b27b20029d50
+SHA512: 2444696b3fa28c5c0a9d78061dfdcb890f1b0b51f1c591342f574dee00db29b74d2bdfe5f8c7eea0e488d762f9daf585280427713b1877d30aec1ae3f7a0f4a3
+Description: Enhancer for Infuse app
+Name: Infuse Plus
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+
+Package: com.dvntm.infuseplus
+Architecture: iphoneos-arm64e
+Version: 2.6
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 972
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.dvntm.infuseplus_2.6_iphoneos-arm64e_78f18b3b7a9cc86cc52cf4348d6bec16689019c7295f7077c7980bd0a70f0b51.deb
+Size: 495044
+MD5sum: a8844cd7c93dad8e17628a2fc2dee907
+SHA1: a01805f0a278987325ce8d941417ec27d9f5ecff
+SHA256: 78f18b3b7a9cc86cc52cf4348d6bec16689019c7295f7077c7980bd0a70f0b51
+SHA512: 31e5955ffd181ca975946cd6d9784bb6a92e3615ee819b02ceb508db5a9c8fa2b2f2f27653bfc5a597ee3b43b8396ae07982d6106c8a1ca20354e3abf011329a
+Description: Enhancer for Infuse app
+Name: Infuse Plus
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+
+Package: com.dvntm.lsnoswipe
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: debs/iphoneos-arm64/com.dvntm.lsnoswipe_0.0.1_iphoneos-arm64_952cf6919412438d837f8c29d146bfaeea9f14d456d0d22ce0dc757cdcccd64e.deb
+Size: 4136
+MD5sum: 72f4f7d00933bf8663f21c702604e3b5
+SHA1: f40701c61f9cae07a8ab8bbaf07d8572eb72eb8e
+SHA256: 952cf6919412438d837f8c29d146bfaeea9f14d456d0d22ce0dc757cdcccd64e
+SHA512: 50eea23c19a69aa2edbd3fb0db089129429cb835adf13675b9f5224a465c5d093f3bb1d8a90e7d6ae833ab7c48cc387cebe5e5eea6a18d9fad919c33ce761bd0
+Description: Disables swipe to open cam on the lock screen 禁用滑动以在锁定屏幕上打开摄像头
+Name: LSNoSwipe 锁屏禁用摄像头
+Author: dvntm
+icon: https://huayuarc.github.io/icon/lsnoswipe.jpg
+
+Package: com.dvntm.lsnoswipe
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: debs/iphoneos-arm64e/com.dvntm.lsnoswipe_0.0.1_iphoneos-arm64e_0bd2feb8407fd858e4c5a912aa78521cef4cc7b90627acdc1fac5d8cf65ec966.deb
+Size: 4032
+MD5sum: adefc0298461f29b809020c764752a63
+SHA1: 6e45e1113454f18bc282b20f38bfd78c20f01186
+SHA256: 0bd2feb8407fd858e4c5a912aa78521cef4cc7b90627acdc1fac5d8cf65ec966
+SHA512: 7cafa46a5f9a5debcaa600802ce07a0077fe2b91a513076873244b76ec7f313dfba17bd447aa5057a048da842e16b0a06f150f04447240bc66928aed9d36e730
+Description: Disables swipe to open cam on the lock screen 禁用滑动以在锁定屏幕上打开摄像头
+Name: LSNoSwipe 锁屏禁用摄像头
+Author: dvntm
+icon: https://huayuarc.github.io/icon/lsnoswipe.jpg
+
+Package: com.dvntm.oledkeyboard
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.dvntm.oledkeyboard_0.0.3_iphoneos-arm64_4c508596522cd8db6fa7fba4b7080c7f5191b72c8a13ede15872fad0b8634370.deb
+Size: 4772
+MD5sum: 551e1daae73f8880e93d4e18fa828b7b
+SHA1: bdde119c8b6c5790bfa2883a5bb18f8c86b2aae6
+SHA256: 4c508596522cd8db6fa7fba4b7080c7f5191b72c8a13ede15872fad0b8634370
+SHA512: 5416bad09102016b9c8170ecebe663cba5f00753b0cf98328823ddce1bba12b255f8f430631b94c5e4eb165e636bf533c418463c9a4460116caebd6de9075cc1
+Description: OLED Dark Mode for iOS System Keyboard 适用于iOS系统键盘的OLED黑暗模式
+Name: OledKeyboard
+Author: dvntm
+icon: https://huayuarc.github.io/icon/oledkeyboard.jpg
+
+Package: com.dvntm.oledkeyboard
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.dvntm.oledkeyboard_0.0.3_iphoneos-arm64e_b5e735cc1b6dac52011332e02623457fb72d87fe2d99ad335adda8a786ca15dd.deb
+Size: 4716
+MD5sum: c700f3b42b4344b1c72e414ebc468bc2
+SHA1: dfafc7c65c142c45364f3dd63d4c604511524e0e
+SHA256: b5e735cc1b6dac52011332e02623457fb72d87fe2d99ad335adda8a786ca15dd
+SHA512: b353c6b87f0729663dc0efc19cc30f3b08407fbf3280944b24ec6a797fa1b5abd983562a3663b9e6990e8312602f1c4ad5d5730d0b9801e40156ef75b220195b
+Description: OLED Dark Mode for iOS System Keyboard 适用于iOS系统键盘的OLED黑暗模式
+Name: OledKeyboard
+Author: dvntm
+icon: https://huayuarc.github.io/icon/oledkeyboard.jpg
+
+Package: com.dynamicx.tweak
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.dynamicx.tweak_1.3.2_iphoneos-arm64_1ee2527185296f2572504e2954dbd2c866b820000a2923908ea7f67f9d930bac.deb
+Size: 152184
+MD5sum: d56ae9dd0f065970918ac76c19facd5b
+SHA1: 10a1423bae9cf98f771705060f7a6dcf76a23d2d
+SHA256: 1ee2527185296f2572504e2954dbd2c866b820000a2923908ea7f67f9d930bac
+SHA512: ea08f1f6d0a6f0530fe9d27e5a9e9b9a1f5210f2ad7c67355e0f8813870004660489c37b6b8eb1a517051df7f135729db13a7227731f388d70d7c40b9cd2b050
+Description: 万物皆上岛
+Name: DynamicX
+Author: 半生年华
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+
+Package: com.dynamicx.tweak
+Architecture: iphoneos-arm64
+Version: 1.4.6
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 1604
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.dynamicx.tweak_1.4.6_iphoneos-arm64_8dba4ee7102d697b6e7098e8b18659e15d9cee9ba4e8f5f204b108e9263318ae.deb
+Size: 181792
+MD5sum: 30313d8472436414b0eca2b5d34f5cb0
+SHA1: 7c6ed6df3464e996b2ded41d7721fa80ba510360
+SHA256: 8dba4ee7102d697b6e7098e8b18659e15d9cee9ba4e8f5f204b108e9263318ae
+SHA512: a0470d88e91cf7659d41d4e6f4c69728ef84cde04168a3945b7931fc20c7348c8ef8ae01a020f7621f6cdcf20826c65a708294e6e5b1493a9f95d82847fa4dfa
+Description: 万物皆上岛
+Name: DynamicX
+Author: 半生年华
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+
+Package: com.dynamicx.tweak
+Architecture: iphoneos-arm64
+Version: 1.4.8
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 1628
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.dynamicx.tweak_1.4.8_iphoneos-arm64_7458e5b3be8d76bb3ac6bde88256b19c04894c445f9b48dbff8cc2b4a5d20dd7.deb
+Size: 185340
+MD5sum: 5a3b3661b94dd7fd6146eb86926f527d
+SHA1: 8cf208a6af16f13e5132b022fd6944260e15e475
+SHA256: 7458e5b3be8d76bb3ac6bde88256b19c04894c445f9b48dbff8cc2b4a5d20dd7
+SHA512: 973fc8487d07692fdc712e4e8743e139ac8d6ed6afc847d89d4a7fe0100b431d8233df6c90144926552fe98fcfb1f8753189ba0498e953ee2e0036b3d6d569ea
+Description: 万物皆上岛
+Name: DynamicX
+Author: 半生年华
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+
+Package: com.dynamicx.tweak
+Architecture: iphoneos-arm64e
+Version: 1.3.2
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.dynamicx.tweak_1.3.2_iphoneos-arm64e_39c8837266f4940ef83099e2a0bfb9b7232c6486578aa13319406b52d3881589.deb
+Size: 152160
+MD5sum: 8354871709c6cc03e8ad9695bd7da614
+SHA1: 986517aab247c60006ed2cd68ec89a927a267b19
+SHA256: 39c8837266f4940ef83099e2a0bfb9b7232c6486578aa13319406b52d3881589
+SHA512: 5c7ddb3562bf6e386835199da689fe6c0ae7b551ff36fffce2a736dd92c600664679e2ba3c54af82eedadd9881a49df46bba12c36a763b979c93d89ff4eeb8d4
+Description: 万物皆上岛
+Name: DynamicX
+Author: 半生年华
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+
+Package: com.dynamicx.tweak
+Architecture: iphoneos-arm64e
+Version: 1.4.6
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 1604
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.dynamicx.tweak_1.4.6_iphoneos-arm64e_942da6b4be443834f333ffd75435e3a1784edd9783c5c92f9a255a3bc12c89f7.deb
+Size: 174140
+MD5sum: d79ad789d998092409652edb09f9b78e
+SHA1: 89f30e51d52303129621dd4d87277f3acfcd356b
+SHA256: 942da6b4be443834f333ffd75435e3a1784edd9783c5c92f9a255a3bc12c89f7
+SHA512: d9314c0bc2add02c2195902fc362d841e4d24a1ccee05df4a23f12160320e46ba8cbcff61eb3b5204d681611bde1323f70288b7d720e3df6fb6c6a3030f3772e
+Description: 万物皆上岛
+Name: DynamicX
+Author: 半生年华
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+
+Package: com.dynamicx.tweak
+Architecture: iphoneos-arm64e
+Version: 1.4.8
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 1628
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.dynamicx.tweak_1.4.8_iphoneos-arm64e_f68cd954f76c787ec7a818584014a8b2a1c552ef2eed349fe8071254b50cbdee.deb
+Size: 177348
+MD5sum: a3597b75d7a63c9b3d3f867e288ac4d6
+SHA1: 45212e628333f6cbb9ebe69e029b43d59873018a
+SHA256: f68cd954f76c787ec7a818584014a8b2a1c552ef2eed349fe8071254b50cbdee
+SHA512: 4228dd65e343aa1b5f5f2f7c57aa4fd42aa68826ee0274f143d253daaf691a9b15912235cef21328cd75e9a4c2bbeb30bc70f76c680e05f72c4722cc47117ea3
+Description: 万物皆上岛
+Name: DynamicX
+Author: 半生年华
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+
+Package: com.eliassfeir.no2theftios15
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: elias
+Installed-Size: 2040
+Depends: ws.hbang.common
+Filename: debs/iphoneos-arm64/com.eliassfeir.no2theftios15_1.2_iphoneos-arm64_c06a86e6e58ce67dd011b835a5849cd25497ca033b29c011d56ace174f2acf73.deb
+Size: 1005892
+MD5sum: 899246ebfa7646f611c5d410ee5c3630
+SHA1: 3c5fd6455e001d79a9383dfdfa6fe9c46152f3ab
+SHA256: c06a86e6e58ce67dd011b835a5849cd25497ca033b29c011d56ace174f2acf73
+SHA512: bb30a09c1ce11f9d413096993e23d1f3879b0bd0e35ac2b60eca1fabb2f8ad96a383a4d71c6cd08ded98e4e9cc10c0618cc2850ca661d220ee8d70014d146485
+Description: The most complete tweak against pranksters, annoying nosy people and thieves No2Theft 是一款为保护手机而设计的插件，防盗插件。主要作用是在断开充电线或输错密码的时候，触发警报，拍照记录，可以根据预设发送手机位置信息等等。在一定程度上，可以保护 iPhone。
+Name: No2Theft
+Icon: https://huayuarc.github.io/icon/No2Theft.png
+Author: elias
+
+Package: com.eliassfeir.no2theftios16
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: elias
+Installed-Size: 2092
+Depends: ws.hbang.common
+Filename: debs/iphoneos-arm64/com.eliassfeir.no2theftios16_1.1_iphoneos-arm64_58f4d71a22d0c40978c8695c7d56a761f3ae580b4d4c75e43abd39195c48bb8e.deb
+Size: 1020620
+MD5sum: da1cb08f3021b5b700b88f761b9f52d8
+SHA1: 98b99d9788279575390922f8d3a6dd188a89a8c9
+SHA256: 58f4d71a22d0c40978c8695c7d56a761f3ae580b4d4c75e43abd39195c48bb8e
+SHA512: b2b27c476933fe1b74af4cbce6fb39d862a7f199b5af81978a4ab0a82a447c2caf7c6ee8a7fd51358b76d6f0bd40d8d1d4cc76f4877e8f964772d5d76c56c00e
+Description: The most complete tweak against pranksters, annoying nosy people and thieves No2Theft 是一款为保护手机而设计的插件，防盗插件。主要作用是在断开充电线或输错密码的时候，触发警报，拍照记录，可以根据预设发送手机位置信息等等。在一定程度上，可以保护 iPhone。
+Name: No2Theft iOS 16
+Icon: https://huayuarc.github.io/icon/No2Theft.png
+Author: elias
+
+Package: com.eliofeghali.souvenir
+Architecture: iphoneos-arm64
+Version: 1.14
+Section: Tweaks
+Maintainer: Elio Feghali
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.eliofeghali.souvenir_1.14_iphoneos-arm64_4c9d42b24cd13e614a2ccb4cbc6ff74eaa0381b7ed76c6f29035b76859afb29d.deb
+Size: 95736
+MD5sum: 2f1d1152f385dc3fbbcf5a5a867b0496
+SHA1: e8be71023c192863c6b77e5e0b3cef23a3f6e3fc
+SHA256: 4c9d42b24cd13e614a2ccb4cbc6ff74eaa0381b7ed76c6f29035b76859afb29d
+SHA512: a4de690bfeba40655a23c97feeb21f5c58c27ddfd9f58c129f139a7b469e45bc6c4907cc2e76c50816610704c1a836b96b1435bcb973ff6057a51de1b3df9124
+Description: Lockscreen customization tweak!
+Name: Souvenir
+Author: Elio Feghali
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.eliofeghali.souvenir
+Architecture: iphoneos-arm64e
+Version: 1.14
+Section: Tweaks
+Maintainer: Elio Feghali
+Installed-Size: 596
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.eliofeghali.souvenir_1.14_iphoneos-arm64e_967e9332eefbcacfefe435ac324265917380e3ad22323e9de9770c05e561ef95.deb
+Size: 92172
+MD5sum: aea7c67d5e7ce523f2f3e893871d03e4
+SHA1: a2ec9a78f650caf3a790e4cb3908ef2357c93bce
+SHA256: 967e9332eefbcacfefe435ac324265917380e3ad22323e9de9770c05e561ef95
+SHA512: 64a11ffb70d32da2bbe398aa1c549134453e501be158ea359aa4b0431c2931b7973b33e0ab7a51ec5cf97fafb6093950766a0d38932a901e3b1ee19fb1a9dda6
+Description: Lockscreen customization tweak!
+Name: Souvenir
+Author: Elio Feghali
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.eolnmsuk.antidarksword
+Architecture: iphoneos-arm64
+Version: 4.9.3
+Section: Tweaks
+Maintainer: EolnMsuk
+Installed-Size: 9148
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64/com.eolnmsuk.antidarksword_4.9.3_iphoneos-arm64_705594f622361635648dcaec84099fa7e86117d3b464532f2ab8b6fc8b333a42.deb
+Size: 7162724
+MD5sum: 1cef7a8b1a00d44ce95cfb57f547a75b
+SHA1: 80eabe1ee414093c338b4d26d62dbc12d9034f1c
+SHA256: 705594f622361635648dcaec84099fa7e86117d3b464532f2ab8b6fc8b333a42
+SHA512: b212a4834b548213b98d07b7fda510c3af3bac2a1128a44ebb2154faed4b2fcba62edc387eacb887c85c85b5a646b56a9a917cd69f1180ab44b88bfb162423c6
+Description: Security framework to defend against WebKit RCE and iMessage zero-click exploits like Coruna / DarkSword / BLASTPASS. 防御WebKit RCE和iMessage零点击漏洞的安全框架，如Coruna/DarkSword/BLASTPASS。
+Name: AntiDarkSword
+Author: EolnMsuk
+Icon: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/refs/heads/main/antidarkswordprefs/Resources/sicon.png
+SileoDepiction: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/main/depiction.json
+
+Package: com.eolnmsuk.antidarksword
+Architecture: iphoneos-arm64e
+Version: 4.9.3
+Section: Tweaks
+Maintainer: EolnMsuk
+Installed-Size: 9148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64e/com.eolnmsuk.antidarksword_4.9.3_iphoneos-arm64e_bf69e3df83feec3d2ee7f5cd2150f5bdf9e9f4ea09d1af527a56045661aa0c91.deb
+Size: 7159160
+MD5sum: f67f5335f3a7b6145c94790b93a7b006
+SHA1: a7682b25f91177c9d54ee17fca78a00d80f96f0f
+SHA256: bf69e3df83feec3d2ee7f5cd2150f5bdf9e9f4ea09d1af527a56045661aa0c91
+SHA512: f7e057f9aca80d39c46cf509aede99018392149fe181c0060c2bbf1c8c3813daf9f3b930ce16f5c676a4b76035fc365631d45af6ea032fa1d8cae4c4b824ac33
+Description: Security framework to defend against WebKit RCE and iMessage zero-click exploits like Coruna / DarkSword / BLASTPASS. 防御WebKit RCE和iMessage零点击漏洞的安全框架，如Coruna/DarkSword/BLASTPASS。
+Name: AntiDarkSword
+Author: EolnMsuk
+Icon: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/refs/heads/main/antidarkswordprefs/Resources/sicon.png
+SileoDepiction: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/main/depiction.json
+
+Package: com.ethanarbuckle.objsee-framework
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Development
+Maintainer: Ethan Arbuckle <ethan@objsee.io>
+Installed-Size: 4392
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.ethanarbuckle.objsee-framework_0.0.2_iphoneos-arm64_f4151824850e4fda93d896d0fa737465411b52e2e57c0db83b2fd58fc9dc74f4.deb
+Size: 612224
+MD5sum: 37d92cc7b255f49c07f32958656b5f45
+SHA1: b115dc6d4da6da2f78af968adfd1ddf10d003a0f
+SHA256: f4151824850e4fda93d896d0fa737465411b52e2e57c0db83b2fd58fc9dc74f4
+SHA512: 50e21156b4c25eeba820e33d911081567f416005805adc9227e272bec67166e92e5c0ab9c3429a3437b51ef3ec016aae30228e3692f1ce7e5ded6ddc9721f72e
+Description: objc_msgSend tracing framework (大飞修改版)
+  objsee - 运行时 ObjC 方法追踪工具
+  Hook all objc_msgSend calls in any app, trace every method invocation in real time.
+  .
+  原作者: Ethan Arbuckle | iOS 移植: Lessica | 修改适配: 大飞
+  .
+  用法示例 / Usage:
+    objsee --help                     查看全部选项
+    objsee -c "UIView" com.apple.springboard  按类名过滤
+    objsee -m "viewDidLoad" com.xxx.app       按方法名过滤
+    objsee -C "__NSCF*" com.xxx.app           排除系统类
+    objsee -T com.xxx.app              TUI 交互模式
+    objsee -A0 com.xxx.app             只显示调用链，不显示参数
+    objsee -A3 com.xxx.app             显示完整参数详情
+  .
+  功能特性:
+    - 无需注入 tweak，通过 task_for_pid 直接附加目标进程
+    - 支持类名/方法名 glob 通配符过滤，含排除模式 (-C)
+    - TUI 交互模式，支持上下翻页浏览
+    - 多级参数显示 (-A0 ~ -A3)
+    - 彩色输出 + 调用深度缩进，调用链一目了然
+    - 支持 arm64 / arm64e 设备
+  原项目: https://github.com/Lessica/objsee-ios
+Tag: role::developer
+Name: objsee
+Author: Ethan Arbuckle, Lessica, 大飞
+
+Package: com.ethanarbuckle.objsee-framework
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Development
+Maintainer: Ethan Arbuckle <ethan@objsee.io>
+Installed-Size: 4392
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.ethanarbuckle.objsee-framework_0.0.3_iphoneos-arm64_98bc1a46a7257d786397a42a39374f0db703bdc512c99735bbd7cd6b140629a3.deb
+Size: 612932
+MD5sum: 645bf7e89cb16876e7681d33f2951409
+SHA1: c6bd63ecf069adce2c8cfa3168efdc486d9c29c0
+SHA256: 98bc1a46a7257d786397a42a39374f0db703bdc512c99735bbd7cd6b140629a3
+SHA512: f10b30d08881548c0bc2b65b1c0d6c879a67ea39877f4812a27cdc868922591a94756ae43805fe238526541a0e7e687f2257dd690c321e9c91309e191e2c54e7
+Description: objc_msgSend tracing framework (大飞修改版)
+ objsee - 运行时 ObjC 方法追踪工具
+ Hook all objc_msgSend calls in any app, trace every method invocation in real time.
+ .
+ 原作者: Ethan Arbuckle | iOS 移植: Lessica | 修改适配: 大飞
+ .
+ 用法示例 / Usage:
+ objsee --help                     查看全部选项
+ objsee -c "UIView" com.apple.springboard  按类名过滤
+ objsee -m "viewDidLoad" com.xxx.app       按方法名过滤
+ objsee -C "__NSCF*" com.xxx.app           排除系统类
+ objsee -T com.xxx.app              TUI 交互模式
+ objsee -A0 com.xxx.app             只显示调用链，不显示参数
+ objsee -A3 com.xxx.app             显示完整参数详情
+ .
+ 功能特性:
+ - 无需注入 tweak，通过 task_for_pid 直接附加目标进程
+ - 支持类名/方法名 glob 通配符过滤，含排除模式 (-C)
+ - TUI 交互模式，支持上下翻页浏览
+ - 多级参数显示 (-A0 ~ -A3)
+ - 彩色输出 + 调用深度缩进，调用链一目了然
+ - 支持 arm64 / arm64e 设备
+ 原项目: https://github.com/Lessica/objsee-ios
+Tag: role::developer
+Name: objsee
+Author: Ethan Arbuckle, Lessica, 大飞
+
+Package: com.ethanarbuckle.objsee-framework
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Development
+Maintainer: Ethan Arbuckle <ethan@objsee.io>
+Installed-Size: 4392
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.ethanarbuckle.objsee-framework_0.0.2_iphoneos-arm64e_56779e68c32e69c2cbdf759331e54cadd070bc873a01009819e3c5e760a0e5cc.deb
+Size: 613124
+MD5sum: b93509e92644aebccb936f9ea9ccb252
+SHA1: 1004e6ee9addcefc03aef5bdd35ab8511045ba9d
+SHA256: 56779e68c32e69c2cbdf759331e54cadd070bc873a01009819e3c5e760a0e5cc
+SHA512: e9a4fbfe867f953d75e1230bf87f28ef461f59a44ae75a75782612fa8f4dbd45d4e36c90f62ae1f0f657dd3a5eb7ca1dcc1dc3b0a943c029fd9429b5eafc9d6e
+Description: objc_msgSend tracing framework (大飞修改版)
+  objsee - 运行时 ObjC 方法追踪工具
+  Hook all objc_msgSend calls in any app, trace every method invocation in real time.
+  .
+  原作者: Ethan Arbuckle | iOS 移植: Lessica | 修改适配: 大飞
+  .
+  用法示例 / Usage:
+    objsee --help                     查看全部选项
+    objsee -c "UIView" com.apple.springboard  按类名过滤
+    objsee -m "viewDidLoad" com.xxx.app       按方法名过滤
+    objsee -C "__NSCF*" com.xxx.app           排除系统类
+    objsee -T com.xxx.app              TUI 交互模式
+    objsee -A0 com.xxx.app             只显示调用链，不显示参数
+    objsee -A3 com.xxx.app             显示完整参数详情
+  .
+  功能特性:
+    - 无需注入 tweak，通过 task_for_pid 直接附加目标进程
+    - 支持类名/方法名 glob 通配符过滤，含排除模式 (-C)
+    - TUI 交互模式，支持上下翻页浏览
+    - 多级参数显示 (-A0 ~ -A3)
+    - 彩色输出 + 调用深度缩进，调用链一目了然
+    - 支持 arm64 / arm64e 设备
+  原项目: https://github.com/Lessica/objsee-ios
+Tag: role::developer
+Name: objsee
+Author: Ethan Arbuckle, Lessica, 大飞
+
+Package: com.ethanarbuckle.objsee-framework
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Development
+Maintainer: Ethan Arbuckle <ethan@objsee.io>
+Installed-Size: 4392
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.ethanarbuckle.objsee-framework_0.0.3_iphoneos-arm64e_0198d71742377d397cfba4a400d828b8fc24bd507ff04aac1b4edff17ff722b4.deb
+Size: 613076
+MD5sum: 9432f03ca1e0ff713e26c15e014c73da
+SHA1: 5a23f351480cae3daf619beb1559ad91367bff08
+SHA256: 0198d71742377d397cfba4a400d828b8fc24bd507ff04aac1b4edff17ff722b4
+SHA512: 07eee3304f7adc639c0f2edc69c344c43cc2847ec75fe5795f0ad320daaa15125bbb10dfc3bc8d5a93df1f3d4082beb3e230536e05266e04b932d931651bf62c
+Description: objc_msgSend tracing framework (大飞修改版)
+ objsee - 运行时 ObjC 方法追踪工具
+ Hook all objc_msgSend calls in any app, trace every method invocation in real time.
+ .
+ 原作者: Ethan Arbuckle | iOS 移植: Lessica | 修改适配: 大飞
+ .
+ 用法示例 / Usage:
+ objsee --help                     查看全部选项
+ objsee -c "UIView" com.apple.springboard  按类名过滤
+ objsee -m "viewDidLoad" com.xxx.app       按方法名过滤
+ objsee -C "__NSCF*" com.xxx.app           排除系统类
+ objsee -T com.xxx.app              TUI 交互模式
+ objsee -A0 com.xxx.app             只显示调用链，不显示参数
+ objsee -A3 com.xxx.app             显示完整参数详情
+ .
+ 功能特性:
+ - 无需注入 tweak，通过 task_for_pid 直接附加目标进程
+ - 支持类名/方法名 glob 通配符过滤，含排除模式 (-C)
+ - TUI 交互模式，支持上下翻页浏览
+ - 多级参数显示 (-A0 ~ -A3)
+ - 彩色输出 + 调用深度缩进，调用链一目了然
+ - 支持 arm64 / arm64e 设备
+ 原项目: https://github.com/Lessica/objsee-ios
+Tag: role::developer
+Name: objsee
+Author: Ethan Arbuckle, Lessica, 大飞
+
+Package: com.example.wifileasekeeper
+Architecture: iphoneos-arm64
+Version: 1.0.10
+Priority: optional
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 1060
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.example.wifileasekeeper_1.0.10_iphoneos-arm64_2427b75fb8253d058ebf1a0b84d924572f1354dfd0e6fdc8d713f6136386fbbf.deb
+Size: 304632
+MD5sum: 34f7a4769e9cbfaa08e25fc0be0e78b0
+SHA1: ed68cf884a7be746a390a60742ecfd8ae5bfc18a
+SHA256: 2427b75fb8253d058ebf1a0b84d924572f1354dfd0e6fdc8d713f6136386fbbf
+SHA512: 8b529cbce8a58ac22e1a461db9885e641eed5965c876e7f75fe2668bcd163a31f1a90fa6e7aa9ebffbf748002b5edee35a6c0bb70110e7081705aa16ed01089a
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Name: wifi 锁屏不断连
+Author: colorblack
+icon: https://huayuarc.github.io/icon/wifi.jpg
+
+Package: com.example.wifileasekeeper
+Architecture: iphoneos-arm64
+Version: 1.0.11
+Priority: optional
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 1060
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.example.wifileasekeeper_1.0.11_iphoneos-arm64_c3aa3eff3db2bf9c61ade7a21f26c27487b3b353f75a6aeec784a7a8e01abe1d.deb
+Size: 304764
+MD5sum: d78f4837cd693b04dbf3b45255d212d6
+SHA1: 440b9883f15d14f0cf57d686b3dfe5d40bdf2196
+SHA256: c3aa3eff3db2bf9c61ade7a21f26c27487b3b353f75a6aeec784a7a8e01abe1d
+SHA512: b171ad6c3d0a61f402b9e32eea7bc9a11ac9dd30406b92f475d81276927eeb2c681a42eae40bc11e5f38c7d2569a340c56820cb8a509fa87a788cb5107cacb88
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Name: wifi 锁屏不断连
+Author: colorblack
+icon: https://huayuarc.github.io/icon/wifi.jpg
+
+Package: com.example.wifileasekeeper
+Architecture: iphoneos-arm64e
+Version: 1.0.10
+Priority: optional
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 1060
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.example.wifileasekeeper_1.0.10_iphoneos-arm64e_7ee048ac1e001e5f86cd49d42e5a0a8d754e689a33d171995bde795aba6c80bd.deb
+Size: 303348
+MD5sum: f7622ec8f68ae968e9df26936db487a8
+SHA1: 45fbe12bef73ec80154e2ed302ff7dcf70b1c038
+SHA256: 7ee048ac1e001e5f86cd49d42e5a0a8d754e689a33d171995bde795aba6c80bd
+SHA512: 60548350d87889a70321e7155ec2c3d90a9044d45bfd4e18546c5fa5a46751db6111a19d4ef8a497a57cc3a4fb40b74e742c594c50534beea76d34ea68847594
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Name: wifi 锁屏不断连
+Author: colorblack
+icon: https://huayuarc.github.io/icon/wifi.jpg
+
+Package: com.example.wifileasekeeper
+Architecture: iphoneos-arm64e
+Version: 1.0.11
+Priority: optional
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 1060
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.example.wifileasekeeper_1.0.11_iphoneos-arm64e_5e5664e3cb5c0e5bd86e3a855ca537f5ee60dfadf00ff7f4b9c2225e4f740de3.deb
+Size: 303340
+MD5sum: a4842942c44076f1c1fe1eaafba56299
+SHA1: c115d9dc4bfa6a352fb1fce214d9ea56cebb63e1
+SHA256: 5e5664e3cb5c0e5bd86e3a855ca537f5ee60dfadf00ff7f4b9c2225e4f740de3
+SHA512: 767920b7168b07f72effc2737ca51f8cdad6b35b634355541bd1bcc46daaa8afb86e19a6d463b5d83d795c63a2936cbd19fa19976354ea22bafd3440bc336848
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Name: wifi 锁屏不断连
+Author: colorblack
+icon: https://huayuarc.github.io/icon/wifi.jpg
+
+Package: com.example.wifileasekeeper
+Architecture: iphoneos-arm64e
+Version: 1.0.12
+Priority: optional
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 1088
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.example.wifileasekeeper_1.0.12_iphoneos-arm64e_31720db751dcc74ac29a3c6e6d81eee9d9f44d6a1e4313958d902e202abf6eeb.deb
+Size: 310576
+MD5sum: 2e0da20cd95f763d4915c4a9b9a85525
+SHA1: 70f75c6e721e63da30dd9d4786559541290d2fb9
+SHA256: 31720db751dcc74ac29a3c6e6d81eee9d9f44d6a1e4313958d902e202abf6eeb
+SHA512: 8c97dd4403f578b045fc0c5b649982901d534c6a4cf481591b408e5a35c460c4dec2f75046c4b9f4038e5b994b11659986f6c1779cafdd59307af26bd9dcfb27
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Name: wifi 锁屏不断连
+Author: colorblack
+icon: https://huayuarc.github.io/icon/wifi.jpg
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
