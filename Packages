@@ -2634,6 +2634,41 @@ Name: 黄白助手(微信插件)
 Author: HuangBai <QQ:1343309363@qq.com>
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
 
+Package: com.HBWechatHelper.ailun
+Architecture: iphoneos-arm64
+Version: 2.1.7
+Section: Tweaks
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.HBWechatHelper.ailun_2.1.7_iphoneos-arm64_8fff9a87d9284301e35d1ce9583e274318ad7a3758649897b4ee75d2c8ac6738.deb
+Size: 5799544
+MD5sum: 425834119edb13f7da9d53fca9525482
+SHA1: 9244445729138ee04892dfb51a62d26a92f82b1b
+SHA256: 8fff9a87d9284301e35d1ce9583e274318ad7a3758649897b4ee75d2c8ac6738
+SHA512: 234752bce411099b3e7303d0382345c9d84628f32b56767a28cc163d75a6ffa42513eab764d91423302699f142b8f77eae570f3df0fc490babe52fa00ec2530f
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Name: 黄白助手(微信插件)
+Author: HuangBai <QQ:1343309363@qq.com>
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.HBWechatHelper.ailun
+Architecture: iphoneos-arm64e
+Version: 2.1.7
+Section: Tweaks
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.HBWechatHelper.ailun_2.1.7_iphoneos-arm64e_4a6bd2d912633c83ba54fa8386dd0d5aecab0ad85b36ab33dba2a9a5c6cd31fc.deb
+Size: 5802508
+MD5sum: 34a94036f1bc78dca0314586b6c03d75
+SHA1: 941dfbb83250c3dc1fa4ca3bc06136457beaeafb
+SHA256: 4a6bd2d912633c83ba54fa8386dd0d5aecab0ad85b36ab33dba2a9a5c6cd31fc
+SHA512: 967287b56876af5abdac93e685d5feaa5bf7f44e1aef96687ad130aa799a7b21fbd3ba40630899f1819700bf68cc0a5dd505eb164b74870133ba5e138fbcecd5
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Name: 黄白助手(微信插件)
+Author: HuangBai <QQ:1343309363@qq.com>
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
 Package: com.Mr.Zhang.lookinloader
 Architecture: iphoneos-arm64
 Version: 1.2.8-2
@@ -4579,6 +4614,24 @@ Author: 热心网友CallAssist
 icon: https://huayuarc.github.io/icon/iPhoneDuoStatus.png
 
 Package: com.charlieleung.liquidify
+Architecture: iphoneos-arm64
+Version: 1.3.7-4
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 40597
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.charlieleung.liquidify_1.3.7-4_iphoneos-arm64_3cf748fa3bcb44d5dc700f62a266d07bcae08b867d193169a5a544af8081d8a9.deb
+Size: 10722016
+MD5sum: b36eb008f26dc754f08b2b1ceb887a83
+SHA1: 8cc3081e1987cc7d15ed4191672f46f7c4eafbe4
+SHA256: 3cf748fa3bcb44d5dc700f62a266d07bcae08b867d193169a5a544af8081d8a9
+SHA512: 2f47bda7a56f4cac9f8c135cb015719cda301a89adc0723102970757dbf13fdfb485527e07ac9dd20514eccac3aaf5f2cb71813d9d7cfd6d9034f3215c1e7f3f
+Description: 88液态玻璃
+Name: 88液态玻璃
+Author: 一刀
+icon: https://huayuarc.github.io/icon/LiquidAss.png
+
+Package: com.charlieleung.liquidify
 Architecture: iphoneos-arm64e
 Version: 1.3.5
 Section: Tweaks
@@ -4595,6 +4648,25 @@ Description: 为 iOS 界面注入液态玻璃质感。
 Name: Liquidify 88 元 液态玻璃
 Author: Charlie Leung
 icon: https://huayuarc.github.io/icon/Liquidify.png
+
+Package: com.charlieleung.liquidify
+Architecture: iphoneos-arm64e
+Version: 1.3.7-4
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 40967
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.charlieleung.liquidify_1.3.7-4_iphoneos-arm64e_f0605c6650afd8a6e8b3c75484c7bb79422289cf055b2c59a5a4ff14740fd7ba.deb
+Size: 10538308
+MD5sum: 923c9e563317f50f10939e425962b9f8
+SHA1: 5238b97fe760f509d69d82d74ff01adabea8a019
+SHA256: f0605c6650afd8a6e8b3c75484c7bb79422289cf055b2c59a5a4ff14740fd7ba
+SHA512: f726ba20fc41eed7909a78cc0fd55a63041c4d1e0ad9e011c48664b6635494dde861873fb5d417454edef361e2d378c88640b3bf3559c8034c2c7c35109b622c
+Description: 88液态玻璃
+Name: 88液态玻璃
+Author: 一刀
+icon: https://huayuarc.github.io/icon/LiquidAss.png
 
 Package: com.charlieleung.snapvision
 Architecture: iphoneos-arm64e
@@ -6059,6 +6131,24 @@ Author: crctdd
 icon: https://huayuarc.github.io/icon/xc.jpg
 
 Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.mobileslideshowhook_0.0.5_iphoneos-arm64_adda645d10c71b1b4fe8947a99ee9f3717e888c76e075ed14cf8f7206a2d28bc.deb
+Size: 32084
+MD5sum: 41b4b85f13b65feb687b6d42330c609c
+SHA1: 0d50bb25ae153d9fb5f304006eac6e684bc017d6
+SHA256: adda645d10c71b1b4fe8947a99ee9f3717e888c76e075ed14cf8f7206a2d28bc
+SHA512: 32af8f9139bceaef161a563ad74e558ec7b64396d796dd6dee3e89c9e4adc7bfd216646a1e3adce1868b03413457c117679263ae5b455f3b7b2816a3826f93bb
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Name: 系统相册视频进度条
+Author: crctdd
+icon: https://huayuarc.github.io/icon/xc.jpg
+
+Package: com.crctdd.mobileslideshowhook
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -6112,6 +6202,24 @@ Name: 系统相册视频进度条
 Author: crctdd
 icon: https://huayuarc.github.io/icon/xc.jpg
 
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.mobileslideshowhook_0.0.5_iphoneos-arm64e_fb13fd11b6ecb23263969a382afc53807166ffa8491a9003626b5537af3b4ebc.deb
+Size: 31984
+MD5sum: 9f395501d03a6cb6e1ad3548c24463b9
+SHA1: a09760ddd3e645ce2ef0b3db3e7fde5d95c0ccf3
+SHA256: fb13fd11b6ecb23263969a382afc53807166ffa8491a9003626b5537af3b4ebc
+SHA512: 0d1f3715d191831994781ad6e2d0d72479e1a0a4aab970d78891877a3a5ecb1ea06969d7c905260c8233bc3fb43629654cb06a2f473b645e8021aac55ed0bf1d
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Name: 系统相册视频进度条
+Author: crctdd
+icon: https://huayuarc.github.io/icon/xc.jpg
+
 Package: com.crctdd.shorbar
 Architecture: iphoneos-arm64
 Version: 0.0.7
@@ -6131,6 +6239,24 @@ Author: crctdd
 icon: https://huayuarc.github.io/icon/ShortBar.png
 
 Package: com.crctdd.shorbar
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.crctdd.shorbar_1.0.0_iphoneos-arm64_20d1a4158e58b2839eaba31b2e2cfc97a68415f7ff07d222b7257a46ea342198.deb
+Size: 60132
+MD5sum: 99294ce186e40a93dcd75ee954dca0f9
+SHA1: d722d4cd82f9aa64deabb3ce8093fdce896e865c
+SHA256: 20d1a4158e58b2839eaba31b2e2cfc97a68415f7ff07d222b7257a46ea342198
+SHA512: 3c291cca6b60b4350c20b637589619346cdb07035c21bb9b76faec7ffff0256e895d6c644c376f04cdc737a3476418a1eb0a53016432cb78e1dd97c30b31e453
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Name: ShortBar
+Author: crctdd
+icon: https://huayuarc.github.io/icon/shorbar.png
+
+Package: com.crctdd.shorbar
 Architecture: iphoneos-arm64e
 Version: 0.0.7
 Section: Tweaks
@@ -6147,6 +6273,24 @@ Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
 Name: ShortBar
 Author: crctdd
 icon: https://huayuarc.github.io/icon/ShortBar.png
+
+Package: com.crctdd.shorbar
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.crctdd.shorbar_1.0.0_iphoneos-arm64e_008e58e4ee1c7c7d1ac7d570e0b242bfc57abefc7a5d187f4bb22961d6025ec1.deb
+Size: 60020
+MD5sum: 66abcb411d656687a2f62e9e8d9db35b
+SHA1: 5de46b8fc92b1b6ea12459de585605c8d00cd5db
+SHA256: 008e58e4ee1c7c7d1ac7d570e0b242bfc57abefc7a5d187f4bb22961d6025ec1
+SHA512: 1e867f07493ef98d97aad2264e96169ade732e8b35356e036e4d8b77868210aafeaaaa74a51aad59b1c3e25ff3be89f34527d623cec92d16e12d9299e1b6e05e
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Name: ShortBar
+Author: crctdd
+icon: https://huayuarc.github.io/icon/shorbar.png
 
 Package: com.crctdd.stayalivelite
 Architecture: iphoneos-arm64
@@ -6269,6 +6413,60 @@ MD5sum: 51b36bc14b3de6af62c581fe96cf150a
 SHA1: bbb3cb67c6e87b40a9a697e9426a86854797a6fb
 SHA256: 0acedb164f4dce39a0a28285c908abc7c11488897f6145a73d0b650453421ba0
 SHA512: 7d63dfec01ec044574a3ce3ebe850c14c1f75813c5fff899d86a58c710c258f70d5a3a0b4424ea35432c6f01c50923767528fc8e817a23782d892c7cfba882d8
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1408
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.3.0_iphoneos-arm64_b3beba1372e564668fd354583287f966cc8014c6dcfec5681bd157d7c3178cc3.deb
+Size: 155088
+MD5sum: a1ee0bd8259dbeafb4094f7d430d94a1
+SHA1: 8270c6e358801e99ef5f6b118da7d3193b698947
+SHA256: b3beba1372e564668fd354583287f966cc8014c6dcfec5681bd157d7c3178cc3
+SHA512: 6a6e4528ebc17a607773805a061e615fa5c918701797689847314dd56c7463d070a0c6d3913e1ead427ead8c716d1578e1c4b916b2e4d875639373820e837bc0
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.3.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1408
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.3.2_iphoneos-arm64_29d5fb7210d4677db46f971fd5e236881a47a7fa28a1f846afe5f6de8091bb2a.deb
+Size: 157956
+MD5sum: acd3bac95021a9cc5601da899c4c76b3
+SHA1: 0b07b00e83b1c60363b9658afbff280412aefb55
+SHA256: 29d5fb7210d4677db46f971fd5e236881a47a7fa28a1f846afe5f6de8091bb2a
+SHA512: ccfd6e38af6616a79a9dca9cde5d2b320bb703bebefcd67f5c95af28d6ee393627880015f71a2fe4e249a0b997f50bb3d5ba095699a8f0e46b5e4092bddc7dc7
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.3.6
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1688
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.3.6_iphoneos-arm64_0825240cff873316cfe7fe2b0a444d8b854910df2db9b80dd366070f87cb9929.deb
+Size: 179748
+MD5sum: 6bcb5c03f5720ffe444abdb930e528b5
+SHA1: 7333edadb5ac90ebba52691ec56773b4f874be06
+SHA256: 0825240cff873316cfe7fe2b0a444d8b854910df2db9b80dd366070f87cb9929
+SHA512: 13cc914ff7450370bf29bb03d5d94244af3371d81f5fc83ec8e5eb8b6db12d886982bdfa908d032a77b38538cb99ce7b5324a2c89b9c53a7c76950cc49141735
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Name: StayAlive Lite
 Author: crctdd
@@ -6400,6 +6598,60 @@ Name: StayAlive Lite
 Author: crctdd
 icon: https://huayuarc.github.io/icon/StayAliveLite.png
 
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.3.0
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 692
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.3.0_iphoneos-arm64e_507b1878a287bd62aa4a71884c1b37b2f46639b37f1072ae06ad290fa9eb400f.deb
+Size: 108716
+MD5sum: 0bc5d24b35931fe3bacecb8fb37024b6
+SHA1: 473d4cfc0362f41d7c149d455beee54a2787fa03
+SHA256: 507b1878a287bd62aa4a71884c1b37b2f46639b37f1072ae06ad290fa9eb400f
+SHA512: cf43b45496053c4d4d83bad66d1e04c50f0056cc37c1d597c7f3cbf3040d66407abe69576d589b7abe20402b79ac8fd7b00c2078dbeb86fb41c7fc2253466902
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.3.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 692
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.3.2_iphoneos-arm64e_0db1670edf9e4cafa54188525124a9773c2f205a8224235dbaab5ef7822b1a72.deb
+Size: 110648
+MD5sum: ad90ed24678659506d064e60d384e791
+SHA1: 5bb40910938967d2a4d24ae1e7439e6d85d67d70
+SHA256: 0db1670edf9e4cafa54188525124a9773c2f205a8224235dbaab5ef7822b1a72
+SHA512: 99cc914ed588d84839f09a0e3e40fa6ede91a351545d96aa15ecb2d2e281fa07d1ef0a325fc9a808c4dad15e4157e34120ec912be52050d4a383650bddbed08a
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.3.6
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 840
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.3.6_iphoneos-arm64e_6753fd3862bc5db80530ee3210567c9289b445515f7da78bfd0b9bb27068ce08.deb
+Size: 122952
+MD5sum: 49aefce15768deec86f5bbadfaa8c34d
+SHA1: 021248b07dca2b7de42136daaae3f6341ac79227
+SHA256: 6753fd3862bc5db80530ee3210567c9289b445515f7da78bfd0b9bb27068ce08
+SHA512: bd71043b30000745e4814f9f973bb9de197c30c538f14a409589df3b27c0949345dbf99fb53c65e1912d974ba2701cc69ea01223b969355abe791c9993e06de5
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
 Package: com.crctdd.surgectl
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -6437,6 +6689,42 @@ Description: 终端切换Surge流量模式并附带控制中心组件。终端�
 Name: SurgeCTL
 Author: RrrankkK
 Icon: https://huayuarc.github.io/icon/surgectl.png
+
+Package: com.crctdd.taplink
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.crctdd.taplink_0.0.6_iphoneos-arm64_463a85e55b202828e092c6d355fb92f941dda2f35ae0cfd7392cd3d4ef421f67.deb
+Size: 146540
+MD5sum: 049c3d9a1d45f48e0fafb12d5f514534
+SHA1: 0ae84530be64626ee5172ed1ab0735f6f7f029fb
+SHA256: 463a85e55b202828e092c6d355fb92f941dda2f35ae0cfd7392cd3d4ef421f67
+SHA512: 7c58c88ec5817c9edc260f14a799cdb3323d9b3397a3fc3ca7ffc9b6a32ef9f5aedbb36c00fe751b502f39d47bf4085e30ae96ad7a3361950f8de0d3d17e56a4
+Description: 通过悬浮触发点，将点击映射到指定位置，内置多种触发结果。(支持iOS 15-17)
+Name: TapLink
+Author: crctdd
+icon: https://huayuarc.github.io/icon/taplink.png
+
+Package: com.crctdd.taplink
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.crctdd.taplink_0.0.6_iphoneos-arm64e_d66814370ebed0dbe10369a67f307a6ff082b845c98856d0a14a3b67bb911ce2.deb
+Size: 147084
+MD5sum: e0e7f97e0d92793937a1ab1dcc044a6b
+SHA1: 0d5e3052c2e54046230a2bb1dcb97e91506e7cca
+SHA256: d66814370ebed0dbe10369a67f307a6ff082b845c98856d0a14a3b67bb911ce2
+SHA512: 46e48d43f5a0198b2b8dc60bf7119c1d34550d4b078fd57efb49cdf7e7d455257581631a1aa3e97f5a621a74a4c309a1f51e590a63d11536f90f95ca0b5af626
+Description: 通过悬浮触发点，将点击映射到指定位置，内置多种触发结果。(支持iOS 15-17)
+Name: TapLink
+Author: crctdd
+icon: https://huayuarc.github.io/icon/taplink.png
 
 Package: com.creaturecoding.libcspreferences
 Architecture: iphoneos-arm64
@@ -7172,6 +7460,45 @@ Name: GoodWiFi
 Author: julioverne & 妖刀
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/goodwifi/js.json
 icon: https://huayuarc.github.io/icon/goodwifi.png
+
+Package: com.dcsyhi.airaw
+Architecture: iphoneos-arm64
+Version: 1.6.7
+Section: Tweaks
+Maintainer: Dcsyhi
+Installed-Size: 13502
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.dcsyhi.airaw_1.6.7_iphoneos-arm64_78cdd164e7d2e1c0db73462dd0f2e44c8e79514b3d194d0ad1a948f5b415a8b9.deb
+Size: 10357836
+MD5sum: f6469e7dd4af71a06d69ae6473c8bf42
+SHA1: b07b90f0e800a8db31fb717d56d38abaec3ba7ab
+SHA256: 78cdd164e7d2e1c0db73462dd0f2e44c8e79514b3d194d0ad1a948f5b415a8b9
+SHA512: 11dd0b7eca6be4842aae4e7a5b3a34aa94136dcc9090094e1145119b5d40b43f03a4f92b137bd1fad914ba5efac4a8f385db1d9b18df6096c3709273148ef593
+Description: 一款Carplay拓展插件，可以改壁纸，让不是全屏显示的软件变成全屏，配合carbrige插件使用，改图标个数比例，有汽车的人会用的到，原价4美元，小组件好像不行！大家可以下载体验一下这个功能菜单，有经济能力的购买正版，支持作者！
+Name: Airaw（CarPlay）
+Author: Dcsyhi
+Sponsor: Dcsyhi
+icon: https://huayuarc.github.io/icon/airaw.png
+
+Package: com.dcsyhi.airaw
+Architecture: iphoneos-arm64e
+Version: 1.6.7
+Section: Tweaks
+Maintainer: Dcsyhi
+Installed-Size: 13502
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.dcsyhi.airaw_1.6.7_iphoneos-arm64e_ee2ed960988cde0651d87a26469bbf6119d75eba0627c31282237dd6289bdf27.deb
+Size: 10348684
+MD5sum: 5f8806c61322f6b95c4d3593187d5f48
+SHA1: e1ac57697052089f3fb6a08b9837c4a568592153
+SHA256: ee2ed960988cde0651d87a26469bbf6119d75eba0627c31282237dd6289bdf27
+SHA512: f0721d17e7fd578f5a24167b431cf3400fec206623f86b6c58ed8cc7045ffb824858a68267d6f4f06f51ffd14c45b7f66392d92ac30cc430610115caebc95721
+Description: 一款Carplay拓展插件，可以改壁纸，让不是全屏显示的软件变成全屏，配合carbrige插件使用，改图标个数比例，有汽车的人会用的到，原价4美元，小组件好像不行！大家可以下载体验一下这个功能菜单，有经济能力的购买正版，支持作者！
+Name: Airaw（CarPlay）
+Author: Dcsyhi
+Sponsor: Dcsyhi
+icon: https://huayuarc.github.io/icon/airaw.png
 
 Package: com.dgr.fipad
 Architecture: iphoneos-arm64
@@ -10035,6 +10362,52 @@ Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
 Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64
+Version: 1.6.2-303
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 2320
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.cputhermal_1.6.2-303_iphoneos-arm64_671f4ca436f696241ce7c8082ae4fc7d2a4979cb4e209f258c7ad32f9738e61b.deb
+Size: 273236
+MD5sum: cb24c111ce1216f93ecd62ce938c20c8
+SHA1: 11d83758c35e532b85f9b123908494e1e66730a2
+SHA256: 671f4ca436f696241ce7c8082ae4fc7d2a4979cb4e209f258c7ad32f9738e61b
+SHA512: cf0aace34538c08d4435aae9d8ddeb13f5da5f623c95b1281b995e9ea9681f3ac4d37eaa74c8b10348df09e4554ee951147563a0ce07886f932e8ea6e7314b15
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Name: CPU智能温控
+Author: Huayuarc
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64
+Version: 1.6.2-306
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 2340
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.cputhermal_1.6.2-306_iphoneos-arm64_f54829caf3145480d8a210a1b37fb0ad6714896b352d8b0bb7285acc79b39115.deb
+Size: 276256
+MD5sum: f2d40f4c995cc007e3560540b8227729
+SHA1: d564f7d942910c5e568b6e08e753c4e8fd44b964
+SHA256: f54829caf3145480d8a210a1b37fb0ad6714896b352d8b0bb7285acc79b39115
+SHA512: d7a2d173a586c349b8ad5ee6e966612454f686ffd681be4c3e554d22b30f639f741f287ff3c7c6be1c3ef586c35682f482db0e1d95acd0678c335c1f8b70fbab
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Name: CPU智能温控
+Author: Huayuarc
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
 Architecture: iphoneos-arm64e
 Version: 1.6.2-242
 Section: Tweaks
@@ -10145,6 +10518,1485 @@ Name: CPU智能温控
 Author: Huayuarc
 Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-306
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 2340
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.cputhermal_1.6.2-306_iphoneos-arm64e_86204501854f85a5f9e3e061ed9028c1a79ac727398c2be0815b930623c282df.deb
+Size: 283056
+MD5sum: 7d141cf3096666fd5c6fd2d3f3e848b6
+SHA1: 6debe052a1a11bbbd19b47625dec38ec3bb728ef
+SHA256: 86204501854f85a5f9e3e061ed9028c1a79ac727398c2be0815b930623c282df
+SHA512: 0b751445e2be16e7ffd148c35d433ed1219341f3e51fb6b47ff296bb0bc6fe2126c2801f6bd750b6a149eb200aa2325da0e37afdfeebfeef763f93217f058b87
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Name: CPU智能温控
+Author: Huayuarc
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.facedownlock
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 384
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.facedownlock_1.0.0_iphoneos-arm64_9e9734ad97014fbe51e7b0228e2fa54465ed9ac36d584b6ba32a64f71375c960.deb
+Size: 31844
+MD5sum: 17e3499f5b4b48afa39ea07d3ac224d7
+SHA1: e4581888cb7150aa127aa96c706fb6eabfd3a3fa
+SHA256: 9e9734ad97014fbe51e7b0228e2fa54465ed9ac36d584b6ba32a64f71375c960
+SHA512: 233ae032e576c4a0a673a017176fa753ee93b8808868f4d27be74b784425aba6ed58fffb0f05733303446bc944f6bff9a7d50e77c36a205ff364b5a546cea747
+Description: 设备屏幕朝下或进入口袋态时，自动模拟按下锁屏键。独立提取自 CPUthermal 1.6.2-44，仅注入 SpringBoard，支持设置面板实时开关。
+Name: 设备朝下自动锁屏
+Author: Huayuarc
+icon: https://huayuarc.github.io/icon/facedownlock.jpg
+
+Package: com.huayuarc.facedownlock
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 384
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.facedownlock_1.0.0_iphoneos-arm64e_0ab6e9a5e75fd057b10ccd58658442410b14389908951a8fb69e1405ebaf572f.deb
+Size: 31280
+MD5sum: ae35a5bb81349ef47cb4d32319d9a773
+SHA1: 2159248a83f15ad9c6676e3b9d2498874272561a
+SHA256: 0ab6e9a5e75fd057b10ccd58658442410b14389908951a8fb69e1405ebaf572f
+SHA512: ea1f20f5e7779e23f961bdc6fec229fc9f619aefb78bcac9c03f4ae0add80e6e5329f0fd235c87d97be67d965a341c229ac8a00e513243416e6ce89ebf4d32dc
+Description: 设备屏幕朝下或进入口袋态时，自动模拟按下锁屏键。独立提取自 CPUthermal 1.6.2-44，仅注入 SpringBoard，支持设置面板实时开关。
+Name: 设备朝下自动锁屏
+Author: Huayuarc
+icon: https://huayuarc.github.io/icon/facedownlock.jpg
+
+Package: com.huayuarc.flashclockpro
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.huayuarc.flashclockpro_0.0.1_iphoneos-arm64_4c4271e63c4fe8d9e3005cc69b66a156ac9a1d488fb6cd6eb0751825d143f625.deb
+Size: 8258
+MD5sum: 2626dc422f5ade6d66ab88349dc97b06
+SHA1: 2c11c947a82864871b1032fd35f95bd53936df7e
+SHA256: 4c4271e63c4fe8d9e3005cc69b66a156ac9a1d488fb6cd6eb0751825d143f625
+SHA512: 673916b9f9bc8ad85d6770b081685abe34d9e50c640cbf5fbdc9595f7620b7207393c64ae9773e3f4d0321098a1f55f49ad505fd00ffd04fdce87cb00700b625
+Description: 解锁会员权限
+Name: 悬浮时间 Pro
+Author: Huayuarc
+icon: https://huayuarc.github.io/icon/flashclockpro.jpg
+
+Package: com.huayuarc.flashclockpro
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.huayuarc.flashclockpro_0.0.1_iphoneos-arm64e_26d547a2b84efb5c737f600975eca7a6dbe5bd72e71c0bade330b8f53bcea0d3.deb
+Size: 5312
+MD5sum: 19f608c088239dbe90a201fed6647eea
+SHA1: da4720f6340cb33ef2233c7787dd7dc78d4b8ced
+SHA256: 26d547a2b84efb5c737f600975eca7a6dbe5bd72e71c0bade330b8f53bcea0d3
+SHA512: 5e93b85632fb18a43ef584ef4c78426444d06918c2139526c856e58a095476d515417a0e11a97fe6edb0044783723175de5e63e6e35cbeb1e3b03fdfced93013
+Description: 解锁会员权限
+Name: 悬浮时间 Pro
+Author: Huayuarc
+icon: https://huayuarc.github.io/icon/flashclockpro.jpg
+
+Package: com.huayuarc.floating-view
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: Huayuarc
+Depends: sudo
+Filename: debs/iphoneos-arm64/com.huayuarc.floating-view_1.0_iphoneos-arm64_d482f247dc2209c578725b4f88f202c77404c1abe275dc21adbf3ef7f609cc38.deb
+Size: 3808
+MD5sum: b3dab9c99bf5583954889d6ece72dc46
+SHA1: 8a47fe2299fdaed76496cd7b66687b803a2044b7
+SHA256: d482f247dc2209c578725b4f88f202c77404c1abe275dc21adbf3ef7f609cc38
+SHA512: 1ad3734e9b431d01737304237f7d22ec7f678bf161edaf2225c85bb8b8dadc802fe335ade5e3ea8a1605046511c514f8e343ac5e7f6cc81cca0a9b143819cd72
+Description: Floating-view 插件配置，所有的配置文件下载后均在/var/mobile/Documents目录下。
+Name: Floating-view
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/Floating-View.jpg
+
+Package: com.huayuarc.floating-view
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Huayuarc
+Depends: sudo
+Filename: debs/iphoneos-arm64e/com.huayuarc.floating-view_1.0_iphoneos-arm64e_5c66a64963bbc1fcde29e38d16b60f690bba4987da792d60bc599e0512543f58.deb
+Size: 3816
+MD5sum: 083eed459a944f81d8edb9f2f7ca2a61
+SHA1: 7fb26fc12c451e97b2193fea305c847e5b5b3e79
+SHA256: 5c66a64963bbc1fcde29e38d16b60f690bba4987da792d60bc599e0512543f58
+SHA512: 7cfbfb08adbef5e5fc75335ba05c4124ad15fceb07765f639127a4d5ca96ac4fdad20d24d2db6c754a7522d321fcf3750caa4877d328b75aa06afdfedae46cf2
+Description: Floating-view 插件配置，所有的配置文件下载后均在/var/mobile/Documents目录下。
+Name: Floating-view
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/Floating-View.jpg
+
+Package: com.huayuarc.lt-zj-noads
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.huayuarc.lt-zj-noads_0.0.1_iphoneos-arm64_2f04daf8adf9f9deb80432f7703233227ec2ee89318c88645ea19dd2095f8b03.deb
+Size: 4116
+MD5sum: ca69fe4432f4b7b76e8077d99ef366ea
+SHA1: a1808ebe26539f095fd42fab09631e0c3d9e6d9e
+SHA256: 2f04daf8adf9f9deb80432f7703233227ec2ee89318c88645ea19dd2095f8b03
+SHA512: 426199d846ebd783991120f7fe219bfc835106137ff37fc154524885a238d1ccc1b29b94c55fa82582f37ed12d795c3d6f7a1dca689e82da3dfde0bc80f681b5
+Description: 联通智家去除启动广告
+Name: 联通智家 NoAds
+Author: Huayuarc <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/ltzj.jpg
+
+Package: com.huayuarc.lt-zj-noads
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.huayuarc.lt-zj-noads_0.0.1_iphoneos-arm64e_3c7f4b3cedac3fcd328ca09fe672ae927895eefe454f9cdbace43a0315a301ac.deb
+Size: 4024
+MD5sum: cef0fea99fdd7065b897b0d1475c4c7c
+SHA1: d671a179fe7e6a0300550d501e2ffdbc1a05ca15
+SHA256: 3c7f4b3cedac3fcd328ca09fe672ae927895eefe454f9cdbace43a0315a301ac
+SHA512: ac38b499a98e3aaa8a659dfb412a76e76e6d59715a74ac20c2bb296123c4cfa5cee669a2f354b3b553ce5d36a9f38708af8d743cf4374725b4e91415fa187216
+Description: 联通智家去除启动广告
+Name: 联通智家 NoAds
+Author: Huayuarc <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/ltzj.jpg
+
+Package: com.huayuarc.manager
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: System
+Maintainer: roothide
+Installed-Size: 952
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.huayuarc.manager_0.0.2_iphoneos-arm64_7341eab17e8dfb00ac95e89183e5244bbf7edea7bdb600551b3c5250b68f52e6.deb
+Size: 739340
+MD5sum: 64a4ce265e29e7d2ebfdac0c57991821
+SHA1: b5256afaef25f4b08c1a09ba55196d2cfff8aa0a
+SHA256: 7341eab17e8dfb00ac95e89183e5244bbf7edea7bdb600551b3c5250b68f52e6
+SHA512: ba749ba07384ee956c0c485efe092b5dcc221fc6e9ddd475f998d828612a058bd80c296b27e2f7ff43d78c6fbc9a5d2f7a8f8fd06e7ba09d86a7c98218b3c1f8
+Description: Configuare RootHide's Features
+Name: RootHide Manager
+Author: Huayuarc,roothide
+icon: https://huayuarc.github.io/icon/roothide.jpg
+Depiction: https://github.com/roothide/RootHideManagerApp
+Support: https://github.com/roothide/RootHideManagerApp
+
+Package: com.huayuarc.manager
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: System
+Maintainer: roothide
+Installed-Size: 1176
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.huayuarc.manager_0.0.2_iphoneos-arm64e_0ee19cb17394128c9d992c08739875783a4fe6b1a0e64befbc14046afe7198a0.deb
+Size: 759328
+MD5sum: cd6b144502fbf3f0883a40fd1ed7069a
+SHA1: f3b67908092d92c6974494e068868b256bd4bed7
+SHA256: 0ee19cb17394128c9d992c08739875783a4fe6b1a0e64befbc14046afe7198a0
+SHA512: c26815607e867b67e8bf6ece41758e558f007e775b553ecac1024c717f8e1152fcda45ac7dc0ec2ca4d0a9f69fcf8452101a43cea4bf16da148fbefc53603693
+Description: Configuare RootHide's Features
+Name: RootHide Manager
+Author: Huayuarc,roothide
+icon: https://huayuarc.github.io/icon/roothide.jpg
+Depiction: https://github.com/roothide/RootHideManagerApp
+Support: https://github.com/roothide/RootHideManagerApp
+
+Package: com.huayuarc.picturemodule16
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1220
+Depends: firmware (>= 16.0), com.opa334.ccsupport
+Conflicts: com.4nni3.picturemodule
+Filename: debs/iphoneos-arm64/com.huayuarc.picturemodule16_1.3_iphoneos-arm64_c591557905e92f516f48e2001c114f213fac0d09ffa89baf1afd856e6ec1d51b.deb
+Size: 46968
+MD5sum: dbd863e756f7570b708b6f1c5e957210
+SHA1: 3b36cacdd53409c433e372c7e83bd4a4b0c144b4
+SHA256: c591557905e92f516f48e2001c114f213fac0d09ffa89baf1afd856e6ec1d51b
+SHA512: b94b5fcfba1a7e497287f9177fa9ce3ac3ba5fb1710c8d33511c312bcae52f646ad4cac2bd2f4fb1cc4e386ee057e350d93d2d478287ebb1622bc110f6ac7312
+Description: 适配 iOS 16 的原版风格图片与视频控制中心模块。
+Name: 控制中心图片视频模块
+Author: 4nni3
+icon: https://huayuarc.github.io/icon/PictureModule.jpg
+
+Package: com.huayuarc.picturemodule16
+Architecture: iphoneos-arm64
+Version: 1.3-1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1300
+Depends: firmware (>= 16.0), com.opa334.ccsupport
+Conflicts: com.4nni3.picturemodule
+Filename: debs/iphoneos-arm64/com.huayuarc.picturemodule16_1.3-1_iphoneos-arm64_a41b2b428d550cd9eb1823a86cbe907c942edc96eea50b3bc0c69bb442839e5c.deb
+Size: 51208
+MD5sum: 86aa4b53a4f1bcb65fffa5fd84d5beca
+SHA1: 0f54d51ec8fc4a0fae172fa5f678446d43a31e43
+SHA256: a41b2b428d550cd9eb1823a86cbe907c942edc96eea50b3bc0c69bb442839e5c
+SHA512: 82f3c3fff460ee90c779f49a9e0509dfe2a4a17bb1311b719310beb82273893696d45b66cabb5092888dac80aaf72883065aa9f3c6b20efcb8912a739067ad48
+Description: 适配 iOS 16 的原版风格图片与视频控制中心模块。
+Name: 控制中心图片视频模块
+Author: Huayuarc,4nni3
+icon: https://huayuarc.github.io/icon/PictureModule.jpg
+
+Package: com.huayuarc.picturemodule16
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1868
+Depends: firmware (>= 16.0), mobilesubstrate
+Conflicts: com.4nni3.picturemodule
+Filename: debs/iphoneos-arm64/com.huayuarc.picturemodule16_1.3.2_iphoneos-arm64_071616ebbfdaf1c44dff3b3334c65dbd1b370250fd9434c7cae8193392cadc37.deb
+Size: 68868
+MD5sum: 5437a5735d28e36171d4b664745e7acf
+SHA1: c1227bdc2456b161095177c606a6bdc346c3a01d
+SHA256: 071616ebbfdaf1c44dff3b3334c65dbd1b370250fd9434c7cae8193392cadc37
+SHA512: 23dddce84e9d5aed9e032a2c2bb81b1d5b25283fd5f8d6c32996cb12294665d6ccfaa73517eb965530786d53a0a2dd037857166a4989f46cc46c56d3d64941a3
+Description: 适配 iOS 16 的原版风格图片与视频控制中心模块，内置自动互斥注册桥。
+Name: 控制中心图片视频模块
+Author: Huayuarc
+icon: https://huayuarc.github.io/icon/PictureModule.jpg
+
+Package: com.huayuarc.picturemodule16
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1220
+Depends: firmware (>= 16.0), com.opa334.ccsupport
+Conflicts: com.4nni3.picturemodule
+Filename: debs/iphoneos-arm64e/com.huayuarc.picturemodule16_1.3_iphoneos-arm64e_36add8e8ce8166cc19c28d37b95920033a554f032fe5cc1227bb05e2112ce8c5.deb
+Size: 46864
+MD5sum: 394acf981bd630d5a157056c253385c4
+SHA1: e7d40459b35fb2494495399f1243f3adebc0f110
+SHA256: 36add8e8ce8166cc19c28d37b95920033a554f032fe5cc1227bb05e2112ce8c5
+SHA512: 1c633779825714bbdb40483752790c7bd4083d21d06dd755588d0b3857a0fe50a7253562df42e948147c3f9aa7e243d4bd0429d6175c7c71c5d320a11444387e
+Description: 适配 iOS 16 的原版风格图片与视频控制中心模块。
+Name: 控制中心图片视频模块
+Author: 4nni3
+icon: https://huayuarc.github.io/icon/PictureModule.jpg
+
+Package: com.huayuarc.picturemodule16
+Architecture: iphoneos-arm64e
+Version: 1.3-1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1300
+Depends: firmware (>= 16.0), com.opa334.ccsupport
+Conflicts: com.4nni3.picturemodule
+Filename: debs/iphoneos-arm64e/com.huayuarc.picturemodule16_1.3-1_iphoneos-arm64e_08730ee18706009872ba4f1e77d8afb7d826ef66389149beaae4172b8a71eedc.deb
+Size: 51060
+MD5sum: a8a799e58f0e602badafac3911647647
+SHA1: 7744d501cce03fddb16affcca18d4bdf6e2a976f
+SHA256: 08730ee18706009872ba4f1e77d8afb7d826ef66389149beaae4172b8a71eedc
+SHA512: 37ecdd236e345b21b81158b874a67d5f2f93757ec44988105d959ba5271732fd6d57ca5dc98fd83d248f62afb29a638f3bb703c10f9e2491db45a0047634fb56
+Description: 适配 iOS 16 的原版风格图片与视频控制中心模块。
+Name: 控制中心图片视频模块
+Author: Huayuarc,4nni3
+icon: https://huayuarc.github.io/icon/PictureModule.jpg
+
+Package: com.huayuarc.picturemodule16
+Architecture: iphoneos-arm64e
+Version: 1.3.2
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1868
+Depends: firmware (>= 16.0), mobilesubstrate
+Conflicts: com.4nni3.picturemodule
+Filename: debs/iphoneos-arm64e/com.huayuarc.picturemodule16_1.3.2_iphoneos-arm64e_dc57421554f02bd87ec353d028884ed57c1fda8a1dfcaf0df9dc635857e38aa7.deb
+Size: 68800
+MD5sum: 2dcc5eadafeeac7c606b5fb4bc3591a8
+SHA1: 3f8157aa5bbe415a97c4e3c096378ef3078a6d28
+SHA256: dc57421554f02bd87ec353d028884ed57c1fda8a1dfcaf0df9dc635857e38aa7
+SHA512: a7268c5a12a344b2e81f489b8d60b7dea80c78d508d93d46b19394fcf8b6f98304847d781173e87be53af87dfab3eecf8fa633637723eff7d4e46dc0bb56fa58
+Description: 适配 iOS 16 的原版风格图片与视频控制中心模块，内置自动互斥注册桥。
+Name: 控制中心图片视频模块
+Author: Huayuarc
+icon: https://huayuarc.github.io/icon/PictureModule.jpg
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 336
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.0_iphoneos-arm64_03ef7712507afcf051114908b0b7e3f01f5d0a9508054b6e24051ad475e7ddc8.deb
+Size: 92672
+MD5sum: 6989f265e4f7b869b6d9facb2303c2ec
+SHA1: dc04f263e1e24d342bd1a6927d292a89ef75f0c4
+SHA256: 03ef7712507afcf051114908b0b7e3f01f5d0a9508054b6e24051ad475e7ddc8
+SHA512: db0bc98d34a3a498c1867d1e9e742adff2988f9d6faf5df76f5735aa74020819b1812cbe74cfc58a096ede7876dbb3f7dc59e19969b49a2d4e7d6ef1c025b79a
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.1.1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 404
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.1_iphoneos-arm64_62e79b5c229310b3d5c1d9f78fde8f57bd4a99d08a92436afff943dfebb11789.deb
+Size: 87388
+MD5sum: bfc2d35a92f710f129b287153e039398
+SHA1: 4f14a05bf6a46ae5362a4dc6c535654c0cb6271f
+SHA256: 62e79b5c229310b3d5c1d9f78fde8f57bd4a99d08a92436afff943dfebb11789
+SHA512: 35f94f53cb55486c1bbd91dec3048490e415db1c61cfcc2551388c9271876c13c4edfd2393d8431d9e4e32a56083d906fb2e8b74197e23818ade7945f1e27e5e
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.1.1-1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 820
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.1-1_iphoneos-arm64_47f042fb746a168e93025f173900850696b1a2521c3a6f1d7aab695dfd70927e.deb
+Size: 100828
+MD5sum: ec372b3fbef5e95617a098763dfdeaca
+SHA1: e92b93cbe1ef3c298e0b1b210cb2213a2b7f2ee5
+SHA256: 47f042fb746a168e93025f173900850696b1a2521c3a6f1d7aab695dfd70927e
+SHA512: 0881da694739d348bae621367f5c09d86310250737493d7dbc3148beb4f0c90691f8939390ed0c1739d6bdbe30bb5092a8ea7bfd78c6911d8d8ba7666487dc44
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.1.2
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 820
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.2_iphoneos-arm64_f6f3576f81dca9d71b81fe3646fed2f1d28abeb6c680182b04e32348b732d845.deb
+Size: 103336
+MD5sum: 5a3be8251831d6f81c23e044ae1baad8
+SHA1: 76df28e756386bf70e81ff317d0aff6418b3529c
+SHA256: f6f3576f81dca9d71b81fe3646fed2f1d28abeb6c680182b04e32348b732d845
+SHA512: d9a0fd65d02922657adcc4ce775abb5bb998528dc1c0f810d0aec86226af3d0fd47d97810fe3ef12e028d403ecd61ffb095c4f945ba187eeb05f075897ccf86e
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.1.3
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 820
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.3_iphoneos-arm64_a3d96c35f727835982aca144e91e861b10cc1c047b276cd2e2ed8fab79e07912.deb
+Size: 103468
+MD5sum: 01b9b94cfe759cf233d66309458168aa
+SHA1: d463b22597f068162d1b889f1a0371641943d352
+SHA256: a3d96c35f727835982aca144e91e861b10cc1c047b276cd2e2ed8fab79e07912
+SHA512: 302cac2b0770019288f9e48374595c805008ee8e92345b7d92007a8b5a8197ec58476935c48cf828d1bf03430f14fbaa2cccdd0e9a7ef6f7e2124e77c33d1ed4
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.1.3-1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1184
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.3-1_iphoneos-arm64_58804cbc6a99fd2b85141b712752ae413926487c853127b548f3e10fa99b3a28.deb
+Size: 108824
+MD5sum: b5d3052be17027317e160a95148d8217
+SHA1: eff923ab57d594c2be2d3419d74cf7424dcf164a
+SHA256: 58804cbc6a99fd2b85141b712752ae413926487c853127b548f3e10fa99b3a28
+SHA512: aa7f6072afb870649b52de1ae36bcb01439ba6e65c4603571dfae2ec8eab9041b97c6d824d680bf9b0d86bbd71ed2b32afdf38f4430e99ea7bb49b4f360265a4
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.1.3-2
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1204
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.3-2_iphoneos-arm64_1047d0c9c92780259d2be57bee9459d084d3add3740ea0349140879d41b53299.deb
+Size: 113092
+MD5sum: 72a1ee7293122b4a8cf502bc7628f35b
+SHA1: 1b0bb165b7a7c7095ce96195aca42cc423044bee
+SHA256: 1047d0c9c92780259d2be57bee9459d084d3add3740ea0349140879d41b53299
+SHA512: fbd2e216e6452b6d5bbc536e52aae3b0ec10ce2955975de08df000b490882f6580983b38d79b544802eec15023c8aa177bd56fe0492b29bb88964f51b9ed3271
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.1.3-3
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1220
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.3-3_iphoneos-arm64_58cd49ca373ccd12009760d9c68fc35c9085c1f3fe705237a5016e664971fbd3.deb
+Size: 115260
+MD5sum: 645c6c6fc3532637a37d512893b58749
+SHA1: 87e4ad00f97ce92cb85dd1d90a31d82ea87a20de
+SHA256: 58cd49ca373ccd12009760d9c68fc35c9085c1f3fe705237a5016e664971fbd3
+SHA512: fd65ad5a4ceac225aba9beb8562e5d5c226cdc4be29da8665ce69ebc967183cda9be01f784b0120a5d23db26932ad08e4e55e89f82d69d0a84c4cab738c53da6
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.1.3-4
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1220
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.3-4_iphoneos-arm64_4419c10e2f98062c5d055a6fd71a84e5e5aeb37d8ac7a4b5994b6b1b8256ff86.deb
+Size: 115684
+MD5sum: 3a133bfab540018b8e94bd0b86ae6846
+SHA1: 5033e41f8a02a076c2806ae72934016d4fea610c
+SHA256: 4419c10e2f98062c5d055a6fd71a84e5e5aeb37d8ac7a4b5994b6b1b8256ff86
+SHA512: 058c640e2368909c496ac4f3894d1856887174e8f4dcfdab34bff56ba8a1b0ae0246eeebc26398793b4cefb78024c0562233f90136e563bb195be45110f9f85f
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.1.3-5
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1220
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.3-5_iphoneos-arm64_019593524a3aebd9d50fa54a1c3a261658983d0da192595d019a43275a8a8521.deb
+Size: 116472
+MD5sum: af6304bd817289f7f46f21d90e60d461
+SHA1: 1b067fcbbd7d47a5492359e7e21ec504892b10d8
+SHA256: 019593524a3aebd9d50fa54a1c3a261658983d0da192595d019a43275a8a8521
+SHA512: defb803aa86d3a2e3248390309b4e823565bb92dc140bca3773296ffea575b8f9b764d62d6467836151d4a9b0dc987c76b57df1ac772e3bb22b65385d5e4d715
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.1.3-6
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1220
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.3-6_iphoneos-arm64_66a49a7f4fcb41fb1913ef31bd4569b6f1a51049052ad4610ee1337332b697df.deb
+Size: 116516
+MD5sum: 241a8daf8bf487981fffb5d677c2e257
+SHA1: 7b7f006947ad481129e3eb7007e02ef1dff0ab76
+SHA256: 66a49a7f4fcb41fb1913ef31bd4569b6f1a51049052ad4610ee1337332b697df
+SHA512: 14308f5d9d58eac0641a9faf97b719ef61fb6358904ea378cd8e229ef19c01f385e28782b1d94bee21f15de15d171072d8dcba3a0c315555cbf55ece23fb9185
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.1.3-7
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1252
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.3-7_iphoneos-arm64_57e7c457129e06a127c7b80a5b0d33820e87c418b2dbf6fa901c65972bb737da.deb
+Size: 124772
+MD5sum: 0dfdc434979cb84a0fca65b05eccae50
+SHA1: 3a69d123f4a57a64e2dbb64ed6c51f1bdb7dae82
+SHA256: 57e7c457129e06a127c7b80a5b0d33820e87c418b2dbf6fa901c65972bb737da
+SHA512: 92b6f7b499ead69e62d5a5ad80802d12cf745454eb9caa49df60f587763267c0c72608a89f3e032a5bcf0fcfa3ed8703f1c5c79e25755ed03e1e7d235a2b5014
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.1.3-8
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1252
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.3-8_iphoneos-arm64_84bb65da6072922c7494c10d3a764572eba1f5fb6313b8732684d0f225cd375b.deb
+Size: 125420
+MD5sum: e50ed566026b7b062e1dec47a7d5959d
+SHA1: a8b9c1e201e06dcf1f613f20afe74723b2de3a63
+SHA256: 84bb65da6072922c7494c10d3a764572eba1f5fb6313b8732684d0f225cd375b
+SHA512: dc4dde217315f665d1245c5ae3c4eccd334a04653e4021f2137aaa977146e33fd6116c9d4bba8b2591477f88f26f420fdf4531175112bb6d4063008f725a3392
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.2.0
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.2.0_iphoneos-arm64_f97f09ffecdb7232c2017bf16cc4d9bb134199b1e2eb6e6ce1c0315b6f5e68f1.deb
+Size: 121572
+MD5sum: a1dc52d07f242e9da872e48e24465e82
+SHA1: 36b8214a775c237b75ee6915323f8475cbd8014e
+SHA256: f97f09ffecdb7232c2017bf16cc4d9bb134199b1e2eb6e6ce1c0315b6f5e68f1
+SHA512: 9cd4df4518812d392b264da7309c23e58d9410b12220fda372489c7d2f14663ecf690349543573c8ff44e488cf041e58ef80f78ca9abf9fedfb60f969d70a1a6
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.2.1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.2.1_iphoneos-arm64_a246753706e941c01108cb44119062522294d9537a21a25cd4a67815cb429488.deb
+Size: 121304
+MD5sum: cbde8cdaea7d73991a8a3936caae060d
+SHA1: 3e3db76048508d12c08fe0149b05119a22897b55
+SHA256: a246753706e941c01108cb44119062522294d9537a21a25cd4a67815cb429488
+SHA512: 62ddcc441651dd5eed58ee82afd56e44fc9e9f54699bb33d4ca3f3c53ec63b235b7ef9fabff134ddcdd9a7166a46132371d6dba9be260311f872249a0b2dece0
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.2.2
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.2.2_iphoneos-arm64_060bc5ac1000bab1077fa18abf175ed69dc96d268fcc6bde99eeaf927d77f399.deb
+Size: 122112
+MD5sum: e55a3c37f4cd734f9a53bf7c366bcc6d
+SHA1: de685e8e1bb54ad04f05b0747e4529669ae813c2
+SHA256: 060bc5ac1000bab1077fa18abf175ed69dc96d268fcc6bde99eeaf927d77f399
+SHA512: a96ff0124175544d9e8b78d02d840612496d014e34f23db1aea91abffe60cd1bc0ab9ef4acc04f6898e8fe3707bbc1ebc86a4199b96b01a9d75a10e7e3154fce
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.2.3
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.2.3_iphoneos-arm64_591ad4b6cc2d79c04d4682f145890248316612a39af6edcd2e46cd839f62b2fd.deb
+Size: 121948
+MD5sum: 58ccfe7a937bff9f1332314359b35d20
+SHA1: 20fc8e6d4f298b1d21b97bd1ebe6dea884dff1fd
+SHA256: 591ad4b6cc2d79c04d4682f145890248316612a39af6edcd2e46cd839f62b2fd
+SHA512: f73ea8eafd34f30c70056e2c6785a37b97feae11f8dbef626edd8f9bf17b161cb8ea74b7cf1b48c68e1fc23007cb7c40b67cc0d0803bf6a8ac6400f183a35a51
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.2.5
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1732
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.2.5_iphoneos-arm64_e1860cbb3605c71c38c7c6443cb9ef52e5dacbe1100b753490521c28f31adae9.deb
+Size: 159316
+MD5sum: 6de940ed094e6310a0cb9ed4ac8c9f90
+SHA1: cbc86896d869a41b910b80b05339aeb53333a5af
+SHA256: e1860cbb3605c71c38c7c6443cb9ef52e5dacbe1100b753490521c28f31adae9
+SHA512: 0e7905c537cd2c23cb6f01a8a481abee89b769103a39912e20a5cdcb02935f296f7d12aac6ac26c0142f6099f322ca8b893caedc28fb877a0bfc99cd87bec499
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera。
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.2.5-1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.2.5-1_iphoneos-arm64_fdcd334abece5c2f059f9516b08a471e8f67c7c96c52ad4704fb0c65779ea9cb.deb
+Size: 124820
+MD5sum: e865483a9eed94d5e88c4a19e714f9cd
+SHA1: 0522b0661f151bc003128060fffa50eba62f0540
+SHA256: fdcd334abece5c2f059f9516b08a471e8f67c7c96c52ad4704fb0c65779ea9cb
+SHA512: de56306e4069d04bc58d9bb7ec3d54c063017cbd348cdb5d06d47381582d261d947065bee802f5ab465a2d047c0bc6139faba0dd6942e5db8cdd412bb201966b
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera。
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.0
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 336
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.0_iphoneos-arm64e_e164d0a31b9f6ee71f0d2133c118504c29dbcacf4c2d3fbe1c2dc7aa4202c122.deb
+Size: 92872
+MD5sum: d5fb20098d2ca99e6be358ab19794f22
+SHA1: 37584235cdb5fe5e77842fc78437105c6a6ea42a
+SHA256: e164d0a31b9f6ee71f0d2133c118504c29dbcacf4c2d3fbe1c2dc7aa4202c122
+SHA512: ff87d0a084b15a691cbb3bc65b018df0d42b4c77abb9aa215c8433cf2117469a96bbbd915acbd054af9d2ace911fcc67c5e069fad4b266cd7e19cba2439b6c75
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 404
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.1_iphoneos-arm64e_6b3420f60dc01dde37f1ac3daeed31e710b879d209b2b465bb082913c3c6855b.deb
+Size: 87544
+MD5sum: 016db29b20a90f6b380077bc2d78cd01
+SHA1: 7df97b86c163a4a4a1d2ec5043c13601c14d775d
+SHA256: 6b3420f60dc01dde37f1ac3daeed31e710b879d209b2b465bb082913c3c6855b
+SHA512: f00650eb8948f05d87e8e3aa44be56a38106fa08ab8c11b02733f91dcab36f3a2ee35287388e049880fb1a5b8291529fd14dfb38fbf4990adf4eca79e3f506f7
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.1-1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 420
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.1-1_iphoneos-arm64e_bbe0a613c6ccb788c7d02c0230af65793894d5163557d037e5013d0248a1b30b.deb
+Size: 92708
+MD5sum: f14551ff553523242d326830bae1cc6f
+SHA1: 37b1eb1a6403f14f3358d5a4033d72cbfaa0a6d8
+SHA256: bbe0a613c6ccb788c7d02c0230af65793894d5163557d037e5013d0248a1b30b
+SHA512: a74f4a2d6649a6f0eb19482a8c9d8aa0b8c81b8def3ebadb60c2c59e8c484804109bc0258bcdb9b2b432a658fa3d8c7e78260254097bc21ef1effa86a09629dc
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.2
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 420
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.2_iphoneos-arm64e_a963ac919092bdcce64e996ddc1c1096410ad6041b6edc8cd3b05656a464c49e.deb
+Size: 94344
+MD5sum: 054df205e11617892dd7cf33c810db88
+SHA1: 8975e39cf2ef101fd31a88eca58ca2fa5836e7b7
+SHA256: a963ac919092bdcce64e996ddc1c1096410ad6041b6edc8cd3b05656a464c49e
+SHA512: 782ab3b4655cb39e9083432e2c2495918de21652c26217713b158f54ce04c0e8d844daa399d398e68f955f5a4a5667d6cf798c564fc6814e4d55b099232350ff
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.3
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 420
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.3_iphoneos-arm64e_c59cd967f84be8e588d5e58361dc1a8fe406a2bc48ec1bacd84d149a646616e5.deb
+Size: 94484
+MD5sum: f0663b296c913b5d61e40214eace21d0
+SHA1: 7a8b2efb87cef9aa5ddf828b324fffd86279112d
+SHA256: c59cd967f84be8e588d5e58361dc1a8fe406a2bc48ec1bacd84d149a646616e5
+SHA512: 19c420728c9976dcd73d092ac861f1aedce998aa09eccf38e961fd4c96115b940839237b0efa09256e73a49942fe1ef1e662391db22ffc27c0718f632bf86f1f
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.3-1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 592
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.3-1_iphoneos-arm64e_908577680ece3e166a9203ae5b52b9a47f54ab40ad8355cbe777e1171948d7cd.deb
+Size: 97612
+MD5sum: 2f5b3109a65924957523de1091f84d05
+SHA1: 2a4cb75e35c308da6dd750fe2e75d64282d68ed7
+SHA256: 908577680ece3e166a9203ae5b52b9a47f54ab40ad8355cbe777e1171948d7cd
+SHA512: 422d9ada065cd3d7b4d08007e5630b5c0a840fcc92f9ba67c66276a40ab92e7421b07ca8ea516ecb01ccf4446c32fabff5fb62d0567e595f3b33c890b86bb2a4
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.3-2
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 612
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.3-2_iphoneos-arm64e_ae7db11849638aed281c93318e93859f5cab06bc9e01dc4575558d443aea8cfd.deb
+Size: 100628
+MD5sum: 96cd8bd9f94525c1923d9376ccd24bac
+SHA1: 083d1ab083fbc0c6b02c638e150dc6c3916deab4
+SHA256: ae7db11849638aed281c93318e93859f5cab06bc9e01dc4575558d443aea8cfd
+SHA512: 4838ab90eeaae798981eabd59d90535085620224599c7df35c10845c4d3a1f9a79cc0d889c2696c4a3c099eda6d47320ab9d3c2483682c9b52fc9a222275e301
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.3-3
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 612
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.3-3_iphoneos-arm64e_2616f5a53376ce0dc65be6ec3506dd8b79a32e414a2709358c52609e0c289c2b.deb
+Size: 102212
+MD5sum: 87dda128eb91ccbfcf5b02bebce3d353
+SHA1: 32400b4339e651c31a6e0c9b91472a85bcf4f292
+SHA256: 2616f5a53376ce0dc65be6ec3506dd8b79a32e414a2709358c52609e0c289c2b
+SHA512: d47fbcd7d08b02d7032b6d6c7704d9d3acba7bccef835857b2eb8e355bc81b46a1a83483fabfe3744a5e24dc557881772d379d8fc29cdcaa94a0fa87c9e2db97
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.3-4
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 612
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.3-4_iphoneos-arm64e_74719e201577bb15da5597e8d7c61e308e2750fcf53c0e897e5f528e1ac1069c.deb
+Size: 102524
+MD5sum: 2ec20be3b1ac469d13cc15a5c2fc5aa0
+SHA1: 104ef2624088b2eecafe1c626fb5b19e67ab9c36
+SHA256: 74719e201577bb15da5597e8d7c61e308e2750fcf53c0e897e5f528e1ac1069c
+SHA512: d2a8514a6142cd044f03852a5492163ce4f05ad25ff8ff8a01a9659802817daef31bc28fe84a8587a4e7dc20e49ed159be78a9a7efeeb3f5f01459ddf83cec4b
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.3-5
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 612
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.3-5_iphoneos-arm64e_971d5ec73ff94ab13a333cb86e1fa4ff2f8ea3c47d5423162cfbddec76d9828b.deb
+Size: 103028
+MD5sum: f457ece41bc726e4adf0d0ddbe02da1d
+SHA1: e4cbc24bfd87ded77912202915119001dd749b08
+SHA256: 971d5ec73ff94ab13a333cb86e1fa4ff2f8ea3c47d5423162cfbddec76d9828b
+SHA512: 0b3bf256193cb7fc84b6aaac7c1ff4c33a5bf37a495ce1737d5ba29254b7196f86d569458217813ee48d80f7c09ce1c228eeb54bd1be1bd97d7b376830da5127
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.3-6
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 612
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.3-6_iphoneos-arm64e_5d96b36bb19bc71f5c4ecd011a8f2065c9249dfb0de5bccc5624906bab602e1b.deb
+Size: 103064
+MD5sum: a25672b4c4de3230311b58592bef66f9
+SHA1: 5171cc01d0daeafd8d614ecb37b8d8f96949af94
+SHA256: 5d96b36bb19bc71f5c4ecd011a8f2065c9249dfb0de5bccc5624906bab602e1b
+SHA512: 04693b3332b2d421692cc701ef1ebc49b1de251addae718e2a3b859a36f6284e50205a12ca99a41a11aaaf4603ed871dd30dd1b1c3db72ff95e766e08189cc8d
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.3-7
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 628
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.3-7_iphoneos-arm64e_9669006246a69f6bc071d0ad3aa5a2c8e3f952026e6b35409784355a0eb336f9.deb
+Size: 108176
+MD5sum: 9adcc95070a7efcebcf6603f26d144ca
+SHA1: 5d0da2a4a97ea76f2d16ddc2ada24c6b00cc7ded
+SHA256: 9669006246a69f6bc071d0ad3aa5a2c8e3f952026e6b35409784355a0eb336f9
+SHA512: e5613403497438d57c5bff23298359d2664b235dc9baa60f78b2d9cbc130afdf87a197d61e5fc179e55b4d371dfcd1441c7086a5c521ac10c43bb8fe18308fd3
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.3-8
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 628
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.3-8_iphoneos-arm64e_6a88e0b981b71f6499eb34c3a7c3b878e7cd3ac17a5767f41be12e0f9652db40.deb
+Size: 108576
+MD5sum: bc0354937c947d4316c3f5bcc402db82
+SHA1: 050d30906ff4dca2b5a72baf78e43c1b5c32859f
+SHA256: 6a88e0b981b71f6499eb34c3a7c3b878e7cd3ac17a5767f41be12e0f9652db40
+SHA512: 34abfde8af9615de97a882f11bb21fd9d0d6d0d901316fe4c31027dee7c7c69d34fd7c6c47efddc6fd5a9eb276c981164b05e6b4a4fc49864f69156d3c4f807f
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.2.0
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 688
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.2.0_iphoneos-arm64e_d274532692f30714ac4eb1f787b457138d064a4d9e63c1e6623df6b234404cfb.deb
+Size: 103392
+MD5sum: 2f5cae51e5f38086e730d53fa5f0e9f8
+SHA1: 3819238208ec34578d91613bb8885c034b11d77d
+SHA256: d274532692f30714ac4eb1f787b457138d064a4d9e63c1e6623df6b234404cfb
+SHA512: 25e1f04a764d0709e0a12d737ba5a324cad170ceab72ca6484531099dbd3998517711f43239cf97672e3a9a78433c9fc0dec8311a7dfc1ca0c6cf2594de66743
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.2.1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.2.1_iphoneos-arm64e_524eaddd4daa163e656b109e5403ec01b871c1ff28d7fb018fe01955f4c2840d.deb
+Size: 121404
+MD5sum: 805f7b6675aa0b4fc18f1c068170e583
+SHA1: 9ab94773dfeaec104b91a037a7da652f8f43df4d
+SHA256: 524eaddd4daa163e656b109e5403ec01b871c1ff28d7fb018fe01955f4c2840d
+SHA512: 09ef14a9c893c4df036cd5a23996e85b4dbfccf4d5f80d0db9aa9074753e99e8f9518c5815c99933f8c436137ace80a2b1a05ba8de54fc2f9ffe9ceea2e3ecb9
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.2.2
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.2.2_iphoneos-arm64e_c7912925684107b1aa583c01d61dd9858f274a552c107a7ee461e2f425d7734d.deb
+Size: 121976
+MD5sum: 559f68442d367f0de32b72b0da22fb66
+SHA1: d3a9bb89277586395e1ef997d67ad3543e876386
+SHA256: c7912925684107b1aa583c01d61dd9858f274a552c107a7ee461e2f425d7734d
+SHA512: 8570432a2475943e6e314db1a205cd819a1e2bfbe36a6ac060d09a832c320d50cda9c937a6721b76e6595182a44978301029a37f2c2f9db45cd1b26933de7a18
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.2.3
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.2.3_iphoneos-arm64e_82b37d4e867f2a0b2e2c5ae2054c04325a88b5d715ca428a87782caef455eff9.deb
+Size: 121920
+MD5sum: bb80d4a9114112bc0a1f22b2acb37330
+SHA1: 7680d8d52e7bc58ab982c213ba218f93f3350f93
+SHA256: 82b37d4e867f2a0b2e2c5ae2054c04325a88b5d715ca428a87782caef455eff9
+SHA512: 5050d651fd3cccf224533cb0271d7d140a3466da228c99d6de4e4eac412eb1eab478f2005f7c991970afef79f3e3af8d2dd4794eac2fbe621718ea098698a9be
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.2.5
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1732
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.2.5_iphoneos-arm64e_cc2aea3dcae13e011cceb21f87d3981075167283cc74f47c403e9a8376980277.deb
+Size: 159260
+MD5sum: e0170f050280769fcce4ea9d913e46e4
+SHA1: 1111e0e45eacbec6053c674efaba8bae23443a79
+SHA256: cc2aea3dcae13e011cceb21f87d3981075167283cc74f47c403e9a8376980277
+SHA512: df1ea839e9af3c4acc6e5f589261aadefcc4cdadb5374c322c9c14fbd860aa3bda248337c0d61601bf8642685bac00cc9a892e10c759b01789b40d0139d36bb3
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera。
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.2.5-1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.2.5-1_iphoneos-arm64e_5f0d721d9e6c1dc6abb0a03d9a3ea42f736196cffbfd9db2151f45a726f11503.deb
+Size: 124820
+MD5sum: 2236c5455738cbfb2115d5d9a3c043c1
+SHA1: 403b9b03d7ead28d1cb09b9ea6804ab386c196ea
+SHA256: 5f0d721d9e6c1dc6abb0a03d9a3ea42f736196cffbfd9db2151f45a726f11503
+SHA512: 55c9c53515617c0421679247c1cd74dc0821010f36ae516f6381f2e8398becb370a0e189b3baadf6155affd2733b2e248d874ed8d29520b43453e2e1d22a1018
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera。
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.swipeextenderx
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: Huayuarc
+Depends: sudo
+Filename: debs/iphoneos-arm64/com.huayuarc.swipeextenderx_1.0_iphoneos-arm64_3f6bd3ce0a16a65573d91d711674398f551e4d60a8fb3704c6a0d68648312cf1.deb
+Size: 1232
+MD5sum: 937640d45fefb9123ded64911867df18
+SHA1: ba02b291b63af775397e8f31d537c91c4eb1c4e7
+SHA256: 3f6bd3ce0a16a65573d91d711674398f551e4d60a8fb3704c6a0d68648312cf1
+SHA512: 8f8ee84f2f98f7407627ddabe463ed0cedeea1aae07428bbda7a8bb465580b0c1a467bfb9f4303507bc38c3a5d0f239aea45816fde121762b826756629757a1f
+Description: Swipeextenderx 插件配置，所有的配置文件下载后均在/var/mobile/Documents目录下。
+Name: Swipeextenderx
+Author: Huayuarc
+Icon: https://img.chariz.cloud/icon/swipeextenderx/icon@3x.png
+
+Package: com.huayuarc.swipeextenderx
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Huayuarc
+Depends: sudo
+Filename: debs/iphoneos-arm64e/com.huayuarc.swipeextenderx_1.0_iphoneos-arm64e_a1d40b6a7176c1934414da933b9fc19229e9403a3da8dbbe871dc36333aabb7a.deb
+Size: 1236
+MD5sum: 5e5a278cbc52c4b21e38ef6d71eb8fcc
+SHA1: ec59739bcaafaf19d665a993b7893f64e9efb2d8
+SHA256: a1d40b6a7176c1934414da933b9fc19229e9403a3da8dbbe871dc36333aabb7a
+SHA512: f6beb127fe35a9a913e46bc2a6b133e93502d9baca190aedbb831c389b9382b5c9df262f6b913ea8870cfd0d627b34f7ea3dfecb8e749163490e72ebd29ed94e
+Description: Swipeextenderx 插件配置，所有的配置文件下载后均在/var/mobile/Documents目录下。
+Name: Swipeextenderx
+Author: Huayuarc
+Icon: https://img.chariz.cloud/icon/swipeextenderx/icon@3x.png
+
+Package: com.huayuarc.systempro
+Architecture: iphoneos-arm64
+Version: 0.3.6
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 376
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.systempro_0.3.6_iphoneos-arm64_e169ff2d1c6d076b18fa50b7dea55ce4609cf16034a1db74ed77b6495a396d38.deb
+Size: 42208
+MD5sum: aedd2246e1679522e386caa534e4c3ab
+SHA1: 197749501b75ffddda3dd698931bde94ec1004db
+SHA256: e169ff2d1c6d076b18fa50b7dea55ce4609cf16034a1db74ed77b6495a396d38
+SHA512: 8ecc714d9df7945192c426d09bd122c003454d349a30e017f28b0c9a205e2db87b68f2fedc3e9e2c0a92636daa653909bc8dd162647d6333d740db59811cc67c
+Description: 通知不亮屏 + 17项系统增强功能：屏蔽粘贴弹窗、禁截图检测、禁快门声、透明Dock、禁App资源库、禁锁屏相机/手电、自动面容解锁、去解锁延迟、去锁屏音、应用开启动画方向、彻关WiFi/蓝牙、低电/朝下自动锁屏、禁签名验证等
+Name: Systempro
+Author: Huayuarc
+icon: https://huayuarc.github.io/icon/Systempro.png
+
+Package: com.huayuarc.systempro
+Architecture: iphoneos-arm64
+Version: 0.3.7
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 872
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.huayuarc.systempro_0.3.7_iphoneos-arm64_bdefd7982176c70d63138fc7659bf63fa6563d2f0aed0a21590cd68f2cfd7cc8.deb
+Size: 80936
+MD5sum: a646a926ed278fac1364a870264f9fdd
+SHA1: 68e97e3b35780922f18b4f3627989390b51c01d5
+SHA256: bdefd7982176c70d63138fc7659bf63fa6563d2f0aed0a21590cd68f2cfd7cc8
+SHA512: 403987ed839755684fbb67916a044f45c7c70e221ef4e293be97fb1ce57a5b3fe62b1270e70a7c7193d48b417cd8d29293b3cf3c5141895cef8d2598bd31fd2f
+Description: 通知不亮屏 + 多项系统增强 +  系统工具（禁用OTA/通话录音提示音/Watch配对）
+Name: Systempro
+Author: Huayuarc
+icon: https://huayuarc.github.io/icon/Systempro.png
+
+Package: com.huayuarc.systempro
+Architecture: iphoneos-arm64e
+Version: 0.3.6
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 376
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.systempro_0.3.6_iphoneos-arm64e_74078dc20e12655b3e686b77c647230323b15cd81d61f75cdd91cc09f38ed8b7.deb
+Size: 42136
+MD5sum: 4333a87934b5af1bb451e6915e1172f2
+SHA1: ae6eed3efb44e09b98dbc30b52c7c9a8d5e15a3e
+SHA256: 74078dc20e12655b3e686b77c647230323b15cd81d61f75cdd91cc09f38ed8b7
+SHA512: 270efd082f1fe47795a179cc32764b9f6867391e4a1ba431038e52f80c46f53bf023e447dd91d73d80c7e4801708720fa980ee1869a0004e48ba5c5fa877a1b3
+Description: 通知不亮屏 + 17项系统增强功能：屏蔽粘贴弹窗、禁截图检测、禁快门声、透明Dock、禁App资源库、禁锁屏相机/手电、自动面容解锁、去解锁延迟、去锁屏音、应用开启动画方向、彻关WiFi/蓝牙、低电/朝下自动锁屏、禁签名验证等
+Name: Systempro
+Author: Huayuarc
+icon: https://huayuarc.github.io/icon/Systempro.png
+
+Package: com.huayuarc.systempro
+Architecture: iphoneos-arm64e
+Version: 0.3.7
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 872
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.huayuarc.systempro_0.3.7_iphoneos-arm64e_d49e90f764a798b53f943b6f74ae5046ea3511d6cd855acab8e9851f7af9183f.deb
+Size: 79980
+MD5sum: e815cd3ab6b9042766faf53380b08255
+SHA1: 81e4d3c0ec35916d42084cf964d70caf82f7a77c
+SHA256: d49e90f764a798b53f943b6f74ae5046ea3511d6cd855acab8e9851f7af9183f
+SHA512: 3d38a48dc2db42ecc74b204a891167e54f6ae08ae73c14166c160094f9b7201f6bbb5d6617272e7045d0673aef8f234a786b5762891166aa2b0563ac3d98f2cf
+Description: 通知不亮屏 + 多项系统增强 + 系统工具（禁用OTA/通话录音提示音/Watch配对）
+Name: Systempro
+Author: Huayuarc
+icon: https://huayuarc.github.io/icon/Systempro.png
+
+Package: com.huayuarc.zombiereaper
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+Section: Tweaks
+Maintainer: Mr_佳先生  ♥
+Installed-Size: 168
+Filename: debs/iphoneos-arm64/com.huayuarc.zombiereaper_1.0.0-1+debug_iphoneos-arm64_ec47a74c6668e04f629f8a68bc9a9ea730052d8e7abcff6574d0e99f322f7e38.deb
+Size: 3524
+MD5sum: 3a948a3660804b68c45ba3ff509329c1
+SHA1: 6a05052cbc18671b5ceb007b4471993b1475daf1
+SHA256: ec47a74c6668e04f629f8a68bc9a9ea730052d8e7abcff6574d0e99f322f7e38
+SHA512: 4a3e7b1ac3e38205ac43a40ffe27b3fac73cb6b43ee5394484f99d3b8cc8e63872ee80fee57bdfb2f0ab326452468a2c61e630617de2f23e2502276d72f95e2d
+Description: Auto-reap zombie child processes for SpringBoard 后台每5秒自动清理SpringBoard产生的僵尸子进程，防止大量调用外部脚本后堆积僵尸进程、耗尽系统PID，避免后续命令无法正常拉起。仅作用于SpringBoard进程。
+Name: ZombieReaper 清理子进程
+Author: Mr_佳先生  ♥
+icon: https://huayuarc.github.io/icon/zombiereaper.jpg
+
+Package: com.huayuarc.zombiereaper
+Architecture: iphoneos-arm64e
+Version: 1.0.0-1+debug
+Section: Tweaks
+Maintainer: Mr_佳先生  ♥
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/iphoneos-arm64e/com.huayuarc.zombiereaper_1.0.0-1+debug_iphoneos-arm64e_8ac7bd2936f46daea115746f1f1b7b8db235161a9b043d7da7622f07cb6b035b.deb
+Size: 3568
+MD5sum: 4569b5b27b72de43a8c7e646c782ae09
+SHA1: 63dbab79ab05017fa26eedf7bab91b11fe7b5d38
+SHA256: 8ac7bd2936f46daea115746f1f1b7b8db235161a9b043d7da7622f07cb6b035b
+SHA512: b5de88678108343ecee6fd930a9a4e7be409f140851c28094fecb5159fbd6650d0ab6f60276caceb1419afc60c8f132b814987b84ffbc00538abe47398e965ce
+Description: Auto-reap zombie child processes for SpringBoard 后台每5秒自动清理SpringBoard产生的僵尸子进程，防止大量调用外部脚本后堆积僵尸进程、耗尽系统PID，避免后续命令无法正常拉起。仅作用于SpringBoard进程。
+Name: ZombieReaper 清理子进程
+Author: Mr_佳先生  ♥
+icon: https://huayuarc.github.io/icon/zombiereaper.jpg
+
+Package: com.hw.ysllq
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: 🅷🆆
+Installed-Size: 448
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.hw.ysllq_0.0.1_iphoneos-arm64_780023e2d770a3952d0b423d0d73e06dc1a516c4df5c85968a4934a0f6580d4b.deb
+Size: 121292
+MD5sum: c60f55fd4dfc2909c7df68fc05a7da0b
+SHA1: ffbf5b96ce69817f66982a4a6cf9cc04cb6ec541
+SHA256: 780023e2d770a3952d0b423d0d73e06dc1a516c4df5c85968a4934a0f6580d4b
+SHA512: 5d2763638785c6a4f8c7050ca98d287ee183c311d100307706cf49d1582a7001016d36cea6e04e438445a9d87b920b65e5af9ada4235c821bb3dc47106f0a493
+Description: 解鎖專業版 - TG：@HelloWorld_1024
+Name: 🅷🆆 亚瑟浏览器
+Author: 🅷🆆
+Icon: https://huayuarc.github.io/icon/yase.jpg
+
+Package: com.hx.shihua
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.hx.shihua_1.0_iphoneos-arm64_63968f90fbed123a8321751f5143b12145205a48f648acc2e1a3065f4170a870.deb
+Size: 3296
+MD5sum: 62f685ab7f4de1e0d6925c3baf0a601a
+SHA1: ed6ffcb60d9759691056435051ba7a2793067f8e
+SHA256: 63968f90fbed123a8321751f5143b12145205a48f648acc2e1a3065f4170a870
+SHA512: 99930ecb0c2987856386681dc63c5e317de372b87e3b132460add2d99f7901fffa4413246262ed8defcf03ea5184a09312baf3b36ec1a53694c6cd2505f0c5b6
+Description: 光标丝滑。qq172942805
+Name: SilkCursor 键盘光标
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/shihua.jpg
+
+Package: com.hx.shihua
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.hx.shihua_1.0_iphoneos-arm64e_b896ee96ef9922f71c2019f2fcdf5e5c269e7bd05b00cf689bb050771d247aac.deb
+Size: 3460
+MD5sum: 55533a4bd9fb0bd5f20740cfda0d8676
+SHA1: 275752c5b6f61199b8afa4cae1ca03ffab047205
+SHA256: b896ee96ef9922f71c2019f2fcdf5e5c269e7bd05b00cf689bb050771d247aac
+SHA512: de1ce1ecdbc74f094d95992f1b5ebe5b5250b14cd36b0ea98e61b7ae40b0d4c64cfd64259d6bbdd35df0cb64d4b7418bcc109cd1299c34d6b8c8ca0e975cbeec
+Description: 光标丝滑。qq172942805
+Name: SilkCursor 键盘光标
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/shihua.jpg
+
+Package: com.ichitaso.iconorder
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Tweaks
+Maintainer: Havoc
+Installed-Size: 168
+Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Pre-Depends: firmware (>= 12.0)
+Depends: mobilesubstrate
+Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Filename: debs/iphoneos-arm64/com.ichitaso.iconorder_1.0.4_iphoneos-arm64_5245dbc61a1dc11dc552b3ff0b5381d1f17d1082756157da87b2f83482c19a3d.deb
+Size: 8328
+MD5sum: b0e9c3cde1af557267381b93b8867b69
+SHA1: 8673c00d296ac5b3bd5ffdf6a49aafe15c52b328
+SHA256: 5245dbc61a1dc11dc552b3ff0b5381d1f17d1082756157da87b2f83482c19a3d
+SHA512: 4d65828fec5c0bda86cd153a84b783382af922a37f9b1e76909b0fa5b03cdd896583331e6291cfcc7f0141f68e1fbd34daf35dd28b614d8c7412f51c876b9d68
+Homepage: https://ichitaso.com/
+Description: Preserve custom icon layouts by Springboard Crash or reboots etc 在 Springboard 崩溃或重启等情况下保留自定义图标布局
+Tag: purpose::extension, compatible_min::ios12.0, compatible_max::ios18.2
+Author: ichitaso
+Name: IconOrder
+Depiction: https://cydia.ichitaso.com/depiction/iconorder.html
+SileoDepiction: https://cydia.ichitaso.com/depiction/iconorder.json
+dev: ichitaso
+
+Package: com.icraze.noticopy15
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: iCraze
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.icraze.noticopy15_1.1_iphoneos-arm64_c1fec6984b12e0e6454d4c14e54578203a02a70342110642efd5ad92e6bbb70d.deb
+Size: 5928
+MD5sum: 8e22574c60fc449a36615e37542079b6
+SHA1: 9fa07610aa2e495ec4bf4a989a1eb5137c85c242
+SHA256: c1fec6984b12e0e6454d4c14e54578203a02a70342110642efd5ad92e6bbb70d
+SHA512: 978759bf5821903509e5132b08cb939623db2fedd7e0da0b39bd0a319789a2ed61ea91a67dee91ad093007f9139939290a608a14c85c0b68375f0b4dd658152b
+Description: Description: Tap a notification with two fingers to copy its text. Hold with two fingers to copy its title.用两根手指轻点通知以复制其文本。用两根手指按住复制其标题。
+Name: NotiCopy15
+Author: iCraze
+icon: https://huayuarc.github.io/icon/noticopy15.jpg
+
+Package: com.icraze.noticopy15
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: iCraze
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.icraze.noticopy15_1.1_iphoneos-arm64e_feb0667fdd74defa8f7bf0f646ef1abed0fd3117825a7aa7d70f07b4cc488916.deb
+Size: 6112
+MD5sum: 079a0738d4f41e8e1b1de68599be05bd
+SHA1: a9e8924f80cf2f151bace203adb2d20ce2ed6f68
+SHA256: feb0667fdd74defa8f7bf0f646ef1abed0fd3117825a7aa7d70f07b4cc488916
+SHA512: ae328da58139b67871b79a4c3538c8af18617492ab5b2775513156ed184177881192b8798a8f70dba26c0e3150f292555512110c385387f33b9cbe444bd58bae
+Description: Tap a notification with two fingers to copy its text. Hold with two fingers to copy its title.用两根手指轻点通知以复制其文本。用两根手指按住复制其标题。
+Name: NotiCopy15
+Author: iCraze
+icon: https://huayuarc.github.io/icon/noticopy15.jpg
+
+Package: com.imkpatil.nooldernotificationstext
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.imkpatil.nooldernotificationstext_1.2.3_iphoneos-arm64_3af74949fae984e1bbbdf6a558eabe371c592eb92ee56279b04844777ae00f86.deb
+Size: 2880
+MD5sum: 62d65c1bb955d1897c4063cb839bae9e
+SHA1: 6dd75f5e8b4f6949ad0080d8a96bf9ca2395add9
+SHA256: 3af74949fae984e1bbbdf6a558eabe371c592eb92ee56279b04844777ae00f86
+SHA512: 78833ad95118de51b879d4cb720f4afc986bb7b425a3c74719746b758f6c4aebb5672ce8ea656f9a383ace7dfabb174443948d015a48649d634148903ecfc97e
+Description: Hide that annoying 'No Older Notifications' Text!
+Name: NoOlderNotificationsText
+Author: P2KDev <p2kdev@gmail.com>
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.imkpatil.nooldernotificationstext
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Section: Tweaks
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.imkpatil.nooldernotificationstext_1.2.3_iphoneos-arm64e_d3fa8852ce5a30cc0324a75267a32c9f5de1d0dfc269baa5f8af44d920e3b2a6.deb
+Size: 2824
+MD5sum: 7a2f3538f43730ac6343f06e69f55e52
+SHA1: 5b94be56602201d9408551be48bfa293e066b501
+SHA256: d3fa8852ce5a30cc0324a75267a32c9f5de1d0dfc269baa5f8af44d920e3b2a6
+SHA512: 8a8dd5b6a8b3965434b7ba5a403541b80a2531d4ec46a75ebb407af7d2ad996bd3d747ed67e77549e7623b465e119930e33953ca30b0d7dabf92294a23bd6d85
+Description: Hide that annoying 'No Older Notifications' Text!
+Name: NoOlderNotificationsText
+Author: P2KDev <p2kdev@gmail.com>
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.initnil.flreadercrack
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Section: Tweaks
+Maintainer: INITNIL
+Installed-Size: 576
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.netskao.flreadercrack
+Replaces: com.netskao.flreadercrack
+Filename: debs/iphoneos-arm64/com.initnil.flreadercrack_1.1-1_iphoneos-arm64_324b3015c166bffad7386cf7339d69743bd81263ce3d31466b28b1425693524b.deb
+Size: 203664
+MD5sum: cf10c19ad5d7ac37b9f2cd5adc4abc80
+SHA1: 253eb4bea9b60c03a29e56c9cf19d61b9936f31a
+SHA256: 324b3015c166bffad7386cf7339d69743bd81263ce3d31466b28b1425693524b
+SHA512: eb872f510922b495843191ca7582f4d5ab2497cdc87732d0d1fe0a057a233b027d6e2fac7b342cfc2ced55ef6d0437c8e6bbbc60f4c16d002a2d2a08a1e821e2
+Description: 千阅解锁全功能
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.initnil.flreadercrack
+Name: 千阅 Crack
+Author: INITNIL
+Markdowndescription: 千阅解锁全功能<br><br>• v1.1-1: 修复自签疯狂弹出AppleID登陆的问题
+icon: https://huayuarc.github.io/icon/flreadercrack.jpg
+
+Package: com.initnil.flreadercrack
+Architecture: iphoneos-arm64e
+Version: 1.1-1
+Section: Tweaks
+Maintainer: INITNIL
+Installed-Size: 576
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.netskao.flreadercrack
+Replaces: com.netskao.flreadercrack
+Filename: debs/iphoneos-arm64e/com.initnil.flreadercrack_1.1-1_iphoneos-arm64e_bae2a52e7f1481b37fc1240207bf6b96532e733fb87673d542ddcab204b99819.deb
+Size: 204080
+MD5sum: 27c8df3e4c69800ce2bd2cc62440a423
+SHA1: ff108295eb1db1dc97642664fd1c8bdce86a918f
+SHA256: bae2a52e7f1481b37fc1240207bf6b96532e733fb87673d542ddcab204b99819
+SHA512: 8962174e8c5eeb3dec2293fa7f05a3ad5da8a3eb3416e2a280b3a5971a3dc52053136e326074aa094ba97d34cba5aa53b7eec592244ae1bd43e275caf7a7afa2
+Description: 千阅解锁全功能
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.initnil.flreadercrack
+Name: 千阅 Crack
+Author: INITNIL
+Markdowndescription: 千阅解锁全功能<br><br>• v1.1-1: 修复自签疯狂弹出AppleID登陆的问题
+icon: https://huayuarc.github.io/icon/flreadercrack.jpg
+
+Package: com.initnil.imgplaycrack
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Section: Tweaks
+Maintainer: INITNIL
+Installed-Size: 964
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.imgplaycrack
+Replaces: com.netskao.imgplaycrack
+Filename: debs/iphoneos-arm64/com.initnil.imgplaycrack_1.1-1_iphoneos-arm64_198b184603a07877f8edd348441254fc678644bf98d2c18a68b85170855abb63.deb
+Size: 332944
+MD5sum: 4ad3f4bf0748f99c25e17d3d294a63d7
+SHA1: bbd5281ec7cf41d1a8213e7fa13e666027c28104
+SHA256: 198b184603a07877f8edd348441254fc678644bf98d2c18a68b85170855abb63
+SHA512: 1023f5e6adc1e7988fae15433c358eb13563b8c9ee52e791e788367970dbbc28d356259f1dcf82f15667b377d80ea63043f347fa1cb836e002599e9c8d45a4aa
+Description: ImgPlay Crack
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.initnil.imgplaycrack
+Name: ImgPlay Crack
+Author: INITNIL
+icon: https://huayuarc.github.io/icon/imgplaycrack.jpg
+
+Package: com.initnil.imgplaycrack
+Architecture: iphoneos-arm64e
+Version: 1.1-1
+Section: Tweaks
+Maintainer: INITNIL
+Installed-Size: 964
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.imgplaycrack
+Replaces: com.netskao.imgplaycrack
+Filename: debs/iphoneos-arm64e/com.initnil.imgplaycrack_1.1-1_iphoneos-arm64e_0455af87949857771e68f68ddf79f5956c49cab9026823523225e36a005eb57a.deb
+Size: 333576
+MD5sum: 7367a6e7cc12d966b4412f688046dcfa
+SHA1: 7fe14cac8da701fcf0e4e3664d4099ecbe2cca06
+SHA256: 0455af87949857771e68f68ddf79f5956c49cab9026823523225e36a005eb57a
+SHA512: 4466534223f94d528575d741e9b8a0421f14e0f020999956fe019175afb3b0afd8bf3622456bbfe7b6733808a2c22cc65aa0134b254aa5d48e56d6c522248f35
+Description: ImgPlay Crack
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.initnil.imgplaycrack
+Name: ImgPlay Crack
+Author: INITNIL
+icon: https://huayuarc.github.io/icon/imgplaycrack.jpg
+
+Package: com.iosdump.airdrop
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.iosdump.airdrop_0.0.1_iphoneos-arm64_2e70f6d6adb3bb16ec67ec1f53ab8e29c20bf90ccd8c6c93b194f69768263738.deb
+Size: 3484
+MD5sum: 2060322a836a0daa775bce8ef0740ac2
+SHA1: 4271879d3d7ddf604865d34c16c03c69163ad60f
+SHA256: 2e70f6d6adb3bb16ec67ec1f53ab8e29c20bf90ccd8c6c93b194f69768263738
+SHA512: b9719f8f739bd8255612d0d687253c20ab1df85e266b96d1bceb2eb9f0ab49e9d8c4274c990604344bbcb42903191fc591186767994ba6a6e5cfae5b2f1d95df
+Description: 解除隔空十分钟限制iOS16+
+Name: AirDrop
+Author: iosdump
+icon: https://huayuarc.github.io/icon/AirDrop.jpg
+
+Package: com.iosdump.airdrop
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.iosdump.airdrop_0.0.2_iphoneos-arm64_f211c67108f510439ea13e7d9b9aeb3b954ceb249d76d2c619967eefc1b2724a.deb
+Size: 7572
+MD5sum: 09ac2253728ab09652dc4a8492536e91
+SHA1: 295d6e0422a936705aa7bf4ed2a12336404b8cd1
+SHA256: f211c67108f510439ea13e7d9b9aeb3b954ceb249d76d2c619967eefc1b2724a
+SHA512: 9edcd96769de1d849cb51f9c1391747bdf380c1516b987dba56655af3de8a438021483351938b2b1117ad2a53c3c2e00986c58a4373c7aa4e750fdc6d05047b9
+Description: 解除隔空投送十分钟限制，支持设置自定义关闭时间，4秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗，支持iOS16.1.1+
+Name: AirDrop
+Author: iosdump
+icon: https://huayuarc.github.io/icon/AirDrop.jpg
+
+Package: com.iosdump.airdrop
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.iosdump.airdrop_0.0.1_iphoneos-arm64e_5d82fb021956d1a1316815f8149a28abec0bae7c8cb730d3664b7b69787a6cbe.deb
+Size: 3408
+MD5sum: e68e116451734d3407dd924f4ad1f594
+SHA1: 0d7180304bb45a05a7b49b4264b4600ad7870900
+SHA256: 5d82fb021956d1a1316815f8149a28abec0bae7c8cb730d3664b7b69787a6cbe
+SHA512: 25a7edaa004c48d8b2c9e86e2edf64041642709961577a4dab4cc6d081d9edded659542a19670da08a12f3dbba28e5cfbbcf7c473cbb136e8ab05ce6fc0d31f3
+Description: 解除隔空十分钟限制iOS16+
+Name: AirDrop
+Author: iosdump
+icon: https://huayuarc.github.io/icon/AirDrop.jpg
+
+Package: com.iosdump.airdrop
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.iosdump.airdrop_0.0.2_iphoneos-arm64e_53637bb5cbb2ce4228a6fdfa20abfaf761af21737c1ac59260c5eba321abd4dd.deb
+Size: 7488
+MD5sum: 02b1fd573a284231a908c5856468c516
+SHA1: 7f1f1b0010a244a824602d58c5a5186470e23743
+SHA256: 53637bb5cbb2ce4228a6fdfa20abfaf761af21737c1ac59260c5eba321abd4dd
+SHA512: d10c5b8ad76d335696f1921ffddea92d206490e0fbe2cdd69cee8cc9b7686a280a640549dcf92ac30e9424db86971c2bcb35cd9ddcf60ec875fdcb8efb1a50d9
+Description: 解除隔空投送十分钟限制，支持设置自定义关闭时间，4秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗，支持iOS16.1.1+
+Name: AirDrop
+Author: iosdump
+icon: https://huayuarc.github.io/icon/AirDrop.jpg
+
+Package: com.iosdump.appdata
+Architecture: iphoneos-arm64e
+Version: 2.5.3
+Section: Tweaks
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/iphoneos-arm64e/com.iosdump.appdata_2.5.3_iphoneos-arm64e_41cd18459fa12f834ec65f8a669776f173892974db6248ea2c12e001424ee6aa.deb
+Size: 1576224
+MD5sum: 05feae69569cd7953512bd33258e3926
+SHA1: 7dbe85cc01d6ddec2e516fc000c157a93aaeb4d6
+SHA256: 41cd18459fa12f834ec65f8a669776f173892974db6248ea2c12e001424ee6aa
+SHA512: bf4e6a6d287728816f6481e1fc57e722226b538206b8119e43bf52d1e0e661803a11d11cefd9c9d7a69c335ae6f9cce3dd5938ee93038dda9feb821364090f8f
+Description: 从主屏幕查看和管理应用数据
+Name: AppData 管理应用数据
+Author: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
