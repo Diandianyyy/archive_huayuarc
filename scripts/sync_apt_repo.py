@@ -191,6 +191,25 @@ def write_indexes() -> None:
             zipped.write(payload)
 
 
+def record_bad_package(source: str, package: dict[str, str], error: Exception) -> None:
+    log = Path("bad-packages.log")
+    if not log.exists():
+        log.write_text(
+            "source\tpackage\tversion\tarchitecture\tsha256\terror\n",
+            encoding="utf-8",
+        )
+    fields = (
+        source,
+        package.get("Package", ""),
+        package.get("Version", ""),
+        package.get("Architecture", ""),
+        package.get("SHA256", ""),
+        str(error).replace("\r", " ").replace("\n", " ").replace("\t", " "),
+    )
+    with log.open("a", encoding="utf-8") as output:
+        output.write("\t".join(fields) + "\n")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", action="append", required=True,
@@ -224,9 +243,10 @@ def main() -> None:
             break
         try:
             destination = download_package(source, package)
-        except FileNotFoundError as error:
+        except Exception as error:
             unavailable += 1
-            print(f"Unavailable, will retry next run: {error}", flush=True)
+            record_bad_package(source, package, error)
+            print(f"Skipped bad package; will retry next run: {error}", flush=True)
             continue
         downloaded += 1
         print(f"[{downloaded}] Downloaded {destination}", flush=True)
