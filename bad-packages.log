@@ -1,3 +1,5 @@
 source	package	version	architecture	sha256	error
 https://huayuarc.github.io/	com.crassna.appcardlite	3.3.3-END	iphoneos-arm64e	9c729ec21ec85d1e471e46ef601cceb33ed80871033d8ac443e1df4cdddae4da	HTTP 404: https://huayuarc.github.io/debs/com.crassna.appcardlite
 https://huayuarc.github.io/	com.ichitaso.iconorder	1.0.4	iphoneos-arm64e	9a6f55622891e60c1873e2c37fef68b36c4c798f7f8115ecee9f10fe5732f7bb	Command '['dpkg-deb', '--info', '/home/runner/work/archive_huayuarc/archive_huayuarc/debs/iphoneos-arm64e/tmp0g08i9ea.part']' returned non-zero exit status 2.
+https://huayuarc.github.io/	com.crassna.appcardlite	3.3.3-END	iphoneos-arm64e	9c729ec21ec85d1e471e46ef601cceb33ed80871033d8ac443e1df4cdddae4da	HTTP 404: https://huayuarc.github.io/debs/com.crassna.appcardlite
+https://huayuarc.github.io/	com.ichitaso.iconorder	1.0.4	iphoneos-arm64e	9a6f55622891e60c1873e2c37fef68b36c4c798f7f8115ecee9f10fe5732f7bb	Command '['dpkg-deb', '--info', '/home/runner/work/archive_huayuarc/archive_huayuarc/debs/iphoneos-arm64e/tmpi11kw2pw.part']' returned non-zero exit status 2.
