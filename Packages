@@ -15734,6 +15734,25 @@ Icon: https://m4fn3.github.io/repo/web/images/Mikkyy.png
 SileoDepiction: https://m4fn3.github.io/repo/web/depictions/Mikkyy.json
 
 Package: com.m4fn3.mikkyy
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: m4fn3
+Installed-Size: 1500
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.m4fn3.mikkyy_1.0.1_iphoneos-arm64_2921ef727d4c3a35605fe1368bb42cf811a52605c353f788a7af4f3c1a46c595.deb
+Size: 346660
+MD5sum: a5a195bb3c55a1f09dde4751beab48c6
+SHA1: 415cf1de968e49b0e9ac52e9749913e8a9a7c6e3
+SHA256: 2921ef727d4c3a35605fe1368bb42cf811a52605c353f788a7af4f3c1a46c595
+SHA512: a9466a76dab7b154e8b23049ce6da7a7cfa28f8a91373009b855acb7ac7a3c946d7bfacf05a424f170dcf3aefe8b28781a60e3806335d9faaf2596b04dba477a
+Description: Modern, lightweight theme engine for iOS 16 through 26. Applies icon themes to the Home Screen, Dock, App Switcher, Share Sheet, Settings, folder previews, and live Calendar and Clock icons.现代化轻量主题引擎，支持 iOS 16 ~ 26。可为主屏幕、程序坞、应用切换器、分享面板、设置、文件夹预览以及日历、时钟动态图标应用图标主题。
+Name: Mikkyy 主題管理
+Author: m4fn3
+Icon: https://m4fn3.github.io/repo/web/images/Mikkyy.png
+SileoDepiction: https://m4fn3.github.io/repo/web/depictions/Mikkyy.json
+
+Package: com.m4fn3.mikkyy
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -15770,6 +15789,2152 @@ Name: Mikkyy 主題管理
 Author: m4fn3
 Icon: https://m4fn3.github.io/repo/web/images/Mikkyy.png
 SileoDepiction: https://m4fn3.github.io/repo/web/depictions/Mikkyy.json
+
+Package: com.m4fn3.mipip
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: mafu
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)
+Filename: debs/iphoneos-arm64/com.m4fn3.mipip_1.0.1_iphoneos-arm64_74f149dd2a220ed1da403e7577d8863fc403095b4367bcc5f7ae5e09fc6998d0.deb
+Size: 7452
+MD5sum: fae951b69106a5a7465ed332fd0a4c92
+SHA1: a5c00ee013b4e9aaf1269362f6622fd5f4d90ef2
+SHA256: 74f149dd2a220ed1da403e7577d8863fc403095b4367bcc5f7ae5e09fc6998d0
+SHA512: 3e62ea9bca9eb48a6ae641f221e476a4302d982aa4c5eb3b4395fdb0a8d8a8f271fbcead323e3132644857b0ceb37a80cdde7fbf9b187b43552cc4f25e6ab4c3
+Description: iOS17 pip tweak: hide from capture, show over multitasking app, free scale and snap, less interruptions iOS17点调整：隐藏捕获，在多任务处理应用程序上显示，免费缩放和捕捉，减少中断
+Name: miPiP 画中画
+Author: mafu
+icon: https://huayuarc.github.io/icon/miPiP.jpg
+
+Package: com.m4fn3.mipip
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: mafu
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)
+Filename: debs/iphoneos-arm64e/com.m4fn3.mipip_1.0.1_iphoneos-arm64e_2dc5807eb144e2c96c8975c5e1031fed0f4df3177e306a3026f3b2ec107a2586.deb
+Size: 7392
+MD5sum: 4d02d7b936f318e481f5e139002afe79
+SHA1: cffabb232dbcee99d19446f2ed192a3b905ffb44
+SHA256: 2dc5807eb144e2c96c8975c5e1031fed0f4df3177e306a3026f3b2ec107a2586
+SHA512: 26a51239fb7f7e705864831285a17cac488c89f03c3f2792c566e80a54f03fad43ea2aa7c68dbb37806c6c9f5545fb687f7b13aea38aa175f1567e447b78a59d
+Description: iOS17 pip tweak: hide from capture, show over multitasking app, free scale and snap, less interruptions iOS17点调整：隐藏捕获，在多任务处理应用程序上显示，免费缩放和捕捉，减少中断
+Name: miPiP 画中画
+Author: mafu
+icon: https://huayuarc.github.io/icon/miPiP.jpg
+
+Package: com.mallin.phoneresolutionfix
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: Mallin <mallin@example.local>
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Filename: debs/iphoneos-arm64/com.mallin.phoneresolutionfix_1.1_iphoneos-arm64_36f04a671050c6bed7e84bda2c760d0064da4fec21527ded387880400af1a6f4.deb
+Size: 27420
+MD5sum: ea942da895ff758e1723596eb1f1d296
+SHA1: 0c1c524f48c32ab9e062ae6020965745d3b954af
+SHA256: 36f04a671050c6bed7e84bda2c760d0064da4fec21527ded387880400af1a6f4
+SHA512: 231b1c7d742e2f5a249353d472d83158ae28d70a5828a57d6b1704f18aa00f58457d6e8752e4591c1e06c0ae624d0fec4e8abc58e37654b1a2d3de1ce0ee94e7
+Homepage: https://local.mallin/phone-resolution-fix
+Description: 修复iPhone 14Pro机型将显示分辨率由2556x1179改成2796x1290后导致电话APP的相关显示错位问题。直接安装后Respring即可生效！修改显示分辨率方法（仅供参考）：进入var/Managed Preferences/mobile文件夹找到com.apple.iokit.IOMobileGraphicsFamily.plist这个文件，打开修改，保存，然后“重启空间”或者“重启手机”即可。
+Tag: role::enduser
+Name: iPhone 14Pro Resolution Fix
+Author: Mallin
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+
+Package: com.mallin.phoneresolutionfix
+Architecture: iphoneos-arm64
+Version: 1.2.13
+Section: Tweaks
+Maintainer: Mallin <mallin@example.local>
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Filename: debs/iphoneos-arm64/com.mallin.phoneresolutionfix_1.2.13_iphoneos-arm64_54b57d70113b2a62fd9308f45f99cd9dd37ad75faa29c35f2c6267f892e6c0bf.deb
+Size: 34264
+MD5sum: cab50cacd103c2648dc3884c7c602d2e
+SHA1: efbc4c104542ba845ed6a461c055f509c744c3d7
+SHA256: 54b57d70113b2a62fd9308f45f99cd9dd37ad75faa29c35f2c6267f892e6c0bf
+SHA512: 1071277df82ad2e02452a96065cebace464dc9a98cfb46779bf35992e88c5702ba2a8dac7b04ea2606452c83bfd811d2ed14184ff497ffb4fd6563a46850bebc
+Homepage: https://local.mallin/phone-resolution-fix
+Description: 修复iPhone 14Pro机型将显示分辨率由2556x1179改成2796x1290后导致电话APP的相关显示错位问题。直接安装后Respring即可生效！修改显示分辨率方法（仅供参考）：进入var/Managed Preferences/mobile文件夹找到com.apple.iokit.IOMobileGraphicsFamily.plist这个文件，打开修改，保存，然后“重启空间”或者“重启手机”即可。
+Tag: role::enduser
+Name: iPhone 14Pro Resolution Fix
+Author: Mallin
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+
+Package: com.mallin.phoneresolutionfix
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: Mallin <mallin@example.local>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Filename: debs/iphoneos-arm64e/com.mallin.phoneresolutionfix_1.1_iphoneos-arm64e_ec9b269d67760e479425e192994f9f2fa2245ea186b3a0b5f1330665f3f1084c.deb
+Size: 27500
+MD5sum: a6d04119a008e320837fa2caef163342
+SHA1: 27dad95cb65e2c60105eab7af36f58a827ebeeb1
+SHA256: ec9b269d67760e479425e192994f9f2fa2245ea186b3a0b5f1330665f3f1084c
+SHA512: d434e40e01d60edb396814e59f6165d796a188523b6a04e633b884969bb71363113f5ec75cf50280da16b8fe529528904442e9ecf7d93b18ace98982609c8fe0
+Homepage: https://local.mallin/phone-resolution-fix
+Description: 修复iPhone 14Pro机型将显示分辨率由2556x1179改成2796x1290后导致电话APP的相关显示错位问题。直接安装后Respring即可生效！修改显示分辨率方法（仅供参考）：进入var/Managed Preferences/mobile文件夹找到com.apple.iokit.IOMobileGraphicsFamily.plist这个文件，打开修改，保存，然后“重启空间”或者“重启手机”即可。
+Tag: role::enduser
+Name: iPhone 14Pro Resolution Fix
+Author: Mallin
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+
+Package: com.mallin.phoneresolutionfix
+Architecture: iphoneos-arm64e
+Version: 1.2.13
+Section: Tweaks
+Maintainer: Mallin <mallin@example.local>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Filename: debs/iphoneos-arm64e/com.mallin.phoneresolutionfix_1.2.13_iphoneos-arm64e_3c708109f8342b88ccd9297e507bb1cb451829e3e48c3c296a05ca26ac01f988.deb
+Size: 34380
+MD5sum: acf2fb583531a8792ed5aa955fe6f487
+SHA1: bc357147bcefbb045b3bca856a2b03742a4e0f64
+SHA256: 3c708109f8342b88ccd9297e507bb1cb451829e3e48c3c296a05ca26ac01f988
+SHA512: 874250ecf91a560240de196216bc5ddad532d5ba4eb1234a7fa2f734cd4efa2c8ce8a8be4a219a316eac4288018e9467ef974166ac3bd54ac888d7a2e7c9ffb4
+Homepage: https://local.mallin/phone-resolution-fix
+Description: 修复iPhone 14Pro机型将显示分辨率由2556x1179改成2796x1290后导致电话APP的相关显示错位问题。直接安装后Respring即可生效！修改显示分辨率方法（仅供参考）：进入var/Managed Preferences/mobile文件夹找到com.apple.iokit.IOMobileGraphicsFamily.plist这个文件，打开修改，保存，然后“重启空间”或者“重启手机”即可。
+Tag: role::enduser
+Name: iPhone 14Pro Resolution Fix
+Author: Mallin
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+
+Package: com.mg.adskips
+Architecture: iphoneos-arm64
+Version: 3.3.0
+Section: Tweaks
+Maintainer: M哥
+Installed-Size: 144
+Filename: debs/iphoneos-arm64/com.mg.adskips_3.3.0_iphoneos-arm64_cf933b9542a17c2dfbe6da41cfee857b42f30decba25c463b67aad1494a47ed2.deb
+Size: 24032
+MD5sum: 810441b1c82ee3cbe8abb069bfd73911
+SHA1: 5a4702759368625084dde77fc6c09e7f8346c602
+SHA256: cf933b9542a17c2dfbe6da41cfee857b42f30decba25c463b67aad1494a47ed2
+SHA512: 86a37d3f1e49c0d42431fb452b29c5fc1d099ade1ab4285c96886da8c9b823462e27f1c6ab19e241c99d206afb37102d61c4560e639e28c406fd014acfb78a84
+Description: 快速跳过开屏广告
+ * 适配大多数应用，具体自测
+ * 插件注入 com.apple.UIKit，有冲突自行禁用
+Name: AdSkip 跳过启动广告
+Author: M哥
+Icon: https://TrollStoreX.Github.io/sileodepiction/AdSkip/icon.png
+
+Package: com.mg.adskips
+Architecture: iphoneos-arm64e
+Version: 3.3.0
+Section: Tweaks
+Maintainer: M哥
+Installed-Size: 144
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/iphoneos-arm64e/com.mg.adskips_3.3.0_iphoneos-arm64e_1dd931f3be149dfda42fc2caef2eb737a0e10023e7586be44574563cbde58efa.deb
+Size: 23624
+MD5sum: 7c03dd941ae6417c2573d58702797ea6
+SHA1: 5f7a35a744d95167012fb9bdf9762a1e1d64e777
+SHA256: 1dd931f3be149dfda42fc2caef2eb737a0e10023e7586be44574563cbde58efa
+SHA512: 02a54d2e26874417774f4c8db8f1ede80173135b5e830ecd455e05d55f69f6948c60f3600a9cf50d8696685e32c3630b70a2f67d889f79ca58f2e422ebe9242e
+Description: 快速跳过开屏广告
+ * 适配大多数应用，具体自测
+ * 插件注入 com.apple.UIKit，有冲突自行禁用
+Name: AdSkip 跳过启动广告
+Author: M哥
+Icon: https://TrollStoreX.Github.io/sileodepiction/AdSkip/icon.png
+
+Package: com.miguelaka95.bettercc
+Architecture: iphoneos-arm64
+Version: 0.0.55
+Section: Tweaks
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.miguelaka95.bettercc_0.0.55_iphoneos-arm64_10b690d0513833406ac60319bbaf952f9df365e3504370d00678fc2a369f6b44.deb
+Size: 151168
+MD5sum: e0fc601b36970ff36cca19225d2e216b
+SHA1: e158c35c1b2757e0b7df1d18596ad5f2b5ef1102
+SHA256: 10b690d0513833406ac60319bbaf952f9df365e3504370d00678fc2a369f6b44
+SHA512: 93b336e77e4ee8e5e7998703b7d0c5be6d7e2375ecb393916119fdb863861cbd3dfad1ba48366c39a61b31ef8df5fbd0a70fba428bca209fbaa669313ff050e5
+Description: 自定义您的控制中心！
+ * 隐形模块。
+ * 重新排列连接切换。
+ * 更改模块大小。
+ * 天气小工具。
+Name: BetterCC
+Author: Miguelaka95
+Depiction: https://havoc.app/depiction/bettercc
+Icon: https://media.havoc.app/6212cb4b1a0d080cf953fa61
+
+Package: com.miguelaka95.bettercc
+Architecture: iphoneos-arm64e
+Version: 0.0.51
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 1828
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.miguelaka95.bettercc_0.0.51_iphoneos-arm64e_3c99a16049378454b634cdaf24ff06535563b345845b7ddb964d77bc8c77dba9.deb
+Size: 141828
+MD5sum: ec56c5bfa2334e35acc0704e60fca47d
+SHA1: 9687077008887d20bb91b82d59dcc3a60ed7e231
+SHA256: 3c99a16049378454b634cdaf24ff06535563b345845b7ddb964d77bc8c77dba9
+SHA512: b85f8a8c87e262205607028884318abb588456199f2db5837f8377a1a7a2c84370d817a77d0671a6ccdbf6572e0b737933b1deb3acffe1dbe8f9b18a44a19d1f
+Description: 自定义您的控制中心！
+ * 隐形模块。
+ * 重新排列连接切换。
+ * 更改模块大小。
+ * 天气小工具。
+Name: BetterCC
+Author: Miguelaka95 <miguelaka95@gmail.com>
+Icon: https://media.havoc.app/6212cb4b1a0d080cf953fa61
+
+Package: com.mikey820.pleasedontstopthemusic
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Section: Tweaks
+Maintainer: mikey820 <mikey820@users.noreply.github.com>
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.mikey820.pleasedontstopthemusic_2.1.0_iphoneos-arm64_2105a4738b4c3c655b88c4426d04d788b4c155e8db3256aa8a9ad78ce5cfc529.deb
+Size: 32668
+MD5sum: 35655b578255b9e8798512bcc13e0ae4
+SHA1: e0d624456bbe14abe72ffa12f3e18527da73d4ad
+SHA256: 2105a4738b4c3c655b88c4426d04d788b4c155e8db3256aa8a9ad78ce5cfc529
+SHA512: 8dd45e563647a0a8b4b4253644eba3ab16102769d70b96809c6d48d2e3028e62bd7b981da500746ae1a43f481d6cb1aac75f829c476cdf3ce4186dbae539bfce
+Description: Prevent apps (e.g. Roblox) from pausing your background music 阻止应用程序（例如Roblox）暂停你的背景音乐
+Name: 请别暂停音乐
+Author: mikey820
+Icon: https://huayuarc.github.io/icon/PleaseDontStopTheMusic.jpg
+
+Package: com.mikey820.pleasedontstopthemusic
+Architecture: iphoneos-arm64
+Version: 2.2.0
+Section: Tweaks
+Maintainer: Mikey <splatmikey@gmail.com>
+Installed-Size: 191
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.mikey820.pleasedontstopthemusic_2.2.0_iphoneos-arm64_e731e32e592a3b1777eed5153ee66fe7a47a226abb7d9ba4676ff8102ff5e5cd.deb
+Size: 32660
+MD5sum: 9baeec185d9f1ff9a321dd9dda1ac21a
+SHA1: b9d92eca47102cbf6407162c8fe602324dbf562d
+SHA256: e731e32e592a3b1777eed5153ee66fe7a47a226abb7d9ba4676ff8102ff5e5cd
+SHA512: 009ea28e90ba910a018bb20dc517f9ae86f71e86ed35658670a5707debaccdd586ed01e7cebefda36acf16d52ac83f813e31c9a68a74f6dc6d0775ed7d6aa147
+Description: Prevent apps (e.g. Roblox) from pausing your background music 阻止应用程序（例如Roblox）暂停你的背景音乐
+Author: Mikey <splatmikey@gmail.com>
+Name: 请别暂停音乐
+Icon: https://huayuarc.github.io/icon/PleaseDontStopTheMusic.jpg
+
+Package: com.mikey820.pleasedontstopthemusic
+Architecture: iphoneos-arm64e
+Version: 2.1.0
+Section: Tweaks
+Maintainer: mikey820 <mikey820@users.noreply.github.com>
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.mikey820.pleasedontstopthemusic_2.1.0_iphoneos-arm64e_52ad5e93e2152642b111327dbb70f5d4d1133218b0a7af0a33ad34849535bdf0.deb
+Size: 32572
+MD5sum: dc428a5ca817280149ca21697107b70d
+SHA1: 2a126b9060fbfb927af66a03e99870ab5b63fb36
+SHA256: 52ad5e93e2152642b111327dbb70f5d4d1133218b0a7af0a33ad34849535bdf0
+SHA512: 07941531694147f0d812ca61e41923bd87f7172a50c02c2e6831028caf858004f45f54c2bbc3ea09cee8ccc25b732cfc6429cfc841ab0a22b40e10e1457eca61
+Description: Prevent apps (e.g. Roblox) from pausing your background music 阻止应用程序（例如Roblox）暂停你的背景音乐
+Name: 请别暂停音乐
+Author: mikey820
+Icon: https://huayuarc.github.io/icon/PleaseDontStopTheMusic.jpg
+
+Package: com.mikey820.pleasedontstopthemusic
+Architecture: iphoneos-arm64e
+Version: 2.2.0
+Section: Tweaks
+Maintainer: Mikey <splatmikey@gmail.com>
+Installed-Size: 191
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.mikey820.pleasedontstopthemusic_2.2.0_iphoneos-arm64e_80bb7a6337b28b8bf870e04294e83b823a6cea453279ccc38faa441b7336ea44.deb
+Size: 35084
+MD5sum: b14bc10c26aefcb5dd3ec8096d35b280
+SHA1: c4fca9e7287ed343b469392ec46b45c7712b6e05
+SHA256: 80bb7a6337b28b8bf870e04294e83b823a6cea453279ccc38faa441b7336ea44
+SHA512: 7770b97e18b23a30595b03a56a7fb043134ab61d549b28e01e10e8dcc87aba2e2f1efee784d042aff7e2dffd62c394d9511fafe7ce60ce2e03c57430ed574dbc
+Description: Prevent apps (e.g. Roblox) from pausing your background music 阻止应用程序（例如Roblox）暂停你的背景音乐
+Author: Mikey <splatmikey@gmail.com>
+Name: 请别暂停音乐
+Icon: https://huayuarc.github.io/icon/PleaseDontStopTheMusic.jpg
+
+Package: com.mikifp.griddy
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Section: Tweaks
+Maintainer: mikifp
+Installed-Size: 272
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.dao.griddy, xyz.cypwn.griddy
+Filename: debs/iphoneos-arm64/com.mikifp.griddy_1.2.1_iphoneos-arm64_a64520a5956c01cd75a6a27d2d6cfb631835a536724f37812fcdfbd4d8643738.deb
+Size: 27352
+MD5sum: 90d03bb0d4a294d805f2bee09e922fbb
+SHA1: d25d6c9c0dec33e3a5df88ab311f358ea83d4998
+SHA256: a64520a5956c01cd75a6a27d2d6cfb631835a536724f37812fcdfbd4d8643738
+SHA512: 961ab4da9ab3b33110495ce2c6643948bb871a83c0a2bc8f8abb31840ecca6ce2a74e6ab4c073ac6438c804c93ea307720e730fee99eb91bab7998568b4335b6
+Description: 让你的程序图标在桌面随意摆放。
+Name: Griddy 图标随意摆
+Author: mikifp
+icon: https://huayuarc.github.io/icon/Griddy.jpg
+
+Package: com.mikifp.griddy
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: Tweaks
+Maintainer: mikifp
+Installed-Size: 272
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.dao.griddy, xyz.cypwn.griddy
+Filename: debs/iphoneos-arm64e/com.mikifp.griddy_1.2.1_iphoneos-arm64e_1bfc073a070baeae89c509bacea3ec1037fc3fb7b3a03efbfdf6a7d28b4c840b.deb
+Size: 26372
+MD5sum: c648477bd3ec1ee45f1ca16f0980eb50
+SHA1: 750dc9a2028d5f7834ed1f3083d67d8667350b23
+SHA256: 1bfc073a070baeae89c509bacea3ec1037fc3fb7b3a03efbfdf6a7d28b4c840b
+SHA512: d243dacf0aa4b9a74c93406732db1e6cad998301b3a3e054b60da5495053cd14936d3591a9edc11b9d181a728e653bbd56b0a4f5486fd4e03b9fb678f976ae92
+Description: 让你的程序图标在桌面随意摆放。
+Name: Griddy 图标随意摆
+Author: mikifp
+icon: https://huayuarc.github.io/icon/Griddy.jpg
+
+Package: com.minis.fxxxksvideotool
+Architecture: iphoneos-arm64
+Version: 3.62
+Priority: optional
+Section: Tweaks
+Maintainer: Minis
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.minis.fxxxksvideotool_3.62_iphoneos-arm64_a3d7719e62276cb1f1de75d9b5a1560f0997297297c321d50c3d0e1f60d8b9a1.deb
+Size: 120172
+MD5sum: 951c0c349e7dd7d41aebad700b61fa06
+SHA1: 7d5f5bed5dd1f361df1ac2b085be9e28de33ac68
+SHA256: a3d7719e62276cb1f1de75d9b5a1560f0997297297c321d50c3d0e1f60d8b9a1
+SHA512: cfa476ea8a6b02f9d1344caad052880343afe153e5e49d11178cb052e18e7d4c3a799f8ebeb5b1ce5b1df6e4b225857863602c118a4e48c590967037188832ff
+Description: Kuaishou video tool.
+ * 插件入口：精选页面一>长按插件面板一>更多功能一>其他功能一>呼出方式（长按、双击、悬浮）
+ * 悬浮方式为显示一个小眼睛图标
+Name: FxxxKSVideotool 快手工具
+icon: https://huayuarc.github.io/icon/fxxxksvideotool.jpg
+
+Package: com.minis.fxxxksvideotool
+Architecture: iphoneos-arm64e
+Version: 3.62
+Priority: optional
+Section: Tweaks
+Maintainer: Minis
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.minis.fxxxksvideotool_3.62_iphoneos-arm64e_139916b10f04a407c4da9e2b0b80f9e2879816afeecb9f010c662614a99eb319.deb
+Size: 124788
+MD5sum: 3e725b1061ab3b7cac96d10710c6d184
+SHA1: bbf748c7ceaef8d7049c4d997714ad2662c83559
+SHA256: 139916b10f04a407c4da9e2b0b80f9e2879816afeecb9f010c662614a99eb319
+SHA512: f3bd4b4713d84bd6dedcc1a31f0e39917aba3a5982b4cd07ac63f83aaf684a63bcffce4fa38b9767656e5606df1a5301a5a17d19acc3ed350a738978f7472a2f
+Description: Kuaishou video tool.
+ * 插件入口：精选页面一>长按插件面板一>更多功能一>其他功能一>呼出方式（长按、双击、悬浮）
+ * 悬浮方式为显示一个小眼睛图标
+Name: FxxxKSVideotool 快手工具
+icon: https://huayuarc.github.io/icon/fxxxksvideotool.jpg
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64
+Version: 1.7.7
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 756
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.lockscreengradientclock_1.7.7_iphoneos-arm64_98ecd3480312bc2168db1f87254fb904bc7b798744e4da9ceaa0d2aa1513e470.deb
+Size: 213092
+MD5sum: c0da529ac5ad0d4d8c4c2f6fea4cf7fa
+SHA1: 19fe5b4275b6575e814df8b75f12be8c69b40dde
+SHA256: 98ecd3480312bc2168db1f87254fb904bc7b798744e4da9ceaa0d2aa1513e470
+SHA512: c864592ce59d3799a92211e124df57fb0ed94eec593f3d7d1ad00b5a11629a63e5d8202b6e2af8fea33be2522ed3d84c577ec00498290700ee803ad56ae56276
+Description: 更新说明：修复注销后日期和农历不渐变
+Name: 88 液态锁屏时间渐变
+Author: MoWang
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64e
+Version: 1.7.7
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 756
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.lockscreengradientclock_1.7.7_iphoneos-arm64e_9a7bc242ec117ee8d3d5c77623fa54bbf79582afd649ea70425e292ff9fff479.deb
+Size: 212860
+MD5sum: 4457563a3a0c72d9a4b23a165087920a
+SHA1: 8ce8ff80b6bcc69374626c51e3c73f590ba11687
+SHA256: 9a7bc242ec117ee8d3d5c77623fa54bbf79582afd649ea70425e292ff9fff479
+SHA512: b5cd5726ab309e264435404cab35d9fd88e630206b5a3ce7848a23844333946cb7e11ce058adb387f93381a51e0247dea41b0b4ab7dfb272c559c199824506df
+Description: 更新说明：修复注销后日期和农历不渐变
+Name: 88 液态锁屏时间渐变
+Author: MoWang
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64
+Version: 1.0.20~samsung12
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 904
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.rainbowkeyboard_1.0.20~samsung12_iphoneos-arm64_14a3f953e410018eea5d3c4cc34375ba5729fcc6e69f5432c68f9124ced0eb3c.deb
+Size: 583816
+MD5sum: 9c5e41a5a878b4decf21d3212c19f0a6
+SHA1: 1a5873e7475c941dbe6368340dc87f3c12ca1773
+SHA256: 14a3f953e410018eea5d3c4cc34375ba5729fcc6e69f5432c68f9124ced0eb3c
+SHA512: 12d055fe3b29edbba7458c26f8bd9dc4afb4c842e757643d729ee9b2ee0ab797cd1b7121e53d10e642a681aa62abdde430ed6f348ca8d1c8b668bfbc81bbde91
+Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
+ 自定义键盘底色、键帽颜色、霓虹亮度与浓淡。
+ 支持粗彩色键框、键缝背光、候选词渐变及独立开关。
+ 设置内含离线详情与效果预览。
+ 支持跨 App 配色同步，每个滑条附有作用与调节说明。
+Name: 彩虹键盘光效
+Author: MoWang
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64
+Version: 1.0.26~lite4
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 672
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.rainbowkeyboard_1.0.26~lite4_iphoneos-arm64_d45176703220b954033a0b51a411a92d2da62097d9167a23aac9d324b58a7c8c.deb
+Size: 134904
+MD5sum: 25bb0677cf80a7e58e8fd4575511b0d7
+SHA1: 21f6300b045f9f33532df26e9d6d873fbfa836e0
+SHA256: d45176703220b954033a0b51a411a92d2da62097d9167a23aac9d324b58a7c8c
+SHA512: 8e42f90b246a3c7d1bb8769504020c074e39aa6114f8cef9685c80625121a90624bd49e8cbd2be4c69b3b33779d2596215b3efb7f1192942214af716b701cb0a
+Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
+ 四种固定预设、三星风格扩散与霓虹圆环两种样式。
+ 自定义键盘底色和键帽颜色，保留按下态及跨 App 配色兼容。
+ 键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。
+ 九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。
+ 最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。
+ 移除键帽弹跳、调节滑条、诊断写盘和内置大预览图。
+Name: 彩虹键盘 · 轻量版
+Author: MoWang
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 948
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.rainbowkeyboard_1.1.3_iphoneos-arm64_1f793c9277893047129c3b6ebb0e0d250a34b3728392d364bbdaa8464893a27b.deb
+Size: 592944
+MD5sum: ad9264426c9630f412743a4e18efb070
+SHA1: 39f18a3bdd0d33fa0ed70d308205d1687301f1b7
+SHA256: 1f793c9277893047129c3b6ebb0e0d250a34b3728392d364bbdaa8464893a27b
+SHA512: 8facf6243126ebf289139c588244fb08320ea71e064a125d8523eeaa3594037acc358a14fe0bb19f5f833ecbe50dcab0b75a0f509da2f0d1b021b7c9954b462a
+Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生键盘、微信输入法与 QQ。
+ 【本次更新】
+  - 感谢卡诺（Kanuo）后期持续对本插件的更新与维护
+  - 卡诺的越狱源：https://jimkanuo.github.io/apt-repo/
+ 【核心功能】
+  - 纯黑键帽搭配霓虹扩散，自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变，均可独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 跨 App 配色同步，每个滑条都附作用说明，设置内置离线效果预览
+  - 优化配置读取与键盘重刷，兼容 QQ 浅色键盘配色
+  - 优化输入事件路径，减少打字时主线程扫描与整键盘重绘，更流畅省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 Rootless（arm64）版
+Name: 彩虹键盘光效
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Author: MoWang
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 968
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.rainbowkeyboard_1.1.7_iphoneos-arm64_c1c32c511584258c2c1d97eb57d4adba4ffceb42651e8abae58d2e382b7674e5.deb
+Size: 598680
+MD5sum: 1334742fc91f522d624385190bcfd33e
+SHA1: 237c4e03fbead17705f7d0b012f98dcc01620bb4
+SHA256: c1c32c511584258c2c1d97eb57d4adba4ffceb42651e8abae58d2e382b7674e5
+SHA512: 53edd746382310f81851ab5a8f77ad1f5935ff51456068a236a80c04a7b1ae0eb826237f88e67b57a7deb5bf66f025558f74d071bc11950a92fa68ab3fe7e92a
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新 V1.1.7】
+  - 高级设置里的候选词颜色已删除，移到主页"候选词"里面
+  - 修复不跟手问题
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 动态候选渐变、主题光效
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 Rootless（arm64）版
+Name: 彩虹键盘光效
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Author: MoWang
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 984
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.rainbowkeyboard_1.2.0_iphoneos-arm64_6cd2ee31c7000a3dc1b48393bf026c4065152f299d0bbcca6a34ea5efe27583c.deb
+Size: 604220
+MD5sum: 1628cf1474f4cd8840f5e2c448e33d4e
+SHA1: fa8f87f847177b64f9f86cccc7554212e60b62c8
+SHA256: 6cd2ee31c7000a3dc1b48393bf026c4065152f299d0bbcca6a34ea5efe27583c
+SHA512: 0632f0e50a16010249df300b22e35a36e1c417bb103896194f3457d147a7bf77a69d546d32404557b3c02d03e39fb60939dd925273d7065ce373a2695979cff4
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新】
+  - 修复光效卡顿问题
+  - 修复波纹光效
+  - 修复扩散光效
+  - 新增流光底韵光效
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 动态候选渐变、主题光效、智能模式、流光底韵光效
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 Rootless（arm64）版
+Name: 彩虹键盘光效
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Author: MoWang
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64
+Version: 1.2.60
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 1028
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.rainbowkeyboard_1.2.60_iphoneos-arm64_2337e977f2fe970a264c4672a266a3bacead834941382f3ffc050ba4a9c970d5.deb
+Size: 618996
+MD5sum: 02982bafa9a745cd03972dfa70a064d2
+SHA1: 54a27a9c9049e7a0e318777421ff1050ca3924fc
+SHA256: 2337e977f2fe970a264c4672a266a3bacead834941382f3ffc050ba4a9c970d5
+SHA512: 4e5789c16b2f7033ebf619e426111afeb60db2b3334764075a30f4b489e6f7dfbf2164dfd5037760b9adec80058a4d2f6e9414268af906e5e0a3577d6f196aa0
+Description: 修复表情渐变 bug
+Name: 彩虹键盘光效
+Author: MoWang
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64e
+Version: 1.0.20~samsung12
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 900
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.rainbowkeyboard_1.0.20~samsung12_iphoneos-arm64e_44c021476b863ddace3bbcab6e7901c1bcda26bf56f86e0a161be218c8f74b9d.deb
+Size: 584240
+MD5sum: 8986502950bab98cc7a6b9a9f3102e6c
+SHA1: cde622819f4cf1b0812ae77b4383ad1f1d9a9d4b
+SHA256: 44c021476b863ddace3bbcab6e7901c1bcda26bf56f86e0a161be218c8f74b9d
+SHA512: f14fae54b700196e2194135651017cd2cc13699385803c953a22085cc030971777357989fb6f526c2d68b24ab5abc9e718d6ceeafe4c346542d61205e994bb78
+Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
+ 自定义键盘底色、键帽颜色、霓虹亮度与浓淡。
+ 支持粗彩色键框、键缝背光、候选词渐变及独立开关。
+ 设置内含离线详情与效果预览。
+ 支持跨 App 配色同步，每个滑条附有作用与调节说明。
+Name: 彩虹键盘光效
+Author: MoWang
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64e
+Version: 1.0.26~lite4
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 384
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.rainbowkeyboard_1.0.26~lite4_iphoneos-arm64e_275cf589ecffd80b5ba0b88428cf35e3267b161420bdd909f9b151e798129c4e.deb
+Size: 93096
+MD5sum: f36c6ad426a9a431e2e00fbd9d02b97d
+SHA1: 41a34dfca52a8cf7d0ceb95fee052505cae8063e
+SHA256: 275cf589ecffd80b5ba0b88428cf35e3267b161420bdd909f9b151e798129c4e
+SHA512: ce12f56be5b7d854a2fcd479aa54a1ee3aeb97e838e35ba810766d89a52452f44653f5478548ad4d3823dad7a4b72fad64560bb63a3d9435ab5afc3c1b6eff30
+Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
+ 四种固定预设、三星风格扩散与霓虹圆环两种样式。
+ 自定义键盘底色和键帽颜色，保留按下态及跨 App 配色兼容。
+ 键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。
+ 九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。
+ 最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。
+ 移除键帽弹跳、调节滑条、诊断写盘和内置大预览图。
+Name: 彩虹键盘 · 轻量版
+Author: MoWang
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 948
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.rainbowkeyboard_1.1.3_iphoneos-arm64e_314faec57a1a77f1a90febcd7646a15601e6d53ba7fcb521794caf7a71f49083.deb
+Size: 593536
+MD5sum: bb4c904bbe1b57744a7469f11f38fb46
+SHA1: 2e09102b7d03c28306333c38c2cb0cbee6c31599
+SHA256: 314faec57a1a77f1a90febcd7646a15601e6d53ba7fcb521794caf7a71f49083
+SHA512: ca29a1b38f094dcac87fd02eb4feff2dd3aab2c9279f889f1280f2a4f921ecd92ec9eb0bce8963f656475c0ab99ecd363a0dce20fac468dcda8b0bddc9c0009e
+Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生键盘、微信输入法与 QQ。
+ 【本次更新】
+  - 感谢卡诺（Kanuo）后期持续对本插件的更新与维护
+  - 卡诺的越狱源：https://jimkanuo.github.io/apt-repo/
+ 【核心功能】
+  - 纯黑键帽搭配霓虹扩散，自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变，均可独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 跨 App 配色同步，每个滑条都附作用说明，设置内置离线效果预览
+  - 优化配置读取与键盘重刷，兼容 QQ 浅色键盘配色
+  - 优化输入事件路径，减少打字时主线程扫描与整键盘重绘，更流畅省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 RootHide（arm64e）版
+Name: 彩虹键盘光效
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Author: MoWang
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 968
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.rainbowkeyboard_1.1.7_iphoneos-arm64e_1d6e4a21bf38a61e3af731aa034830a49eb979d6a3317007445aad23f90d36b9.deb
+Size: 599352
+MD5sum: 3c4f90fc248143a1c4a4ef46a7ac4f77
+SHA1: 51ebf798177197356555a8a07c213d4cee707466
+SHA256: 1d6e4a21bf38a61e3af731aa034830a49eb979d6a3317007445aad23f90d36b9
+SHA512: 81e7e2255ff49cd256130d271528a431740a3d15463e17425fd2a3ec065a81d80e1c3c0cf28638bee5b753670d226065aa38e22c6369d959cf2df6fce6f26953
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新 V1.1.7】
+  - 高级设置里的候选词颜色已删除，移到主页"候选词"里面
+  - 修复不跟手问题
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 动态候选渐变、主题光效
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 RootHide（arm64e）版
+Name: 彩虹键盘光效
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Author: MoWang
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 984
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.rainbowkeyboard_1.2.0_iphoneos-arm64e_7d57ab43a2ba0249a38b67afa7c8d17ad787d5e4477a3a7434abe9f0201b015a.deb
+Size: 604840
+MD5sum: a91cef2411440a043aa4ed38d38256d7
+SHA1: 7503b649d599d6eb074c0eb132a7c53ae7674087
+SHA256: 7d57ab43a2ba0249a38b67afa7c8d17ad787d5e4477a3a7434abe9f0201b015a
+SHA512: 43bd5a1c3605d1905c44e4551f64688d5aa171ccf453400c642da721f524d7c4f944a8a88d9dd8471379a9afb8f06a251f117d81a41cf5e69d48b94bf3b8c2c8
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新】
+  - 修复光效卡顿问题
+  - 修复波纹光效
+  - 修复扩散光效
+  - 新增流光底韵光效
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 动态候选渐变、主题光效、智能模式、流光底韵光效
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 RootHide（arm64e）版
+Name: 彩虹键盘光效
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Author: MoWang
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 1016
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.rainbowkeyboard_1.2.3_iphoneos-arm64e_6ff53395beaaa1cbf7672e0aa91950e66eca0be181893318dcf4a74166efe884.deb
+Size: 611556
+MD5sum: c3936c8cfbbef6807102a9ac921da81e
+SHA1: f9ba0987599c817e4313a565f39a3da5112579e7
+SHA256: 6ff53395beaaa1cbf7672e0aa91950e66eca0be181893318dcf4a74166efe884
+SHA512: 55f3eda2c3b8bc6ba2412831d17f33528683c7031e34b1650b22dc0c3d1dbfd0355fb0bd0edc40c3e82af3dab307c4c372facd46043f7e03f6663e453696f072
+Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
+ 自定义键盘底色、键帽颜色、霓虹亮度与浓淡。 支持粗彩色键框、键缝背光、候选词渐变及独立开关。
+ 设置内含离线详情与效果预览。 支持跨 App 配色同步，每个滑条附有作用与调节说明。 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光至强光，无键内混色。
+ 优化配置重复读取与键盘重刷，增加 QQ 浅色键盘配色兼容。
+ 优化输入事件路径，减少巨魔/越狱 App 打字时的主线程扫描与整键盘重绘。
+ 更新说明：更新键帽主题 and 键盘主题
+Name: 彩虹键盘光效
+Author: MoWang
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64e
+Version: 1.2.60
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 1044
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.rainbowkeyboard_1.2.60_iphoneos-arm64e_297125d0eae6d7f837f6563d31d93752855742642b265a26bf1a7d73f57f72b1.deb
+Size: 619400
+MD5sum: e39c2f3cdbd3e4bdfd11f6593ec9ab7a
+SHA1: e565bfc200820a852529e31bcc7d67fc0dbb5d97
+SHA256: 297125d0eae6d7f837f6563d31d93752855742642b265a26bf1a7d73f57f72b1
+SHA512: e9a8430419cd97577b39f049877498ff826c5b967f07d67954d6583903f2aeff4c789fb956d01b1160ac77c6d3aca330df6541afe22ca3b0c81510f604d92b18
+Description: 修复表情渐变 bug
+Name: 彩虹键盘光效
+Author: MoWang
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+
+Package: com.miro.libmiroshared
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 4936
+Depends: firmware (>=14.0)
+Filename: debs/iphoneos-arm64/com.miro.libmiroshared_1.0.2_iphoneos-arm64_43dd92e3ddd8f1113ba97db43acb937a3bc96ec5d18be4f753c4e32babc01a73.deb
+Size: 731008
+MD5sum: 13b9dd724ec753b874af5ee37ed98c9d
+SHA1: 02f7b4aaa0ca7605b7f380f3d9812c19b41f69ed
+SHA256: 43dd92e3ddd8f1113ba97db43acb937a3bc96ec5d18be4f753c4e32babc01a73
+SHA512: 174ce2ff857c8d7b8ae978cf51d2fcfda5e509c9cccb0cdfeb3fd3ad74ec6a6fc07cfb7d13928e5714d288c512450cb7f5fa1160d01c49af2b1f6bfa36d17049
+Description: 有些插件需要这个依赖
+Name: libMiROShared
+Author: MiRO <tweaks_support@miro92.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/libmiroshared/js.json
+
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 6384
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.mlgm.idata_1.0_iphoneos-arm64_4fd51a666baf2c628e4354e391068a94fc1285748784c025401c151547f61f39.deb
+Size: 2058276
+MD5sum: c6a201eb36f96e5c96424873822ee6d6
+SHA1: 08b803521dd3360cb66dfc624c4d8d80653bacfe
+SHA256: 4fd51a666baf2c628e4354e391068a94fc1285748784c025401c151547f61f39
+SHA512: 9895648c63fb0823a610c41a94ef80977a686c2e4e98d36d49891f57aac95599464855bceee4add058ac22951f444694e0958e418f05901fbca748ede1faf7cc
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 6648
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.mlgm.idata_1.1_iphoneos-arm64_59e2d371bac6f8e7ba6342bb04acc1c384e3ffffd49b959254fa978e0c759ca6.deb
+Size: 2113860
+MD5sum: 1fa0a1ff8585d94ec3390c92b1851e6c
+SHA1: d5af00dd69c18e3658c93e07b4695e60855b48aa
+SHA256: 59e2d371bac6f8e7ba6342bb04acc1c384e3ffffd49b959254fa978e0c759ca6
+SHA512: 32462aced90026eb5569debc10ba654f46800c3343b442102523f3061452843d05b4a82d6c96606fd27ce937f6885d42d04e08af845e1f7741049a88c3ad084b
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 8180
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: debs/iphoneos-arm64/com.mlgm.idata_1.2_iphoneos-arm64_367a1403aad5c71906a14fba83958f535ee10500fbf1d59d5b1e79e74999c0f9.deb
+Size: 2451368
+MD5sum: 52bb14e3527c0c1f03850bfa7244a4fe
+SHA1: 9438e1187ac05d46a8b1bbfe3b81b9798cfd13e2
+SHA256: 367a1403aad5c71906a14fba83958f535ee10500fbf1d59d5b1e79e74999c0f9
+SHA512: 034e02229f93913302568ceae917803dea703d72954bf9cea16c61eac439dc402bf60265469cd9947b6062221f0f79df19de9d464654588251c07c82d3d4ddcc
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 8228
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: debs/iphoneos-arm64/com.mlgm.idata_1.2.1_iphoneos-arm64_c81d67d901b75d39e6905ac3767398d6eb4aefe2faa17fe5d36df4aa49d5b4ff.deb
+Size: 2460484
+MD5sum: b4cc531fbc0ce7de942083b89643fa0e
+SHA1: 90bb0cb85154f485c52c37858d6ab5a3189e33bc
+SHA256: c81d67d901b75d39e6905ac3767398d6eb4aefe2faa17fe5d36df4aa49d5b4ff
+SHA512: 3129d751f53e1019b54e3dbabe79f0037d972f2fcc859a97fd5d05bdf8b0b347a417fad486d69a52bad21b87d6fc011e55df7b03637dcea1ff6f7f7db12f1c81
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 6384
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.mlgm.idata_1.0_iphoneos-arm64e_2588de6f091e469bfd345cec81078094f8eed35ab3def8eee66d33b870e27e76.deb
+Size: 2056032
+MD5sum: ef7586d7a88ab2613cc9231452bb870f
+SHA1: 5ff59cd8adec29fb48af195addfaff61576eb891
+SHA256: 2588de6f091e469bfd345cec81078094f8eed35ab3def8eee66d33b870e27e76
+SHA512: 06d0b089198b85a5f503e9057479c4b37052a3edd73516257d40fe71e58d65e2aea7197069d1ce5df87a867c51ee3f91e49a3fd305670901286b89d9cfaf68db
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 6648
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.mlgm.idata_1.1_iphoneos-arm64e_749eda9355c2d83d97b56bcde9c966bf1cc5970015a10c97e838a00b5cbc5c89.deb
+Size: 2114316
+MD5sum: 7399ec281b7cf236d7b873132e73918e
+SHA1: 84496c0be399d323f7499d47707f8ddf1711e60c
+SHA256: 749eda9355c2d83d97b56bcde9c966bf1cc5970015a10c97e838a00b5cbc5c89
+SHA512: ab8a09e16dddb929cfe5a71122c6c92fc51f0cf0c092f3371e954a6faa02da29d9b5c4e807469c58c1a42baafdfc10ff31c6b73312450f4f3ee936afe7d129af
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 8180
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: debs/iphoneos-arm64e/com.mlgm.idata_1.2_iphoneos-arm64e_11142ef2950c2e4321d4af378d4f5ae12e3d41f273e852a453a01c067be3575f.deb
+Size: 2450156
+MD5sum: 0f8546880819085458ff9309ad212428
+SHA1: e80a46ca2442317022daa72629196e32592fc1d0
+SHA256: 11142ef2950c2e4321d4af378d4f5ae12e3d41f273e852a453a01c067be3575f
+SHA512: 357200f031d606918ea352eee25a6bd639311cc96f7bb3d12a67ded119ac0c13209ea1cbe0bd7bb7d717ed51cc4502c901774eea0cbc266e0fb6318ba2284d15
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 8228
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: debs/iphoneos-arm64e/com.mlgm.idata_1.2.1_iphoneos-arm64e_dc08e62cab8d6ece8be78c6672b76fd717c409c5c72b1870e60ce94dbf9b5831.deb
+Size: 2460812
+MD5sum: c82a05db882cb8e729af23d5b8848ecc
+SHA1: 807efa189e07d9f253465ee41bd00dc5ef24f2b9
+SHA256: dc08e62cab8d6ece8be78c6672b76fd717c409c5c72b1870e60ce94dbf9b5831
+SHA512: 773035aa5d4bdf30fc26dcfc81e95278608db5f6f4d304e64693c6c0b2bfeb916b2daba302d1d17584b721bb7b100bec17f8e293adf6fc5e0d6280dad16d9eb2
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.ilog
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 2364
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.mlgm.ilog_1.0_iphoneos-arm64_c9e3852d67315cbcc817a1f17f800aec5dff2ab9b0445d8950019e446964173a.deb
+Size: 1514340
+MD5sum: 4c260bd0af87480aa6d328d79c60c279
+SHA1: 66f84e9eab291ca5bcadb9ea8ff84f38ebb6692e
+SHA256: c9e3852d67315cbcc817a1f17f800aec5dff2ab9b0445d8950019e446964173a
+SHA512: 62649c07e68a66e385077f286f4da24bdafd66f793dcf9a00acf0ce6154f7c8e25ba51483bc73a520e85cb621b88efcbc69850d9ff64767c37325efbe3748ed2
+Description: 查看、预览、分享和清理 iOS 日志
+Name: iLog
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+
+Package: com.mlgm.ilog
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 2516
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.mlgm.ilog_1.1_iphoneos-arm64_bd89493c10c5c976d3c5cf6746faa271729188b15a5599ce9afd33e37ddb0c7f.deb
+Size: 1553964
+MD5sum: 0e74c351c3729b3d7124f1adaa4537f3
+SHA1: 93963401afbd022dec44e4f2e1bb4a9ce3999e2e
+SHA256: bd89493c10c5c976d3c5cf6746faa271729188b15a5599ce9afd33e37ddb0c7f
+SHA512: 0d414f65b3a26a281c5e5bfcae1deb129e129351f5c10933384ff506ee2ca0774b07deb093b9e9155494d315b4c602d089f0268659cf5593039e7cffc478d3fb
+Description: 查看、预览、分享和清理 iOS 日志
+Name: iLog
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+
+Package: com.mlgm.ilog
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 2516
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.mlgm.ilog_1.2_iphoneos-arm64_91c85671d8448c9a9cd590c8e515f3ef323bed74a04adcef5c80e96a6538409b.deb
+Size: 1555396
+MD5sum: 2ff4a75bc71bc65d0d28b5bc28bc94d0
+SHA1: 880306e156b093d361ab80849afaeb54ae1c3dff
+SHA256: 91c85671d8448c9a9cd590c8e515f3ef323bed74a04adcef5c80e96a6538409b
+SHA512: 770c376b5a31b3806b9f949fe64a189e2f3a4c777db9dc12adc8d3161b061722481df6db59d15bf282e054ec8ea8004c7cedd37bb3e056ff7d60a6d8ecab5914
+Description: 查看、预览、分享和清理 iOS 日志
+Name: iLog
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+
+Package: com.mlgm.ilog
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 2364
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.mlgm.ilog_1.0_iphoneos-arm64e_fdd5ac3e9d9e0a8a10fc81fc16993345461e944fa712e94063a8dc59b7a350e0.deb
+Size: 1514580
+MD5sum: fd96f36e459858822b1516cdc16c8a91
+SHA1: 2b18008e30d897d86fdd1a7e8933eb8276969ef5
+SHA256: fdd5ac3e9d9e0a8a10fc81fc16993345461e944fa712e94063a8dc59b7a350e0
+SHA512: 677228f94fa7eba4fe89bc2920a5a89695184acfed40f5a26878d65aeb5da2f81ed42dcf5e3b8ccc9c647769ed313b955781f01f6fbceb60230eb394c6702e7d
+Description: 查看、预览、分享和清理 iOS 日志
+Name: iLog
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+
+Package: com.mlgm.ilog
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 2516
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.mlgm.ilog_1.1_iphoneos-arm64e_645bd90e9c5792cc6a63bbc68f5a427642fecf6a7763130d8bb2247bffd8677b.deb
+Size: 1553652
+MD5sum: ef9fc4b2aa799c06dd3586a5da1e198e
+SHA1: 2257ee3988e32cafa074bfa96bd01ae91393f8ec
+SHA256: 645bd90e9c5792cc6a63bbc68f5a427642fecf6a7763130d8bb2247bffd8677b
+SHA512: 3d7d3f5cab85825a8c568948df7bfea41414d712e5b03a288bd20129aa12ac3a1a3d09d878b9eef654ca88b2aea4e233044d588743ac8ccc07a3846d4f62ef0b
+Description: 查看、预览、分享和清理 iOS 日志
+Name: iLog
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+
+Package: com.mlgm.ilog
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 2516
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.mlgm.ilog_1.2_iphoneos-arm64e_388ab19b88630fc08fddb0801be219e506b3c3b5495e6dae06b23803a05cb41b.deb
+Size: 1555468
+MD5sum: 790ed02873386fcdef88f925674694d5
+SHA1: b147af8ed14f7c7a86492e58a783cfd3fa22d859
+SHA256: 388ab19b88630fc08fddb0801be219e506b3c3b5495e6dae06b23803a05cb41b
+SHA512: b2cec694b2109fe081d2c127af8d4545a4d20b9dd42d60b9b9d646ffd9327b1da903364f52d9a2274282f0dbb8019a917071112c951047da0f1d9f5bafa765ed
+Description: 查看、预览、分享和清理 iOS 日志
+Name: iLog
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 4.5
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3136
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_4.5_iphoneos-arm64_a0eeacb488d73feaa7bec534e8c2b1978fdd8d795b3aff1c4f18bbdb224aff94.deb
+Size: 666688
+MD5sum: 08306ee9f460bdf7c39014694985b76e
+SHA1: 5f5779cb433a6ea56474b2f15ae78bad0e4d12e4
+SHA256: a0eeacb488d73feaa7bec534e8c2b1978fdd8d795b3aff1c4f18bbdb224aff94
+SHA512: 2918973ba14afa25d8efacc296a41d200c16c8f214c70c7cb9773a7eae193b84b862e3e9390f5d0f60b6605f585d936b02ab733b8f8b6e10fe372002c4104081
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Name: Kayoko 剪切板
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 4.6
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3156
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_4.6_iphoneos-arm64_a8a8759ebf89b4e491d6a8dd37129675fa9b4c230567661624666067a4ce012a.deb
+Size: 673084
+MD5sum: f35e832f59ba1cc0a8f46eefc6d8f1d5
+SHA1: efb6189ad46e4cdb8c876de5ccb0fa8f1d7e2fbc
+SHA256: a8a8759ebf89b4e491d6a8dd37129675fa9b4c230567661624666067a4ce012a
+SHA512: f63a3847e6109e810727ac2b30324b93b18bdc9cf1909b0e1159a3d1a63783f8183336009c3ce2f34f7112f5219930acceba024367b2530f2212b9d2d1857bf6
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Name: Kayoko 剪切板
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 4.7.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3172
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_4.7.1_iphoneos-arm64_16f1469635ec45e29c50d97367e90881fbcb82c37ce051d9c3bf809447a33ffd.deb
+Size: 662992
+MD5sum: f9f0cc530c6b6b9665e2c0c893bf1f2d
+SHA1: d04e3cd51862a52322d74f103717e81d3024598f
+SHA256: 16f1469635ec45e29c50d97367e90881fbcb82c37ce051d9c3bf809447a33ffd
+SHA512: 0dc767dab159396ade1dc5daeeb881e3b5933a1dfdba4b02a314a5af8b21faf630dc0e5859f96a037af83418f9c82c3a6a78e7decf49be33686342ebf92bd32f
+Description: Kayoko 剪切板，mlgm 基于「乌龙工作室」版进行二次修改
+Name: Kayoko 剪切板
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 4.7.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3172
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_4.7.2_iphoneos-arm64_5010b6c6f57afe794701142eaa9edff7d42d5cd52f612bdcc3d9135adda0f850.deb
+Size: 673084
+MD5sum: e70f06eda0596dd202c679a980c77649
+SHA1: d95f3d4c5971a6091ffd5e21b12b8f4a107a0259
+SHA256: 5010b6c6f57afe794701142eaa9edff7d42d5cd52f612bdcc3d9135adda0f850
+SHA512: 6c18300ebebd0cbac5d1a689f9d276cfc89c9bf0bd361eee9b9275dff5e859cb94da08837ff39678e08afde1a3325f1ffecbe2cfd47bcd9a918f2d641018ba64
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko 剪切板
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 4.8.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3236
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_4.8.1_iphoneos-arm64_cb8e7b66ee04766b264793c1e29de59a40129fe97912dd9214f0cf575980181e.deb
+Size: 689424
+MD5sum: 39c77ad03121a78215d37cfa60089003
+SHA1: ab1b0ad9b89b90ca47abbb60aa66ba763a83e222
+SHA256: cb8e7b66ee04766b264793c1e29de59a40129fe97912dd9214f0cf575980181e
+SHA512: 53d037ef461c7beb85a027f5c58c1f9f787873b73d6dfc79a4f833715cab55ababd8175090d72881fd2aa08f293f24fc4567a54bbc2dda47c18797a9c52972d9
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko 剪切板
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 4.9
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3236
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_4.9_iphoneos-arm64_752b625419785a39a68878365715f3295ee8664331fab35ad26906d573aa8c4d.deb
+Size: 687912
+MD5sum: 8879f2afa8d6f276f9d78663981aec22
+SHA1: 9af0c1d95d47b330e37f4e8df08729cf4d9b50ce
+SHA256: 752b625419785a39a68878365715f3295ee8664331fab35ad26906d573aa8c4d
+SHA512: d4079ff70df39080794b78734afe1f5e238a452c416322b4f2b209d1276c6d7946d1e436e45c61f2f0b4b7e9ed66775b67ccd5f03fc1852826279e7adadbfc7f
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.5
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3136
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_4.5_iphoneos-arm64e_05f0d61f8b02bbdab34b5c318eb1fec67eab56e24329ed59f2aa7df5cd2b5386.deb
+Size: 658892
+MD5sum: 78bedec8637cd3971f05c9728763c49a
+SHA1: dacfe00f8f22144a13a99c1117377036f4898f3c
+SHA256: 05f0d61f8b02bbdab34b5c318eb1fec67eab56e24329ed59f2aa7df5cd2b5386
+SHA512: 03b82bddd8c0f2ec53bcfd3ae45bda417ed53f09a119d2a5f40a73e574fdf550c122d958bfcfc3e339a1467041615192714f6f0bf4d8f80f3c9474a293662db8
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Name: Kayoko 剪切板
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.6
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3156
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_4.6_iphoneos-arm64e_dd61ca6c892e3012af8e3cf165a24db38d3f584131c43461065e796750ef0975.deb
+Size: 671012
+MD5sum: e35dbaed3b06c0c54ea825ebec1f342b
+SHA1: 6311190105ef478febb033654b982f9f9a4cf1f5
+SHA256: dd61ca6c892e3012af8e3cf165a24db38d3f584131c43461065e796750ef0975
+SHA512: 33f9300bb3fd3cfa4ecc40a6d9d63c76977c561407bf793a22fe2b9f0bb20ebbf1ff70a22475428e5eb54ae8abc3165e796481e637678dc44f8965ab82f9076c
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Name: Kayoko 剪切板
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.7.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3140
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_4.7.1_iphoneos-arm64e_1407e74143fa3472e16650eb6e679a5183ee08280fee4eab4ad4cfe7268e8821.deb
+Size: 672124
+MD5sum: d8799a73fb9d98b3df1267e5bc6d1a2f
+SHA1: dfebca137cb6c643242e2bad6eed12f05400604e
+SHA256: 1407e74143fa3472e16650eb6e679a5183ee08280fee4eab4ad4cfe7268e8821
+SHA512: ce5ada16caaf1431cb40b2ea2c7a42b0987e30c655b5c90d6c3fb8371bbab1881ecab8989be8fd5cceb38e9649b3d00edcc1086f889af7a8c0fc421509408047
+Description: Kayoko 剪切板，mlgm 基于「乌龙工作室」版进行二次修改
+Name: Kayoko 剪切板
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.7.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3172
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_4.7.2_iphoneos-arm64e_ac2bb6fdb939f3f2029f00eef02ae3cfe5bff195f7c05516e2ab0a3f6f364c8a.deb
+Size: 671948
+MD5sum: 71f9caea3a2b08483fed24833ac071df
+SHA1: 8be09490e9dbc90b0f6692b768e650b97a0f806e
+SHA256: ac2bb6fdb939f3f2029f00eef02ae3cfe5bff195f7c05516e2ab0a3f6f364c8a
+SHA512: faa43ed09aa885e1d27d6407f5814e67e12f3515db570bc52bd8bb60c84923cfd4d6d1c8d9a112f5b537056e3e9fc46eb2d6bcf28ba77b43d3802b899a948577
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko 剪切板
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.8.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3220
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_4.8.1_iphoneos-arm64e_8941782408e8d15337b039a5fcb3b748ef36f1e7da45c2fcfd76d1f7ccac728b.deb
+Size: 684648
+MD5sum: eff36f2d40a036f4d2afaa8bac4b5c4d
+SHA1: b106fbb1e8b6b9603f0e9d4a1d1c7a6c588450c9
+SHA256: 8941782408e8d15337b039a5fcb3b748ef36f1e7da45c2fcfd76d1f7ccac728b
+SHA512: c4320df3a1c5d04fee0d552352b7a80ffc90df0368d177b609f90af62f4a468bde1ef322552d65ca46ccc57584ce196e8f95d1642232a19920195251dcd39629
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko 剪切板
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.9
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3220
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_4.9_iphoneos-arm64e_75bea6760419a8e2267287377482f7afb1d0649e3aef2ba84912e4292de31cbd.deb
+Size: 688860
+MD5sum: a2685c5c8be77c48f2fd487ba2f6ca21
+SHA1: 13b6d1ffac99b437d82ef3aeeff47652a02a5d72
+SHA256: 75bea6760419a8e2267287377482f7afb1d0649e3aef2ba84912e4292de31cbd
+SHA512: 485f43edeface6ed50dd94c9895198d9a3a8fa7b7d8b89c7fef4e5eadc116acd4ec513d4c14b167250680dfd20a0d3f7526cb3d0668ad5d22df48f781f99cbbc
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.0.0_iphoneos-arm64_a5f91d7b9c485c5308a8198d0c4819dff7457ba1cc6adec8c9f78be2d026de53.deb
+Size: 152456
+MD5sum: 003dbb3282754659568201b7a9754b0e
+SHA1: 4d22ed2511a3137819d32b3c2f7888382b310de5
+SHA256: a5f91d7b9c485c5308a8198d0c4819dff7457ba1cc6adec8c9f78be2d026de53
+SHA512: f5d4605da2bac49ad2328a6b692d701aa62b61da6daddd060707ed0c59c5acab4c8abb25a7e6a8f6d598c4fe3e5eac0be5644f9827536311f8ddcc4126580476
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.1_iphoneos-arm64_fe4d145d217b238e19946300a3de4b2ad677ee0c580c3e975a59178010d12e70.deb
+Size: 152832
+MD5sum: 82969a3ff3fa016b9471655e74e95a59
+SHA1: 0275ff3b6deb42d7577c7a4fa26f6d62808f6e2b
+SHA256: fe4d145d217b238e19946300a3de4b2ad677ee0c580c3e975a59178010d12e70
+SHA512: e1696c2b00f2cfe4987ae62c71ed435f736bef2c3c45cc19fb57dcbb27cbca9cd69baf7725f2990c016345dcd4fbbc9fc738d6b9138c4f45265d15aa69c7d82f
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.2.2_iphoneos-arm64_db4cb7ce1799f986fc1b575b15c20dba7ecf3959fe5be711b965ba3509e35cff.deb
+Size: 180832
+MD5sum: a31921239f98079f8b5b0fbdb22ed305
+SHA1: 42dbf5daeb76d1f0d32a9bbd2565de578fe688b1
+SHA256: db4cb7ce1799f986fc1b575b15c20dba7ecf3959fe5be711b965ba3509e35cff
+SHA512: ad1ab7e2e09a83be5e11a442bf42d1731e2b50988d3abc5b26beae39527f7c82e3b19bd500d9d3701c58d0741bb9f93e4754e7951aee47ddbc0340262f40e4fe
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.3.0
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.3.0_iphoneos-arm64_57954c128d2a90d168c3fa3936c2760b2d812e128c7847e20f606a55572b413d.deb
+Size: 185032
+MD5sum: d1880ba5af1daf70a431c9642936b602
+SHA1: 099766d9a335b08e02f934637b2fec189fb98316
+SHA256: 57954c128d2a90d168c3fa3936c2760b2d812e128c7847e20f606a55572b413d
+SHA512: 90097cf8f4ea64a31828faec888db7963f6240e8075cb3d7b1e06aad2a29c07c17def6dd635365108e3284b11a521e4b781625c16c5f2ab25624d808d9221cfd
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.3.1_iphoneos-arm64_d7b0f29e45f45aacb34cea8e07d561fad22880b31e4593e987e73d9a0a9788fa.deb
+Size: 185716
+MD5sum: 7c35f2ed19b8b4612a1127da9f785b29
+SHA1: 9952c8f7c9431a9f29e76167174420962131d422
+SHA256: d7b0f29e45f45aacb34cea8e07d561fad22880b31e4593e987e73d9a0a9788fa
+SHA512: 70f5a5aa7522e333aafb93b2185e6f6c2a948fadfb11c0afee6f6cfa5002ec301000fbf7853180b1f24501567eba89e013e527e0764ac055c78584276789d76d
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.4
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.4_iphoneos-arm64_451b5d88b36ae2c3e3384c34cfafe77501bdf5263ad63e4be16ff11433695f11.deb
+Size: 279836
+MD5sum: 489899765726207a0591c60628f95b46
+SHA1: c50f1288add44554588320ce9a1e53e1f217a90f
+SHA256: 451b5d88b36ae2c3e3384c34cfafe77501bdf5263ad63e4be16ff11433695f11
+SHA512: 1c4cd94a679cfe8e1643478af07bb2e92fd0ddddb0e49de53e84768d3eca70f625de923b80c51967ba659cbe3e6b8503bd2c02ec6fe7977a0250f40c7861b21c
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.6
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.6_iphoneos-arm64_4a99a8e0bd45d78e5b6f38097583c328fc7d89e10bb19a05048cc3ede8e814a2.deb
+Size: 314848
+MD5sum: 8548dd0232dff4ef0ca1abe7d4459bd9
+SHA1: 0a5813ec5b04c74c2354b3d6fd3fd4a7ec9595dd
+SHA256: 4a99a8e0bd45d78e5b6f38097583c328fc7d89e10bb19a05048cc3ede8e814a2
+SHA512: 28dace007cb6bd2dc464846593bc03b7fea0bab9cc79a0712d50d0511023361c643cae8341cd3e27f95f4384820245a72ea759eafd9e5ebaee65346dc79635c3
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.6.0
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.6.0_iphoneos-arm64_8fae414af43f3a59ff57381a3e23dcaeb5c160b9813bdeef35713b49ba6d55ee.deb
+Size: 204836
+MD5sum: 71b382fd0b05d042368e9856bbe20ac2
+SHA1: c690ecc6a59f39931b49af513e435fdd4724d68b
+SHA256: 8fae414af43f3a59ff57381a3e23dcaeb5c160b9813bdeef35713b49ba6d55ee
+SHA512: 04a02cde2619ae9bc450ce496e4c6f26eae4cdca38d07da722b6d016ad652c74c4649a9e019d3b0c079923a73fc50d36bdd9713069204779297ef6579ae72b4e
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 二次开发
+ 优化 UI 动画效果，聊天界面翻转已解决。
+ 优化卡片弹出时卡片自动隐藏。
+ 新增卡片弹出动画效果，可以在设置中自行选择。
+ 新增收藏栏左边设置项，可以自定义收藏栏显示的位置。
+Name: PullOver X 分屏
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.6.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.6.1_iphoneos-arm64_875a15f34c42d00771bd619e0e77d97dd4ff324e2a45717ad1b5e1421989a2ed.deb
+Size: 315592
+MD5sum: cdef4cc426091270f77643d418dadb29
+SHA1: d4ea4caa71b648e055246d387492c62e74dedfc9
+SHA256: 875a15f34c42d00771bd619e0e77d97dd4ff324e2a45717ad1b5e1421989a2ed
+SHA512: f1a91a6952d9a83fdfc6ed03be7643b6737226dd347c9dfcb9efc55baeedf59c9c0cc52296e9f60caa6e13312c05bf0ee56446b97a71319bd0dca63479a97a94
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.6.2_iphoneos-arm64_13d03fb1ef963ed6ede0efe4db439994d644c3c20327fb28da13fefe2bdb29a6.deb
+Size: 315932
+MD5sum: 9fd4598cfaf614c30ebdce3f8d46b865
+SHA1: 1a40630f81159ebbbb8673addf0125c0ec50ff1f
+SHA256: 13d03fb1ef963ed6ede0efe4db439994d644c3c20327fb28da13fefe2bdb29a6
+SHA512: 5e89226437ef309d1a0f1c7142d307ae6ee55593d0ebcce8c95e4c0520bf406f3fba3687b4c2d3767dfda3d0d83bee87b5247e77ddb00f21aec337710df8b925
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.6.5
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.6.5_iphoneos-arm64_8d91709252f25df7f4242667de1b56ad9824d437d29bf22c20521cf811afccea.deb
+Size: 239728
+MD5sum: d9dceff71aadee2e48a30035eb6b6f4d
+SHA1: 29b07b351960a62ec5b4ad6be7dd9aa06ff5310d
+SHA256: 8d91709252f25df7f4242667de1b56ad9824d437d29bf22c20521cf811afccea
+SHA512: 114e36b80ac81e411c247bab4e7bd2c148a612c92bfaf12d9e9c887a7c410d12153912a48b3ea7421b5d11643bbab66aa0f5a41ae1c84bbf79f0ca74fb8eb3f9
+Description: Pullover-X窗口调度版
+ 收藏栏长按第二个 app 可自由移动位置。
+ 收藏栏新增横屏窗口呼出功能（放在第一个位置）。
+ 点击视频 app 全屏播放，再点击收藏栏第一个 app 立即新分一个窗口，可横竖切换。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.7.0
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.7.0_iphoneos-arm64_3e14e232252644f02084d8d7060e7708450200aad7f8221508643ff2ebda7ff6.deb
+Size: 255672
+MD5sum: e619eb914fb941bad58eae53c4664768
+SHA1: facd192dae52675cf353c8fea6ac8b3f86676c5c
+SHA256: 3e14e232252644f02084d8d7060e7708450200aad7f8221508643ff2ebda7ff6
+SHA512: 5da4b76d58667ce9606af20f03a85a04c99783594d5a7cdf19e603646811f246a77c92dd29cff7049158092610bcddd8cef5e0649ba5d0b220bfe773c89b922f
+Description: Pullover-X窗口调度版
+ 1、新增副窗口横幅控制栏，支持全屏、横竖屏切换、吸附边缘等。
+ 2、优化过场动画与卡片效果。
+ 3、优化副窗口弹出方式：长按收藏栏图标自动弹窗，副窗口与主卡运行不同 App。
+ 4、快捷操作：主卡双击收藏栏转全屏；长按 App 跳转副窗口；副窗口底部两角拖拽缩放；顶部多功能键快捷切换场景。
+ 5、本次插件开发暂告一段落。插件完全免费开放使用，如遇 BUG 或体验瑕疵，还请大家多多包涵。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.7.5
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.7.5_iphoneos-arm64_624f65de0fe4c8ab403bd0882ecef2442bb94d29e3fdcaf46dc8a3fc0bde8d5c.deb
+Size: 263304
+MD5sum: 632613d6931f76d5a943a178efa33286
+SHA1: 97fb0121625e8aaa9d2e27113811afe5d97313c5
+SHA256: 624f65de0fe4c8ab403bd0882ecef2442bb94d29e3fdcaf46dc8a3fc0bde8d5c
+SHA512: 4e5af6b97a788c3627374a32f3a54e904d1bab681d39b851d29ab2950534b2b9fdeead9b8906b4dc14279255f30c263e3d55cb84c0f692705f23d4d4a57bc3b9
+Description: Pullover-X窗口调度版
+ 新增半屏模式，优化功能按键图标，优化流畅度。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.8.0
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.8.0_iphoneos-arm64_1157c0eb0a886617197d38d5ec18fada77b39a1b79e9acfa13fb42f82b7e6e90.deb
+Size: 270720
+MD5sum: 73860bbafa703aa3b7734ff31057f94c
+SHA1: 599d4f2d46b1cc9f401c06d7a8536a9f4434cb8a
+SHA256: 1157c0eb0a886617197d38d5ec18fada77b39a1b79e9acfa13fb42f82b7e6e90
+SHA512: f21701dbbde8a7fa2d5c4c2126d6d1b57957254deb55603cdbc3c00a5fd8c582dcead21a84577fd951eae98ea67e102d4239f412b8ca0954186100b0a274a965
+Description: Pullover-X窗口调度版
+ 全新 UI 精修：矢量图标统一、选 App 面板重做、横条质感升级、比例吸附、触觉反馈、无障碍适配。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.8.14
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.8.14_iphoneos-arm64_6fcd459aece1d8c656c47758e66177275d9e15ee9d598d8c08f81fc386ee3bb6.deb
+Size: 277752
+MD5sum: 1684070875f561437662b3e01829cb9a
+SHA1: 53094a9d94470f611a5ea914a6c66b29fe0f410b
+SHA256: 6fcd459aece1d8c656c47758e66177275d9e15ee9d598d8c08f81fc386ee3bb6
+SHA512: 2e862f53df7dd3d722693f1be98a9564347c2a49443ab58044e76b431f5443b4fd2186c8eeb2b8cc36939e611ff78224eea4501c0c5df750f3cb12c0496d26dc
+Description: Pullover-X窗口调度版
+ 优化UI界面。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.8.19
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.8.19_iphoneos-arm64_cbb6235867ad69a2a2179e53a1affc31b9fafd7eb1096736536319b907dac1c6.deb
+Size: 277948
+MD5sum: e9b67e89326533b089e2bdd92e8f8144
+SHA1: a89dff90820b6cae07dc61013baa5245a7f6ebbf
+SHA256: cbb6235867ad69a2a2179e53a1affc31b9fafd7eb1096736536319b907dac1c6
+SHA512: 6033a1f7c15a1541f498eb13d86841bb642a3f4aba8f98224349d10cba1f1011ed1d2feb2a4084b289647c071540e056fa65f29fe57a6b1962c5b97257180f3e
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.8.21
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.8.21_iphoneos-arm64_fd80a89664a41dd8588c8911db5c4b68653d4eda90db687236acf163738d7a92.deb
+Size: 279272
+MD5sum: 2f516df3ab7810e1d733e5dde562965d
+SHA1: eee3edeff33d00f73548829d3fbadf97c2c51e85
+SHA256: fd80a89664a41dd8588c8911db5c4b68653d4eda90db687236acf163738d7a92
+SHA512: 79e8c083fcdb4be4d3e16e69c0107ed277abe5afdf4ce2b84770898b4ab8285358e20b8543d84ff0d4f172633888bce93326cd46441e45930a9c9c98e2b12a2c
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.8.69~lockfavorites
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.mlgm.pulloverx_1.8.69~lockfavorites_iphoneos-arm64_42f715444d41bce59440807f99da70495e5adfd0e85cd71082e5814a7148c3fb.deb
+Size: 312912
+MD5sum: 51d99eb3f84be7615368bf98f429fd55
+SHA1: c2fd50f1f8729649281a2c0a38519e94173898f9
+SHA256: 42f715444d41bce59440807f99da70495e5adfd0e85cd71082e5814a7148c3fb
+SHA512: 1ab735500a0eb0ef37464d4e39e0d2a0ce09caa9acf7888f08e2cfcd561d1259a2e8ec2d0da46b1df9f22e57ee822eb2d4678c0ff8f9e30a9da1328b0f193ea8
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon-v2.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.0.0_iphoneos-arm64e_4e1c3b8ea4a960f12d9719c69efce826f0be17da55d559ed1afdbed4c4a7e499.deb
+Size: 152876
+MD5sum: 8543c82fc9c803aad182c5d8d3496ddd
+SHA1: 3ca5103271bde98d31bc7a23fc4a69f603b111b1
+SHA256: 4e1c3b8ea4a960f12d9719c69efce826f0be17da55d559ed1afdbed4c4a7e499
+SHA512: 2bde41e0436dd7129d6060037f7856df1c0d6bd725e2d0800ac20c54f6979a1443fcc612612b6252dec63be36ae06ba851b66d33ac1ea1aeb4f65fc670e09020
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.1_iphoneos-arm64e_9d5ea9496e2960dfccb019c2425b8f4b02f255d669804b7b94fff2b20cd2ebc1.deb
+Size: 152764
+MD5sum: 7117ab085034b57a9b4d8c11e5266f9f
+SHA1: dd7ff9a276eb1a9353d6426df216d577d6e45d0f
+SHA256: 9d5ea9496e2960dfccb019c2425b8f4b02f255d669804b7b94fff2b20cd2ebc1
+SHA512: fd4725c6a2035b3fcf85432b4139eb7abab3b71c1341b828aace5579bdb2f975d5649f6a721bcce70d1ec5a166c2b4d960e8fe3dbdc16f28d03a64b38ceca386
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.2.2_iphoneos-arm64e_27ec4d44b6f74db07441d58b9e7fefadf24f58da123fda8c356d9c0ad512c652.deb
+Size: 179176
+MD5sum: 88987e444e673c7ed7e4321cfb1bea13
+SHA1: da3a748c80584b33ef098c4fdc4dceb7fde3f698
+SHA256: 27ec4d44b6f74db07441d58b9e7fefadf24f58da123fda8c356d9c0ad512c652
+SHA512: fcc173cdb1b20f879acf24c83b78ccf0cf2db7e8ed71e579a70a9762475437181b9162236693e7fdc332d328de145be6fe6bf93429fd5a63046a1fb056b18012
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.3.0_iphoneos-arm64e_3f4ee67884c4c0c4c900c696a41f946d92f5de41fd40a6f22a1c26ce0ac96c07.deb
+Size: 183248
+MD5sum: 9ae46be59a35f771ffe11d3d1eb361bf
+SHA1: 22d98641f2108330bce5bdccdbc3b8e76f0d8e87
+SHA256: 3f4ee67884c4c0c4c900c696a41f946d92f5de41fd40a6f22a1c26ce0ac96c07
+SHA512: 5a71aaa076db63e308f9e6d3b69d37123b02dc4c2945bfbc2c31aa0ae9ce73f8db2b893cfd157f3626bde4586977e5ef40dd2e289f631500ad0ec096346915ca
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.3.1_iphoneos-arm64e_82811d70fae437e2afd6ef864a29c2417da217b298b8d7aeddc6417725f563f7.deb
+Size: 183652
+MD5sum: 3f7804532fef526546d454f66f8a84b7
+SHA1: 6e9759a97bd9ae3b493277097c72982e63620037
+SHA256: 82811d70fae437e2afd6ef864a29c2417da217b298b8d7aeddc6417725f563f7
+SHA512: 358a3192dba9b4f24f9e827e595639bcd57be6db3509b3eb02d2de9220aa9cad3ef4ec88c5ff88114639e41f95ee339d5b288e871e645147e2ff63bc4f1752a1
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.4
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.4_iphoneos-arm64e_3afa8cf67b6c299346fbfebfbadcfeb763bd8b916c63db17ee2a755773a6c157.deb
+Size: 278012
+MD5sum: 82fdce00d5adc03c363c4a0dc1ac65a7
+SHA1: 1c25b666a7590cd39c29603bdf91dead0e4b8b75
+SHA256: 3afa8cf67b6c299346fbfebfbadcfeb763bd8b916c63db17ee2a755773a6c157
+SHA512: 1c6980935e8e044e1f1cee3841e04ee7be26a49ce6f3cbb9979575f65b7e6adfc18dc0772aab5e74179eccd6f3263ca7a0e6e2fb1aaca3e228f5202d3323ce9a
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.6
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.6_iphoneos-arm64e_b95533ebd8926f2061cec1de96d920c7408cde2c3bad5a86fad7d713e1dc3089.deb
+Size: 312620
+MD5sum: 6d4e2c18f70b5ff40dbda9a7fa78e878
+SHA1: ad5ec8d2a91f2a0399b8927826e7ea97285b9ca9
+SHA256: b95533ebd8926f2061cec1de96d920c7408cde2c3bad5a86fad7d713e1dc3089
+SHA512: 81424e6dad774082ef0c2079b8915f0fff918e9f8d60ef7cbae79daab5596d881fc169d8b1c679d9d125168013f3374fb0a2e59958b97c63dcd1a4dc794d4901
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.6.0
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.6.0_iphoneos-arm64e_3517014bfc3f2a21454e8cdf3c80d2056b4682b2f0bb81c321396493c65d63f4.deb
+Size: 202264
+MD5sum: 096590bb5f9b62dda38fd49b6c8f22ba
+SHA1: 71dfd607c006a658302b6ad67213aa02e01267ea
+SHA256: 3517014bfc3f2a21454e8cdf3c80d2056b4682b2f0bb81c321396493c65d63f4
+SHA512: 982e7918472ce390a5c3da6b77bb4aca7c08be510c291e9608c3dde29b276af3d3c0770e70153e4ad04046355e276085a416bc72307fc5ccea9eac26e9ed6a35
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 二次开发
+ 优化 UI 动画效果，聊天界面翻转已解决。
+ 优化卡片弹出时卡片自动隐藏。
+ 新增卡片弹出动画效果，可以在设置中自行选择。
+ 新增收藏栏左边设置项，可以自定义收藏栏显示的位置。
+Name: PullOver X 分屏
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.6.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.6.1_iphoneos-arm64e_2b660f369417cb790ae3b7de60eef513726ea224f12a8fae87130360c9de1c9a.deb
+Size: 313188
+MD5sum: e3342a1238dc0be0bca007826fffff2d
+SHA1: 594ffec38c06b04dcda7ed646224a649714a7f2f
+SHA256: 2b660f369417cb790ae3b7de60eef513726ea224f12a8fae87130360c9de1c9a
+SHA512: d24ee6f76dfe31a66b273056bf019dce8641922eb9d56571bd081a59a44701f4b476f71a7ddea5c980b6af68f478c2fef8fd9f98b3b512cefb870d432b2889f1
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.6.2
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.6.2_iphoneos-arm64e_de809ce4934bd51f745d626a1753d26d81aefec2d1c8235ebe74e497d1149b2e.deb
+Size: 313684
+MD5sum: 6326a73f487ff06e47fcd88a49e8b9c9
+SHA1: 8c7b366a384d025e0a2cfdde43c4bf2155af2b95
+SHA256: de809ce4934bd51f745d626a1753d26d81aefec2d1c8235ebe74e497d1149b2e
+SHA512: 032bb94cb86b2ca2adb4e00d76c492d51436f3d0568793500c0db67b22efb48912884b74561242ef32e09c7a4816ee5fa36ab6135dbae3bb2568c767a14f27e3
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X 分屏
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.6.5
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.6.5_iphoneos-arm64e_4e66a8a28129b93901d46ae324da9894c60af7eb180c7694ac203ca2c38a60f0.deb
+Size: 238636
+MD5sum: b8163b7909b0888c9fbb3ed3d3334ee3
+SHA1: 44cbc4f9bef5f11ff14450b81ad4736ec8d90934
+SHA256: 4e66a8a28129b93901d46ae324da9894c60af7eb180c7694ac203ca2c38a60f0
+SHA512: f26e314cc8583fbc2d5f88af1af6b73f3a4b2fc35479dd44a09bf42b20adf38dd3f72794773fe14888f6b38bedb8527370f8d3d73a9d8653b65ab8ab87c5f1c7
+Description: Pullover-X窗口调度版
+ 收藏栏长按第二个 app 可自由移动位置。
+ 收藏栏新增横屏窗口呼出功能（放在第一个位置）。
+ 点击视频 app 全屏播放，再点击收藏栏第一个 app 立即新分一个窗口，可横竖切换。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.7.0
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.7.0_iphoneos-arm64e_13f4fbc8751539b8ffc3243d0453f3639981514d34a44aa88acba52cf1f25c57.deb
+Size: 255176
+MD5sum: 564160f4d3738fcae3cb3ee548ec75ea
+SHA1: b175bd95931403945d47d07abe7a2902163264e4
+SHA256: 13f4fbc8751539b8ffc3243d0453f3639981514d34a44aa88acba52cf1f25c57
+SHA512: 9a1798caac2b782e90e886109c4c6b885066f1144c7bf517ce59252078dd5f70d1140bb316ac494e0ace4d27ccce635ea317b1aa83f7016c7f57e569bbb0ee4c
+Description: Pullover-X窗口调度版
+ 1、新增副窗口横幅控制栏，支持全屏、横竖屏切换、吸附边缘等。
+ 2、优化过场动画与卡片效果。
+ 3、优化副窗口弹出方式：长按收藏栏图标自动弹窗，副窗口与主卡运行不同 App。
+ 4、快捷操作：主卡双击收藏栏转全屏；长按 App 跳转副窗口；副窗口底部两角拖拽缩放；顶部多功能键快捷切换场景。
+ 5、本次插件开发暂告一段落。插件完全免费开放使用，如遇 BUG 或体验瑕疵，还请大家多多包涵。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.7.5
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.7.5_iphoneos-arm64e_3778f0823d6d97b0713ba3627a4873b7460356d3d7c5cb368c7ac7c81e6d5687.deb
+Size: 261228
+MD5sum: de0ced997fd25615bb6717479f0a9f30
+SHA1: 1d4b923ccb6da525b781f3511b0f3cf26a57c897
+SHA256: 3778f0823d6d97b0713ba3627a4873b7460356d3d7c5cb368c7ac7c81e6d5687
+SHA512: 0ec9bbc6968131c3567c4fb42e562b3ce3040250e9242f924fe892898c02e57cb8340fd90c3a0d32328cca2dcdc3ef60d303541e17f0c59bc040c896ef1cfd43
+Description: Pullover-X窗口调度版
+ 新增半屏模式，优化功能按键图标，优化流畅度。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.8.0
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.8.0_iphoneos-arm64e_edec2853a81c8556866adf1151665e1296a56524a145e0778ba73b84307b7bbb.deb
+Size: 269204
+MD5sum: 0478da33dff8583b5f3d3e7416e6fbdd
+SHA1: a65abf73a02aeb5eec6e9af5419b49086aed6401
+SHA256: edec2853a81c8556866adf1151665e1296a56524a145e0778ba73b84307b7bbb
+SHA512: 17d7e55d2f4fea9b9db0c0c2ea0ddd6500f4ad24c998dae7458d167441ca974b6ab1b2aa08f136de1917809a1af65e94c89300d3ecd0fc95fa543a32f9afd6d2
+Description: Pullover-X窗口调度版
+ 全新 UI 精修：矢量图标统一、选 App 面板重做、横条质感升级、比例吸附、触觉反馈、无障碍适配。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.8.14
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.8.14_iphoneos-arm64e_837f78b840707d0fd37778ff52a5b3aba0b4d7dc5aef7cb029013ae9f1e9c1b6.deb
+Size: 274812
+MD5sum: 4c0e5d0edad126b83db4008cd46c372d
+SHA1: ffb4f0ae9908683a3c7bb31aaf8c948efdb3368e
+SHA256: 837f78b840707d0fd37778ff52a5b3aba0b4d7dc5aef7cb029013ae9f1e9c1b6
+SHA512: 44956e2b349910a239067cf36c5bf93605f810e82df0267ec6726a504b371496398291d480b0382c3226a1a0055e8884643ee46bcc5389991766a994d219b920
+Description: Pullover-X窗口调度版
+ 优化UI界面。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.8.19
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.8.19_iphoneos-arm64e_bb770a80ad7bee65e2afe84569ed3f757996a3a03012bf90a92d7632adc9bafe.deb
+Size: 275164
+MD5sum: 8b1d73a52db37fa90a734cb94c9f4162
+SHA1: 4b224168f9b72f77a6a6af426d59a0808b8e983f
+SHA256: bb770a80ad7bee65e2afe84569ed3f757996a3a03012bf90a92d7632adc9bafe
+SHA512: aae6fdb63d43ad13785117cd6321ae7f36c4a76420d8d385991c2c80d9ca5cd4beb65b039a141a970664cc113bd860fad2f7b0049c0f103e4cba80d9edbb21bb
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.8.21
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.8.21_iphoneos-arm64e_0a42f3af5a49c5a7446b24bb5533204559d88c2c03055cbe7cca099ecb9aa8a4.deb
+Size: 277008
+MD5sum: e312c72e5b1ab2c17843a22ee5e52b10
+SHA1: 95016efbbafce2fcd8564791ade134f5470f013e
+SHA256: 0a42f3af5a49c5a7446b24bb5533204559d88c2c03055cbe7cca099ecb9aa8a4
+SHA512: a45b96649d8fa032937b6680fc4234701a5b1020dac1aa625b73875f7590877c660a9b7beaf15298a5bfb3d6650bff98683cbc2fffe09a9fc30860027684508a
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+
+Package: com.mlgm.pulloverx
+Architecture: iphoneos-arm64e
+Version: 1.8.69~lockfavorites
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.mlgm.pulloverx_1.8.69~lockfavorites_iphoneos-arm64e_e5dd3f383bb97d48ace577b633450d1e3039aa1bf4448f17c54a5e6c497bf0be.deb
+Size: 310040
+MD5sum: ac9dd2dc95f4e1181c48213821e478e3
+SHA1: c9cb92bf5636d9ffccf5d29945342ec731ebf737
+SHA256: e5dd3f383bb97d48ace577b633450d1e3039aa1bf4448f17c54a5e6c497bf0be
+SHA512: 0455ac0efbdf1b843d83ce7534e81cd69f679d38ad953d910f4a9a665b9a5fa8dc4a41af759e85a788d901baebae1b566681848c5827005c2bfbc2a3fc1aeccd
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Name: Pullover-X 窗口调度版
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon-v2.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+
+Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64
+Version: 1.1.5
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 240
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64/com.mowang.crashanalyzer_1.1.5_iphoneos-arm64_e235c3ec7f16bca6d14df57bbac9c4254e0cbb86051de08b3eac9270c5b13c57.deb
+Size: 76580
+MD5sum: 6661879d066e1b943ee33b6987236f5f
+SHA1: 24204f6307f2fbc47c3241f789e3b59f10431e16
+SHA256: e235c3ec7f16bca6d14df57bbac9c4254e0cbb86051de08b3eac9270c5b13c57
+SHA512: 9c51a4dc74053369c0c06fbc891a48be0cfa0cb7b003b813c8b02ee7c7438fb034f8bdd8fc54db2baa8b45a8d7d304b5b194d0f50fefa43f9854ebe9da8108dc
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Name: AI 日志分析
+Author: MoWang
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+
+Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 240
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64e/com.mowang.crashanalyzer_1.1.5_iphoneos-arm64e_ba238f2193a4a78debe26b4336e6bdc3cdb62cb9666bd3f94a3727129845a84f.deb
+Size: 76564
+MD5sum: 590d4c72ca091c170cb60f957681c3be
+SHA1: a6b232c198a8dd2f98934388334e0b3f07f4df84
+SHA256: ba238f2193a4a78debe26b4336e6bdc3cdb62cb9666bd3f94a3727129845a84f
+SHA512: 013d54d4686057b9bebdbdfc538594c0849920dee1c019a7d9c5035ee564fdc9a344384fdbda544f25d73cd65e85d06be3864d17bdb184f82dcaaa949bbfcba3
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Name: AI 日志分析
+Author: MoWang
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+
+Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64e
+Version: 1.1.6
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 260
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64e/com.mowang.crashanalyzer_1.1.6_iphoneos-arm64e_ad9658097107da222d1eb4fab92b59fbd6f5950429f798a696ffb7544d471f62.deb
+Size: 82728
+MD5sum: 18de890253f857f5cd32cd0a5454ffb2
+SHA1: ec5627d09a21a739ad5641b572b651ce300338f2
+SHA256: ad9658097107da222d1eb4fab92b59fbd6f5950429f798a696ffb7544d471f62
+SHA512: 7105a5d3a09f194510beeda4f50b8edec261214d991728f821b495295eb5c6f9377d1216edb3a8add404d603e42cff910b12d256d48c5bdd135fbeb5c894c8ed
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Name: AI 日志分析
+Author: MoWang
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
