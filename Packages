@@ -559,6 +559,25 @@ icon: https://huayuarc.github.io/icon/appfix.png
 
 Package: cn.llld.appfix
 Architecture: iphoneos-arm64
+Version: 0.0.36
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 1452
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.appfix_0.0.36_iphoneos-arm64_fe3132a3d0326bd6eff314127116b70576ab6a1c0bc9a6220fdcbfbd429ccba6.deb
+Size: 455960
+MD5sum: 0d5f76be530988d3e2cabd83f6f04ac3
+SHA1: 0fcb79db299684df8ad6096f0e7fb7ac96c85d11
+SHA256: fe3132a3d0326bd6eff314127116b70576ab6a1c0bc9a6220fdcbfbd429ccba6
+SHA512: 29f745a5eaaecc169a3f6f50b7c24ec2929b72c9198ac08e6ca6ab7f478af1dc36a8d4494bb7363ead6dbd849f25aef12d42ed60433a25d3c2b3c5375e311304
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Tag: purpose::uikit, compatible::ios14
+Name: 应用修改器
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/appfix.png
+
+Package: cn.llld.appfix
+Architecture: iphoneos-arm64
 Version: 1.0.0
 Section: Development
 Maintainer: 来了老弟
@@ -570,6 +589,104 @@ MD5sum: 050f08347f854096829f2c756c985653
 SHA1: 85564070d0b14852376a92302e6609afc6aa5cac
 SHA256: a5bfab39f4994c6fad6c488c7d797c06695685f7e4d464b71fe5f8a9922fc5d9
 SHA512: d6f9e72b0e310cdd631a940de33b09047d9bf05412e4ecebed024dc75d9183354bed4a12a6e4abf794049e90c132af27a591206233e34efa8b9012b4cd182714
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强，1.0版本之后支持导入Flex3配置），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Tag: purpose::uikit, compatible::ios14
+Name: 应用修改器
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/appfix.png
+
+Package: cn.llld.appfix
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 1548
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.appfix_1.0.0_iphoneos-arm64_d8f9c0df96f338787fd40979049078f7d39ade795ff792d9a0884d37ac633e5c.deb
+Size: 478588
+MD5sum: 7e129ebef10e08d790e3d55cfc79fb56
+SHA1: fffe09b07b41c5c227ce16587f313b3dd854dab0
+SHA256: d8f9c0df96f338787fd40979049078f7d39ade795ff792d9a0884d37ac633e5c
+SHA512: 98173bb6a138e0a4a3cf3c089b8a9047b9e0df1483eaec4dc03ee2291d62207c05be15fe66c306447fb221bffd4bf60cee407d3afe0f2de8a9bf05547996b90b
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强，1.0版本之后支持导入Flex3配置），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Tag: purpose::uikit, compatible::ios14
+Name: 应用修改器
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/appfix.png
+
+Package: cn.llld.appfix
+Architecture: iphoneos-arm64
+Version: 1.2.21
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 1940
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.appfix_1.2.21_iphoneos-arm64_31462d764f42660407146fff2be5112d79ab18a907796bef53a46be5db8b28ce.deb
+Size: 574840
+MD5sum: a196793c5ad1514280a30e304327a62c
+SHA1: 13bb1fdd7fd549b5f91cf2e79b0704650d6c1fd9
+SHA256: 31462d764f42660407146fff2be5112d79ab18a907796bef53a46be5db8b28ce
+SHA512: d171a1214dd5e81a32cfbff2a80963ebba351e18f410e600c9ae8ac74f733ef14f11a933baebc92db1322234d3245365b762de6f4abb6170642f4f920197985a
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强，1.0版本之后支持导入Flex3配置），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Tag: purpose::uikit, compatible::ios14
+Name: 应用修改器
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/appfix.png
+
+Package: cn.llld.appfix
+Architecture: iphoneos-arm64e
+Version: 0.0.36
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 1452
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.appfix_0.0.36_iphoneos-arm64e_72ee2a4473010b0c3a713ae228813fb18b3252fcaee8dd600eb5a4f4f4beac23.deb
+Size: 450052
+MD5sum: b39c5829c7d8b59406d3a6ab2467a1d7
+SHA1: 6daa2273c2c2ec4cb6991706da9ad8e91d8cf008
+SHA256: 72ee2a4473010b0c3a713ae228813fb18b3252fcaee8dd600eb5a4f4f4beac23
+SHA512: c4b312e6c8b897faa0a8cf30e507f0f0017c542b30c4dccef3051a91f5760f845b80c3a6dd690000cbfb895c4d3d1c1c49ce176aab1e9964a7a2555f9abcaaa6
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Tag: purpose::uikit, compatible::ios14
+Name: 应用修改器
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/appfix.png
+
+Package: cn.llld.appfix
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 1548
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.appfix_1.0.0_iphoneos-arm64e_e00d0e1d14dd4ce8f3bf621692d024a2135d737933dfeed7c7a247fc0c294677.deb
+Size: 472352
+MD5sum: 2f996ee5925926f5da233cac18a6e81e
+SHA1: fd50983701f025f0999e3e84f22d676278040859
+SHA256: e00d0e1d14dd4ce8f3bf621692d024a2135d737933dfeed7c7a247fc0c294677
+SHA512: 48833769b373d774c85b7e005027bf0833c39f39db9057a28100fbb906d44cbda5c3d71ad85427d9f37b3513fe3dce15e9a1a0ce1671418cab73d209cdd6cfa3
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强，1.0版本之后支持导入Flex3配置），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Tag: purpose::uikit, compatible::ios14
+Name: 应用修改器
+Author: 来了老弟
+icon: https://huayuarc.github.io/icon/appfix.png
+
+Package: cn.llld.appfix
+Architecture: iphoneos-arm64e
+Version: 1.2.21
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 1940
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.appfix_1.2.21_iphoneos-arm64e_ead13a54329daaddcad30798260ed29b83c55a46df0bac23292757acfea78c22.deb
+Size: 566784
+MD5sum: cce51cb256e64f1845d1872e81095065
+SHA1: f9a01d8e11aa47e9bbd1b96042dc6ff5977140d2
+SHA256: ead13a54329daaddcad30798260ed29b83c55a46df0bac23292757acfea78c22
+SHA512: 2095bcd15120400093cc18ebf6112efa05d362cfaf56d157a7b510c61aba63f9f3c974b74fb1095e052031309475b41180f5f869ce91283f83fd4035ad8349e6
 Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强，1.0版本之后支持导入Flex3配置），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
 Tag: purpose::uikit, compatible::ios14
 Name: 应用修改器
@@ -720,6 +837,24 @@ Author: 来了老弟 X: h_h_x_t
 icon: https://huayuarc.github.io/icon/snapper.png
 
 Package: cn.llld.biaoji
+Architecture: iphoneos-arm64
+Version: 2.0-1+debug
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 328
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.biaoji_2.0-1+debug_iphoneos-arm64_45e5a85ce5d91015e177002a062e2af0043f6792b3a77510b2095eb3bf20f4a0.deb
+Size: 70328
+MD5sum: 272ae78432e857959adfd38cc0e19e67
+SHA1: b440016d3c241980a3107c8ce1a338663a50fe8b
+SHA256: 45e5a85ce5d91015e177002a062e2af0043f6792b3a77510b2095eb3bf20f4a0
+SHA512: 1af90383bfd71476abedb8df5e959cdb31060a54ffe81e8bcf98e265aa25df99c05f1715885fa91e353a33f3dd45c0d015008c4fa7f4aa4e7b2938607b4f589d
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存，高亮，文字等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Name: 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.biaoji
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -831,6 +966,25 @@ SHA256: d860b83425df5687341f07244d829b6d271c6318f5a895362c7ccf05e93dd44a
 SHA512: 947d2419122a441727cc8d775e54954f10b5e31aeaf66997d8897836e3b69847bd478663606971d08951afd1bee4ab9bab9aea6c02ff8e40fc283f6993784b5a
 Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存，高亮，文字等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
 Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64e
+Version: 2.0-1+debug
+Section: Tweaks
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 328
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.biaoji_2.0-1+debug_iphoneos-arm64e_090920ca993bfa4b5bfd4ef3302c6a7b48364a0d57e411fa91fd4d4b7fb564d4.deb
+Size: 68672
+MD5sum: 888abc585794dd53ff0286375fcaba58
+SHA1: 9ddabd3fac4e15adeea59ab6381bff3d9f40e551
+SHA256: 090920ca993bfa4b5bfd4ef3302c6a7b48364a0d57e411fa91fd4d4b7fb564d4
+SHA512: 2050de4d0afa36975c29c1ff57da72c48efae88df58c76e7d7aac8523533ec7b4fba8681f7a58546c8668527f4954bfc361774da2527596454f5b083d047658d
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存，高亮，文字等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Name: 截图标记
 Author: 来了老弟 X: h_h_x_t
 icon: https://huayuarc.github.io/icon/snapper.png
 
@@ -1460,6 +1614,43 @@ Description: 隐藏手机设置内VPN或某些选项或应用
 Name: 隐藏项
 Author: 来了老弟
 icon: https://huayuarc.github.io/icon/ycvpn.jpg
+
+Package: cn.llld.zfbb
+Architecture: iphoneos-arm64
+Version: 1.5
+Section: Tweaks
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.zfbb_1.5_iphoneos-arm64_0ca786071cf5f5fb010403db15d0bcfb57a9e7001a46e1eef1b73a994c1e3442.deb
+Size: 20600
+MD5sum: e1a2668e765f2f753886ca23996e8cb7
+SHA1: fe57fed1d96d9a46eff47efde5114d160f636861
+SHA256: 0ca786071cf5f5fb010403db15d0bcfb57a9e7001a46e1eef1b73a994c1e3442
+SHA512: 7a2977fc44c57f4cdf8f3aa7746f37e35f79ff888b100fb3f9a70186057ae61452ca55427cca2f0a3fe4d7a133a2e4e502ca8137b7c2fe8587a5672ada7b9af7
+Description: 可注入可越狱使用。自定义步数，精简主页显示内容，视频内容下载.***长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置***,支持任意版本。250524:最好巨魔注入使用。260927:加个视频下载按钮
+Name: 支付宝步数XD
+Author: 来了老弟 X：h_h_x_t
+icon: https://huayuarc.github.io/icon/zfb.png
+
+Package: cn.llld.zfbb
+Architecture: iphoneos-arm64e
+Version: 1.5
+Section: Tweaks
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.zfbb_1.5_iphoneos-arm64e_8924dfde5d8c28a7cd20169ed745ba2c8d96e2d065fad494a3be2f1cbb4113eb.deb
+Size: 20120
+MD5sum: 867e63e62397c61a653356135af13a38
+SHA1: 8759fb929a9986f78311bdb788ebe6b80b05c3cc
+SHA256: 8924dfde5d8c28a7cd20169ed745ba2c8d96e2d065fad494a3be2f1cbb4113eb
+SHA512: 4031bdbc01fa3184b397d12bcb45a4a95131fca12ed537fafbb58e7a112fd39a52dc4ad275aa2bc4d0a865bcb37674df700461e2eb20ca04aa1fd523c1d83b37
+Description: 可注入可越狱使用。自定义步数，精简主页显示内容，视频内容下载.***长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置***,支持任意版本。250524:最好巨魔注入使用。260927:加个视频下载按钮
+Name: 支付宝步数XD
+Author: 来了老弟 X：h_h_x_t
+icon: https://huayuarc.github.io/icon/zfb.png
 
 Package: cn.octoforce.copyvault
 Architecture: iphoneos-arm64
@@ -17901,6 +18092,42 @@ Author: MoWang
 icon: https://huayuarc.github.io/icon/crashanalyzer.png
 
 Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 260
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64/com.mowang.crashanalyzer_1.1.6_iphoneos-arm64_fa3e0760f73057b14c152cb930758fce594918f4675f8d9a0644e09c5af026db.deb
+Size: 82820
+MD5sum: 980fedb6f61b9fa031a9031e555a847d
+SHA1: e0ee0871b1633ba4e4e0eec404513733fee86721
+SHA256: fa3e0760f73057b14c152cb930758fce594918f4675f8d9a0644e09c5af026db
+SHA512: 93587375e499d5d4abfffcbe7643a3ed5bdceb628eda3d0250acfa38cabbd9c84974b6e89a70583bcd7fb8cd8cc601191d1e6301d36f2ba80dc837192581475d
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Name: AI 日志分析
+Author: MoWang
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+
+Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64
+Version: 1.3.3
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 276
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64/com.mowang.crashanalyzer_1.3.3_iphoneos-arm64_fdc844828284b9695ae425c804eee42352475946e1c89a829c907f6a3475d094.deb
+Size: 85552
+MD5sum: bb5472c3e3f1dca527dbb8c2a02a3eac
+SHA1: abcc33ac792edad4ca34a57eb6bdca4b901283b9
+SHA256: fdc844828284b9695ae425c804eee42352475946e1c89a829c907f6a3475d094
+SHA512: c73e08c9236e1ccd3c360407d232c1249db3d958ff83ed1c6f4277d38d3678df11755cfdbadc98f113271f6ebd8e79f46f8ab7e814322f1544365cecb469b13c
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Name: AI 日志分析
+Author: MoWang
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+
+Package: com.mowang.crashanalyzer
 Architecture: iphoneos-arm64e
 Version: 1.1.5
 Section: Tweaks
@@ -17935,6 +18162,1751 @@ Description: 自动扫描、分类和分析 iOS .ips 日志
 Name: AI 日志分析
 Author: MoWang
 icon: https://huayuarc.github.io/icon/crashanalyzer.png
+
+Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64e
+Version: 1.3.3
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 276
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64e/com.mowang.crashanalyzer_1.3.3_iphoneos-arm64e_30433c68af017a5bc617c2807768213a2a00d1071122c195a673b43b49efba85.deb
+Size: 85440
+MD5sum: d1c985fb8ffb443c0e8ee19ba3d15c46
+SHA1: b2cc57b42e481203cca3a5f774f74c18cde63f73
+SHA256: 30433c68af017a5bc617c2807768213a2a00d1071122c195a673b43b49efba85
+SHA512: b78313b84c1c2b76fadc6a656b21922ab08fc513392b214865ed2b9105537dbe9c20d0c2c3be56073ab4327a85528aba0362fc156adca1d26b00e880ea10f2c3
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Name: AI 日志分析
+Author: MoWang
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+
+Package: com.mowang.rainbowkeyboard
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 1344
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.mowang.rainbowkeyboard_1.0_iphoneos-arm64_be26a4aa5ccc7a1df36f9c9a2cf9ec5e1709b6cff72a3400731e51d57b46c368.deb
+Size: 621812
+MD5sum: 97cc90d8468fd1331af797e177107b0d
+SHA1: 12c305dfd7b8c6a8fe89bc1865a95ab6654afb6b
+SHA256: be26a4aa5ccc7a1df36f9c9a2cf9ec5e1709b6cff72a3400731e51d57b46c368
+SHA512: 65706c6447e2ddf44ed3c17bd8c7ed207e3fa54116f8b50f56ca31f3584b584977406ffa12434229b1739f6aaee6bdfcdda5b696a9c1f50f2d09716a1a9cbf80
+Description: 修复渐变表情 bug
+Name: 彩虹键盘光效（安全版）
+Author: MoWang
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+
+Package: com.mowang.rainbowkeyboard
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 944
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.mowang.rainbowkeyboard_1.0_iphoneos-arm64e_aaceeccf18cadcf11078cf39f99fd36a8cb6b37e41bce71c7425a716b6e8ad7b.deb
+Size: 586180
+MD5sum: fd60e6ef14c5f222e054d4e41e690ae7
+SHA1: a74ca21512d7c98d24db595569ef1d8cbdacc8b8
+SHA256: aaceeccf18cadcf11078cf39f99fd36a8cb6b37e41bce71c7425a716b6e8ad7b
+SHA512: fe0c3543aa4a10fb724a688f7ffef784e161b1f8518b859c2c0f105fcf4cb1e7177eaa63c128b8695b2daeda1c1e13c7cc1b8bd56eb6760e068147ee02e5c0c6
+Description: 修复渐变表情 bug
+Name: 彩虹键盘光效（安全版）
+Author: MoWang
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+
+Package: com.mrgcgamer.libgcuniversal
+Architecture: iphoneos-arm64e
+Version: 1.7.0
+Section: Tweaks
+Maintainer: MrGcGamer
+Installed-Size: 380
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Filename: debs/iphoneos-arm64e/com.mrgcgamer.libgcuniversal_1.7.0_iphoneos-arm64e_4ccfa55b8e2e6649f5656590c1dd1903ea5adf800a735960432fd35a0c963aec.deb
+Size: 55676
+MD5sum: 5f9cd951d0f7762bafa6ab59f779a901
+SHA1: f2057bae0b9f7866ac404599545854d26813167f
+SHA256: 4ccfa55b8e2e6649f5656590c1dd1903ea5adf800a735960432fd35a0c963aec
+SHA512: 36ee436aced9b76cf942e5ba4fecc6257813feac61275d2a1a5e80246d821c74b54c455d1af8d51d14657a9d9d980060f6a6cbbdb08e03ebaab205f44a4635bb
+Description: 有些插件需要这个依赖（通过RootHide Patcher转换）
+Tag: role::developer
+Name: LibGcUniversal
+Icon: https://sini921.github.io/repo/sileodepiction/icon/libgcuniversal.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/libgcuniversal/js.json
+Author: MrGcGamer
+
+Package: com.mrshi.lingdongdao
+Architecture: iphoneos-arm64
+Version: 1.0.0.2-235
+Section: Tweaks
+Maintainer: MrShi
+Installed-Size: 2352
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.mrshi.lingdongdao_1.0.0.2-235_iphoneos-arm64_f2f11613d68a7eaa397c3a6c472195b4091c98d086b4d74580fe2007b040b8d3.deb
+Size: 546712
+MD5sum: 4f72adfc77d424a3178095caca58407a
+SHA1: 79ce67ac6f0818921560257ce0a16e884d361779
+SHA256: f2f11613d68a7eaa397c3a6c472195b4091c98d086b4d74580fe2007b040b8d3
+SHA512: 9bb3c9e243ead7d3fdfeb132b94f37d3831fefaff90931f1178b1b9eb11f4151c30a42e396b561177e137c4ea7c6c743ea34f32e9d58d7ac4b13b808fad6cce0
+Description: 给灵动岛的外框内框添加自定义颜色，通知背景颜色等
+Name: 灵动岛自定义
+Author: MrShi
+Icon: https://huayuarc.github.io/icon/CCMusic.png
+
+Package: com.mrshi.lingdongdao
+Architecture: iphoneos-arm64e
+Version: 1.0.0.2-235
+Section: Tweaks
+Maintainer: MrShi
+Installed-Size: 2352
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.mrshi.lingdongdao_1.0.0.2-235_iphoneos-arm64e_46bd2a37a7e5d10288614f95f1a8ce999cd48ee68c90ec1ecd763f06a63d5577.deb
+Size: 865222
+MD5sum: 7ce097390d58b31728eb9634ab3c6746
+SHA1: a1a4aa26a31b2ce30de67cbdfe73ed6459074db6
+SHA256: 46bd2a37a7e5d10288614f95f1a8ce999cd48ee68c90ec1ecd763f06a63d5577
+SHA512: 959b3bbbd94b7cf04327032b305a4313a4c2443327ffbdf9079311d7e921961add1483fdcc21841e0965f0fa809b13a874164a3ff5d4753e3a68a7955c8734cc
+Description: 给灵动岛的外框内框添加自定义颜色，通知背景颜色等
+Name: 灵动岛自定义
+Author: MrShi
+Icon: https://huayuarc.github.io/icon/CCMusic.png
+
+Package: com.mumu.wcgg
+Architecture: iphoneos-arm64
+Version: 0.1.5
+Section: Tweaks
+Maintainer: mumu
+Installed-Size: 828
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.mumu.wcgg_0.1.5_iphoneos-arm64_e7bb5f66b0b0256a8dae20d0c64ecf1e64860f4a192fd3b2b7192c0543a89690.deb
+Size: 221024
+MD5sum: 7e682acf0829777cd492e06f59a02970
+SHA1: 5df81b0367dd7058ba8ceabe23b810ac534c04e8
+SHA256: e7bb5f66b0b0256a8dae20d0c64ecf1e64860f4a192fd3b2b7192c0543a89690
+SHA512: 461fd6709a1e09c37baab648ade5e0d610621fb7e4d309d04948c8a87d45224b3dc573087e9223fbe2a11fb6d4c83781cc50869f2c6b480f323632e0c655f10b
+Description: WeChat custom badge plugin
+Name: WCGG
+Author: mumu
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.mumu.wcgg
+Architecture: iphoneos-arm64e
+Version: 0.1.5
+Section: Tweaks
+Maintainer: mumu
+Installed-Size: 828
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.mumu.wcgg_0.1.5_iphoneos-arm64e_c00beca4e8e375734e04f86d295876f0268e20b0588198202497458a5164ca36.deb
+Size: 217080
+MD5sum: 8f92d03f40c6a656fd838c14100463a1
+SHA1: f7f4b8e26f41a1bed568395e58feac44fd36b940
+SHA256: c00beca4e8e375734e04f86d295876f0268e20b0588198202497458a5164ca36
+SHA512: 080a434bd08f5891b4787a756b1e0460c09c8f91f59751aecf952a4b89f8893e4e15c9082cbe5b097ee13395bbf0110633caafeaac0a4962094b49444325fffb
+Description: WeChat custom badge plugin
+Name: WCGG
+Author: mumu
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.muratkurt.ios-mcp
+Architecture: iphoneos-arm64
+Version: 1.2.8-2
+Priority: optional
+Section: Development
+Maintainer: muratkurt
+Installed-Size: 40808
+Provides: ios-mcp
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.witchan.ios-mcp
+Replaces: com.witchan.ios-mcp
+Filename: debs/iphoneos-arm64/com.muratkurt.ios-mcp_1.2.8-2_iphoneos-arm64_de2a564d2f827bd52082216e36b3584f016f0971aac5c75d85b1a6f71cfb04b9.deb
+Size: 23644216
+MD5sum: 43621e07972eab9624d08a0f6552fb56
+SHA1: 0cd62e8949695f7b41a7fc52f7957b20db636ddf
+SHA256: de2a564d2f827bd52082216e36b3584f016f0971aac5c75d85b1a6f71cfb04b9
+SHA512: 455fd2ae0d52f07b2c69819169ae74aa36b9ba853a0400b9b9fefa5ef67e606c9ca28cbba28efc2b32eb410018ac27ab86d8bf8de1b9a795664acfb60b57502d
+Homepage: https://muratkurt.github.io/
+Description: iOS MCP 1.2.8, packaged for shivtools
+ An MCP server that runs inside SpringBoard, so an agent can read the
+ screen, the view hierarchy and the live system log, drive the UI, and
+ install IPAs from the device itself. Upstream is witchan/ios-mcp; this
+ is the same code with two changes and a different package name.
+ .
+ What is different here:
+ .
+ - The server listens on 127.0.0.1 by default. Upstream binds
+   INADDR_ANY, which exposes an unauthenticated server to everyone on
+   the network. Network mode is still one setting away; from a Mac the
+   cheaper route is an SSH tunnel, which costs nothing and gives
+   authentication and encryption for free.
+ - mcp-root is installed WITHOUT the setuid bit. With it set, any
+   process on the device can become root through the helper's own
+   allow-list. Turn it on deliberately with: shiv-mcp root-ac
+ .
+ Neither is a lock: both are settings, and the responsibility is the
+ developer's. They are defaults, not walls.
+ .
+ The PaddleOCR engine, its two models and the IPA chain (AppSync,
+ appinst, ldid, roothelper) are all included; nothing is downloaded on
+ install.
+ .
+ Installing or upgrading this package loads a new SpringBoard dylib.
+ RESPRING IS REQUIRED and it is not done for you.
+Tag: role::developer
+Name: iOS MCP (shivtools)
+Author: witchan · shivtools uyarlamasi: muratkurt
+Icon: https://muratkurt.github.io/assets/ios-mcp/icon.png
+Depiction: https://muratkurt.github.io/depictions/com.muratkurt.ios-mcp.html
+SileoDepiction: https://muratkurt.github.io/depictions/com.muratkurt.ios-mcp.json
+
+Package: com.muratkurt.ios-mcp
+Architecture: iphoneos-arm64e
+Version: 1.2.8-2
+Priority: optional
+Section: Development
+Maintainer: muratkurt
+Installed-Size: 40832
+Provides: ios-mcp
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.witchan.ios-mcp
+Replaces: com.witchan.ios-mcp
+Filename: debs/iphoneos-arm64e/com.muratkurt.ios-mcp_1.2.8-2_iphoneos-arm64e_ff1b72478eeb681ff95dec74b54c644d1b69339e5e1dadb68e91d0ab4297e1bc.deb
+Size: 23689164
+MD5sum: 378ba2c66ca22cb357a843dca9ddeb8a
+SHA1: 332be35cffe7dff7b27323c99b558053ad814b5c
+SHA256: ff1b72478eeb681ff95dec74b54c644d1b69339e5e1dadb68e91d0ab4297e1bc
+SHA512: 7f0212efbea3ccc8efdd8912a5fbfd0765d338ad2c5a21d6cf533bc2fb976dc27af8782d5ea2dccefdd30b3717c312c5231b0fb298ec6d52705de3fed51b2eda
+Homepage: https://muratkurt.github.io/
+Description: iOS MCP 1.2.8, packaged for shivtools
+ An MCP server that runs inside SpringBoard, so an agent can read the
+ screen, the view hierarchy and the live system log, drive the UI, and
+ install IPAs from the device itself. Upstream is witchan/ios-mcp; this
+ is the same code with two changes and a different package name.
+ .
+ What is different here:
+ .
+ - The server listens on 127.0.0.1 by default. Upstream binds
+   INADDR_ANY, which exposes an unauthenticated server to everyone on
+   the network. Network mode is still one setting away; from a Mac the
+   cheaper route is an SSH tunnel, which costs nothing and gives
+   authentication and encryption for free.
+ - mcp-root is installed WITHOUT the setuid bit. With it set, any
+   process on the device can become root through the helper's own
+   allow-list. Turn it on deliberately with: shiv-mcp root-ac
+ .
+ Neither is a lock: both are settings, and the responsibility is the
+ developer's. They are defaults, not walls.
+ .
+ The PaddleOCR engine, its two models and the IPA chain (AppSync,
+ appinst, ldid, roothelper) are all included; nothing is downloaded on
+ install.
+ .
+ Installing or upgrading this package loads a new SpringBoard dylib.
+ RESPRING IS REQUIRED and it is not done for you.
+Tag: role::developer
+Name: iOS MCP (shivtools)
+Author: witchan · shivtools uyarlamasi: muratkurt
+Icon: https://muratkurt.github.io/assets/ios-mcp/icon.png
+Depiction: https://muratkurt.github.io/depictions/com.muratkurt.ios-mcp.html
+SileoDepiction: https://muratkurt.github.io/depictions/com.muratkurt.ios-mcp.json
+
+Package: com.muratkurt.kaswitcher
+Architecture: iphoneos-arm64
+Version: 0.5.1
+Section: Tweaks
+Maintainer: muratkurt
+Installed-Size: 580
+Depends: firmware (>= 16.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.muratkurt.kaswitcher_0.5.1_iphoneos-arm64_31a380224ac1a67e8fd9e66a19b41ce62d24b00cf0d93433d3c9efe7a9070ed3.deb
+Size: 75932
+MD5sum: 509138fe7697d1fb9bf0e296677a4fd3
+SHA1: 3e472ad23942e9cfbc4d671181cd875c4827a8eb
+SHA256: 31a380224ac1a67e8fd9e66a19b41ce62d24b00cf0d93433d3c9efe7a9070ed3
+SHA512: a007c481bdbdfd20c93850637e1bd4572842a85772bd4edd3a1e41f41c1d857ae2912684bfaf4459efa86b39f080f11f34f039e5d628d380861d394fca8dbbed
+Homepage: https://muratkurt.github.io/
+Description: 一次性关闭应用程序切换器中的所有应用程序。应用程序切换器中的X按钮关闭每个应用程序，并撤销。固定应用程序，保护应用程序，级联动画，12种语言。Close all apps in the app switcher at onceAn X button in the app switcher closes every app, with undo.Pin apps, protect apps, cascade animation, 12 languages.
+Name: KASwitcher
+Author: muratkurt
+Icon: https://muratkurt.github.io/assets/kaswitcher/icon.png
+Depiction: https://muratkurt.github.io/depictions/com.muratkurt.kaswitcher.html
+SileoDepiction: https://muratkurt.github.io/depictions/com.muratkurt.kaswitcher.json
+
+Package: com.muratkurt.kaswitcher
+Architecture: iphoneos-arm64e
+Version: 0.5.1
+Section: Tweaks
+Maintainer: muratkurt
+Installed-Size: 580
+Depends: firmware (>= 16.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.muratkurt.kaswitcher_0.5.1_iphoneos-arm64e_f6ed89d4e39874fd47f4c22b5a5986e8571b3dacceaabe6f020feb0a3d2ff46c.deb
+Size: 75816
+MD5sum: ff1aa0fd3906a38f9d79f72cf4391230
+SHA1: fff9b9c477ff60e2f4f07f60578767c8b216a4f9
+SHA256: f6ed89d4e39874fd47f4c22b5a5986e8571b3dacceaabe6f020feb0a3d2ff46c
+SHA512: 81489a1c7ecf87a704955bc1641659d981ae770507349ab26637e9c90365abcb8c1173ffd53a875d2e65f99d4952fcb95bef399a0554cbb93cfedbd08d74eba5
+Homepage: https://muratkurt.github.io/
+Description: 一次性关闭应用程序切换器中的所有应用程序。应用程序切换器中的X按钮关闭每个应用程序，并撤销。固定应用程序，保护应用程序，级联动画，12种语言。Close all apps in the app switcher at onceAn X button in the app switcher closes every app, with undo.Pin apps, protect apps, cascade animation, 12 languages.
+Name: KASwitcher
+Author: muratkurt
+Icon: https://muratkurt.github.io/assets/kaswitcher/icon.png
+Depiction: https://muratkurt.github.io/depictions/com.muratkurt.kaswitcher.html
+SileoDepiction: https://muratkurt.github.io/depictions/com.muratkurt.kaswitcher.json
+
+Package: com.muzi.dndscheduler
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 440
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.muzi.dndscheduler_1.0.1_iphoneos-arm64_359fd8f52cd418b3d960abb89e0f07e66da255a3c46d86b4bb141c7e32e518d1.deb
+Size: 59392
+MD5sum: be00de7aae601efc6d8ca30b0f881b57
+SHA1: 8b59f847747721179f937c02a6c07c1dda93d16d
+SHA256: 359fd8f52cd418b3d960abb89e0f07e66da255a3c46d86b4bb141c7e32e518d1
+SHA512: 0f7e5b48cc2a5432e2f8673e612b60119dbd00fd827288ee50443b858625ef8eb32d15d693a104491d10a0f0b86288e96b5546f4bd76bf8bc99ff1c0103b2b6a
+Description: 定时开启/关闭勿扰模式插件，可在设置中配置时间、勿扰开关与闹钟式重复周期。
+Name: DNDScheduler 定时勿扰
+Author: Muzi
+Icon: https://muzikeji.github.io/Sileo/icons/dndscheduler.png
+Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.muzi.dndscheduler.json
+
+Package: com.muzi.dndscheduler
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 440
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.muzi.dndscheduler_1.0.1_iphoneos-arm64e_448b56e8930d16dfc0ed8af5817eb6f734211162814447282a240bd8fad23072.deb
+Size: 59300
+MD5sum: 8e7babd7f1be7397c8ed20f83f7ece25
+SHA1: 3f3ad3862df33b101f22b23d9d9ebca27b0e9040
+SHA256: 448b56e8930d16dfc0ed8af5817eb6f734211162814447282a240bd8fad23072
+SHA512: 7285efe7d16e3f4be37a60e6cd648ce4577282d7fdb18b685a92a58823b0f68fa9216fcb16a4c0219b62048e9797adf10ea8d5963963cc2b7a618b9071359435
+Description: 定时开启/关闭勿扰模式插件，可在设置中配置时间、勿扰开关与闹钟式重复周期。
+Name: DNDScheduler 定时勿扰
+Author: Muzi
+Icon: https://muzikeji.github.io/Sileo/icons/dndscheduler.png
+Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.muzi.dndscheduler.json
+
+Package: com.muzi.mutescheduler
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 440
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.muzi.mutescheduler_1.0.1_iphoneos-arm64_855cfae6d7c6bacee6c84778f90b7134477493c0a981c3aecbf02bdbb4665dff.deb
+Size: 59252
+MD5sum: 6ca6c74f7cc2efe68916a6bfeb6c66f5
+SHA1: 540e9d729d993ccae9f40124ac0b1bf4e6b11e1f
+SHA256: 855cfae6d7c6bacee6c84778f90b7134477493c0a981c3aecbf02bdbb4665dff
+SHA512: 8fa636acb18086e7eefe6fd21ed05b1540f52bccd35aaf14cc38a2a896b43a4e378196175bcea3fd9ecc6b59d99e3085ed022edc02d947fa0686461e204ce274
+Description: 定时静音/取消静音插件，可在设置中配置时间、静音模式与闹钟式重复周期。
+Name: MuteScheduler 定时静音
+Author: Muzi
+Icon: https://muzikeji.github.io/Sileo/icons/mutescheduler.png
+Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.muzi.mutescheduler.json
+
+Package: com.muzi.mutescheduler
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 440
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.muzi.mutescheduler_1.0.1_iphoneos-arm64e_68a93d938c7b19edf05a0a360ed203d9d1cd32fcc9b4045f961c2769d11be5d9.deb
+Size: 59128
+MD5sum: c61db8862bd05bb6db84e2d43cdbdb6e
+SHA1: 80a34716ee9679fbcb00277c9d58ea13a62d4de9
+SHA256: 68a93d938c7b19edf05a0a360ed203d9d1cd32fcc9b4045f961c2769d11be5d9
+SHA512: 32930302eac1e211cb134b272ebceb0e12858dc5612ceccad742fe7684c46fda280cb3ebe88e4f8ce3853050bfcede7c66829da0af30cb5e457ac6e806e07035
+Description: 定时静音/取消静音插件，可在设置中配置时间、静音模式与闹钟式重复周期。
+Name: MuteScheduler 定时静音
+Author: Muzi
+Icon: https://muzikeji.github.io/Sileo/icons/mutescheduler.png
+Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.muzi.mutescheduler.json
+
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 2.1.18
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4012
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64/com.muzi.mutool_2.1.18_iphoneos-arm64_c6a474e2db84695c36df68b58fdc3677c928810ae77092f5cd616ba7bbac28e9.deb
+Size: 649156
+MD5sum: eb3235fb99903873cce007b2449f24f1
+SHA1: d13f2146498db29808ef9599ec3cdb99ef062243
+SHA256: c6a474e2db84695c36df68b58fdc3677c928810ae77092f5cd616ba7bbac28e9
+SHA512: d3866343a4e6b24cc2bdba74c5844e55442a491e50f0f21e4e3326365215a92b14af494ae0f0107c647fa42a8117b6f643c5b97faf7c7b1652e0035ac502ee4e
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
+Name: MUtool(rootless)
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64e
+Version: 2.1.18
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 3964
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64e/com.muzi.mutool_2.1.18_iphoneos-arm64e_3f778e225986813eca296e3bd237ed0175e3a752fb9467d77500b865dcc10a74.deb
+Size: 642388
+MD5sum: 4e69ab82a1fd02908634b2424d16c1b2
+SHA1: 5bd4e6fd5b347caa4b9633d3dbcd230da49b8f9b
+SHA256: 3f778e225986813eca296e3bd237ed0175e3a752fb9467d77500b865dcc10a74
+SHA512: 5a4e2a7f22a15ce366858c046d6e56f95755e2acf907bd02bab6d4d4c663f5b4769d1c1392606b429f379c854b58d3b2a64361254fdc77530670a0ac651fa967
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
+Name: MUtool(roothide)
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.nahtedetihw.volvibes
+Architecture: iphoneos-arm64
+Version: 3.2
+Section: Tweaks
+Maintainer: Ethan Whited
+Installed-Size: 1092
+Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
+Filename: debs/iphoneos-arm64/com.nahtedetihw.volvibes_3.2_iphoneos-arm64_7aaf9250e0828a7f4ceb2d6fa03c84155aa05c6374a01de3540c0f495c8be284.deb
+Size: 591380
+MD5sum: 04fcc48c0ba7ec3370853b517ec06779
+SHA1: 99b7a82715101c9916f9c1d037f6f7736a6c5c5f
+SHA256: 7aaf9250e0828a7f4ceb2d6fa03c84155aa05c6374a01de3540c0f495c8be284
+SHA512: d78b2191ae893294904b19b90bc670b39e95da8b15c66496c13118b51f0aa8995938ed7d55f3d779b52792868dee2302697ef804d59c990968fa775ae2bbeaa0
+Description: Change the Volume Button vibrations, color the Volume HUD, and add volume percent!
+  * VolVibes: Brings customizable haptic feedback to your iPhone’s volume buttons. While not the first tweak to add haptics to the volume keys on modern iPhones, VolVibes packs a solid set of options that greatly enhance configurability and usability.
+  * VolVibes：为 iPhone 音量按钮带来可定制的触觉反馈。VolVibes 并非首个为现代 iPhone 音量按钮添加触觉反馈的插件，但它提供了丰富的自定义选项，大幅提升使用体验与可玩性。
+Name: VolVibes
+Author: Ethan Whited
+icon: https://huayuarc.github.io/icon/VolVibes.jpg
+
+Package: com.nahtedetihw.volvibes
+Architecture: iphoneos-arm64e
+Version: 3.2
+Section: Tweaks
+Maintainer: Ethan Whited
+Installed-Size: 1092
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
+Filename: debs/iphoneos-arm64e/com.nahtedetihw.volvibes_3.2_iphoneos-arm64e_fc33586bfa975a331d505aac2cdf6e12f8e627da991c32ef9aa86fb7862e8da3.deb
+Size: 589736
+MD5sum: a92378519267b509b131487fe41d0bc6
+SHA1: 77777683e17a4e101dad858ae8600d06ffa25535
+SHA256: fc33586bfa975a331d505aac2cdf6e12f8e627da991c32ef9aa86fb7862e8da3
+SHA512: 246c2ff1f33148089f4e04c37ecde815c9f0d8548b452ba7871504a950d855760b945a904f094d442e6e530e7aa3d1c408b2e2c8405d30510edee7b202f00d06
+Description: Change the Volume Button vibrations, color the Volume HUD, and add volume percent!
+  * VolVibes: Brings customizable haptic feedback to your iPhone’s volume buttons. While not the first tweak to add haptics to the volume keys on modern iPhones, VolVibes packs a solid set of options that greatly enhance configurability and usability.
+  * VolVibes：为 iPhone 音量按钮带来可定制的触觉反馈。VolVibes 并非首个为现代 iPhone 音量按钮添加触觉反馈的插件，但它提供了丰富的自定义选项，大幅提升使用体验与可玩性。
+Name: VolVibes
+Author: Ethan Whited
+icon: https://huayuarc.github.io/icon/VolVibes.jpg
+
+Package: com.nan.allemand-filza-script
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Depends: com.nan.allemand
+Filename: debs/iphoneos-arm64/com.nan.allemand-filza-script_0.1.0_iphoneos-arm64_14cb3a9719aa4a54024aec370bb720774d06c7ec915de974524b6877c201f757.deb
+Size: 1084
+MD5sum: 4eb95eb9592913be22c918dc09f29791
+SHA1: 37a7ab7b328d40fc79238208490b2e616bb59552
+SHA256: 14cb3a9719aa4a54024aec370bb720774d06c7ec915de974524b6877c201f757
+SHA512: 2d56d6e6b9f4998b7b8cabf96d5431503fb1f6aa7fab613efbb440f3dcc83c28f0a201513a5c768009a4bddded6beed0a633134dd6d31ea5c5f59e05e35f684a
+Description: 通过 Filza 脚本给旧的 dylib 打补丁，只需选中 dylib 文件然后点击脚本
+Name: FilzaScript Allemand
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.allemand/js_f.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.allemand-filza-script
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Depends: com.nan.allemand
+Filename: debs/iphoneos-arm64e/com.nan.allemand-filza-script_0.1.0_iphoneos-arm64e_1f6a4f0e1b7bdfba9cd9946de59ca7e883d441fe3ffb8bab0eff9f807af375fd.deb
+Size: 1084
+MD5sum: ea1a8a03c9ecf7fa976a16ddf39cbe60
+SHA1: a0146cb35b42b65d929cc1c48a2befa0725bf5e4
+SHA256: 1f6a4f0e1b7bdfba9cd9946de59ca7e883d441fe3ffb8bab0eff9f807af375fd
+SHA512: 426ec5276e3dd5d776121a2ef648804318fa6c4101be22c2ac4b763ae14843f2a4a22c8967026cdd8d426f2c6e854d2a70a19af2f17b449a33aa0739301f989b
+Description: 通过 Filza 脚本给旧的 dylib 打补丁，只需选中 dylib 文件然后点击脚本
+Name: FilzaScript Allemand
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.allemand/js_f.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.bindfs
+Architecture: iphoneos-arm64
+Version: 0.5.2
+Section: System
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: debs/iphoneos-arm64/com.nan.bindfs_0.5.2_iphoneos-arm64_981dc904e3c0bb64e3e4598048a740bbd8a388826ae0a5aeab86e1872797b0a9.deb
+Size: 13036
+MD5sum: a2299dd5930a81e8f2f7a47267b53696
+SHA1: f2796c6715ffadf1f03d6ece4deaafa0097342cc
+SHA256: 981dc904e3c0bb64e3e4598048a740bbd8a388826ae0a5aeab86e1872797b0a9
+SHA512: 7ae9524b0fbd197338713bc302376b82a1c2504d1266aa0dd27f782f2f4423c5ff352131477effc61fd1c739628f38030fc6762ced0025aa9a8237ec46503600
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Name: mount_bindfs (Dopamine)
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+
+Package: com.nan.bindfs
+Architecture: iphoneos-arm64
+Version: 0.5.5-1
+Section: System
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: debs/iphoneos-arm64/com.nan.bindfs_0.5.5-1_iphoneos-arm64_1212861b6a57194656ba62938decf98c83d45a75c7aba7c6c77a9d0036f32043.deb
+Size: 13120
+MD5sum: 9e2d5d177993138c50fe19af9111342c
+SHA1: 54e45acc162edfe86f0e2acb0ba1db756b503c9b
+SHA256: 1212861b6a57194656ba62938decf98c83d45a75c7aba7c6c77a9d0036f32043
+SHA512: e251711e83073f58c0ecc7193d6bb6e4a4a8d07a26432a120b8728b21dcae31c6175a2cec199fa9b622278337073fc5d7b32135dc9580afaa9c23a38ba1028a7
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Name: mount_bindfs (Dopamine)
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+
+Package: com.nan.bindfs
+Architecture: iphoneos-arm64e
+Version: 0.5.2
+Section: System
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: debs/iphoneos-arm64e/com.nan.bindfs_0.5.2_iphoneos-arm64e_1cd265c0e290bde5667d24fc09cfa6b6f0bdced1002dbe8922cdc46e04c607fc.deb
+Size: 13016
+MD5sum: d01f0b77145af7be66d09c7a7dcbbef3
+SHA1: 07019478792182d09c8c5bb56a76320bb96c01e6
+SHA256: 1cd265c0e290bde5667d24fc09cfa6b6f0bdced1002dbe8922cdc46e04c607fc
+SHA512: c6ce7a4842ce8f8cdef0b7d927773c21d30ade6d2766b90cd837c0ba97929656830062aaf3c4bf91d5d274b505d1b3eabab7f8bbd0734afc5b4a85047ed2b162
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Name: mount_bindfs (Dopamine)
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+
+Package: com.nan.bindfs
+Architecture: iphoneos-arm64e
+Version: 0.5.5-1
+Section: System
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: debs/iphoneos-arm64e/com.nan.bindfs_0.5.5-1_iphoneos-arm64e_81d87cfba22763e74b110e3c1e08d98ec9b7429bad42e59ad8824c08fa708a8c.deb
+Size: 13104
+MD5sum: 2364ec201f328b6252a83429a977a753
+SHA1: 7f5aabf12b186f0a2d5663a3519f891f099c86cb
+SHA256: 81d87cfba22763e74b110e3c1e08d98ec9b7429bad42e59ad8824c08fa708a8c
+SHA512: 640d53e3da1a941ac4fffdf91c431d950b386fed5002dae423bb87a5ef8b5823c0a953e0b1b9921763fc6a33849315f332e914f69f1397e1a90ef7fdef1d26ff
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Name: mount_bindfs (Dopamine)
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+
+Package: com.nan.deb
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Section: System
+Maintainer: zhaonan
+Depends: coreutils, sed, findutils
+Filename: debs/iphoneos-arm64/com.nan.deb_0.3.0_iphoneos-arm64_3e54a8d2a90a26cc3d6b469f9c7d8572416ed912f169142883e17ba2904c6374.deb
+Size: 4272
+MD5sum: 7560c1d40502e125f34c312de9dcf5b7
+SHA1: 164678f3b2dd7d4b03559853f486b69668a7ff73
+SHA256: 3e54a8d2a90a26cc3d6b469f9c7d8572416ed912f169142883e17ba2904c6374
+SHA512: 73c114a92c87809687a8812a44ab8c5d8f0de721f1348dbef6c0273d481db2d499d18e480b8512a4712153935902db4feb981597fe15780196812949a5e69273
+Description: deb 工具，普通解压，普通打包，批量解压，批量打包，提取已安装软件包，deb 信息查看
+Name: deb
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+
+Package: com.nan.deb
+Architecture: iphoneos-arm64e
+Version: 0.3.0
+Section: System
+Maintainer: zhaonan
+Depends: coreutils, sed, findutils
+Filename: debs/iphoneos-arm64e/com.nan.deb_0.3.0_iphoneos-arm64e_a2a4606953af9da2660af6e258ccffccb12fb30d6c10acf7135e205b76c093e1.deb
+Size: 4248
+MD5sum: 0351913d291e4d503e1dc47869351550
+SHA1: 79afb2469a4f5d21eea674a5026f73141119a9d5
+SHA256: a2a4606953af9da2660af6e258ccffccb12fb30d6c10acf7135e205b76c093e1
+SHA512: 514a7ec2f7507524ea29c57998ead524c58b91581becbd2f5f11c0aa88bbd39735f5268d9e4584d20055acddb8bdd6286bf68ddd7c56256bf9a170e0da2b4072
+Description: deb 工具，普通解压，普通打包，批量解压，批量打包，提取已安装软件包，deb 信息查看
+Name: deb
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+
+Package: com.nan.deb-filza-script-b
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Pre-Depends: com.tigisoftware.filza64bit | com.tigisoftware.filza
+Depends: com.nan.deb
+Filename: debs/iphoneos-arm64/com.nan.deb-filza-script-b_0.1.0_iphoneos-arm64_ad0aba25a4c3e6eb837253760d7fef4b3d116efd95edc5cf99e240e345abc633.deb
+Size: 1152
+MD5sum: 2f047e0c1fe9847f6fa4db145d9c749f
+SHA1: db274f800ac1938a0312fa49e0e0fd74a2e480c9
+SHA256: ad0aba25a4c3e6eb837253760d7fef4b3d116efd95edc5cf99e240e345abc633
+SHA512: d794f1f8dfe958ed4d10bb3103b9a9f71ba322fc73b50b8122c40137c8b1d77c57ad00dae05ddd0a3c51e0c90d9e69f275d4532150f38439ff4fd36ab28a7cd3
+Description: deb 扩展，Filza 脚本，打包 deb，打包有 deb 的目录
+Name: FilzaScript deb -b
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js_b.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.deb-filza-script-b
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Pre-Depends: com.tigisoftware.filza64bit | com.tigisoftware.filza
+Depends: com.nan.deb
+Filename: debs/iphoneos-arm64e/com.nan.deb-filza-script-b_0.1.0_iphoneos-arm64e_73707aac8b0fc04a8cc5c6de0d087dbc46162353238c4aeabbfcd6ee2f32d20b.deb
+Size: 1148
+MD5sum: c5e7ec91ce97618a6a0425539ba35848
+SHA1: 57cbba6ac62cd29bfc40dcb4430e72e4ea14a484
+SHA256: 73707aac8b0fc04a8cc5c6de0d087dbc46162353238c4aeabbfcd6ee2f32d20b
+SHA512: 8b769cc8a0c2829e158ec29d918dbf89aa29a3b3e46eb035e4ad6c3dfa43e9600f25b61e39fa7a11342585b3ecc0cc0fef60bc0a3dedced913abae6cfdad4669
+Description: deb 扩展，Filza 脚本，打包 deb，打包有 deb 的目录
+Name: FilzaScript deb -b
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js_b.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.deb-filza-script-b-gzip
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Provides: com.nan.deb-filza-script-b
+Pre-Depends: com.tigisoftware.filza64bit | com.tigisoftware.filza
+Depends: com.nan.deb
+Conflicts: com.nan.deb-filza-script-b, com.nan.deb-filza-script-b-xz
+Filename: debs/iphoneos-arm64/com.nan.deb-filza-script-b-gzip_0.1.0_iphoneos-arm64_51430814715dee5d57be4e1762bd6c1716e276a8bc6d9009a2e002b8bd39ac63.deb
+Size: 1188
+MD5sum: 618d51c39cb5897ebc238592cf4e136b
+SHA1: 7a388eb72047bd5b0f595391515ec8f473ceb899
+SHA256: 51430814715dee5d57be4e1762bd6c1716e276a8bc6d9009a2e002b8bd39ac63
+SHA512: 01bdad90e465cc42af20f30d1562dc20ac6e5079afef6964f1bfa74555daf3e27b6bf8a2869058376025cec1a5f8b3050f3cfeffbb6bb6ca1387c97b63d35fb5
+Description: deb 扩展，Filza 脚本，打包 deb，打包有 deb 的目录
+Name: FilzaScript deb -b gzip
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js_b.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.deb-filza-script-b-gzip
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Provides: com.nan.deb-filza-script-b
+Pre-Depends: com.tigisoftware.filza64bit | com.tigisoftware.filza
+Depends: com.nan.deb
+Conflicts: com.nan.deb-filza-script-b, com.nan.deb-filza-script-b-xz
+Filename: debs/iphoneos-arm64e/com.nan.deb-filza-script-b-gzip_0.1.0_iphoneos-arm64e_ffe93f5f3fe72ed3fdca31b0c030955d15c7f068d08c011eac247b7ecc3751b2.deb
+Size: 1188
+MD5sum: 6591480f5e2af758205f3104b275b75d
+SHA1: e23b9438a4e85f7011e98bfef3857855f01286c7
+SHA256: ffe93f5f3fe72ed3fdca31b0c030955d15c7f068d08c011eac247b7ecc3751b2
+SHA512: da130b3aa21e894f451a4123dd9abe6e5c178ea82367ecbef88c64f5369cbaecfcd1f61fca0997c8f22f245012fb8201d2acd44033cede0d4b8855c5d697f59f
+Description: deb 扩展，Filza 脚本，打包 deb，打包有 deb 的目录
+Name: FilzaScript deb -b gzip
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js_b.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.deb-filza-script-b-xz
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Provides: com.nan.deb-filza-script-b
+Pre-Depends: com.tigisoftware.filza64bit | com.tigisoftware.filza
+Depends: com.nan.deb
+Conflicts: com.nan.deb-filza-script-b, com.nan.deb-filza-script-b-gzip
+Filename: debs/iphoneos-arm64/com.nan.deb-filza-script-b-xz_0.1.0_iphoneos-arm64_264e54dbabb9d537b8a24fddb5c570cf39183704db5ec1d850ac45a195a7e9de.deb
+Size: 1184
+MD5sum: 5411b91eb9c4acf1ce605c9f9035c555
+SHA1: eb87262495f39efd9e0c1c44b4e6fe2924076a35
+SHA256: 264e54dbabb9d537b8a24fddb5c570cf39183704db5ec1d850ac45a195a7e9de
+SHA512: 0bc84c6d799f3e47e5e0c3da452713a5710faca096bd00e9d8519637d38f14fbe173dabee86f29c64fa0d9b80df6817accb60b975c20c06369b434b7aa0d6baf
+Description: deb 扩展，Filza 脚本，打包 deb，打包有 deb 的目录
+Name: FilzaScript deb -b xz
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js_b.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.deb-filza-script-b-xz
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Provides: com.nan.deb-filza-script-b
+Pre-Depends: com.tigisoftware.filza64bit | com.tigisoftware.filza
+Depends: com.nan.deb
+Conflicts: com.nan.deb-filza-script-b, com.nan.deb-filza-script-b-gzip
+Filename: debs/iphoneos-arm64e/com.nan.deb-filza-script-b-xz_0.1.0_iphoneos-arm64e_a709303baee25b5fe06dea89860d18874bb5ede8582f5033370e350986b50866.deb
+Size: 1188
+MD5sum: b5a6eae30dad97b3c43c66dc16f30a22
+SHA1: 88c20d95603c86a2b82bb478b09fc2f44c928814
+SHA256: a709303baee25b5fe06dea89860d18874bb5ede8582f5033370e350986b50866
+SHA512: b24267e59dfee54ae19ad0da736c1b80c7f8d5537cf426d22239a60c8d99c7008ba72cee6d2f4eb4e54eeafc37ceab346828480be48b9bf3fee7d18c5de1834c
+Description: deb 扩展，Filza 脚本，打包 deb，打包有 deb 的目录
+Name: FilzaScript deb -b xz
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js_b.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.deb-filza-script-r
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Pre-Depends: com.tigisoftware.filza64bit | com.tigisoftware.filza
+Depends: com.nan.deb
+Filename: debs/iphoneos-arm64/com.nan.deb-filza-script-r_0.1.0_iphoneos-arm64_5f30bb3237db2227e050d6831eda701828d9ede1e2cefb77046a0357368b0697.deb
+Size: 1216
+MD5sum: 08e92946ee2a97fe9786686c3bcfd644
+SHA1: 9f62e91368d746351ebe2f98778e31bd316a7a44
+SHA256: 5f30bb3237db2227e050d6831eda701828d9ede1e2cefb77046a0357368b0697
+SHA512: 4fcea8b6b2b0fb20aa7daa769dc3bad70efcac0ad049117a5eeb3da0b2b94f31f168754a4d7c8075e7791880f94c605583c7e1d1ad6ebc06b38ef0ef9bd60631
+Description: deb 扩展，Filza 脚本，可用于解决 Filza 无法解压无文件的 deb
+Name: FilzaScript deb -r
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js_r.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.deb-filza-script-r
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Pre-Depends: com.tigisoftware.filza64bit | com.tigisoftware.filza
+Depends: com.nan.deb
+Filename: debs/iphoneos-arm64e/com.nan.deb-filza-script-r_0.1.0_iphoneos-arm64e_4488b76ce6d589e1949221b6f2aafbd745ad4f8738f46be9db8175e46ecf4a77.deb
+Size: 1208
+MD5sum: 53042828c45769fb1c9c6bed02e4e953
+SHA1: f45abd514cf790bb168f6a624de8144575cfd660
+SHA256: 4488b76ce6d589e1949221b6f2aafbd745ad4f8738f46be9db8175e46ecf4a77
+SHA512: 7f87a32a5db5a2c2cd63c41a2268be478a30bd6231bc6814c97c9d47ce317f90e5cca7d645ab7df13ed94b6f382ddbdb0fd8457378170c833cf645d94442f3a8
+Description: deb 扩展，Filza 脚本，可用于解决 Filza 无法解压无文件的 deb
+Name: FilzaScript deb -r
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js_r.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.debd
+Architecture: iphoneos-arm64
+Version: 0.4.0
+Section: System
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq
+Filename: debs/iphoneos-arm64/com.nan.debd_0.4.0_iphoneos-arm64_5a415dceeeee8a45d3d0037ebe6d734731eb3d4bd7169e83f3f57cb4ec080f0a.deb
+Size: 4704
+MD5sum: d9ebf3100717e18764df42496191af57
+SHA1: eafbb3d5fcbb2156e95371142f85e8a9b9b02c19
+SHA256: 5a415dceeeee8a45d3d0037ebe6d734731eb3d4bd7169e83f3f57cb4ec080f0a
+SHA512: 45d5d9c1c6b3d96b0cf12620745e8b5986d3c536509b165709538981eb38dbbc5bb98b91eb6ff7e3c567281f8888234e4435681420e2453207ddf072de064d7a
+Description: 轻量 deb 下载工具，不支持付费才能下的插件
+Name: debd
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+
+Package: com.nan.debd
+Architecture: iphoneos-arm64e
+Version: 0.4.0
+Section: System
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq
+Filename: debs/iphoneos-arm64e/com.nan.debd_0.4.0_iphoneos-arm64e_4e00939c9de4f3af49801c680b8229a26334e5e6a9e042b7c7a3b7074b107fff.deb
+Size: 4684
+MD5sum: cf2b99df72486179ccbb25ae48329cd2
+SHA1: c279882b3735e16af1cd1bea190a77f605efe985
+SHA256: 4e00939c9de4f3af49801c680b8229a26334e5e6a9e042b7c7a3b7074b107fff
+SHA512: 4e0856721e982c2d90d898db2d924201c41194adfebdf4e8b728f6f53ca8767db3fe14c44c342dbcece884c3f176eac3645631819950176a589b88d251a061c1
+Description: 轻量 deb 下载工具，不支持付费才能下的插件
+Name: debd
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+
+Package: com.nan.disablelowpoweralerts
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Pre-Depends: firmware (>= 9.0)
+Depends: plutil | com.bingner.plutil
+Filename: debs/iphoneos-arm64/com.nan.disablelowpoweralerts_0.1.0_iphoneos-arm64_b3c36f22c84176cbab3a5729563bb07bbda3b1834e9f6874b89160a5504bf832.deb
+Size: 1184
+MD5sum: bdc14d687e50608df5d0b036bbb09b69
+SHA1: 312cf1bd19d9a463ca7301d114e4ec7e9b3aafbd
+SHA256: b3c36f22c84176cbab3a5729563bb07bbda3b1834e9f6874b89160a5504bf832
+SHA512: d5168e6a311c6db1143076c96a7569632062b98ac8f50584b9cd79ff94a669cd3f8eb980b1439e3ca18006c95d418beaf2d5c14763f414b9edf4d49a21794e58
+Description: 禁用低电量弹窗
+Name: Disable LowPower Alerts
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.disablelowpoweralerts/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.disablelowpoweralerts
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Pre-Depends: firmware (>= 9.0)
+Depends: plutil | com.bingner.plutil
+Filename: debs/iphoneos-arm64e/com.nan.disablelowpoweralerts_0.1.0_iphoneos-arm64e_cf47177de8a4f3e8b24b35fcfee50d3288e49492767efe0ef0aed1d1b33ed8d2.deb
+Size: 1192
+MD5sum: 2102326cfd0e32b6dbb3eee09b34a824
+SHA1: 38fe5b008b258a98f343a55b6db51b20992796aa
+SHA256: cf47177de8a4f3e8b24b35fcfee50d3288e49492767efe0ef0aed1d1b33ed8d2
+SHA512: a403d74b2229538793db0a85df182b0b3f3f59dfc6f7e8556ef4ca48830a5ce077fd4c2fb15eedb77924176067957e277a8c0fb3231eeda8f3969fea9078db90
+Description: 禁用低电量弹窗
+Name: Disable LowPower Alerts
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.disablelowpoweralerts/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.disablesblockaftercrash
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Pre-Depends: firmware (>= 7.0)
+Depends: plutil | com.bingner.plutil
+Filename: debs/iphoneos-arm64/com.nan.disablesblockaftercrash_0.1.0_iphoneos-arm64_e969983e93589fa146b79343a26666db1b1a463859f1d2860dd4401f0b583b28.deb
+Size: 1212
+MD5sum: b867fdb0c07ec47bc005c311cfe6165d
+SHA1: 83473281c004d36cb83de13567c498166e681aaa
+SHA256: e969983e93589fa146b79343a26666db1b1a463859f1d2860dd4401f0b583b28
+SHA512: 232e3efbe0fd29c2ee5c611fd26931dc4b3c9c80746727c58de0dc37fcc6af6b647a10ff326b957f0e524aed9a103728bf39b7c69e8f5669bd37a1301145ad20
+Description: 禁用 SpringBoard 崩溃后自动锁定的策略
+Name: Disable SB Lock After Crash
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.disablesblockaftercrash/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.disablesblockaftercrash
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Pre-Depends: firmware (>= 7.0)
+Depends: plutil | com.bingner.plutil
+Filename: debs/iphoneos-arm64e/com.nan.disablesblockaftercrash_0.1.0_iphoneos-arm64e_8898e753b91373230845b2fcffe266d0119e4749771aa5db860e8947272792fe.deb
+Size: 1212
+MD5sum: a781c69342f226b5b990ab0763e63a0c
+SHA1: 9c88ee06da1b60eaddba5b5bac64d94f2c07eb2d
+SHA256: 8898e753b91373230845b2fcffe266d0119e4749771aa5db860e8947272792fe
+SHA512: 771c27157a127b7d92693b3ea90f391ab157ea8f3b23718b33a9a6c28f954c23264ecb63db564d992caee007e2c584beb135d91f7f1447813381dc77d3f42207
+Description: 禁用 SpringBoard 崩溃后自动锁定的策略
+Name: Disable SB Lock After Crash
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.disablesblockaftercrash/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.disableupdates
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Section: System
+Maintainer: zhaonan
+Pre-Depends: file-cmds
+Filename: debs/iphoneos-arm64/com.nan.disableupdates_0.1.1_iphoneos-arm64_18cae7eaafeb0536c2cb866abdec3a5ab049a6d867c6eba36d43101488692110.deb
+Size: 1100
+MD5sum: 94f905e2fa0502dcb9a67534e2891cc5
+SHA1: 32e69c12e687f4dd20a96c1baeabfcd1de3f639c
+SHA256: 18cae7eaafeb0536c2cb866abdec3a5ab049a6d867c6eba36d43101488692110
+SHA512: 184748dcb807a13e2c7676d8410528fae949a15e44563768a455939da74c5ff85e233d6d974016691a33cc169d1ffc97366ef77b1df35b3b2491031fda97f8c0
+Description: 通过锁定 /var/MobileSoftwareUpdate/MobileAsset/AssetsV2 来阻止系统更新
+Name: Disable Updates
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.disableupdates/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.disableupdates
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Section: System
+Maintainer: zhaonan
+Pre-Depends: file-cmds
+Filename: debs/iphoneos-arm64e/com.nan.disableupdates_0.1.1_iphoneos-arm64e_05b87cf2dc52d7c8b48356e6a58d0411ff079f987d9dcbcb08b04987f2c3b54a.deb
+Size: 1108
+MD5sum: 0bb4c96638eddbdfbe915de390a6e4d2
+SHA1: a5ebc9dbd5818f5dbc972193c499135b79265a45
+SHA256: 05b87cf2dc52d7c8b48356e6a58d0411ff079f987d9dcbcb08b04987f2c3b54a
+SHA512: 298551646dc871b7f647e7d3dc11e3c795f5becf4fb4538580ef542f2db250f48f1dba8f34f8651571d8859f8322331b1db04123c39f91bd5c13b587aa4de37b
+Description: 通过锁定 /var/MobileSoftwareUpdate/MobileAsset/AssetsV2 来阻止系统更新
+Name: Disable Updates
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.disableupdates/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.dpkg-fill-daemon
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Pre-Depends: com.nan.dpkg-fill
+Conflicts: com.nan.dpkg-fill-triggers
+Filename: debs/iphoneos-arm64/com.nan.dpkg-fill-daemon_0.1.0_iphoneos-arm64_1ea5c79b96f85253c927b0e8982fa40e3d9e1fbadf498b88301638e9ded54e41.deb
+Size: 1912
+MD5sum: 1edfa434f258cfca7488c3b93d52e675
+SHA1: 0aa4537411e1558e72ffe9267c8689867122ef7e
+SHA256: 1ea5c79b96f85253c927b0e8982fa40e3d9e1fbadf498b88301638e9ded54e41
+SHA512: 66ba8c62bca0ff0d6a9009bd902e8ad014c582c8005116aaa593d3c5671bea127385f08b2e9dda5b4cc8c2852df17c0858118ad0f88a36399f408efc2a76fd49
+Description: 一个自动触发器，可以被多数插件安装时触发，拉起 dpkg-fill 进行自动填充丢失的值
+Name: dpkg-fill daemon
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.dpkg-fill/js_daemon.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.dpkg-fill-daemon
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Pre-Depends: com.nan.dpkg-fill
+Conflicts: com.nan.dpkg-fill-triggers
+Filename: debs/iphoneos-arm64e/com.nan.dpkg-fill-daemon_0.1.0_iphoneos-arm64e_7e1010054174d88810c32df67b18226120a10ba82dda700b034502a62f910497.deb
+Size: 1904
+MD5sum: ef6fd3293b4d830cd79e9d5bc810797a
+SHA1: d656644d4655ed1cd5066b50fbd6e3ec9c493e50
+SHA256: 7e1010054174d88810c32df67b18226120a10ba82dda700b034502a62f910497
+SHA512: 9e325fb28b1c9570cc0c6465be1c4951065a8eb05e3773fe999965b210c0ac580ad936ef37beef96b2fb5d8f06adba83d26c67b2d26f0b9f6b17850be39c1a78
+Description: 一个自动触发器，可以被多数插件安装时触发，拉起 dpkg-fill 进行自动填充丢失的值
+Name: dpkg-fill daemon
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.dpkg-fill/js_daemon.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.enableccmutemodule
+Architecture: iphoneos-arm64
+Version: 0.2.0
+Section: System
+Maintainer: zhaonan
+Depends: firmware (>> 11.0)
+Filename: debs/iphoneos-arm64/com.nan.enableccmutemodule_0.2.0_iphoneos-arm64_3eb00d0a288172a6bcbf4ce2e8ea200bbfbbfaa98444af7cd3f1c99b3d5aaf45.deb
+Size: 1224
+MD5sum: 0f25eff8d29be6ec664f1edc8d6dabaa
+SHA1: ed2285f13939ca25b8931e9421de41e078d16f11
+SHA256: 3eb00d0a288172a6bcbf4ce2e8ea200bbfbbfaa98444af7cd3f1c99b3d5aaf45
+SHA512: 8f061b1a686f9872e36fb4ca8a9714c288a60554bd76759164a556fe917587c77b84550c7b2441d75e69afb20f5da251ddc29c84834fe94514b56bd83a63d032
+Description: 激活原生 iPhone 控制中心静音模块
+Name: Enable CC MuteModule
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.enableccmutemodule/js.json
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.enableccmutemodule/image.png
+
+Package: com.nan.enableccmutemodule
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Section: System
+Maintainer: zhaonan
+Depends: firmware (>> 11.0)
+Filename: debs/iphoneos-arm64e/com.nan.enableccmutemodule_0.2.0_iphoneos-arm64e_d4de1127d84aee7fadc402b19333028f5660b256fb7b297b013ac0a6e46e8299.deb
+Size: 1236
+MD5sum: a60af7ce011b2951ba0e24740c12d432
+SHA1: 852a1f0096544a000c106104f9b07249e56c21b9
+SHA256: d4de1127d84aee7fadc402b19333028f5660b256fb7b297b013ac0a6e46e8299
+SHA512: 662f99ba725e58f4f31a58f4fdbce2c949744162a2e85f829eba61b8310678c1755959877082a904eb7f7aab50d71376868ab184574584613fe3bc9d375de68e
+Description: 激活原生 iPhone 控制中心静音模块
+Name: Enable CC MuteModule
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.enableccmutemodule/js.json
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.enableccmutemodule/image.png
+
+Package: com.nan.givemedeb
+Architecture: iphoneos-arm64
+Version: 0.3.1
+Section: System
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: debs/iphoneos-arm64/com.nan.givemedeb_0.3.1_iphoneos-arm64_b01f314c4c6da2d342c5154e9661c499075826b26f956b1411bf595724496d54.deb
+Size: 2236
+MD5sum: 449d7197aa22e9116487e5d926d754c4
+SHA1: 722b8e246d813b6d11604d4b460b9444bea83f17
+SHA256: b01f314c4c6da2d342c5154e9661c499075826b26f956b1411bf595724496d54
+SHA512: 0bbe2287f7b7351bc2c37f2f1371f0a940d1d34886394da1178a1639b5f8d37225da270bf4662a93ae2a24521d9425421da3578b3b73000cc8a5997bd4e17e11
+Description: 尝试保存 apt 缓存目录下所有 deb
+Name: Give me deb
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.givemedeb
+Architecture: iphoneos-arm64e
+Version: 0.3.1
+Section: System
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: debs/iphoneos-arm64e/com.nan.givemedeb_0.3.1_iphoneos-arm64e_096f27e05ceed359406d33534f6e9f150c70b512b450c9662fcb8512a10ad968.deb
+Size: 2204
+MD5sum: d35aa5776e1aefc49cd9ff25521c088f
+SHA1: c5168cd54e1bd03d98ea8807df009108459a6d0a
+SHA256: 096f27e05ceed359406d33534f6e9f150c70b512b450c9662fcb8512a10ad968
+SHA512: e45093697fb53e37910bc969cac07e0e440240c8105dae78182176a19b19e87b1c13179fb7c4d66f594c69483fe639d22a7e3e97df9cdcb3aa353f735811824d
+Description: 尝试保存 apt 缓存目录下所有 deb
+Name: Give me deb
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.givemedebx
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Conflicts: com.nan.givemedeb
+Filename: debs/iphoneos-arm64/com.nan.givemedebx_0.1.0_iphoneos-arm64_7577e98abfcd859cc115d0a7e9f562198f5cc9f4fa4a79aadc767bbcf89d5c14.deb
+Size: 1332
+MD5sum: 61023b0f2de9a8554c9793871d1c57c3
+SHA1: 257a18c9992525b68c63ba73ce7d28a6113c0741
+SHA256: 7577e98abfcd859cc115d0a7e9f562198f5cc9f4fa4a79aadc767bbcf89d5c14
+SHA512: 352203bd4b2c04577abc55ce0525d8b7adcf0b0c3e8c706e73c777e9b00eee8ad3b52c3494c72dced0f12fac7c2582c2e2aa38cb0ba46ab0d8a78207ee603270
+Description: 通过劫持 dpkg 的方式获取每一个途径 dpkg 的 deb
+Name: Give me deb X
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js_x.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.givemedebx
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: System
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Conflicts: com.nan.givemedeb
+Filename: debs/iphoneos-arm64e/com.nan.givemedebx_0.1.0_iphoneos-arm64e_b04c392fa0d83e9ea14a5373a17f9f751345704d64a83b0f1ca1b228ec4d6e91.deb
+Size: 1332
+MD5sum: e73b2f3220c872b7d4481ddc39beac1d
+SHA1: 04b70e95348111be5355f87f2ca3b63d247e6721
+SHA256: b04c392fa0d83e9ea14a5373a17f9f751345704d64a83b0f1ca1b228ec4d6e91
+SHA512: f826dda5204487c7b73360825714a862c2c5cc6382f771722ea2f90f6ccbca3970e0d2623bcc785108756a903faf8db83974cfa3d60e5607f2a30fc4d1069896
+Description: 通过劫持 dpkg 的方式获取每一个途径 dpkg 的 deb
+Name: Give me deb X
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js_x.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.localhostssh
+Architecture: iphoneos-arm64
+Version: 0.3.2
+Section: System
+Maintainer: zhaonan
+Pre-Depends: sed, openssh-server | openssh
+Depends: plutil | com.bingner.plutil | com.ericasadun.utilities
+Filename: debs/iphoneos-arm64/com.nan.localhostssh_0.3.2_iphoneos-arm64_ab07880f0e3e7a91304a314448c48d6b17e7330d49eaf95bbcd5423ac4fffc8e.deb
+Size: 1604
+MD5sum: 7b1d18cb2e4378ed793035a56b761761
+SHA1: 3c591a934ecdca76ca0251f5b154c593961fd19d
+SHA256: ab07880f0e3e7a91304a314448c48d6b17e7330d49eaf95bbcd5423ac4fffc8e
+SHA512: 3a1fa2ca09dac7b5a705a7a2c7d057b04decc02cbc67ebc65798dfa20504108a33ca2c2348e66f1cdd385e30d5cf81cb7f619978a4d1961ba0c256060219ad8b
+Description: 仅为 iOS 本地 SSH 访问启用 2222 端口
+Name: Local SSH
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.localhostssh/js.json
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.localhostssh/image.png
+
+Package: com.nan.localhostssh
+Architecture: iphoneos-arm64e
+Version: 0.3.2
+Section: System
+Maintainer: zhaonan
+Pre-Depends: sed, openssh-server | openssh
+Depends: plutil | com.bingner.plutil | com.ericasadun.utilities
+Filename: debs/iphoneos-arm64e/com.nan.localhostssh_0.3.2_iphoneos-arm64e_3a6c221bec6470774dba45b8e88b4bd3d8216289eb84d61c01d1b0ab1b62add7.deb
+Size: 1612
+MD5sum: 30f19f6431d47092ee7e6f8a27f87c32
+SHA1: ea1e83e393d6cca5e41bff074c48e44f75cddbc0
+SHA256: 3a6c221bec6470774dba45b8e88b4bd3d8216289eb84d61c01d1b0ab1b62add7
+SHA512: 23d5e42eba2c4daf14d23127769de5b00aee281dec88041353b64b947a3e3e9d578faf53c04e0984e42abe317fc91192d5e6c004b238b396a8fd158ceb0795f4
+Description: 仅为 iOS 本地 SSH 访问启用 2222 端口
+Name: Local SSH
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.localhostssh/js.json
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.localhostssh/image.png
+
+Package: com.nathan.dynamicnotland
+Architecture: iphoneos-arm64
+Version: 1.2.5
+Section: Tweaks
+Maintainer: Nathan
+Installed-Size: 348
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.nathan.dynamicnotland_1.2.5_iphoneos-arm64_5973286317706008ec224601a363615551cd20def15aa6259a06775235ee6380.deb
+Size: 12360
+MD5sum: 318c56e845a353a771fe733d63ddfefd
+SHA1: c6d55251b1c5bb8f5acdcf8590234c29c4fefa15
+SHA256: 5973286317706008ec224601a363615551cd20def15aa6259a06775235ee6380
+SHA512: 02a5acec5c9034c0b1f6eb4c0b8fd3105b004fabaaeb2475c984a265ca2b7eab94c839091fa1290f3c6993c2b544359011e4a515858c3cf826424d6796662d35
+Description: A tweak to hide the Dynamic Island on the 14 Pro series when it's not in use! 在不使用时，在 14 Pro系列中隐藏动态岛的调整！
+Name: DynamicNotLand
+Author: Nathan
+icon: https://huayuarc.github.io/icon/dynamicnotland.jpg
+
+Package: com.nathan.dynamicnotland
+Architecture: iphoneos-arm64e
+Version: 1.2.5
+Section: Tweaks
+Maintainer: Nathan
+Installed-Size: 348
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.nathan.dynamicnotland_1.2.5_iphoneos-arm64e_00d8c0cbb8fb7d7659628746522181f488f2bd1807fd1af4bdb7193abb0def45.deb
+Size: 12460
+MD5sum: 3955dd15c675a4a95be110d2b6667377
+SHA1: 6da6985df2cd3d031cdab8d7d357e4ebaf29ac16
+SHA256: 00d8c0cbb8fb7d7659628746522181f488f2bd1807fd1af4bdb7193abb0def45
+SHA512: e2fff9db1c762e7368ad1f210cc928c44fc9b6de7f28fce2010efc55510d2de6d9e4c6dbced51a74a27de3a7d395720977769bd6c27c29bdc323bc7dd60669d8
+Description: A tweak to hide the Dynamic Island on the 14 Pro series when it's not in use! 在不使用时，在 14 Pro系列中隐藏动态岛的调整！
+Name: DynamicNotLand
+Author: Nathan
+icon: https://huayuarc.github.io/icon/dynamicnotland.jpg
+
+Package: com.necromancy.tweak
+Architecture: iphoneos-arm64
+Version: 1.2.6
+Section: Tweaks
+Maintainer: colorBlack
+Installed-Size: 1200
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.necromancy.tweak_1.2.6_iphoneos-arm64_9a39b5f367dfe1bb79654c8267eaa76f5438c14b3abb02677c34312899597eb3.deb
+Size: 341404
+MD5sum: 9a7e17272aa10e1a165d61bc0f792758
+SHA1: b5beecaf0bfd75cc19634e7701faa7896ee7d34d
+SHA256: 9a39b5f367dfe1bb79654c8267eaa76f5438c14b3abb02677c34312899597eb3
+SHA512: bebc7b315a0be9cf7360b91c639af41f100885e046b27c62ef73f3e35ca5aba1ff28008a9eba7f58357fb1a73efb2bdae29881c7705139d2c62f4c08fbfa81dc
+Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
+Name: Necromancy
+Author: colorBlack
+icon: https://huayuarc.github.io/icon/Necromancy.png
+
+Package: com.necromancy.tweak
+Architecture: iphoneos-arm64e
+Version: 1.2.6
+Section: Tweaks
+Maintainer: colorBlack
+Installed-Size: 1200
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.necromancy.tweak_1.2.6_iphoneos-arm64e_357ce4a231665042a807d6ebdb5908e500e5178861e271a1309818ed23ca922e.deb
+Size: 341636
+MD5sum: 5e895c193af672fd942250a5097cb3fd
+SHA1: 9875128c02ba9439bb4846129694bafe50d49c51
+SHA256: 357ce4a231665042a807d6ebdb5908e500e5178861e271a1309818ed23ca922e
+SHA512: e5941a31cf6dba4e3ffe80bfe99639a022f140ac7dd0bf7b7448347fb8605db7e8e742b639b08f057bbb808a5f9735a1f13a8a521932353c5666e68e54e4ffcb
+Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
+Name: Necromancy
+Author: colorBlack
+icon: https://huayuarc.github.io/icon/Necromancy.png
+
+Package: com.netskao.awemefullscreen
+Architecture: iphoneos-arm64
+Version: 1.3-7
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 448
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.netskao.awemefullscreen_1.3-7_iphoneos-arm64_2c065c1bc8d8218ffc89e3e3ec74e8202545ae316c9208fdeeb0c0e84ab5e2e0.deb
+Size: 191648
+MD5sum: e6c0a5ad24979c2ef52d79e4f49ec7a0
+SHA1: ed3d2f1b4284360dfaaf3dacdedde44f9a11d44c
+SHA256: 2c065c1bc8d8218ffc89e3e3ec74e8202545ae316c9208fdeeb0c0e84ab5e2e0
+SHA512: 388eecd29a10e06b155254a4e9fa634393eb8fc2b9c2576be6c40f0b4a66f797a88d6834f67d763a2e38ec4afe71787117d7bbce32f450755781f141eeb5d3f9
+Description: Aweme HomePage Full Screen. Supported only for version 35.0.0 and above
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.awemefullscreen
+Name: AwemeFullScreen
+Author: Netskao
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.netskao.awemefullscreen
+Architecture: iphoneos-arm64e
+Version: 1.3-7
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 448
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.netskao.awemefullscreen_1.3-7_iphoneos-arm64e_f9c255322d35acd60da7dd95fb94b37a5fc5d541bfbe11782b01e103952f07ae.deb
+Size: 192060
+MD5sum: 1a72872f58f14e2828e7c1949281965e
+SHA1: f58208a68bb37ab65cfbfa9a690c652930d4144f
+SHA256: f9c255322d35acd60da7dd95fb94b37a5fc5d541bfbe11782b01e103952f07ae
+SHA512: 04d13fac2e228a2a4f4bb749f5d53bd61b99fc0abccb37aa08a7c26e7f71ada6c92c0629140b62cc8ebbc3f47386df54129332dcea4fe084c6cc61c7af7bbd3f
+Description: Aweme HomePage Full Screen. Supported only for version 35.0.0 and above
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.awemefullscreen
+Name: AwemeFullScreen
+Author: Netskao
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.netskao.ccbadgeclear
+Architecture: iphoneos-arm64
+Version: 1.2-6
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 224
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.netskao.ccbadgeclear_1.2-6_iphoneos-arm64_77e9c2afddc162d78e5b8d920df2637d7081491cc6147eca342032505a521782.deb
+Size: 25832
+MD5sum: 4872d940853b2f3400450bbc77dadcce
+SHA1: 9dfcbd62737e3e0bbd238af7c97c2069c9f13eb0
+SHA256: 77e9c2afddc162d78e5b8d920df2637d7081491cc6147eca342032505a521782
+SHA512: 5be563ddf712bf8fb46e0f36656de4398e3238bd066957d324eb4365c581f3a54b21305f724bc483793fe4236be573f6760b127fd84c0ca86a8775c4654026ef
+Description: Quickly clean up all red badge on desktop via Control Center, Support iOS15+ 通过控制中心快速清理桌面上的所有红色徽章，支持iOS15+
+Name: CCBadgeClear 清理角标
+Author: Netskao
+icon: https://huayuarc.github.io/icon/icon: https://huayuarc.github.io/icon/badgec.jpg
+
+Package: com.netskao.ccbadgeclear
+Architecture: iphoneos-arm64e
+Version: 1.2-6
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 224
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.netskao.ccbadgeclear_1.2-6_iphoneos-arm64e_efcc75d08b6f5fad95e888e36922c33658a54f6b10754b25c86ffedd4f6ffdfe.deb
+Size: 25996
+MD5sum: a760117c293f48f61a6698a5e9c5c7f8
+SHA1: 08f1cc1566e69e04cc7ee5ee516025d98a64ea10
+SHA256: efcc75d08b6f5fad95e888e36922c33658a54f6b10754b25c86ffedd4f6ffdfe
+SHA512: 5ffe9dba51f97cfa87e8587c1d2d6ad12aebf5e67fd79706961382daea47434cf51e0efb5f1c74e013bf8cf872466420ced88d93d90de5f8f95e5d1d4660bb55
+Description: Quickly clean up all red badge on desktop via Control Center, Support iOS15+ 通过控制中心快速清理桌面上的所有红色徽章，支持iOS15+
+Name: CCBadgeClear 清理角标
+Author: Netskao
+icon: https://huayuarc.github.io/icon/badgec.jpg
+
+Package: com.netskao.cclifttowake
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 172
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.netskao.cclifttowake_1.1-1_iphoneos-arm64_fe03b04cf0227cd289db6a9fd8bd68f527c3cbba820959ff1671f113cb0cfb06.deb
+Size: 16424
+MD5sum: ee1a6f1021c2dab4bceecfb4dfe03d1d
+SHA1: 47077862f8adfca9d5360a84781e3eab66dcd5eb
+SHA256: fe03b04cf0227cd289db6a9fd8bd68f527c3cbba820959ff1671f113cb0cfb06
+SHA512: c03c588c36ac828423fe1bb54245bcce2aa5bfa04d4c0a845c1e7c0908ede67bf95288fa6dd50627bdba590a9545225b5a6887e5632fa402092bac01dc9fb929
+Description: Quickly enable or disable Wake on Lift from Control Center, Support iOS15+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.cclifttowake
+Name: CCLiftToWake
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.netskao.cclifttowake
+Architecture: iphoneos-arm64e
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.netskao.cclifttowake_1.1-1_iphoneos-arm64e_f6eb0587da019e8d843875da9d5702b419638679cfe457550c5e0934711408df.deb
+Size: 16536
+MD5sum: 1223af01b812481cd7d701e7f745fbd9
+SHA1: 15c2bb7c86977ea1c6637cbf4351ddf7b2cbc3ce
+SHA256: f6eb0587da019e8d843875da9d5702b419638679cfe457550c5e0934711408df
+SHA512: e368020810f45ce910648e4a6bdbfca793052c639cfe85d2d462df1df2ce028eae4f4dad309a2978098c8372880d77ce6f3bf0a9f26d20735cf56f4261804437
+Description: Quickly enable or disable Wake on Lift from Control Center, Support iOS15+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.cclifttowake
+Name: CCLiftToWake
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.netskao.ccquantumultxswitch
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 1144
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.netskao.ccquantumultxswitch_1.1-3_iphoneos-arm64_7eae7a1d1b74fe0f3de02a4789444569516aec36a55f5fad5eaf5dfa863c22d1.deb
+Size: 703744
+MD5sum: 4c51781c36486846fd4638ba3537f10b
+SHA1: d2bab0491fab413ed55c99f4539afbd89a1ef2f0
+SHA256: 7eae7a1d1b74fe0f3de02a4789444569516aec36a55f5fad5eaf5dfa863c22d1
+SHA512: 6be5a9ea00fea649115870594f04c289894f2657f6c160c4216b28bcb340ff20dab45cdea46b606ad1d07f4a51a19137debb3ecaee2d4a31c14ea2c25833a377
+Description: Add a quick toggle for Quantumult X VPN status in Control Center
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ccquantumultxswitch
+Name: CCQuantumultXSwitch
+Author: Netskao
+Markdowndescription: Add a quick toggle for Quantumult X VPN status in Control Center<br><br>• v1.1-3: Fixed potential icon status synchronization issues
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.netskao.ccquantumultxswitch
+Architecture: iphoneos-arm64e
+Version: 1.1-3
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 1144
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.netskao.ccquantumultxswitch_1.1-3_iphoneos-arm64e_503b68a870f097058355c0801549ec9885c8368325701ae5542160e4d46ccef6.deb
+Size: 703848
+MD5sum: 302320625031da11854ba8fea8519906
+SHA1: 3fcbeb11a4e3bce02c2a46e1551c750cba2dd9b0
+SHA256: 503b68a870f097058355c0801549ec9885c8368325701ae5542160e4d46ccef6
+SHA512: 21d2f9a3ae7a39c7a5e36d1f651ee44c55e5c5c11019808213c06e3f0106a899c6f43eb14785958479324141308bedeff2f9d60dfef003c5139ddc77f8597382
+Description: Add a quick toggle for Quantumult X VPN status in Control Center
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ccquantumultxswitch
+Name: CCQuantumultXSwitch
+Author: Netskao
+Markdowndescription: Add a quick toggle for Quantumult X VPN status in Control Center<br><br>• v1.1-3: Fixed potential icon status synchronization issues
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.netskao.ccsim
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Netskao
+Installed-Size: 188
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.netskao.ccsim_1.1-9_iphoneos-arm64_ae2935153a017daf16321742cb38205b86782b253ebfe601972215f44a4b4980.deb
+Size: 23452
+MD5sum: 5a6b6656aa451b5fdbef3dcfd8942677
+SHA1: 16b1657a5fa0e5fab80dfd0beb393f21d4789f82
+SHA256: ae2935153a017daf16321742cb38205b86782b253ebfe601972215f44a4b4980
+SHA512: 6c758cb79c9ee13366fa1a167cfdabcde2f52b9f02291ceb24c07177ab861ff4e05b89fe651587baec06543367372e08408adc73702b01f00c052da5f7c530d0
+Description: 控制中心快速启用或禁用其中一张SIM卡
+Name: CCSIM
+Author: Netskao
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+
+Package: com.netskao.ccsim
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Netskao
+Installed-Size: 188
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.netskao.ccsim_1.1-9_iphoneos-arm64e_eaf7bad0384c398b9a04506b17bb8bb235cf18f10955a3728a2aa63ebc59f68d.deb
+Size: 23532
+MD5sum: 492f7306a19f3f6f593b1edae6961069
+SHA1: 67cc83d9df67d8d758399248f0bdf4376fea2bce
+SHA256: eaf7bad0384c398b9a04506b17bb8bb235cf18f10955a3728a2aa63ebc59f68d
+SHA512: cad791fac600f8a60d570ad669077c5f43a13b3bc1290fdfce14fe62879d996ef2a205bae444b6b3864b00439d1de7b55ffb27760efb5c38690ea26f6870d23f
+Description: 控制中心快速启用或禁用其中一张SIM卡
+Name: CCSIM
+Author: Netskao
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+
+Package: com.netskao.ccswitchdata
+Architecture: iphoneos-arm64
+Version: 1.1-4
+Section: Tweaks
+Maintainer: Netskao
+Installed-Size: 132
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.netskao.ccswitchdata_1.1-4_iphoneos-arm64_2d8ccfa181f71737889f4c25533e9b7b46f33417b14f906382d1ab399d6b37f0.deb
+Size: 20764
+MD5sum: b4501050fd9925a088f622709cd6f9dc
+SHA1: 1145b12c7ae7806a57c750953ee3008ba3aadb03
+SHA256: 2d8ccfa181f71737889f4c25533e9b7b46f33417b14f906382d1ab399d6b37f0
+SHA512: bec6026999e8a9dc80e58840caca6e719259137fc42880d007ab13f05a5008d418c9fceefa97ff09c092e58d9b8da35c84cd471a23ff5f87aa2f85e8412fdb75
+Description: 控制中心切换双卡流量
+Name: CCswitchdata
+Author: Netskao
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+
+Package: com.netskao.ccswitchdata
+Architecture: iphoneos-arm64e
+Version: 1.1-4
+Section: Tweaks
+Maintainer: Netskao
+Installed-Size: 132
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.netskao.ccswitchdata_1.1-4_iphoneos-arm64e_a328929ef86dfaeeafff67034697b79c1701101a2571d02c0c84042ecfadcd47.deb
+Size: 20920
+MD5sum: 24bbaf4ff4c1c89a013e7d914a68854e
+SHA1: e70a6f051352833ebd22b42a5b3766c92cd87c67
+SHA256: a328929ef86dfaeeafff67034697b79c1701101a2571d02c0c84042ecfadcd47
+SHA512: e98e7eb647db852b8450a675e6aba6c276d1b35542a6c89258dd0981a51d7797a218bed821296b7f30b3f94e27fd795890313606e797776c7e2d4abf0dd345d0
+Description: 控制中心切换双卡流量
+Name: CCswitchdata
+Author: Netskao
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+
+Package: com.netskao.ctpjcrack
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Netskao
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.netskao.ctpjcrack_0.1.1_iphoneos-arm64_e5151685a8ecdc8bba274ae9d212a469363abff41ee26e05d2738c1a238abaca.deb
+Size: 3288
+MD5sum: f1944f8fc17a79f37ac8b5a719a76c47
+SHA1: 9f100eb387e71a2ac85acf1d81a81fc4fe040482
+SHA256: e5151685a8ecdc8bba274ae9d212a469363abff41ee26e05d2738c1a238abaca
+SHA512: 5674f32b997d5c4dd43a17c8cc87af142f83c590484b9fb2fa43b02bc5ec42a23f2dce75c87b0d1e67e4c9773c677137fbf9e0a8e0991930ded150dd98302fc7
+Description: 长图拼接开启高级版权限
+Author: Netskao
+Name: 长图拼接 Crack
+Sponsor: Netskao
+icon: https://huayuarc.github.io/icon/ctpjcrack.jpg
+
+Package: com.netskao.ctpjcrack
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Netskao
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.netskao.ctpjcrack_0.1.1_iphoneos-arm64e_0750e1b7158a4bd43a4cd0d83b5412e729ed43886391f9427872e3797262f4cb.deb
+Size: 3496
+MD5sum: c2e5864b14983e71f4d841ba1c0dacac
+SHA1: df79ca9557ca46b2bdcc1e7ce766841ad1bfaa40
+SHA256: 0750e1b7158a4bd43a4cd0d83b5412e729ed43886391f9427872e3797262f4cb
+SHA512: c80c521535cfb172a058938d227794ae59b7aae01d8cadb9c897419fa7f71b2ad34342560aea1706d1ae77444550dfa7a2334a3882f35c051d764c562fd085f7
+Description: 长图拼接开启高级版权限
+Author: Netskao
+Name: 长图拼接 Crack
+Sponsor: Netskao
+icon: https://huayuarc.github.io/icon/ctpjcrack.jpg
+
+Package: com.netskao.dazzcameracrack
+Architecture: iphoneos-arm64
+Version: 1.1-6
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 804
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.netskao.dazzcameracrack_1.1-6_iphoneos-arm64_0b323513acaeb36089e5f13ce427e1eea35cec877414b2f33c34b647e6b3a930.deb
+Size: 278148
+MD5sum: 2129977624e908a82d238501bfd4db2d
+SHA1: 936bf267a5406eeac327f744fca50b579b98f34f
+SHA256: 0b323513acaeb36089e5f13ce427e1eea35cec877414b2f33c34b647e6b3a930
+SHA512: c67487067a92ad16e7e794398bb71aecd32eb9f78c14a4797e01017c142fad2ee95bc798eba4ad85c1685085b4da448e0c062e15895ec489810f764f14aab05a
+Description: DazzCamera Crack
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.dazzcameracrack
+Name: DazzCamera Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/dazzcameracrack.jpg
+
+Package: com.netskao.dazzcameracrack
+Architecture: iphoneos-arm64e
+Version: 1.1-6
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 804
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.netskao.dazzcameracrack_1.1-6_iphoneos-arm64e_d802ef64364cdbe30a92ebf45b8bdd1197529bb39fc4d5ca3fe4bc8d01c5ea24.deb
+Size: 278380
+MD5sum: a8137235905fa2e2f0316136110eb4a4
+SHA1: 0a6a3af33963e73f8e763b6c12a149387d36c945
+SHA256: d802ef64364cdbe30a92ebf45b8bdd1197529bb39fc4d5ca3fe4bc8d01c5ea24
+SHA512: a17e10856dbdf95ce9ad42fc691fe16dbff050a88f3233cd8d4a1f75de02c880a69cfa5bdea8932fd1fb0703c87f918e00551ed29a6101f2d60f0f3a40814966
+Description: DazzCamera Crack
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.dazzcameracrack
+Name: DazzCamera Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/dazzcameracrack.jpg
+
+Package: com.netskao.evilmeowcrack
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 108
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.netskao.evilmeowcrack_1.1-2_iphoneos-arm64_408c58870eae3f02087bf5995a54333b95de8ef7adfe415b9580b920e0d8feea.deb
+Size: 22436
+MD5sum: ce79e45cf13ec6a31d60481a1d285dd9
+SHA1: 5c983cb7404d68035a007e5ca3b2dc4036a049b2
+SHA256: 408c58870eae3f02087bf5995a54333b95de8ef7adfe415b9580b920e0d8feea
+SHA512: fc6739a7b6d0142d641f04a2f77e98cc5ab48e5c458f934906ffd57d97cbe947d66706b24c29da62ac6cf7798eb4f353ffab1cd8f7e08778a8d42a9266be135a
+Description: 让我喵喵解锁会员, 支持1.6.8及以上版本(当前最新版1.7.0已测试)
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.evilmeowcrack
+Name: 让我喵喵 Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/evilmeowcrack.jpg
+
+Package: com.netskao.evilmeowcrack
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 108
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.netskao.evilmeowcrack_1.1-2_iphoneos-arm64e_177a8f53db494c1ec09fbe9ec1e08970d184f111d1ec2cad8ba15570b9da99f8.deb
+Size: 22660
+MD5sum: c553cb9a6445d64b6af31ee569313eea
+SHA1: 18342c31960242953ce752c9644dd9eabc8abfd4
+SHA256: 177a8f53db494c1ec09fbe9ec1e08970d184f111d1ec2cad8ba15570b9da99f8
+SHA512: 9ef859b345d9e7e1564fdaa9a40066b9595ca2de79fa0c695531d0a2d610b1fbf21ef0634050c7ad52081e94e9ce6751d9dd236ffda100b595fc714ebcfbf2f3
+Description: 让我喵喵解锁会员, 支持1.6.8及以上版本(当前最新版1.7.0已测试)
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.evilmeowcrack
+Name: 让我喵喵 Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/evilmeowcrack.jpg
+
+Package: com.netskao.filzacrack
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 120
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.netskao.filzacrack_1.1-9_iphoneos-arm64_c14fc228c6d95d550bcc12dc9401c314ccf64588f6397826eb8b0095f202d80b.deb
+Size: 28676
+MD5sum: 3f74a632ab48920d4e145b04731c787a
+SHA1: de697f2f19d19dca6e93777e87ab25282985560f
+SHA256: c14fc228c6d95d550bcc12dc9401c314ccf64588f6397826eb8b0095f202d80b
+SHA512: e4791b6a80078255b321fe799f65548b2ff0a139acd66a8c2dc5cbf71abab306a6c77b73ed6e311441d2fad222e12dbfde8693532ad71f4b525c55931d8a14f7
+Description: Filza Crack
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
+Name: Filza Crack
+Author: Netskao
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+
+Package: com.netskao.filzacrack
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 120
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.netskao.filzacrack_1.1-9_iphoneos-arm64e_8d2f75d49259707dd351f2c170a4bf5d82055dfc4a6a12a466dcb1736ad88a7c.deb
+Size: 28912
+MD5sum: 179219ada7a9870a390083d68c1ba8ff
+SHA1: b4f40f5a84a535eb8a6f54512f13efd38093c068
+SHA256: 8d2f75d49259707dd351f2c170a4bf5d82055dfc4a6a12a466dcb1736ad88a7c
+SHA512: 17862196c74c9e41dd3633465d4a11b451750bce3aedbbb399f4ae33d25780fd5d29b270eea7de74fd47844c64f25c03e20a2b505e04d106ecf5cf0cbb4ddf19
+Description: Filza Crack
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
+Name: Filza Crack
+Author: Netskao
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+
+Package: com.netskao.flreadercrack
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 528
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.netskao.flreadercrack_1.1-1_iphoneos-arm64_785e6ed858fffc184bf66be747dfffc3257f56545594244b6642cbe51085c26b.deb
+Size: 186156
+MD5sum: 9087f2d70ecf3cf3748b02238e76277f
+SHA1: 518a9f608cc3cc0219db3cc0dea0e86abd649251
+SHA256: 785e6ed858fffc184bf66be747dfffc3257f56545594244b6642cbe51085c26b
+SHA512: 4fd9984feec0b3d5f4c379d6f3844d9ff308e67807acd50531661b4f5305be2e242d6d8dbdf4b567bb8609345a453bf9248c05b83abf1ede63a711932f9c1b4b
+Description: 千阅解锁全功能
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.flreadercrack
+Name: 千阅 Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.netskao.flreadercrack
+Architecture: iphoneos-arm64e
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 528
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.netskao.flreadercrack_1.1-1_iphoneos-arm64e_91153247038e88d97fe26d919153f7a3fa11718506346ccdc427e891120a8cbf.deb
+Size: 186484
+MD5sum: 5cdabedcbdba63ccd85b0030b16a7906
+SHA1: 09f0891f5518291a4b0bec121822c659fe05b115
+SHA256: 91153247038e88d97fe26d919153f7a3fa11718506346ccdc427e891120a8cbf
+SHA512: 07225b3c7df99dbd39062e4a4bd8d4f63f5274312521874fc3f7707ed59deb1dee8f94ddd7bf89a5d6b36b8a9919c80959c3b1c10440df477ecc95853560ca4c
+Description: 千阅解锁全功能
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.flreadercrack
+Name: 千阅 Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.netskao.ibispaintxcrack
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 480
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.netskao.ibispaintxcrack_1.1-1_iphoneos-arm64_95c67ef0e4731468f94236cc36095b43da481e132db5b1151b1846a4a2f79853.deb
+Size: 172348
+MD5sum: 8cd620080156cb3bc737b25267052290
+SHA1: 83d0bc5fa26733abb3ba15066d31bfebdbc88c2a
+SHA256: 95c67ef0e4731468f94236cc36095b43da481e132db5b1151b1846a4a2f79853
+SHA512: c04ae0b2f28d6a843f9ee1b16c4ae0ecd8ec8ad80f741e01f0064fd523d44979f0267db7bd561037b41ae5ea8be9a12b217815d70ce961a5f456d653f49f2a0c
+Description: 爱笔思画X解锁高级功能
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ibispaintxcrack
+Name: 爱笔思画X Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/ibispaintxcrack.jpg
+
+Package: com.netskao.ibispaintxcrack
+Architecture: iphoneos-arm64e
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 480
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.netskao.ibispaintxcrack_1.1-1_iphoneos-arm64e_a8e32be127209b781d3ebc87bd11bbdc9a8df8e856f5c41f3f2be25063d7f748.deb
+Size: 172320
+MD5sum: df0710a2d033a9fe74fee36b19b51673
+SHA1: fc32ae8c5f259c4bc6bbfb98cca9d3bd017e6c17
+SHA256: a8e32be127209b781d3ebc87bd11bbdc9a8df8e856f5c41f3f2be25063d7f748
+SHA512: 49a94b864f2b7ff19b535e66d040f76e06581f7a4146e1ee32c30c467900c2c2ecc918cc4abfcfeab29ea2d6509cafcd142845e220ff6427d7c2ea8786e7bcea
+Description: 爱笔思画X解锁高级功能
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ibispaintxcrack
+Name: 爱笔思画X Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/ibispaintxcrack.jpg
+
+Package: com.netskao.injectipa
+Architecture: iphoneos-arm64
+Version: 1.5-7
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 1688
+Depends: firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.netskao.injectipa_1.5-7_iphoneos-arm64_796f39dbf776d45d1fca175f728f42d3cfed8ca3a3add7779c363a1f8990931c.deb
+Size: 418052
+MD5sum: 237e4c00e7bf5b77851fc568191f3ea6
+SHA1: bbc4f68ebbf8c4425392f411418e36f525a1aa87
+SHA256: 796f39dbf776d45d1fca175f728f42d3cfed8ca3a3add7779c363a1f8990931c
+SHA512: 5e7829bde77edfd2e98b07954509ae7adb8118dc0cd47c7ed6afe4f350ec3970a3aaa354497e3b92d7968cd5d6aefb8af6909dddf9de3eb72609d3903b65b0de
+Description: InjectIPA Tool
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.injectipa
+Name: injectipa
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.netskao.injectipa
+Architecture: iphoneos-arm64e
+Version: 1.5-7
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 1688
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.netskao.injectipa_1.5-7_iphoneos-arm64e_884b226c722baf18a670343c8237e759e1fd538a83c71c56f569764fb9cd4967.deb
+Size: 417376
+MD5sum: cb28613a7d56eb600f80a8f8e99376d0
+SHA1: 4aa47feba55c788f0c779700ebda8b097c43a3f7
+SHA256: 884b226c722baf18a670343c8237e759e1fd538a83c71c56f569764fb9cd4967
+SHA512: d53c26f818ce4b702b6ed85b863e8d77989e7a6a1950f2332d8f6432fcc5f04725cbd7ddfa8b37bb8f4cd7e797db8cca1a5d6e93cf08bdea844154498e8ab86e
+Description: InjectIPA Tool
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.injectipa
+Name: injectipa
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.netskao.lbbrowsercrack
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 208
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.netskao.lbbrowsercrack_1.1-2_iphoneos-arm64_f142654ab9afab4c6aec07ef6893eaff20a76b6289ba9932a8cf3cf8a8c26d0f.deb
+Size: 44264
+MD5sum: 4f45f8935804df8bac7b6fdb2fab8dc7
+SHA1: fe292db98edd73bd0607522ffe1105d2161dde0b
+SHA256: f142654ab9afab4c6aec07ef6893eaff20a76b6289ba9932a8cf3cf8a8c26d0f
+SHA512: 78dad9ff8420af13e9ae645cae0298f61de3be2f6226d2473975bfaaec1c121aadc938a6e7519706c0a8680d7896352fe73cd96954aa91f78286ceeeacc23aa6
+Description: 李白浏览器解锁全功能
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.lbbrowsercrack
+Name: 李白浏览器 Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/lbbrowsercrack.jpg
+
+Package: com.netskao.lbbrowsercrack
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 208
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.netskao.lbbrowsercrack_1.1-2_iphoneos-arm64e_c57f4009a2990720f42b05422b1b3f6964566af2c8a47619ac3b6cfcf5547c08.deb
+Size: 44348
+MD5sum: 370d1060ad6dcffa406e10bb02ee7d39
+SHA1: 52d7568e3196dbc012fef4c9b53ddb3eda819db1
+SHA256: c57f4009a2990720f42b05422b1b3f6964566af2c8a47619ac3b6cfcf5547c08
+SHA512: 94b43b8f3f4503ef0aa7f40b69e12b6c0d0655b4c0c254a6b07ef62d4f7cafbc64dbfce0f501cd4b2879eafe45758b372aa584b109ba6ba4778ad5f711b31a21
+Description: 李白浏览器解锁全功能
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.lbbrowsercrack
+Name: 李白浏览器 Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/lbbrowsercrack.jpg
+
+Package: com.netskao.leoreadercrack
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 740
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.netskao.leoreadercrack_1.1-3_iphoneos-arm64_87d377afaf4f951196318586f5bbb60b29fda606ab4395feb24b13bcaa46e627.deb
+Size: 300600
+MD5sum: eb79f6e6b3516873b4b0ec0087f9c9a4
+SHA1: ef2eb951645d692c5616b38c9bb013f6dfa41bfb
+SHA256: 87d377afaf4f951196318586f5bbb60b29fda606ab4395feb24b13bcaa46e627
+SHA512: bd6ce09b8d59fa423657f5739a1d458f27a199d5a6a589f351783ac6f73df0c52a9fe567d231e3809369fd11286d86a4c9a271617581a1068cdd24c4b55d70e6
+Description: 极简阅读解锁全功能
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.leoreadercrack
+Name: 极简阅读 Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/leoreadercrack.jpg
+
+Package: com.netskao.leoreadercrack
+Architecture: iphoneos-arm64e
+Version: 1.1-3
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 740
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.netskao.leoreadercrack_1.1-3_iphoneos-arm64e_7939d938469f427abc140a545eda1c9197ea2d191880025dd4dad74438340205.deb
+Size: 300828
+MD5sum: 5719d0c7cd2bb8eb1be39ab23adc4e55
+SHA1: a5191d986536e364c38daa04c09ca6bcb7b2d3ad
+SHA256: 7939d938469f427abc140a545eda1c9197ea2d191880025dd4dad74438340205
+SHA512: 17de21c1ab18f7162fd54f50c167a7bbde39e61e2c9a1708f791422542414e0464dc450024ba5887d9c2792983a29ccf643dd4bdb9ce48ffd2a00526993df8ac
+Description: 极简阅读解锁全功能
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.leoreadercrack
+Name: 极简阅读 Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/leoreadercrack.jpg
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
