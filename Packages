@@ -3589,6 +3589,43 @@ Icon: https://huayuarc.github.io/icon/Aemulo.jpg
 Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
 Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
 
+Package: com.anubis.boardswipe
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Anubis
+Installed-Size: 1036
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.anubis.boardswipe_1.0.0_iphoneos-arm64_19c9c8d1b7bba1007aa79a64c83762ccff073ea6090a50097871fa64eba04cc9.deb
+Size: 486800
+MD5sum: d16efccd653b941027e0c982add18138
+SHA1: f8afae40e502cd9fd332cce54f17ccd6ffcb966a
+SHA256: 19c9c8d1b7bba1007aa79a64c83762ccff073ea6090a50097871fa64eba04cc9
+SHA512: b2b2458457a81af41a43d1f0f9fd508037c0a61a2920ea30eff58f12ecad4e781edb6fb8df09f2112b8be44eef578803d7cec62a254f22335d37570d84c452ec
+Description: 向下滑动可关闭键盘，向上滑动可切换键盘。Swipe down to dismiss keyboard, swipe up to switch keyboards。
+Name: BoardSwipe 滑动键盘
+Author: Anubis
+icon: https://huayuarc.github.io/icon/boardswipe.jpg
+
+Package: com.anubis.boardswipe
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Anubis
+Installed-Size: 1036
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.anubis.boardswipe_1.0.0_iphoneos-arm64e_f3d9abcd8c19a016a46552a79a4d4627e3ddbdf2f7c8d2d5b1a83781fd73c211.deb
+Size: 486864
+MD5sum: 5e84121486d14c27bc3d6019cd6fbd8e
+SHA1: a435564c0410aa371ff5728de2fdd62bab00e7b7
+SHA256: f3d9abcd8c19a016a46552a79a4d4627e3ddbdf2f7c8d2d5b1a83781fd73c211
+SHA512: 125ccad4fe6a9459f077ee2ecdfa4a8d5ba7f6968684f8a28c10ce3b701416909b8e8db8e8ea11431561dd3af4d234525165d77be644a39bc690ca064dd4dbc8
+Description: 向下滑动可关闭键盘，向上滑动可切换键盘。Swipe down to dismiss keyboard, swipe up to switch keyboards。
+Name: BoardSwipe 滑动键盘
+Author: Anubis
+icon: https://huayuarc.github.io/icon/boardswipe.jpg
+
 Package: com.ayao.doubaopowerbutton
 Architecture: iphoneos-arm64
 Version: 0.0.6
@@ -13768,6 +13805,25 @@ icon: https://huayuarc.github.io/icon/ScreenshotShell.png
 
 Package: com.iosdump.shellx
 Architecture: iphoneos-arm64
+Version: 11.2
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 12324
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/iphoneos-arm64/com.iosdump.shellx_11.2_iphoneos-arm64_cb1eea475fb1b1d52fc95eea610a83732dc0dcd5a48082d8f9b3e6110496cec0.deb
+Size: 2725228
+MD5sum: 5e482563ba3f634edd110235562a9e9e
+SHA1: 9fb310dcd19659ada7459456b2a33d1e9c8170e4
+SHA256: cb1eea475fb1b1d52fc95eea610a83732dc0dcd5a48082d8f9b3e6110496cec0
+SHA512: f41d38e75f78f6030b10ef549f80d5036abf568afc67c3fbac2bbcece723617df59f59d6e47b87eb2de1ee43acd6153ade004ae7a01d676c7184134fd60159c1
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Name: SHELLX
+Author: iosdump
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+
+Package: com.iosdump.shellx
+Architecture: iphoneos-arm64
 Version: 2.0.1
 Section: Tweaks
 Maintainer: iosdump
@@ -14322,6 +14378,25 @@ MD5sum: 2eed93c0b1a01817ceb16a7534900c37
 SHA1: 02a562c2494ce707abe17989bc3f2ed5b0e13573
 SHA256: 660837385c4fadec0cb6d5db0c2bbb7f73f784846735af93488c2e928e6bd219
 SHA512: bed28c867e22fbd76f8afe981af0c6e799f84c5accde5dfc9f8fca3f46420bbd80133b3b5e3fd83e6392747e33d588b28b23cd6f1bcb4b1baf30ff6cc9e5aa34
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Name: SHELLX
+Author: iosdump
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+
+Package: com.iosdump.shellx
+Architecture: iphoneos-arm64e
+Version: 11.2
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 12292
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/iphoneos-arm64e/com.iosdump.shellx_11.2_iphoneos-arm64e_9621ffc899adfac004f2f1baf2f2408c95499eb260fe655558c5598c3ed1b176.deb
+Size: 2724064
+MD5sum: 93b9b575f815d74cdce8674e6abdf4f0
+SHA1: d8403a274533bcba66e9bac4666bd558817ba01f
+SHA256: 9621ffc899adfac004f2f1baf2f2408c95499eb260fe655558c5598c3ed1b176
+SHA512: 8e70d147edd27ec08b57c5d2f06128166f17151cad7d065b53d52461e78eaf0a1c7487a7bb62b59a8fdb56fa3789d6bc67e7239d3548e97a8c4b5ec31a3da50b
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
 Name: SHELLX
 Author: iosdump
@@ -18898,6 +18973,26 @@ Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
 Package: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 2.1.51
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4468
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64/com.muzi.mutool_2.1.51_iphoneos-arm64_4ef53f29a0e8dcee88951d6b80a6acba1524a34e40e423e57fd635e112c9c7a6.deb
+Size: 678952
+MD5sum: 2bde92425acb658ca238e609472f3b70
+SHA1: fd839acb3236fbca498e52fcc289a834c7d5f695
+SHA256: 4ef53f29a0e8dcee88951d6b80a6acba1524a34e40e423e57fd635e112c9c7a6
+SHA512: d5091e8c4605d6de4d2d4d8008c3bcd4d5a830a1612bd19d70a4a6aaa0d07c5981bc70521381ef3c9609d5efdd54e0f2e52a521a2e6bdba4927525c98f4760cb
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
+Name: MUtool(rootless)
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
 Architecture: iphoneos-arm64e
 Version: 2.1.18
 Section: Tweaks
@@ -18951,6 +19046,26 @@ MD5sum: 9259dc2a8e3ac64228095cc437b377eb
 SHA1: abd13e768b08926d4778708462e955f8a8d29172
 SHA256: 60ae8c9287b052d22b90e850d12d6dcccd453119b0d711b21d5774325ade3c80
 SHA512: 6a590d560ba8b2b187cd875e4b0187151860668bf47dbab007a68b66803cad0037ec07368310a77b0abe0aec3d4cf362c8ab2ddf8a75e5f3838d7db9656dd1f9
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
+Name: MUtool(roothide)
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64e
+Version: 2.1.51
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4436
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64e/com.muzi.mutool_2.1.51_iphoneos-arm64e_e77e8243a7f575da819ebaad9afe11906e9be39c7f1e8284b8cbe932096f5433.deb
+Size: 673728
+MD5sum: db77d2163c755ae1b78dde49c6ec3bed
+SHA1: b79ca8cc1a91cf24ab48c95500c0db4b1543a645
+SHA256: e77e8243a7f575da819ebaad9afe11906e9be39c7f1e8284b8cbe932096f5433
+SHA512: 9b5e0720586276c5cdcbc0cf2355a04a0c42097af6494e106d74d9cac62a91b88210c657e300ca73565ac6b3f0a397d564e2ba92c2b57d076c8bf806d052674c
 Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
 Name: MUtool(roothide)
 Author: Muzi
@@ -20698,6 +20813,42 @@ Name: rootless-patcher
 Author: Nightwind and staturnz
 Icon: https://huayuarc.github.io/icon/patcher.jpg
 
+Package: com.noads.tweka
+Architecture: iphoneos-arm64
+Version: 1.2.7
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 1620
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.noads.tweka_1.2.7_iphoneos-arm64_ab1d3ab073d0972f262d5559ff89514234253c6c0e04a9a483652be6ebb5d05e.deb
+Size: 290180
+MD5sum: bfd38ad11de48d6668dcdea7a8eee5e3
+SHA1: f62a4d9d40eac6b1b2913f9830c6840aa9a21604
+SHA256: ab1d3ab073d0972f262d5559ff89514234253c6c0e04a9a483652be6ebb5d05e
+SHA512: 3b4ca563c7fa87db9c6773a58df20f9aa01ff48e929e3f125ae0e01f155b6fdf76464b1b8d1421760bed099adf880a95e5146c4826cd264ccba8cf2998a39b29
+Description: 去除广告。交流反馈QQ群：1106363887
+Name: NoAdsX
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
+Package: com.noads.tweka
+Architecture: iphoneos-arm64e
+Version: 1.2.7
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 1620
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.noads.tweka_1.2.7_iphoneos-arm64e_1e29825cfa0a04f5d23b84a1991aa554cd860a4ea124f6f91087e8b2fa04bf57.deb
+Size: 288612
+MD5sum: e00cf1980f1a0697e40198575625906c
+SHA1: e1ecd4383a8bb665cc444a6bd407af32667bd712
+SHA256: 1e29825cfa0a04f5d23b84a1991aa554cd860a4ea124f6f91087e8b2fa04bf57
+SHA512: 58ba442b251db1d12bf90b5b4afb576597f19f7e27f0f4e14130f3285f2d781c85e4779e954ece163b954e6471aff8623b5858cab5ca2e610b3681ff5ed59099
+Description: 去除广告。交流反馈QQ群：1106363887
+Name: NoAdsX
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
 Version: 1.3.13-2-15+debug
@@ -20864,6 +21015,47 @@ Name: SugarCane 音量 亮度显示百分比
 Author: iOS Creatix, kasiimh1, p2kdev
 Sponsor: p2kdev
 icon: https://huayuarc.github.io/icon/sugarcane.jpg
+
+Package: com.p2kdev.underdock
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Tweaks
+Maintainer: P2KDev
+Installed-Size: 680
+Depends: mobilesubstrate
+Conflicts: com.restiveconch.actionbar, com.udevs.dockx
+Filename: debs/iphoneos-arm64/com.p2kdev.underdock_1.3_iphoneos-arm64_081785556f8d3d97beadbee118b555fe5f8ffb87b3eabb6162a9f20ea43c53cd.deb
+Size: 61524
+MD5sum: eb4fae4a65913ab6865e7806ebf9bc86
+SHA1: 49f6899af7eb0957b97cb27a0a14211fc8605333
+SHA256: 081785556f8d3d97beadbee118b555fe5f8ffb87b3eabb6162a9f20ea43c53cd
+SHA512: e9061901e42813102140ae95f2cd60796c21c549ef41d1f7248734000ea42cbc2b83143e18f75ec4ffdadea0925009d08b552ea391867e9b6c9c942586e5a2ca
+Description: 给原生键盘和第三方键盘增加复制、粘贴、换行、撤销等按钮，还不错的一款键盘增强插件。
+Name: UnderDock
+Author: P2KDev
+Sponsor: P2KDev
+icon: https://huayuarc.github.io/icon/underdock.png
+
+Package: com.p2kdev.underdock
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Tweaks
+Maintainer: P2KDev
+Installed-Size: 680
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.restiveconch.actionbar, com.udevs.dockx
+Filename: debs/iphoneos-arm64e/com.p2kdev.underdock_1.3_iphoneos-arm64e_7c8ef7f3fe80f32f0fdd785c78b84d8370ff30de5f77b7c76d0faf01220b4c97.deb
+Size: 59816
+MD5sum: 9aaac6c2408686fab66dd6c97a2b6160
+SHA1: 21905b5559a9eb6ad6a9d540d19cf45fc0eb81a6
+SHA256: 7c8ef7f3fe80f32f0fdd785c78b84d8370ff30de5f77b7c76d0faf01220b4c97
+SHA512: 826221a466f37a6adc6cb0354ec099e32ff633dc835cb570f23256792cc7224029ae2221dfaa8c250a2f2e8ea3ab62a43454e83250fd6274fad04ede622c6856
+Description: 给原生键盘和第三方键盘增加复制、粘贴、换行、撤销等按钮，还不错的一款键盘增强插件。
+Name: UnderDock
+Author: P2KDev
+Sponsor: P2KDev
+icon: https://huayuarc.github.io/icon/underdock.png
 
 Package: com.promotion120
 Architecture: iphoneos-arm64
@@ -24387,6 +24579,60 @@ Sileodepiction: https://sini921.github.io/repo/sileodepiction/BubbleBox/js.json
 Name: 气泡盒子
 Author: Mao
 
+Package: com.sini.QQMusicNoAds
+Architecture: iphoneos-arm64
+Version: 0.1-2
+Priority: optional
+Section: Tweaks
+Maintainer: Sini921
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.QQMusicNoAds_0.1-2_iphoneos-arm64_533a3fccf2debb0d508707dc080c1a803e9590f4cc19830f6abfa12dffaabe8b.deb
+Size: 116876
+MD5sum: cb336c6abadc69cc7b5255cecbeba7aa
+SHA1: d12ba48c0a24d4d9790fe968497f5839d5c5c0e7
+SHA256: 533a3fccf2debb0d508707dc080c1a803e9590f4cc19830f6abfa12dffaabe8b
+SHA512: 5d07e4cc941303cb73cafd94366180a2c031a8bb70f1918f5da012b28466d7d82bfe5bdba907cc743acf0343e7b3a007354b4222b2e6915efe40513c6dcf2d0c
+Description: QQ音乐全局去广告，解锁至臻音质
+Name: QQMusicNoAds
+Author: iosrxwy
+icon: https://sini921.github.io/repo/sileodepiction/icon/qqmusic.png
+
+Package: com.sini.Telegrammask
+Architecture: iphoneos-arm64
+Version: 0.1-3
+Priority: optional
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.Telegrammask_0.1-3_iphoneos-arm64_a1090b055e6b016a7d3d1b471657d8a566d0fd2c54575ff43d8472473eb6c44b.deb
+Size: 497748
+MD5sum: 9f5828b10b5cbe373a3e499991ef7451
+SHA1: f3e92c827b49b68ae008de2a4bce3ff9c9c23d8b
+SHA256: a1090b055e6b016a7d3d1b471657d8a566d0fd2c54575ff43d8472473eb6c44b
+SHA512: 1d7c17302a6d20b7137903dcf68c244cb07021af63d44e3149a042a559b4dc554e68dc7fdb05a461c0c007ff71504b02445a18f8cd8a895b01da4fa7aa9f798e
+Description: TG伪装计算器插件，密码为当前时间，如13:14密码为1314，00：56密码为56，24小时制为准。三指双击可自定义密码。
+Name: Telegrammask
+Author: iosrxwy
+icon: https://sini921.github.io/repo/sileodepiction/icon/tg.png
+
+Package: com.sini.WCEhance
+Architecture: iphoneos-arm64e
+Version: 2.0-5
+Priority: optional
+Section: Tweaks
+Maintainer: Lxcloud
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.sini.WCEhance_2.0-5_iphoneos-arm64e_0fd3979b200c4f165b06c3a45a46ef929ceeeb97a654f8c0f22924f989fd904a.deb
+Size: 2606648
+MD5sum: 532853abb46674aff0dd23f4e8c436e7
+SHA1: 7b601bfd4f7888d0d70bbfc9123b68a40423d94e
+SHA256: 0fd3979b200c4f165b06c3a45a46ef929ceeeb97a654f8c0f22924f989fd904a
+SHA512: 33dd99fdddd8a7116c65895883ea18c4844f2e978abef2f704d2aa022ac862ff8dc70f32bfb04f696e08eb4a902b964749a24f64dc6c13fe4d1241d9501a4353
+Description: 微信增强,用于优化一些反人类设计和增强功能。
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/WCEhance/js.json
+Name: 微信增强
+Author: huami & Lxcloud
+
 Package: com.sini.actionbarreborn
 Architecture: iphoneos-arm64
 Version: 1.1-2
@@ -26371,6 +26617,1637 @@ Name: PanCake
 icon: https://sini921.github.io/repo/sileodepiction/icon/pancake.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/pancake/js.json
 Author: AnthoPak <anthopakdev@gmail.com>
+
+Package: com.sini.photos
+Architecture: iphoneos-arm64
+Version: 0.0.6-2
+Section: Tweaks
+Maintainer: iOSign
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.sini.photos_0.0.6-2_iphoneos-arm64_603727e771ebd45e485f19b42af5a467dfa5888d8feef7c14b52b9cdc79868d6.deb
+Size: 4000
+MD5sum: f3646de20c4f2b19e2d0236904f67a8b
+SHA1: c8ac4159865a0dafbf6810b2852e5095b3d911e7
+SHA256: 603727e771ebd45e485f19b42af5a467dfa5888d8feef7c14b52b9cdc79868d6
+SHA512: e4b2f2cf350eba5ac11228c8c9d7ca7cd0055e1aeff56113c5f10dd9e9e06981e3f2beb97ac8f44c7442eb75cf9fb293189947a37b85a30a6ca522ff2dfa4a9d
+Description: 自用备份。
+Author: iOSign
+icon: https://huayuarc.github.io/icon/xc.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/photos/js.json
+Name: 相册增强
+
+Package: com.sini.photos
+Architecture: iphoneos-arm64e
+Version: 0.0.6-2
+Section: Tweaks
+Maintainer: iOSign
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.sini.photos_0.0.6-2_iphoneos-arm64e_6731b5bded1d50ba51a93c3974a0a92a32d716c6fcb5b53aac1e871a048abc75.deb
+Size: 3900
+MD5sum: 95c92d1f8c474cb08ed614bb8617366b
+SHA1: 0381f0577a8af4201d7b3764a4bf453e55e53770
+SHA256: 6731b5bded1d50ba51a93c3974a0a92a32d716c6fcb5b53aac1e871a048abc75
+SHA512: 329f6a4196814e2c7be21f33b135380d3042b1f89a858e48d8ccb9afa13ddc02f26522c5b7f04593c5aeb4d5119e903664b1caeb402de91468e8e07774e1851d
+Description: 自用备份。
+Author: iOSign
+icon: https://huayuarc.github.io/icon/xc.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/photos/js.json
+Name: 相册增强
+
+Package: com.sini.picsewpro
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: x✨
+Installed-Size: 120
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.sini.picsewpro_1.0.0_iphoneos-arm64_64e7518cb4c55aa79a976174f0c3084c86e6be18796fa418b3ec6d85b7ea72fe.deb
+Size: 25100
+MD5sum: 3d1a781e89dac5f94edfe03b9f521507
+SHA1: 90c5bcb9c279f6a5f5090fa585d7d82d57b063c1
+SHA256: 64e7518cb4c55aa79a976174f0c3084c86e6be18796fa418b3ec6d85b7ea72fe
+SHA512: 4af7b4697eecaee13aa6a0b796396234014ac50c7681539066a67c741881072250650ebb0ea8edd8083d146d72d27bc1c9323e139b0cc0251dc0bad179cdbfec
+Description: Picsew Pro 如无效重置或重进程序
+Name: PicsewPro
+icon: https://sini921.github.io/repo/sileodepiction/icon/picsewpro.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/picsewpro/js.json
+Author: x✨
+
+Package: com.sini.podsgrant
+Architecture: iphoneos-arm64
+Version: 0.4.0~prerelease1
+Section: Tweaks
+Maintainer: sini921
+Installed-Size: 648
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.sini.podsgrant_0.4.0~prerelease1_iphoneos-arm64_ce2714c976a0c655f4c57659ff2d33ea2d0a9305b10811f4ccec140567ce0ab7.deb
+Size: 80000
+MD5sum: 4870386e19d58cbf653d6688fe91259a
+SHA1: 62ad254fea9af016c0c7273ac1f997bfa9dc51e1
+SHA256: ce2714c976a0c655f4c57659ff2d33ea2d0a9305b10811f4ccec140567ce0ab7
+SHA512: f9ad29f8f78146fe506b6110fe3b9835ef4b3f55c9cbe99d058af2b3ddecf5e990e7479c88068dd139ee13eee49ab86be5d40df2b430ec0a0759882b0ae12307
+Description: 在iOS16系统上启用AirPods蓝牙耳机弹窗
+Author: Ruphane
+Name: PodsGrant
+Sponsor: sini921
+icon: https://sini921.github.io/repo/sileodepiction/icon/airpods16.png
+
+Package: com.sini.popoutbuttons
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: tesla_man <computerman939+POBsupport@gmail.com>
+Installed-Size: 481
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Filename: debs/iphoneos-arm64/com.sini.popoutbuttons_1.0.1_iphoneos-arm64_ff1b7f745aeed51cdc0a9e3fe228285a9ff96937aa06fabfbc96c4bf952b836b.deb
+Size: 57756
+MD5sum: 186ca3fa48764079320122bc4c83b90b
+SHA1: 11840d206cb5bee7ad121881055ba8b44282059a
+SHA256: ff1b7f745aeed51cdc0a9e3fe228285a9ff96937aa06fabfbc96c4bf952b836b
+SHA512: 39bcb37e3f4b3b8166deb38a78e6347910b0477014db7b2dc487714d3000c5a21dca9a51cec80c0161685f05a17899ea8a7f288267ed141d306259bf6ed225e4
+Description: 实体按钮动画
+Author: tesla_man <computerman939+POBsupport@gmail.com>
+Name: PopOutButtons
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/popo/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/popo.png
+
+Package: com.sini.power4options
+Architecture: iphoneos-arm64
+Version: 3.0-1
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sini.power4options_3.0-1_iphoneos-arm64_84e619d800130bf4dea2c862feef41f45c64824cf0d2168e47cfcdaaf1716c88.deb
+Size: 71036
+MD5sum: 91f4eb55bb27ea0ae1e216906b7d4558
+SHA1: 0b6921dd0680bcafc270269d2aa87d9b58ddb84a
+SHA256: 84e619d800130bf4dea2c862feef41f45c64824cf0d2168e47cfcdaaf1716c88
+SHA512: fb8652e6b37bf05f47e2fb475d453d507594d8205e1ef725931bdfdcf6ac6f69351ae7492cf431a3f17028c7836f435f8b36d48624ae0ce1bd368f391284095f
+Description: 点击关机滑块按钮切换更多功能
+Author: XsF1re
+Name: Power4Options Reborn
+icon: https://sini921.github.io/repo/sileodepiction/icon/reboot.png
+
+Package: com.sini.powersettings
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Nightwind& 刀刀
+Installed-Size: 264
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/iphoneos-arm64/com.sini.powersettings_0.0.1_iphoneos-arm64_fd346dde7f82e67f00aa316ed0273b388768afa6e795127221a5eabc7702e4f6.deb
+Size: 31804
+MD5sum: 262829007c680048cbda369df3b44b6d
+SHA1: ed7d86fd93a86a744ec03a0556db8bdc0d9420ef
+SHA256: fd346dde7f82e67f00aa316ed0273b388768afa6e795127221a5eabc7702e4f6
+SHA512: 83586ed4b8b990524aa3346f45b2dfe1bb81791992a9e6b57b21c1826759fefb7efb2d52e2dacae7377d2858aa30ae2c1de0b1827ebdae648b334396f4847aa7
+Description: 将电源菜单(注销、重启等)添加到“设置”右上角！
+Name: PowerSettings
+icon: https://sini921.github.io/repo/sileodepiction/icon/powersettings.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/powersettings/js.json
+Author: Nightwind
+
+Package: com.sini.qmxshook
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: x✨
+Installed-Size: 400
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.sini.qmxshook_1.0.3_iphoneos-arm64_a00e1719e08733739a1cae484867d0120faf606bf4c9d2a78d4dcfa1f946c49b.deb
+Size: 114972
+MD5sum: 9792dfbba3b43e392aea209daceb25fd
+SHA1: 80ab0f98d7ae8f4cc4d12e6008bd653b103f0bb6
+SHA256: a00e1719e08733739a1cae484867d0120faf606bf4c9d2a78d4dcfa1f946c49b
+SHA512: e6bab7b7a5d14c1e58fc4d20fea8b412ab3ed83879415bbd9b3d70e2dcc2a8eaefc6ecc5fa84444a79ba70ffe1a91e201382b9603b7534df90e14c6d8566d24c
+Description: 开通免广告权益 仅支持7.63.10版本
+Name: 七猫小说Hook
+icon: https://sini921.github.io/repo/sileodepiction/icon/qmxshook.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/qmxshook/js.json
+Author: x✨
+
+Package: com.sini.qqantirecall.x
+Architecture: iphoneos-arm64
+Version: 1.6
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 1084
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.sini.qqantirecall.x_1.6_iphoneos-arm64_9eadbc46d5e9aa35bd4d9ee78c982ad5e907382ce2ac0345552db1a14bab9392.deb
+Size: 1331928
+MD5sum: 50704c0f4b834f8f8dcd5c5dcbc9f29f
+SHA1: 03f3466170232cdb051d266a77992b7fb365af9b
+SHA256: 9eadbc46d5e9aa35bd4d9ee78c982ad5e907382ce2ac0345552db1a14bab9392
+SHA512: f7a80617bdef9fe690b263feeb51d7fc0f55e1e0addf15fc7ce3454a28110e4fb6808a764f2417ab6d2d35179842e1cc39d0c366d187b19bb73aaf8c331d66b3
+Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
+Icon: https://sini921.github.io/repo/sileodepiction/icon/qqantirecall.x.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/qqantirecall.x/js.json
+Name: NTQQ_AntiRecall
+Author: 𝙓
+
+Package: com.sini.qqhook
+Architecture: iphoneos-arm64
+Version: 1.1.5
+Section: Tweaks
+Maintainer: x✨
+Installed-Size: 2012
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.sini.qqhook_1.1.5_iphoneos-arm64_851211ea2b2ec6f328d730b28cd25b88773b0c3fb2dbde890eee5f6327d95085.deb
+Size: 616468
+MD5sum: f73eb6f93af770077a4bea2ad1e23462
+SHA1: 1e822cae8684501b253323e3f67fd63f8a25f311
+SHA256: 851211ea2b2ec6f328d730b28cd25b88773b0c3fb2dbde890eee5f6327d95085
+SHA512: 8ac796c8c141612fd0f0a234c45eb555ef21d47f4032483f07d1fb1118e347822864802db7639860694af3594b545f250e3927f3f2d9c6f27f59f070e4e2fd41
+Description: QQ·TIM设置-辅助功能-右上角开启(或新设置界面) 支持QQ9.0.20+ TIM4.0.95+
+Name: QQ·TIM 新版防撤回
+icon: https://sini921.github.io/repo/sileodepiction/icon/qqhook.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/qqhook/js.json
+Author: x✨
+
+Package: com.sini.qqnotiavatar
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 204
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.qqnotiavatar_1.2-2_iphoneos-arm64_868675d730b41ef2dccf005f48c8c4c9efdd48ed958d90023d90823b526b9787.deb
+Size: 25624
+MD5sum: 05151f00d98223a9196c4756eb5feec7
+SHA1: 381adb5b9800d9b9b5d14ce8217d710298af9d53
+SHA256: 868675d730b41ef2dccf005f48c8c4c9efdd48ed958d90023d90823b526b9787
+SHA512: c6cd36b7945e49185bf1164975b70a328075975d251fc80ea699c3b7c608018599e3b464d33241935667a72f744c8b8b2987bae16d99708ddbd93a7c44df2ddc
+Description: QQ通知显示头像
+Name: QQNotiAvatar
+Author: Netskao
+icon: https://sini921.github.io/repo/sileodepiction/icon/qq.png
+
+Package: com.sini.randomiconsflip
+Architecture: iphoneos-arm64
+Version: 0.3-20
+Section: Tweaks
+Maintainer: 来了老弟
+Depends: mobilesubstrate, firmware (>= 4.0)
+Filename: debs/iphoneos-arm64/com.sini.randomiconsflip_0.3-20_iphoneos-arm64_d12380b340516290c551f7e4b102515589c1ed6db50b646a4452109c5467fde6.deb
+Size: 12040
+MD5sum: 6a2b3cf2b47b0a73a84214954b6a97ce
+SHA1: 091e0d8316d135c4def8d864ebe79ed6dab502fe
+SHA256: d12380b340516290c551f7e4b102515589c1ed6db50b646a4452109c5467fde6
+SHA512: 74e8685c6942b3b994ed2471760be7b51b415e9fadbb0093016df6e4e9b832ef84822c1d5fda0fb5ed10a876933b0b07e8323eb5ba9deedaa6c7d27b4cb489d6
+Description: 图标瞎季伯转
+icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/randomiconsflip/js.json
+Name: Random Icon
+Author: Elias Limneos
+Sponsor: 来了老弟
+
+Package: com.sini.reachplayer
+Architecture: iphoneos-arm64
+Version: 2.6
+Section: Tweaks
+Maintainer: sini921
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.reachplayer_2.6_iphoneos-arm64_4a6aefe45b5d46fd896a61271f60528ee1e0b8d47e32eb6a3108259edcbe8111.deb
+Size: 117228
+MD5sum: a0ea2c09643092488be3409f26dee0e9
+SHA1: 86a704b6c1a1c1fdb785f24ebc73be2acd46ab99
+SHA256: 4a6aefe45b5d46fd896a61271f60528ee1e0b8d47e32eb6a3108259edcbe8111
+SHA512: 25cc960afd09aee2a88af26701e48b983d182f26602620c6acb4e471a652ee5af61c6ed94fb0840fd3af79f89a0cf5194d94f14b53eafa0039325cf43b1f0498
+Description: 一个好看的音乐窗口
+Name: ReachPlayer 便捷访问
+Author: ETHN
+Sponsor: sini921
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/reach/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/reach.png
+
+Package: com.sini.reachplayer
+Architecture: iphoneos-arm64e
+Version: 2.6
+Section: Tweaks
+Maintainer: sini921
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.sini.reachplayer_2.6_iphoneos-arm64e_39e7c53aef053b119b8ceefff54e2b080b8d3ab2c318c980ae18830cc3d7fd6a.deb
+Size: 115456
+MD5sum: 8eae7d891130ee1cf824cdac4e61f753
+SHA1: 4ff9194e34bf4f597ec90ada41c1097f0b9f4f5b
+SHA256: 39e7c53aef053b119b8ceefff54e2b080b8d3ab2c318c980ae18830cc3d7fd6a
+SHA512: bc5161318d7ebb897fe965700b29056f536a91d462eb5915bfc100ba62e3997b0c094060cd01f621e2aa172f228a77ee827d2c2e34aa2ef3e8503bf6b48a6748
+Description: 一个好看的音乐窗口
+Name: ReachPlayer 便捷访问
+Author: ETHN
+Sponsor: sini921
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/reach/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/reach.png
+
+Package: com.sini.recordanywhere
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Muirey03 & lclrc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.recordanywhere_1.1.0_iphoneos-arm64_b7be6a54022228d23b86218c7ecba333ab91bb6e6ea2c475d158940cecc501ff.deb
+Size: 4548
+MD5sum: 9c4796761b1d9687a8088f027263d0cc
+SHA1: 9f8232398e9a874154f519987313069cd3ac572d
+SHA256: b7be6a54022228d23b86218c7ecba333ab91bb6e6ea2c475d158940cecc501ff
+SHA512: b25f47c34369dc356fc60622fcfd5680fbc6db18818dc76e6a9485ed89ddb123130a21de590968528f21fb4b12e557cd00243762786005ef8e5a9a11542c275f
+Description: 使手机在锁屏状态也可以继续录屏。
+Name: RecordAnywhere 锁屏录制
+icon: https://huayuarc.github.io/icon/camerapause.jpg
+Author: Muirey03 & lclrc
+
+Package: com.sini.recordanywhere
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Muirey03 & lclrc
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.sini.recordanywhere_1.1.0_iphoneos-arm64e_e970891fe0c7140fe7017b6876eadc3585a09c64e0ea4a1c4cf027e8cb2b1bf6.deb
+Size: 4448
+MD5sum: 3ba4ba1fc0e4f3fcc782665426bf562d
+SHA1: cbcef78d304e1b0136a7027e91a220ebb0429fcf
+SHA256: e970891fe0c7140fe7017b6876eadc3585a09c64e0ea4a1c4cf027e8cb2b1bf6
+SHA512: afbac48dbb426c5978411dca9ce80c236644c4f7f9a41fb90b78f8673c817c5a401f086c5002ffec9b8c85ba278ced41fa35d60ca1c773115462360884cb4aab
+Description: 使手机在锁屏状态也可以继续录屏。
+Name: RecordAnywhere 锁屏录制
+icon: https://huayuarc.github.io/icon/camerapause.jpg
+Author: Muirey03 & lclrc
+
+Package: com.sini.recorder-bubble
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: sunshinesong
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64/com.sini.recorder-bubble_0.0.1_iphoneos-arm64_fce4497a04b133ce1ce1018a01f903967e5c30a04aae3f69a695290d63a3df2f.deb
+Size: 41792
+MD5sum: 051dbc7c29121302d05649d62bd6dd21
+SHA1: 189647d2e8f0e2c5c2cbf907f764341fe76b3153
+SHA256: fce4497a04b133ce1ce1018a01f903967e5c30a04aae3f69a695290d63a3df2f
+SHA512: 6cc79d7d147b29f6a5bcba91bd8aa0af5682bb1c06449341866a7dbba5eb18410340137d7a30fd8b6e95cbfdee37d40e86217ec548b4890bc7fbba19c551c7e2
+Description: 当录制屏幕时，显示一个花瓣悬浮球指示器。备份。
+icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/recorder-bubble/js.json
+Name: recorder-bubble
+Author: sunshinesong
+
+Package: com.sini.replaced
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: sini921
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.sini.replaced_1.0_iphoneos-arm64_f9bd251a6af96fa2b0cc669d2a05b6a17212cdfeca07225e328e0d631fe4da0e.deb
+Size: 3336
+MD5sum: 68354b5895eabf64e85ccb62666e1af4
+SHA1: aef28359975b50f50d8d839e1e596db91caea3e6
+SHA256: f9bd251a6af96fa2b0cc669d2a05b6a17212cdfeca07225e328e0d631fe4da0e
+SHA512: d6f67465141fab2b1c8e92b6e347b82378c6457778e3745238e625e8e1ad88518ad29d11126d483158eed72d78bb2a344014a5b76a92f601a544760bc98d1e1d
+Description: 在“设置”的“关于”页面中删除有关“未知部件”或“部件和服务历史记录”的信息。
+Author: 34306
+icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/replaced/js.json
+Name: Replaced
+Sponsor: sini921
+
+Package: com.sini.senri
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: sini921
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 1.17)
+Filename: debs/iphoneos-arm64/com.sini.senri_1.1_iphoneos-arm64_8dd0322c3ef738de63ae83270b3c42cbbe3abdfa480580823ace88ad089de3d8.deb
+Size: 205404
+MD5sum: 126ac24e66982687f25985fac8f12b81
+SHA1: 25bf5fb25c5cbd2396a3f86705948b1226f3c9b8
+SHA256: 8dd0322c3ef738de63ae83270b3c42cbbe3abdfa480580823ace88ad089de3d8
+SHA512: a408a9dd74b6b6959fc57b9e0de0f985530762e16e08140b87c63f012b35e0a8cf2c392e4cac0e6522b2823fabc87470d9ceae40e58e3c287239e7716b9d8872
+Description: 永远不要再丢失您的通知！Senri会记录您的设备收到的所有通知，并将其保存。季伯宇强烈推荐
+Author: Antoine
+Name: Senri
+Sponsor: sini921
+icon: https://sini921.github.io/repo/sileodepiction/icon/senri.png
+
+Package: com.sini.settingsrevamp
+Architecture: iphoneos-arm64
+Version: 3.0.1
+Section: Tweaks
+Maintainer: SOPPPra
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Filename: debs/iphoneos-arm64/com.sini.settingsrevamp_3.0.1_iphoneos-arm64_1d331a25f2ee6baf571d8b7c4b6df294b129b037caebbcbb424a1b6dcdf50cc8.deb
+Size: 338622
+MD5sum: 60517b9d806a680662cb1ce41864beba
+SHA1: e912ff760fcf1d0d26bdaeca17c7a1fde0068557
+SHA256: 1d331a25f2ee6baf571d8b7c4b6df294b129b037caebbcbb424a1b6dcdf50cc8
+SHA512: 51fd4ad1ca71ddb6c391fabe51ca417836178de05b1bbea0a0aa2a73b1e2a083766a4f8223a99261f91ce9d5455bd012672818a4e1da3495abdccb4761cde537
+Description: 设置美化，插件归类。
+Author: SOPPPra
+Icon: https://huayuarc.github.io/icon/settingsrevamp.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/settingsrevamp/js.json
+Name: SettingsRevamp
+
+Package: com.sini.settingsrevamp
+Architecture: iphoneos-arm64e
+Version: 3.0.1
+Section: Tweaks
+Maintainer: SOPPPra
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Filename: debs/iphoneos-arm64e/com.sini.settingsrevamp_3.0.1_iphoneos-arm64e_9ee80a4bbd600f7021d4a5d17664de55598345f9d834c338d75888d40118f2b3.deb
+Size: 333658
+MD5sum: 883b874fe56967f0576c25d8bb9f639e
+SHA1: 974dbea257c2f618c292c91c8cafa949bc5b4c0a
+SHA256: 9ee80a4bbd600f7021d4a5d17664de55598345f9d834c338d75888d40118f2b3
+SHA512: f35cec29656227a905605a73c0d865f1968f4a94fd75aa2be0d4111a03a06d0f710bdbb9ffd2968f024922e3f059a7b759b71b3f4f109e2bee3dafc3fbd1de9c
+Description: 设置美化，插件归类。
+Author: SOPPPra
+Icon: https://huayuarc.github.io/icon/settingsrevamp.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/settingsrevamp/js.json
+Name: SettingsRevamp
+
+Package: com.sini.shortvideodl
+Architecture: iphoneos-arm64
+Version: 2.1.8
+Section: Tweaks
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 3672
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sini.shortvideodl_2.1.8_iphoneos-arm64_2b210bf81b473b077ecfa0d6dc582abb99afd90651f2b60f33b2f474482c7cbe.deb
+Size: 964564
+MD5sum: 37daf77442527d42ec3076d2f72a7067
+SHA1: 7f21d3736ce34ccdfaf557eb8f931771924ba956
+SHA256: 2b210bf81b473b077ecfa0d6dc582abb99afd90651f2b60f33b2f474482c7cbe
+SHA512: 4cf36ce30278a99362de89bce7613982f47f203074c592089c672fd6e685c1e0d5076d5bf360c63d7601eb9de05194d560e43acebd29564f909462cca668ba8b
+Description: 支持抖音、快手、微视等无水印下载。
+Icon: https://sini921.github.io/repo/sileodepiction/icon/shortvideodl.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/shortvideodl/js.json
+Name: 短视频助手
+Author: lenglengyu
+
+Package: com.sini.shortvideodl
+Architecture: iphoneos-arm64e
+Version: 2.1.8
+Section: Tweaks
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 3752
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sini.shortvideodl_2.1.8_iphoneos-arm64e_e27e0ebb90d8aec3a9b5c3d8d2ae9b6a914338c720fd64ff06d48f894a7f88ac.deb
+Size: 983592
+MD5sum: 591b72ea736a3293140b5b52c96d6b8a
+SHA1: 26a294b83324239b2aa859585926719022ff084f
+SHA256: e27e0ebb90d8aec3a9b5c3d8d2ae9b6a914338c720fd64ff06d48f894a7f88ac
+SHA512: 0bed3d6231f5c4fe0f4bec212c54c1037605003398c1b62f5e0c00168b835c735b92a4b9b5c6ab4a95ac9bdb67c1036ccb0d447896d5d1d49012e7bce28f46fd
+Description: 支持抖音、快手、微视等无水印下载。
+Icon: https://sini921.github.io/repo/sileodepiction/icon/shortvideodl.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/shortvideodl/js.json
+Name: 短视频助手
+Author: lenglengyu
+
+Package: com.sini.shuffle
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Section: Tweaks
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Depends: com.creaturecoding.libcspreferences
+Filename: debs/iphoneos-arm64/com.sini.shuffle_1.6.2_iphoneos-arm64_83101a0b211ef953a526a8d65e9fa8f449683eb46a82d37fa51271822b775cbc.deb
+Size: 260688
+MD5sum: de9f4a1f3204eaf6c2a4d23059a8d23b
+SHA1: 44144af5f098d8d52a61c97a2847e3a7b4629665
+SHA256: 83101a0b211ef953a526a8d65e9fa8f449683eb46a82d37fa51271822b775cbc
+SHA512: 8afe67e062af0def8fc9f0d653a80b046cb6390054c90112c29bd0a10b7af659b30ebf189885351642487095a08cb6f413623863abcaa29659ed3ef4e05a5afd
+Description: 简单的设置归类，没有花里胡哨的功能
+Author: CreatureSurvive <support@creaturecoding.com>
+Name: Shuffle
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/shuffle/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/shuffle.png
+
+Package: com.sini.singlevpn
+Architecture: iphoneos-arm64
+Version: 2.1-2
+Section: Tweaks
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 420
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.singlevpn_2.1-2_iphoneos-arm64_bfb3807eb73496529dd4355d693f61aec6554bc200fa3c0849855cb52cf8bef8.deb
+Size: 35380
+MD5sum: ab5e3187beeb2f9c42dfe6f4d52dc21c
+SHA1: 60b7941f00aa8d726999cc50074ff1810d9cbfb7
+SHA256: bfb3807eb73496529dd4355d693f61aec6554bc200fa3c0849855cb52cf8bef8
+SHA512: d32e34f02ca6df24fbe2bc96d5985a1915acbfb070027aad5345cefb291ea07af8ddd3f121707eb4c96a5fc44c03098dab2a1503aacbc53fc7a8cceca930bd01
+Description: 将 VPN 状态和无线状态合并到一个图标中。
+Icon: https://sini921.github.io/repo/sileodepiction/icon/singlevpn.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/singlevpn/js.json
+Name: Single VPN
+Author: 82Flex <82flex@gmail.com>
+
+Package: com.sini.singlevpn
+Architecture: iphoneos-arm64e
+Version: 2.1-2
+Section: Tweaks
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 420
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.sini.singlevpn_2.1-2_iphoneos-arm64e_7e785321404cc6378b2c8c5feee3f4dd9de6bc8745f9bd82cf80213b31a572b2.deb
+Size: 35264
+MD5sum: 25117cb70eec56644c2b7047cad1a0e6
+SHA1: 07af20d75d5b53066f2afe22fa4362a4695ce988
+SHA256: 7e785321404cc6378b2c8c5feee3f4dd9de6bc8745f9bd82cf80213b31a572b2
+SHA512: ceef22789e124bfb453bf3bdce80199f5338efbf525add010623f9eb686c2fd4fc6b33ae475a0988666607b8be3323a0cb8d438292bb40e05aec17ddab174f30
+Description: 将 VPN 状态和无线状态合并到一个图标中。
+Icon: https://sini921.github.io/repo/sileodepiction/icon/singlevpn.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/singlevpn/js.json
+Name: Single VPN
+Author: 82Flex <82flex@gmail.com>
+
+Package: com.sini.siriplus
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Tweaks
+Maintainer: uckermark
+Installed-Size: 1744
+Depends: dev.theos.orion (>= 1.0.0), com.opa334.ccsupport, mobilesubstrate, firmware (>= 13.0)
+Filename: debs/iphoneos-arm64/com.sini.siriplus_1.3_iphoneos-arm64_0e99ebaf4f7a1b54ad1b353bb876258c7963f224539063f98e087f96a8b98d59.deb
+Size: 272296
+MD5sum: a6f00295c5d9184089c7e9e36a150e30
+SHA1: 3974c5248db2da0fc73ec807a90f62ea3b1cadcf
+SHA256: 0e99ebaf4f7a1b54ad1b353bb876258c7963f224539063f98e087f96a8b98d59
+SHA512: 2015457d5f56b23890226f8044e9e7b35aad2315f3c5ac914a7871d575a8cbef024ff7e7d935d4b2bd51e0680a080c48c46281ea9d6f60c2981b57ab230c731a
+Description: SiriPlus-rootless
+Name: SiriPlus
+Author: uckermark
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/siriplus/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/siriplus.png
+
+Package: com.sini.siriplus
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Tweaks
+Maintainer: uckermark
+Installed-Size: 1744
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), com.opa334.ccsupport, mobilesubstrate, firmware (>= 13.0)
+Filename: debs/iphoneos-arm64e/com.sini.siriplus_1.3_iphoneos-arm64e_99478aaf8376223225b1cec7a485552f24e0a31b497c9bdd636dcdffac36584c.deb
+Size: 265252
+MD5sum: 7b8e801b594b3ababefffee38bdb2b79
+SHA1: 000fdcd5207ea409b837da4b6e086ed27df7cefd
+SHA256: 99478aaf8376223225b1cec7a485552f24e0a31b497c9bdd636dcdffac36584c
+SHA512: 3a6f8fa09bc58c1e7aa56f7b3d2cc32498ecd87f4afb479e04c088538b809e2008066815e95d4e34f4dadd517440ebc226a996d76568ecd07e1f56e3deb800af
+Description: SiriPlus-rootless
+Name: SiriPlus
+Author: uckermark
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/siriplus/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/siriplus.png
+
+Package: com.sini.sleeperx
+Architecture: iphoneos-arm64
+Version: 3.0.5
+Section: Tweaks
+Maintainer: Sini921
+Installed-Size: 1836
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0), firmware (<<17.0)
+Filename: debs/iphoneos-arm64/com.sini.sleeperx_3.0.5_iphoneos-arm64_fcaccbb4f3b12f56bf3dedc1c2c55f7d4dbaeca5e5fe10482f68c690b4223cb4.deb
+Size: 163172
+MD5sum: 341a9ff783b7afe9a3369ee9d3fe435b
+SHA1: 3726c27a6a103b45570c4c4b26aa6d539fbcb9ce
+SHA256: fcaccbb4f3b12f56bf3dedc1c2c55f7d4dbaeca5e5fe10482f68c690b4223cb4
+SHA512: 04b504c71d63aefda9c8e9b20e21ee8dcb105734f0c96f9ca9fad6eb033261910a25d8a9b867fef595c690f1fae2a0cfd48e801cee8fc9b2d71d4401767c08a0
+Description: 闹钟增强
+icon: https://sini921.github.io/repo/sileodepiction/icon/sleeperx.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/sleeperx/js.json
+Name: SleeperX
+Author: Joshua Seltzer
+Sponsor: Sini921
+
+Package: com.sini.sleeperx
+Architecture: iphoneos-arm64e
+Version: 3.0.5
+Section: Tweaks
+Maintainer: Sini921
+Installed-Size: 1836
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0), firmware (<<17.0)
+Filename: debs/iphoneos-arm64e/com.sini.sleeperx_3.0.5_iphoneos-arm64e_84e10a6bae7ca95395817c697e87bce361ff249f11f1ac6546fbcd8a89b5a93a.deb
+Size: 272924
+MD5sum: d51e1e40026066a32243a4e97fc2c8f2
+SHA1: b9074ba9411ecb821a6978e30be71fa380fd03ac
+SHA256: 84e10a6bae7ca95395817c697e87bce361ff249f11f1ac6546fbcd8a89b5a93a
+SHA512: f73cfc4edfb819f501a917b18c43e597197df106de5ea53da7827458d3cda3b397d079dbc957d599fb877f19714efa3dea4195ba4fa0e8923f16adf47fa8fe95
+Description: 闹钟增强
+icon: https://sini921.github.io/repo/sileodepiction/icon/sleeperx.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/sleeperx/js.json
+Name: SleeperX
+Author: Joshua Seltzer
+Sponsor: Sini921
+
+Package: com.sini.smallbanners
+Architecture: iphoneos-arm64
+Version: 1.2-8
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 900
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Filename: debs/iphoneos-arm64/com.sini.smallbanners_1.2-8_iphoneos-arm64_d48f79e0236da23987ec3639b76f8e27a5dcaca151e129cf2b3d33736ae38473.deb
+Size: 202944
+MD5sum: 4459c3a96255a72cc1b0fa361d1b6180
+SHA1: c22539897b7a0d395be022f121b1faa288d50822
+SHA256: d48f79e0236da23987ec3639b76f8e27a5dcaca151e129cf2b3d33736ae38473
+SHA512: dca7d8d5bd87520d887163b52534ab7cbea28b934af1a7f768f789b536042531206e5fdc0ed4a3a1b6fd27691e5d9179c20eeba0489fadfb4f46ffe95e2b88ab
+Description: 小通知横幅。支持iOS15+
+Name: SmallBanners
+Author: Netskao
+Icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/smallbanners/js.json
+
+Package: com.sini.snapper2
+Architecture: iphoneos-arm64
+Version: 2.7.0
+Section: Tweaks
+Maintainer: Jonathan Winger-lang
+Depends: mobilesubstrate, firmware (>= 12.1)
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2, com.jontelang.snapper2.packix
+Filename: debs/iphoneos-arm64/com.sini.snapper2_2.7.0_iphoneos-arm64_2ea338106b08d4860bc5255cd68845eb0e3369c3cfbf3b78d6b476e309d9c44c.deb
+Size: 586452
+MD5sum: d7e73c713d9e2381b6a978e82a1d98af
+SHA1: df68d623f057b0d0e6e8f07fe27dcbfdbc5c8745
+SHA256: 2ea338106b08d4860bc5255cd68845eb0e3369c3cfbf3b78d6b476e309d9c44c
+SHA512: 784596150bd3cda39eef3a4bc91c21a51761d33d15781e6b7116fe94c9ed90cff657991a95e23696f321f09008372a3649790ac8f93f7dd832af9d06b5286be1
+Description: 备份
+Author: Jonathan Winger-lang
+Name: Snapper 2
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+
+Package: com.sini.snapper2
+Architecture: iphoneos-arm64
+Version: 2.7.0
+Section: Tweaks
+Maintainer: Jonathan Winger-lang
+Depends: mobilesubstrate, firmware (>= 12.1)
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2, com.jontelang.snapper2.packix
+Filename: debs/iphoneos-arm64/com.sini.snapper2_2.7.0_iphoneos-arm64_83b12d74a1929c3ca085214620c247936aef76e765ef782a982dc4a3db1682c6.deb
+Size: 586612
+MD5sum: 0636ab437001734b82159e2d1fb8c07a
+SHA1: f64f9432cce7632fe3fbf0e51a7e5fa34b1d2ce4
+SHA256: 83b12d74a1929c3ca085214620c247936aef76e765ef782a982dc4a3db1682c6
+SHA512: 95e2511d88643b2971ec89ddd2d296656859c162f37b8b773130926ba863108a7afd13071f33f5816b3bdb20394ab07292749b8cc2cb6e5eb6172364b48a7cbd
+Description: 备份
+Author: Jonathan Winger-lang
+Name: Snapper 2
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+
+Package: com.sini.snapper3
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
+Filename: debs/iphoneos-arm64/com.sini.snapper3_1.0.2_iphoneos-arm64_ed440458b912402bffbcaa75bd9413d69e60e8ba72045229f7f3d8a52510dc08.deb
+Size: 911552
+MD5sum: 3808bb3e5316094500adf3305732633b
+SHA1: 3ca2ed7406ebc99d57ad3e482bc3a6d9c43ecb86
+SHA256: ed440458b912402bffbcaa75bd9413d69e60e8ba72045229f7f3d8a52510dc08
+SHA512: b7ac393e4e070d9c84869926a87f552c6c1e11b3c866723c8e3fe273695253fde5d8fd793e1cd7513a8d4dc67b8f0038daa4c95e3b5d098e132baf67cfae316b
+Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件
+Name: Snapper 3 Free
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/sn3/js.json
+Author: Jonathan Winger-lang
+
+Package: com.sini.snapper3
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
+Filename: debs/iphoneos-arm64e/com.sini.snapper3_1.0.2_iphoneos-arm64e_961ccbc6d1caf0eee1457f29192b780285ebdd58712e48a2884ff761c146165d.deb
+Size: 904960
+MD5sum: 2e1a41e89077adfe5b49881e83491602
+SHA1: 95e4fbae706b3b5b43fcc3aa835a3db5fdfd7268
+SHA256: 961ccbc6d1caf0eee1457f29192b780285ebdd58712e48a2884ff761c146165d
+SHA512: efeecf832bd8cbcd80e79da7cc429fb721ab51b4e2a5f2f2eb53abcb5e8b4d2aae59d4d1ce02f16399780ab8eb9207aa914a10dda27e5aa52049f59fd9326bdb
+Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件
+Name: Snapper 3 Free
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/sn3/js.json
+Author: Jonathan Winger-lang
+
+Package: com.sini.solstice
+Architecture: iphoneos-arm64
+Version: 3.0.6
+Section: Tweaks
+Maintainer: Rifai
+Depends: com.spark.snowboard
+Filename: debs/iphoneos-arm64/com.sini.solstice_3.0.6_iphoneos-arm64_afd5788240885c7746d877ae0daf5076eeb0d59acc99d5c6fb0948f604e37c86.deb
+Size: 52497952
+MD5sum: 7ae467bfc892510b4b3adafe9d362d76
+SHA1: 8104dead94369de79d6964bcd7435c537b7c17a4
+SHA256: afd5788240885c7746d877ae0daf5076eeb0d59acc99d5c6fb0948f604e37c86
+SHA512: 91754be16e9e0b092203f7d44b7d5da2963cd918090f92afba8efcdd3f7852a5647248338cfe6b93cacbf20e7122bd7e2142b577da8607dce1b1893fe7c11590
+Description: iOS18样式的黑暗主题
+icon: https://sini921.github.io/repo/sileodepiction/icon/solstice.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/solstice/js.json
+Name: Solstice
+Author: Rifai
+
+Package: com.sini.sougouinput
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Priority: optional
+Section: Tweaks
+Maintainer: sini921
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.sougouinput_0.1-1_iphoneos-arm64_e5748d778b86e34796bcd683568e1023a719fbe3ba56296cb80461a8e2657523.deb
+Size: 99940
+MD5sum: d0cf2a86f513fbfc67ace1a483b53588
+SHA1: 4a8586cf5a6677e84d2dc0b7a44b90aff6ed9326
+SHA256: e5748d778b86e34796bcd683568e1023a719fbe3ba56296cb80461a8e2657523
+SHA512: f1d102cba297348d030bbbfb26dd577810696b26c66006e5b59048a79a03e3ff5bca63eabf957a987f6c77811b936941f6496bb07ae1562b2139486796cce2d4
+Description: 搜狗输入法，去广告，解锁内购（点击购买后取消付款弹窗即可）
+Name: sougouinput
+Author: iosrxwy
+icon: https://sini921.github.io/repo/sileodepiction/icon/sougou.png
+
+Package: com.sini.spectrum
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: Skitty
+Installed-Size: 580
+Depends: mobilesubstrate, libskittycolor, firmware (>= 13.0)
+Filename: debs/iphoneos-arm64/com.sini.spectrum_1.1_iphoneos-arm64_e52e6ebe4fcffbbb548504d09f5f82c0616fc1e75fa235838a94fec433d91d94.deb
+Size: 56592
+MD5sum: 0bb0c06982c190dbb024c915413cbfa8
+SHA1: 70fcef0f3750aa66e012f6cd7e9811693efa4ccc
+SHA256: e52e6ebe4fcffbbb548504d09f5f82c0616fc1e75fa235838a94fec433d91d94
+SHA512: 27f6e0cd695236b58989a10c6eb21776e3693dd70cf0d23231888486fc7396d195d795a4e5a683e181d9ed02ac52662ae22fd5cc5fe755b7b88a2600c1ff3987
+Description: 自定义系统颜色(简体中文来自刀刀源)
+Author: Skitty & EvenDev
+Name: Spectrum
+icon: https://sini921.github.io/repo/sileodepiction/icon/spec.png
+
+Package: com.sini.staypro
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.sini.staypro_0.0.1_iphoneos-arm64_d4be0105345bf42799a3988995cf1ba80cf539d63cfc36e4a544290ab67869e3.deb
+Size: 3544
+MD5sum: f33eadfa0b65d56223b83103c23a0b22
+SHA1: d40cb2445c4ef29c895aedb4fa781dd642b9dd6d
+SHA256: d4be0105345bf42799a3988995cf1ba80cf539d63cfc36e4a544290ab67869e3
+SHA512: 639542a403d507c2a8f76f32c5123b9b6e5d0f409247135879b26e051402559367077ca9fe1d3cfd72f76b5b3ff14688387bde6445cf5563b8a0b39ddbaa53d1
+Description: 解锁Pro
+icon: https://sini921.github.io/repo/sileodepiction/icon/staypro.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/staypro/js.json
+Name: Stay Pro
+Author: 0xkuj
+
+Package: com.sini.stella
+Architecture: iphoneos-arm64
+Version: 1.1.5
+Section: Tweaks
+Maintainer: yan & 刀刀
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
+Filename: debs/iphoneos-arm64/com.sini.stella_1.1.5_iphoneos-arm64_4f7f49ebc9f142d7863bfcd597eca11cafd195fad65a3b56bf61e996381b54d8.deb
+Size: 400920
+MD5sum: 50fdf66110138b249d347b4f4c6e8da3
+SHA1: 9b8ff4bcdccfd19489e89840eb0663130c30121e
+SHA256: 4f7f49ebc9f142d7863bfcd597eca11cafd195fad65a3b56bf61e996381b54d8
+SHA512: d42561f3053a1c8aef0b35f213e51475764eeb5e875e40e84979807a2f9b4589fbbecfd2f0efa70c881e798272950c7ba5fe4d14436a94139c56a93db4772d49
+Description: 2003年的第一场雪，比2002年来的稍季伯晚了一些
+Name: Stella 下雪动画
+icon: https://sini921.github.io/repo/sileodepiction/icon/stella.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/stella/js.json
+Author: yan
+
+Package: com.sini.stella
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Section: Tweaks
+Maintainer: yan & 刀刀
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
+Filename: debs/iphoneos-arm64e/com.sini.stella_1.1.5_iphoneos-arm64e_ab7173ff54f6d9ed0e16856fe78be4400e096fc3e5d280782fa5de3dbd106531.deb
+Size: 396640
+MD5sum: b0b0cb8a24947f232b63b9a0bf46b005
+SHA1: d3a464d5c41171d2fe536a4050800e317e9d8c38
+SHA256: ab7173ff54f6d9ed0e16856fe78be4400e096fc3e5d280782fa5de3dbd106531
+SHA512: 14e488fcdde726006f38711af79a0df2b185e83b87fa69f65da2845728c10e831d747956f4e0c173f79a1a57483ed1136f6e8be26991ee06dc68e9c5d0f62a21
+Description: 2003年的第一场雪，比2002年来的稍季伯晚了一些
+Name: Stella 下雪动画
+icon: https://sini921.github.io/repo/sileodepiction/icon/stella.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/stella/js.json
+Author: yan
+
+Package: com.sini.stepup
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Filename: debs/iphoneos-arm64/com.sini.stepup_1.2_iphoneos-arm64_5ab65e5f3f2b6543082df915cd0aa5f5af7cad1fc1fca5aa8b6ed4f63dd87762.deb
+Size: 43140
+MD5sum: 7456f1509378cfaa0f40a4a8d5130abf
+SHA1: 6e376d203f37595f4e61b0470e0a806d30b60f03
+SHA256: 5ab65e5f3f2b6543082df915cd0aa5f5af7cad1fc1fca5aa8b6ed4f63dd87762
+SHA512: 5c146919f1cb61612e82ae16a31196c78802220128efce735448f150711055015410210875ff4df1ce358c98068508e383f7911b8b9e84a4660e44a54de3faf3
+Description: 音量实体按键步进数量设置
+Author: ETHN <ethanwhited2208@gmail.com>
+Name: StepUp
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/stepup/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/stepup.png
+
+Package: com.sini.storeswitchaccounts
+Architecture: iphoneos-arm64
+Version: 1.1-4
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 460
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.storeswitchaccounts_1.1-4_iphoneos-arm64_37f491e08f114e1b90f663e9e1d2a2b546303f5d2eb03be1a9f099ecd63cdbe2.deb
+Size: 102656
+MD5sum: 993e191d8050ce9e65a7527ce3369687
+SHA1: b70280a4988e3cdf976de911a744fe82cbeb85d4
+SHA256: 37f491e08f114e1b90f663e9e1d2a2b546303f5d2eb03be1a9f099ecd63cdbe2
+SHA512: 82239794247b21106e1c53afb1228b1ccf2a8d84f7f188bc61adcf4c2b4b2425a8524b805a7e6d9fb332a81d04505759056a7db8dc3224994dfa2c686b47304d
+Description: 方便地在登录帐户之间切换，长按桌面AppStore图标进行切换
+Name: StoreSwitchAccounts
+icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/storeswitchaccounts/js.json
+Author: Netskao
+
+Package: com.sini.storeswitcher2
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Tweaks
+Maintainer: 0xkuj
+Depends: firmware (>= 11)
+Filename: debs/iphoneos-arm64/com.sini.storeswitcher2_1.0.4_iphoneos-arm64_56c2c9f34a70a582cc46131ca89570cb77b990b66b6118481d7f6f0a2e0ebd5e.deb
+Size: 17672
+MD5sum: 28368433c7d041188fea0b75705d33ed
+SHA1: 6e825d6187842afc2e631ade19a156003a57363e
+SHA256: 56c2c9f34a70a582cc46131ca89570cb77b990b66b6118481d7f6f0a2e0ebd5e
+SHA512: eca0753615ed78aec1c01fd1d18ce49f4266a93035cc87cef7718b4d1db0c6321dd0963359c5d266d76ce9386cd89cd1b0db4de401ed4c49260a5628588bbc66
+Description: 快速切换AppStore账号
+icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/storeswitcher2/js.json
+Name: StoreSwitcher
+Author: 0xkuj
+
+Package: com.sini.swiftgramcrack
+Architecture: iphoneos-arm64
+Version: 1.1-7
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 1080
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.swiftgramcrack_1.1-7_iphoneos-arm64_119f27d32cf60cbca84171542e4b86743d8324f195b9878e16ad9c23cd4de716.deb
+Size: 423852
+MD5sum: 514684b405f4c7c2b64813f6bb484c50
+SHA1: a2c429118df433bf06d7bd34fea86dcd87fbbc12
+SHA256: 119f27d32cf60cbca84171542e4b86743d8324f195b9878e16ad9c23cd4de716
+SHA512: 37c731ee148d649384e24664cb4a644c6a5b066c783e7a2b0fa2311f8cb304a46a1a39f8bf672f1e8f0898ad180d6f71d4c2c1b28aa8f16bcf6b39e37d4f2007
+Description: Swiftgram Pro. 附加解除下载保护/解除截图保护/去除官方广告, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
+Name: Swiftgram Crack
+Icon: https://sini921.github.io/repo/sileodepiction/icon/swiftgramcrack.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/swiftgramcrack/js.json
+Author: Netskao
+
+Package: com.sini.swiftgramcrack
+Architecture: iphoneos-arm64e
+Version: 1.1-7
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 1080
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.sini.swiftgramcrack_1.1-7_iphoneos-arm64e_2a449c1b3918572ebd671bbd77e3e066477e29090cd1b6cb0d9f8d5af24e8a7d.deb
+Size: 424192
+MD5sum: f7ce78af6b77a615aa8d6e76b90d9c61
+SHA1: 10c8d1082c90b6eba85004e51630c18147216a9e
+SHA256: 2a449c1b3918572ebd671bbd77e3e066477e29090cd1b6cb0d9f8d5af24e8a7d
+SHA512: a97606da8fbb996320d22d4e7220ae67363eb7e7cad8c3f84739323a06c046e5524cf6538bd75b187414b185ce2c74333d982abddac755ad7073a6023db25ffd
+Description: Swiftgram Pro. 附加解除下载保护/解除截图保护/去除官方广告, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
+Name: Swiftgram Crack
+Icon: https://sini921.github.io/repo/sileodepiction/icon/swiftgramcrack.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/swiftgramcrack/js.json
+Author: Netskao
+
+Package: com.sini.swipeselection
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: iCraze
+Installed-Size: 156
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.swipeselection_2.0_iphoneos-arm64_cd8485b0262c024bc5067498076fe8d2e4671be07f94be996a5868fbddcd2400.deb
+Size: 14404
+MD5sum: b78bc63627aa3c7865af1052cab7ec38
+SHA1: 6bc8ab2bde9e695504966c07a55eeda71e819a82
+SHA256: cd8485b0262c024bc5067498076fe8d2e4671be07f94be996a5868fbddcd2400
+SHA512: 9bd3e4a9216735fddb500c545fc30fc12b412d3a241bf8aa0dc277a5e25715579ef6f49b4aaf727e6540dd139a3f55e6694d378e1085d017624b045663e51b9b
+Description: 沿键盘滑动以移动光标并选择文本。
+Name: SwipeSelection
+Icon: https://sini921.github.io/repo/sileodepiction/icon/swipeselection.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/swipeselection/js.json
+Author: Kyle Howells
+
+Package: com.sini.telegram
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: Sini921
+Depends: firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.sini.telegram_1.0_iphoneos-arm64_0740f0f8763129344c16fdd103884cbeefb730a30d8621a91ce5bd5e8fb4ff32.deb
+Size: 3152
+MD5sum: 4eb7d6bc8036e5ef1dfaca3e6f7c99f0
+SHA1: 1b902c6a335ac43ed2fb54e8408aae83164fe591
+SHA256: 0740f0f8763129344c16fdd103884cbeefb730a30d8621a91ce5bd5e8fb4ff32
+SHA512: f2c66d0c6a9f4d1830145e18979870912492ef6ab2b30dcf26a310dda2289b28951f4e957a2b95319430c3a83f52a6ec5de31ed62fca1173206595ca589c5984
+Description: 部分群组频道开启限制截图功能，安装后可以绕过限制
+Name: Telegram
+icon: https://sini921.github.io/repo/sileodepiction/icon/tg.png
+Author: Unknown 佚名
+
+Package: com.sini.telegram.return
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: IP Man
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.sini.telegram.return_1.0_iphoneos-arm64_540a9830ea7989151ce8d2d43b5f82e379d2d9a5ccde68405e788b01084284c6.deb
+Size: 3644
+MD5sum: cabe6d3dbb3605c11c3356192bee78ed
+SHA1: b3a2f748c46e682b9df0d042cfdb7e40bc28ec8b
+SHA256: 540a9830ea7989151ce8d2d43b5f82e379d2d9a5ccde68405e788b01084284c6
+SHA512: bc6bcddaddefe178936985268264853cf50c4bd5e9c47bfdb3002cf3e9249fa830208fa015417e578f210b1daf783210ee7eba9a5ad52b43d324517aff84d6c5
+Description: 换行键改为发送功能
+Author: IP Man
+icon: https://sini921.github.io/repo/sileodepiction/icon/tg.png
+Name: Telegram Return
+
+Package: com.sini.tgextra
+Architecture: iphoneos-arm64
+Version: 1.3-3
+Section: Tweaks
+Maintainer: choco/waruhachi/TheWinner02/thewinner0217/daodao
+Filename: debs/iphoneos-arm64/com.sini.tgextra_1.3-3_iphoneos-arm64_94fa55c2951ca2f5cc41fc169203eac0cd922fa6d08fd37e641f13f4bc37b09e.deb
+Size: 6111476
+MD5sum: 90431ad43f17f091dafdddaf924a5f5e
+SHA1: 150704f1e3c7dc2271357f7dc3890c56fa42fe45
+SHA256: 94fa55c2951ca2f5cc41fc169203eac0cd922fa6d08fd37e641f13f4bc37b09e
+SHA512: cdb6b4dcdf116d01049cbd6752e3cf30041053028116f4e8d038abeb0b53ac237277046eb6e0bdea476c6efe22eae78398d9b2282734d4af94d08c53e91d5583
+Description: 支持Telegram、Swiftgram等的多功能插件，能保存频道限制下载文件、禁用广告等；三指长按（建议在“设置”页面）手势打开设置；或底部「设置」—>长按倒数第三个按钮打开插件；如果打不开，先把语言切换自带的英文或者香港中文等—>再长按倒数第三个按钮。
+Name: TGExtraFE
+Icon: https://sini921.github.io/repo/sileodepiction/icon/tgextra.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/tgextra/js.json
+Author: choco/waruhachi/TheWinner02/thewinner0217/daodao
+
+Package: com.sini.tgextra
+Architecture: iphoneos-arm64e
+Version: 1.3-3
+Section: Tweaks
+Maintainer: choco/waruhachi/TheWinner02/thewinner0217/daodao
+Filename: debs/iphoneos-arm64e/com.sini.tgextra_1.3-3_iphoneos-arm64e_2a71ee9667279d11115b763544e52e8f7e3579472e5388d235755e3bfd89abf5.deb
+Size: 6114696
+MD5sum: 8d92fdde544bbbedbb22908d32545b50
+SHA1: 0a794d0c03c4cfad862af6ee0b82f7308285946a
+SHA256: 2a71ee9667279d11115b763544e52e8f7e3579472e5388d235755e3bfd89abf5
+SHA512: 29b137bb033c95e93555eb762670f361ac148a3f2ab3a54ec439806ae46a79e4c4f8f18ea1900f66df363b3198b0bee83295ed44d08c84354afcf1eba53799f1
+Description: 支持Telegram、Swiftgram等的多功能插件，能保存频道限制下载文件、禁用广告等；三指长按（建议在“设置”页面）手势打开设置；或底部「设置」—>长按倒数第三个按钮打开插件；如果打不开，先把语言切换自带的英文或者香港中文等—>再长按倒数第三个按钮。
+Name: TGExtraFE
+Icon: https://sini921.github.io/repo/sileodepiction/icon/tgextra.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/tgextra/js.json
+Author: choco/waruhachi/TheWinner02/thewinner0217/daodao
+
+Package: com.sini.tie-gesture
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: be-huge
+Installed-Size: 672
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64/com.sini.tie-gesture_1.0.0_iphoneos-arm64_e0188de5a505a65f1442a73b7ee9998452afe18f25e435815582db167619296f.deb
+Size: 102200
+MD5sum: d2bd024648f67ea3a70bd7f50b6203df
+SHA1: 5211a4a80a44b5a4b2b397bd3d3248139f1dafd7
+SHA256: e0188de5a505a65f1442a73b7ee9998452afe18f25e435815582db167619296f
+SHA512: a8dcd7de558e083b7a85263861fce3c4b09a7fe200e331b931a322a48f6db0ed89db14957f875e770cd92a31058a4a72b316beeb647a567b108171c14cd734b3
+Description: 手势插件，一切从简即可。
+Name: TieGesture
+Icon: https://sini921.github.io/repo/sileodepiction/icon/tie-gesture.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/tie-gesture/js.json
+Author: be-huge
+
+Package: com.sini.tinge
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Section: Tweaks
+Maintainer: sini921
+Depends: firmware (>= 15.0), mobilesubstrate, ws.hbang.alderis
+Conflicts: cpm.dao.tinge.cn
+Filename: debs/iphoneos-arm64/com.sini.tinge_1.2.2_iphoneos-arm64_523325a9f3dbe210086088190849b8e20915ec77192227ceae5ef10e804e4f1a.deb
+Size: 41344
+MD5sum: ccc6fe44c74ec0b811c2c686dc9c73c9
+SHA1: 9c72806f220b4cb0cd496520ede3a632176ef534
+SHA256: 523325a9f3dbe210086088190849b8e20915ec77192227ceae5ef10e804e4f1a
+SHA512: 0b5d5071ecd1d21edf267247231fb25c6f0662bd07f7cdb18443e919c98e3e047f9293f47e20eba238ca9fced3bb679073cf3e48b0e8d9256c719f99ee059ec9
+Description: 根据你的软件图标颜色来自适应角标颜色，季伯宇强烈推荐
+Author: P2KDev
+Name: Tinge
+Sponsor: sini921
+icon: https://sini921.github.io/repo/sileodepiction/icon/tinge.png
+
+Package: com.sini.translucent3dmenus
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: iCraze
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.sini.translucent3dmenus_2.0_iphoneos-arm64_64c2411e3ecd2c2a4d2500e6f215bf4f4a5da35761867277aa03561a2929a393.deb
+Size: 4428
+MD5sum: b6f23f9d49e53311888f5a5612685687
+SHA1: bd84ce77d7d8a7c8b96cd6919caea8efca2d9190
+SHA256: 64c2411e3ecd2c2a4d2500e6f215bf4f4a5da35761867277aa03561a2929a393
+SHA512: c919159ec33c746aac4edab8c78246e04d5e80a176309b8a66d8c2973fc0497e556b6d54861289a8056914fd0e9cdfa56b03bfd2c76165da6523cd2e5043933d
+Description: 使 3D 触摸菜单半透明
+Name: Translucent3DMenus
+icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/translucent3dmenus/js.json
+Author: iCraze
+
+Package: com.sini.trollpad
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Tweaks
+Maintainer: khanhduytran0
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: debs/iphoneos-arm64/com.sini.trollpad_1.3_iphoneos-arm64_521e3cda41e9079e271b4929deebcbe9d9779c1ec61820db7e716378199d0822.deb
+Size: 40540
+MD5sum: 9cd6f2fcaafa015b519a0fbef1df7c36
+SHA1: 58d2d1ebdbed2182ad90189a7802e1b8deda4cb9
+SHA256: 521e3cda41e9079e271b4929deebcbe9d9779c1ec61820db7e716378199d0822
+SHA512: 18a39a281291725384c30cfaddc1e5b9aef1ed741b36d1a798c64a645e134913440686af7f4d9071749a0b4558e49cc7f7cd9be7111a0c1b7d9071d75376b078
+Description: 在iPhone上开启iPad台前调度、分屏、小窗和iPad样式的dock栏以及后台卡片样式，修复默认键盘下不能使用九宫格键盘的问题
+Name: TrollPad
+Author: khanhduytran0
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/trollpad/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/trollpad.png
+
+Package: com.sini.tweaksettings
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Priority: optional
+Section: Tweaks
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1064
+Depends: firmware (>= 10.0), preferenceloader | com.creaturecoding.preferred
+Filename: debs/iphoneos-arm64/com.sini.tweaksettings_1.0.8_iphoneos-arm64_88432223c1737793f44d7c35545ed111c86b01debe1af8a3ef14e96cd72a4d01.deb
+Size: 386512
+MD5sum: 0ecc9884e4d8abbbd35aac58ca427817
+SHA1: 5de12ad45641ded81c7544627d6131672787dce8
+SHA256: 88432223c1737793f44d7c35545ed111c86b01debe1af8a3ef14e96cd72a4d01
+SHA512: 2dd1f20303956d6b57fbb8f9b6261dc54f8437b6212805b2919c3db3af6813d8cd99f707c0303fde74f224be9338293b354484b14d0a7c1a08695a8b5d98a499
+Description: 安装后在桌面，打开进入插件列表
+Name: TweakSettings
+Author: CreatureSurvive <support@creaturecoding.com>
+icon: https://sini921.github.io/repo/sileodepiction/icon/tweaksett.png
+
+Package: com.sini.txhook
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Section: Tweaks
+Maintainer: ylr
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.sini.txhook_1.5.5_iphoneos-arm64_e1e96ad6f01aa199ecfd50721ea99bcdeba6467fa96c9ea2f58e655086a22b1d.deb
+Size: 10364
+MD5sum: 431f4a920da266eeaa9a4bd00936800e
+SHA1: caf023a81a7dfc2e1b2c772f3c19e7403b48a968
+SHA256: e1e96ad6f01aa199ecfd50721ea99bcdeba6467fa96c9ea2f58e655086a22b1d
+SHA512: 8bba1335114bf9a96200e05d573a70b8c901261dbef589583b75fea0d954a45d7e299a1412c338da0733f2b5a0d52aa0caeaba65e1a7d300b0e2fa3992ba2fe7
+Description: TXHook 去开屏广告，ylr制作投稿，感谢发电
+Name: TXHook
+Icon: https://sini921.github.io/repo/sileodepiction/icon/txhook.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/txhook/js.json
+Author: ylr
+
+Package: com.sini.velvet2
+Architecture: iphoneos-arm64
+Version: 2.2
+Section: Tweaks
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.initwithframe.velvet, com.noisyflake.velvet2, com.hk.velvet2.cn, com.hk.velvet2.cn.rl, com.hk.velvet2, com.hk.rootless.velvet2, com.qms.velvet2
+Filename: debs/iphoneos-arm64/com.sini.velvet2_2.2_iphoneos-arm64_798349d7dd53ecffab9fea69fc183f88603823d6975c94df42df854748937797.deb
+Size: 100036
+MD5sum: 7b770e3427ab2daabb217b3d1c14ce24
+SHA1: 0478bb3a1991ddbe55b90aeeec3df5d1b30c3acc
+SHA256: 798349d7dd53ecffab9fea69fc183f88603823d6975c94df42df854748937797
+SHA512: f4049d263f5e3ce42489d2ac65dc37e5f379ffb54ea09989786df909018d883d6786f94b9f69cefae379645c904c2e740030ad724f2dbdfa472ecf657f59bff9
+Description: 通知横幅美化
+Author: NoisyFlake
+Name: Velvet 2
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/velvet/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/velvet.png
+
+Package: com.sini.visibleisland
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: ethxnn88 <ethxnn88@gmail.com>
+Depends: firmware (>= 16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Filename: debs/iphoneos-arm64/com.sini.visibleisland_2.0_iphoneos-arm64_ead79fe202f26b2f9aab0597871d3640d176540c61930472a6cc3ad580d67e9f.deb
+Size: 28404
+MD5sum: c437b4ed3aae5a92d25da3d0bbe91f7a
+SHA1: 68cd2d775e0f422358fed5f743205d15e67f88c8
+SHA256: ead79fe202f26b2f9aab0597871d3640d176540c61930472a6cc3ad580d67e9f
+SHA512: d204a2d5f019629bf293034f1e1665df2a3ea6250074c2f4f87e57c4dfb6170c03dd986a21cbcbb1dfd824dfcbfaa348573eb8094920b1fdd2d20052b0fbced4
+Description: 启动原生灵动岛。仅支持ios16系统以上，非iOS16系统不要装。
+Author: ethxnn88 <ethxnn88@gmail.com>
+Name: 启用原生灵动岛
+icon: https://sini921.github.io/repo/sileodepiction/icon/ldd.png
+
+Package: com.sini.visibleisland
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: ethxnn88 <ethxnn88@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Filename: debs/iphoneos-arm64e/com.sini.visibleisland_2.0_iphoneos-arm64e_54c5ee513ec98411cfd4f49722fbecdc73c318e257c6ab690053f0207b77ee24.deb
+Size: 27304
+MD5sum: 22f78708815e114778e3496072e79ce1
+SHA1: 4d759b6d4696624c8597328b508bd20d257b507c
+SHA256: 54c5ee513ec98411cfd4f49722fbecdc73c318e257c6ab690053f0207b77ee24
+SHA512: ed278e12d908d83aa883ea78de992bdba3bc018335d090874f0655a219498a2bd7fe8f216637b373a2bca1ae4093ed567ca261f32127a520a9c497acc4df3414
+Description: 启动原生灵动岛。仅支持iOS16系统以上，非iOS16系统不要装。
+Author: ethxnn88 <ethxnn88@gmail.com>
+Name: 启用原生灵动岛
+icon: https://sini921.github.io/repo/sileodepiction/icon/ldd.png
+
+Package: com.sini.vitreux
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Tweaks
+Maintainer: MTAC
+Installed-Size: 7028
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.sini.vitreux_1.3_iphoneos-arm64_b7e6acd56f5fcc0ed565296cc1cad9ddb57be702973b41f7c6fffce5c392d94c.deb
+Size: 5922320
+MD5sum: e5f8929e70b946dbf69cadb6998245d2
+SHA1: 583aa7a2b106d2413545943c0eea2be77193f4f8
+SHA256: b7e6acd56f5fcc0ed565296cc1cad9ddb57be702973b41f7c6fffce5c392d94c
+SHA512: e9207c327042cec2810f525f40299824252d10b044108c29c93ad83b0d07421903163329feecb5a3867d1db1950df7b11bc8e258c24ad47ffebac7bf1eb4ac19
+Description: 仿iOS26液态玻璃
+Name: Vitreux
+Icon: https://sini921.github.io/repo/sileodepiction/icon/vitreux.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/vitreux/js.json
+Author: MTAC
+
+Package: com.sini.voices.rootless
+Architecture: iphoneos-arm64
+Version: 1.0-5
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: debs/iphoneos-arm64/com.sini.voices.rootless_1.0-5_iphoneos-arm64_037aa6e8f27c6426776688db3775614025f4598da364fd1552ec06f26865e083.deb
+Size: 7360572
+MD5sum: 72b00eab72c5a3078d9c92450987b267
+SHA1: cfbe1c88a7ae77d14bda9757b471055a5581a261
+SHA256: 037aa6e8f27c6426776688db3775614025f4598da364fd1552ec06f26865e083
+SHA512: 220017c3dfa4894a7b7d05bb10e6636db62c3b9b200c0b0771ad967f0fb2e812fd101ef719ea598529c817f3d916e2e5d19a8b848faf8171acd37829d1eec3fc
+Description: 微信本地收藏语音包，李开心专用
+Name: 语音包【李开心专用】
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/voices.rootless/js.json
+Author: Mao
+Depiction: 微信本地收藏语音包
+
+Package: com.sini.volumemanager
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: sunshinesong
+Installed-Size: 1104
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64/com.sini.volumemanager_1.0.3_iphoneos-arm64_b93677acaff171faab378787154f64f919c8af01972227a030d2439945ba188b.deb
+Size: 140108
+MD5sum: f103d40af2844d665e1d39c5da6b961f
+SHA1: 75610766cfa4f7f7f49b3948bdfba320da54b8b3
+SHA256: b93677acaff171faab378787154f64f919c8af01972227a030d2439945ba188b
+SHA512: de4253ea9cc2c0aa30cc24662930831ae4ae070ac8a5e23ee141c811b174c428aa007c552394148c1066a806218cca6d99585e368c3dde17cf9bcdc2d0989c3d
+Description: 为每个软件单独设置音量大小，可能有bug，介意勿装，上传备份以备不时之需。
+Name: VolumeManager
+icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/volumemanager/js.json
+Author: sunshinesong
+
+Package: com.sini.wbadkiller
+Architecture: iphoneos-arm64
+Version: 1.5.5-1
+Section: Tweaks
+Maintainer: ylr <ylr275536387>
+Installed-Size: 204
+Depends: mobilesubstrate,firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.sini.wbadkiller_1.5.5-1_iphoneos-arm64_a0b940b127734bbd91d3c667e7275137898205fa8aa4f57e3b9f1443f3890868.deb
+Size: 21112
+MD5sum: 1f358f372b6e60d0cba61fb7155e9394
+SHA1: e23c5a549726d64ee23ff33b4042e83a9690b2da
+SHA256: a0b940b127734bbd91d3c667e7275137898205fa8aa4f57e3b9f1443f3890868
+SHA512: 9dce29f3d6921fe52a06c745708c1ff64ba372334f064ffb3ba0220263a1f0f726e51096eccc98598cbba8381c6ceabfab99ddeff31bfe3c50a342e7a11a1bb1
+Description: 微博去开屏广告且秒进主页，首页小方块浮窗广告无，首页底栏透明
+Name: WBAdKiller
+Icon: https://sini921.github.io/repo/sileodepiction/icon/wbadkiller.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/wbadkiller/js.json
+Author: ylr <ylr275536387>
+
+Package: com.sini.wcplugins.rootless
+Architecture: iphoneos-arm64
+Version: 0.1-6
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: debs/iphoneos-arm64/com.sini.wcplugins.rootless_0.1-6_iphoneos-arm64_3a0c34106842e4197e20855372d68595c88964531ec11b7875a6c266a7c71945.deb
+Size: 13528
+MD5sum: a92dc3cf85e3e3fd26d7f31e21ca405c
+SHA1: b4f4e7a062b37588a802bf19dc566a0f6bb7475f
+SHA256: 3a0c34106842e4197e20855372d68595c88964531ec11b7875a6c266a7c71945
+SHA512: 944aaa319e45cf59fe198d1ca68f0a6a948e422b35765c05a72c2589702d0196fd74616c50a2eceaa8882047aa7e9a46e18eab649e8515f2463df7ed3e7082ef
+Description: 微信插件管理
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/wcplugins.rootless/js.json
+Name: 微信插件管理
+Author: Mao
+
+Package: com.sini.wcpureextension
+Architecture: iphoneos-arm64
+Version: 2026.04
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 23256
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/iphoneos-arm64/com.sini.wcpureextension_2026.04_iphoneos-arm64_fb9fbcb540c162eea33ed135ef8b3f339bbb93960889d6d4eb928e6fe77905a0.deb
+Size: 7999428
+MD5sum: 204ee27f7647352a4eabe1a0581c3043
+SHA1: 3bfe521fd247f9c65eb8cd9022f037b91f03e3cd
+SHA256: fb9fbcb540c162eea33ed135ef8b3f339bbb93960889d6d4eb928e6fe77905a0
+SHA512: 65780435dbb30d668fc3cada0ca4ffaa1c5fd66ea8c170bed5986fc9d4067fc3e9a847143fc8ea428adbabdf721bd9f41be205a7d36b1c757efd473c4b9b953d
+Description: 微信净化. 还原聊天本质, 干净的微信给你. 仅支持8.0.29及以上版本, 设置位于微信-设置
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/wcpureextension/js.json
+Name: 微信净化
+Author: Netskao
+
+Package: com.sini.wechat-pop-vc
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Section: Tweaks
+Maintainer: be-huge
+Installed-Size: 232
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64/com.sini.wechat-pop-vc_0.0.4_iphoneos-arm64_f1c67b068301e4633b380e33726e4f6dfd6aa725ded530803093c64eba83ade2.deb
+Size: 21964
+MD5sum: 78dce801f18892b5d90b6bdafde799e1
+SHA1: c5f01b708ea874018e0c2080b48c5beae20c9448
+SHA256: f1c67b068301e4633b380e33726e4f6dfd6aa725ded530803093c64eba83ade2
+SHA512: 44db6488d92882883f02bd73108b64a23a103e451d8eb32e96de359b38c5eadaae659a0214507f82a676ff5c9f90b6b14b5968f06c28df9d0064122728fd22b7
+Description: 微信全局右滑手势，弥补官方只能屏幕侧边返回上一页局限性，提高用户体验。
+Name: WeChatPopVC
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/wechat-pop-vc/js.json
+Author: be-huge
+
+Package: com.sini.wechat-push-msg-page
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Section: Tweaks
+Maintainer: be-huge
+Installed-Size: 232
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64/com.sini.wechat-push-msg-page_0.0.5_iphoneos-arm64_dfd79b37194a1197f551c948d1a5cd772b02e287ba9d08b5a787a9cb85e6dbc8.deb
+Size: 23364
+MD5sum: c983baef9653e46b5bd98d5e427eb97b
+SHA1: ed3a89b6ae82ed860e34c819ba486c52463ba305
+SHA256: dfd79b37194a1197f551c948d1a5cd772b02e287ba9d08b5a787a9cb85e6dbc8
+SHA512: 9cd871f8462b804372a6e70463263edb02a06af7694f75fd74584a9b8318eeaa171f137ab2240bdcfa32a056547cef0584d2ebbec62740eddc3241780043d323
+Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
+Name: WechatPushMsgPage
+Author: be-huge
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/wechat-push-msg-page/js.json
+
+Package: com.sini.wechatnotiavatar
+Architecture: iphoneos-arm64
+Version: 1.3-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 1228
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.wechatnotiavatar_1.3-1_iphoneos-arm64_554bbacd03713ace6fee1f6f80975afc877ca9dae1d87328e46a5387619e916a.deb
+Size: 243016
+MD5sum: d3f003f72ca59ce3d863040f3c9278f3
+SHA1: d92d0ac68cf958b22d57f1d4e84ffd2e1c07a7b8
+SHA256: 554bbacd03713ace6fee1f6f80975afc877ca9dae1d87328e46a5387619e916a
+SHA512: 066dc5b2ba00d8bb09981b24b4513544e6edf0e14319cafa31eb94eb360c2186db6237169dab6c9c16034478857fa2a9ccb482e20b33e956cbb1876a0e1366ec
+Description: 使用iOS15+API显示微信应用程序的通知头像
+Name: WeChatNotiAvatar
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/wechatnotiavatar/js.json
+Author: Netskao
+
+Package: com.sini.wechatuiswitchloader
+Architecture: iphoneos-arm64
+Version: 1.1-5
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 304
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/iphoneos-arm64/com.sini.wechatuiswitchloader_1.1-5_iphoneos-arm64_9f21445abd3c64227096b6ff10c95af11040026699efda7e3869c7486af4dcb4.deb
+Size: 119472
+MD5sum: c59661a7ae48d563007abd2711a91d59
+SHA1: 255862b703797765c91fd4b231c82fbdab2e54ad
+SHA256: 9f21445abd3c64227096b6ff10c95af11040026699efda7e3869c7486af4dcb4
+SHA512: 5dc22b4442ed0dfe605042a68ffa45861ed6c748d0ba0034920a14a8c7026ba5d26ce53f27bd55d4bb429d8e2c8c50a300c1089124d726c4fa54e5b090bc5983
+Description: 微信开关美化
+Name: WeChatUISwitchLoader
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/wechatuiswitchloader/js.json
+Author: Netskao
+
+Package: com.sini.weifeng
+Architecture: iphoneos-arm64
+Version: 7.0.3
+Section: Tweaks
+Maintainer: 小果子
+Installed-Size: 884
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.weifeng_7.0.3_iphoneos-arm64_1f697ffd6f57eb94566c05b3e43a9d5f1272e81166d245976f5bbd43fc7cb826.deb
+Size: 326708
+MD5sum: 22a4afa81649c14cedb15cc2c1383571
+SHA1: 30de5588dd3c87493326933fde352bd1ff9b876d
+SHA256: 1f697ffd6f57eb94566c05b3e43a9d5f1272e81166d245976f5bbd43fc7cb826
+SHA512: 9f4b949285de16a0e2aca999c434e0376033f0cba3315336cb6ec35a9c74f04d14f2b32c60125c66a80654e1e28dbec7f7ff59b5c2fcee97242c8d6e34faddfd
+Description: 去除你能看到的所有广告，基于威锋7.0开发！通杀威锋7.0.1及之后的版本！FuckYourAds！去他妈的广告!还你干净体验！开启会员功能!点亮会员头像!更新支持7.0.3
+Name: 威锋FuckVIP-Ads
+Author: 小果子
+icon: https://sini921.github.io/repo/sileodepiction/icon/weifeng.png
+
+Package: com.sini.wifimasterkeyadkiller
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Section: Tweaks
+Maintainer: ylr <ylr638058@gmail.com>
+Installed-Size: 168
+Depends: mobilesubstrate,firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.sini.wifimasterkeyadkiller_1.5.5_iphoneos-arm64_dd45294119534d5e8ab07c44adba75f73a1ca2827085e0f0db65a5f2d72ed6f4.deb
+Size: 11148
+MD5sum: a214bb5435c6dba3afc7cbb534a45d7d
+SHA1: a9122097354a2d78648028dbf3cbc7eff57d5868
+SHA256: dd45294119534d5e8ab07c44adba75f73a1ca2827085e0f0db65a5f2d72ed6f4
+SHA512: d1958763c255f92959e17c9ff9dbfdc8ef27d8ccd01e554ca4629ab81be04340add60aae00fe76093bbea6acf646ac70a8cb8105b9e1a37f4b4f329428489c66
+Description: 尝试hookwifi万能药师去开屏、首页、用户页以及列表页等烦人广告！
+Name: WiFi Master Key AdKiiler
+Icon: https://sini921.github.io/repo/sileodepiction/icon/wifimasterkeyadkiller.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/wifimasterkeyadkiller/js.json
+Author: ylr <ylr638058@gmail.com>
+
+Package: com.sini.wtvrbglauncher
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: Lessica
+Installed-Size: 372
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sini.wtvrbglauncher_1.2_iphoneos-arm64_d674a930abf05a7b6fae5f93cbf20adfa5ecabd20f154f5512e5cb953e4ae724.deb
+Size: 23304
+MD5sum: 802336ec63b2e3f715c894c75c940fa8
+SHA1: 80f59ecc1cb7dedff8ae01954664e1bafef4c2eb
+SHA256: d674a930abf05a7b6fae5f93cbf20adfa5ecabd20f154f5512e5cb953e4ae724
+SHA512: caa7213f35e90635b050aea773ccc70523444ef60dfe47f0b552677d1c503a366d815d2f7fe35062e90edcc430b87ddc382b4b00551900d7b0a4ad1583cdd75e
+Description: 中文输入法语音转文字免跳转插件。无设置选项，安装并注销后立即生效。支持的输入法：微信、百度、搜狗、讯飞
+Icon: https://sini921.github.io/repo/sileodepiction/icon/wtvrbglauncher.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/wtvrbglauncher/js.json
+Name: 语音转文字免跳转
+Author: Lessica
+
+Package: com.sini.wtvrbglauncher
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: Lessica
+Installed-Size: 372
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sini.wtvrbglauncher_1.2_iphoneos-arm64e_55ff7def5d25d86029cc31be47ff965ba639b016fbbcad1b146f23cfdb2a0065.deb
+Size: 23280
+MD5sum: d31c60ddb714a644b9328aca83dc3d6a
+SHA1: 8c6d83b26a3bd2276cfbda69d29a7c01b255fe9d
+SHA256: 55ff7def5d25d86029cc31be47ff965ba639b016fbbcad1b146f23cfdb2a0065
+SHA512: e3cdefd3417b20bbd890b128d97afdfc51ee13e4cdded443729deb14a5fc399fd2badfe859ad6701fa4ba0fd50010d0604f555883735c7c30e80f3abec4ac251
+Description: 中文输入法语音转文字免跳转插件。无设置选项，安装并注销后立即生效。支持的输入法：微信、百度、搜狗、讯飞
+Icon: https://sini921.github.io/repo/sileodepiction/icon/wtvrbglauncher.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/wtvrbglauncher/js.json
+Name: 语音转文字免跳转
+Author: Lessica
+
+Package: com.sini.wypure
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: 小果子
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.sini.wypure_1.0_iphoneos-arm64_183c184483cbbabc09a3bb52042ab03fdc9f3324eaeb578bb106396afd006990.deb
+Size: 23808
+MD5sum: ad58c0b71e0f7361a18786e7a766dfad
+SHA1: c554c50f35fff760cd777576208bc47f924ac16d
+SHA256: 183c184483cbbabc09a3bb52042ab03fdc9f3324eaeb578bb106396afd006990
+SHA512: ec275fa48c59b9bb16e3cef9c5af8902cef2b815866202518b79ab5491570ce6077d9fd6dbcc467a7561d99842876760d50081490321b1c87856fc0190e6095f
+Description: 网易云去广告,去除所有广告
+Name: 网易云去广告净化
+Author: 小果子
+icon: https://sini921.github.io/repo/sileodepiction/icon/wy.png
+
+Package: com.sini.xianyuadkiller
+Architecture: iphoneos-arm64
+Version: 1.5.5-5
+Section: Tweaks
+Maintainer: ylr <ylr275536387>
+Installed-Size: 304
+Depends: mobilesubstrate,firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.sini.xianyuadkiller_1.5.5-5_iphoneos-arm64_cee90933fe876626495afa8e1c8e9de8be37fa5eff2887a85276c36195a4aa2b.deb
+Size: 53680
+MD5sum: ec62aaf51028109dd561bde88d42bb03
+SHA1: 901f43db9808122044553c0907dca753d8d9a30d
+SHA256: cee90933fe876626495afa8e1c8e9de8be37fa5eff2887a85276c36195a4aa2b
+SHA512: 2a2e9a993f30324f17cad7897311291ad47b344c42e05d31fb20cd1c4a42fd39aeaee7d3905f52c5374e5809032cde2d3752a73146a9792bfe07ea8de7cef0e6
+Description: 闲鱼长按底栏或者任意页面双指长按，闲鱼默认去开屏秒进主页面，单指长按底栏+双指长按任意页面弹窗，实时开/关底栏按钮，实时调节底栏颜色与透明度，ylr制作投稿
+Name: XianYuAdKiller
+Icon: https://sini921.github.io/repo/sileodepiction/icon/xianyuadkiller.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/xianyuadkiller/js.json
+Author: ylr <ylr275536387>
+
+Package: com.sini.xiaoxiangadkill
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Section: Tweaks
+Maintainer: ylr <ylr275536387>
+Installed-Size: 152
+Depends: mobilesubstrate,firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.sini.xiaoxiangadkill_1.5.5_iphoneos-arm64_8abbcc69f3d59a2a122032c70a050b96d18652878c0c28246d8667e3fbedf3e6.deb
+Size: 3260
+MD5sum: 6095b1b9903ef939287d2c966a1be7ae
+SHA1: 7bdad36fe3cc1d990e07959edc467c6b51cb09a1
+SHA256: 8abbcc69f3d59a2a122032c70a050b96d18652878c0c28246d8667e3fbedf3e6
+SHA512: e1effbe5eafdc71fafdbea804608a749d8798c6ed4074f96e44e0487921a8677a908e12fea822173eb84f47962703f0b37d781f2b4bb74798ee03af7676ea18e
+Description: 小象超市去广告(原美团买菜)，群友ylr制作投稿，感谢发电
+Name: 小象超市去广告
+Icon: https://sini921.github.io/repo/sileodepiction/icon/xiaoxiangadkill.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/xiaoxiangadkill/js.json
+Author: ylr <ylr275536387>
+
+Package: com.sini.ykhook
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Section: Tweaks
+Maintainer: ylr
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/iphoneos-arm64/com.sini.ykhook_1.5.5_iphoneos-arm64_ca2064a2f794e585d617699aa5ca61ffd223b708a7263b2fc9a7ee60cf03b345.deb
+Size: 7776
+MD5sum: a3cea63938d70235f66d710b598b58c8
+SHA1: 4c1adf294b46109dc858a2af2af4b65965a932f8
+SHA256: ca2064a2f794e585d617699aa5ca61ffd223b708a7263b2fc9a7ee60cf03b345
+SHA512: e8c6166d4540c4812d544f1b5379291a1b49bc25627ec26c10faa3f8d97c66cb12a580d2d2c0690ed098d36aff9d522dc531aea6c325b5f0c1f1face552f0d2d
+Description: 默认去开屏广告+尝试拒绝暂停播放变广告
+Name: YKHOOK
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ykhook.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ykhook/js.json
+Author: ylr
+
+Package: com.sini.ylr.dyhook
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Section: Tweaks
+Maintainer: ylr
+Installed-Size: 168
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.ylr.dyhook_1.5.5_iphoneos-arm64_614578fd697604c0621478092d54b3dea94f8425c210c8281fe0b0a0066fb274.deb
+Size: 9232
+MD5sum: cf7359246ae61c83370117a5cae8548b
+SHA1: 9bec2db2e77f27905325e5d654ffa862af29fcf1
+SHA256: 614578fd697604c0621478092d54b3dea94f8425c210c8281fe0b0a0066fb274
+SHA512: df093eb7bd27e7a7762468f22e97f74b3969e3b5b5cdf96946c194538e39d6f8ce5f344901f47142fabf833a765316cb54669be73901023fa39c1f1cbf0fa981
+Description: 仅供学习交流，如有传播；使用者请在24小时内自觉删除。
+Name: 抖音聊天列表专用
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ylr.dyhook/js.json
+Author: ylr
+
+Package: com.sini.ysbrowserhook
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: x✨
+Installed-Size: 104
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.sini.ysbrowserhook_1.0.2_iphoneos-arm64_37efb658b5701a9554c6697efd72db9a9291afa5f304b4dccc51a206e3c90961.deb
+Size: 20620
+MD5sum: 087218c9fc8973b253cc63a8da5b05c4
+SHA1: c548bdcaddd7f4620f7b1cafbac0fa33862ac570
+SHA256: 37efb658b5701a9554c6697efd72db9a9291afa5f304b4dccc51a206e3c90961
+SHA512: f4c67708f04b0239adc3601a6c57b0b6413573d9c038c4e29818a17e20cd8dbad5f2d806592fac4e03ba269ddc013ac5e32372fffbd2b547d0f73ade24a45b67
+Description: 解锁Pro 屏蔽越狱·黑名单检测
+Name: 亚瑟浏览器Pro
+Author: x✨
+icon: https://sini921.github.io/repo/sileodepiction/icon/ysbrowserhook.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ysbrowserhook/js.json
+
+Package: com.sini.ytlite
+Architecture: iphoneos-arm64
+Version: 5.2b4
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 16732
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sini.ytlite_5.2b4_iphoneos-arm64_ac6ba8743f61ce3220d32c56cc1f3304eca56f439a58362569e3aa5d8b0d9ba8.deb
+Size: 6407824
+MD5sum: c8c9654154226ed783f60d605e46440f
+SHA1: 48245a881bc3d1238f96a0ae3de581dafa5c1636
+SHA256: ac6ba8743f61ce3220d32c56cc1f3304eca56f439a58362569e3aa5d8b0d9ba8
+SHA512: c372a708033bb5d7c81ffd77083c7ffabfe52d8199387cd5c465cec2c4d7d7b49224ba24c86a8a0574f02824b585bb2b0bea31321d89fe40a365c2005ae19e37
+Description: 轻量级YouTube增强
+Name: YTLite
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ytlite.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ytlite/js.json
+Author: dvntm
+
+Package: com.sini.ytlite
+Architecture: iphoneos-arm64e
+Version: 5.2b4
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 16732
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.sini.ytlite_5.2b4_iphoneos-arm64e_5b3a75d00cfc3871996a0b90667a08d927d5521cca09daec7f5b37db8fd510e7.deb
+Size: 6415268
+MD5sum: ee0047603c22f018e6f48a1f26c574e5
+SHA1: c5fd2d47659ed1aa698ef5e608cddfe125d5a6f4
+SHA256: 5b3a75d00cfc3871996a0b90667a08d927d5521cca09daec7f5b37db8fd510e7
+SHA512: fd6581622eee3cadf47a31907a8d8805774854d85b85a32947f5a96005089abcaa9dffd4bf9acaf7008d97c49e3bd96408b14a18cf6a4c5c2054490c6020f2be
+Description: 轻量级YouTube增强
+Name: YTLite
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ytlite.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ytlite/js.json
+Author: dvntm
+
+Package: com.sini.zetsu
+Architecture: iphoneos-arm64
+Version: 1.5
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.opa334.ccsupport, ws.hbang.common
+Filename: debs/iphoneos-arm64/com.sini.zetsu_1.5_iphoneos-arm64_68ea05a534ec9ceeaaeabae3ab8099e39078b49198e35c0a8dfefb62010a9ebc.deb
+Size: 9657908
+MD5sum: 929ef4b3403e47024f8de9ebf86dcc12
+SHA1: 4c1fa2bccfdf0c57efeb045e8a3ac92e45047fee
+SHA256: 68ea05a534ec9ceeaaeabae3ab8099e39078b49198e35c0a8dfefb62010a9ebc
+SHA512: c8747e636cdb1bc603a7a5b89a0c2e5e5b4c2ee4f04e6bf9d9f5388d6bc787b53dffacfd3f9e7b6856e1913c223b2de0b4537892255f6844e6bc7d0e767ad8c7
+Description: Zetsu1.5中文版(简体中文来自刀刀源)，此版本仅有小窗模式，不会提示更新，为不需要原作者后续新出的功能的人上传备份。
+Author: Dcsyhi
+Name: Zetsu
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zetsu/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/zetsu.png
+
+Package: com.sini.zfbhook
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Section: Tweaks
+Maintainer: ylr
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.sini.zfbhook_1.5.5_iphoneos-arm64_70afbfe1a7a28794f38fe891d5901c199b0339a1269a991dc7bed471044dd4c4.deb
+Size: 17536
+MD5sum: 7ded2eb43fe4e8147978be63c114e736
+SHA1: bc202e114fa1f332e07077d4106c5581aa4463b1
+SHA256: 70afbfe1a7a28794f38fe891d5901c199b0339a1269a991dc7bed471044dd4c4
+SHA512: 2c0ff27062cafd1d68f292490d5c7220c1546e2bb4771740a5a186a99a5065a053846b256b553c133b7f2940f688b879a4947f7be9f3b1936b8ca64b8ce4106b
+Description: 领一下能量哦、长按底栏1秒
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zfbhook/js.json
+Name: 支付宝步数
+Author: ylr
+
+Package: com.sini.zfbhook
+Architecture: iphoneos-arm64e
+Version: 1.5.5
+Section: Tweaks
+Maintainer: ylr
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.sini.zfbhook_1.5.5_iphoneos-arm64e_50fe1ac17bf503d6d4b4748e74fb9670610c402d865ee7cb6fa02eace3661db8.deb
+Size: 17720
+MD5sum: 3fc42a8d03152858e98128964b1d8aca
+SHA1: 8b2327076476116a8f7b89ca71457a0651e8be9e
+SHA256: 50fe1ac17bf503d6d4b4748e74fb9670610c402d865ee7cb6fa02eace3661db8
+SHA512: b4ae522c09022906f66a0e8931b8f6404a082a82e10a0e755605bbc25e4e70900d339eb2027b350bdffc89b374793f492ac04f0f6a86648fd3632991837a6bf6
+Description: 领一下能量哦、长按底栏1秒
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zfbhook/js.json
+Name: 支付宝步数
+Author: ylr
+
+Package: com.sini.zgltadkiiler
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Section: Tweaks
+Maintainer: ylr <ylr638058@gmail.com>
+Installed-Size: 168
+Depends: mobilesubstrate,firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.sini.zgltadkiiler_1.5.5_iphoneos-arm64_4ec123950e9450b1b132431ea79ae9a03873f012731d849e3acaca5a72b2de00.deb
+Size: 3356
+MD5sum: 70eb4b0b218df05205ab74bc029f3710
+SHA1: 3aad3ba9243487a707da19607c75e7b60a1ae3d6
+SHA256: 4ec123950e9450b1b132431ea79ae9a03873f012731d849e3acaca5a72b2de00
+SHA512: ca0e508147a02e4afd628f2a3ea962742f8c087eb5c30f2a86d6ea73e88add79993c6075f034ddb2ba92718f1544f63dc3b6e1bcfce95b9848e82397733c43fb
+Description: 中国联通去广告，ylr制作投稿
+Name: ZGLTAdKiller
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zgltadkiiler.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zgltadkiiler/js.json
+Author: ylr <ylr638058@gmail.com>
+
+Package: com.sini.zhhook
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Section: Tweaks
+Maintainer: ylr
+Installed-Size: 204
+Depends: mobilesubstrate,firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.sini.zhhook_1.5.5_iphoneos-arm64_23b31c13daea75081f847a57962cdd65cf81259c0fcd6898fa143fe499f29c49.deb
+Size: 22572
+MD5sum: d98f1234e8588ecbf9c5df481d750eaf
+SHA1: 878366f11544695300dade8397d1021fc5f72165
+SHA256: 23b31c13daea75081f847a57962cdd65cf81259c0fcd6898fa143fe499f29c49
+SHA512: a9a9f7a897ac5affe11c485126cb270db9bb290bc8f779dd7e30a4f1c350586be9377db89008517087b7dc72760a8a19bfc0e8a47d0d764481df848c0dc2b6aa
+Description: 知乎默认去开屏、推荐页、详情页广告及底栏按钮隐藏。 长按底栏呼出 调试版本10.75
+Name: 知乎广告与按钮
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zhhook.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zhhook/js.json
+Author: ylr
 
 Package: com.tsangbaby.randomiconsflip
 Architecture: iphoneos-arm64e
