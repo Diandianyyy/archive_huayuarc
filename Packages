@@ -15607,6 +15607,33 @@ Depiction: https://eleveny123.github.io/EvoCenter/
 SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=3.0.0-beta.2
 
 Package: com.jaysuen.evocenter
+Architecture: iphoneos-arm64
+Version: 3.1.0-beta.1
+Section: Tweaks
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 25660
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: debs/iphoneos-arm64/com.jaysuen.evocenter_3.1.0-beta.1_iphoneos-arm64_25049eda57dcd20cefabf3d04c4974616143c3b221682a306e3d2fc22fc09a63.deb
+Size: 1177604
+MD5sum: 5439e8329baf1d416edbbfed524bd356
+SHA1: 6894ac1c4f57d3cfcfd1fcee5be49737d0eb7714
+SHA256: 25049eda57dcd20cefabf3d04c4974616143c3b221682a306e3d2fc22fc09a63
+SHA512: 45b87a254a198d7bdbc93383d5a0fad7142c4a96eeb05b77b9f88e624a82179e4701814d881472f447f776fa396f2cd28ffc2613c3b4125eb8160d1e88581b07
+Homepage: https://eleveny123.github.io/EvoCenter/
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Name: Evo Center
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=3.1.0-beta.1
+
+Package: com.jaysuen.evocenter
 Architecture: iphoneos-arm64e
 Version: 2.0.0-beta.2-6
 Section: Tweaks
@@ -15688,6 +15715,33 @@ Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 Depiction: https://eleveny123.github.io/EvoCenter/
 SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=3.0.0-beta.2
 
+Package: com.jaysuen.evocenter
+Architecture: iphoneos-arm64e
+Version: 3.1.0-beta.1
+Section: Tweaks
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 26156
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: debs/iphoneos-arm64e/com.jaysuen.evocenter_3.1.0-beta.1_iphoneos-arm64e_fe17b4dbc83d4da52d79cc150b695014f3680654fa87aedc5aa68e5e88930b0b.deb
+Size: 1205972
+MD5sum: 27a053d42d3cfde958d686a9f80956ae
+SHA1: 2ead76a9d8096d3da39bd64d537d449c9737916d
+SHA256: fe17b4dbc83d4da52d79cc150b695014f3680654fa87aedc5aa68e5e88930b0b
+SHA512: 8e555d4db5f7614ef81cdbb692c116e63af67ddd40d07e0e806f20074d6a4f8b51672048ea1ee83b08b5211fbf1c9ef0f67f6114d0cc37ce44419085f69b4e04
+Homepage: https://eleveny123.github.io/EvoCenter/
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Name: Evo Center
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=3.1.0-beta.1
+
 Package: com.jiuyue.lightisle
 Architecture: iphoneos-arm64
 Version: 1.0.0-2
@@ -15744,6 +15798,26 @@ Author: John d_ie
 icon: https://huayuarc.github.io/icon/triggr.png
 
 Package: com.johndie.triggr
+Architecture: iphoneos-arm64
+Version: 1.0.4.1
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 724
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.johndie.triggr_1.0.4.1_iphoneos-arm64_3503e6fbea3c2e709132b429f2447e615fc809cdbc5e574ce07463f070601464.deb
+Size: 131304
+MD5sum: 8c2cf51cef131bb66e593df36e3b843b
+SHA1: 791a869d371bd7783f24049147b715fffe2847cd
+SHA256: 3503e6fbea3c2e709132b429f2447e615fc809cdbc5e574ce07463f070601464
+SHA512: 1cc74085d3d21c556eee760a413f125b67df7a209b8085801b71f7eb4dc6da3f5e25bc376d246fb3cb17f45d3eb3a8d7d895671d215d29e70734206e6e53afaa
+Description: 面向现代越狱的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 iOS 15–18，A12 及更新机型（arm64e）。
+Name: Triggr
+Author: John d_ie
+Depiction: https://muzikeji.github.io/sileo/depictions/com.johndie.triggr.html
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.johndie.triggr.json
+icon: https://huayuarc.github.io/icon/triggr.png
+
+Package: com.johndie.triggr
 Architecture: iphoneos-arm64e
 Version: 1.0.3
 Section: Tweaks
@@ -15759,6 +15833,26 @@ SHA512: 6a028be356e48d0bc5090ba83d60d9962fd1a9b050539f70053edc5d5041b03296114749
 Description: 面向 rootless Dopamine 的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 A12 及更新机型（arm64e）。
 Name: Triggr
 Author: John d_ie
+icon: https://huayuarc.github.io/icon/triggr.png
+
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64e
+Version: 1.0.4.1
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 756
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.johndie.triggr_1.0.4.1_iphoneos-arm64e_8fa019f2c66a817df21711bcc4e98f8e71d2d0caac7311c7c8ef053b2b6f73f5.deb
+Size: 132832
+MD5sum: badef6e62a7dfe9471abb0ea6429e093
+SHA1: 61236d29522df0600e6a800e542159a72b118329
+SHA256: 8fa019f2c66a817df21711bcc4e98f8e71d2d0caac7311c7c8ef053b2b6f73f5
+SHA512: 7d16a613aa974df26ed539b72e499c88554ea65a0c8366e52149cc1ac56b3e890dab3e24e9abd1e46373411c460efca1f9055590023fe390453df6d60dcb7657
+Description: 面向现代越狱的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 iOS 15–18，A12 及更新机型（arm64e）。
+Name: Triggr
+Author: John d_ie
+Depiction: https://muzikeji.github.io/sileo/depictions/com.johndie.triggr.html
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.johndie.triggr.json
 icon: https://huayuarc.github.io/icon/triggr.png
 
 Package: com.jontelang.instalauncher2
@@ -17967,6 +18061,27 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 5.0.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_5.0.1_iphoneos-arm64_db88fa042f1d21a6353a8e0fc95596280c8a74233220d2d858bcccaf6ae7e8cf.deb
+Size: 747864
+MD5sum: eb74ece9df641aa25b70aa56820a3bd7
+SHA1: a3f79da554e049aaab7f5be71e8a4db9fe3f63e9
+SHA256: db88fa042f1d21a6353a8e0fc95596280c8a74233220d2d858bcccaf6ae7e8cf
+SHA512: 9e76e7db9afa4d38f75606accbc8159323ee5a2c471424ce8769732c80c9339325ea45db41fd64396ebf06092da54f1881dfa04474c0c406525f3f96fcce9744
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
 Architecture: iphoneos-arm64e
 Version: 4.5
 Section: Tweaks
@@ -18109,6 +18224,27 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.0.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3500
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_5.0.1_iphoneos-arm64e_836353146286adf51918a42b3e91d1d235afbf499778f1c50311b59d9b8eb0d7.deb
+Size: 745724
+MD5sum: 4131bced66e8f67d7e9564d42e352954
+SHA1: cf90f0476cc0b34c9596f3cdea9b189a1990b8d3
+SHA256: 836353146286adf51918a42b3e91d1d235afbf499778f1c50311b59d9b8eb0d7
+SHA512: d02fcf1ec1822293ddeb85e380ef001a1d56c8fd2f8e12f730a16a4fd1417d3b388afb5f278f6d740db8eecce9e975ce2f1a5b0c35844bdaac7e0701a0065395
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
 Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -18128,6 +18264,24 @@ Icon: https://mlgm66.github.io/icon/prefnest.png
 Author: mlgm
 
 Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 872
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.mlgm.prefnest_1.2_iphoneos-arm64_739c366b45fbe3beb4582fb0511ae0318d5505bcfaeafbeebcf3536b6ab4e9b1.deb
+Size: 169408
+MD5sum: 58f7337fe8960be84d6ce2277826f353
+SHA1: 84d9f9eb888d56cf95a74c91e355206609bfc635
+SHA256: 739c366b45fbe3beb4582fb0511ae0318d5505bcfaeafbeebcf3536b6ab4e9b1
+SHA512: d35441037ec1d9bc2e77163fe3c1d2c18840aa376bd313bb7abff58cebfefc7587cc3c0a92af56b8b9ca316c9e2a24bac657bbc7a23e1774b07d0fbf57a4a9d6
+Description: 整理设置首页，集中收纳越狱插件。
+Name: PrefNest
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Author: mlgm
+
+Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64e
 Version: 1.1
 Section: Tweaks
@@ -18140,6 +18294,24 @@ MD5sum: fd922d44ed60ef0aabea8ba67c642ae3
 SHA1: 5443ae83f1f4f743252c70ff3fd7f0a88c0b9aa1
 SHA256: 86dbdf8c11ce435eb827a5c683659c8c6df37937211250feda6f50d88ac4ecfa
 SHA512: 1065ce0bedf6552acefa25dca57958a17e3eb017ae2424c127ab86744ddf93f292871633d631a8e42ed9718e3d0f5c86e2efc47d5a9103ba5c16c4c9e8393fc3
+Description: 整理设置首页，集中收纳越狱插件。
+Name: PrefNest
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Author: mlgm
+
+Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 872
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.mlgm.prefnest_1.2_iphoneos-arm64e_14ba4ab2bdb8b4b654a2094177d0654dc579c05355f6534566d2762b73f065bf.deb
+Size: 168036
+MD5sum: 380df3359dd98d3898b77622cf53d41b
+SHA1: bc63d471c8ab85c384bb6c85a0cf00c13ae8f6e7
+SHA256: 14ba4ab2bdb8b4b654a2094177d0654dc579c05355f6534566d2762b73f065bf
+SHA512: 588d8c5a451bca6527167f8c70eac18bef5965e5a8bc49bc9b2aea6a207f7741743449a6e12b7c2e3dfc5e6051c3862b3f2f2533bf4a332027bfb7553efa0f31
 Description: 整理设置首页，集中收纳越狱插件。
 Name: PrefNest
 Icon: https://mlgm66.github.io/icon/prefnest.png
@@ -19644,6 +19816,26 @@ Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
 Package: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 2.1.68
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4520
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64/com.muzi.mutool_2.1.68_iphoneos-arm64_5fca0e4f3bc3fd60543f7ff9e4f36ae11fdec31989d22615433f7b2439ff801e.deb
+Size: 690116
+MD5sum: a2d5da0b0f2d00eb33718ab8c4207491
+SHA1: 03ed01b9dafadcae347300acc9674d0c31eecb62
+SHA256: 5fca0e4f3bc3fd60543f7ff9e4f36ae11fdec31989d22615433f7b2439ff801e
+SHA512: 597dad8932eb6f5bdf3344e5358f9c5bf9e4975f68f114707493ce8db9407149b05b35ba8acaa6ec67c2bb019c0159fccacb1e6a41be8c520226ab6a63e184bb
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图录屏自动隐藏）、电池健康与深度信息
+Name: MUtool(rootless)
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
 Architecture: iphoneos-arm64e
 Version: 2.1.18
 Section: Tweaks
@@ -19738,6 +19930,26 @@ SHA1: 689a0057ec6a004f2c6b3469d8c1002ee2d160c5
 SHA256: 257fa46b226f310d5bacd31dabe60ae16f19b5c638c79bbd7f4cde44c1a6f0cd
 SHA512: b268117f4629afffb0c16a66822c0ea03a9474f8d89b9cf7f214906c53a7e4280a051ad7013d85ceb2469c12f2ab9a3b443bd7ce92498333c37eb33f47439e2e
 Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
+Name: MUtool(roothide)
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64e
+Version: 2.1.68
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4472
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64e/com.muzi.mutool_2.1.68_iphoneos-arm64e_a0d6ad295b4416cb3555d48693cc855b90164b71a420a21dca79ca77bf6bdcdf.deb
+Size: 692740
+MD5sum: 07631394eee686a1f5c564d93526ddc8
+SHA1: 959ae638966304cc67f039a3a6793dfdf39d13a2
+SHA256: a0d6ad295b4416cb3555d48693cc855b90164b71a420a21dca79ca77bf6bdcdf
+SHA512: 2baa643d90f99263d196bf54dde3a34258b670e2010e145a7afac70b655cea453c1e2c339bac42e2144d6f2d986d25bcf8a24f7847ef3eba7c795988d559b5a0
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图录屏自动隐藏）、电池健康与深度信息
 Name: MUtool(roothide)
 Author: Muzi
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
@@ -32312,6 +32524,43 @@ Name: CCAudioPlay 播放器美化
 Author: thefool
 icon: https://huayuarc.github.io/icon/CCAudioPlay.png
 
+Package: com.triggr.cn.l10n
+Architecture: iphoneos-arm64
+Version: 1.0.4.1-cn.6
+Section: Tweaks
+Maintainer: 777qwq
+Installed-Size: 264
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.triggr.cn.l10n_1.0.4.1-cn.6_iphoneos-arm64_82183b50a329b1f5bd53b38395740a0191df385f6f455639e33ca5060cb1228b.deb
+Size: 22184
+MD5sum: 401d8e263e54be38af07547a441bf582
+SHA1: 071f7d16b399769fa137ca3e1a73148bba7e6c85
+SHA256: 82183b50a329b1f5bd53b38395740a0191df385f6f455639e33ca5060cb1228b
+SHA512: 45ddd885b3f423dda499391038816e3a514e26ef4954b07f3b325c6be885b886007b94ad099b9103e4e0fc4d0f7bcb1972f084a8a376ab465faddbaac56e446c
+Description: Triggr 的汉化补丁，配合 Triggr 1.0.4+ 使用。
+Name: Triggr 汉化补丁
+Author: 777qwq
+icon: https://huayuarc.github.io/icon/triggr.png
+
+Package: com.triggr.cn.l10n
+Architecture: iphoneos-arm64e
+Version: 1.0.4.1-cn.6
+Section: Tweaks
+Maintainer: 777qwq
+Installed-Size: 264
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.triggr.cn.l10n_1.0.4.1-cn.6_iphoneos-arm64e_5d60ba99734a224c171df6907e58215bab92ace8e6e0b5cf2008f0971056a718.deb
+Size: 21512
+MD5sum: 78ae662e73b424d186b6b11444ed9de3
+SHA1: a4e2c9f3d0b240bb0a4b86d5784464ab82dd1dc4
+SHA256: 5d60ba99734a224c171df6907e58215bab92ace8e6e0b5cf2008f0971056a718
+SHA512: be2fa8c102c314d5ec571655a06da892e9c7a6feb8874c8664a413783241f4a730f522d4320bb9096522024da7184cbeda3637055a0729da204a1348c5dc82ea
+Description: Triggr 的汉化补丁，配合 Triggr 1.0.4+ 使用。
+Name: Triggr 汉化补丁
+Author: 777qwq
+icon: https://huayuarc.github.io/icon/triggr.png
+
 Package: com.tsangbaby.kayoko
 Architecture: iphoneos-arm64
 Version: 5.0
@@ -35971,6 +36220,123 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
 
 Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3200
+Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.2_iphoneos-arm64_1cb0cee86c4bd0a5cc9ee03fd0d6d38a70099cedbae8450f3b2cd487e4e2ff6d.deb
+Size: 550052
+MD5sum: 988bf5e3ab262815321df3c021bca77b
+SHA1: f2c20eec36e5b1c03b5e77f3c63186b83983f128
+SHA256: 1cb0cee86c4bd0a5cc9ee03fd0d6d38a70099cedbae8450f3b2cd487e4e2ff6d
+SHA512: 052283769aceb69097834da09fee695a259a0121fd1e2b5649aa4a29a021ae63dae46e8ad6c42a2eb0f7ff22afc787d30acada64bee78e4417afda73a3696d79
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3248
+Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.3_iphoneos-arm64_c945b1bc6e7863d255eeb14d1c22d29fe8e4cb02ec65298fa1cdd40497b18f52.deb
+Size: 561820
+MD5sum: 79d5aa365f537ae92945df9dbc10ebbf
+SHA1: d15ae118f4d2250b99759e7b5b59cabc47ea3f24
+SHA256: c945b1bc6e7863d255eeb14d1c22d29fe8e4cb02ec65298fa1cdd40497b18f52
+SHA512: a991bc24f314aca3f38d2cfa00023e46438f8f87f84fd7b024cd6b236239c6dddc0e153a27cdbfcf8b0db9a5f192c148bd3a3fea6128b6d7f6762b0fbd706bcd
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3952
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.5_iphoneos-arm64_201f66f6455aab553e2deafa86ed5f29fd3add9b89b367332c1084c3d0b575fe.deb
+Size: 681088
+MD5sum: 59e3dd2f0d57108de61960764f6d0175
+SHA1: cefbae5881acbc86f04d4e346f651c984a143e2e
+SHA256: 201f66f6455aab553e2deafa86ed5f29fd3add9b89b367332c1084c3d0b575fe
+SHA512: 88fbfeb6b69a7c23c1af91ad11d3af1acac0b5705b5576e9cf26cfe084caa6111b12e7484f6094570a9993d7392f4282ab92b843bf955e8338954e9ba22adf1c
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3984
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.6_iphoneos-arm64_902b3ac54913b376a527e88b1f822c9eb7c8ed2607ed504148d21fdaf87c78c1.deb
+Size: 685108
+MD5sum: 58e14f02a458b9d5a6fedbf22b7bc3bc
+SHA1: 72a542b7374f06917071bbe1278129684e9c15ca
+SHA256: 902b3ac54913b376a527e88b1f822c9eb7c8ed2607ed504148d21fdaf87c78c1
+SHA512: b7de5e5661101afc41c52e08e988fc592ae65545b0adb7ea2144bb498f758f05c56edcd53cc5a5862d822b2651e24317b6af10bede7ac19989bcc13640a6b2eb
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4044
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.7_iphoneos-arm64_9ea5bcb4f71d8e3e324f436e8239b7e89e4408ede99870c5e4621c0a1e37f04d.deb
+Size: 704624
+MD5sum: 27a7f2965ad7717438779c9f54bf18ac
+SHA1: e1340b60c36dadc52e0042254f8d59c4d7034c41
+SHA256: 9ea5bcb4f71d8e3e324f436e8239b7e89e4408ede99870c5e4621c0a1e37f04d
+SHA512: a001f48402000c1fb3e4621dd1eacc1ebc9a902ed2eb5bed085ec247be4cbe9ce4312e2d9e22084889c89d72bca9b7e06e91936378c9c6f0252f61777dbc60bc
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4680
+Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
+Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
+Replaces: com.ryannair05.audiosnapshotserver2
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.8_iphoneos-arm64_f877b7a01d3d06322c9d666d5f6a7ed12be32576bb8539624f75ee40960455e9.deb
+Size: 760676
+MD5sum: 0ee92b9725055620c7dc93dab50a6b0b
+SHA1: af89b0b6c4c0d2d2b3da24686328305cff7c62ed
+SHA256: f877b7a01d3d06322c9d666d5f6a7ed12be32576bb8539624f75ee40960455e9
+SHA512: 78dfbea0ece64080f9b52a94228877ed6da49265cfe5b8cb4dcdb53f80af25902478a0605e9a6eed497d38090da028afb9bff6d77b02f7e180b73d2e6400c2eb
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -36026,3 +36392,1520 @@ Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造
 Name: Lunora
 Author: Banana
 icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3248
+Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.0.3_iphoneos-arm64e_194d324326dd28c318b0649759f95ceb3e57afc54c5a0ea42272f0b4419b2720.deb
+Size: 561044
+MD5sum: b146d395fcda4949f094f6bb4a72a996
+SHA1: d5acc037fae05c83b3a1602eec8096be75f154f1
+SHA256: 194d324326dd28c318b0649759f95ceb3e57afc54c5a0ea42272f0b4419b2720
+SHA512: 7798010c671a38ffa24e885dfb44dee7b89cbd77d66965dec6c5fa7e1ffe784ae61d4a21a3a35e737708bc0d16898bede3dc2ac1b5ccf7e36a4b94653a8e46ed
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3936
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.0.5_iphoneos-arm64e_4160e73149a7580c59c1513609bf62ddf1a33a8babd6eb7930ebe346db7c9627.deb
+Size: 681908
+MD5sum: cd3b91e8ff68c3c88d83274da6187042
+SHA1: d78174f865338d442fcaa490e58b46a051b25cc1
+SHA256: 4160e73149a7580c59c1513609bf62ddf1a33a8babd6eb7930ebe346db7c9627
+SHA512: 4558dcfa2a1d758eb059274b908a61b060e8dec1646cd12e870cea289d61e6c3d8b1c9f89db7d290733fd590a454c6573020330984028703df2c0f3449e9393b
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3984
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.0.6_iphoneos-arm64e_e7dbab7e261019f7b21125c2f8950e22376b48a7b493905525e5fe98544b6975.deb
+Size: 682548
+MD5sum: 4f14e24c2f47f8fc3a3b9a1a6ffce3ac
+SHA1: b4ffed07da035bdaa1e0e99497280bfad07e0296
+SHA256: e7dbab7e261019f7b21125c2f8950e22376b48a7b493905525e5fe98544b6975
+SHA512: 76ab47c50898f62af8e14c44c7cac63393ee289220c22438e194cbf3e797bbc69218f3a8dcd60aa2f1e9b2020c46902a3f28fda9751e38122f579399f8a83d35
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4044
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.0.7_iphoneos-arm64e_d252c6501524e68247125bd403375f691e2676e0ef6d0a6a92200fdcabe33cb1.deb
+Size: 701688
+MD5sum: f3296e84016b6364c03b14b2ec18384a
+SHA1: 9bb44d7f7ca9eab8b9b169f1b8c779ce0e354797
+SHA256: d252c6501524e68247125bd403375f691e2676e0ef6d0a6a92200fdcabe33cb1
+SHA512: 0fbc6d6443d4f5c21a2cb1d117032cb9e2bfce90d3841579b96d0920aaff8d7feb1d87f751cb9b6d06e25084a7c2d2a870c02e9dfc7c6034e492653c56ca1f9f
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4664
+Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
+Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
+Replaces: com.ryannair05.audiosnapshotserver2
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.0.8_iphoneos-arm64e_641b04b8ad8ccd8748bfa92fb8e1c7a754f5636d267db110cd09b59c076063a2.deb
+Size: 756572
+MD5sum: ed5423e6f64fcfb397c87e120c40d5a9
+SHA1: 1ebbbcecd2f591aa90dec388f49f593aef8c1b31
+SHA256: 641b04b8ad8ccd8748bfa92fb8e1c7a754f5636d267db110cd09b59c076063a2
+SHA512: 08984d6c3412672bb26cfeecd08bd695926e786e7b606bc66101e8e4effec0e69aec751e1716235fe3e823777a10291bb1fc5560c16d55a7a3552721aae40d74
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.jumpguard
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1620
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64/iya.banana.jumpguard_0.1.1_iphoneos-arm64_82d3da376daa2023c3e0a81a71ee727f6a9a30f48aeadec9b35adf2855ec3013.deb
+Size: 521100
+MD5sum: 8a3a7ed37f50350826d9788a760f28e8
+SHA1: 09364c416fffef264f64c97eb35f0181439099e7
+SHA256: 82d3da376daa2023c3e0a81a71ee727f6a9a30f48aeadec9b35adf2855ec3013
+SHA512: f916779ea479a4c5d9f5d39d29557b7f9865a1cb0588f165d30220502cdce770d20a17e3142339ca390eda765698ce81e5239e6fff4c7283984bf698673874cb
+Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
+Name: JumpGuard
+Author: hades
+icon: https://huayuarc.github.io/icon/JumpGuard.png
+
+Package: iya.banana.jumpguard
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 560
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64/iya.banana.jumpguard_0.1.2_iphoneos-arm64_197bb043133c10c4edf1eaf71188d8566d46c8057dc9635297d356cc3b8858ed.deb
+Size: 66892
+MD5sum: 2c98ba5c140b95c0ed7b1a2cafb651e8
+SHA1: 4ca33851bd697af31bfffec86955c403bee8d8d7
+SHA256: 197bb043133c10c4edf1eaf71188d8566d46c8057dc9635297d356cc3b8858ed
+SHA512: 9bc17730588b99ea83342faaf33a6217da7626648c65b132f685ef2eaa4b4b37634473a675d87c07181145608c5e1bbe3f994699637c82c749de9a8af51be44a
+Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
+Name: JumpGuard
+Author: hades
+icon: https://huayuarc.github.io/icon/JumpGuard.png
+
+Package: iya.banana.jumpguard
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1620
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64e/iya.banana.jumpguard_0.1.1_iphoneos-arm64e_8a529845282ec46f7ddbbbb149ee080d0b9308010033792b9a8a98954d3060b5.deb
+Size: 518780
+MD5sum: 8b7f7bfe677e37891472462c021786f6
+SHA1: 11c91cbb1949cee6dd23d1dc60a88c0973d38469
+SHA256: 8a529845282ec46f7ddbbbb149ee080d0b9308010033792b9a8a98954d3060b5
+SHA512: a32d299537db0d39dfb79b134f7298b6e3cdd0b0533c4ac40725f67806932dd2ab90892dfa81e45bb359982a20ae478df037c47da51cd226745df63c03823bf7
+Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
+Name: JumpGuard
+Author: hades
+icon: https://huayuarc.github.io/icon/JumpGuard.png
+
+Package: iya.banana.jumpguard
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 560
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64e/iya.banana.jumpguard_0.1.2_iphoneos-arm64e_c1e84eab3d369d463dc447d08baaa73f12f2ce406fcdde5c7d66fffc4af3ec88.deb
+Size: 67088
+MD5sum: d9deb14c0e60d54e5fc836004903cafb
+SHA1: e16a467732288f6ffb4639642b1324d5c5bfe2af
+SHA256: c1e84eab3d369d463dc447d08baaa73f12f2ce406fcdde5c7d66fffc4af3ec88
+SHA512: 14a976a0f20f1092ccb2a22c5338d2e72b9bf2799472e4ff1fd2cb38f3aa9d720b4d56854a8528131fd1f64cf4e104cf9829ce5fa5cff7f967833b9b28164f5f
+Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
+Name: JumpGuard
+Author: hades
+icon: https://huayuarc.github.io/icon/JumpGuard.png
+
+Package: iya.banana.lenticularwallpaper
+Architecture: iphoneos-arm64
+Version: 0.0.9
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 616
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64/iya.banana.lenticularwallpaper_0.0.9_iphoneos-arm64_3c643ca0d945d40db1c5874408b785333d18f0f815958be1a04dfb256d96830d.deb
+Size: 79000
+MD5sum: edef7af7498254854a15d973732d0f7b
+SHA1: cd19a6ea079471abe41adfbfcf2a39bfa5101184
+SHA256: 3c643ca0d945d40db1c5874408b785333d18f0f815958be1a04dfb256d96830d
+SHA512: cdd8f3a21f43360cb881abbdf490b79aa04a1fad04b4a351172662c74344e767d44bb655d073af1ba6aee34b7b13e003345684631843073cdc2b95c2a4a15e0c
+Description: 趣味壁纸，为 SpringBoard 提供重力感应的多层、APNG、转场与光照壁纸效果。 / Fun Wallpaper with gravity-driven layered, APNG, transition, and lighting effects for SpringBoard.
+Name: Lenticular Wallpaper
+Author: banana
+icon: https://huayuarc.github.io/icon/LenticularWallpaper.png
+
+Package: iya.banana.lenticularwallpaper
+Architecture: iphoneos-arm64e
+Version: 0.0.9
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 616
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64e/iya.banana.lenticularwallpaper_0.0.9_iphoneos-arm64e_e1db61d4e36b48dd8ab4739d647d564496d61dd980692a2499f4493c05338610.deb
+Size: 78752
+MD5sum: 1df41186e7359843be80590fb49240be
+SHA1: a89831a97664a38d1fbffebf2afdce2d04772882
+SHA256: e1db61d4e36b48dd8ab4739d647d564496d61dd980692a2499f4493c05338610
+SHA512: a28e8e52b853267c321d126241fdb60cba3d7f3a2f1f3233e61acee9f16df5895a343474bb01e7c8933ed606834e96aad65ea88d8ca9871c95f9a9ebed8ac924
+Description: 趣味壁纸，为 SpringBoard 提供重力感应的多层、APNG、转场与光照壁纸效果。 / Fun Wallpaper with gravity-driven layered, APNG, transition, and lighting effects for SpringBoard.
+Name: Lenticular Wallpaper
+Author: banana
+icon: https://huayuarc.github.io/icon/LenticularWallpaper.png
+
+Package: iya.banana.musichaptics
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 968
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/iya.banana.musichaptics_0.1.2_iphoneos-arm64_1c08f967d72234649d956dce7ce3d20b915b520f69dc0f8941561430bd305031.deb
+Size: 90492
+MD5sum: d912c8cb09a365400ac1965c310fcdcb
+SHA1: bdd32ca1b0a9c7522043bb799f4e190f4a0c7740
+SHA256: 1c08f967d72234649d956dce7ce3d20b915b520f69dc0f8941561430bd305031
+SHA512: ee441a5737025ec7185288dda7efe65f98d634ef93bf003d029bc3ed35c78b7ffb66b53b6b0aa2a047f73f8a6b7fd6a6eb6b95619fd588fe108f8f5c9bb0be57
+Description: 让支持的歌曲化作触感，随音乐感受节奏与人声。Music haptic tracks, vocal mode and Control Center toggle for iOS 15 and later.
+Name: MusicHaptics
+Author: Banana
+icon: https://huayuarc.github.io/icon/musichaptics.png
+
+Package: iya.banana.musichaptics
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 968
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/iya.banana.musichaptics_0.1.3_iphoneos-arm64_1ca112583f8647267f2d53ecc806de2bf28cdd7d7eadd0754e8477fe5fc63454.deb
+Size: 92652
+MD5sum: 97251e168a2bb8e20a0bcaab9727c412
+SHA1: cbca292c9b921c8d353bd0369dbf7a6480ff4b57
+SHA256: 1ca112583f8647267f2d53ecc806de2bf28cdd7d7eadd0754e8477fe5fc63454
+SHA512: 8dc2e276c919bbcab330773a0a6faaec1857a74be34999b5c40fee63be8a947244cdcd7e80a14a83ed09974ebab126f8479cb8f9777733d41459b4dbf1a38d0d
+Description: 让支持的歌曲化作触感，随音乐感受节奏与人声。Music haptic tracks, vocal mode and Control Center toggle for iOS 15 and later.
+Name: MusicHaptics
+Author: Banana
+icon: https://huayuarc.github.io/icon/musichaptics.png
+
+Package: iya.banana.musichaptics
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 968
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/iya.banana.musichaptics_0.1.2_iphoneos-arm64e_8548bebbdf0a52dd16710183c6d4b83941f555d2bc45768196ad1a838e344526.deb
+Size: 90672
+MD5sum: 64c790251c3d263d0544fd31b339643d
+SHA1: 3a3eafa65f1dcf99ac6ebcc80b10c2eb430483ad
+SHA256: 8548bebbdf0a52dd16710183c6d4b83941f555d2bc45768196ad1a838e344526
+SHA512: 0cf4f0b2b373704ee4c3eb7f02253f84f878941bdaa2e14b35c464a32e2f69444f5fad7d09cb51f1872b27c3b08325a2e39505566adfe09baa9e2800a9b4f525
+Description: 让支持的歌曲化作触感，随音乐感受节奏与人声。Music haptic tracks, vocal mode and Control Center toggle for iOS 15 and later.
+Name: MusicHaptics
+Author: Banana
+icon: https://huayuarc.github.io/icon/musichaptics.png
+
+Package: iya.banana.musichaptics
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 968
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/iya.banana.musichaptics_0.1.3_iphoneos-arm64e_cbc1d5d9ddef8dbc79989641a5dd28ce27a452e1ceefdbd40388cd97c990af51.deb
+Size: 93096
+MD5sum: b9a211749270529bb8821759c973d7ff
+SHA1: 40564583c558202c021a787bd08e01b00d3545e8
+SHA256: cbc1d5d9ddef8dbc79989641a5dd28ce27a452e1ceefdbd40388cd97c990af51
+SHA512: 4de994717546dd7e3a26b68b5d38b203bde62852c4d09b65e78dffd8921ae1d0252b6dda7cba3869ee79728be15534dc83a3fab1bda4af9197aafc6f4e9e8755
+Description: 让支持的歌曲化作触感，随音乐感受节奏与人声。Music haptic tracks, vocal mode and Control Center toggle for iOS 15 and later.
+Name: MusicHaptics
+Author: Banana
+icon: https://huayuarc.github.io/icon/musichaptics.png
+
+Package: iya.banana.openspace
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 1248
+Depends: firmware (>= 17.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: iya.banana.ios18sb
+Replaces: iya.banana.ios18sb
+Filename: debs/iphoneos-arm64/iya.banana.openspace_0.1.3_iphoneos-arm64_7ed5949516c6ea3433377e00dc79d7cfda2abae0abd4c7dda69a811a123c5d1f.deb
+Size: 361804
+MD5sum: 9b1a1f42dc9eb43a5abe7aea4be18a49
+SHA1: c7000a7557374ffb054ab74ff3adb969ef878fd6
+SHA256: 7ed5949516c6ea3433377e00dc79d7cfda2abae0abd4c7dda69a811a123c5d1f
+SHA512: 74fd11fb25ecb2b146b8f93bafca6ade25e5b2400bfb76de15f870a514dfc103fa9e167fff4b813fd59b07fa4f56b8b396af692e63b1ea79430a87022632f59c
+Description: Bring free Home Screen placement and native widget resizing to iOS 17 while preserving the system layout.ios 17.0-17.3.1 上实现主屏幕自由布局与小组件尺寸切換。
+Name: OpenSpace
+Author: banana
+icon: https://huayuarc.github.io/icon/OpenSpace.png
+
+Package: iya.banana.openspace
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 1248
+Depends: firmware (>= 17.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: iya.banana.ios18sb
+Replaces: iya.banana.ios18sb
+Filename: debs/iphoneos-arm64e/iya.banana.openspace_0.1.3_iphoneos-arm64e_46869b4d7e82528a3091a1b8d2c7e17b10683ded93757d4bf9607f7855e550a3.deb
+Size: 358492
+MD5sum: 3f5d3d5b806d6f873ef7decbdaaa6432
+SHA1: fe76bb06597f37ae30159be40a391e4c8454f97a
+SHA256: 46869b4d7e82528a3091a1b8d2c7e17b10683ded93757d4bf9607f7855e550a3
+SHA512: ee6384a928e41ff5a1cd269b348c950113f3bcc16208664bb810c9ce2411fbea93742ba63b7c2bedf7fc4fc2e3099f72c6f4c92b6959c06cd7dea13550ea6773
+Description: Bring free Home Screen placement and native widget resizing to iOS 17 while preserving the system layout.ios 17.0-17.3.1 上实现主屏幕自由布局与小组件尺寸切換。
+Name: OpenSpace
+Author: banana
+icon: https://huayuarc.github.io/icon/OpenSpace.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64
+Version: 1.1.12
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 13396
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64/iya.banana.spatialscene_1.1.12_iphoneos-arm64_ec85b70b7159a48e6566e48218b67fb6ff5b8e044e7e50597f06146fd50e2fc2.deb
+Size: 6384520
+MD5sum: 87dee07b00ae73953884c3d63230ae9f
+SHA1: 15611f99985383f85f120f22d7ac5056af389d91
+SHA256: ec85b70b7159a48e6566e48218b67fb6ff5b8e044e7e50597f06146fd50e2fc2
+SHA512: 33fcf96298811da568e4156ee9562fcf349a36fa9abedbc2b635166952a84a16dbbadb505e8be7a203c9b37a73d954afa29911f8564d072d3c56606119cec09e
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: Banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64
+Version: 1.1.5
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 12944
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64/iya.banana.spatialscene_1.1.5_iphoneos-arm64_0c01f329c64f36bfd814165a599fb0cd4cd89b66b34d278d9ce947423b724c42.deb
+Size: 6313444
+MD5sum: e5171d99df188361547c4be55b4d3eb1
+SHA1: b547a33b270296f8f324ba36ed8fe4ffe46fd16a
+SHA256: 0c01f329c64f36bfd814165a599fb0cd4cd89b66b34d278d9ce947423b724c42
+SHA512: 34fbe37cd180ce62819441949b7fe47d124c1116f949f63d4921cb9b303de30ffc6081b6a32ebb87014fa5266854e872d8ce1c40dba01a6cb4c844804b5b2083
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 12948
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64/iya.banana.spatialscene_1.1.7_iphoneos-arm64_8a6961ec47845a40f2d8cf0d7f0f30260824098ad70d7d8d4b203abb0b6fd50e.deb
+Size: 6317120
+MD5sum: a74da000320688dc8d18f03dc862df67
+SHA1: 8561441d19ed81d17150c601cb9c8835d9a5560a
+SHA256: 8a6961ec47845a40f2d8cf0d7f0f30260824098ad70d7d8d4b203abb0b6fd50e
+SHA512: 73a173eb9a9f8268a6292853c46afc8c78e8f4b46476da78c3bdb6b67ed885f9262d33bce169406995466ebe784f107e337132dd306f2e74fd1321c951ee2f8f
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 12948
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64/iya.banana.spatialscene_1.1.8_iphoneos-arm64_dcc689de32c2dc61c8a768c36993952d95f8c79ddfaf6b28665a919b2417b60c.deb
+Size: 6316396
+MD5sum: 9083c0662f2f32e94c1a06a1d9efc333
+SHA1: aaa7a8f3e2236167ef1db3b20976cd8b3fd2ccbf
+SHA256: dcc689de32c2dc61c8a768c36993952d95f8c79ddfaf6b28665a919b2417b60c
+SHA512: 319b9910b5323da901ce0eaa175fea231c51c0a76f8e6ff4b982f7c199188c8ae0d6e021d48e9e36c99185b5af2882c07f1b26c63d6f5149972eae82e1f55fce
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64
+Version: 1.1.9
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 13032
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64/iya.banana.spatialscene_1.1.9_iphoneos-arm64_a8b4cdaab249347bd41506f4677bbe76b7429a6d62d2fdd33d4235e6b8a8c837.deb
+Size: 6331904
+MD5sum: 453766c7ac069b8cca6c0c33c1cdea1f
+SHA1: e9b0c66afad89cc80cb621e343bffcb18a78f266
+SHA256: a8b4cdaab249347bd41506f4677bbe76b7429a6d62d2fdd33d4235e6b8a8c837
+SHA512: 5115b3d5e395f1446a15c10002a680ce4d48e8d99bd32685bc3009cb59c3789e041f41553bbcea5f13db0e8c5142a34f838be91ca0156f34398d76abf21ababc
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64e
+Version: 1.1.12
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 13396
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64e/iya.banana.spatialscene_1.1.12_iphoneos-arm64e_60bda22a76c3a3c8ff712f5cff93c8006788d9ae18aa0858f9d6809e02c7c6cb.deb
+Size: 6384660
+MD5sum: 34491d61eb5fdde62ea243724144e161
+SHA1: f76a5fa01dd6f63f828292b738ab2dfcf1cecbca
+SHA256: 60bda22a76c3a3c8ff712f5cff93c8006788d9ae18aa0858f9d6809e02c7c6cb
+SHA512: 40e5cff3d14217faf2957aec9b6bc36f5cdc8d9ad9d3036177ecec2de08be201578ee93e162df70a3757e95bdb5db2289357cfb777095daacdadc34ca03b9bea
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: Banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 12944
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64e/iya.banana.spatialscene_1.1.5_iphoneos-arm64e_d3f4a554f564b74754f30b729fc8adb3bd0140c5e93182f95df8038289bd165b.deb
+Size: 6313328
+MD5sum: cb6f315f81e31200f1eaf5e7cfd05263
+SHA1: 1c686ddd06db5587aa818895cfbcf1436374a0e3
+SHA256: d3f4a554f564b74754f30b729fc8adb3bd0140c5e93182f95df8038289bd165b
+SHA512: c84e7072e8e28288e8393b34dde616846d172181f24d3a9b3bdacaefbdeaa0f1935247d4586e5eb31d4bcc00c220b86872c48ba094372bc3aabc208dc5d0906c
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 12948
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64e/iya.banana.spatialscene_1.1.7_iphoneos-arm64e_554d2820ee49fb94420cf6f34fbcafa448b4437f4e228910a5d32cd9febfc227.deb
+Size: 6316932
+MD5sum: 5d96b6e1de9e28b61bb06cf435ecf8fc
+SHA1: c9d0303ca603610bf66df2a3362b8892f1e6d8e3
+SHA256: 554d2820ee49fb94420cf6f34fbcafa448b4437f4e228910a5d32cd9febfc227
+SHA512: e79355084dfea772c3e0b2fe2f6c367e1cdac98092e591c4a1e9cd89e35482baf9de484fa20004fdc67ebedc842cc023ab3e2942042bcd6ab2a621becc0b5a8d
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 12948
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64e/iya.banana.spatialscene_1.1.8_iphoneos-arm64e_1143c168eeed715924576d44a4fd075438fc9c6cd37b2b05430e569afe2fd361.deb
+Size: 6316816
+MD5sum: 2e920b07423a012caeee16741ca4b3ff
+SHA1: 68ec3934e0ffd4dfc21adff885cca1513b8d9e68
+SHA256: 1143c168eeed715924576d44a4fd075438fc9c6cd37b2b05430e569afe2fd361
+SHA512: f5181449ae7f6e079156aedfc9f2c020720e6475ef23d88d749d7b9e1026d7c4d943c0ea4b87e8a68b7f0aa28a526bd10db8cae89d14e07f16bb3d3fedd48896
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64e
+Version: 1.1.9
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 13032
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64e/iya.banana.spatialscene_1.1.9_iphoneos-arm64e_a7a63c0dbe72cfc18bbcce3d9afd1c30ab8161786d82145ab0446f4f7690f0e5.deb
+Size: 6332232
+MD5sum: 22039e465bd1ad9a86c090641202f4ac
+SHA1: 6f56d0050bb8b58bd350a10ba986e06d8af17c4c
+SHA256: a7a63c0dbe72cfc18bbcce3d9afd1c30ab8161786d82145ab0446f4f7690f0e5
+SHA512: 8007e63938d1d99cfc22c1b1b18f663749c81073de90c2d0c922eb2d7c13af9a3c37eab4ad6de2a9570e12249cbfbe700ea9903c9d6e290b0868922b9160ed99
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.springboardgame
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: hxhlb
+Installed-Size: 716
+Depends: mobilesubstrate, preferenceloader
+Conflicts: iya.banana.iconsnake, iya.banana.icontetris
+Replaces: iya.banana.iconsnake, iya.banana.icontetris
+Filename: debs/iphoneos-arm64/iya.banana.springboardgame_0.0.2_iphoneos-arm64_8c5bb2fd62632817b8d9ec4535a458cf3d2e0ba75c803b9c7a0fd30dab5a519b.deb
+Size: 118928
+MD5sum: 907b284bf530c4d30a6734b00f17651d
+SHA1: ba15108b32ae2859eaac9bd5d7fabe26bd36e845
+SHA256: 8c5bb2fd62632817b8d9ec4535a458cf3d2e0ba75c803b9c7a0fd30dab5a519b
+SHA512: 5c59cb8253e88d76150201f4936e8b8284a7bf3f1e970c6df62a41268e988961d057abda3a4918a2a9fec0a99fdb5b85c1e00e085167a42a8f205acc0ca9f9b8
+Description: Play Snake, Tetris, Basketball, Breakout, Soccer, and Tank with installed app icons directly on the Home Screen. / 直接在主屏幕上使用已安装 App 图标游玩贪吃蛇、俄罗斯方块、篮球、打砖块、足球和坦克。
+Name: SpringBoardGame
+Author: hxhlb
+icon: https://huayuarc.github.io/icon/SpringBoardGame.png
+
+Package: iya.banana.springboardgame
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: hxhlb
+Installed-Size: 716
+Depends: mobilesubstrate, preferenceloader
+Conflicts: iya.banana.iconsnake, iya.banana.icontetris
+Replaces: iya.banana.iconsnake, iya.banana.icontetris
+Filename: debs/iphoneos-arm64e/iya.banana.springboardgame_0.0.2_iphoneos-arm64e_0b6b8a0e77f9e57da954f98a1047152e9f36b3a60568f18943c7785d1c668b2d.deb
+Size: 118932
+MD5sum: f17a5f4d18858815ddcbb4784e6100e1
+SHA1: b15c71c41095ccc0b32c4f2932addd88bd7b437a
+SHA256: 0b6b8a0e77f9e57da954f98a1047152e9f36b3a60568f18943c7785d1c668b2d
+SHA512: 4291d3f291f0ee6174178ec28a49f511d74a393926454d17491a7a907a30078ccd260a3d238cfbae668616acd369d9842a00c09a2a2a3017bccf0f978254ce0c
+Description: Play Snake, Tetris, Basketball, Breakout, Soccer, and Tank with installed app icons directly on the Home Screen. / 直接在主屏幕上使用已安装 App 图标游玩贪吃蛇、俄罗斯方块、篮球、打砖块、足球和坦克。
+Name: SpringBoardGame
+Author: hxhlb
+icon: https://huayuarc.github.io/icon/SpringBoardGame.png
+
+Package: iya.banana.trollisland
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 460
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64/iya.banana.trollisland_1.1.7_iphoneos-arm64_29328b8b41a070957c0b1c4446e84186777356ba89ea301cc5ca52ea9af6a838.deb
+Size: 55140
+MD5sum: 6c70ad4510ca6bdea75452bc584fe717
+SHA1: 5d0d24d7758b68f092dec1a99b6acb5d2120da7c
+SHA256: 29328b8b41a070957c0b1c4446e84186777356ba89ea301cc5ca52ea9af6a838
+SHA512: c6c9a3983cfdbe37b550486abe350ec12c362d8a0604bf33aa28ea47a4c49c48530f9b83a86deb688550b36621530feaf866df16b6fabc4e7ec69079ea88cc68
+Description: Enable and reposition the native Dynamic Island without persistent MobileGestalt changes.ios16-18 带来原生灵动岛，并提供空闲隐藏与位置调节。
+Name: TrollIsland
+Author: Banana
+icon: https://huayuarc.github.io/icon/TrollIsland.png
+
+Package: iya.banana.trollisland
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 460
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64e/iya.banana.trollisland_1.1.7_iphoneos-arm64e_1b9a6222fd6d1d57af0c6c2bacac9247814527d79305bd263bf635bcc3ba5d62.deb
+Size: 55084
+MD5sum: 9369ce0da31d90fb6f2ccc6f995a9ee8
+SHA1: ed68ec42398fbe72a4e84ce688a17743eecd1f1b
+SHA256: 1b9a6222fd6d1d57af0c6c2bacac9247814527d79305bd263bf635bcc3ba5d62
+SHA512: a65d97f3e1685937a16dca9828715817879b73d6253973c28730c9302abc9ea4d1d33e53f85a6957210ab0437551ca16d411a0f923daa8962c7e0846329ae21c
+Description: Enable and reposition the native Dynamic Island without persistent MobileGestalt changes.ios16-18 带来原生灵动岛，并提供空闲隐藏与位置调节。
+Name: TrollIsland
+Author: Banana
+icon: https://huayuarc.github.io/icon/TrollIsland.png
+
+Package: iya.banana.tweak.loader
+Architecture: iphoneos-arm64
+Version: 0.4.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2340
+Depends: mobilesubstrate, firmware (>= 18.0)
+Filename: debs/iphoneos-arm64/iya.banana.tweak.loader_0.4.3_iphoneos-arm64_20c388bfd8f20cf502d6103b7e43ac1f352a254dbe11b4c56962b9ba21ebde3f.deb
+Size: 873796
+MD5sum: 8be943afea9a38aff8e9c272b189631a
+SHA1: 4ceaefb4c4a75f652d2f832091c8309689e8d229
+SHA256: 20c388bfd8f20cf502d6103b7e43ac1f352a254dbe11b4c56962b9ba21ebde3f
+SHA512: e055a61d2afb8ef3f310d9644c516f47e24e4898f35c09e6e874e81bfa4ad4a064f6c255e125d1845a5213f0e2a2addff228373b707f4a7665724c7f9549ef62
+Description: iOS 18 Settings home — tweaks list, status group, password ios18“设貴”首页集中查看插件设置与常用设备信息。
+Name: Tweak Loader
+Author: Banana
+icon: https://huayuarc.github.io/icon/TweakLoader.jpg
+
+Package: iya.banana.tweak.loader
+Architecture: iphoneos-arm64e
+Version: 0.4.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2356
+Depends: mobilesubstrate, firmware (>= 18.0)
+Filename: debs/iphoneos-arm64e/iya.banana.tweak.loader_0.4.3_iphoneos-arm64e_bdd25ea87332dfc02b0504cede4305e5269bf6c34e0b43cb7eb509edfc950b21.deb
+Size: 883800
+MD5sum: 8a1e94cce5a2fe585d6291df7b8487d4
+SHA1: 7870ec9bd4348552c3174afa2ce8a46b6bbbf463
+SHA256: bdd25ea87332dfc02b0504cede4305e5269bf6c34e0b43cb7eb509edfc950b21
+SHA512: a5b6e4c1952d5f179168dfa750bbfc2086271ceb995899470e0611156ae18717139e70ec3db98decc711c2d5f15dfa5cd2cb1968c54573adc4dc8f8f99d0a8d3
+Description: iOS 18 Settings home — tweaks list, status group, password ios18“设貴”首页集中查看插件设置与常用设备信息。
+Name: Tweak Loader
+Author: Banana
+icon: https://huayuarc.github.io/icon/TweakLoader.jpg
+
+Package: iya.banana.vehiclemotioncues
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 616
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport (>= 1.3.10)
+Filename: debs/iphoneos-arm64/iya.banana.vehiclemotioncues_0.0.2_iphoneos-arm64_5d59e4da60b2b004a04d052589299188693d45e7c8b8672c62da805e49a8d112.deb
+Size: 33256
+MD5sum: 24186efc1dd2ac80c304c971d27c943f
+SHA1: 81b2263358c5c6320f34878354b7a202bc9af62e
+SHA256: 5d59e4da60b2b004a04d052589299188693d45e7c8b8672c62da805e49a8d112
+SHA512: 2d528d200adc2b5fe0754a5736f25cea0d8a04d71e3fcf7b68a479e75dc870cad6dcba90f166ba6f34f1d46efa9ab830cea3d97f370c17b1ec64d66af8967dc2
+Description: Reverse-derived Vehicle Motion Cues for iOS 17.ios 15-17 的屏幕边缘显示车辆加速、减速与转向提示。
+Name: Vehicle Motion Cues
+Author: hades
+icon: https://huayuarc.github.io/icon/VehicleMotionCues.png
+
+Package: iya.banana.vehiclemotioncues
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 616
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport (>= 1.3.10)
+Filename: debs/iphoneos-arm64e/iya.banana.vehiclemotioncues_0.0.2_iphoneos-arm64e_4d09a062bfeb5b648b206df7b3cd2ffe85b2de33f252ed5d7bd40d6d1c44109a.deb
+Size: 33148
+MD5sum: 10c2d230f16ba76ad4a4b68a1925385a
+SHA1: 2a5843571ab00960dc84edea1a2e9be8f054276c
+SHA256: 4d09a062bfeb5b648b206df7b3cd2ffe85b2de33f252ed5d7bd40d6d1c44109a
+SHA512: 5c535f348b7bf5616cee2307cc8ee40a5f3bc532223e59ad92b78e2ae50b70418db1728b792d2fa48b0ea350329d2fa270c0187e8c0b76112be98c0f69ccc9f7
+Description: Reverse-derived Vehicle Motion Cues for iOS 17.ios 15-17 的屏幕边缘显示车辆加速、减速与转向提示。
+Name: Vehicle Motion Cues
+Author: hades
+icon: https://huayuarc.github.io/icon/VehicleMotionCues.png
+
+Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64
+Version: 0.1.1b+banana33
+Section: Tweaks
+Maintainer: dylv & banana
+Installed-Size: 8720
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64/iya.iapple.liquidass_0.1.1b+banana33_iphoneos-arm64_d96c01d43df05a74b4fae5f06164cc0ca20395b0b5ac6e9d925af805c4990671.deb
+Size: 3725672
+MD5sum: 2718bf7d259071df1a646254dc833581
+SHA1: 1ec35c1aa588765f293b683b1bc6092665f24e0d
+SHA256: d96c01d43df05a74b4fae5f06164cc0ca20395b0b5ac6e9d925af805c4990671
+SHA512: 8af4e9b559809a0b05b113238972c3ea4eb84a4e94a98c7565d2cf3a5402ad79fefc41a5d9fc1fa1a555e1d6037f2a997f41ac8e3692a34b17be2dfd23757271
+Description: next level diarrhea 为 iOs 14-18 的系统界面带来可实时调整的液态玻璃效果。
+Name: Liquid (Gl)ass
+Author: dylv & banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64e
+Version: 0.1.1b+banana33
+Section: Tweaks
+Maintainer: dylv & banana
+Installed-Size: 8720
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64e/iya.iapple.liquidass_0.1.1b+banana33_iphoneos-arm64e_503fe67d2059db2cbb56437533861056107bc5ff4a3cd46cd68fed329d76fad9.deb
+Size: 3729624
+MD5sum: 7593da4d61110ac98a630b2fda01d984
+SHA1: 254d3f379b27705a65b609a2dd5a5b09d92c6a5c
+SHA256: 503fe67d2059db2cbb56437533861056107bc5ff4a3cd46cd68fed329d76fad9
+SHA512: 0e4efd6bacc74c67a50fe79b3456478508104a7819fbb9e19437c7c4a02a7af3964c9dbce1827c1312a13cdcd8cca35fd0003bc6a4136c06a4ed912ade57c4d1
+Description: next level diarrhea 为 iOs 14-18 的系统界面带来可实时调整的液态玻璃效果。
+Name: Liquid (Gl)ass
+Author: dylv & banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: iya.iapple.siri
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Section: Tweaks
+Maintainer: Thijs mussig
+Installed-Size: 2252
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourcompany.liquidsiri
+Replaces: com.yourcompany.liquidsiri
+Filename: debs/iphoneos-arm64/iya.iapple.siri_1.1.3_iphoneos-arm64_6d45c34c30e476f0ec3a45cfe36313af46b846c26932abfca6ff6e8ea8970768.deb
+Size: 980360
+MD5sum: 73d963d46b5af125fa7bc9a98b987afe
+SHA1: dc6a06bbe2943c6a2d58478ab5df9fdf49aa53a7
+SHA256: 6d45c34c30e476f0ec3a45cfe36313af46b846c26932abfca6ff6e8ea8970768
+SHA512: ab3bd5b5db4eb8b61bfa5b16618501af9e6fd4483e074b9f2ab6decf4b682a7adaa68b3cdafccba58005393a978afb3136698b62e2b6686dce455a8961fed416
+Description: Customize Siri with NewSiri edge lighting or the SiriAI glass interface.为 Siri 带来 Newsiri 屏幕流光与 SiriAl玻璃界面。
+Name: LiquidSiri
+Author: Thijs mussig, Banana
+icon: https://huayuarc.github.io/icon/liquidsiri.png
+
+Package: iya.iapple.siri
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Section: Tweaks
+Maintainer: Thijs mussig
+Installed-Size: 2252
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourcompany.liquidsiri
+Replaces: com.yourcompany.liquidsiri
+Filename: debs/iphoneos-arm64e/iya.iapple.siri_1.1.3_iphoneos-arm64e_7fdd16bf2524ec583a1527b286f9cc238b2eac7a8693a842a5790578b5dfb4d9.deb
+Size: 977896
+MD5sum: b3c7f6f56fbaaf7f0d06ffa38c46b5df
+SHA1: b0db7f7f75adea67fa49a80b6dc8047bbd92229f
+SHA256: 7fdd16bf2524ec583a1527b286f9cc238b2eac7a8693a842a5790578b5dfb4d9
+SHA512: 2fc7312eb793f2dd5b1e91e1ca936a55199f485ad33f0dc72a575cbde2e2df1df5050e66a73bffd523010f169060d32e590ac4b8478199443652da97330e03cf
+Description: Customize Siri with NewSiri edge lighting or the SiriAI glass interface.为 Siri 带来 Newsiri 屏幕流光与 SiriAl玻璃界面。
+Name: LiquidSiri
+Author: Thijs mussig, Banana
+icon: https://huayuarc.github.io/icon/liquidsiri.png
+
+Package: jp.r-plus.sleipnizer5.rootless
+Architecture: iphoneos-arm64
+Version: 12.0.1
+Section: Tweaks
+Maintainer: r_plus
+Depends: mobilesubstrate (>= 0.9.6100), preferenceloader (>= 2.2.3), firmware (>= 15.0)
+Conflicts: jp.r-plus.sleipnizerlite, jp.r-plus.sleipnizerforsafari, jp.r-plus.sleipnizer, jp.r-plus.sleipnizer3, jp.r-plus.sleipnizer4
+Filename: debs/iphoneos-arm64/jp.r-plus.sleipnizer5.rootless_12.0.1_iphoneos-arm64_31285b510e0bb52bf666e49ea3057f6e0a5994c940870238ba426df135c80fb0.deb
+Size: 225000
+MD5sum: a28de48c7008004cda32610808bf5695
+SHA1: 6ff6e1510dc95f968c21e60bde143261f4632420
+SHA256: 31285b510e0bb52bf666e49ea3057f6e0a5994c940870238ba426df135c80fb0
+SHA512: fbbd10b4a431eb2ec3fbbf1c093dbb473d7758696a6abc8a832ee326786097c28ac4fc5b2c148688ef070ff68490d93a425a9ffe87adbed0a25eee3dadbfff41
+Description: Sleipnizer for Safari is a gesture plugin for Safari browser, which lets you perform various operations quickly with gestures. You may feel unfamiliar at first, but it becomes an excellent tool once you get used to it. Sleipnizer for Safari 是一款 Safari 浏览器手势插件，可以通过手势快速执行多种操作。刚开始或许有些不习惯，习惯手势操作后十分好用。
+Name: Sleipnizer for Safari
+Author: r_plus
+Sponsor: r_plus
+Icon: https://huayuarc.github.io/icon/Sleipnizer.png
+
+Package: kr.xsf1re.vnodebypass
+Architecture: iphoneos-arm64
+Version: 0.4.3
+Section: System
+Maintainer: alias20 <xuanhua880@gmail.com>
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Filename: debs/iphoneos-arm64/kr.xsf1re.vnodebypass_0.4.3_iphoneos-arm64_6dc38cc3157e973f1416213ecc650aca5bf4bfbd36963b281e0a967e1ddeb91d.deb
+Size: 67476
+MD5sum: e9053c46f219fa5e86ff504187c06c9c
+SHA1: 59e682bf4448b7626ca03e8eb7f9d8bfbcc5039c
+SHA256: 6dc38cc3157e973f1416213ecc650aca5bf4bfbd36963b281e0a967e1ddeb91d
+SHA512: 99e5bb6eabc4b23ab19579e668f0cf5c6d43345846252949d081612fe35ffcdc4327c7f81309a6727df2bd80c25db96a85d474a580c0130ed4c4401aa1b62065
+Description: 苏苏编译并汉化，替换原本控制中心图标。仅在需要时开启，不要常开！用于隐藏越狱文件以绕过检测的工具。（仅支持iOS15-16系统Dopamine2越狱）
+Name: Vnodebypass
+Author: XsF1re, ichitaso, level3tjg <xuanhua880@gmail.com>
+Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
+
+Package: kr.xsf1re.vnodebypass
+Architecture: iphoneos-arm64
+Version: 0.4.6-Next
+Section: System
+Maintainer: alias20, LF, AD
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Filename: debs/iphoneos-arm64/kr.xsf1re.vnodebypass_0.4.6-Next_iphoneos-arm64_b10a915a0b6944481838f8b1ef3979924904ff5be6aa714e3a8f5effadacd7fd.deb
+Size: 66120
+MD5sum: 0f244d840b420f5e45287f66a1475908
+SHA1: 9dee4726ff0dc949493a53c0ca45fc98451cd1d8
+SHA256: b10a915a0b6944481838f8b1ef3979924904ff5be6aa714e3a8f5effadacd7fd
+SHA512: f5b9c2521d777d3f11fa5de35dd044ff2963c1ddff1bbdb215aaa6cd4a5f86640d0486b580dec7309250852eab6a1802fb6774bc79f036503166fe6dfdd12239
+Description: Hide jailbreak traces and bypass detection mechanisms. Automatically configures paths and fixes post-removal issues. Compatible with Dopamine Rootless environment. Initial installation may take extra time due to path setup—please be patient! 隐藏越狱痕迹，绕过检测机制，自动配置路径，修复卸载残留问题。兼容 Dopamine Rootless越狱环境，首次安装可能因路径配置稍有延迟，请耐心等待～(づ￣ 3￣)づ。
+Author: XsF1re, ichitaso, level3tjg, LF, AD
+Name: Vnodebypass-next
+Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
+
+Package: libskittycolor
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: Skitty
+Filename: debs/iphoneos-arm64/libskittycolor_1.0_iphoneos-arm64_46874d941c2426891b7542cbb08a217191dd375bc16220816d2c742d00f92006.deb
+Size: 26920
+MD5sum: a255a97465f822dc7cf880896b1203a4
+SHA1: 5a59d90f929e8dce3848fc96479e16781db65d69
+SHA256: 46874d941c2426891b7542cbb08a217191dd375bc16220816d2c742d00f92006
+SHA512: f6741c73a73adb0fbff9708dabc0fe37665df832125455f5c9b7aee1bacddcd12d1a4ca673e698fc3e010a90566a15bb7962c199d7042f10716186d002585b37
+Description: 有些插件需要这个依赖
+icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/libskittycolor/js.json
+Author: Skitty
+Name: libskittycolor
+
+Package: lilliana.accent
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 580
+Depends: mobilesubstrate, firmware (>= 12.2), ws.hbang.alderis (>= 1.2)
+Filename: debs/iphoneos-arm64/lilliana.accent_0.0.2_iphoneos-arm64_2fcd5aa361f773034adb24c6f4a4294f0a8b2eeb0fee29f543e107e889f08047.deb
+Size: 78036
+MD5sum: 0e16cabe1c0731653bcf46ea362152d4
+SHA1: 7fd79dd86dd059dfc3fa279f56cdb7c3d928b4a4
+SHA256: 2fcd5aa361f773034adb24c6f4a4294f0a8b2eeb0fee29f543e107e889f08047
+SHA512: 40893a8c98568aa31ca4764cef92f2beb6b5f10b270d8724348487861d010eb449ed193bd22856d91bcd24088b2d572383e444decf70dec6d098022fa3fac082
+Description: Change accent colours systemwide 可让你在整个系统和应用程序中更改强调色。更高效的自定义重音版本，因为它只读取一次偏好设置，而不是多次读取
+Name: Accent Reborn
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/Accent.png
+
+Package: lilliana.accent
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 580
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.2), ws.hbang.alderis (>= 1.2)
+Filename: debs/iphoneos-arm64e/lilliana.accent_0.0.2_iphoneos-arm64e_45ab0a14b20d2f91312e7327ccdbedad1a4dbf376512ecd5b001735d7c32fb6d.deb
+Size: 76108
+MD5sum: 374a958d3ad135d8344327aa7ba015eb
+SHA1: a92314024b6741d5e909e6924720c690a5cf423e
+SHA256: 45ab0a14b20d2f91312e7327ccdbedad1a4dbf376512ecd5b001735d7c32fb6d
+SHA512: a34c77650359acfc09e64d7731338202f2a8eead4e6188916e55dd017c7fcfc06cf61576ab293990ffb3b5638388d323a77c526a447aa3c92faa5675a84d543b
+Description: Change accent colours systemwide 可让你在整个系统和应用程序中更改强调色。更高效的自定义重音版本，因为它只读取一次偏好设置，而不是多次读取
+Name: Accent Reborn
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/Accent.png
+
+Package: lilliana.filzacrack
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Section: Tweaks
+Maintainer: Lilliana
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 12.2)
+Filename: debs/iphoneos-arm64/lilliana.filzacrack_0.0.6_iphoneos-arm64_b9c2767957d650c404ac71920a949cc78cfd2ea7ff7eaf04f83b68b0b0dbaa25.deb
+Size: 21292
+MD5sum: fadb2773266b1db0b5771899b00d1b2f
+SHA1: 2bd86fbbe513c6dd276b6c73636287d5c21a0f5d
+SHA256: b9c2767957d650c404ac71920a949cc78cfd2ea7ff7eaf04f83b68b0b0dbaa25
+SHA512: 1a17c66b628fa69f6607be9fe3bc12d8498992136170d5d6254e5e88e808af4baac83f6e99aae9d3ad6857f5ed171b3ad8892387c61c3838c2916caf303ffb03
+Description: An awesome Jinx tweak!
+Name: FilzaCrack
+Author: Lilliana
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+
+Package: lilliana.filzacrack
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Section: Tweaks
+Maintainer: Lilliana
+Installed-Size: 136
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.2)
+Filename: debs/iphoneos-arm64e/lilliana.filzacrack_0.0.6_iphoneos-arm64e_ce1c4ab8e81cfd28bec9af73ea8da22f8d9fe39a4bd4bdec8b7ce7b60580858f.deb
+Size: 21020
+MD5sum: fc540bd9a9646904dde2736c308aa647
+SHA1: 5c7baccf4a0375bc94a344a634af6094657b7412
+SHA256: ce1c4ab8e81cfd28bec9af73ea8da22f8d9fe39a4bd4bdec8b7ce7b60580858f
+SHA512: dcd5ff64b784dec3631d39c7fb01f20048b96f446eb556d0daf3240867e0bede6e1d14a6f8ea948e887e430e0eb7fadc8323e4cded67585721bf2f87af51caeb
+Description: An awesome Jinx tweak!
+Name: FilzaCrack
+Author: Lilliana
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+
+Package: lilliana.peepreborn
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 560
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
+Filename: debs/iphoneos-arm64/lilliana.peepreborn_0.0.3_iphoneos-arm64_79ecc86d580e7fa3e6188df4cceb44f831f2248843bb9525a96d946e885758c1.deb
+Size: 73696
+MD5sum: 22bdd90372575cd28784f6681bd140ef
+SHA1: 11ddd61c78a5af1c8b9241e00299c6f4d451665c
+SHA256: 79ecc86d580e7fa3e6188df4cceb44f831f2248843bb9525a96d946e885758c1
+SHA512: 39f7160f87c8da646cae22f803e1819049b2a5ffb7eb6eea10e4c7d45502bb893d0f04771b80a5eb07c5a8cd0f100f3358705aa4f03f291018936bbc770411be
+Description: Hide your status bar with a tap iDownloadBlog 上的特色功能！Peep Reborn 可让你轻点一下即可隐藏状态栏--简洁的外观，方便你在需要时获取信息。
+Name: Peep Reborn
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/PeepReborn.png
+
+Package: lilliana.peepreborn
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 560
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
+Filename: debs/iphoneos-arm64e/lilliana.peepreborn_0.0.3_iphoneos-arm64e_55c0cb85e4762747034af55659f72fbe94660a0bb457f22c735456d487e8fac4.deb
+Size: 71988
+MD5sum: e50924fa1d071dcc208d58ce465cee75
+SHA1: 94d5155db7cfbd2b01d05d6113ab4c59b72526f8
+SHA256: 55c0cb85e4762747034af55659f72fbe94660a0bb457f22c735456d487e8fac4
+SHA512: 30a7bb01152aee55ea9d600b2560bf77d95836590e5af5d6f91c62a643f5de1e83ca9080f84a02a878f9bee584bf32db4ef848dd40f304a5a9b670c346166dd0
+Description: Hide your status bar with a tap iDownloadBlog 上的特色功能！Peep Reborn 可让你轻点一下即可隐藏状态栏--简洁的外观，方便你在需要时获取信息。
+Name: Peep Reborn
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/PeepReborn.png
+
+Package: lilliana.reverie
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 788
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/lilliana.reverie_0.0.3_iphoneos-arm64_b53d5d2f7ed8f10867684da40a7e3f4c81fd8b162a6acb93ff9a3c10991f420f.deb
+Size: 94864
+MD5sum: 69e9f6d4431d28b78faf73a69254866e
+SHA1: de7eddbc8953c8d2c165451b261ee33a9d714753
+SHA256: b53d5d2f7ed8f10867684da40a7e3f4c81fd8b162a6acb93ff9a3c10991f420f
+SHA512: c7b90843c669fcfc38554513c8ec32be79032ba3efe310c656a592586817658c85338e76ae2b864db78bbcca9672a3e7cb823b12029f3f477b41f331e5ea3706
+Description: Let your iPhone dream 当电池电量不足时，将设备置于休眠模式以节省电池。上调音量三次即可退出休眠模式*。
+Name: Reverie
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/Reverie.png
+
+Package: lilliana.reverie
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 788
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/lilliana.reverie_0.0.3_iphoneos-arm64e_2aa313245a25d6956ed3b941a94ef27d23c922f7700fe37e7a44004493117217.deb
+Size: 92472
+MD5sum: f257c7fdb296c7081651728dc399e443
+SHA1: 95abc58500d17e5500a26e9a5d1b507889cd6d25
+SHA256: 2aa313245a25d6956ed3b941a94ef27d23c922f7700fe37e7a44004493117217
+SHA512: c382e7375cb6168a6d3bf2ce64cfc0fc4fb0b69d2c1d18a101e48147576799b234886042c2ebbbb24dff02c4542400daa520d17962d1604d49cdbb1809cce3ed
+Description: Let your iPhone dream 当电池电量不足时，将设备置于休眠模式以节省电池。上调音量三次即可退出休眠模式*。
+Name: Reverie
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/Reverie.png
+
+Package: me.ikghd.pmp
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: iKarwan <ikghd3@gmail.com>
+Installed-Size: 792
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Conflicts: pro.ikghd.pmp
+Replaces: pro.ikghd.pmp
+Filename: debs/iphoneos-arm64/me.ikghd.pmp_2.0_iphoneos-arm64_4107bcecd910c060aa3b7fe854b88836ad8c8a99cf0fc9d1a8b8f7ad360b7a9a.deb
+Size: 54576
+MD5sum: c33e615b56f6f49d8d1b64fd431f4095
+SHA1: 1401a074fb21b64dd9f1573f122bcc9e358baf29
+SHA256: 4107bcecd910c060aa3b7fe854b88836ad8c8a99cf0fc9d1a8b8f7ad360b7a9a
+SHA512: d19e9e172ec6782f0ee9884536a5b4b395a00c9de6f50760ff82fea781891177c0ac0079bdf3e25cbbcdb7be30369bcfe2f7faf92ee900b675e45d88575fd912
+Description: 可以一键隐藏所有照片等功能，在控制中心开启
+Tag: purpose::extension, compatible_min::ios15.0, compatible_max::ios17.8
+Name: PMP隐私保护隐藏照片
+Author: iKarwan <ikghd3@gmail.com>
+Icon: https://huayuarc.github.io/icon/pmpcc.png
+
+Package: me.ikghd.pmp
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: iKarwan <ikghd3@gmail.com>
+Installed-Size: 792
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Conflicts: pro.ikghd.pmp
+Replaces: pro.ikghd.pmp
+Filename: debs/iphoneos-arm64e/me.ikghd.pmp_2.0_iphoneos-arm64e_872f2567358e6aa94b3e0fd988543a13d16b0892674dece26c9bf11f628e960c.deb
+Size: 53304
+MD5sum: 950375b7fc9fd0ce4e1cb00256e041b6
+SHA1: 1c1aab340d53303fa6ca4c83840732965b8a07cf
+SHA256: 872f2567358e6aa94b3e0fd988543a13d16b0892674dece26c9bf11f628e960c
+SHA512: 6448cd905dbcd148bfe06792a570c30ef189bccc3c873061518e58c08838f47eb26bacc4b4de9049520251074d827c3fbd28c7979b8a6d9911f15ed141c55ed2
+Description: 可以一键隐藏所有照片等功能，在控制中心开启
+Tag: purpose::extension, compatible_min::ios15.0, compatible_max::ios17.8
+Name: PMP隐私保护隐藏照片
+Author: iKarwan <ikghd3@gmail.com>
+Icon: https://huayuarc.github.io/icon/pmpcc.png
+
+Package: me.jjolano.fmwk.hookkit
+Architecture: iphoneos-arm64
+Version: 1.0.14
+Section: Development
+Maintainer: jjolano
+Installed-Size: 172
+Depends: firmware (>= 8.0), me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge
+Filename: debs/iphoneos-arm64/me.jjolano.fmwk.hookkit_1.0.14_iphoneos-arm64_69cb5cc2b0a681a22f68ab368ce2aa5dc96535539d4660e8ec4d42a79f111ba2.deb
+Size: 12976
+MD5sum: 312893752e76744b93a4ed27386d7481
+SHA1: 64a9d8be55edac1dc0d7e106e54b65d140ecb776
+SHA256: 69cb5cc2b0a681a22f68ab368ce2aa5dc96535539d4660e8ec4d42a79f111ba2
+SHA512: 946829acc9d7ad060b8b6a5e16da56eccd8dcc55a76f760228386810d64059f4d368702de1e1533e7a9de56bb9d2e04b7f29f901bc9c3986516d13bf8002ee69
+Description: An iOS developer framework for unified hooking methods.
+Tag: role::developer
+Name: HookKit Framework
+Author: jjolano
+
+Package: me.jjolano.fmwk.hookkit
+Architecture: iphoneos-arm64
+Version: 1.0.15
+Section: Development
+Maintainer: jjolano
+Installed-Size: 172
+Depends: firmware (>= 8.0), me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge
+Filename: debs/iphoneos-arm64/me.jjolano.fmwk.hookkit_1.0.15_iphoneos-arm64_d02118574183a4eefa8a7b714cce65691b3530586432a4c1f8a3c5f60f4619aa.deb
+Size: 12868
+MD5sum: 9d5f65185c577b048ece3d2abf6f434f
+SHA1: 6faee4fe49fc7c84fdcc2c4e64eabc508a92a849
+SHA256: d02118574183a4eefa8a7b714cce65691b3530586432a4c1f8a3c5f60f4619aa
+SHA512: ff88d98b4ee57c354a840143d93bf6f41edeb7ccdb50a826feb55e5f14b29fe1a7c802aa92cfe72671635d1010896144050e0df8bd7f6eb8aa69d9dd36d30b6c
+Description: An iOS developer framework for unified hooking methods.
+Tag: role::developer
+Name: HookKit Framework
+Author: jjolano
+
+Package: me.jjolano.fmwk.hookkit
+Architecture: iphoneos-arm64e
+Version: 1.0.14
+Section: Development
+Maintainer: jjolano
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 8.0), me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge
+Filename: debs/iphoneos-arm64e/me.jjolano.fmwk.hookkit_1.0.14_iphoneos-arm64e_5d5022751b93aab56f9056f86b68b499b3ba2c4fbcb0b52ceebcd20084d81e91.deb
+Size: 12772
+MD5sum: f5852b7845dab9b9062d77699da0b2c9
+SHA1: 54b08a1250ced25d3384cb641a401e8669c7c0fb
+SHA256: 5d5022751b93aab56f9056f86b68b499b3ba2c4fbcb0b52ceebcd20084d81e91
+SHA512: a4b411a7f17795d4e6d61e5fb6ea4c474508a969a8a00d6b9ecba56a12336bedfcb18f0a6ac4dc1c4e2873725140d5dd88783d5ec4ef3ab10f6d8a4927bd04a1
+Description: An iOS developer framework for unified hooking methods.
+Tag: role::developer
+Name: HookKit Framework
+Author: jjolano
+
+Package: me.jjolano.fmwk.hookkit
+Architecture: iphoneos-arm64e
+Version: 1.0.15
+Section: Development
+Maintainer: jjolano
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 8.0), me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge
+Filename: debs/iphoneos-arm64e/me.jjolano.fmwk.hookkit_1.0.15_iphoneos-arm64e_12be9108fcbadcd6dc78eebabfd50284190a376f53d6acfa63311155288a793c.deb
+Size: 13060
+MD5sum: c78dc58d35b6b5a8bcac26aa28bfbeb6
+SHA1: 43a4620f7346339b3ddd5282ee0b5b0069f6fac9
+SHA256: 12be9108fcbadcd6dc78eebabfd50284190a376f53d6acfa63311155288a793c
+SHA512: 1c87277144fef4ddef0c8399388c939b8874e3193b6a812883625eecfb7312fd2d6a4dc390a4bc8ad80e0da7433ef47c0f603eb7eb0bcc7d7abdf9abd3d5d9de
+Description: An iOS developer framework for unified hooking methods.
+Tag: role::developer
+Name: HookKit Framework
+Author: jjolano
+
+Package: me.jjolano.fmwk.modulous
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Filename: debs/iphoneos-arm64/me.jjolano.fmwk.modulous_1.0.6_iphoneos-arm64_eb71a26ca3d6a65d20bfc1f3f83da9558f5c9b9bbbb3925bf639e28cd1271a20.deb
+Size: 6360
+MD5sum: eeea760be33aa56a5e24a3961087f3ca
+SHA1: a0ab9b8f2377e7addf54b3316faf6bb3390eb315
+SHA256: eb71a26ca3d6a65d20bfc1f3f83da9558f5c9b9bbbb3925bf639e28cd1271a20
+SHA512: 9ddbddfca2f1afa932a86a6d1b9111c7d245a8636dfb5ce4ff882df188d4f9b297e06ccc9c8c14720fb73dab76de25386c34609a83416aed0feb8a481686dffa
+Description: An iOS developer framework for modular software.
+Tag: role::developer
+Name: Modulous Framework
+Author: jjolano
+
+Package: me.jjolano.fmwk.modulous
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Depends: firmware (>= 8.0)
+Filename: debs/iphoneos-arm64/me.jjolano.fmwk.modulous_1.0.8_iphoneos-arm64_75c77d71bbf3c1dcb91775b81407605adf7ff09cd2a00699de6242a04be3526b.deb
+Size: 6012
+MD5sum: 4e559824df1e570c0062a0ec2332ef39
+SHA1: 75ffb001ff715a38ab6ff27a1cd1d8dab959d5e7
+SHA256: 75c77d71bbf3c1dcb91775b81407605adf7ff09cd2a00699de6242a04be3526b
+SHA512: 3725122a1987d164bfdcf3c68398a0cdc39ca42cde8aa53386c5fe64e312094d5260fad2e3382e37559bc97bfd078c5242f36277af0327be117f5973a12e90b4
+Description: An iOS developer framework for modular software.
+Tag: role::developer
+Name: Modulous Framework
+Author: jjolano
+
+Package: me.jjolano.fmwk.modulous
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/iphoneos-arm64e/me.jjolano.fmwk.modulous_1.0.6_iphoneos-arm64e_4da4c18df1ad5733db19900bbf10fa0919df0ce61a786041e2cdf7cc044d120b.deb
+Size: 6248
+MD5sum: b2edd5ccd24f61fa5027a5f70269cfb6
+SHA1: ac6ae034cdd2665da744b7501636460594b02168
+SHA256: 4da4c18df1ad5733db19900bbf10fa0919df0ce61a786041e2cdf7cc044d120b
+SHA512: cd84ed71b1d2be11e891ec0be803be43f4229705fb223e46da0bc7139fad1950e8896d36e4729ee70128dbadb62fcddba3442a37db7fa05313be1a8906cf22e1
+Description: An iOS developer framework for modular software.
+Tag: role::developer
+Name: Modulous Framework
+Author: jjolano
+
+Package: me.jjolano.fmwk.modulous
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 8.0)
+Filename: debs/iphoneos-arm64e/me.jjolano.fmwk.modulous_1.0.8_iphoneos-arm64e_22f746ce4d736cc1213aea546136ae0b75d399dc914a97aae0d4e79d40cfd5ac.deb
+Size: 6160
+MD5sum: 901a4f026971684b57caf8af53e49ee6
+SHA1: e42a6924d1c041e352095c9e59c46f353b37b463
+SHA256: 22f746ce4d736cc1213aea546136ae0b75d399dc914a97aae0d4e79d40cfd5ac
+SHA512: 0c012650eb5f5c29f36da1bbb01ae2cefb845cc704fd29d009db1e0543790897d7bd2de3547460473423a4ea7a1ada057ce5e747ae845fcdb034cfe79404c187
+Description: An iOS developer framework for modular software.
+Tag: role::developer
+Name: Modulous Framework
+Author: jjolano
+
+Package: me.jjolano.fmwk.rootbridge
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Depends: firmware (>= 8.0)
+Filename: debs/iphoneos-arm64/me.jjolano.fmwk.rootbridge_1.0.0_iphoneos-arm64_4cbbbf90bd2092876f9eff0aa2f21bf6502fd0335e954aed932309c02c4ca505.deb
+Size: 4200
+MD5sum: 59e21d73b9669eac5bb5073ad2a95a6e
+SHA1: e9d5376ef5028634616d57eb9456efee0a73a945
+SHA256: 4cbbbf90bd2092876f9eff0aa2f21bf6502fd0335e954aed932309c02c4ca505
+SHA512: f58131cc82044b174cc09aa2b65b06ec5bc29e0e6a2b88015ee03d73f97612db00b7f2804260a7af887d2137ef0777d6e9cffe64415f67e96a01d47b77385f97
+Description: An iOS developer framework for rootless tweak development.
+Tag: role::developer
+Name: RootBridge Framework
+Author: jjolano
+
+Package: me.jjolano.fmwk.rootbridge
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Depends: firmware (>= 8.0)
+Filename: debs/iphoneos-arm64/me.jjolano.fmwk.rootbridge_1.0.1_iphoneos-arm64_296cd695c526277851996499b663379f499a2cb5664dd01ebd8e7ca4fabde342.deb
+Size: 3900
+MD5sum: b9d7968e906077d7260d20c1fed38078
+SHA1: 0dd9b178e606bf9e30296e37356bd897ceecb195
+SHA256: 296cd695c526277851996499b663379f499a2cb5664dd01ebd8e7ca4fabde342
+SHA512: 913aaa83eee97b7355e9dfd03f8169dad9cc3f36bca05b5da53352e492705e5d86d1a7d42bec9be62e9e9807e6bb8cae8807aa7af1ba4f063b6a5803daf2be72
+Description: An iOS developer framework for rootless tweak development.
+Tag: role::developer
+Name: RootBridge Framework
+Author: jjolano
+
+Package: me.jjolano.fmwk.rootbridge
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 8.0)
+Filename: debs/iphoneos-arm64e/me.jjolano.fmwk.rootbridge_1.0.0_iphoneos-arm64e_1cceedc0b7d25d2567147fbbaee23663df1820174bfa9c0c24be90778cbf398c.deb
+Size: 4072
+MD5sum: 88a50fe6ece2429e5d38b13a1f888be6
+SHA1: 3a704ebf95680cf98e0102f1f75aaf6fcbb47517
+SHA256: 1cceedc0b7d25d2567147fbbaee23663df1820174bfa9c0c24be90778cbf398c
+SHA512: c68b0e13fe6e3843a6768796034aea96c04262ca230de44b0f9b9a069aa2bc2ace6f63b894cdf0c2004513507c896aa1ecba9de1f1dbeb30afaf457efd6aed1d
+Description: An iOS developer framework for rootless tweak development.
+Tag: role::developer
+Name: RootBridge Framework
+Author: jjolano
+
+Package: me.jjolano.fmwk.rootbridge
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Development
+Maintainer: jjolano
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 8.0)
+Filename: debs/iphoneos-arm64e/me.jjolano.fmwk.rootbridge_1.0.1_iphoneos-arm64e_3ef7322955b4cc44affbe81082c67c9675899bbf203429c70accb73263de1569.deb
+Size: 4076
+MD5sum: fbd38e3c0d842ce89d331c79f84819c0
+SHA1: 3019d16936a380cab06a16d5fbc823060dcfd814
+SHA256: 3ef7322955b4cc44affbe81082c67c9675899bbf203429c70accb73263de1569
+SHA512: 92ec1bcbf98ce11dbffc9948a750c8c3c58d0ee7df0a3d38f225c1ec11a3947b77af411064692ff34b2d32551763d46efd993fe94a4e3cd964d3c31ae415fe9e
+Description: An iOS developer framework for rootless tweak development.
+Tag: role::developer
+Name: RootBridge Framework
+Author: jjolano
+
+Package: me.jjolano.hkmodule.dobby
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 216
+Pre-Depends: me.jjolano.fmwk.hookkit
+Depends: firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/me.jjolano.hkmodule.dobby_1.0.6_iphoneos-arm64_db8d48d08480c6efda847fb4f73b50787fa239fa4cfa2876edfb8e41138d769f.deb
+Size: 24364
+MD5sum: acb72b7371c01248598491604948f35b
+SHA1: 47b000c1c2e60dd1912f248c958004700336dd0c
+SHA256: db8d48d08480c6efda847fb4f73b50787fa239fa4cfa2876edfb8e41138d769f
+SHA512: f2d8e8c15e3544f5512422506d7f860b23cb97bda151c4067ce32c5d3e088df36bac047dd13ef77b8c5c546e2f15e7508326e1d0ad370fcfd1de1e0532ca0ec1
+Description: This module provides Dobby library support for HookKit Framework.
+Name: HookKit Module (Dobby)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.dobby
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 216
+Pre-Depends: me.jjolano.fmwk.hookkit
+Depends: firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/me.jjolano.hkmodule.dobby_1.0.7_iphoneos-arm64_a80daf71d13b47b3b23585ee8015d231d19f31973579f2a1eb00e89d5f0f7ad0.deb
+Size: 23776
+MD5sum: dfcd1122ed4f620b71ade22e146dab2a
+SHA1: a4454d34d1f18bf285c4ea6d6dffe91478eb3ace
+SHA256: a80daf71d13b47b3b23585ee8015d231d19f31973579f2a1eb00e89d5f0f7ad0
+SHA512: f7cc7562607944ec3ed03ae00b3c3305e9e6b169adabcf95ff77b4bbf9a1cd43b845c21e63ac064c4ff2cd2cffba8d8f28dc98f958c1aae513652c8b8cefdb33
+Description: This module provides Dobby library support for HookKit Framework.
+Name: HookKit Module (Dobby)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.dobby
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9), me.jjolano.fmwk.hookkit
+Depends: firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/me.jjolano.hkmodule.dobby_1.0.6_iphoneos-arm64e_a4f4f695ce1cacc70b2420a71475840d3c17f43c5f04b69fcd8e2d1f3bc4f91e.deb
+Size: 23948
+MD5sum: 841954f4a00516a338e322ce7adc693c
+SHA1: 4790ce0eb22fc47d95a1604b2a1a2a785f1ec916
+SHA256: a4f4f695ce1cacc70b2420a71475840d3c17f43c5f04b69fcd8e2d1f3bc4f91e
+SHA512: 868d702f1cde1da30d7d211422385f85d7d224edb96853e769378d2ce495f404749dabb25fb8ea4e00cce9736f5bfacf4178f378006c65a9709a6f3419902164
+Description: This module provides Dobby library support for HookKit Framework.
+Name: HookKit Module (Dobby)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.dobby
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9), me.jjolano.fmwk.hookkit
+Depends: firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/me.jjolano.hkmodule.dobby_1.0.7_iphoneos-arm64e_d1124a42122566d29495da209f3b161d213ac133b77a06a3b7ef6e6b88bef56f.deb
+Size: 23940
+MD5sum: 9e7a3aabd1758dee3b2bcf279f078f54
+SHA1: ec329a5ad8cdd071c491a0004c1279dd7a6444e3
+SHA256: d1124a42122566d29495da209f3b161d213ac133b77a06a3b7ef6e6b88bef56f
+SHA512: 2febf6950091d52afae3301fb9c3891a2d48d606128581aaa2cf46097b456355c50f483f3508424159bffa91c2709c1f1e26e52ef7cc0d30eb3a7efa27674d76
+Description: This module provides Dobby library support for HookKit Framework.
+Name: HookKit Module (Dobby)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.ellekit
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Provides: me.jjolano.hkmodule.substrate
+Depends: ellekit
+Filename: debs/iphoneos-arm64/me.jjolano.hkmodule.ellekit_1.0.6_iphoneos-arm64_05bc2d641bd8ca89ce8b2023624364d1712795cda9672f555dd80c9c7ee01d44.deb
+Size: 5220
+MD5sum: dfb4629f1d24229d3ad4eed86c541964
+SHA1: 5926932359726edbf32807fa3ecce2cb47b0bc3b
+SHA256: 05bc2d641bd8ca89ce8b2023624364d1712795cda9672f555dd80c9c7ee01d44
+SHA512: dfd03bcdb8c95fc192234d31a904729c6a573c73ff91778304978a0cebc2dc30dadf15160b7777faab00dd2b1c949ac025620ab590a60d939c8fb11ec8abfe9b
+Description: This module provides the ElleKit API for HookKit Framework.
+Name: HookKit Module (ElleKit)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.ellekit
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Provides: me.jjolano.hkmodule.substrate
+Pre-Depends: me.jjolano.fmwk.hookkit
+Depends: ellekit
+Filename: debs/iphoneos-arm64/me.jjolano.hkmodule.ellekit_1.0.7_iphoneos-arm64_7bdbb1b4c693c72780df966ada1b297fa0afdf547e201c8e9439c81814f5c68e.deb
+Size: 5008
+MD5sum: ca6b7a9a80d96913418f2928ec408bf6
+SHA1: 99bdfff13b55b23404ca2bb306d72a20444fca26
+SHA256: 7bdbb1b4c693c72780df966ada1b297fa0afdf547e201c8e9439c81814f5c68e
+SHA512: 76c93591d2119c1e383eec580d6e2c9e019f9decbc4edb6e4cd0d0dde70c8cc0fc5891713df709d506a3cceae3ffbb1148633f8ead4d7e7b058cbe1243140f02
+Description: This module provides the ElleKit API for HookKit Framework.
+Name: HookKit Module (ElleKit)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.ellekit
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Provides: me.jjolano.hkmodule.substrate
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: ellekit
+Filename: debs/iphoneos-arm64e/me.jjolano.hkmodule.ellekit_1.0.6_iphoneos-arm64e_015df69b0837468b6039c2cf018e9946085638bd68fe12df80945c860bf67880.deb
+Size: 5092
+MD5sum: 5baf2965ee2894144a51551d7a515a27
+SHA1: 4b9de73c1b52524f81f995f0231c2a1666dba596
+SHA256: 015df69b0837468b6039c2cf018e9946085638bd68fe12df80945c860bf67880
+SHA512: 49402c62ef07ded6cbc152a72bf40f6fa4414735279ad7795cb92145dd50dd82a45250c85f591487a6248aa1400b7bb7402e0f9f9547908b09e24f2aa8fae0e4
+Description: This module provides the ElleKit API for HookKit Framework.
+Name: HookKit Module (ElleKit)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.ellekit
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Provides: me.jjolano.hkmodule.substrate
+Pre-Depends: rootless-compat(>= 0.9), me.jjolano.fmwk.hookkit
+Depends: ellekit
+Filename: debs/iphoneos-arm64e/me.jjolano.hkmodule.ellekit_1.0.7_iphoneos-arm64e_97e3e0063e217e35ec61c812a622767db054333a9cbfc3fc35f06c580b7d97d5.deb
+Size: 5152
+MD5sum: 0f9ea7c3aca08c004bf8fa96bf4fc119
+SHA1: 770b2ea97258de921da2e99601b809fc6635fcb8
+SHA256: 97e3e0063e217e35ec61c812a622767db054333a9cbfc3fc35f06c580b7d97d5
+SHA512: 4fdc7a3f194183f5dbb173f0a0903a421fd85a912b28c94b066e8afb8dfcf30d2d1de310aafb5191e11f02ca7dd56dd0ad258abc33391fff685a573bd1af5d11
+Description: This module provides the ElleKit API for HookKit Framework.
+Name: HookKit Module (ElleKit)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.fishhook
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 172
+Filename: debs/iphoneos-arm64/me.jjolano.hkmodule.fishhook_1.0.6_iphoneos-arm64_c6a7d5cdd3d7e0381985612b903ec84c4ed39a4029693e02a7f1ae951aafe955.deb
+Size: 6740
+MD5sum: 0a78e385394f499551e0ca279a5cd81a
+SHA1: 6ddca626751678ae0bb9d51321c6ef33fdbd8c74
+SHA256: c6a7d5cdd3d7e0381985612b903ec84c4ed39a4029693e02a7f1ae951aafe955
+SHA512: 06fe539d588299c41e9b6fb9c3ca92a5746e79908a83baa78dd7369d3d671cae8a8a04c40faea44cdc816bd95940c291bc0afab62cde2922b53aae09702f408f
+Description: This module provides fishhook library support for HookKit Framework.
+Name: HookKit Module (fishhook)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.fishhook
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 172
+Pre-Depends: me.jjolano.fmwk.hookkit
+Filename: debs/iphoneos-arm64/me.jjolano.hkmodule.fishhook_1.0.8_iphoneos-arm64_8b6bccfdc1c66098ab5aacffbf10baeb3a71c4aca49df63dd308c5011bad15d3.deb
+Size: 6472
+MD5sum: 9f435c01d5945d97850988e729afa82f
+SHA1: e57fc88f8c86b12d062fd0a4d8bb97208ef677b9
+SHA256: 8b6bccfdc1c66098ab5aacffbf10baeb3a71c4aca49df63dd308c5011bad15d3
+SHA512: 4ca7ff2ead0c1ad157fc262d3af01c67d2a178e34c5c4a92a9b0cb15c19c062df071ff9f39c7fed1aedc68efce36c5ea8f09667c62709e8aa05dba328bac6252
+Description: This module provides fishhook library support for HookKit Framework.
+Name: HookKit Module (fishhook)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.fishhook
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/iphoneos-arm64e/me.jjolano.hkmodule.fishhook_1.0.6_iphoneos-arm64e_7919cd4a1d3d8c6582bbb42219d5f8ad90b838d0a9460c16efc636ee49adc107.deb
+Size: 6620
+MD5sum: 0091acc002fdd1ab1bfc2820b2ad4dee
+SHA1: 3a76f4b35779eb12487c3f5c3a5c782b8af7065e
+SHA256: 7919cd4a1d3d8c6582bbb42219d5f8ad90b838d0a9460c16efc636ee49adc107
+SHA512: 857726a7c785373f3f2cedaca4696959b5266c1661aa5f7ef0275a65ca6aaf0d331694c1efce041585d4f300f4eb16e4f9fa843e9ea05bdd37645c18e69991b2
+Description: This module provides fishhook library support for HookKit Framework.
+Name: HookKit Module (fishhook)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.fishhook
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9), me.jjolano.fmwk.hookkit
+Filename: debs/iphoneos-arm64e/me.jjolano.hkmodule.fishhook_1.0.8_iphoneos-arm64e_055781dc024b3909a2c50a5f9eb36be4e8e33cbb8d4e1c6869604dd338f7479f.deb
+Size: 6628
+MD5sum: 5e5a3ed7ede33427a17fbb3c17a12740
+SHA1: f2fdffe5702be34c5a3b662d7986c7f66dac87ee
+SHA256: 055781dc024b3909a2c50a5f9eb36be4e8e33cbb8d4e1c6869604dd338f7479f
+SHA512: 961fbfaaec0f784a77a7115a9bffb39ed72503c91923b1323f9e504567c45cc1c4242938a623acee1b244a690a92526ed87d6acea73c9eb03dde7c21e0c1975e
+Description: This module provides fishhook library support for HookKit Framework.
+Name: HookKit Module (fishhook)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.libhooker
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Provides: me.jjolano.hkmodule.substrate
+Depends: org.coolstar.libhooker (>= 1.0.0)
+Filename: debs/iphoneos-arm64/me.jjolano.hkmodule.libhooker_1.0.6_iphoneos-arm64_87a081e2c79fcd405471549354716f77472f5ed1fc8fcd26d74406a0701ec2fd.deb
+Size: 5300
+MD5sum: 9461193d6893ec0d7054a20fa0c40718
+SHA1: 80dff426c2b3f384f31ddc551e1d4e49d8b4d02b
+SHA256: 87a081e2c79fcd405471549354716f77472f5ed1fc8fcd26d74406a0701ec2fd
+SHA512: 5d0397d18f7a39addcb015a5dfeb38451812732b9a9730a1b60e7dbfaa29aec82fc89f4704a0934825109a5860f949d54127d04f1f5ebc4d101db156af8b4c81
+Description: This module provides the libhooker API for HookKit Framework.
+Name: HookKit Module (libhooker)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.libhooker
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Provides: me.jjolano.hkmodule.substrate
+Pre-Depends: me.jjolano.fmwk.hookkit
+Depends: org.coolstar.libhooker (>= 1.0.0)
+Filename: debs/iphoneos-arm64/me.jjolano.hkmodule.libhooker_1.0.7_iphoneos-arm64_d750f3a06230129eab2cd053060bd4bc78b658b8412dea6a09c4bdde084eba5f.deb
+Size: 5036
+MD5sum: d43550b7c73ef4278a0878b79e7edad8
+SHA1: b949c35a70d220aa6ecbbeeae735d40679c34c86
+SHA256: d750f3a06230129eab2cd053060bd4bc78b658b8412dea6a09c4bdde084eba5f
+SHA512: 30f9c1dbf06da577991bcf42ca79c188eb7856c573382f982d8c6b51b1d461ab43b15a332fce01a4bc254c0e58a983baf22f277ff1772f7e371e8960b9d2196e
+Description: This module provides the libhooker API for HookKit Framework.
+Name: HookKit Module (libhooker)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.libhooker
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Provides: me.jjolano.hkmodule.substrate
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: org.coolstar.libhooker (>= 1.0.0)
+Filename: debs/iphoneos-arm64e/me.jjolano.hkmodule.libhooker_1.0.6_iphoneos-arm64e_83d98f5c94ac1267823f031203925524013c21693ed43ff84feb23611f518b0c.deb
+Size: 5164
+MD5sum: 0b7583338a54cfd36630c14a0c9dfc66
+SHA1: ba2250e47a321981030fbc30d028040d20713c2a
+SHA256: 83d98f5c94ac1267823f031203925524013c21693ed43ff84feb23611f518b0c
+SHA512: dce00d7f15757bea2ff17811bfc1bdecabcb21736c8b9a86aeb84fe4adc0e9131c4253ed160b36ce14ddb24c247df170c6e9570aa171cff9c440482533153a0a
+Description: This module provides the libhooker API for HookKit Framework.
+Name: HookKit Module (libhooker)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.libhooker
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Provides: me.jjolano.hkmodule.substrate
+Pre-Depends: rootless-compat(>= 0.9), me.jjolano.fmwk.hookkit
+Depends: org.coolstar.libhooker (>= 1.0.0)
+Filename: debs/iphoneos-arm64e/me.jjolano.hkmodule.libhooker_1.0.7_iphoneos-arm64e_3c6a8fb6ef25f260d287b911e0f2d83c7bb3dc781723686699ed4a2184fb18af.deb
+Size: 5200
+MD5sum: 2f115e0b6e97f9fc0fb923a322450126
+SHA1: 0b796f834bcccdbdec7562650ed39dbd8c0ce665
+SHA256: 3c6a8fb6ef25f260d287b911e0f2d83c7bb3dc781723686699ed4a2184fb18af
+SHA512: 7f77e408a7e9ea6a38c13bbd08a890ef86e9a3be5a2e4dd6d753690216fc8df2919a587bbab0030620a63a268425c0c1dd632423bf34e30743c1d49d29fdc3d0
+Description: This module provides the libhooker API for HookKit Framework.
+Name: HookKit Module (libhooker)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.substitute
+Architecture: iphoneos-arm64
+Version: 1.0.10
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Provides: me.jjolano.hkmodule.substrate
+Pre-Depends: me.jjolano.fmwk.hookkit
+Depends: com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate
+Filename: debs/iphoneos-arm64/me.jjolano.hkmodule.substitute_1.0.10_iphoneos-arm64_7ab7ec1f6ac38428ccf674f6f0416fcf19cca8840a07c3b31e922110643b12c2.deb
+Size: 4820
+MD5sum: c1f6c77f93827075f892b786e1c1d001
+SHA1: d826f38d40e684cfdbfa7ea7c57854011b4f08da
+SHA256: 7ab7ec1f6ac38428ccf674f6f0416fcf19cca8840a07c3b31e922110643b12c2
+SHA512: ba0b5b700a40ab7ccf38c893b43cd4d17fc07a6445f3043cfdef2787e48750b6aab9a0bc81c67c520dcea59f3b3d837e4d6faa3e0b85913e00de65fe5e5b1818
+Description: This module provides the Substitute API for HookKit Framework.
+Name: HookKit Module (Substitute)
+Author: jjolano
