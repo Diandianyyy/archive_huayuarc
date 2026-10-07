@@ -2455,6 +2455,24 @@ Author: Mao
 icon: https://huayuarc.github.io/icon/leftPan.png
 
 Package: com.25mao.leftpan
+Architecture: iphoneos-arm64
+Version: 2.0
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Filename: debs/iphoneos-arm64/com.25mao.leftpan_2.0_iphoneos-arm64_e2ea6254c3218a21dc7521a28a140de05f3d389ae68d9102e860d5c383585f68.deb
+Size: 32536
+MD5sum: 973f84a087868f65f8735b2c6344d762
+SHA1: acf23d1987aa40cd4f3f4795749e6921ad0a27d8
+SHA256: e2ea6254c3218a21dc7521a28a140de05f3d389ae68d9102e860d5c383585f68
+SHA512: d5a5aba28c23c83767d330a50d3f759583ad72ba7e9d911d386d72c0251e8e550f6363422cb6686fa3244c348a90470a36c266762f3f820aad572251588ed690
+Description: 左滑返回上一页面
+Name: 左滑返回
+Author: Mao
+icon: https://huayuarc.github.io/icon/leftPan.png
+
+Package: com.25mao.leftpan
 Architecture: iphoneos-arm64e
 Version: 1.0-6
 Priority: optional
@@ -7557,6 +7575,25 @@ icon: https://huayuarc.github.io/icon/HotspotPro.jpg
 
 Package: com.dangkhoa.hotspotpro
 Architecture: iphoneos-arm64
+Version: 0.6.9
+Section: Tweaks
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Installed-Size: 1060
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.dangkhoa.hotspotpro_0.6.9_iphoneos-arm64_d50957fdcc71aa26d6057512aed595637085f6ffa4d675faee9c97b5c23aec08.deb
+Size: 100084
+MD5sum: 9f190cddf07e6799fc8a0df05d41ce0b
+SHA1: 1c24da5731f6222337c4a943a8e6e324bfcaec68
+SHA256: d50957fdcc71aa26d6057512aed595637085f6ffa4d675faee9c97b5c23aec08
+SHA512: b0ffa393782162723b3f53a40b9c49db213e4bd1b211c9d954e52c5942a3fa0d5ba49615a1cd5e8ed31a6012d1ca6b48aed6a9f3ddc645ef4afe6cf26d3b17cd
+Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
+Tag: purpose::extension, role::enduser
+Name: HotspotPro
+Author: DangKhoa <dangkhoa116@gmail.com>
+icon: https://huayuarc.github.io/icon/HotspotPro.jpg
+
+Package: com.dangkhoa.hotspotpro
+Architecture: iphoneos-arm64
 Version: 0.7.0
 Section: Networking
 Maintainer: DangKhoa <dangkhoa116@gmail.com>
@@ -7568,6 +7605,25 @@ MD5sum: b1ce98eac699fa9b7bfcfe1d96cc93e9
 SHA1: 0377c1a1dbfe4e534a8887f430b7f33445e5484b
 SHA256: 834bc7a864e983ae58d7a97ca4b7a7566fe987aabddf687ce368ca451a72391d
 SHA512: 855b519303a3a20b49af184f39fe154df387e639da14c44b13e7bd7ce5ac3adc19930f591128cb2c0a5df93386e2c073838ebcb6123eeaa791f0d7a8fcc0b142
+Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
+Tag: purpose::extension, role::enduser
+Name: HotspotPro
+Author: DangKhoa <dangkhoa116@gmail.com>
+icon: https://huayuarc.github.io/icon/HotspotPro.jpg
+
+Package: com.dangkhoa.hotspotpro
+Architecture: iphoneos-arm64
+Version: 0.7.0
+Section: Tweaks
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Installed-Size: 1064
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.dangkhoa.hotspotpro_0.7.0_iphoneos-arm64_73c55fa6613a2b334fe2e6dd6c2281bc293dd85b3d137510410cdb2f9f18ae55.deb
+Size: 106760
+MD5sum: 8c8f6dfceb4d2ee79b8372c654cca089
+SHA1: 7267fafdaae8ce2787468d9dcfab64cd4c245cbd
+SHA256: 73c55fa6613a2b334fe2e6dd6c2281bc293dd85b3d137510410cdb2f9f18ae55
+SHA512: 171991c69358cb7789a41053893dbb08311b7feafda45d7a1b0a31b4e605483cf7fa47d8a852c7e8e5d1caaff48d62c5de71cd880f4f4211b49ab11d1a07c706
 Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
 Tag: purpose::extension, role::enduser
 Name: HotspotPro
@@ -7596,6 +7652,26 @@ icon: https://huayuarc.github.io/icon/HotspotPro.jpg
 
 Package: com.dangkhoa.hotspotpro
 Architecture: iphoneos-arm64e
+Version: 0.6.9
+Section: Tweaks
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Installed-Size: 1060
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.dangkhoa.hotspotpro_0.6.9_iphoneos-arm64e_520da5224b672db8856126d4b2c148c4556ec38e19ca634c8da012c9e50d0fa1.deb
+Size: 97304
+MD5sum: a1fff10ca294db2315b76bffe645936d
+SHA1: b37f214500ea4d5fff9a78bfc3b5bc3688ea975d
+SHA256: 520da5224b672db8856126d4b2c148c4556ec38e19ca634c8da012c9e50d0fa1
+SHA512: 8ecf728a93b7c3d042ec1f4d4f2d1966ea8d6c3b891267df7e3f850fa2d249eb4a9eadbda6e413b24fe04b63452710db980582e49f33ccf6f9074be5a7645aa2
+Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
+Tag: purpose::extension, role::enduser
+Name: HotspotPro
+Author: DangKhoa <dangkhoa116@gmail.com>
+icon: https://huayuarc.github.io/icon/HotspotPro.jpg
+
+Package: com.dangkhoa.hotspotpro
+Architecture: iphoneos-arm64e
 Version: 0.7.0
 Section: Networking
 Maintainer: DangKhoa <dangkhoa116@gmail.com>
@@ -7608,6 +7684,26 @@ MD5sum: f0ace6ea230ad9e5f72d9e1caae35883
 SHA1: e9302a5479ab05e56b420604d419d6e8f3f623fe
 SHA256: 74e6107f37aef87427ec33ee60399ca1dc2f4e320b8cd65b23b561ef15122217
 SHA512: ceb0ba5d7f5ca8175f6538dc65a428e1e09bf5c141cd692616155a41cf9331ac7c1226f306c5901634892b4203db5f79e89665e427e6a160508daf9ac3274814
+Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
+Tag: purpose::extension, role::enduser
+Name: HotspotPro
+Author: DangKhoa <dangkhoa116@gmail.com>
+icon: https://huayuarc.github.io/icon/HotspotPro.jpg
+
+Package: com.dangkhoa.hotspotpro
+Architecture: iphoneos-arm64e
+Version: 0.7.0
+Section: Tweaks
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Installed-Size: 1064
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.dangkhoa.hotspotpro_0.7.0_iphoneos-arm64e_1d6976e83615470436f7f90957663cbe5ed79dc20b244fb2c9e932d8aa64a9eb.deb
+Size: 103548
+MD5sum: 28c8e8bbd4501031b1309c3d1b7fe789
+SHA1: ad22892dffc5895aa04494a6c0294f39e995b9be
+SHA256: 1d6976e83615470436f7f90957663cbe5ed79dc20b244fb2c9e932d8aa64a9eb
+SHA512: e7bfb44b20ab26526cee125c2836ca5a692a926be19bd9e5bac825d17d907f24384c8f4dc5664ee218e264598d097f56685da412fd67addd5c2bfccef2936bcc
 Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
 Tag: purpose::extension, role::enduser
 Name: HotspotPro
@@ -35601,6 +35697,23 @@ icon: https://huayuarc.github.io/icon/fanqiefn.jpg
 Author: 5hux1n
 
 Package: fanqiefn
+Architecture: iphoneos-arm64
+Version: 3.0.3
+Section: Tweaks
+Maintainer: 5hux1n
+Installed-Size: 240
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/fanqiefn_3.0.3_iphoneos-arm64_06d4bd86364d1f357455dccf9c5971bc6035c6109fd20088d6e01643c08e0a8c.deb
+Size: 28816
+MD5sum: 5e34516377b441a12ea2f58365099c82
+SHA1: f16a2a381d2ea28c6555c92d20334d43c7838fa4
+SHA256: 06d4bd86364d1f357455dccf9c5971bc6035c6109fd20088d6e01643c08e0a8c
+SHA512: 8809babae9ebc55e54f7f6c948c47f7b37b815e3062a048922dae497d0eae60eff75f33e29bc00b5d5889a4bdf00710d84e2e18846868a8cf8b6d7fa6fa6d3a8
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Name: 番茄净化
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+
+Package: fanqiefn
 Architecture: iphoneos-arm64e
 Version: 3.0.1
 Section: Tweaks
@@ -35634,6 +35747,57 @@ Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、
 Name: 番茄净化
 icon: https://huayuarc.github.io/icon/fanqiefn.jpg
 Author: 5hux1n
+
+Package: fanqiefn
+Architecture: iphoneos-arm64e
+Version: 3.0.3
+Section: Tweaks
+Maintainer: 5hux1n
+Installed-Size: 240
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/fanqiefn_3.0.3_iphoneos-arm64e_0e22904f1bd77b7c50846487977b2ff496eb8c9cf72326c8fe08f34bc2829df5.deb
+Size: 28716
+MD5sum: 93fb2eeb399ca59e759a24cf1ff79a8b
+SHA1: 5b2157023fd3c8544b54cfef735e02957fd9ba2d
+SHA256: 0e22904f1bd77b7c50846487977b2ff496eb8c9cf72326c8fe08f34bc2829df5
+SHA512: ceb073d8550a382447604f158e7abf08cc29c2ff6440f43d65b6283cf1e4b59c311e5186c6c871d53f25f4a53265f3bc9315086dba30773436bae4e2f11cf237
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Name: 番茄净化
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+
+Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: 5hux1n
+Installed-Size: 340
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/hongguofn_1.0.0_iphoneos-arm64_7ebabd1bd464e32460824811bae2677bbd11cdc9bb32b7ef7d3728c9837af60d.deb
+Size: 54952
+MD5sum: 3dae3ce5eaf7bb3c82c74c28e1ee1f45
+SHA1: 7f88ff10500f6068a56c04e436d6237b4dc2f389
+SHA256: 7ebabd1bd464e32460824811bae2677bbd11cdc9bb32b7ef7d3728c9837af60d
+SHA512: 369330cd3231dfa7a0e862a542ceaa3760260d15cd87a6dcde9fb6c35d9eba177bd3914c473a51a0d3f20cbe04f90a6b342610ace9c94131cb00c6881374dfbe
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: 5hux1n
+Installed-Size: 340
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/hongguofn_1.0.0_iphoneos-arm64e_04e0a5ac9af6a10fd773859cdf57f9a44ccd6c63b00dba2e3379b22390359ad8.deb
+Size: 54728
+MD5sum: 443d0a05725125125e50998deee40118
+SHA1: 8792c45c8fd564eadd853027af63bcebd105febe
+SHA256: 04e0a5ac9af6a10fd773859cdf57f9a44ccd6c63b00dba2e3379b22390359ad8
+SHA512: e843da0db0186a0af91f4c770dc79cbbbe183d108228133a14c77e0ed03afe5a8111a76110f32410238f04be9f4ff3cb125e92d5acc4138aa6172ab1cc631e3b
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+icon: https://huayuarc.github.io/icon/hongguo.png
 
 Package: im.mjh.fakeperm
 Architecture: iphoneos-arm64
@@ -35712,6 +35876,48 @@ ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Tags: compatible_min::ios15.0, compatible_max::ios17.0
 Author: Junhong
+
+Package: im.mjh.xianyuadblock
+Architecture: iphoneos-arm64
+Version: 3.0.0
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 488
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/iphoneos-arm64/im.mjh.xianyuadblock_3.0.0_iphoneos-arm64_7a9b942736b169c14b38ea98af0787de1a2816d2d7b48e25016519067e30e653.deb
+Size: 83076
+MD5sum: ccd705af8a5ce6db7c0b7229b179fdda
+SHA1: fd9e1f8217f49bbcbbda0863da97b1633b92262e
+SHA256: 7a9b942736b169c14b38ea98af0787de1a2816d2d7b48e25016519067e30e653
+SHA512: 00c6c93c3312c54b4272c2d67a0c833fdc739a821e34939ce3273d95752ed0b16d6eeeeb0759f6dc9c916dcb117bdd0d84385991b921a050b38c90b4a4c8466e
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Name: 闲鱼助手
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+
+Package: im.mjh.xianyuadblock
+Architecture: iphoneos-arm64e
+Version: 3.0.0
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 488
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/iphoneos-arm64e/im.mjh.xianyuadblock_3.0.0_iphoneos-arm64e_36d92a4d5da5612aaa69b8307a8641d19d9ea556d8f01b04c344fe89281b9e93.deb
+Size: 82968
+MD5sum: e184065a4d01197a6606094d309842f6
+SHA1: f338faeebcf652aea5eaffc96be57c328a8abdc8
+SHA256: 36d92a4d5da5612aaa69b8307a8641d19d9ea556d8f01b04c344fe89281b9e93
+SHA512: 1309326a353979b3dd7307de9c50eddb74c44cc7256e51265d8e4e36371f29ca37fe0d77706632154a5e6d0bdbb6cf52a85bd244886f3f33e71c850aaa7a8320
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Name: 闲鱼助手
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
 Package: im.mjh.xianyuhelper
 Architecture: iphoneos-arm64
@@ -37909,3 +38115,1749 @@ SHA512: ba0b5b700a40ab7ccf38c893b43cd4d17fc07a6445f3043cfdef2787e48750b6aab9a0bc
 Description: This module provides the Substitute API for HookKit Framework.
 Name: HookKit Module (Substitute)
 Author: jjolano
+
+Package: me.jjolano.hkmodule.substitute
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Provides: me.jjolano.hkmodule.substrate
+Depends: com.ex.substitute
+Filename: debs/iphoneos-arm64/me.jjolano.hkmodule.substitute_1.0.9_iphoneos-arm64_b28a6eb4652bd99f198ba51a1e77a4d32c43aaaa8a3103819e216fb4292341b5.deb
+Size: 5068
+MD5sum: 6a1f8a0a1cea400a252ae9a6f39a56dd
+SHA1: 1599b4ffe17f4f3018ece30590498d97996c2272
+SHA256: b28a6eb4652bd99f198ba51a1e77a4d32c43aaaa8a3103819e216fb4292341b5
+SHA512: b3c8f3eda938cd9fb169987fc44d055b81c8fdda5fa3f8db8f1b4ed79ccb6ac05be03859ed7181dc706e4d50858920a058fd1c42dac9a8c4855597c1605d95c4
+Description: This module provides the Substitute API for HookKit Framework.
+Name: HookKit Module (Substitute)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.substitute
+Architecture: iphoneos-arm64e
+Version: 1.0.10
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Provides: me.jjolano.hkmodule.substrate
+Pre-Depends: rootless-compat(>= 0.9), me.jjolano.fmwk.hookkit
+Depends: com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate
+Filename: debs/iphoneos-arm64e/me.jjolano.hkmodule.substitute_1.0.10_iphoneos-arm64e_0add13bcec0e8da4ed768c10880c66ed30d6bdf0efa694f6a8d7f2608bfaebf3.deb
+Size: 4976
+MD5sum: d614c4c8053bc20a9cfccf25b82269bb
+SHA1: 2153174162bc0c87f6fa8a10a63de63815ff9b32
+SHA256: 0add13bcec0e8da4ed768c10880c66ed30d6bdf0efa694f6a8d7f2608bfaebf3
+SHA512: 73180494c1dda636b1c96604ef6347e1888da8f55802eaf8a6e98e0eed7b957247246f127dfc9d1c7726e59e5f147be356a09e85e13635761f76cfd3000ff524
+Description: This module provides the Substitute API for HookKit Framework.
+Name: HookKit Module (Substitute)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.substitute
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Provides: me.jjolano.hkmodule.substrate
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.ex.substitute
+Filename: debs/iphoneos-arm64e/me.jjolano.hkmodule.substitute_1.0.9_iphoneos-arm64e_1f634a84ea2f37167d39b90ca4448ae1ef5a8299e9bb8e6031278e23833ffcb5.deb
+Size: 4932
+MD5sum: a2c9738308729500bb95c355304059ae
+SHA1: 90f2dd5251146fdfdd7b5814e7e4186f95b131c7
+SHA256: 1f634a84ea2f37167d39b90ca4448ae1ef5a8299e9bb8e6031278e23833ffcb5
+SHA512: 4036820074ac98294bf7fe418f4976d8b26c4971f45e1fb5e477326652bd9cf44f5ea8537366055f07b3c0748bf14a0af0fe9074e4871064e6749c1dda3d0fec
+Description: This module provides the Substitute API for HookKit Framework.
+Name: HookKit Module (Substitute)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.substrate
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/me.jjolano.hkmodule.substrate_1.0.6_iphoneos-arm64_c26c111cae8ff4df24550564ead34d34f33fe50350294b543d5abecd111be75a.deb
+Size: 4208
+MD5sum: c44da2c9385808784d1e114ba2acbc0d
+SHA1: f4e2f43ee047d32c0e5fc45306eddeda9fe67a95
+SHA256: c26c111cae8ff4df24550564ead34d34f33fe50350294b543d5abecd111be75a
+SHA512: 900f04c754abdea05125a558a506db02f7b68bbc644e900f7fd671f5addd32cebbd2e5810f0a529b92179eb04abc25a4b80bd662f8e28afc61ea75bfded2b093
+Description: This module provides the Cydia Substrate API for HookKit Framework.
+Name: HookKit Module (Cydia Substrate)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.substrate
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Pre-Depends: me.jjolano.fmwk.hookkit
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/me.jjolano.hkmodule.substrate_1.0.8_iphoneos-arm64_47ccd9b37816df05a3e08376e8a819e6dcc074850b93d29277bfaeb73d0491ab.deb
+Size: 3936
+MD5sum: 3ba36a7ab19f6d088043dc6940757677
+SHA1: 1d6e32c8846859cc025782a34dd493fc26b8cc0c
+SHA256: 47ccd9b37816df05a3e08376e8a819e6dcc074850b93d29277bfaeb73d0491ab
+SHA512: 9d7f1cf847b526d1e98a8c58226f590ad7e28bc0d73e526042f124eabc75b7a143ae2cb647a46617600f481cdae8eac4abf8e8d68d530e6dde5a3d6e5c550e92
+Description: This module provides the Cydia Substrate API for HookKit Framework.
+Name: HookKit Module (Cydia Substrate)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.substrate
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/me.jjolano.hkmodule.substrate_1.0.6_iphoneos-arm64e_0b708047992205a824be6032b98e3e002dc45220d38a89924feb09bf9dd32129.deb
+Size: 4084
+MD5sum: 97be469275811dad914d2829ef175f04
+SHA1: a6ab7b5f7d9e5a5eb9371fdc0ca4e6edd7d66640
+SHA256: 0b708047992205a824be6032b98e3e002dc45220d38a89924feb09bf9dd32129
+SHA512: 08927cb507bf5f04f83bbc1da780641fc323e0697e7570d1b1176ed59a70ad2be25a7df055054b81e820b9e25e39134a597f715b5327cde5052b6c5093d1b1d8
+Description: This module provides the Cydia Substrate API for HookKit Framework.
+Name: HookKit Module (Cydia Substrate)
+Author: jjolano
+
+Package: me.jjolano.hkmodule.substrate
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: HookKit (Modules)
+Maintainer: jjolano
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9), me.jjolano.fmwk.hookkit
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/me.jjolano.hkmodule.substrate_1.0.8_iphoneos-arm64e_433d7ef8e932df09be4f05190e11482da97c52119c3f7e73bbc422fa479c7576.deb
+Size: 4100
+MD5sum: 3c35c4f7e16f7a658392e2cefadb50b0
+SHA1: 5d05c6e88a61342c0abec4e7947a4475a194aa71
+SHA256: 433d7ef8e932df09be4f05190e11482da97c52119c3f7e73bbc422fa479c7576
+SHA512: 6ed35d12e46bcfc1dac1ab276970c2e53b43d88059d367e8ebf8fbe77d0f149930a45360aa4052359355b10a07f8397cf745d043b9e3feebd2e9864785b8f42f
+Description: This module provides the Cydia Substrate API for HookKit Framework.
+Name: HookKit Module (Cydia Substrate)
+Author: jjolano
+
+Package: me.jjolano.shadow
+Architecture: iphoneos-arm64
+Version: 3.7.3
+Section: System
+Maintainer: jjolano
+Installed-Size: 1080
+Provides: me.jjolano.shadow.beta
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Filename: debs/iphoneos-arm64/me.jjolano.shadow_3.7.3_iphoneos-arm64_9d51779e2a4afe8bbf3e4e5f614fbde79ca3923f489eba9d4df3efec999190b1.deb
+Size: 100560
+MD5sum: 8c0feaaa43255e8c8687672355f940e0
+SHA1: 9c266785ec4c8b696a0752a69597bab6a698cb94
+SHA256: 9d51779e2a4afe8bbf3e4e5f614fbde79ca3923f489eba9d4df3efec999190b1
+SHA512: 6b18fca1ec8683a9e6640577c9bfa89b06f64fbf925f47d5ce670f3f858a97487ac41c1775a58a9ccaec1797e163551f34a52212f10a5bf1a999923d4ca73878
+Description: A modern jailbreak detection bypass.
+Name: Shadow
+Author: jjolano
+
+Package: me.jjolano.shadow
+Architecture: iphoneos-arm64
+Version: 3.7.5
+Section: System
+Maintainer: jjolano
+Installed-Size: 1080
+Provides: me.jjolano.shadow.beta
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Filename: debs/iphoneos-arm64/me.jjolano.shadow_3.7.5_iphoneos-arm64_327ded106fb5d6299b4036a0c397452d673e39fa611c3fb51c47afe2af8573d6.deb
+Size: 100600
+MD5sum: 98d54b5c844efb843280d39358a24124
+SHA1: b65b044e86085f7008be312a0dcbe8c36b52e6c0
+SHA256: 327ded106fb5d6299b4036a0c397452d673e39fa611c3fb51c47afe2af8573d6
+SHA512: e9dda01e8e1f3b2a52204886efcb3b00eb1964f940427deb384a5bd5204dd4b1bf2969a61b174d712220ce5e59ac9ae6afdb529f1bb8835c29522502f33c4d78
+Description: A modern jailbreak detection bypass.
+Name: Shadow
+Author: jjolano
+
+Package: me.jjolano.shadow
+Architecture: iphoneos-arm64
+Version: 3.7.6
+Section: System
+Maintainer: jjolano
+Installed-Size: 1076
+Provides: me.jjolano.shadow.beta
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Filename: debs/iphoneos-arm64/me.jjolano.shadow_3.7.6_iphoneos-arm64_4e61102b4320dab28d8870b1b5586e9d3956e6fef4b9e0d3238fa94a2b624886.deb
+Size: 100852
+MD5sum: 602d746e9fb57bbfd8cb2950562fef5f
+SHA1: 3765ec5a20751e3eb895a810d4659eb6634e3c6f
+SHA256: 4e61102b4320dab28d8870b1b5586e9d3956e6fef4b9e0d3238fa94a2b624886
+SHA512: efc1bde0a9eb4c4c7d99d432de8674238502eacad0d18fe782ffe2e6084212bad39b1c61211cfe7a1719395fa0b834892e94f08ede746d10ae4c988c91db66f1
+Description: A modern jailbreak detection bypass.
+Name: Shadow
+Author: jjolano
+
+Package: me.jjolano.shadow
+Architecture: iphoneos-arm64e
+Version: 3.7.3
+Section: System
+Maintainer: jjolano
+Installed-Size: 1080
+Provides: me.jjolano.shadow.beta
+Pre-Depends: rootless-compat(>= 0.9), dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Filename: debs/iphoneos-arm64e/me.jjolano.shadow_3.7.3_iphoneos-arm64e_fb29c0a4e82aa06bfb686a248b3f9f1c28272de6eba3e3492985f92f27cf3cf4.deb
+Size: 98528
+MD5sum: b6c7d4f8914fe94a113dcbc3c635508c
+SHA1: 6e7ef3df47d3dd86af54f859fa9663eedcf95f19
+SHA256: fb29c0a4e82aa06bfb686a248b3f9f1c28272de6eba3e3492985f92f27cf3cf4
+SHA512: ab4e2831476be5271e9be70f73ecc8f6c52fa6ea5258c366bf2ad0a8fc89c65dc5645a9ba227aa361dc7fb4b18541242ed66b7f224fc95edf922359f9143c18e
+Description: A modern jailbreak detection bypass.
+Name: Shadow
+Author: jjolano
+
+Package: me.jjolano.shadow
+Architecture: iphoneos-arm64e
+Version: 3.7.5
+Section: System
+Maintainer: jjolano
+Installed-Size: 1080
+Provides: me.jjolano.shadow.beta
+Pre-Depends: rootless-compat(>= 0.9), dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Filename: debs/iphoneos-arm64e/me.jjolano.shadow_3.7.5_iphoneos-arm64e_b23c1fdb5ce48bd8a557124a54fa31629659382aa7e0803c38c1838a28d614fc.deb
+Size: 98704
+MD5sum: 9be9e825669a832b61e7db61209fbe38
+SHA1: 8920d8f864af16381491575b2abebcb99cd1cda3
+SHA256: b23c1fdb5ce48bd8a557124a54fa31629659382aa7e0803c38c1838a28d614fc
+SHA512: 6020a269efe35ff8d4de0217a882c6bd4e9be03ef1da2ab2a581ba75010c9aa359b9f72d5d3187160104525d4dd2724f9f02dcd8ad05834f9a549342294d11c1
+Description: A modern jailbreak detection bypass.
+Name: Shadow
+Author: jjolano
+
+Package: me.jjolano.shadow
+Architecture: iphoneos-arm64e
+Version: 3.7.6
+Section: System
+Maintainer: jjolano
+Installed-Size: 1076
+Provides: me.jjolano.shadow.beta
+Pre-Depends: rootless-compat(>= 0.9), dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Filename: debs/iphoneos-arm64e/me.jjolano.shadow_3.7.6_iphoneos-arm64e_6be78d1d69a9956519389c151cb6b18ccb504fba0866ca083436677429e7cbb8.deb
+Size: 98856
+MD5sum: f621947d5bf799994793a46ab473187f
+SHA1: 6916144302dfa7948e7a834c2abed17808a2b720
+SHA256: 6be78d1d69a9956519389c151cb6b18ccb504fba0866ca083436677429e7cbb8
+SHA512: d12ad3cf3086ddfcbc78ca9ed30614eb837978bf07782a58f23edfbd6b7db97692f95276f349e050084fc56fc428fe8003dc5475f1088867e94efe5b51710681
+Description: A modern jailbreak detection bypass.
+Name: Shadow
+Author: jjolano
+
+Package: me.lau.atria
+Architecture: iphoneos-arm64
+Version: 1.4.1-11
+Section: Tweaks
+Maintainer: ren7995
+Installed-Size: 1008
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro,acreson.rootless.cj.atria
+Filename: debs/iphoneos-arm64/me.lau.atria_1.4.1-11_iphoneos-arm64_b1dc7acbdacc1f9f96c3c8584608dc5f1fe455df41bad14c618bae2b79ce7c69.deb
+Size: 213756
+MD5sum: 83d2572344861545c01bed7e9c94f184
+SHA1: 2c2eb4b4c1ba72b5f5947c697158280f53ed8e7e
+SHA256: b1dc7acbdacc1f9f96c3c8584608dc5f1fe455df41bad14c618bae2b79ce7c69
+SHA512: b3a266c3e64ca4723478b73de28cc3d27f59e3092a73c39b531c1a80d7dedb53139d36c249326ffe6cc0227817e4ae9ee59581c12891139baa8f52eb24e7f0b5
+Description: iOS 13-16 自定义桌面图标布局，可以修改5x5布局，移除APP名称显示！美化桌面，[1.4.1-11: 二进制补丁版,在原版 dylib 上最小化修补,修复 iOS17 待机模式(StandBy)崩溃;不重编译,规避 1.4.1-9/10 无法加载/开机卡死的问题]
+Name: Atria
+Author: ren7995
+Sponsor: ren7995
+icon: https://huayuarc.github.io/icon/Atria.png
+
+Package: me.lau.atria
+Architecture: iphoneos-arm64e
+Version: 1.4.1-11
+Section: Tweaks
+Maintainer: ren7995
+Installed-Size: 1008
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro,acreson.rootless.cj.atria
+Filename: debs/iphoneos-arm64e/me.lau.atria_1.4.1-11_iphoneos-arm64e_1e08a4fd14131e08888638dc7e283134435f1d0d7121da0d3f9cc1be0c65de72.deb
+Size: 211356
+MD5sum: a59168d5a58f8a635b5059cb77137c49
+SHA1: 4b36ba3ae8251751e21daf056b9bb3c9c07a01ba
+SHA256: 1e08a4fd14131e08888638dc7e283134435f1d0d7121da0d3f9cc1be0c65de72
+SHA512: 12a2426b12d92bdd484fb4f77804819e73f85f0b45987e64a964653933c8960e4bb5b5c8b41a6e70aeba32160290635b4f5b6082f781233817b9d8bef355e492
+Description: iOS 13-16 自定义桌面图标布局，可以修改5x5布局，移除APP名称显示！美化桌面，[1.4.1-11: 二进制补丁版,在原版 dylib 上最小化修补,修复 iOS17 待机模式(StandBy)崩溃;不重编译,规避 1.4.1-9/10 无法加载/开机卡死的问题]
+Name: Atria
+Author: ren7995
+Sponsor: ren7995
+icon: https://huayuarc.github.io/icon/Atria.png
+
+Package: me.luki.arizona
+Architecture: iphoneos-arm64
+Version: 0.9.2
+Section: Tweaks
+Maintainer: Luki
+Installed-Size: 796
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: debs/iphoneos-arm64/me.luki.arizona_0.9.2_iphoneos-arm64_10669451f2163345268d3451b9d12c9ab75cf523ca2088c42cf2f74bafc6a836.deb
+Size: 427784
+MD5sum: 4c03126549abc5230ee337fb68f8e2f9
+SHA1: 6cee8af63761ca7b71a76e1388af702c0b60734b
+SHA256: 10669451f2163345268d3451b9d12c9ab75cf523ca2088c42cf2f74bafc6a836
+SHA512: d5c8783c16ee7b971aef9686d5ce31324a3cdf42b311c230da8e13582d865cabdc2d3e4cd2cf9b7bed91c08b7c95e2449407c3340444f27f5c070fb1647938b0
+Description: Move the stock clock, date and lock glyph on the fly
+Name: Arizona
+Author: Luki
+icon: https://huayuarc.github.io/icon/Arizona.png
+Depiction: https://luki120.github.io/depictions/web/?p=me.luki.arizona
+SileoDepiction: https://luki120.github.io/depictions/native/me.luki.arizona/depiction.json
+
+Package: me.luki.arizona
+Architecture: iphoneos-arm64e
+Version: 0.9.2
+Section: Tweaks
+Maintainer: Luki
+Installed-Size: 796
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: debs/iphoneos-arm64e/me.luki.arizona_0.9.2_iphoneos-arm64e_8ef31546b854f14fa43c91e832b2acb8a7c0f84a4343529d54f001a20db7dd76.deb
+Size: 427236
+MD5sum: db18b2448576aababa417989d9a86505
+SHA1: 3342d06cc580715d8a1c2ae876da07b322fc772d
+SHA256: 8ef31546b854f14fa43c91e832b2acb8a7c0f84a4343529d54f001a20db7dd76
+SHA512: 4408eb4a4713e45bdc80d3d9762f6dd873cfa0b899b8bdb143b3b279545144bb30a00f72691ebd22466d1a1ca39fcb86cc99cbf8134e5b72020c15ed95baedf3
+Description: Move the stock clock, date and lock glyph on the fly
+Name: Arizona
+Author: Luki
+icon: https://huayuarc.github.io/icon/Arizona.png
+Depiction: https://luki120.github.io/depictions/web/?p=me.luki.arizona
+SileoDepiction: https://luki120.github.io/depictions/native/me.luki.arizona/depiction.json
+
+Package: me.luki.stealthcc
+Architecture: iphoneos-arm64
+Version: 0.9.1
+Section: Tweaks
+Maintainer: Luki
+Installed-Size: 364
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/me.luki.stealthcc_0.9.1_iphoneos-arm64_ed19b973e41687e039c515b40879a7617df0a35b0cdbd348c1287239240cbf42.deb
+Size: 21496
+MD5sum: 66c602dad1ab5155c0aff0dbbe1aebf2
+SHA1: bd7e578c9f59d36d89174f6f2cc0fc92fab49573
+SHA256: ed19b973e41687e039c515b40879a7617df0a35b0cdbd348c1287239240cbf42
+SHA512: 1776788f374d4b9736a0f4c210d0fd5a7d09f49aefaac6e1c09f6ba4213c565c286ad4f32190d646d23a14ed449ade26b5ebf6a69d52077798b265855f0a6951
+Description: 自定义控制中心背景的模糊程度，当模糊程度为零时会直接删掉背景，达到开着控制中心的时候还能操作别的地方的神奇操作
+Name: 自定义控制中心模块背景模糊
+Author: Luki
+Icon: https://huayuarc.github.io/icon/StealthCC.png
+
+Package: me.luki.stealthcc
+Architecture: iphoneos-arm64e
+Version: 0.9.1
+Section: Tweaks
+Maintainer: Luki
+Installed-Size: 364
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/me.luki.stealthcc_0.9.1_iphoneos-arm64e_a95e2d6fa5f0437a6de5115ffafd5172632b91789789c8fdc1f4ff623c5b7d84.deb
+Size: 20972
+MD5sum: ae5fa5f23548e96bd5569341af11aa7b
+SHA1: 6f1474c5b93502eaac7ee159589e4255cb15b3b1
+SHA256: a95e2d6fa5f0437a6de5115ffafd5172632b91789789c8fdc1f4ff623c5b7d84
+SHA512: 9bc8126aa58d39849c79dcf00ec9de12e74f7b5a39de55e54fdfd99ffb618daa632eed2bd1f82cff96b7d6192b93de63d5b53b9ac39ca89aecefd861ef8b24da
+Description: 自定义控制中心背景的模糊程度，当模糊程度为零时会直接删掉背景，达到开着控制中心的时候还能操作别的地方的神奇操作
+Name: 自定义控制中心模块背景模糊
+Author: Luki
+Icon: https://huayuarc.github.io/icon/StealthCC.png
+
+Package: net.nyyh
+Architecture: iphoneos-arm64
+Version: 1.2.522-1+debug
+Section: Tweaks
+Maintainer: liuwenyi
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/net.nyyh_1.2.522-1+debug_iphoneos-arm64_a87cd9ed3a8af36551cd9ab5522728a8d538f4b1f4bcd9cb7a4efe165837cb26.deb
+Size: 32628
+MD5sum: cbb89e7750c2ea92a9fcc6c01776d092
+SHA1: 888df298b90dda99566fbe7228d331e4e7b1dac9
+SHA256: a87cd9ed3a8af36551cd9ab5522728a8d538f4b1f4bcd9cb7a4efe165837cb26
+SHA512: 2488c1f07858c1da8d208d64c58de1b21b1867ddce815d744e40a3ace0f001f73fee134d7cb5f8026c78b12266b2cfa0c202b576b83a634eacae3312e074c958
+Description: 中国农业银行11.2.x 启动与越狱提示兼容插件，如无效果下载插件单独注入应用即可解决。
+Author: liuwenyi
+Name: 中国农业银行闪退修复1.2.522
+icon: https://huayuarc.github.io/icon/nyyh.jpg
+
+Package: net.nyyh
+Architecture: iphoneos-arm64e
+Version: 1.2.522-1+debug
+Section: Tweaks
+Maintainer: liuwenyi
+Installed-Size: 304
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/net.nyyh_1.2.522-1+debug_iphoneos-arm64e_e97b4b49a6d54772982a8b9e43fb64e831e75bb13c2120c219540d3abe75afa4.deb
+Size: 31716
+MD5sum: 2498ac3849d46b23eb1c2231bba503a8
+SHA1: 9206eb7d5a68f1b5458beea224b9cbc745728985
+SHA256: e97b4b49a6d54772982a8b9e43fb64e831e75bb13c2120c219540d3abe75afa4
+SHA512: af0b21b3555fca1c87538cbc5e85fc255efc8e8a93cb1c9790b2f2e91c1b4c5c74ab48200e4e0584624662141553b59f312c1a9cf3c0884b4e033a2c15dd367f
+Description: 中国农业银行11.2.x 启动与越狱提示兼容插件，如无效果下载插件单独注入应用即可解决。
+Author: liuwenyi
+Name: 中国农业银行闪退修复1.2.522
+icon: https://huayuarc.github.io/icon/nyyh.jpg
+
+Package: net.p0358.disintegratelock
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: p0358
+Installed-Size: 488
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.14)
+Filename: debs/iphoneos-arm64/net.p0358.disintegratelock_1.0.2_iphoneos-arm64_eb4aeb6b14595d9f0fcafbdb410192497f59284d760cd2c294f198046bd5b846.deb
+Size: 67028
+MD5sum: 6740e06fb3bf44e3a88dd8f3fa5d3bf6
+SHA1: f940807f36f61c6a25dc8abfc995877822f69356
+SHA256: eb4aeb6b14595d9f0fcafbdb410192497f59284d760cd2c294f198046bd5b846
+SHA512: bf6a4f55e77f8e08401d4d67fe618a2449abadd4d4909eba0968560a858b52d7dca86433c95665493f2b95d5f2c8b6def0126c99d7ed1a9a994982528dc43fae
+Description: 一个牛逼的息屏动画特效！
+Name: DisintegrateLock 息屏特效
+Author: p0358
+Icon: https://huayuarc.github.io/icon/DisintegrateLock.png
+
+Package: net.p0358.disintegratelock
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: p0358
+Installed-Size: 488
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.14)
+Filename: debs/iphoneos-arm64e/net.p0358.disintegratelock_1.0.2_iphoneos-arm64e_d7deb901978d8ecbcf9db665b20d1e190e34957781dc914e14410c5cf96baba4.deb
+Size: 65736
+MD5sum: 4f2f16f4441e5be5e4c94065b0bb6b18
+SHA1: cc5d1caba846f487ee2ca8d83025b25c12a1f42a
+SHA256: d7deb901978d8ecbcf9db665b20d1e190e34957781dc914e14410c5cf96baba4
+SHA512: a166f74f8c11754fbcbee73ba64b4cf0d2d5c51ef7d13c29702890fb0da6f1566e49f85e54aaa9e36451e7b6cb5da7bce831c538d1cd374ad493ba9abcaae928
+Description: 一个牛逼的息屏动画特效！
+Name: DisintegrateLock 息屏特效
+Author: p0358
+Icon: https://huayuarc.github.io/icon/DisintegrateLock.png
+
+Package: net.sourceloc.pinanim
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: sourcelocation
+Installed-Size: 604
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
+Filename: debs/iphoneos-arm64/net.sourceloc.pinanim_2.0_iphoneos-arm64_c3ee1703e7e360d82c5abd256fa4af5911a68c149fdbfb47ac9c97c4d135d6ed.deb
+Size: 77488
+MD5sum: 5d0f04296f63362f35a7352d38278dd0
+SHA1: 599f842d08b5e26bd5d484825863bfc3f7c02284
+SHA256: c3ee1703e7e360d82c5abd256fa4af5911a68c149fdbfb47ac9c97c4d135d6ed
+SHA512: 10c91f1b7c007cf0a4db78b1b309033ef80a940bb88d6361beb4dcda9ac48a55223d02751c2a306d49bdbfd1ab2a21487c5e75687413f45e48c8a6da671bf2ef
+Description: 密码界面的密码弹跳动画，非常丝滑酷炫！
+Name: PinAnim密码弹跳动画
+Author: sourcelocation
+Icon: https://huayuarc.github.io/icon/PinAnimIcon.png
+
+Package: net.sourceloc.pinanim
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: sourcelocation
+Installed-Size: 604
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
+Filename: debs/iphoneos-arm64e/net.sourceloc.pinanim_2.0_iphoneos-arm64e_358c28e81dce5d70fc91c7641efcc170422376d912b2a9a809c08b643c2d1928.deb
+Size: 77596
+MD5sum: ca5b47d0663214e314184eb296c5d336
+SHA1: d69a157f68ace36667d9b02d1e2682b641fc8c3b
+SHA256: 358c28e81dce5d70fc91c7641efcc170422376d912b2a9a809c08b643c2d1928
+SHA512: d9e3f2a8522596279c1d115bff382ed80048a156d6ec93b47e19b6e312707d1dd26a2191a63a9488fe860fdf9d92b123abb69af6b8672ef85e549b04230bf020
+Description: 密码界面的密码弹跳动画，非常丝滑酷炫！
+Name: PinAnim密码弹跳动画
+Author: sourcelocation
+Icon: https://huayuarc.github.io/icon/PinAnimIcon.png
+
+Package: netskao.alipayscan
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets <xuanhua880@gmail.com>
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/netskao.alipayscan_1.2-2_iphoneos-arm64_359970d131ad12a01ec8517bd43e0b1b762b7f9b4dd541b96b7adde0ba1381c3.deb
+Size: 43020
+MD5sum: 5d35fa50086b46f6c20038c2e4eb8fc8
+SHA1: bb50ad7f534beea615f21a5299500a70a3d8ee65
+SHA256: 359970d131ad12a01ec8517bd43e0b1b762b7f9b4dd541b96b7adde0ba1381c3
+SHA512: 96409f69a08c7ab45f0874b65819b5c7dd857460f00f5a82ae338fd736d55042369b1b8bf532328acf3803e9315a9a30f0b6a02a0b41e39ddd85a417f39c3bec
+Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
+Name: AlipayScan
+Author: Netskao <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/alipayscan.png
+
+Package: netskao.alipayscan
+Architecture: iphoneos-arm64e
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 160
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/netskao.alipayscan_1.2-2_iphoneos-arm64e_66bebccf4c53b9fd99f8fb91154f87c96970a28b9b1cfc15a34bae955956b12a.deb
+Size: 43200
+MD5sum: d429a56fd166c5a7a06008421d336fda
+SHA1: 9ac89145387c1e9b13c9e88a3a54fe2c2f965661
+SHA256: 66bebccf4c53b9fd99f8fb91154f87c96970a28b9b1cfc15a34bae955956b12a
+SHA512: dccc7e8239bbc0db179e57f0786e54a6517de3ab3d0ae8b5580013f19a754331c14340a4388325b65e2db0886037fd3b404e82be52275d8955d6ca412d529519
+Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
+Name: AlipayScan
+Author: Netskao
+icon: https://huayuarc.github.io/icon/alipayscan.png
+
+Package: netskao.autofaceunlock
+Architecture: iphoneos-arm64
+Version: 1.1-7
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 452
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/netskao.autofaceunlock_1.1-7_iphoneos-arm64_c0aada41b18bd428142aee93c35ff2f69ae285522b0cd7f2ff668c4692086278.deb
+Size: 63552
+MD5sum: 61e87f308d7ef585cb6a921ed925f7ff
+SHA1: b06c69afd532b138af6e66b0492d3ab61b82464e
+SHA256: c0aada41b18bd428142aee93c35ff2f69ae285522b0cd7f2ff668c4692086278
+SHA512: ef6479e6689b07645ee9e14758de0fb241737fccff6db231b5c7c702085b30c3de5dbdedc4ef09a211dabede7665f53008058a19afb4c7d5524db884afe8fbf6
+Description: 面容识别成功自动解锁无需滑动，原生函数更为节电，可设置锁屏收到通知时不自动解锁，锁屏正在播放音乐时不自动解锁，锁屏手电筒打开时不自动解锁，面容识别失败后自动重试，面容延时解锁，请勿和其他类似插件一同食用
+Name: AutoFaceUnlock
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.batterypercentx
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.batterypercentx_1.1-1_iphoneos-arm64_eaa9e86dfbd025e600ba5e152c727722c41b7c1212f15975a8cf27a08f456b40.deb
+Size: 5952
+MD5sum: 70731f7b957467782c672c7598a4eb2b
+SHA1: e21c5ff6d5fb0fe5cefd021104cbe83e2422ed1e
+SHA256: eaa9e86dfbd025e600ba5e152c727722c41b7c1212f15975a8cf27a08f456b40
+SHA512: ecb3566b9a9a6ed47e24954307aea2435535e59c6e40f38c90e88cc674b92e323c290fc64fa5196e71a2daef6ccc4cdd69233d2eb24b3bf68f99f926a7243009
+Description: BatteryPercentX启用系统原生电池百分比，加深边框颜色，加深充电时电池颜色
+Name: BatteryPercentX
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.blblnoads
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 328
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.blblnoads_1.1-2_iphoneos-arm64_08faae62ea995e52759ed1b4d8cfd852178e26b6b5795bff1a0344dca0e57d95.deb
+Size: 73492
+MD5sum: 6b420b3ed105aac658da81a8f763ec78
+SHA1: 601adb8367e6b5f8d7e74aef4b8153bb1ee9ef5b
+SHA256: 08faae62ea995e52759ed1b4d8cfd852178e26b6b5795bff1a0344dca0e57d95
+SHA512: 877ceed8d6498949d8a037520e722dccba71b4295215f9d578810770ae8c5601bbdbbfa3775b38b5dcd3aebf462b7619c0f6d6e473259e56d27671b7e5531fbc
+Description: 哔哩哔哩去除启动广告, 去除青少年提示, 去除AppStore评分提示, 去除底部动态\发布\会员购按钮, 去除瀑布流中插入广告, 去除视频详情页面推荐视频中的创作推广, 去除评论区顶部会员推广, 我的页面推广等, 仅支持7.48.0及以上版本
+Name: 哔哩哔哩 NoAds
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.cccellularrate
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 616
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/netskao.cccellularrate_1.1-1_iphoneos-arm64_9ebc2f3085e9921c2c34858f9bf01ceb114a2e7de29964b7a29f37b436f9f419.deb
+Size: 89844
+MD5sum: 529e64be2b8aefe765593f2b8426b399
+SHA1: f34f63d2fc1a2e4ceddee53771ec282343ef5548
+SHA256: 9ebc2f3085e9921c2c34858f9bf01ceb114a2e7de29964b7a29f37b436f9f419
+SHA512: a852e03240bed5ad8ab4944d19a414221cc82e0cc14d366ab3f1deff01cfa306a64efd34d156fe4614441632b504f3233fc4a10e8eaffe89949c895fb5cb2377
+Description: Quickly switch the type of cellular data 2/3/4/5G currently in use via the Control Center, only the types supported in the current device settings will be displayed
+Name: CCCellularRate
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.ccsim
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 188
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/netskao.ccsim_1.1-9_iphoneos-arm64_9b1795bde127c03364fe6504bb710f85cc70bc52f8787e4b4ffb96d45b1178fa.deb
+Size: 23452
+MD5sum: c673037bb8222e4339cffca8090aaace
+SHA1: 9f25abacd23100aaf0a798fc60273b010d459b2f
+SHA256: 9b1795bde127c03364fe6504bb710f85cc70bc52f8787e4b4ffb96d45b1178fa
+SHA512: e01ddcebe4973c9742f51197b0201c329af733f92b6b36c06ba6d381623c3bd34aacca39dec4e2316d44d14e2980a052b7bd4e50696ae6c71cec3981c53c6187
+Description: For dual-SIM cards, you can quickly enable or disable one of the SIM cards through the Control Center
+Name: CCSIM
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.ccswitchdata
+Architecture: iphoneos-arm64
+Version: 1.1-4
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 132
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/netskao.ccswitchdata_1.1-4_iphoneos-arm64_3a425faacc5b15574000fb607107db1d4a8ee8ab74a47c6732973b8d947579f5.deb
+Size: 20824
+MD5sum: 18a799a809a6204e1cba457cb057e144
+SHA1: 554e6ede631bdaea2e55f1ec5dcef6a94707e091
+SHA256: 3a425faacc5b15574000fb607107db1d4a8ee8ab74a47c6732973b8d947579f5
+SHA512: 01d08192a4fed8de20c0276c702d5f6872d0e5af545480c27d250e4222a2048310eccc96edb71d7b26d9d79479891854dcd3af58e23cfcd26021b11d0a3764f9
+Description: For dual-SIM cards, the selected cellular network can be switched quickly via the Control Center
+Name: CCSwitchData
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.disablectnotifyui
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 136
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.disablectnotifyui_1.1-1_iphoneos-arm64_670096d3ccce8c93a27428f9f51515a206c6bbf5c437352ba021667e92af4033.deb
+Size: 2380
+MD5sum: 464ecde4cf5cd8a92f1360c11fd64f76
+SHA1: 2f8f14eee212d4accd8dc2eaa5aa1fbed5ef45ee
+SHA256: 670096d3ccce8c93a27428f9f51515a206c6bbf5c437352ba021667e92af4033
+SHA512: 10d7961f05832a11cc2bc50a9d6cb46cc54d8ab39ea49cb9c6baa9a1c0476f03e1c6cd320cadc2a380bfae5d56a5bfc5b320ba13439bc35fa8f232513b1b64c7
+Description: Disable telephony welcome notifications
+Name: DisableCTNotifyUI
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.disablepastetips
+Architecture: iphoneos-arm64
+Version: 1.1-5
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.disablepastetips_1.1-5_iphoneos-arm64_07497f9fa028eb5377469d01ea4a21da10c489c3b5128d78b38aa48871a07c7d.deb
+Size: 3076
+MD5sum: eb0b218c18e61f98bf494838a9250f8d
+SHA1: f7e42f62906244ea8d8c06c239a2fcfdb73d74da
+SHA256: 07497f9fa028eb5377469d01ea4a21da10c489c3b5128d78b38aa48871a07c7d
+SHA512: 762abd75fb44a65b0c4130b0343ae0bce5025825241697bd87488b1ceb1489142bc1ead9e40db3e13795145819d830e605439e6f2acd69c5eb1e88dd72467a27
+Description: Disable paste tips, Support iOS14-iOS15
+Name: DisablePasteTips
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.disabletestflightblock
+Architecture: iphoneos-arm64
+Version: 1.1-4
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 104
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.disabletestflightblock_1.1-4_iphoneos-arm64_fea6f4afa468641cc460676c3709c02cbe3cfa9b021763187879e3119906405b.deb
+Size: 13084
+MD5sum: 5a83069f041985af8e3d52a7490857cc
+SHA1: 50854f725167bfa87441e41817043632791b52a5
+SHA256: fea6f4afa468641cc460676c3709c02cbe3cfa9b021763187879e3119906405b
+SHA512: a617b9e9cbc6778a6f888002ee7c368d0ac9438bf54572c3bb35e68d1a3e4f0d3cced358c2e12e9637849c6aecd66f7ccf88e78f82e91206d8472b4f1f5a22c8
+Description: 解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用
+Name: DisableTestFlightBlock
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.hideallbar
+Architecture: iphoneos-arm64
+Version: 2.1-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 152
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.hideallbar_2.1-1_iphoneos-arm64_964814e478b533172a3d214bfe888ca7a28c75d7404e194aa33fc1d760f55686.deb
+Size: 4028
+MD5sum: dfecca80a2b161a6380e3df364932500
+SHA1: d41aba927d2e79016b63a5dc5f26f41ae3be09e6
+SHA256: 964814e478b533172a3d214bfe888ca7a28c75d7404e194aa33fc1d760f55686
+SHA512: 15fe305f3d41a1fc8b9c09e433e2e1655208cad8620adb6ef0b639e56d139765de07821efeacbc285b99d28621c786b25b20261b8e6a076a970b63fc45dd94a2
+Description: 隐藏X系列的所有地方的黑条，且没有任何影响（例如横屏游戏时依旧需要上滑两次退出）
+Name: HideAllBar
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.hpyybhooks
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 428
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.hpyybhooks_1.1-2_iphoneos-arm64_7d92b7cbbfd15807fb73fef3c10c450221d4640e51b84ce92d7eb316390c2c33.deb
+Size: 100732
+MD5sum: 44451bfed74acceb202a2864024b4fd9
+SHA1: 729a2e407cd0655562bbf0de5c29b9e873ad9bee
+SHA256: 7d92b7cbbfd15807fb73fef3c10c450221d4640e51b84ce92d7eb316390c2c33
+SHA512: 883766b7920d6e49505005e5365c4a5c0dd6eccd89e96dadccf9eeaff45a2a48d4a73564a6a1756bb4cc273b0d7d8f75f97368ef039c475586f8a484f9665854
+Description: 很皮语音包Hooks, 解锁VIP语音包, 去除所有广告, 增加长按语音下载
+Name: 很皮语音包 Hooks
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.killapps
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 2160
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/netskao.killapps_1.2-2_iphoneos-arm64_e92cb993398e63a99537725298e52db6c7c5a7985642897eeab1d900be5cd666.deb
+Size: 932836
+MD5sum: 016592dff656383ba65d9aff16f2cf40
+SHA1: abd3176d36fc47f80d79b208f7728a2250c5c43f
+SHA256: e92cb993398e63a99537725298e52db6c7c5a7985642897eeab1d900be5cd666
+SHA512: aaf30198168902e4841ae5afdc51af34e481bc4b685da5f469cade4f4a13eb410be89637374701721cdf8083b98c36a1ec92e54be58eb690f6c14e14e4840717
+Description: Add quick clean all background function for background switcher. Support clean up whitelist, support slide up blacklist
+Name: KillApps
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.limneoscrack
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/netskao.limneoscrack_1.1-3_iphoneos-arm64_9db6e2ef5845044b670c5402e182b21ce65d353ea775ea35cd932fef73c2672e.deb
+Size: 10468
+MD5sum: e9b76bc5e1fce13a429243c39ba9474a
+SHA1: 44b8352bef3a98ccb544bde919d32c007a6c1cb2
+SHA256: 9db6e2ef5845044b670c5402e182b21ce65d353ea775ea35cd932fef73c2672e
+SHA512: 6b2a09a73ac84ec40c4762e29b7d717963904b3467df0862bc762328a720900101495f1d8fc61de5a056a2b48cf326f09d7cc83d95e6d20b784be3dbaf19375e
+Description: 解锁Limneos所有插件全功能
+Name: Limneos Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.limneoscrack
+Architecture: iphoneos-arm64e
+Version: 1.1-3
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/netskao.limneoscrack_1.1-3_iphoneos-arm64e_0a52e5b8509707e3deb1e942e04d19172a562d6167d9abd1ede0f92baa1d611a.deb
+Size: 10316
+MD5sum: a9d811bf53b7d8080dae4f7fb19e7325
+SHA1: 4c0baec34beb91a7038d5834cf55cc8254a9cbaa
+SHA256: 0a52e5b8509707e3deb1e942e04d19172a562d6167d9abd1ede0f92baa1d611a
+SHA512: a9cb830001a7554ac256612356e35ec674be1e2da1207d210e3caacfe316dd42ef3fdf53f27e7d43ee90e44204cee44a8bd9c00a6abd0724a4d74b6ba869a0fb
+Description: 解锁Limneos所有插件全功能
+Name: Limneos Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.lookinloader
+Architecture: iphoneos-arm64
+Version: 1.2-0
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 1692
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.lookinloader_1.2-0_iphoneos-arm64_7f265cf35b025bee6f0e4ba82382ddb7f40df44398821f5bf145924b3d661c25.deb
+Size: 332984
+MD5sum: e32fbffc90a590e69f8b54b09dff64b2
+SHA1: 212cc481e3a894825e2e1eac7fc5b3f25c2ff229
+SHA256: 7f265cf35b025bee6f0e4ba82382ddb7f40df44398821f5bf145924b3d661c25
+SHA512: 673273d47998b11db811986603097f921cc87790a9df428f6e52813df1979444c8096eca90b73b1b72a74c6279c65551387cc57d1d4c47fa50b97bd29635ffa9
+Homepage: https://github.com/QMUI/LookinServer
+Description: LookinServer dynamic loading tool, loaded by desktop long press icon to bring up the menu
+Name: LookinLoader
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.mgtvnoads
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 376
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.mgtvnoads_1.1-2_iphoneos-arm64_f9c66c11d59278f848c738658b86e4d031d77ef970300f2e9dc20b4f1e507836.deb
+Size: 84292
+MD5sum: 4f9e5df913dd59b9902a99a2bb7f6017
+SHA1: ce1563d6076090cbac1ae53e8750091926968e52
+SHA256: f9c66c11d59278f848c738658b86e4d031d77ef970300f2e9dc20b4f1e507836
+SHA512: 61394d8db365f60e3e8e1b27c99eb3826893292f64715031b022a431f404a05d6d00a91e55e02eee553370e749b1fd98c7aa8ec13e34ad7d5d5c4a21e145812a
+Description: 芒果TV去除启动广告，去除暂停广告，去除悬浮广告等
+Name: 芒果TV NoAds
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.perfectxtime
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/netskao.perfectxtime_1.1-3_iphoneos-arm64_0df5b0bb35064444aa5f3465672bab12369d33bf9cab17e42b64ca008b5f14ab.deb
+Size: 8676
+MD5sum: 54973b19be5fcdcfe863ea3abb193ffa
+SHA1: cc878610cf8c14084afab008047883b22ba319e7
+SHA256: 0df5b0bb35064444aa5f3465672bab12369d33bf9cab17e42b64ca008b5f14ab
+SHA512: 01f790f91f28566a8ee5ec938a5726380d32c5aae177a82cb70fee173ba998d4562deeb86b1e677b3d1b943bdf772eda21fff0a012f261025f054281dd784787
+Description: PerfectXTime修改于PerfectTimeXS，修复13之后的小问题，无设置，仅时间+星期格式，纯自用，录屏时自动恢复默认时间，以免错位
+Name: PerfectXTime 状态栏时间格式
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.perfectxtime
+Architecture: iphoneos-arm64e
+Version: 1.1-3
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/netskao.perfectxtime_1.1-3_iphoneos-arm64e_3e8cc94727d018a7021186ea01ad53f249110e38771648bb3eb5a0a94e566fea.deb
+Size: 8872
+MD5sum: 61fd8ebf13a6dd6eb13b17ecfec4ecfb
+SHA1: cf6eda4c33b393398845e2d11187ba9375930034
+SHA256: 3e8cc94727d018a7021186ea01ad53f249110e38771648bb3eb5a0a94e566fea
+SHA512: 4be652b7bf91cfbafe1031f9c072eacd58fe009a0208ef9ad9c3ec8979800cdfaf6b08ed2671b650afd32f88d70c536dd500adbc19e84d3c1d01358dbef34337
+Description: PerfectXTime修改于PerfectTimeXS，修复13之后的小问题，无设置，仅时间+星期格式，纯自用，录屏时自动恢复默认时间，以免错位
+Name: PerfectXTime 状态栏时间格式
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.picsartcrack
+Architecture: iphoneos-arm64
+Version: 1.1-5
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 376
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.picsartcrack_1.1-5_iphoneos-arm64_591cb0c2f6a9b58022782e5680aef5c3124790ff2769972756a863c3e66540e4.deb
+Size: 89344
+MD5sum: 772187132d07ca5208e709d75be64d53
+SHA1: 40778b0adba14ad90f4f8843e7624abcce55a869
+SHA256: 591cb0c2f6a9b58022782e5680aef5c3124790ff2769972756a863c3e66540e4
+SHA512: b83befac086a94093b2ffe3118c3a12a7ef7bd29bc6e3f3b359219cd7a59aaf65ebf62f09375266bebf2ee7fb72fec940bd8cf70c0906c3435dbb1c835122791
+Description: PicsArt美易解锁全功能，仅支持中国区20.7.9及以上版本
+Name: PicsArt Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.ppxnoads
+Architecture: iphoneos-arm64
+Version: 1.5-5
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 344
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/netskao.ppxnoads_1.5-5_iphoneos-arm64_1e9eb10156686bf765e65a70e0541e9e91571e93a220354af7b6b4c7347a0a5c.deb
+Size: 76552
+MD5sum: b43c06119764ef5d2b66b45448a8b2db
+SHA1: 56b25b067c4108c1160b1b6f102b290edbeeeef6
+SHA256: 1e9eb10156686bf765e65a70e0541e9e91571e93a220354af7b6b4c7347a0a5c
+SHA512: d2d774cd96d2a511c3748b0bcee84b6440b87f3914aa163c944ca4ff90a6629973588e5e5898222bfcf0d6e5c8d107c2287de9ec93df20dfd74c80d1942b74d5
+Description: 皮皮虾去除启动广告，去除评论广告，去除视频流广告，去除推荐信息流中直播，去除长视频播放完后结尾广告，去除视频流中皮皮虾官方活动横幅，去除随机弹出评分提示和版本内测更新提示，去除部分视频左下角商品广告，去除测试版更新提示，去除AppStore评分提示，去除青少年提示，修改非详情页面时始终显示插眼而非弹幕开关，所有视频可保存为动态壁纸，保存视频和图片去水印，保存视频和图片去水印，使用原始按钮保存即可(播放时和查看时就有水印的视频不属于去水印范围)，仅支持4.7.5及以上版本
+Name: 皮皮虾 NoAds
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.pullclearnc
+Architecture: iphoneos-arm64
+Version: 1.1-8
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.pullclearnc_1.1-8_iphoneos-arm64_82c5afce76ac51911a35b634242bc04c1247348513619aec7794bd46d0a105a3.deb
+Size: 6792
+MD5sum: c8fa4ac7ec8abb2d8bb764ebae1f752a
+SHA1: e506a92eb2f295b3b02146f754acebf171033cf8
+SHA256: 82c5afce76ac51911a35b634242bc04c1247348513619aec7794bd46d0a105a3
+SHA512: d6ae263589e5b88077d966a00eaf775c7afe3c38648a53ddb99b72657cd40b285c017464874580310840de26f942d4d5559fd66ad84862de3fe6a99a599d8630
+Description: Notifications page quick drop down to clean up all notifications
+Name: PullClearNC
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.quantumultxlauncher
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 164
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/netskao.quantumultxlauncher_1.1-2_iphoneos-arm64_ac6127553c701c714223a8e32c03c15d5df22c2d91c76a9a04b942388b699141.deb
+Size: 15152
+MD5sum: 5632a47d11dfa07523cfa4ffef765bb2
+SHA1: 34d43c3cf09c8bb610ad8a861a78868644282954
+SHA256: ac6127553c701c714223a8e32c03c15d5df22c2d91c76a9a04b942388b699141
+SHA512: 77bd4c8eb4b8c41d12ec7b0e285aa20cf04b868e5bb2f8513aaef9ed36521c0213d98afaad092214c04739deb9479d023c09e894a5f501907b47ca26dff7e3ec
+Description: 通过控制中心快捷进入QuantumultX
+Name: QuantumultXLauncher
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.showtouch
+Architecture: iphoneos-arm64
+Version: 1.0.4-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 2412
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/netskao.showtouch_1.0.4-2_iphoneos-arm64_b157be6f3f18232f582f527313a3c7fd7669320494174a3c2298287a601ad402.deb
+Size: 580472
+MD5sum: c0ffb9762297ed1a178a51acd0eff154
+SHA1: 5c438748732137ca736556cbb3aac99c24e97178
+SHA256: b157be6f3f18232f582f527313a3c7fd7669320494174a3c2298287a601ad402
+SHA512: b4bf16c4553844f25af1155bc32b6ef21f7fefa492be33f475e39242b1db173cfbb3ae82383b2c9e7c8fd9eda3b9d6767148355348bb1b55d310739a4e6c9d93
+Description: Shows where you touch the screen
+Name: ShowTouch
+Author: LonestarX
+icon: https://huayuarc.github.io/icon/ShowTouch.png
+
+Package: netskao.tinyccmodules
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 212
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/netskao.tinyccmodules_1.1-1_iphoneos-arm64_77412e7ae8c969b01bb980ebdaf4b72f00e9e2546cbefe6eb5ec844d9f062561.deb
+Size: 31320
+MD5sum: a673b97bbd20491c357f141138f6edeb
+SHA1: 1ec0b055d4ca632e53c5a2061375a53cd9986319
+SHA256: 77412e7ae8c969b01bb980ebdaf4b72f00e9e2546cbefe6eb5ec844d9f062561
+SHA512: 6f434e668fd59286ceb21c297079a367fa8431855c57e9338fd71330b6b4165caaed48984aab72098bb3ff1f7ad48d9abcc317227a08dc85ecaa92101965c976
+Description: Tiny CCModules. TinyDisplayModule and TinyMediaAudioModule
+Name: TinyCCModules
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.twitternoads
+Architecture: iphoneos-arm64
+Version: 1.4-5
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 440
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.twitternoads_1.4-5_iphoneos-arm64_aec78617e4c2821557ec1df19037e5d4b75bad48484557ff5ae2e0c5bfedd17d.deb
+Size: 100744
+MD5sum: 0dbb814674cbf6c3bafb973a0cc48ebe
+SHA1: 1923b26d8374f6f746bebad2994747e99ea7a8f5
+SHA256: aec78617e4c2821557ec1df19037e5d4b75bad48484557ff5ae2e0c5bfedd17d
+SHA512: fc606593bb38ec5e34f64b1d2b3afce9be7931d44e6e88136c23bfedc7da8790081aa014f7f3ddc0ccf2be07e9f371d0cc096cef4e549bf31cc7f84d5d8add5b
+Description: Twitter去除信息流中广告，去除搜索页面趋势信息流中广告，去除左侧中的广告选项和专业版选项，去除首页顶部视频和空间，禁用推特自定义字体，禁用链接跳转检查，修改搜索历史记录仅显示5条为显示所有，增加喜欢或撤销喜欢推文二次确定，增加瀑布流按钮保存视频或图片至相册，仅支持9.39及以上版本
+Name: Twitter NoAds
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.vscocrack
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 408
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.vscocrack_1.1-3_iphoneos-arm64_cd7c3b2b3c65f093c3340932ed057176fefcbceba750dfb367fc43beb8081983.deb
+Size: 92548
+MD5sum: 6492c28fe4b4e0a03540e7d5f800d818
+SHA1: 6d0e9d5fe962bef3e901270193ce472ac8f668c3
+SHA256: cd7c3b2b3c65f093c3340932ed057176fefcbceba750dfb367fc43beb8081983
+SHA512: 36c73cf5c474cbccde57d77344e81da775c012d58aaf3fcc5e0d1290a9c0d3cc549980d6d02c12f44ad0279ed56445ec326cf62e58bccb9aa49f3c94692c57a1
+Description: VSCO解锁全功能，仅支持316.0.0及以上版本
+Name: VSCO Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: netskao.wechatscan
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets <xuanhua880@gmail.com>
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/netskao.wechatscan_1.2-2_iphoneos-arm64_90e538bd34b13f524676b9e1ac75ecaea3dfe04e683e2ded8b92a5f45a99b6c4.deb
+Size: 28712
+MD5sum: 08b2d582c4c967808f3b2ff2f6a5303d
+SHA1: 882ec8822b00f68095a28e2495a040f82a3ece11
+SHA256: 90e538bd34b13f524676b9e1ac75ecaea3dfe04e683e2ded8b92a5f45a99b6c4
+SHA512: 168669ddd464ec9e845055c74b3767437534eedac220b0ad27d418985b3b68ce48cead76a949fec417582a14fed04292f079d92bc0b84fb8f83d57936b76c6ee
+Description: 通过控制中心快捷打开微信扫一扫，设置-控制中心-自定控制内添加后使用
+Name: WeChatScan
+Author: Netskao <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/wechatscan.png
+
+Package: netskao.wechatscan
+Architecture: iphoneos-arm64e
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 160
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/netskao.wechatscan_1.2-2_iphoneos-arm64e_6ea933faf180656b0abce118a15f56d4b6b0a0d81bbb9e607366416a354c3871.deb
+Size: 28872
+MD5sum: 55ab3d84c8846e389ae7d0ffea60f1e8
+SHA1: cee71b25cc375afec939be469001b2d6b8343170
+SHA256: 6ea933faf180656b0abce118a15f56d4b6b0a0d81bbb9e607366416a354c3871
+SHA512: bdedd95b0fab42154df387bea8bda9a964728d303faa139014af116d1317aa6d5bf85c78be457ef330f21693ae083f6267827987d7addf6f1a27994ef3f6e053
+Description: 通过控制中心快捷打开微信扫一扫，设置-控制中心-自定控制内添加后使用
+Name: WeChatScan
+Author: Netskao
+icon: https://huayuarc.github.io/icon/wechatscan.png
+
+Package: netskao.wrecycrack
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 376
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.wrecycrack_1.1-1_iphoneos-arm64_62c93e7fc45b2bff313c92cf349be2deff7c6f7b44e8b08f957d81da75b5a001.deb
+Size: 84056
+MD5sum: f2f8175760d04eb116c586af51701392
+SHA1: 7a8d562184b4750679235fc06df113353c829593
+SHA256: 62c93e7fc45b2bff313c92cf349be2deff7c6f7b44e8b08f957d81da75b5a001
+SHA512: 817460a7ca19e9d640a6c1aeff512a51264b60c29627132e52d2167d7d4008f4759fe320ab12b62f31e792c9e1cf3590c791b455833078866059dc209c83f9d5
+Description: 无染二次元去除所有广告
+Name: 无染二次元 NoAds
+Author: Netskao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: nodejs22-ios-roothide
+Architecture: iphoneos-arm64e
+Version: 22.12.0-27
+Priority: optional
+Section: Development
+Maintainer: DaFei
+Depends: firmware (>= 14.0), ldid
+Filename: debs/iphoneos-arm64e/nodejs22-ios-roothide_22.12.0-27_iphoneos-arm64e_e3ad25ad16cb0797b55a290161e14c1ef4b364b45cf963e563dfafee7530ff93.deb
+Size: 23727236
+MD5sum: 1545f92232ee59637edd4e0a827b4b55
+SHA1: 65c9f3c8d1ab445796032289dff9544f4637ea91
+SHA256: e3ad25ad16cb0797b55a290161e14c1ef4b364b45cf963e563dfafee7530ff93
+SHA512: b79deb7c8f24e0930dbd8d02ee5dd7e4bd8bfb5cb74be509cdce5d820b84f6f0c26874f2152050b964e99e7bd2855d6e6371f9dca58ce768595c22fa449d3724
+Description: Node.js 22.12.0 for iOS arm64 (side-by-side as node22)
+ Node.js v22.12.0 runtime compiled for iOS arm64.
+ Installs as node22/npm22/npx22 to avoid conflicts with other Node versions.
+ Includes bundled npm 10.9.0 and pre-signed with iOS entitlements.
+ .
+ Node.js 22.12.0 iOS arm64 运行时。
+ 以 node22/npm22/npx22 安装，不与其他 Node 版本冲突。
+ 内含 npm 10.9.0.
+Name: Nodejs22-ios
+
+Package: nodejs22-ios-rootless
+Architecture: iphoneos-arm64
+Version: 22.12.0-27
+Priority: optional
+Section: Development
+Maintainer: DaFei
+Depends: firmware (>= 14.0), ldid
+Filename: debs/iphoneos-arm64/nodejs22-ios-rootless_22.12.0-27_iphoneos-arm64_0a164b0cd193771e45c6a9d07dff182c63df7e338a86daeaac345a0743947c65.deb
+Size: 23724096
+MD5sum: 529689b89412f1d0f4790b12b198185b
+SHA1: 69c86599c4bb38d27b29c7f6fdb38e5b00062f47
+SHA256: 0a164b0cd193771e45c6a9d07dff182c63df7e338a86daeaac345a0743947c65
+SHA512: fa0befdcc3f52dac5d5f8d61c2e01ebce1c2e1704ec71cad0c57bf00826131bc4f698a11a63d997d21560ad908aadd6918af331d80c3ccb8db72e6e515683497
+Description: Node.js 22.12.0 for iOS arm64 (side-by-side as node22)
+ Node.js v22.12.0 runtime compiled for iOS arm64.
+ Installs as node22/npm22/npx22 to avoid conflicts with other Node versions.
+ Includes bundled npm 10.9.0 and pre-signed with iOS entitlements.
+ .
+ Node.js 22.12.0 iOS arm64 运行时。
+ 以 node22/npm22/npx22 安装，不与其他 Node 版本冲突。
+ 内含 npm 10.9.0.
+Name: Nodejs22-ios
+
+Package: nolowpowermode30secautolock
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: Brend0n
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/nolowpowermode30secautolock_1.0_iphoneos-arm64_303d41ae8c4113a4dd6cc13ec246872bc6e0ddffc9610627bb91c7a9364fb004.deb
+Size: 3972
+MD5sum: 6a53c05c44b010862296957eb9c5a2a6
+SHA1: 4b670ba3b75eae32d768777d81cb7ca416c0c1f4
+SHA256: 303d41ae8c4113a4dd6cc13ec246872bc6e0ddffc9610627bb91c7a9364fb004
+SHA512: 32112bbdb504e2cc44311202f2336183dd520bf4ccfa6b62514b0b5d88b888ba4c9e93d009aba715c965ebfdce5f79828dfa0da01f2b6ef0e39be37ec0ad79d5
+Description: 在低功耗模式下本地调整自动锁定间隔.
+Name: NoLowPowerMode30SecAutoLock
+Author: Brend0n
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.nolowpowermode30secautolock
+SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.nolowpowermode30secautolock/depiction.json
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: nolowpowermode30secautolock
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/nolowpowermode30secautolock_1.0_iphoneos-arm64e_70fa1fef6f2fb4d6a575b7429ba755ba9d253d0616ce9e97c52ebf8ab93a0a2a.deb
+Size: 4300
+MD5sum: d44727e9b42207c523bcbc490f26446c
+SHA1: 056c8573f28e11adb0852ba024e819ade7e34f40
+SHA256: 70fa1fef6f2fb4d6a575b7429ba755ba9d253d0616ce9e97c52ebf8ab93a0a2a
+SHA512: ccf4bd9ca56af0ab4ffbe1a45c4f0b1837dc8674ff2752ef19673fbf758a20124395826f54c2791e9842620bc6f2bcd18a6c39effe41d776e26558f63c226dd9
+Description: 在低功耗模式下本地调整自动锁定间隔.
+Name: NoLowPowerMode30SecAutoLock
+Author: Brend0n
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.nolowpowermode30secautolock
+SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.nolowpowermode30secautolock/depiction.json
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: oldabi
+Architecture: iphoneos-arm64
+Version: 0.3.2
+Section: Tweaks
+Maintainer: Evelyn
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/oldabi_0.3.2_iphoneos-arm64_054175b0126f13ddf5d7ae7c5fa8191e7991c8fa94a20db938e6f2042c46169f.deb
+Size: 15032
+MD5sum: 88d7f9716ff12d3f5197e4efcfa2db4f
+SHA1: e82d715b4166860d90924a33149814ab607b3b5e
+SHA256: 054175b0126f13ddf5d7ae7c5fa8191e7991c8fa94a20db938e6f2042c46169f
+SHA512: 2d1cb024930e8439b8bca4edf1d66b7d5ed55fdef15201fd7328f795ac5fa9972d2faf80b1aa8118f5a4a2c2870d23e2a61d18ee4365265dfb4ff268b542f545
+Description: 支持iOS15.0+中的传统arm64eABI。上传仅为源主测试使用，不懂这是什么的无关人员禁止安装。
+Author: Evelyn
+Icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/oldabi/js.json
+Name: Legacy arm64e Support
+
+Package: org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64
+Version: 1.6.9.1
+Section: Tweaks
+Maintainer: Bailey Seymour
+Depends: firmware (>= 6.0)
+Filename: debs/iphoneos-arm64/org.thebigboss.libcolorpicker_1.6.9.1_iphoneos-arm64_2e93afbc8cd221995e46ec44cb6236ff5da7d462c2c09ef3cd309abe90cae462.deb
+Size: 71112
+MD5sum: 1c33f9f6cc279e8cc4baba7214578d61
+SHA1: 51568268d62a3548aeac34de9f09cb556a221d49
+SHA256: 2e93afbc8cd221995e46ec44cb6236ff5da7d462c2c09ef3cd309abe90cae462
+SHA512: 596608c46a6b0e20012ec0a554cf53f91e0abac3ea3b0ef76cd2008d9ed8bcee6770d772bbd1e0d75c778bed53940799b731cd8a9b98060720fcd73acc94cef2
+Description: 有些插件需要这个依赖
+Author: Bailey Seymour
+icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/libcolorpicker/js.json
+Name: libcolorpicker (Unofficial)
+
+Package: preferenceloader.top
+Architecture: iphoneos-arm64
+Version: 2.2.8-2
+Section: System
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 340
+Provides: preferenceloader (= 2.2.6)
+Depends: mobilesubstrate
+Conflicts: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Replaces: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Filename: debs/iphoneos-arm64/preferenceloader.top_2.2.8-2_iphoneos-arm64_df91e71c7e627555472294d06ecfe3fe655435f4bdca6dfa4e33f2a207d0e21a.deb
+Size: 16808
+MD5sum: f2aa5ef7d262ebbec399e375e07a8c12
+SHA1: 36e20a037abbb1e09845c40d3534884bc97071cc
+SHA256: df91e71c7e627555472294d06ecfe3fe655435f4bdca6dfa4e33f2a207d0e21a
+SHA512: a78e5125bb4c92f814a4648434d0a2296a983cc4fea2eb7ef5272e5c0f3d217222be14a68da57ca1a5df2297819e8db236a5af850e6ff3f34d21e32ea2fc1b52
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader (Top)
+
+Package: preferenceloader.top
+Architecture: iphoneos-arm64e
+Version: 2.2.8-2
+Section: System
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 340
+Provides: preferenceloader (= 2.2.6)
+Depends: mobilesubstrate
+Conflicts: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Replaces: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Filename: debs/iphoneos-arm64e/preferenceloader.top_2.2.8-2_iphoneos-arm64e_d4ffa6dd89da96fdaeb6cb2f7875dd5353526f0a918d56c2fd1acfb9e1fccf3b.deb
+Size: 15180
+MD5sum: e954fa42f5044abe9ec0021638fb28ae
+SHA1: 0c7d90fbea66e281cc9ceecea0e9841a1481c843
+SHA256: d4ffa6dd89da96fdaeb6cb2f7875dd5353526f0a918d56c2fd1acfb9e1fccf3b
+SHA512: e970209c20f74ffd9d6c3c67570d6749a4938fab3b87694e20e80c11f64a2ebd76f00babcb1b0a6a852f21c24de151cf0672a0492398fa8964f28974875ef43f
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader (Top)
+
+Package: qqantirecall.x
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 1032
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/qqantirecall.x_1.3_iphoneos-arm64_fe1d6e0bcfdbac54c7cdc6e95750864c888fa0724a735d028901b0ad59aa7785.deb
+Size: 1317284
+MD5sum: ca8bb8c97f8ecbc405c98d79112d6b53
+SHA1: a7b2b2938df26b0ea663f48ab28e6f8798710dc9
+SHA256: fe1d6e0bcfdbac54c7cdc6e95750864c888fa0724a735d028901b0ad59aa7785
+SHA512: fba7fd65be6de0369f92591c26ef5a11479c7f7c14c12ba4272f3105dccbee139556370e349de6c77a9fcc042bb4841b2ca6115f0469c78b257a774be9daa45c
+Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
+Name: NTQQ_AntiRecall 图层QQ防撤回
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+
+Package: qqantirecall.x
+Architecture: iphoneos-arm64
+Version: 1.6
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 1084
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/qqantirecall.x_1.6_iphoneos-arm64_e2ca2a274cc4be05ff20bd503f39cb85e28526e091d72f25ebbb6ed364c9d7d5.deb
+Size: 1334448
+MD5sum: 81262bb53265b13167376a2b878882bb
+SHA1: 119abbccee2113ba77f269296826776a0023a45e
+SHA256: e2ca2a274cc4be05ff20bd503f39cb85e28526e091d72f25ebbb6ed364c9d7d5
+SHA512: ea600439edb14e25a5072338ab96b6f68a083f5bbdf75554fc82ef68558ff757548187ead111cc1a9cd860055b87de5396908b6a96df284f6aad9e803a9bbbf8
+Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
+Name: NTQQ_AntiRecall QQ防撤回图层
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+
+Package: qqantirecall.x
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 1148
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/qqantirecall.x_1.6.2_iphoneos-arm64_c0653e5ab4ddb50b418dcc8a7a37914406555500f38c77030e18ac6f65bd1edf.deb
+Size: 382200
+MD5sum: 8203db3aebb56c994a4e155b0712b64b
+SHA1: 9989f05c58d59fd1392d534d8849a1690376f3ad
+SHA256: c0653e5ab4ddb50b418dcc8a7a37914406555500f38c77030e18ac6f65bd1edf
+SHA512: f86061adfae19dc24c4bca86c847414e01a8d40a55d197cc89a765080eb55a7428521119091efdd9a1cfd09706f20a195c8e24bb387bbd90993f9af9a226e14e
+Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
+Name: NTQQ_AntiRecall QQ图层
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+
+Package: qqantirecall.x
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 1032
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/qqantirecall.x_1.3_iphoneos-arm64e_0caaedeba433b71f99b02a15d2f8e01d7e2a9ce97b2a2685703f43506a2ebf99.deb
+Size: 1305096
+MD5sum: 4da81df44a3402f8b3d036f7183c7c92
+SHA1: 4db1e361fd9d405ff0a63cdf28468f6c6e82a16b
+SHA256: 0caaedeba433b71f99b02a15d2f8e01d7e2a9ce97b2a2685703f43506a2ebf99
+SHA512: 31d3d3b0801a3210db3831a6d91ccfc1b64fdd20d5bae626a63402435b42b8f0b26433b14b0c98e14f85e07534a60b39fc9c10997f2fa8c668201cea8f04e0ec
+Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
+Name: NTQQ_AntiRecall 图层QQ防撤回
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+
+Package: qqantirecall.x
+Architecture: iphoneos-arm64e
+Version: 1.6
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 1084
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/qqantirecall.x_1.6_iphoneos-arm64e_5330f1da27c1187c4db4b7fa94651951c7189a0d0153f33c1e7eea9c5b730fa0.deb
+Size: 1320664
+MD5sum: ddb88cfee22f05edf8f24e28f4eee4df
+SHA1: 9d3c0d04b229c8d0ffbdd14d7e1519c6b5e59483
+SHA256: 5330f1da27c1187c4db4b7fa94651951c7189a0d0153f33c1e7eea9c5b730fa0
+SHA512: 2b907473fca3ab8813e9d5456d86f1f86b84a92b4dffd18eb7cb3b8cb363c9b5cea6f49f0cca6670d2f0660652c86012f60717ae7cbff5936cfc6493d0be2fc9
+Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
+Name: NTQQ_AntiRecall QQ防撤回图层
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+
+Package: qqantirecall.x
+Architecture: iphoneos-arm64e
+Version: 1.6.2
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 1148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/qqantirecall.x_1.6.2_iphoneos-arm64e_d3591d5e86721014333392e049d3e11e91f9a4d681cdd8dfa3ac815025254605.deb
+Size: 375700
+MD5sum: 883398f8b71186d88cb4f5d9d32c8aff
+SHA1: 074c7950bc622902160b650ca65e895588218536
+SHA256: d3591d5e86721014333392e049d3e11e91f9a4d681cdd8dfa3ac815025254605
+SHA512: ee8a93a2d6af9d138718496c5659dbbaab0d45e8faba4894a7f1b5a088835dd9f4e21cc94968ba66236eafefbd021d686f8fcb0f0efc40ae06029a9d46748e76
+Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
+Name: NTQQ_AntiRecall QQ图层
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+
+Package: re.frida.server
+Architecture: iphoneos-arm64
+Version: 17.9.10
+Priority: optional
+Section: Tweaks
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 52524
+Conflicts: re.frida.server64
+Filename: debs/iphoneos-arm64/re.frida.server_17.9.10_iphoneos-arm64_b3432a3f8b9eadf545d92d0f1d4ed79549831892b07f6409cac1e3a2fe945f5d.deb
+Size: 15225596
+MD5sum: 44278c6977b0b5c7dd7be70c1fe06ed8
+SHA1: b3fa08668573ce952e156f729351e089b28c86fa
+SHA256: b3432a3f8b9eadf545d92d0f1d4ed79549831892b07f6409cac1e3a2fe945f5d
+SHA512: e70234bda6c04c2b129bdb299ac711fd6d47235505b3843816e9f748243c461ed6a7307a153de7d036effece4d3d977ea68c24173c15ec4c75ba4fb5c48b247f
+Homepage: https://frida.re/
+Description: Observe and reprogram running programs.
+Name: Frida
+Author: Frida Developers <oleavr@nowsecure.com>
+icon: https://huayuarc.github.io/icon/frida.jpg
+
+Package: re.frida.server
+Architecture: iphoneos-arm64e
+Version: 17.9.10
+Priority: optional
+Section: Tweaks
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 52524
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: re.frida.server64
+Filename: debs/iphoneos-arm64e/re.frida.server_17.9.10_iphoneos-arm64e_b99cb162b5b6638ffc5a8c8eb4e7b668f3d8b2a188118c1690583cbc858ae16b.deb
+Size: 14960276
+MD5sum: 2e9b392db211af48f649ace093d04cb7
+SHA1: 9bedad5bb34c4ecc63d7d32c8a2d7f9ec71e86cf
+SHA256: b99cb162b5b6638ffc5a8c8eb4e7b668f3d8b2a188118c1690583cbc858ae16b
+SHA512: 9ffa94836348b5f04ce1cda15541c1f3dde9d5c587803b53bcd091d2e2be573b2ca2be6cd812a80b5ab434b281ab39649b33bfd9fbee00990b247d720b7d8067
+Homepage: https://frida.re/
+Description: Observe and reprogram running programs.
+Name: Frida
+Author: Frida Developers <oleavr@nowsecure.com>
+icon: https://huayuarc.github.io/icon/frida.jpg
+
+Package: tools4cydia.flexpatch.pro
+Architecture: iphoneos-arm64
+Version: 5.0.0-4+debug
+Section: Tweaks
+Maintainer: tools4cydia
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/tools4cydia.flexpatch.pro_5.0.0-4+debug_iphoneos-arm64_a7b461c9d3172c12f785c2acd77f9ae2f930a52c2f8b38d5f6967a366836c547.deb
+Size: 10168148
+MD5sum: 1d3026ffa6350a4a216631f8d8b5eec1
+SHA1: f61dccc97cb065472401af5ef7fbc73218e4b4b1
+SHA256: a7b461c9d3172c12f785c2acd77f9ae2f930a52c2f8b38d5f6967a366836c547
+SHA512: 6ecdd3f0ebfe4089caee8b9511825f4950050f077e8b00bfa440bcffa14ecfe9f1f9de95ace7bbf63c0f1b238c5dc5069332e172d1ebb092bbe930db25a948e0
+Description: FlexPatch Pro is a powerful on-device tweak builder for jailbroken iOS. Browse installed apps, inspect Objective-C and Swift classes, hook methods, override return values, and intercept arguments — then compile and package your tweak as a .deb file without ever touching a Mac.
+Tag: role::enduser
+Name: FlexPatch Pro
+Author: tools4cydia
+icon: https://huayuarc.github.io/icon/flexpatch.jpg
+
+Package: tools4cydia.flexpatch.pro
+Architecture: iphoneos-arm64
+Version: 5.1.0-4+debug
+Section: Tweaks
+Maintainer: tools4cydia
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/tools4cydia.flexpatch.pro_5.1.0-4+debug_iphoneos-arm64_db0672621ddc64c62af713beb51dcaee10a3daaf25024b80c3ba767425928bbf.deb
+Size: 10135264
+MD5sum: b815410690c37b20aaaf7d3fd4725819
+SHA1: 2a0aecbbefbcce1aa890f2ec0a9ef0842c58e25f
+SHA256: db0672621ddc64c62af713beb51dcaee10a3daaf25024b80c3ba767425928bbf
+SHA512: 8be3a826e7e3458fe881309becbc8840dfe8c772030a50c6c7ebce56f7e76703a6afee40ba36800cdf181a44ae110e491c6b0c0a5a0ccdbbb67aa2b111df319c
+Description: FlexPatch Pro is a powerful on-device tweak builder for jailbroken iOS. Browse installed apps, inspect Objective-C and Swift classes, hook methods, override return values, and intercept arguments — then compile and package your tweak as a .deb file without ever touching a Mac.
+Tag: role::enduser
+Name: FlexPatch Pro
+Author: tools4cydia
+icon: https://huayuarc.github.io/icon/flexpatch.jpg
+
+Package: tools4cydia.flexpatch.pro
+Architecture: iphoneos-arm64e
+Version: 5.1.0-3+debug
+Section: Tweaks
+Maintainer: tools4cydia
+Installed-Size: 236
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/tools4cydia.flexpatch.pro_5.1.0-3+debug_iphoneos-arm64e_19fae75ff97795f69fb128d29b13de5f3acc106a4755002e3c614db9ecfa3201.deb
+Size: 10130656
+MD5sum: 393dacbde62d758a9271bca74fa7698e
+SHA1: 92c2b2230bfa7de6e59d449816828af531ea6d87
+SHA256: 19fae75ff97795f69fb128d29b13de5f3acc106a4755002e3c614db9ecfa3201
+SHA512: d5118e610bf83e56ef5a6e221937b59482774873d73c14a84e361062be7e696f2d172d291f37c274fd44ae6e7fce99f4234d9f46407794a72521408157eba7ff
+Description: FlexPatch Pro is a powerful on-device tweak builder for jailbroken iOS. Browse installed apps, inspect Objective-C and Swift classes, hook methods, override return values, and intercept arguments — then compile and package your tweak as a .deb file without ever touching a Mac.
+Tag: role::enduser
+Name: FlexPatch Pro
+Author: tools4cydia
+icon: https://huayuarc.github.io/icon/flexpatch.jpg
+
+Package: tools4cydia.flexpatch.pro
+Architecture: iphoneos-arm64e
+Version: 5.1.0-4+debug
+Section: Tweaks
+Maintainer: tools4cydia
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/tools4cydia.flexpatch.pro_5.1.0-4+debug_iphoneos-arm64e_44780cef9cbb683b211ecaa08dda393baae9a81ad67b8dec9ccf96f5665c3400.deb
+Size: 10131744
+MD5sum: f58fd7c49d3fc4bfb0bfeef77e95fbfe
+SHA1: f8cc5c35708bb729a4521c6ef21cbc4639784a8d
+SHA256: 44780cef9cbb683b211ecaa08dda393baae9a81ad67b8dec9ccf96f5665c3400
+SHA512: d0d62397f4104cfa61595ccfd08f0e941ec4f4b2a14a52c170f9726d1ed0284d305dbe7e63fc34fbd2a6204bfb246aa67ab486a80cfe6fb08791c748df91b176
+Description: FlexPatch Pro is a powerful on-device tweak builder for jailbroken iOS. Browse installed apps, inspect Objective-C and Swift classes, hook methods, override return values, and intercept arguments — then compile and package your tweak as a .deb file without ever touching a Mac.
+Tag: role::enduser
+Name: FlexPatch Pro
+Author: tools4cydia
+icon: https://huayuarc.github.io/icon/flexpatch.jpg
+
+Package: twitter.nowesr1.photosplus
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 376
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/twitter.nowesr1.photosplus_0.0.1_iphoneos-arm64_e820f4e2c67103ca3150259aaa66ceb140168c9f38191f816fb08819bbe8e7e2.deb
+Size: 26388
+MD5sum: 246a13510e16475e1de283740f65c7a6
+SHA1: 5a1a041a99235a6a5fdd0df4f06620a4a08ae353
+SHA256: e820f4e2c67103ca3150259aaa66ceb140168c9f38191f816fb08819bbe8e7e2
+SHA512: e1ab535490d59ee7a8f10b8874935a890b515c79f46e56aa9bfdec2860c91cd901e9953c0a5c7f30ce9a6478e75e53e5ba005da91c1eabc9a1ede67a88d64af1
+Description: 增强了照片app，更多的设置
+Author: nowesr1 <nowe9r@hotmail.com>
+Name: PhotosPlus照片增强
+dev: nowesr1
+Icon: https://huayuarc.github.io/icon/PhotosPlus.png
+
+Package: twitter.nowesr1.photosplus
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 376
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/twitter.nowesr1.photosplus_0.0.1_iphoneos-arm64e_c193baa14f5af2bd5d1e8db52cb587fb00c62ea279db1444c6dd6d3fc71f0772.deb
+Size: 25900
+MD5sum: 11452e4364dd8a72f74ecd3821d7a654
+SHA1: 25484309d8f64fd58d95837f9618db66c3461e63
+SHA256: c193baa14f5af2bd5d1e8db52cb587fb00c62ea279db1444c6dd6d3fc71f0772
+SHA512: eb9ca9074dfff1a14b83ecdb912bc00be4e1258746777c43094bd6b9ae658b67de4bd188341035aa87b56c5c49a1651831058725bce97ecffc218a2af6a63858
+Description: 增强了照片app，更多的设置
+Author: nowesr1 <nowe9r@hotmail.com>
+Name: PhotosPlus照片增强
+dev: nowesr1
+Icon: https://huayuarc.github.io/icon/PhotosPlus.png
+
+Package: uncar
+Architecture: iphoneos-arm64
+Version: 0.0.1-6
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Filename: debs/iphoneos-arm64/uncar_0.0.1-6_iphoneos-arm64_a40470c81fb59d6177e0c7de06fdc1b262796383931313a4f22c327b020b5cc7.deb
+Size: 6572
+MD5sum: ed5bf497ce629c4d73ab7144973b8d4a
+SHA1: 956ed19f42be422d4644b4d6b62c154fe0273b80
+SHA256: a40470c81fb59d6177e0c7de06fdc1b262796383931313a4f22c327b020b5cc7
+SHA512: 80ac7d697742bfaefc7e1fd2b10115e1d989a27da13295734a52aaa868915012c5251f8ca5f20a43f0dc245c5eff313b206d5957f74db35d08944318528139b5
+Description: 命令行工具，用于提取Assets.car
+Name: uncar
+icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/uncar/js.json
+Author: Elias Limneos <limneoselias@gmail.com>
+
+Package: wiki.qaq.ighostty
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Priority: optional
+Section: Terminal Support
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 18028
+Depends: firmware (>= 15.0), uikittools
+Filename: debs/iphoneos-arm64/wiki.qaq.ighostty_0.1.0_iphoneos-arm64_bbd7481948124ab35097a540a5093c887180db13a31bfcaba50533553f2ececa.deb
+Size: 7080552
+MD5sum: 3b8b4e0800290bc76db78a8724fb1356
+SHA1: 5ca798c3f9f8bfb7c8fb846d825011f7bd90df10
+SHA256: bbd7481948124ab35097a540a5093c887180db13a31bfcaba50533553f2ececa
+SHA512: ffbe34340bf0ed72d07f5444303724a22446e87042697e9f86679fa54fa80fb01ee7fdc8569ac00a733633355f4883d1df2ed32cf8b488514ed4d1bd2dc6258a
+Description: Ghostty-powered terminal for jailbroken iOS
+ * Terminal emulator built on libghostty's terminal core with a host-managed
+ * I/O backend. Packaged for both roothide and rootless bootstraps; the
+ * architecture field says which build this is.
+ * Shells are spawned by the bundled ighosttyd daemon and survive app
+ * relaunches; SSH transport is planned on the same transport interface.
+Name: iGhostty
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+icon: https://huayuarc.github.io/icon/iGhostty.png
+
+Package: wiki.qaq.ighostty
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Priority: optional
+Section: Terminal Support
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 18028
+Depends: firmware (>= 15.0), uikittools
+Filename: debs/iphoneos-arm64e/wiki.qaq.ighostty_0.1.0_iphoneos-arm64e_a58c1a308499564f05072f731a1ac5bb2450b49f708031716ed9df3479eab165.deb
+Size: 7082736
+MD5sum: e1771013f2256f0948c22bc352cad405
+SHA1: 6b9df59138d023775aa941914dad38c575baf608
+SHA256: a58c1a308499564f05072f731a1ac5bb2450b49f708031716ed9df3479eab165
+SHA512: 86f6441f939bc6ef094eabdd4b35f7117d249046c904b3918482b789406e68416d75072112632ac23309dc54a9c749561c0a14af44e4b867aeedeb38347610f1
+Description: Ghostty-powered terminal for jailbroken iOS
+ * Terminal emulator built on libghostty's terminal core with a host-managed
+ * I/O backend. Packaged for both roothide and rootless bootstraps; the
+ * architecture field says which build this is.
+ * Shells are spawned by the bundled ighosttyd daemon and survive app
+ * relaunches; SSH transport is planned on the same transport interface.
+Name: iGhostty
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+icon: https://huayuarc.github.io/icon/iGhostty.png
+
+Package: ws.hbang.newterm3
+Architecture: iphoneos-arm64e
+Version: 3.0~beta1-1+debug
+Section: Terminal Support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 25756
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: debs/iphoneos-arm64e/ws.hbang.newterm3_3.0~beta1-1+debug_iphoneos-arm64e_e6386d72a4590995d2cca3347117a5ee92fc7ad2f4f3773bb037df39b486a9ac.deb
+Size: 5283932
+MD5sum: 59fb53c511a6025b35deb76fc4807106
+SHA1: f5a6e130a8df705e133efb244851845322e83430
+SHA256: e6386d72a4590995d2cca3347117a5ee92fc7ad2f4f3773bb037df39b486a9ac
+SHA512: 7d69684a129fdef6333cb71ca85baff13f2e9c056970f7ed95fd636ba095919315540196358a7539addaefeab2ead223d476ea2e7cf21244224f8ddaf16c9c51
+Description: Powerful terminal app for iOS 直接在手机上操作Shell命令 iOS终端
+Tag: compatible_min::ios14.0
+Name: NewTerm 3 Beta iOS 终端
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Depiction: https://chariz.com/get/newterm-beta
+Support: https://hashbang.productions/support/
+
+Package: wxyh
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: jiajia
+Installed-Size: 1384
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Filename: debs/iphoneos-arm64/wxyh_1.0.1_iphoneos-arm64_415e99ebd3b5e6a60e3258e4d6a511d9d27dc81bf67024d3f32fdbdd9ef3ff9e.deb
+Size: 342060
+MD5sum: 82cfadaa3250025a603d0136201d6d49
+SHA1: f3d21a0f72eca6e5eaf81beb3525c4eca38564f6
+SHA256: 415e99ebd3b5e6a60e3258e4d6a511d9d27dc81bf67024d3f32fdbdd9ef3ff9e
+SHA512: 7f934f4330bf82f1e9c3cdc1375a450c61594f1c9713993ed7d5b0c2183a5b73bfe99cb5d5e68fd0fefab4843f21e8da6ba0bc9a8ae00a8a51d9e5f3b76e9fe3
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+Name: 微信优化
+Author: jiajia
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: wxyh
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: jiajia
+Installed-Size: 2208
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Filename: debs/iphoneos-arm64/wxyh_1.0.2_iphoneos-arm64_fc86cb036498381bb02888f9d5b0abdccd506991e4485e39eb37c478dd272379.deb
+Size: 544304
+MD5sum: 93ba85ed2e5575ef8c43cea46e40ef04
+SHA1: 8c7099931bbeb3e002296577cce3740aaf2b9dd2
+SHA256: fc86cb036498381bb02888f9d5b0abdccd506991e4485e39eb37c478dd272379
+SHA512: 3ae89fb1f62cc6665516a7c904167da6e298e80ddcc4a9e162cecf9aba656e400639ba7743ce77275b328128c4fcf2d208c868b93b3246ce29c6be0235a2f701
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+ *  新增内置解析（两个公益接口） 
+ * 新增自动检测群友/好友空白昵称支持一键更改为自定义备注
+ * 新增更改固定群成员备注在昵称前缀加自定义字符
+ * 新增自定义网页（添加网页后右侧收纳线常驻,点击后呼出,如果是视频网页的话,观看视频会直接调用小窗口）为什么写这个功能,意义我不知道,我只是在看白月光朋友圈的时候突然想撸了,想一边看白月光一边看片,没办法这就是性情
+ * 新增哟哟哟（输入你想自动追问的wixd检测到对方说话你讲自动追问他）（支持艾特）
+Name: 微信优化
+Author: jiajia
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: wxyh
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: jiajia
+Installed-Size: 2208
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Filename: debs/iphoneos-arm64/wxyh_1.0.3_iphoneos-arm64_9359661c39332979a069afe8006fc34722e6d77061dd682509c51be264631b65.deb
+Size: 546984
+MD5sum: f9abeffcf165afbcb9038e59476ae69b
+SHA1: 51355f0a206b67b75ccfe10eb520686c1dd767ca
+SHA256: 9359661c39332979a069afe8006fc34722e6d77061dd682509c51be264631b65
+SHA512: 28ca94256d9e8302e77357befcd755665164d71238321f3b1084900ac068ce2961a7f36adca11c1e1e2d23058efcc535d64ca4c36da7b45918e75f3ec7289642
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+ * 新增内置解析（两个公益接口） 
+ * 新增自动检测群友/好友空白昵称支持一键更改为自定义备注
+ * 新增更改固定群成员备注在昵称前缀加自定义字符
+ * 新增自定义网页（添加网页后右侧收纳线常驻,点击后呼出,如果是视频网页的话,观看视频会直接调用小窗口）为什么写这个功能,意义我不知道,我只是在看白月光朋友圈的时候突然想撸了,想一边看白月光一边看片,没办法这就是性情
+ * 新增哟哟哟（输入你想自动追问的wixd检测到对方说话你讲自动追问他）（支持艾特）
+Name: 微信优化
+Author: jiajia
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: wxyh
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: jiajia
+Installed-Size: 1384
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Filename: debs/iphoneos-arm64e/wxyh_1.0.1_iphoneos-arm64e_d1b704cabc661964e2302eae690b5918c1c585747949d44e39436c8c817338c8.deb
+Size: 335816
+MD5sum: 884c600f4b07764669e7dd727ee83e55
+SHA1: 4f30050895a406c9dd505a1dabd3c5290d2c2ed5
+SHA256: d1b704cabc661964e2302eae690b5918c1c585747949d44e39436c8c817338c8
+SHA512: 80a172822d48ad931b1ac52c40f959d8193199706ce9a5e8b16c12b95da1d75f0d8936fa77ad1c30d888d4e5c703292977a4c6ffa10bd2b89eaea0ec846c3e02
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+Name: 微信优化
+Author: jiajia
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: wxyh
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: jiajia
+Installed-Size: 2208
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Filename: debs/iphoneos-arm64e/wxyh_1.0.2_iphoneos-arm64e_11d93108c1b9974db3811eb5f439231e56b4497eb00096de52012b68e9f7f898.deb
+Size: 535568
+MD5sum: 408f2c8cbc07cc62d617bf6e874c9781
+SHA1: 2925b60eca28a63571f6b1ce77c76bc27c00e922
+SHA256: 11d93108c1b9974db3811eb5f439231e56b4497eb00096de52012b68e9f7f898
+SHA512: 65874331ec5ac8402ba773280ab85b6ab1b4016eda8c3d5eab59e69216061b7504d2c1ce3bf5a8c7fa19d5ba0f73bc9008a580fed21b29a9a24b2db47ad257b6
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+ *  新增内置解析（两个公益接口） 
+ * 新增自动检测群友/好友空白昵称支持一键更改为自定义备注
+ * 新增更改固定群成员备注在昵称前缀加自定义字符
+ * 新增自定义网页（添加网页后右侧收纳线常驻,点击后呼出,如果是视频网页的话,观看视频会直接调用小窗口）为什么写这个功能,意义我不知道,我只是在看白月光朋友圈的时候突然想撸了,想一边看白月光一边看片,没办法这就是性情
+ * 新增哟哟哟（输入你想自动追问的wixd检测到对方说话你讲自动追问他）（支持艾特）
+Name: 微信优化
+Author: jiajia
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: wxyh
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: jiajia
+Installed-Size: 2208
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Filename: debs/iphoneos-arm64e/wxyh_1.0.3_iphoneos-arm64e_49e57c248ad76eaa1e7ebcf7a0a4c25c95c6fac8f42b955c90959f537ac0c195.deb
+Size: 537532
+MD5sum: 9a454fc9455bc83b328bf596ef5fb7b6
+SHA1: 62aec61d815e8f620c9dc69167e422c61735c9f9
+SHA256: 49e57c248ad76eaa1e7ebcf7a0a4c25c95c6fac8f42b955c90959f537ac0c195
+SHA512: e010ff3fc27435be4ce4a36c26e70b3cad801bde4fd69ea99ab7f776f2dc1e4e325f85ed7369b67f409f795ab1fc070683e91ba17f99ddd17e54f415cb3f6874
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+ * 新增内置解析（两个公益接口） 
+ * 新增自动检测群友/好友空白昵称支持一键更改为自定义备注
+ * 新增更改固定群成员备注在昵称前缀加自定义字符
+ * 新增自定义网页（添加网页后右侧收纳线常驻,点击后呼出,如果是视频网页的话,观看视频会直接调用小窗口）为什么写这个功能,意义我不知道,我只是在看白月光朋友圈的时候突然想撸了,想一边看白月光一边看片,没办法这就是性情
+ * 新增哟哟哟（输入你想自动追问的wixd检测到对方说话你讲自动追问他）（支持艾特）
+Name: 微信优化
+Author: jiajia
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: wxyh
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Section: Tweaks
+Maintainer: jiajia
+Installed-Size: 2340
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Filename: debs/iphoneos-arm64e/wxyh_1.0.5_iphoneos-arm64e_2e19f99d26db661e7ac731bc6c7047612bc3de1ddc2fd9e387c692dd8c086d5c.deb
+Size: 569784
+MD5sum: ca052dbc2ca43c4afc913c05b300e953
+SHA1: 972850be8ba9a24711a168e9f5181a3fcf577952
+SHA256: 2e19f99d26db661e7ac731bc6c7047612bc3de1ddc2fd9e387c692dd8c086d5c
+SHA512: 3a9692c1cd6856b7dc67728d922f2ce1d3e750a33a62a669a1cddafbf59f7c6387bc9e7ceabd40a9742964208dd9ed0f6769d2c93a6e2efc06c300e1d26d086d
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+Name: 微信优化
+Author: jiajia
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
