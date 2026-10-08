@@ -39765,6 +39765,27 @@ Author: jiajia
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
 
 Package: wxyh
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: Tweaks
+Maintainer: jiajia
+Installed-Size: 2340
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Filename: debs/iphoneos-arm64/wxyh_1.0.5_iphoneos-arm64_194fe93ed35a50864ed694fa973e747e3ea6222f7eb5734233fbd6cd31d5cfaa.deb
+Size: 579608
+MD5sum: c8c6a5e0f7a89383fc08822385a65982
+SHA1: 57e400f9a292cae6118807ad3a59a41cef429401
+SHA256: 194fe93ed35a50864ed694fa973e747e3ea6222f7eb5734233fbd6cd31d5cfaa
+SHA512: a26afd91fd3ac2c1ac3d04d9de9e0f00dfd16d17dc05b5e673434e9564ad74df8c2e9fc3548bd432214c46b6a5c2eaee7cb61c51bdb31dbed89480b2c5c091a8
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+Name: 微信优化
+Author: jiajia
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: wxyh
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Section: Tweaks
@@ -39861,3 +39882,966 @@ Description: 微信核心与 HBB 本地兼容、二维码与视频优化
 Name: 微信优化
 Author: jiajia
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: xc.lzsxcl.o2pro
+Architecture: iphoneos-arm64
+Version: 18.9.17-6
+Section: Tweaks
+Maintainer: lzsxcl
+Installed-Size: 32212
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/xc.lzsxcl.o2pro_18.9.17-6_iphoneos-arm64_c8b53c96e66485b5b4aeb2908236fba01c3dfb0218a88b771b6d1e6f336425fc.deb
+Size: 13308216
+MD5sum: 3b8953fffcda8a661dc711b0a2971628
+SHA1: a384396228b73932cacb9dc6cdaa19cc1a9c6957
+SHA256: c8b53c96e66485b5b4aeb2908236fba01c3dfb0218a88b771b6d1e6f336425fc
+SHA512: c720f683a9ed2ff65375ecb383bf1cc9adb9609f5da87d1ebfbf7d7e8930b35b8ae1c27cc7f2cf0ec3bcad7bfd1a82826858878ac4d744451849acce14689763
+Description: 注重设计与用户体验的优雅产品。
+Name: o2Pro
+Author: lzsxcl
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+
+Package: xc.lzsxcl.o2pro
+Architecture: iphoneos-arm64e
+Version: 18.9.17-6
+Section: Tweaks
+Maintainer: lzsxcl
+Installed-Size: 32212
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/xc.lzsxcl.o2pro_18.9.17-6_iphoneos-arm64e_0806b7a5355b5750550eeee581c1c9fadfd1fc0a564d5ea56c6488ee7506d269.deb
+Size: 13159476
+MD5sum: bfe73fc8dd715f125e4c3813ce21720f
+SHA1: 8395cf654fc9d99264ba005a0d0ae55a2d4a7d39
+SHA256: 0806b7a5355b5750550eeee581c1c9fadfd1fc0a564d5ea56c6488ee7506d269
+SHA512: e432b32c17ca4ea8e0ae02b7fcc463106597d25b7753f532ddff151a93ee5eb9ee789ff1e1ea58df8fcc2623f9aa61641c85e0a5a109de0dd912d49ec4dbbd71
+Description: 注重设计与用户体验的优雅产品。
+Name: o2Pro
+Author: lzsxcl
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+
+Package: xhs.x
+Architecture: iphoneos-arm64
+Version: 1.2.9
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 3560
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/iphoneos-arm64/xhs.x_1.2.9_iphoneos-arm64_c6bb3b05e6c1b7a2809087da1ccb85af72ffe1ac1f8b88bac48bd827fa507a4d.deb
+Size: 1393540
+MD5sum: 10ed6e6a6881ed98f21e8a60c0093a09
+SHA1: ae5ce13210856f409fa792fa60140029c61dbb21
+SHA256: c6bb3b05e6c1b7a2809087da1ccb85af72ffe1ac1f8b88bac48bd827fa507a4d
+SHA512: c9d5adabeb2e809c77624dd9fdec388ad9648b9c041fd7bec669fcd84f13a620a80f366fd86616619cd8d04b84fcc12a93b6c29525f3498849d528ce28a056fd
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Name: 小红薯
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/xhs.jpg
+
+Package: xhs.x
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 5692
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/iphoneos-arm64/xhs.x_2.0.1_iphoneos-arm64_bdd50eaea62d201cbfc9fac3cd19c1b5db7681a1493fef09acb096b7a89a7f45.deb
+Size: 2267760
+MD5sum: 449f1a28875d162e5a55b0cd4bd92b9a
+SHA1: 90af10aa444a773459dcac1ef8e75996adaeb6c7
+SHA256: bdd50eaea62d201cbfc9fac3cd19c1b5db7681a1493fef09acb096b7a89a7f45
+SHA512: ea6f78954d14845a3850b3a7c026a638e6ffaf8ddd6f26b04f56b0502d633633cdfdd17b7ede4ded7830e9d04a15846739273a2d145b141e5cdadc7e2078a774
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Name: 小红薯
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/xhs.jpg
+
+Package: xhs.x
+Architecture: iphoneos-arm64
+Version: 2.0.2
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 5744
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/iphoneos-arm64/xhs.x_2.0.2_iphoneos-arm64_f141b46746efefd4785f4ec92a7ff88281bc6451b450948f0d0a12d7cee1f79d.deb
+Size: 2283964
+MD5sum: 18517468645b07caf64d8cd01857279c
+SHA1: 0d3d5455a730452c58f22925328e40a7657f9e3a
+SHA256: f141b46746efefd4785f4ec92a7ff88281bc6451b450948f0d0a12d7cee1f79d
+SHA512: 8674d22707c7cf753318ed6fe28a6472c22fe7c4cf9f630aa8b339ca1d085bb0cc3cccf7fca4c9ea69e8bc5556375a4beb73e6c6ae435512f66fa17ddf92af50
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Name: 小红薯
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/xhs.jpg
+
+Package: xhs.x
+Architecture: iphoneos-arm64
+Version: 2.0.5
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 8292
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/iphoneos-arm64/xhs.x_2.0.5_iphoneos-arm64_54520594126aa5e2b436bf66a411510b1c029dbe106251e27d76e36ebce0a5f3.deb
+Size: 3294276
+MD5sum: e8b5ce434d51c632a460a3f903032c1e
+SHA1: cfa28b3a1a2383692a8ab4512f26d011ad91db6b
+SHA256: 54520594126aa5e2b436bf66a411510b1c029dbe106251e27d76e36ebce0a5f3
+SHA512: 891a287fe4ce997ec5849ad32f770aa7922140adda4235e026ee57f29beef4b372bb31a5d5e5e47dfba0df81b82624f578ba1f1ec1c6334bc5a9fd2e2edf7e83
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Name: 小红薯
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/xhs.jpg
+
+Package: xhs.x
+Architecture: iphoneos-arm64
+Version: 2.0.6
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 9060
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/iphoneos-arm64/xhs.x_2.0.6_iphoneos-arm64_b6506a02976e37cbb3df0a7bc413681b7df632c1b68fc7d9f27d92dbdb6d8078.deb
+Size: 3558236
+MD5sum: 4e3dce45494dfef0814359f8fd4f1967
+SHA1: 5a45162079eb83bc54bd4eb9ec08ff018b770d00
+SHA256: b6506a02976e37cbb3df0a7bc413681b7df632c1b68fc7d9f27d92dbdb6d8078
+SHA512: 5208d3998aab605b9f0d7540d2c14c933f3b2e611fac71dea477e7d739436ec418c9c51ce5ffbebbc309f0fc4a122bdc0bbc33bdd0fccc71f91cade040a621df
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Name: 小红薯
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/xhs.jpg
+
+Package: xhs.x
+Architecture: iphoneos-arm64
+Version: 2.0.7
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 9412
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/iphoneos-arm64/xhs.x_2.0.7_iphoneos-arm64_5dca204bf73b99f908e4f268589b846583b1841aea1f507689cd175c43dc1039.deb
+Size: 3689532
+MD5sum: e248a1a00b5eca9979fc59b26ea8cff8
+SHA1: 4868d9e1670422464a8ca07578210ac528f00dd4
+SHA256: 5dca204bf73b99f908e4f268589b846583b1841aea1f507689cd175c43dc1039
+SHA512: b740d7d555707b34e36448af49ddba9bf31e8c87a7c3d9e41ecb33c06aea2c6bdcc4f9dedc4265d20c85cb735e0f180224dbd081748985dc9a93f2123de2a2d2
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Name: 小红薯
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/xhs.jpg
+
+Package: xhs.x
+Architecture: iphoneos-arm64e
+Version: 1.2.9
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 3560
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/iphoneos-arm64e/xhs.x_1.2.9_iphoneos-arm64e_6cd007e9fae9fc662521703710820e85695143ba7569a49b933486f4d2876811.deb
+Size: 1376288
+MD5sum: a730944a1a9beeaf734e481843e09316
+SHA1: 0c0e91698f2cf71d0d551ea95575c1b82bb28155
+SHA256: 6cd007e9fae9fc662521703710820e85695143ba7569a49b933486f4d2876811
+SHA512: 12ebcb92d4ac6cd03d0814232b9c11b521b63931f6734381bc7059b6b42d561fe84ca5c0ccc70de3dc1e8bec7fabb4f9dacc5532672c4a2f47368a0a92575380
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Name: 小红薯
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/xhs.jpg
+
+Package: xhs.x
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 5692
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/iphoneos-arm64e/xhs.x_2.0.1_iphoneos-arm64e_b9d92ac9b809de51b763de44cb06aac00d77bdec1fdfc4134b51dbab1e3fad32.deb
+Size: 2239580
+MD5sum: 79254eab9020b1b7cab055a2dfb49022
+SHA1: 99c39aa4ba72df6789bee436e92a2a1426fd3652
+SHA256: b9d92ac9b809de51b763de44cb06aac00d77bdec1fdfc4134b51dbab1e3fad32
+SHA512: 326347947c99bfb6f23af5d55972b5615ccf8d35f4baddb6897ddd4751edc01d1e6c2882eccd01783e1c5cbe06600889a203942dc3abafb8f138e5c3334e6ad6
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Name: 小红薯
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/xhs.jpg
+
+Package: xhs.x
+Architecture: iphoneos-arm64e
+Version: 2.0.2
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 5744
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/iphoneos-arm64e/xhs.x_2.0.2_iphoneos-arm64e_a5a38d6b933f492fa9722b57741599fb55653ea1b25d39ec5190ae43dc2b49b1.deb
+Size: 2255800
+MD5sum: f2a4a52eaca928f7fe5115f0f4ed9dac
+SHA1: e343607f6c02e7301c15901b61db19d605a1d97b
+SHA256: a5a38d6b933f492fa9722b57741599fb55653ea1b25d39ec5190ae43dc2b49b1
+SHA512: 3eb38e0b74d0c129f7b62b23c366a0e62c0810540a1227c30ff5578068abbe8b5d12b40c4d47d3e8a99d378a2913546b45a059c3d0d3e064048143d646d86c77
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Name: 小红薯
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/xhs.jpg
+
+Package: xhs.x
+Architecture: iphoneos-arm64e
+Version: 2.0.5
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 8292
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/iphoneos-arm64e/xhs.x_2.0.5_iphoneos-arm64e_d617045963f114e785109bcb205c19e2c7dcfc4ac8915956618ea503273c305e.deb
+Size: 3253140
+MD5sum: 6ef9831b03699df12f947c5a4f09f78d
+SHA1: 9ba9d4b0e2b330ebf8cf1d3f2c2a5d176d722229
+SHA256: d617045963f114e785109bcb205c19e2c7dcfc4ac8915956618ea503273c305e
+SHA512: 86b4fbfe81d56a4369bbba546d697976814aa64b9836a59ed619412fa84a3ba5c0d935596848a6342fdf140bcc909952d71a9a5e82cb92975fd8698db0448f67
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Name: 小红薯
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/xhs.jpg
+
+Package: xhs.x
+Architecture: iphoneos-arm64e
+Version: 2.0.6
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 9060
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/iphoneos-arm64e/xhs.x_2.0.6_iphoneos-arm64e_45501c339017808a842dcd592389e43f91e5b89649944a0ee5e18ad75d4e5a97.deb
+Size: 3558316
+MD5sum: cbe8d3dc78f15a0baec83744b371155e
+SHA1: c47cbc22512bbae62ff488ac8c54a0a89e39cac4
+SHA256: 45501c339017808a842dcd592389e43f91e5b89649944a0ee5e18ad75d4e5a97
+SHA512: fc1ee1e71258f0372d7c66b885061bec829e7aeb4c808de8894ee718d30f4fd509a5aa8b293c29f6464938c7dfaf1ca8a1951d6705fcf3fd41bc29950afb64a7
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Name: 小红薯
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/xhs.jpg
+
+Package: xhs.x
+Architecture: iphoneos-arm64e
+Version: 2.0.7
+Section: Tweaks
+Maintainer: 𝙓
+Installed-Size: 9412
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/iphoneos-arm64e/xhs.x_2.0.7_iphoneos-arm64e_f9dbbeded551ec0dfba95dd6f1bd28485d0a6fd4584aef8e01fe6ae329320584.deb
+Size: 3691800
+MD5sum: ae6c00fd9b998c33d8cf74321511ad68
+SHA1: 702200ccb49dcf9256a04bf119d72666cf9de20c
+SHA256: f9dbbeded551ec0dfba95dd6f1bd28485d0a6fd4584aef8e01fe6ae329320584
+SHA512: 365cbc3194b9f499bcd89b49efb5605823e742bb80fd76e3f8e3499fd275db1db298248e2d411a9fa016bcaaf09029644b9ab24a4329bf865aa52a4ac6656edd
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Name: 小红薯
+Author: 𝙓
+icon: https://huayuarc.github.io/icon/xhs.jpg
+
+Package: xyz.cypwn.anouk
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: CyPwn
+Installed-Size: 716
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/xyz.cypwn.anouk_1.2_iphoneos-arm64_1268bca8d644ac05f90fbf224dabb7ff173aa4a6f4d3c5d79725a1885b8e5ebf.deb
+Size: 370250
+MD5sum: f9f67a3493b3ba6ff4aa170f89cec401
+SHA1: 39492f25dbc6aaee6dbaa141d54e04e66a1f12f3
+SHA256: 1268bca8d644ac05f90fbf224dabb7ff173aa4a6f4d3c5d79725a1885b8e5ebf
+SHA512: 2c7c317a30cf43d8c9c7825758c9dbce62e1d6c071492f6b592ba4dbaa71e1d8c14285ab66ff27caf131f4f7ed1066c3bb556930fc746812582c8ab6bbd8b785
+Description: Authentication for the hidden album.Anouk，给已隐藏加锁，保护隐私，完全免费。
+Name: Anouk
+Author: yan
+Icon: https://media.havoc.app/643d10b0f614b42e4259cf83
+
+Package: xyz.cypwn.anouk
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: CyPwn
+Installed-Size: 716
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/xyz.cypwn.anouk_1.2_iphoneos-arm64e_125d34e494eb2065e6348fe8fe640c462a8e7567ca0243229c4abe5d7e6046e5.deb
+Size: 369638
+MD5sum: 78864fa0e711fb54e88e35e574934198
+SHA1: 86049e1bcc4397c9d2facd80a91c0acf16e36cfc
+SHA256: 125d34e494eb2065e6348fe8fe640c462a8e7567ca0243229c4abe5d7e6046e5
+SHA512: 07dd2b4b423e004e82200aa078d17968d0f7a72b8cbc547dba45e869a0e0320c7142cf1b5150ff61d0e5950c577c5e8e3e4693a2d89518ca7bedd1e7c5e9c521
+Description: Authentication for the hidden album.Anouk，给已隐藏加锁，保护隐私，完全免费。
+Name: Anouk
+Author: yan
+Icon: https://media.havoc.app/643d10b0f614b42e4259cf83
+
+Package: xyz.cypwn.appaegis
+Architecture: iphoneos-arm64
+Version: 1.0.0k
+Section: Tweaks
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0), firmware (<< 17.3.2)
+Conflicts: com.ichitaso.bioprotect, net.limneos.bioprotectxs
+Filename: debs/iphoneos-arm64/xyz.cypwn.appaegis_1.0.0k_iphoneos-arm64_a66b249782484bbaa558ac4a08ca43e0baff87b7955b88e701795615976f05ed.deb
+Size: 57384
+MD5sum: f15a6bd8365ad2b986bb6149dbbf7f4f
+SHA1: f9862a60e86967ccaf0bda4b2776f367b84dc5bb
+SHA256: a66b249782484bbaa558ac4a08ca43e0baff87b7955b88e701795615976f05ed
+SHA512: 4670c3ebb84f23344a9f4cbfddf4e5666724f99c6e26156e953658bc62cba950d54dea3a3ff199627407a0266a98aff9ac0b6813bf0a8d2906a2ed731b4853e0
+Description: Lock selected Home Screen app launches with Face ID, Touch ID, or the device passcode. Cracked by Nya 使用面容 ID、触控 ID 或设备密码锁定所选主屏幕应用的启动。被Nya破解
+Name: AppAegis 应用面容 ID
+Author: emp0ry
+icon: https://huayuarc.github.io/icon/appaegis.png
+
+Package: xyz.cypwn.appaegis
+Architecture: iphoneos-arm64e
+Version: 1.0.0k
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0), firmware (<< 17.3.2)
+Conflicts: com.ichitaso.bioprotect, net.limneos.bioprotectxs
+Filename: debs/iphoneos-arm64e/xyz.cypwn.appaegis_1.0.0k_iphoneos-arm64e_1db1b7d96232d339cc0c33b27e60f7a4cd46c1f3b23bca8b8ee78fdffc31f204.deb
+Size: 57264
+MD5sum: 9d562ee4c76c784a58f7b178f92a9302
+SHA1: 8dcfc0211bd25c30c24e9d1859acabfd61a43822
+SHA256: 1db1b7d96232d339cc0c33b27e60f7a4cd46c1f3b23bca8b8ee78fdffc31f204
+SHA512: 3f3589ba56da0b09fa2fcdd0c539e9354e480e6ac0ff08b9d62739645a108cc80d8c4941ac9397f18b90ed27c365bfd486c6bdd2c85430ad8ab5517ad8721400
+Description: Lock selected Home Screen app launches with Face ID, Touch ID, or the device passcode. Cracked by Nya 使用面容 ID、触控 ID 或设备密码锁定所选主屏幕应用的启动。被Nya破解
+Name: AppAegis 应用面容 ID
+Author: emp0ry
+icon: https://huayuarc.github.io/icon/appaegis.png
+
+Package: xyz.cypwn.backgrounderaction15
+Architecture: iphoneos-arm64
+Version: 0.1.0-1
+Section: Tweaks
+Maintainer: CyPwn
+Provides: jp.akusio.backgrounderaction15 (= 0.1.0)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Conflicts:  jp.akusio.backgrounderaction15
+Replaces: jp.akusio.backgrounderaction15
+Filename: debs/iphoneos-arm64/xyz.cypwn.backgrounderaction15_0.1.0-1_iphoneos-arm64_8bf1b27c3839d0911a6dfed220a317657bc451fa130e1eb3279fcbdf90441794.deb
+Size: 9892
+MD5sum: 8f59a2bafd0033e1e341ce222956319a
+SHA1: 6881d751af14d57eb21222e117f13e6eb1a9f396
+SHA256: 8bf1b27c3839d0911a6dfed220a317657bc451fa130e1eb3279fcbdf90441794
+SHA512: 7a341bdedddd41af9aee108f3b00fa5dbfe9492366707d51f2fbf0520ab2c9f3942003e5367a5239f624c2f07caae5b62e1edba0ba60b1faea1a6c9e9d43e5e8
+Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.
+Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
+Name: BackgrounderAction15 CCSupport
+Author: @akusio_RR
+
+Package: xyz.cypwn.backgrounderaction15
+Architecture: iphoneos-arm64e
+Version: 0.1.0-1
+Section: Tweaks
+Maintainer: CyPwn
+Provides: jp.akusio.backgrounderaction15 (= 0.1.0)
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Conflicts:  jp.akusio.backgrounderaction15
+Replaces: jp.akusio.backgrounderaction15
+Filename: debs/iphoneos-arm64e/xyz.cypwn.backgrounderaction15_0.1.0-1_iphoneos-arm64e_80f7f1b83df553da6811a08d1d268d2a434c4e22afe35040f899f782860508fc.deb
+Size: 9440
+MD5sum: b8dc8b1172855492018aaf888f1d46f8
+SHA1: 14d8737747fea1c1e7e4598fda677c8e842fe54b
+SHA256: 80f7f1b83df553da6811a08d1d268d2a434c4e22afe35040f899f782860508fc
+SHA512: b00e51a95d26018be80acc8f8336e35e31ff1806908f205bad4035df796880188721bf7517b75138aad13b9f6d9ba434ca0e7ae4d630b197dd90387c3e0b566f
+Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.
+Name: BackgrounderAction15 CCSupport
+Author: @akusio_RR
+Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
+
+Package: xyz.cypwn.backgrounderaction15autostate
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: CyPwn
+Depends: xyz.cypwn.backgrounderaction15, com.opa334.altlist
+Filename: debs/iphoneos-arm64/xyz.cypwn.backgrounderaction15autostate_1.0.3_iphoneos-arm64_a767ef13006c25617cb5c4a369c279cb4c34a12eba1e49914855afd321789396.deb
+Size: 25696
+MD5sum: 3870dfdd546eee4ea5d36127755bdebc
+SHA1: 652eb4cacd724e13d1d1c3a9f7ff8d718d799d3d
+SHA256: a767ef13006c25617cb5c4a369c279cb4c34a12eba1e49914855afd321789396
+SHA512: aba9c07092e5b8f29cd26493b840bb979347045cb4d17e6a24880f3407ee2b24838e42b02de7551e2dbdc6e39739bddd9c161f05dd2176144d619ff86251f7f7
+Description: Save Action state for BackgrounderAction15 CC Toggle
+Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
+Name: BackgrounderAction15AutoState
+Author: 0xkuj
+
+Package: xyz.cypwn.backgrounderaction15autostate
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: xyz.cypwn.backgrounderaction15, com.opa334.altlist
+Filename: debs/iphoneos-arm64e/xyz.cypwn.backgrounderaction15autostate_1.0.3_iphoneos-arm64e_6da8fc29207bf13481ec77293189bfdb420f1ea9b97092384aefdd0f738b5359.deb
+Size: 33640
+MD5sum: 582be6eb5b893f0a4757825f2ac91f31
+SHA1: 6446bf2c8d8c315ed5ca98a80323b6db9529775b
+SHA256: 6da8fc29207bf13481ec77293189bfdb420f1ea9b97092384aefdd0f738b5359
+SHA512: 5f2dd9deaaf94f4da561f76e231b511e28ab3a9829a883776022f11061954e76c6a83af73e47916d6d5ce754bc881b038e8f6a7894ae636da5517ec02bce1cbf
+Description: Save Action state for BackgrounderAction15 CC Toggle
+Name: BackgrounderAction15AutoState
+Author: 0xkuj
+Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
+
+Package: xyz.cypwn.bigsurcenter
+Architecture: iphoneos-arm64
+Version: 1.4.5k
+Section: Tweaks
+Maintainer: CyPwn
+Installed-Size: 1820
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
+Filename: debs/iphoneos-arm64/xyz.cypwn.bigsurcenter_1.4.5k_iphoneos-arm64_3f632f625a37cb0d723de6657f435ad5af2ac47af24aebfc1c1727262af6a868.deb
+Size: 753508
+MD5sum: 49ad30aa7a7f72f088c4908c0766cfec
+SHA1: 336a68f853e3b5e91635a35baf38757b22b91a16
+SHA256: 3f632f625a37cb0d723de6657f435ad5af2ac47af24aebfc1c1727262af6a868
+SHA512: d01d6c1345cd4dfac665a24e94d948a9db861063dd5ab548f3268c6af3b49f4a2e69756593aadd2bde57b39dace0afc1bbc86bbeb1a17517baff20f2fa4f7a37
+Description: BigSurCenter replaces the default iOS control center with a new lightweight and elegant one inspired by the control center in MacOS Big Sur. Cracked by CBZ BigSurCenter用受MacOS Big Sur中控制中心启发的全新轻量级、优雅的控制中心取代了默认的iOS控制中心。
+Icon: https://huayuarc.github.io/icon/SurCenter.png
+Name: BigSurCenter
+Author: nicho1asdev
+
+Package: xyz.cypwn.bigsurcenter
+Architecture: iphoneos-arm64e
+Version: 1.4.5k
+Section: Tweaks
+Maintainer: CyPwn
+Installed-Size: 1820
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
+Filename: debs/iphoneos-arm64e/xyz.cypwn.bigsurcenter_1.4.5k_iphoneos-arm64e_c1671058a387e7c92870c204dd19d0ed02a514f18a0279e2f1d55e7cb5568c81.deb
+Size: 757228
+MD5sum: 99c570f1f1fb0973c4957331da053382
+SHA1: 524491aa09ea3d2816b48844f09f911afa2447c6
+SHA256: c1671058a387e7c92870c204dd19d0ed02a514f18a0279e2f1d55e7cb5568c81
+SHA512: 43e84d665dfb1f326088d811de77d892bd494c69220748c1fe47f2ec919410ee8c09fba0f24dee716db811c3b278f5ad68203253c9d4a68a77d60ea67c5b4168
+Description: BigSurCenter replaces the default iOS control center with a new lightweight and elegant one inspired by the control center in MacOS Big Sur. Cracked by CBZ BigSurCenter用受MacOS Big Sur中控制中心启发的全新轻量级、优雅的控制中心取代了默认的iOS控制中心。
+Icon: https://huayuarc.github.io/icon/SurCenter.png
+Name: BigSurCenter
+Author: nicho1asdev
+
+Package: xyz.cypwn.fugap
+Architecture: iphoneos-arm64
+Version: 2.2.5
+Section: Tweaks
+Maintainer: CyPwn
+Installed-Size: 712
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/xyz.cypwn.fugap_2.2.5_iphoneos-arm64_81658fac9b539e292c3daf2ddf1a83173916a93c4cb8edf6d3a0435b1c70ac34.deb
+Size: 180066
+MD5sum: c0cf122233b5b6448e596e298f1473a0
+SHA1: 0d1bee61eb1d916ea5ba87f410b5db7424099cdc
+SHA256: 81658fac9b539e292c3daf2ddf1a83173916a93c4cb8edf6d3a0435b1c70ac34
+SHA512: 4efb14878d191bb271269b74a1069a9ab897955bdcea79064f844307062e836383afcb295b2f9063c3fe74820e0f948483aed7ff6e2fd304e145f2fdfe5e0f0a
+Description: Close some gaps, hide some stuff ! 控制中心缩小一些缝隙，隐藏一些东西！
+Depiction: https://repo.cypwn.xyz/depiction/1723
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/1723
+icon: https://huayuarc.github.io/icon/fugap.jpg
+Name: FUGap
+Author: smokin1337 <smokin1337@gmail.com>
+
+Package: xyz.cypwn.fugap
+Architecture: iphoneos-arm64e
+Version: 2.2.5
+Section: Tweaks
+Maintainer: CyPwn
+Installed-Size: 712
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/xyz.cypwn.fugap_2.2.5_iphoneos-arm64e_dd8293bf86a0e02343a5827e4d1f32f0f95e2b3f83895f737a5ef58123e307ce.deb
+Size: 180288
+MD5sum: 94a84d377bf62b8652892ce4705e3be7
+SHA1: 54aeb145bba501b404d76928a3047e56cde4c223
+SHA256: dd8293bf86a0e02343a5827e4d1f32f0f95e2b3f83895f737a5ef58123e307ce
+SHA512: 5a9e711a7fc211aa7aa5e091b359f2401a14f74153f569fbcbe2320b3c944758d362b4d08e58ec36373379bfa4035d2941294cef0b099ed4f86470d952ccb6f7
+Description: Close some gaps, hide some stuff ! 控制中心缩小一些缝隙，隐藏一些东西！
+Depiction: https://repo.cypwn.xyz/depiction/1723
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/1723
+icon: https://huayuarc.github.io/icon/fugap.jpg
+Name: FUGap
+Author: smokin1337 <smokin1337@gmail.com>
+
+Package: xyz.cypwn.hikari
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: Tweaks
+Maintainer: CyPwn
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/xyz.cypwn.hikari_1.0.8_iphoneos-arm64_ead6cc453897f14ad171889a5bac021f437c32e140810269f2813a704eaa4053.deb
+Size: 1222414
+MD5sum: 33d6ccc6dabafdaf692d643a83cc1e1c
+SHA1: 14809d8a2eaa223c16cc76eccf77342075b70e84
+SHA256: ead6cc453897f14ad171889a5bac021f437c32e140810269f2813a704eaa4053
+SHA512: 876a53c4bb21cb4e288b802f11111ac8c78dbc8e666c7e5b9d4aed149457017fe46ca78c86d37d9e8883fd512445c1026909fe7bb2e9a153e1c70e6e1559b15b
+Description: Hikari lets you customize and enhance your device’s sound effects with ease. Hikari让您可以轻松自定义和增强设备的声音效果。
+Depiction: https://repo.cypwn.xyz/depiction/2797
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2797
+icon: https://huayuarc.github.io/icon/hikari.png
+Name: Hikari
+Author: Hitori
+
+Package: xyz.cypwn.killbackground13
+Architecture: iphoneos-arm64
+Version: 1.1.4k
+Section: Tweaks
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Filename: debs/iphoneos-arm64/xyz.cypwn.killbackground13_1.1.4k_iphoneos-arm64_74a89acad98ee01fce97917aeaa68c67d0cffe832e9791418b2f10c6b6b31a18.deb
+Size: 293216
+MD5sum: ac4c2227a0a0b09409d0341304030d57
+SHA1: b423b8bd92c73dc1b8bbd72ab985a192adaaf527
+SHA256: 74a89acad98ee01fce97917aeaa68c67d0cffe832e9791418b2f10c6b6b31a18
+SHA512: 9a1692a8ac80d17222f45c5a03cd0c83f7a7393219f59735a0e7f83e83fbe6c5ec4219db3a99f0cdf12eb39f20e43414e1e64fdb49f02addbea460977d487288
+Description: Kill background apps with style for iOS 13 to 26! Cracked by Nya 用iOS 13到26的风格杀死后台应用程序！
+Author: ichitaso
+Name: KillBackground13
+icon: https://huayuarc.github.io/icon/KillBackground.png
+
+Package: xyz.cypwn.killbackground13
+Architecture: iphoneos-arm64e
+Version: 1.1.4k
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Filename: debs/iphoneos-arm64e/xyz.cypwn.killbackground13_1.1.4k_iphoneos-arm64e_2b5e02d1cb98a5ca4f4a0a93da13776242c4d09a55482fc5e7a22400b01320bb.deb
+Size: 293288
+MD5sum: 62167e4925b4c548d2110c92f37ba729
+SHA1: 5184198c54a178c05ed8811048a374d20ce70056
+SHA256: 2b5e02d1cb98a5ca4f4a0a93da13776242c4d09a55482fc5e7a22400b01320bb
+SHA512: 6ffc44d38dd5eebe2c4890ecbcdba526acc414d017ba01093061605db58d3b63ec8005f81e660c930fbe93c03b0e565556f3453877ffb197f9113d2e22ead810
+Description: Kill background apps with style for iOS 13 to 26! Cracked by Nya 用iOS 13到26的风格杀死后台应用程序！
+Author: ichitaso
+Name: KillBackground13
+icon: https://huayuarc.github.io/icon/KillBackground.png
+
+Package: xyz.cypwn.minotaur
+Architecture: iphoneos-arm64
+Version: 1.2.1k
+Section: Tweaks
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: debs/iphoneos-arm64/xyz.cypwn.minotaur_1.2.1k_iphoneos-arm64_8c4a75c369a4fc93cbb419aa30d6bc6ddcd0cf215df7917a00d65a1c793c9f31.deb
+Size: 198956
+MD5sum: 9797c379fde8f6757efd3c60c0e078e0
+SHA1: 077d76ceb029646141929ca5fa4daf8d4bd3a7ae
+SHA256: 8c4a75c369a4fc93cbb419aa30d6bc6ddcd0cf215df7917a00d65a1c793c9f31
+SHA512: 729292190c590ac2b4d3f4131faab4d7dee757df04fa42186f1d8644b8a7a338f4197b6cacb8afcb725bcc7cbd9f66b2f61446e6b8e55028ca07b7e1a7145eba
+Description: Notifications in your Status Bar Minotaur 是一款状态栏快通知插件。只需点击状态栏的“铃铛”通知图标，就可以快速查看通知，分类归纳，支持快速删除，非常方便。
+Depiction: https://repo.cypwn.xyz/depiction/3197
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3197
+Icon: https://huayuarc.github.io/icon/Minotaur.png
+Name: Minotaur
+Author: Muirey03
+
+Package: xyz.cypwn.networkmanager
+Architecture: iphoneos-arm64
+Version: 1.4.3
+Section: Tweaks
+Maintainer: CyPwn
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/xyz.cypwn.networkmanager_1.4.3_iphoneos-arm64_f7cf33bf602a0480380417cc40383b85ba9a8407a89ed1ddc2cc73443e456422.deb
+Size: 37700
+MD5sum: bf6764a419d4a43466f2d607000946d8
+SHA1: 1683846e81dd971f31e53f2e35bb78a8e83f34a9
+SHA256: f7cf33bf602a0480380417cc40383b85ba9a8407a89ed1ddc2cc73443e456422
+SHA512: 7e05d04849b330cb29632634a6b58f1a2c0c2653ddc74669e2744201213c158927feccab684c593d6d0323c678962ccfd7082e30446f3a5ba0aacb596e7e3ab6
+Description: Force 2G/3G/4G/5G connection from the Control Center 从控制中心强制连接2G/3G/4G/5G
+Name: NetworkManagerReborn
+Author: NoisyFlake, Nixuge
+icon: https://huayuarc.github.io/icon/networkmanager.jpg
+
+Package: xyz.cypwn.networkmanager
+Architecture: iphoneos-arm64e
+Version: 1.4.3
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/xyz.cypwn.networkmanager_1.4.3_iphoneos-arm64e_434ca559cf23a292f76c1a72083bc5812289df10a304ce5bbdac2f8548bdc537.deb
+Size: 36728
+MD5sum: dfb22837ada18c693d492591d5c511e0
+SHA1: ea1d3c593e343f239ec134890cd4811a1146dbe6
+SHA256: 434ca559cf23a292f76c1a72083bc5812289df10a304ce5bbdac2f8548bdc537
+SHA512: f2a673d5efe074d443859c21b439504649f11fae235df1a5a466511d7e4feb0c4b214384bc389b17ae8d6d4715925e36221c24dcefb0b6d7809a9a7faa80ff15
+Description: Force 2G/3G/4G/5G connection from the Control Center 从控制中心强制连接2G/3G/4G/5G
+Name: NetworkManagerReborn
+Author: NoisyFlake, Nixuge
+icon: https://huayuarc.github.io/icon/networkmanager.jpg
+
+Package: xyz.cypwn.photoscore
+Architecture: iphoneos-arm64
+Version: 1.2.2k
+Section: Tweaks
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/xyz.cypwn.photoscore_1.2.2k_iphoneos-arm64_6e64e478906f670a1782357bf540ffeb755a7cda752fcba280de2e3227fc671f.deb
+Size: 212220
+MD5sum: 0dbd5cc6266c3bd7fba03c4cfd6df126
+SHA1: b5f08def307d161ea5770746905ac06d401f9fef
+SHA256: 6e64e478906f670a1782357bf540ffeb755a7cda752fcba280de2e3227fc671f
+SHA512: 53ea91a5c8b14e0c4a82d2929adefaffe526a49c179f3193b9a54e90014d79d3f9b497ffa0ff2f251b2f485fcc49814ba9571761eb9ea55a20f29ed712c0058c
+Description: 通过可定制的查看、导航、布局和相册工具增强 Apple Photos。
+ * 主要特点
+ * 隐藏“照片”底部栏，将全屏照片居中，按名称对相册进行排序，并在底部打开相册。
+ * 仅在“照片”中强制深色外观，无需更改其他应用程序。
+ * 使用原生缩略图、1-9列预设或具有可配置列和间距的自定义5-10级布局。
+ * 显示、隐藏和重新排序搜索项目；在相册中显示或隐藏人物和地点。
+ * 在iPad上自定义边栏目标和群组。
+Name: PhotosCore
+Author: zjer
+icon: https://huayuarc.github.io/icon/photoscore.png
+
+Package: xyz.cypwn.photoscore
+Architecture: iphoneos-arm64e
+Version: 1.2.2k
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/xyz.cypwn.photoscore_1.2.2k_iphoneos-arm64e_a201a1eb9cda91b8c937bf057083218d60f2cb9356b5d111b1f1ccf42c002689.deb
+Size: 207700
+MD5sum: 3dc99968e4b825cabce42bdf8ac7c636
+SHA1: 4eaf4d70c561b7636f58256da4c77746f47cb5ea
+SHA256: a201a1eb9cda91b8c937bf057083218d60f2cb9356b5d111b1f1ccf42c002689
+SHA512: e9d968e8b2f0bfc479562004a90247189d7b68af4d8c3fac68a7e59f2b5fe3d5782ac6faadc88712b6f7f852a6774adf12ad692967dae52a5ccaf1f18a44ef1e
+Description: 通过可定制的查看、导航、布局和相册工具增强 Apple Photos。
+ * 主要特点
+ * 隐藏“照片”底部栏，将全屏照片居中，按名称对相册进行排序，并在底部打开相册。
+ * 仅在“照片”中强制深色外观，无需更改其他应用程序。
+ * 使用原生缩略图、1-9列预设或具有可配置列和间距的自定义5-10级布局。
+ * 显示、隐藏和重新排序搜索项目；在相册中显示或隐藏人物和地点。
+ * 在iPad上自定义边栏目标和群组。
+Name: PhotosCore
+Author: zjer
+icon: https://huayuarc.github.io/icon/photoscore.png
+
+Package: xyz.cypwn.python314
+Architecture: iphoneos-arm64
+Version: 3.14.3
+Priority: optional
+Section: Development
+Maintainer: CyPwn
+Installed-Size: 147920
+Filename: debs/iphoneos-arm64/xyz.cypwn.python314_3.14.3_iphoneos-arm64_52732561df361e892efcbb00378a2de043d5703562aae219c2eab23fdce8d2eb.deb
+Size: 48929424
+MD5sum: 0d1f392a4637ec9e99d01732db2586dd
+SHA1: 84e392107d515968625ffb52f862358a626f91aa
+SHA256: 52732561df361e892efcbb00378a2de043d5703562aae219c2eab23fdce8d2eb
+SHA512: 4cd86e4da3d322c33d3a8890c27c31f91260cc5dc38b9ce81664cb7bd6853646bcdd34384bd3adf1966eacf42f991895592e1aa0920658966de13deda48f3fc3
+Description: Python 3.14.3 for jailbroken iOS.- Full interpreter with standard library, SSL/TLS, ctypes, compression (lzma, bz2, zstd), curses, and dbm/gdbm. Multi-version safe.- Install pip:python3.14 -m ensurepip
+Icon: https://huayuarc.github.io/icon/python.jpg
+Name: Python 3.14.3
+
+Package: xyz.cypwn.quickprefs
+Architecture: iphoneos-arm64
+Version: 1.3.3
+Section: Tweaks
+Maintainer: CyPwn
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: debs/iphoneos-arm64/xyz.cypwn.quickprefs_1.3.3_iphoneos-arm64_4512b4a9c33ea3e116ff9f3aeda16cc2c72ef36e426d3c53b070a1cad4eef817.deb
+Size: 512724
+MD5sum: 932b2958da98da9408079785892444d6
+SHA1: a0cadb37e2f626ebdbe426010d089e86444d7ce6
+SHA256: 4512b4a9c33ea3e116ff9f3aeda16cc2c72ef36e426d3c53b070a1cad4eef817
+SHA512: 7966346274f0f4eb3719806db23bbd51a55fc291167d18a59b0337053a385ac1a6226e4cdda612a0a1f5ef88cefdb480dee9cfa67d49bfd92613f4a9bc288865
+Description: Quickly access settings prefs from 3D Touch Menu 从3D触摸菜单快速访问设置首選項
+Name: QuickPrefs
+Author: AnthoPak
+icon: https://huayuarc.github.io/icon/quickprefs.jpg
+
+Package: xyz.cypwn.quickprefs
+Architecture: iphoneos-arm64e
+Version: 1.3.3
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: debs/iphoneos-arm64e/xyz.cypwn.quickprefs_1.3.3_iphoneos-arm64e_6c18d5d654e15a61d210338109439d7e5573f60c2c9e69be6280548585033363.deb
+Size: 511492
+MD5sum: 8f54c099b56d5a8d6b53ef5493c6cc3f
+SHA1: 2ec6f099ddf6886e6578b79dbb53b9c782b9833a
+SHA256: 6c18d5d654e15a61d210338109439d7e5573f60c2c9e69be6280548585033363
+SHA512: 24135d4fd2f5635196a313d422e1e97c65ee6a2c2a106aa2be0c9984ecc65c6dea06699dd2fedc5f88f50c89675281959cf6863b01e175d56fef81cf17639dce
+Description: Quickly access settings prefs from 3D Touch Menu 从3D触摸菜单快速访问设置首選項
+Name: QuickPrefs
+Author: AnthoPak
+icon: https://huayuarc.github.io/icon/quickprefs.jpg
+
+Package: xyz.cypwn.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.2.2
+Section: Tweaks
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: debs/iphoneos-arm64/xyz.cypwn.sneakycam_2.2.2_iphoneos-arm64_34fa29860641bd137856fa191094203f8cd1e6b3687628cc7fd4becaef17b3ad.deb
+Size: 107380
+MD5sum: e5bb9dc40769f49c6b66063161e43d47
+SHA1: c8307de29e38ea71fcbcec7ff8a21437e2ef1567
+SHA256: 34fa29860641bd137856fa191094203f8cd1e6b3687628cc7fd4becaef17b3ad
+SHA512: 679fa065d5d5a47256b146b7de93ae7a2a17b2f9a753b2523fb7fe420ce086d8d19c17154395ca6b8f5e627f88e8de866378a0c18bdd7caf504fabe27d596607
+Description: Discretely take a photo or record a video from anywhere, even with your screen off. 从任何地方，甚至用你的相机，谨慎地拍照或录制视频
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: xyz.cypwn.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.2.2
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: debs/iphoneos-arm64e/xyz.cypwn.sneakycam_2.2.2_iphoneos-arm64e_07541d64b199e2fad92b259d20510bc634e8b8f2598854c676f7a4334ad503f9.deb
+Size: 106164
+MD5sum: b2fced86805bc516b10b33aec1160a36
+SHA1: bc8d26f64cb05128648a30497b05f626858efedb
+SHA256: 07541d64b199e2fad92b259d20510bc634e8b8f2598854c676f7a4334ad503f9
+SHA512: 8ea465055426e3b5457e7954760e1213b04323d2e3bd1073512351d36e37b232faedd4469e966d8ebe7d1ead96708cfc179273463c6f408e4f83331736d96b5f
+Description: Discretely take a photo or record a video from anywhere, even with your screen off. 从任何地方，甚至用你的相机，谨慎地拍照或录制视频
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: xyz.cypwn.xinam1ne
+Architecture: iphoneos-arm64
+Version: 2.4-6
+Section: System
+Maintainer: CyPwn
+Provides: emt.paisseon.xinamine (= 99), xinamine (= 99)
+Depends: mobilesubstrate | ellekit, oldabi | xinaa15 | cy+cpu.arm64, firmware (>= 15.0), file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0)
+Replaces: emt.paisseon.xinamine, xinamine
+Filename: debs/iphoneos-arm64/xyz.cypwn.xinam1ne_2.4-6_iphoneos-arm64_94dc9f48462ed9d8d232f3234bd43b71a58c5e0e1bfd0cab044d648b1b8f12ff.deb
+Size: 74836
+MD5sum: 8e08d74e3328793ebad654bce0adb9f2
+SHA1: 4ff9c3eb6f667f2bfa332ae26949973a1cbb30d6
+SHA256: 94dc9f48462ed9d8d232f3234bd43b71a58c5e0e1bfd0cab044d648b1b8f12ff
+SHA512: eafb40bc7cd589b99c7a1c4acd8e0ee7df031fc366084544ca734f086d35aa46e809852880f24d8142780534e0022d635e8f81295546308f63dbd88be3331519
+Description: Xinamine bundle. Includes linker, patcher, 'chex' link checker, 'chix' link fixer, plus other supporting filza scripts.辛胺束。包括链接器、补丁程序、“chex”链接检查器、“chix”链接修复器以及其他支持的filza脚本。
+Name: Xinam1ne All-in-One
+Author: Paisseon, Sudo, NoW4U2Kid
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/xinam1ne.png
+
+Package: xyz.cypwn.xinam1ne
+Architecture: iphoneos-arm64
+Version: 2.6-7
+Section: System
+Maintainer: CyPwn
+Provides: emt.paisseon.xinamine (= 99)
+Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp16, llvm-16, llvm-16-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Replaces: emt.paisseon.xinamine
+Filename: debs/iphoneos-arm64/xyz.cypwn.xinam1ne_2.6-7_iphoneos-arm64_5758991312f9f2c62d68d08edcc161082cf4013d845d182816bebb5e47b428b4.deb
+Size: 1947556
+MD5sum: 4be8adc376df83b5d2750b39beb4a388
+SHA1: 1b1c7ad30e39e775237aacd0dafa4b697e5d246a
+SHA256: 5758991312f9f2c62d68d08edcc161082cf4013d845d182816bebb5e47b428b4
+SHA512: da976278564a798727d28edf9a6d8cc7bd876fde88ae94eec8688c058a78d15e2eb5a12760e503eb43ddd1c1579429409ee818e15b6ded8a3b57dcdd5c03356f
+Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza or use the included Xinaf1re app.Xinamine官方一体包。使用Filza中的Xinam1nePatcher或使用随附的Xinaf1re应用程序，轻松将根调整转换为无根（以及无根转换为根）。
+Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
+Name: Xinam1ne AIO
+Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
+
+Package: xyz.cypwn.xinam1ne
+Architecture: iphoneos-arm64
+Version: 2.6-8
+Section: System
+Maintainer: CyPwn
+Provides: emt.paisseon.xinamine (= 99)
+Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp16, llvm-16, llvm-16-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Replaces: emt.paisseon.xinamine
+Filename: debs/iphoneos-arm64/xyz.cypwn.xinam1ne_2.6-8_iphoneos-arm64_9436e1d6d63614c91e440247e37ca3367326f768c77a0dd8f179466425e3793c.deb
+Size: 1946744
+MD5sum: 9cdaa02f00d0c7cbd3d42b6728f44263
+SHA1: 934b4932ac3fd0b073604a4187d12d529256afea
+SHA256: 9436e1d6d63614c91e440247e37ca3367326f768c77a0dd8f179466425e3793c
+SHA512: 1c88a52b7c5041bb5b186d1e04684db367cd589d97c6921721ea6fcb2cbad16cb3d2149004d0fd445f5976d152140c3840d15b889b33dbd383728a5d7f4125a9
+Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza or use the included Xinaf1re app.Xinamine官方一体包。使用Filza中的Xinam1nePatcher或使用随附的Xinaf1re应用程序，轻松将根调整转换为无根（以及无根转换为根）。
+Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
+Name: Xinam1ne AIO
+Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
+
+Package: zone.uni9k.umount
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Section: Tweaks
+Maintainer: uni9k
+Installed-Size: 4964
+Filename: debs/iphoneos-arm64e/zone.uni9k.umount_1.3.0_iphoneos-arm64e_e4146710fbae4f9e0f33fb3ccc3b61c6376074e8ab4b73b2d8609e0f86354c6b.deb
+Size: 1613428
+MD5sum: 4281e22a42df03a2aec73a6439fda9d1
+SHA1: 53e120b9bfadc4084540633115e1b759eb4571a5
+SHA256: e4146710fbae4f9e0f33fb3ccc3b61c6376074e8ab4b73b2d8609e0f86354c6b
+SHA512: 2fd357974df93522867bc1af32ed2ab0dc4edb109eec302775bc1facb1e84f6cf9b42cd3a39b34d6253a79ca28971de262bd32b65e84aa9d9529486544eea075
+Description: Native SwiftUI system-directory bind-mount manager for Relaxin / RootHide, with kernel-ucred fallback, diagnostics, RootHide safe-mode gating, and bootloop protection.Relaxin / RootHide的原生SwiftUI系统目录绑定安装管理器，具有内核ucred回退、诊断、RootHide安全模式门控和引导循环保护。
+Name: UMount 挂载器
+Author: uni9k
+icon: https://huayuarc.github.io/icon/UMount.png
+
+Package: zqbb.alipayfuk
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: zqbb <xuanhua880@gmail.com>
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/zqbb.alipayfuk_1.0.2_iphoneos-arm64_8dc4c47840c158d215a380005a9f0e3b8a66560a5a34953137890b6f9a200d2a.deb
+Size: 36404
+MD5sum: 834a355720014d68ea3a658b9d012379
+SHA1: 4624e42cacc207879ce9fcc828825f2accf279dd
+SHA256: 8dc4c47840c158d215a380005a9f0e3b8a66560a5a34953137890b6f9a200d2a
+SHA512: 57733b35d0ac13ffb035a508e23c6366a7a265d70e82e0fc433a881d616fba556b3ac3a381be10d293382b387d1433fcf9355fe4cf0c1e1f94bb1936c71fe291
+Description: 通过控制中心快捷打开支付宝付款码，设置-控制中心-自定控制内添加后使用
+Name: AlipayFuk
+Author: zqbb <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/alipayfuk.png
+
+Package: zqbb.alipayfuk
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 160
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/zqbb.alipayfuk_1.0.2_iphoneos-arm64e_376ba538e21fc1d25e8fc3ff51c01ab578e2e1b23acba9f1a37d101b3def8b9b.deb
+Size: 36520
+MD5sum: 31c9a64aab0af369c4d6598f1bde723e
+SHA1: c0bb2a8cc768b8cc33714e67e5afa81e3550cab0
+SHA256: 376ba538e21fc1d25e8fc3ff51c01ab578e2e1b23acba9f1a37d101b3def8b9b
+SHA512: eea9cd5c7957749eaa947b0f25653b55e0d4a5f1399a5465772d61e222689bc20076a4296a5a283fcd6e447e3910ec607b9be2fd7ba7c64c213ff399c73af682
+Description: 通过控制中心快捷打开支付宝付款码，设置-控制中心-自定控制内添加后使用
+Name: AlipayFuk
+Author: zqbb
+icon: https://huayuarc.github.io/icon/alipayfuk.png
+
+Package: zqbb.wechatfuk
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: zqbb <xuanhua880@gmail.com>
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/zqbb.wechatfuk_1.0.2_iphoneos-arm64_70466e8f4fd66f800cc92fca67fd9efcb5c59d166e88a17a322a19373f64602f.deb
+Size: 22964
+MD5sum: cd10e6611f9f4cecbb226da73c28c4fc
+SHA1: 37ce6e8ece10024263ba650f0e14eb764e80b255
+SHA256: 70466e8f4fd66f800cc92fca67fd9efcb5c59d166e88a17a322a19373f64602f
+SHA512: 0c5e9bf592029a58051db2499acaf20839993e68738722d3383468022a92614501011009373f69f932eab941c8d0f57cc4e5f5a44f86ca4251d78e04c68e77fa
+Description: 通过控制中心快捷打开微信付款码，设置-控制中心-自定控制内添加后使用
+Name: WeChatFuk
+Author: zqbb <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/wechatfuk.png
+
+Package: zqbb.wechatfuk
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 160
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/zqbb.wechatfuk_1.0.2_iphoneos-arm64e_764740abcdad40ff8d288622039bf6a76303075b42cb922a8f50151af7f5d97f.deb
+Size: 23072
+MD5sum: 6867fe254f70dc4488d7334aa439aea5
+SHA1: 8f8218b726d94228b2991ba9fb48216240b88927
+SHA256: 764740abcdad40ff8d288622039bf6a76303075b42cb922a8f50151af7f5d97f
+SHA512: f1f131967e0e9fe738b753004d71c78a80f0933f8721afc62755f58f0cbb76d47d824e27da445afc230cd316309017114afdb7c1d59476c73cb57114767e63f1
+Description: 通过控制中心快捷打开微信付款码，设置-控制中心-自定控制内添加后使用
+Name: WeChatFuk
+Author: zqbb
+icon: https://huayuarc.github.io/icon/wechatfuk.png
