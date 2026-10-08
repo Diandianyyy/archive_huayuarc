@@ -8496,6 +8496,48 @@ Name: ProMotion 120Hz
 Author: doimty
 icon: https://huayuarc.github.io/icon/120hz.jpg
 
+Package: com.doimty.vedette
+Architecture: iphoneos-arm64
+Version: 1.1.12-3
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 976
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Filename: debs/iphoneos-arm64/com.doimty.vedette_1.1.12-3_iphoneos-arm64_fd7d7a1effc1476f4771e2863296529c0a03b9394fa43aec56aed6151752990d.deb
+Size: 142912
+MD5sum: de7ca0a837e8c50fb347172cb2a6e827
+SHA1: 8d3dfd33204ad0afab4589fa5238b8d4d5d59dac
+SHA256: fd7d7a1effc1476f4771e2863296529c0a03b9394fa43aec56aed6151752990d
+SHA512: e7a258a02f746c5545430906990038417fa88e97b4cbf304a7f085f33e1e0043c54a7a62f30af96f50496cf28a530e6e5e8c5e0f13fc1a3dc4e9b9f3369f63b8
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Name: Vedette
+Author: udevs
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+
+Package: com.doimty.vedette
+Architecture: iphoneos-arm64e
+Version: 1.1.12-3
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 976
+Depends: firmware (>= 15.0), roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Filename: debs/iphoneos-arm64e/com.doimty.vedette_1.1.12-3_iphoneos-arm64e_1a89d64f4e945e2b59a68b7fb83f26fb3479ba3f131c336187d27fb247571c62.deb
+Size: 139324
+MD5sum: c629f917f55d095fd1386bde15b0af39
+SHA1: 3f4907771e939d8006843f86fe20bf60abddde86
+SHA256: 1a89d64f4e945e2b59a68b7fb83f26fb3479ba3f131c336187d27fb247571c62
+SHA512: c8107e140006542265e7f31d9e62c718bbde548f3c41343e9584f790e3246fa09421bfa99fdbcb392451f33da143c80145c5742df8bbdf87410714d945784446
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Name: Vedette
+Author: udevs
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+
 Package: com.dvntm.infuseplus
 Architecture: iphoneos-arm64
 Version: 2.6
@@ -23277,6 +23319,27 @@ Icon: https://qq391160.github.io/repo/icons/thermal.png
 
 Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64
+Version: 2.0.45
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 3224
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.45_iphoneos-arm64_e487aeb676df338b9826d2ccf078603b7354acf2538ed1f821a412453fae8ec4.deb
+Size: 486040
+MD5sum: b573c4067dc1dce3005a799bf219d883
+SHA1: 3b073b039c94513bd1114f127546644f49b3f843
+SHA256: e487aeb676df338b9826d2ccf078603b7354acf2538ed1f821a412453fae8ec4
+SHA512: b903d9adabb4fb19638fa067230c5c04bdadb76124ade6470905f85bd177ef58fdc8090568b444b00be7d7e84d93a93bf9fc5b02857b5d0a6c415d3089e1e33c
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
 Version: 2.0.5
 Priority: optional
 Section: Tweaks
@@ -23334,6 +23397,27 @@ MD5sum: 40a41f7e3bbf53cc3914d1e89fa06cd7
 SHA1: ff9343ee608500abbf262366f7fe7432ee37c48a
 SHA256: 4431a7ef558e305ec34ca758716006b2fabc95f17765ce2a7f7475e681bd7ed2
 SHA512: 0af3edb202ee44507f8a2f2056eb13d1bba4a1751e52e9e8acbd69b3555c2c6e2c77418477ba7c3b470f7a5f98aaea189c7d34498623f360fec0324f43c82560
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.45
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 3352
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.45_iphoneos-arm64e_4794e05a669a268a8346718dde6b4a28fd0ae0fb3a2b608849fd4c4a81a56479.deb
+Size: 512764
+MD5sum: ce60d3ccb04ffee37f4df1bd541471c2
+SHA1: e86f06c1d3736bae467dccb8cc3c53d92b8d57bd
+SHA256: 4794e05a669a268a8346718dde6b4a28fd0ae0fb3a2b608849fd4c4a81a56479
+SHA512: 2c7f0c5fc1b6424cadf606cfd96f13247b39cf56984aec03815c5e8a0a58c6f8f88dd5643a610ff627f34a91ce295eb35761e58ef2739867239bf928603dd64e
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
@@ -24705,6 +24789,78 @@ Author: MoWang
 icon: https://huayuarc.github.io/icon/floating.jpg
 
 Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 5.0
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3100
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_5.0_iphoneos-arm64_ec8ac9c190bc20e542e2a7f509bcbbd0a1930b9b9cdbc746300b28ebf921d3e3.deb
+Size: 449368
+MD5sum: 8ff726c126bfa9b77b7ef93bd74cfb3c
+SHA1: 9740310932abf6937493bfe0dc6c54606806524d
+SHA256: ec8ac9c190bc20e542e2a7f509bcbbd0a1930b9b9cdbc746300b28ebf921d3e3
+SHA512: 8cb4f2922500553f7d6c4fb164b457dc5db0f3c54ae7b8ac46aa29a848660ba4becd280d39d280c4c7998969642f0411acfa36bc71fa3edd3db5b30053e249b2
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 5.1
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3100
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_5.1_iphoneos-arm64_316e7bf263a6d0ade053186507622bb88ab42413f6992707f9dae5e8c759872d.deb
+Size: 448084
+MD5sum: b14c276d98d383d86e2179715ed32a8c
+SHA1: 9d77315f960901bae1738fe5bacdae36a9e423f3
+SHA256: 316e7bf263a6d0ade053186507622bb88ab42413f6992707f9dae5e8c759872d
+SHA512: 43d8c365e986f5c10361b5fdbadf6fef0ee02c83041cb25628e6e31b256421b5b5e8a70b5171948f14d48f494d3ffbb0966d96c59544c821fb335485d4296052
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 5.2
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3100
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_5.2_iphoneos-arm64_0c728234e16fc16626dbcd253c4dd05640ff4d06e901326a35d27e23898dbb1c.deb
+Size: 452628
+MD5sum: 52a342ace19d857698908728e17e9faf
+SHA1: e378fab710b9fcb5356ab05a8b4d3c34e14fe030
+SHA256: 0c728234e16fc16626dbcd253c4dd05640ff4d06e901326a35d27e23898dbb1c
+SHA512: b110ea584b56cf98fe787f421f30018ce0f627fb131872d0bed48166b651b53eda909d42c5e10da339cff6cc0618daf4fc3fc411eddcc6e09d551c8dd41c7d8e
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（更新说明：修复温控暗屏问题，修复温控高温弹出全屏警告 bug）
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 5.3
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3100
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_5.3_iphoneos-arm64_7d9a01e2390a141cc0cdc60a725a2a3a0319b0903d76b5316864371e5fe69046.deb
+Size: 454532
+MD5sum: 4b0e3f038a60b916b68137725081e6c2
+SHA1: 969f5ee27a3cabed4607b8c3a7298d0caef1328b
+SHA256: 7d9a01e2390a141cc0cdc60a725a2a3a0319b0903d76b5316864371e5fe69046
+SHA512: c0e61dd7d59754b25b5710d6d8c961f37b79154d896a876a123b194d6bf4cf86ca393bae6fc67cc9a833219035edb3fa04d0832baaf26782901cbbcda8d4a2e8
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（更新说明：新增注销不锁屏）
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
 Architecture: iphoneos-arm64e
 Version: 1.7.0
 Section: Tweaks
@@ -25586,6 +25742,78 @@ SHA256: 7414c98a3db03054b393823853b709ac839afd0f75fa7cdc3718aa0a85ab2f00
 SHA512: 10d640992d27bd9ca439a6561fb24ef0876a15680eaeee0222b2bc9585be7a81b8620981c0e8203fd9b5a152a4ffd9622141664d375af170951925351dad0643
 Description: 修改温控 bug：极限满频全局状态同步与 App/桌面切换掉频修复；新控制器注册后立即继承当前性能模式。保留系统与硬件临界温度安全保护。
 Name: SB CPU Floating
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 5.0
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3080
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_5.0_iphoneos-arm64e_d227ba7a3b7a9b1a7124dca79205dedd9b20cd56dda1076c28c6672a72830c28.deb
+Size: 449104
+MD5sum: 7e0eef50349938faa710b2205636ee83
+SHA1: 560144b152b88f8fefe2e73dbcec0a0cf3ce8fb8
+SHA256: d227ba7a3b7a9b1a7124dca79205dedd9b20cd56dda1076c28c6672a72830c28
+SHA512: cdfc63e57ba0213552e0cd5a1c668427e65ad5e0dc152d508842414515d3ee64f37451c410ff83b3f1f95603e5b4d3dbf0d98b000fa8fc60e8e103be2568880a
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 5.1
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3080
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_5.1_iphoneos-arm64e_32ae6a275911e269b4974ed1fefddc74da42d898bd1a810a280acbee8d8a46e7.deb
+Size: 449960
+MD5sum: 8d669d1461456c065fa6f0a07f8fd52a
+SHA1: 54c751a98ef2243de5c69de2922e4b591a5ef1d4
+SHA256: 32ae6a275911e269b4974ed1fefddc74da42d898bd1a810a280acbee8d8a46e7
+SHA512: 345334e71866c37b823e11f293b9fc13415d77681fd3edf58188a1a13a1d619e13ba419ca20be5ce5f673a6ceae179096b0fa5e56d70fd5f0f880419d1258c5a
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 5.2
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3080
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_5.2_iphoneos-arm64e_bea8598eda607e816dcb76ff247b226ed2d93c9d910bd74caa5a8f92ef22524d.deb
+Size: 452496
+MD5sum: 29702fbc5cedc2c370041a4f573998da
+SHA1: 282bc0ad990893a65f6ecfba3fdc818e2c0bae8e
+SHA256: bea8598eda607e816dcb76ff247b226ed2d93c9d910bd74caa5a8f92ef22524d
+SHA512: e754f34d16bef048385a16ea1cc47284ad20b3e9744782557977209ca3ec3ffb97d15af9229125618e416eedf48bb3633a36d107ee46c251df3279e1344b7f3b
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（更新说明：修复温控暗屏问题，修复温控高温弹出全屏警告 bug）
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 5.3
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3080
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_5.3_iphoneos-arm64e_b0f6e8d4e761e212e76b32fcc4809a4354ad59ba8cfc12a891c196e0400ef6f7.deb
+Size: 453312
+MD5sum: 6f7f78e46f9bfb67f6c5643f103f2c03
+SHA1: 24841eeb049de6edaffd7be9c188fb93bce92d38
+SHA256: b0f6e8d4e761e212e76b32fcc4809a4354ad59ba8cfc12a891c196e0400ef6f7
+SHA512: f4fd159a2c14eb62f0298a7e4fa673e7ec369fa2e811855b77a0e2960fc20747a4eb49cce12f984b1b0209f7082469eb375c5b35e57daf0ffd4b6d8d79c8a0c3
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（新增功能：注销不锁屏）
+Name: 灵动监测
 Author: MoWang
 icon: https://huayuarc.github.io/icon/floating.jpg
 
