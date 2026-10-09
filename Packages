@@ -3646,6 +3646,76 @@ Icon: https://huayuarc.github.io/icon/Aemulo.jpg
 Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
 Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
 
+Package: com.anthopak.powercuts-rootless
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Section: System
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=14.0), mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.anthopak.powercuts-rootless_1.2.2_iphoneos-arm64_7ab85c03b265718face17f1040e383e37b750b579be62416610ccd2112d82948.deb
+Size: 274948
+MD5sum: 3015cdd9283d30a3d41e20d12681f05f
+SHA1: e0a2fd166db3b5ae8bfe46a67f7c53fd64693d43
+SHA256: 7ab85c03b265718face17f1040e383e37b750b579be62416610ccd2112d82948
+SHA512: 7f233f2fab96e7432113744ce32d4a51503b389b657627764440a3ede4d4380de24e1647ec74c51c6718e20ae961ad89c3ac5f73339c8220122d1e7db88949a4
+Description: Powercuts是iOS“快捷方式”应用程序的库，它能够为应用程序添加新操作，这些操作可以在“快捷方式”和个人自动化中使用。如果您还没有安装，请在软件包管理器中搜索“Powercuts”来安装一些操作包。然后，您将在“应用程序”>“Powercuts”的“快捷方式”编辑器中找到这些操作。A library and additions to supercharge Shortcuts!
+Name: Powercuts
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercuts-rootless/icon.png
+Author: AnthoPak <anthopakdev@gmail.com>
+
+Package: com.anthopak.powercuts-rootless
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Section: System
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=14.0), mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.anthopak.powercuts-rootless_1.2.2_iphoneos-arm64e_cb3e1c6dc3d590f62e0fd6e946960b52929340b279986c2f5231b1ace35307fb.deb
+Size: 272728
+MD5sum: 29e52dd96773d4072d8c42241eb6f642
+SHA1: 1e493340e775a0081418007f6e6be4178af3cebe
+SHA256: cb3e1c6dc3d590f62e0fd6e946960b52929340b279986c2f5231b1ace35307fb
+SHA512: 4d3aabbfcd7b5c40b994e0565e414388e616dcc60d144113a4a311266c25227bada941df60e454a1d8816823d271e62b8672232263551abbb0f25eb181462429
+Description: Powercuts是iOS“快捷方式”应用程序的库，它能够为应用程序添加新操作，这些操作可以在“快捷方式”和个人自动化中使用。如果您还没有安装，请在软件包管理器中搜索“Powercuts”来安装一些操作包。然后，您将在“应用程序”>“Powercuts”的“快捷方式”编辑器中找到这些操作。A library and additions to supercharge Shortcuts!
+Name: Powercuts
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercuts-rootless/icon.png
+Author: AnthoPak <anthopakdev@gmail.com>
+
+Package: com.anthopak.powercutsactionspack-rootless
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Section: Tweaks
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=14.0), mobilesubstrate, firmware (>= 14.0), com.anthopak.powercuts | com.anthopak.powercuts-rootless
+Filename: debs/iphoneos-arm64/com.anthopak.powercutsactionspack-rootless_1.3.1_iphoneos-arm64_ca867398f62ef02ec6975950d978cac00179c0e2c887046136920e8603f38311.deb
+Size: 60728
+MD5sum: b2f30ec7ab2edb6c38881e43d98fb48b
+SHA1: 2b422c4d53674c74c9fab6c9fc64393770e13d2a
+SHA256: ca867398f62ef02ec6975950d978cac00179c0e2c887046136920e8603f38311
+SHA512: 5ff25e1620ee0fb5c05010823761e2dbfdb3b937833760ca7e1917d8f519f9bb1e7e93a1910be3df4863ed62cb502c639585cb6d13c269f9858af8aaa7d0903b
+Description: 这个包提供了几个操作，在越狱的设备上释放快捷方式应用程序的力量！安装后，您将在“应用程序”>“Powercuts”下的“快捷方式编辑器”中找到新操作。您可以在“快捷键”或“个人自动化”中使用这些操作。Pack of actions for Powercuts
+Name: Powercuts Actions Pack
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
+Author: AnthoPak <anthopakdev@gmail.com>
+
+Package: com.anthopak.powercutsactionspack-rootless
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Section: Tweaks
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=14.0), mobilesubstrate, firmware (>= 14.0), com.anthopak.powercuts | com.anthopak.powercuts-rootless
+Filename: debs/iphoneos-arm64e/com.anthopak.powercutsactionspack-rootless_1.3.1_iphoneos-arm64e_2ee4dfd4bc817f06579e730984a76bbf83921895f15836c774ecebd12aac0354.deb
+Size: 59716
+MD5sum: 0e219a7605cf9b4b059184f56d6ee690
+SHA1: 3eeeedf5fd4f1b3094570dbdb81947202e9e2a13
+SHA256: 2ee4dfd4bc817f06579e730984a76bbf83921895f15836c774ecebd12aac0354
+SHA512: 0970caa23fef5e100c028b096be8f2d3bfd5e21e5fe2f5d2600072b167107264f13111a206cc4f7b1ce7b3ee0a503f6d24d10fab5cd87ec60db98019efd4c1f0
+Description: 这个包提供了几个操作，在越狱的设备上释放快捷方式应用程序的力量！安装后，您将在“应用程序”>“Powercuts”下的“快捷方式编辑器”中找到新操作。您可以在“快捷键”或“个人自动化”中使用这些操作。Pack of actions for Powercuts
+Name: Powercuts Actions Pack
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
+Author: AnthoPak <anthopakdev@gmail.com>
+
 Package: com.anubis.boardswipe
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -11360,6 +11430,25 @@ Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
 Package: com.huayuarc.cputhermal
 Architecture: iphoneos-arm64
+Version: 1.6.2-154+isolation.4
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 2180
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.cputhermal_1.6.2-154+isolation.4_iphoneos-arm64_7e1fdc25d957d73afbae7b8985a5b2b361f4971548bfaaabbcc32025ae2098ff.deb
+Size: 166712
+MD5sum: 37bafe7c6f1b58cc93d47de84d2e186d
+SHA1: eb9be62464499e8127efef2755a3807f13c4baa7
+SHA256: 7e1fdc25d957d73afbae7b8985a5b2b361f4971548bfaaabbcc32025ae2098ff
+SHA512: 4721250a3775d7e8d2dc89b2e6b17814a12a5f62bf9e11e1302a7e3df9bdf47e26b96b6d6b8bf5c5551138e71db656a33b07ae4b400a685a51fb9bb5755dcfd0
+Description: 基于 1.6.2-154 的 CPU 专用低功耗隔离修复。保留双模式、控制中心及原有附加功能；模式切换不启用全局 PowerSave、不重启温控守护、不递归缩放热配置。显示守卫独立于 CPU 预算。
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64
 Version: 1.6.2-164
 Section: Tweaks
 Maintainer: Huayuarc
@@ -11520,6 +11609,25 @@ MD5sum: 0bdb3987c1a75f2aeb53a9add28fc6ba
 SHA1: acc2a0e077eb50aae4943ccf78fefa4fa67dc174
 SHA256: dc2f00047a04d383b80fe8a1df0755af5a7810c9d415496db992cb5d8e10c9c2
 SHA512: 13af9a691c716d5e68e3421df3b9429825703f297c7fa4440515a53fa89edb867ed70c22813291050a5306c5bb17a18629ad1b716589c55fd43f464ba72dd323
+Description: 基于 1.6.2-154 的 CPU 专用低功耗隔离修复。保留双模式、控制中心及原有附加功能；模式切换不启用全局 PowerSave、不重启温控守护、不递归缩放热配置。显示守卫独立于 CPU 预算。
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-154+isolation.4
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 2164
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.cputhermal_1.6.2-154+isolation.4_iphoneos-arm64e_a7d54757ce4707d7dfd7a81d26c4f5167706f4bcd806e6575e44a86dba0fd95b.deb
+Size: 160800
+MD5sum: 67523e748997478bb2494f0d51392da4
+SHA1: ea0c76c23a4b3045d8cbcd54f60068d8938c0e3a
+SHA256: a7d54757ce4707d7dfd7a81d26c4f5167706f4bcd806e6575e44a86dba0fd95b
+SHA512: 9d5bdd84da7cb1eaff76e3eca6492522afacf5d0fc87b2b85f11a71126d147138b5efc44f4cc95029a89654b7f4dac3f93327b02443f154632e75dd493fb4fd2
 Description: 基于 1.6.2-154 的 CPU 专用低功耗隔离修复。保留双模式、控制中心及原有附加功能；模式切换不启用全局 PowerSave、不重启温控守护、不递归缩放热配置。显示守卫独立于 CPU 预算。
 Name: CPU 解除温控
 Author: Huayuarc
@@ -19772,6 +19880,41 @@ dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon-v2.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
+Package: com.moss.pczhexecutor
+Architecture: iphoneos-arm64
+Version: 0.6.0
+Maintainer: moss <moss@local>
+Installed-Size: 104
+Filename: debs/iphoneos-arm64/com.moss.pczhexecutor_0.6.0_iphoneos-arm64_879f431e8445f0ff38420b2cd137b9dcb7646e499521456898ebd117f8f44a83.deb
+Size: 16848
+MD5sum: 4214c78be1191a7d403489325f51327e
+SHA1: fc48ef8b08b4315621242ed522fcaf00f85d09c0
+SHA256: 879f431e8445f0ff38420b2cd137b9dcb7646e499521456898ebd117f8f44a83
+SHA512: ad4bc425edc633abbf149d7db46fcfb7ed6ea10c7bae9b814b047f8e432fec1fcbef47327550c5431e09201a3f92f41f151a0b5c7ad18529dd72358817a98b07
+Description: 扩展原生「快捷指令」实现深度自动化；界面与动作描述已汉化；
+ ☑ 修复「关闭 Siri」动作在 iOS 16+ 崩溃进安全模式的问题
+Name: Powercuts 汉化补丁
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
+Author: moss <moss@local>
+
+Package: com.moss.pczhexecutor
+Architecture: iphoneos-arm64e
+Version: 0.6.0
+Maintainer: moss <moss@local>
+Installed-Size: 104
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/iphoneos-arm64e/com.moss.pczhexecutor_0.6.0_iphoneos-arm64e_591b5af03852e1c7b6ca28a7af1d4a94e6d74bb6b69a18ba6995d23f0f8e9ca6.deb
+Size: 16628
+MD5sum: baf6bfd93f86828a88721322cfec1e18
+SHA1: 89d18e98fbf7fa6770bb1c764aedffff033b1651
+SHA256: 591b5af03852e1c7b6ca28a7af1d4a94e6d74bb6b69a18ba6995d23f0f8e9ca6
+SHA512: eab639577a49c87a545aa2a6e92ab9c524e5aead6d8d466e819b79a28a2cdee6e24232898ab72580b8610140484c0884f80a3a60bdcaf4a4d562552595209d9a
+Description: 扩展原生「快捷指令」实现深度自动化；界面与动作描述已汉化；
+ ☑ 修复「关闭 Siri」动作在 iOS 16+ 崩溃进安全模式的问题
+Name: Powercuts 汉化补丁
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
+Author: moss <moss@local>
+
 Package: com.mowang.crashanalyzer
 Architecture: iphoneos-arm64
 Version: 1.1.5
@@ -25406,6 +25549,24 @@ Author: MoWang
 icon: https://huayuarc.github.io/icon/floating.jpg
 
 Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 5.9
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3440
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_5.9_iphoneos-arm64_4e27fe927c4fd519fc649481fe793ab222272c6d1fc7d447de161205661f0083.deb
+Size: 468152
+MD5sum: 1e1c4bf38930ef05b0016cad6e6327bf
+SHA1: 644eb1560e06f0eda3d7497125ad8486c39e41fc
+SHA256: 4e27fe927c4fd519fc649481fe793ab222272c6d1fc7d447de161205661f0083
+SHA512: 471a275908adc4d91a2888a058e9dae2fac155df88191a16cca8a52c9de414bb6337df7ffae8c4c6785889a9a2ef48eb044373acb0fa6d80bc86d6875d8c34d5
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（支持胶囊文字实时反色）
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
 Architecture: iphoneos-arm64e
 Version: 1.7.0
 Section: Tweaks
@@ -26376,6 +26537,24 @@ SHA1: 06bf84779e8b5ab065cfa6121a2f45b319b352db
 SHA256: 033d16b28f646983e643b97713289bb8ef57204700c79ef7ad72f6482693a10a
 SHA512: a5607e9a0b5c9e04f1ee6082ed6d5891f83d4941e2fdc6eebecb86627b47ed5f6725e1a62658f956c68acd9ec7a2a658ae463d8976e06b868962eaab2f51bed1
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（更新功能双击浮窗可锁定当前位置，反之解锁）
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 5.9
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3440
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_5.9_iphoneos-arm64e_2cef22bc284aba7b2daaaeb473e1fddaadc60e9586d664d203e74f6194f14430.deb
+Size: 464868
+MD5sum: 506be2f39c33a98def774848a0f25750
+SHA1: c66de93275a81f7055c952e4fc6cf49864f9707a
+SHA256: 2cef22bc284aba7b2daaaeb473e1fddaadc60e9586d664d203e74f6194f14430
+SHA512: 74b64c9444f9c7588820649ed7be90269ad8e57ef9478ced6c0c6e328588b6eed0e8fea8fd7586507a42532afbed5b69afb6f432554ee98692e0e4aeef40e5a6
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（实时反色支持胶囊）
 Name: 灵动监测
 Author: MoWang
 icon: https://huayuarc.github.io/icon/floating.jpg
@@ -38908,6 +39087,27 @@ Author: dylv & banana
 Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
 
 Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64
+Version: 0.1.1b+banana43
+Section: Tweaks
+Maintainer: dylv & banana
+Installed-Size: 9192
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64/iya.iapple.liquidass_0.1.1b+banana43_iphoneos-arm64_65fc16f82c5ca5b5d2a4b9806eb9bc0cc4e14ab741ad65f3717e8f339f5431b1.deb
+Size: 3842344
+MD5sum: 1f407ee86b5fc1e1e1c8bd65de9f319e
+SHA1: 9d632362b17c509fc3c6154f9a37a04ef7977c26
+SHA256: 65fc16f82c5ca5b5d2a4b9806eb9bc0cc4e14ab741ad65f3717e8f339f5431b1
+SHA512: 204683ace9e1330cfcd8901397d6ef0c714fe47fa953796b0e735f2d4e37cd173e35fc951605a6853791368bf2f4dc7d0ba1c2dcad2ece76fdb49fefead90981
+Description: 为 iOs 14-18 的系统界面带来可实时调整的液态玻璃效果。next level diarrhea
+Name: Liquid (Gl)ass
+Author: dylv & banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: iya.iapple.liquidass
 Architecture: iphoneos-arm64e
 Version: 0.1.1b+banana33
 Section: Tweaks
@@ -38924,6 +39124,27 @@ SHA1: 254d3f379b27705a65b609a2dd5a5b09d92c6a5c
 SHA256: 503fe67d2059db2cbb56437533861056107bc5ff4a3cd46cd68fed329d76fad9
 SHA512: 0e4efd6bacc74c67a50fe79b3456478508104a7819fbb9e19437c7c4a02a7af3964c9dbce1827c1312a13cdcd8cca35fd0003bc6a4136c06a4ed912ade57c4d1
 Description: next level diarrhea 为 iOs 14-18 的系统界面带来可实时调整的液态玻璃效果。
+Name: Liquid (Gl)ass
+Author: dylv & banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64e
+Version: 0.1.1b+banana43
+Section: Tweaks
+Maintainer: dylv & banana
+Installed-Size: 9176
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64e/iya.iapple.liquidass_0.1.1b+banana43_iphoneos-arm64e_1c9aa3ca7f7da13db8951818be1af79bc6e3e11b757017d90ca918291df614e5.deb
+Size: 3844540
+MD5sum: 602602faceec310b45b76de23bb6cdd3
+SHA1: 13e53074ef1d2af0b60052af13410a2bf18a8e7b
+SHA256: 1c9aa3ca7f7da13db8951818be1af79bc6e3e11b757017d90ca918291df614e5
+SHA512: 80f4f9baba5fca4b59159c7c6536533fa5b4a097f3f9af454947a1977d2c7ad7f81d0463717233ab4cfc29375afc501fa80c975bbf42014419e3756440844b60
+Description: 为 iOs 14-18 的系统界面带来可实时调整的液态玻璃效果。next level diarrhea
 Name: Liquid (Gl)ass
 Author: dylv & banana
 Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
@@ -41359,6 +41580,31 @@ SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64
+Version: 1.4.19
+Priority: optional
+Section: Terminal Support
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 19252
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64/wiki.qaq.ighostvt_1.4.19_iphoneos-arm64_a31843e283cbdf4053c459ed4ef9cd62b2da0df226044469b82ade523b751526.deb
+Size: 6956052
+MD5sum: 48553d06cfb67204b3da12dac536033e
+SHA1: daa930c347fffd9d91c1ad83b725ee9c7c2d7bc8
+SHA256: a31843e283cbdf4053c459ed4ef9cd62b2da0df226044469b82ade523b751526
+SHA512: 61ab2a1b6b8146847ecd7ae035658ed90497dcf50d0cd615f87e2b0da0c494df3b30239673ba41a8b88d6d0bceedc0cf4f7d759afdb7db07c25cf8a50d0be89a
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
 Architecture: iphoneos-arm64e
 Version: 1.4.11
 Priority: optional
@@ -41397,6 +41643,31 @@ MD5sum: e67665a688598beafd3b2baf79a1a9df
 SHA1: fb50a16d28286115c2da4cc94d6c4aa6ced4d411
 SHA256: 3450e59bc61ff79df6c21520187ca0d944cfe397566079b1523eef499b672003
 SHA512: 85f5e3d157c07df517f1df067ca41fbb7637c9d1da5ea7a5b80c7248ddc99e80f8a44c4cfc23d6a28d71e10d9301045904a6d99b1ce2c54b09ea8fef4a603dab
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64e
+Version: 1.4.19
+Priority: optional
+Section: Terminal Support
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 19252
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64e/wiki.qaq.ighostvt_1.4.19_iphoneos-arm64e_42660db6ff6bf8d644d080855e25ae8e3d87d3200e2855a904d32b10ce23c471.deb
+Size: 6953076
+MD5sum: d7f8d119dcff0516366197dfae8572d9
+SHA1: c09d73949f9d11412e008d655ed6da3fcf2fa3d8
+SHA256: 42660db6ff6bf8d644d080855e25ae8e3d87d3200e2855a904d32b10ce23c471
+SHA512: 4a83964865ec4617af66c929f5b5635916a9656bc46c3412b37569e965699650e38591c19c56e773ac607348f2ee5990a614c49615e7baddfd695d55310a7879
 Description: Ghostty-powered terminal for iOS
  A real terminal on your device, drawn by the same engine as Ghostty on the
  desktop. Your shell keeps running in the background, so a build you started
