@@ -3728,6 +3728,78 @@ Name: AhsFilter
 Author: Axs <qiaozhani000@163.com>
 icon: https://huayuarc.github.io/icon/ahsfilter.jpg
 
+Package: com.axs.snapper4
+Architecture: iphoneos-arm64
+Version: 5.2.0-45
+Section: Tweaks
+Maintainer: Axs <qiaozhini000@163.com>
+Installed-Size: 1620
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, com.susudear.stayshot,  com.axs.snapper3tag,  com.iosdump.shellx
+Filename: debs/iphoneos-arm64/com.axs.snapper4_5.2.0-45_iphoneos-arm64_ad66dbea799b1162daac767fb237817ef5d7adecedf5a0ab228d66773661416d.deb
+Size: 385084
+MD5sum: 86c7db6ba2f748b8c0a71498dd6d5f73
+SHA1: 03edd4e40d5da247f29c7b044f9803f5b1a44d5b
+SHA256: ad66dbea799b1162daac767fb237817ef5d7adecedf5a0ab228d66773661416d
+SHA512: 1dde3578fd71e6d62130f221ea9496a0b08d4b3d84631fd04dfa484e73a7df71709fae6cda4b9d14d66fef46db7d9431efd954c5a8a7217ce2c6d93bd70fb3a6
+Description: 这是一款截图工具。
+ * 一、基本设置
+ * 1、移动标记：开启后标注内容可拖动调整位置；
+ * 2、功能开关与排序：设置面板内可开关并拖拽排序全部功能。
+ * 二、触发方式
+ * 1、音量增+电源键=：可选系统截图或插件截图；
+ * 2、长按音量减→插件截图：开启后长按音量减约 0.2 秒调出冻结模式。
+ * 三、截图设置
+ * 1、截图仅复制：截图后仅复制到剪贴板；
+ * 2、长截图方式：滚动拼接 / 一镜到底，智能帧匹配自动拼接；
+ * 四、AI 服务（识别与翻译）
+ * 1、Sileo：Sileo 描述页长按翻译纯文本，翻译方式可选百度翻译或 AI 翻译；
+ * 2、AI 互译与问答：中英文互译与中文问答，支持自定义提示词与 AI 对话模式，半屏浮层展示；
+ * 3、文字识别 (OCR)：模型识别截图文字，半屏浮层展示、涂抹选择、一键复制；
+ * 4、百度翻译：自动检测语言双向翻译（中文↔外语），支持图片翻译 / 文本翻译双通道。
+ * 五、扩展功能
+ * 1、截图标记：颜色/箭头/自由画线/文字/矩形/圆形/高亮/马赛克/撤回/删除/保存/复制；
+ * 2、URL 触发：支持手势插件通过 prefs:root=snapper4_freeze（冻结）/ prefs:root=snapper4_long（长截图）系统深链触发。
+Name: Snapper 4
+Author: Axs <qiaozhini000@163.com>
+icon: https://huayuarc.github.io/icon/snapper4.png
+
+Package: com.axs.snapper4
+Architecture: iphoneos-arm64e
+Version: 5.2.0-45
+Section: Tweaks
+Maintainer: Axs <qiaozhini000@163.com>
+Installed-Size: 1620
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, com.susudear.stayshot,  com.axs.snapper3tag,  com.iosdump.shellx
+Filename: debs/iphoneos-arm64e/com.axs.snapper4_5.2.0-45_iphoneos-arm64e_41ce310dcc23b13b899203eb70495d035e96cfbe513c2ef0a1c9059b783be0fb.deb
+Size: 386376
+MD5sum: bba2f7564937bb536ce221dca80780a9
+SHA1: a753718c280af7e8feb9f8f662b0ef5f2938bd84
+SHA256: 41ce310dcc23b13b899203eb70495d035e96cfbe513c2ef0a1c9059b783be0fb
+SHA512: 140475ae8a6d3539416ef1650e5f96210b7baa061fe288a4634a2f450a23273370870e32312c596803cbdedad19f8fd36d30782183529170d0b29555871efd00
+Description: 这是一款截图工具。
+ * 一、基本设置
+ * 1、移动标记：开启后标注内容可拖动调整位置；
+ * 2、功能开关与排序：设置面板内可开关并拖拽排序全部功能。
+ * 二、触发方式
+ * 1、音量增+电源键=：可选系统截图或插件截图；
+ * 2、长按音量减→插件截图：开启后长按音量减约 0.2 秒调出冻结模式。
+ * 三、截图设置
+ * 1、截图仅复制：截图后仅复制到剪贴板；
+ * 2、长截图方式：滚动拼接 / 一镜到底，智能帧匹配自动拼接；
+ * 四、AI 服务（识别与翻译）
+ * 1、Sileo：Sileo 描述页长按翻译纯文本，翻译方式可选百度翻译或 AI 翻译；
+ * 2、AI 互译与问答：中英文互译与中文问答，支持自定义提示词与 AI 对话模式，半屏浮层展示；
+ * 3、文字识别 (OCR)：模型识别截图文字，半屏浮层展示、涂抹选择、一键复制；
+ * 4、百度翻译：自动检测语言双向翻译（中文↔外语），支持图片翻译 / 文本翻译双通道。
+ * 五、扩展功能
+ * 1、截图标记：颜色/箭头/自由画线/文字/矩形/圆形/高亮/马赛克/撤回/删除/保存/复制；
+ * 2、URL 触发：支持手势插件通过 prefs:root=snapper4_freeze（冻结）/ prefs:root=snapper4_long（长截图）系统深链触发。
+Name: Snapper 4
+Author: Axs <qiaozhini000@163.com>
+icon: https://huayuarc.github.io/icon/snapper4.png
+
 Package: com.axs.zzfilter
 Architecture: iphoneos-arm64
 Version: 5.2.0-8
@@ -20134,6 +20206,26 @@ Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
 Package: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 2.1.69
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4572
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64/com.muzi.mutool_2.1.69_iphoneos-arm64_1e80cedc1f27aee245beee5499018d8fe2c131b276acb6e38da2b04d8c90f2cb.deb
+Size: 696132
+MD5sum: 2f578a3cf7405a31cd80836f118ae6c2
+SHA1: dafa1b1c733a23dc681de11ccbd771b5262adb65
+SHA256: 1e80cedc1f27aee245beee5499018d8fe2c131b276acb6e38da2b04d8c90f2cb
+SHA512: dc326c066522f2ff9e860fec96aa7e60bfc79e73b1e4a3694d4a56e8f5a4566e233dae41130007b80e1af83b54515c12ed7e05d68e38d6532568f473dd213d27
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
+Name: MUtool(rootless)
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
 Architecture: iphoneos-arm64e
 Version: 2.1.18
 Section: Tweaks
@@ -20248,6 +20340,26 @@ SHA1: 959ae638966304cc67f039a3a6793dfdf39d13a2
 SHA256: a0d6ad295b4416cb3555d48693cc855b90164b71a420a21dca79ca77bf6bdcdf
 SHA512: 2baa643d90f99263d196bf54dde3a34258b670e2010e145a7afac70b655cea453c1e2c339bac42e2144d6f2d986d25bcf8a24f7847ef3eba7c795988d559b5a0
 Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图录屏自动隐藏）、电池健康与深度信息
+Name: MUtool(roothide)
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64e
+Version: 2.1.69
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4520
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64e/com.muzi.mutool_2.1.69_iphoneos-arm64e_6f00cac57b69b9e5aa3da4b28867314b0eab406c30286e778cee438312418fc0.deb
+Size: 687820
+MD5sum: a59c41721196cd781bb81037a1aeb419
+SHA1: ef956ab67cf3a52720d2ae9cce546394b754d714
+SHA256: 6f00cac57b69b9e5aa3da4b28867314b0eab406c30286e778cee438312418fc0
+SHA512: 9c01738dfe2e8510395e3321df90ecf5289c1a2cbab3c0452cb827eac5a0410482e8419070b100100302bfc1ba2ee95765690c8585a95157a865ffe3bf8ec0b2
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
 Name: MUtool(roothide)
 Author: Muzi
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
@@ -36547,6 +36659,42 @@ Description: 红果短剧界面净化、短剧广告控制、原生独立设置�
 Name: 红果净化
 icon: https://huayuarc.github.io/icon/hongguo.png
 
+Package: hypicfix
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 204
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/hypicfix_1.0.0_iphoneos-arm64_993641518009749fdc87fc17f4b56d0440206b46f09dbd04fd21f6cdfeb3de94.deb
+Size: 17124
+MD5sum: da61be3368130e9f9b68e6e017deadda
+SHA1: 3adf92d3bee944708e8b472f700188f2da9294bb
+SHA256: 993641518009749fdc87fc17f4b56d0440206b46f09dbd04fd21f6cdfeb3de94
+SHA512: 9e3d7910e2da37ddf6920dcceb88fcd5a4fa4ee4bec15953641a4ab6bd09e6c9cbbc6b8c28238a8d488e08c4a7dffa03afbca701ad3aeb0080634618664f5041
+Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
+Name: 醒图国际版修复工具
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hypicfix.jpg
+
+Package: hypicfix
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 204
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/hypicfix_1.0.0_iphoneos-arm64e_e14a3856f7e2a4cb8ef9c425bf21fe5834b15808da209c28a30806aa0fe59b38.deb
+Size: 17032
+MD5sum: 3b8b21e670c1b32132c8852738ec1503
+SHA1: 7dae32fd57e765e94e83d0f383ce544285f915c1
+SHA256: e14a3856f7e2a4cb8ef9c425bf21fe5834b15808da209c28a30806aa0fe59b38
+SHA512: 7b4890a2371e1325f518028d611b058219f35fa0682b36594f00680c461e62ddd09b0ed185d1618bf24118484013ad44978c1ab15df259005c458135696ed152
+Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
+Name: 醒图国际版修复工具
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hypicfix.jpg
+
 Package: im.mjh.fakeperm
 Architecture: iphoneos-arm64
 Version: 8.9.3
@@ -36830,6 +36978,24 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/AmbientBadge.png
 
 Package: iya.banana.billie.ambientbadge
+Architecture: iphoneos-arm64
+Version: 0.1.16
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/iya.banana.billie.ambientbadge_0.1.16_iphoneos-arm64_ce7c5d980565585d588e4bf73a98653150b4cd0e3984eb49ea28299b9cb219e9.deb
+Size: 115400
+MD5sum: ac46691da9f18664fb7ac628151d4501
+SHA1: 1f947dbf4626a2b340db7fb39b1f574be18eff43
+SHA256: ce7c5d980565585d588e4bf73a98653150b4cd0e3984eb49ea28299b9cb219e9
+SHA512: bfceba9a3f3adb06ebec04e2aaaad6dd400b246c83ec0f3b24eae93469e95238cb05509cf8a679175d30225670a3d4ee356b73c7043145ac244a9bcd1e6accb5
+Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
+Name: AmbientBadge
+Author: Banana
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+
+Package: iya.banana.billie.ambientbadge
 Architecture: iphoneos-arm64e
 Version: 0.1.12
 Section: Tweaks
@@ -36878,6 +37044,24 @@ MD5sum: 5c166624747d021f31e9879f9a88d1bf
 SHA1: 0a6d70d44ba0f8b678afec7d92eb3a2ba4c92d54
 SHA256: a5aa2e8920b77143f6808f8cfcc003119456f0d87fb1c1d2ea520a63bc69cf85
 SHA512: f5641db74a353de4d4b95a317b81aba2685e40f1049721877f390449fd04b8d2bccf0f08fa8f17fd5d165acf349aa7b5e8eb7342dd41129da8fc561ce1d23d51
+Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
+Name: AmbientBadge
+Author: Banana
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+
+Package: iya.banana.billie.ambientbadge
+Architecture: iphoneos-arm64e
+Version: 0.1.16
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/iya.banana.billie.ambientbadge_0.1.16_iphoneos-arm64e_24a9c01612a111fe120f9a7ede30f19f73d04b0765030064c6c6d581d0fb1b4e.deb
+Size: 115672
+MD5sum: c0a2f1d51e299fe386c252dabfcf6942
+SHA1: ba4c25ff528c5a8f7f5ce4fc8f275d7ed68b4cf5
+SHA256: 24a9c01612a111fe120f9a7ede30f19f73d04b0765030064c6c6d581d0fb1b4e
+SHA512: 92bc54a94002af86607bbd457bed6082d2e67b64b121be2a2a3530e6bf4463541557142a4e8ec080c18e95bccd3b5ff5fbe58300dd143bacc5fce5676053587c
 Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
 Name: AmbientBadge
 Author: Banana
@@ -40450,6 +40634,56 @@ Description: Ghostty-powered terminal for jailbroken iOS
 Name: iGhostty
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 icon: https://huayuarc.github.io/icon/iGhostty.png
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64
+Version: 1.4.11
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 19092
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64/wiki.qaq.ighostvt_1.4.11_iphoneos-arm64_1b3dfd5851c457383995e23138722da8e99d25c9ace16369b4dbf970f076b760.deb
+Size: 6911704
+MD5sum: 9d4b7679c17f94550fcac7e41df33c87
+SHA1: 80d0f94d88c7c2be1d534e1df3635057923a1327
+SHA256: 1b3dfd5851c457383995e23138722da8e99d25c9ace16369b4dbf970f076b760
+SHA512: 8f4dd79ba7df94cfc6206881845b1adfebb027e815a7a3aeca2eaa24c9a3a059379c56c87b5eb6da4bf7959bb217243237893ec79194fb5fd30d00ff9db8a1c4
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64e
+Version: 1.4.11
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 19092
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64e/wiki.qaq.ighostvt_1.4.11_iphoneos-arm64e_3450e59bc61ff79df6c21520187ca0d944cfe397566079b1523eef499b672003.deb
+Size: 6914204
+MD5sum: e67665a688598beafd3b2baf79a1a9df
+SHA1: fb50a16d28286115c2da4cc94d6c4aa6ced4d411
+SHA256: 3450e59bc61ff79df6c21520187ca0d944cfe397566079b1523eef499b672003
+SHA512: 85f5e3d157c07df517f1df067ca41fbb7637c9d1da5ea7a5b80c7248ddc99e80f8a44c4cfc23d6a28d71e10d9301045904a6d99b1ce2c54b09ea8fef4a603dab
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: ws.hbang.newterm3
 Architecture: iphoneos-arm64e
