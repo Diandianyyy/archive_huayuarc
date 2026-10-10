@@ -3652,6 +3652,23 @@ Version: 1.2.2
 Section: System
 Maintainer: AnthoPak <anthopakdev@gmail.com>
 Depends: firmware (>=14.0), mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.anthopak.powercuts-rootless_1.2.2_iphoneos-arm64_42b305b4f7cde0d5ee16c1b9623f3d5d859e98b0ac419befdbe3815e43771a80.deb
+Size: 275040
+MD5sum: 4df7a9247bf50212652db6da2a44d992
+SHA1: db4150dd441b0467c9896d0de17ea264ddf808d3
+SHA256: 42b305b4f7cde0d5ee16c1b9623f3d5d859e98b0ac419befdbe3815e43771a80
+SHA512: d96fb714e34d74be9a640f5f091e48e0908bf37d149292514cd0ae1a98f0202a8d5415454ec5706e36764cdc78c933054bee434f6be2888e82831bddd9329bcf
+Description: Powercuts是iOS“快捷指令”应用程序的库，它能够为应用程序添加新操作，这些操作可以在“快捷指令”和个人自动化中使用。如果您还没有安装，请在软件包管理器中搜索“Powercuts”来安装一些操作包。然后，您将在“应用程序”>“Powercuts”的“快捷指令”编辑器中找到这些操作。A library and additions to supercharge Shortcuts!
+Name: Powercuts
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercuts-rootless/icon.png
+Author: AnthoPak <anthopakdev@gmail.com>
+
+Package: com.anthopak.powercuts-rootless
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Section: System
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=14.0), mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Filename: debs/iphoneos-arm64/com.anthopak.powercuts-rootless_1.2.2_iphoneos-arm64_7ab85c03b265718face17f1040e383e37b750b579be62416610ccd2112d82948.deb
 Size: 274948
 MD5sum: 3015cdd9283d30a3d41e20d12681f05f
@@ -3659,6 +3676,24 @@ SHA1: e0a2fd166db3b5ae8bfe46a67f7c53fd64693d43
 SHA256: 7ab85c03b265718face17f1040e383e37b750b579be62416610ccd2112d82948
 SHA512: 7f233f2fab96e7432113744ce32d4a51503b389b657627764440a3ede4d4380de24e1647ec74c51c6718e20ae961ad89c3ac5f73339c8220122d1e7db88949a4
 Description: Powercuts是iOS“快捷方式”应用程序的库，它能够为应用程序添加新操作，这些操作可以在“快捷方式”和个人自动化中使用。如果您还没有安装，请在软件包管理器中搜索“Powercuts”来安装一些操作包。然后，您将在“应用程序”>“Powercuts”的“快捷方式”编辑器中找到这些操作。A library and additions to supercharge Shortcuts!
+Name: Powercuts
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercuts-rootless/icon.png
+Author: AnthoPak <anthopakdev@gmail.com>
+
+Package: com.anthopak.powercuts-rootless
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Section: System
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=14.0), mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.anthopak.powercuts-rootless_1.2.2_iphoneos-arm64e_8495492db5fb0cbe2eeb729ee624ca0297e7aba3373851540ae90b2a770f045f.deb
+Size: 272768
+MD5sum: 3da8fa00f626333b6c415ce77d796512
+SHA1: 1791e0e760d518cf15fda0ec274110ef76f1664a
+SHA256: 8495492db5fb0cbe2eeb729ee624ca0297e7aba3373851540ae90b2a770f045f
+SHA512: 91062ab8eb592c0c44e385e526907a03ac5d46042ef3e5d4456b303df445088aceb7926e1d9939a32efb7984914755334ad2a33f2dd7f613e3cbb0a7168c4bd2
+Description: Powercuts是iOS“快捷指令”应用程序的库，它能够为应用程序添加新操作，这些操作可以在“快捷指令”和个人自动化中使用。如果您还没有安装，请在软件包管理器中搜索“Powercuts”来安装一些操作包。然后，您将在“应用程序”>“Powercuts”的“快捷指令”编辑器中找到这些操作。A library and additions to supercharge Shortcuts!
 Name: Powercuts
 Icon: https://repo.anthopak.dev/assets/com.anthopak.powercuts-rootless/icon.png
 Author: AnthoPak <anthopakdev@gmail.com>
@@ -3699,6 +3734,23 @@ Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootles
 Author: AnthoPak <anthopakdev@gmail.com>
 
 Package: com.anthopak.powercutsactionspack-rootless
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Section: Tweaks
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=14.0), mobilesubstrate, firmware (>= 14.0), com.anthopak.powercuts | com.anthopak.powercuts-rootless
+Filename: debs/iphoneos-arm64/com.anthopak.powercutsactionspack-rootless_1.3.1_iphoneos-arm64_cda9a676024de7bec17fe61c0e5066d85733b94ce2606fc816fc31dbbb50491c.deb
+Size: 60968
+MD5sum: 5aad3c685ece7df844b3d67b2d387453
+SHA1: e2e5085d8e6b93a412ea56564d912c807b62d53d
+SHA256: cda9a676024de7bec17fe61c0e5066d85733b94ce2606fc816fc31dbbb50491c
+SHA512: bca07e9c6973de0ae19e8f08c6d6dc0fc49124855d50803c6674a74730c6d8e511f79a4df3f96a65f09636003e4c63f3af5521784052293ed9224ce77da9c5ad
+Description: 这个包提供了几个操作，在越狱的设备上释放快捷指令应用程序的力量！安装后，您将在“应用程序”>“Powercuts”下的“快捷指令编辑器”中找到新操作。您可以在“快捷键”或“个人自动化”中使用这些操作。Pack of actions for Powercuts
+Name: Powercuts Actions Pack
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
+Author: AnthoPak <anthopakdev@gmail.com>
+
+Package: com.anthopak.powercutsactionspack-rootless
 Architecture: iphoneos-arm64e
 Version: 1.3.1
 Section: Tweaks
@@ -3712,6 +3764,24 @@ SHA1: 3eeeedf5fd4f1b3094570dbdb81947202e9e2a13
 SHA256: 2ee4dfd4bc817f06579e730984a76bbf83921895f15836c774ecebd12aac0354
 SHA512: 0970caa23fef5e100c028b096be8f2d3bfd5e21e5fe2f5d2600072b167107264f13111a206cc4f7b1ce7b3ee0a503f6d24d10fab5cd87ec60db98019efd4c1f0
 Description: 这个包提供了几个操作，在越狱的设备上释放快捷方式应用程序的力量！安装后，您将在“应用程序”>“Powercuts”下的“快捷方式编辑器”中找到新操作。您可以在“快捷键”或“个人自动化”中使用这些操作。Pack of actions for Powercuts
+Name: Powercuts Actions Pack
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
+Author: AnthoPak <anthopakdev@gmail.com>
+
+Package: com.anthopak.powercutsactionspack-rootless
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Section: Tweaks
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=14.0), mobilesubstrate, firmware (>= 14.0), com.anthopak.powercuts | com.anthopak.powercuts-rootless
+Filename: debs/iphoneos-arm64e/com.anthopak.powercutsactionspack-rootless_1.3.1_iphoneos-arm64e_ed7da0000e846d6716f37a965fd7d19908dcc049b15f4d6688e3d9c2ef7dfde2.deb
+Size: 59884
+MD5sum: d2b0f5de67ff4b078b824110f3a20577
+SHA1: 603e6459bd9e0c2878d65eeadfaa17a0e9013656
+SHA256: ed7da0000e846d6716f37a965fd7d19908dcc049b15f4d6688e3d9c2ef7dfde2
+SHA512: 9397ebae077f7adbca220928d50b6df0479386f984cd55f7d981a29721d15a9e4801e283110a168b05bc27a9a421a6e96c620b5afdfaaefb101eae10db9012fa
+Description: 这个包提供了几个操作，在越狱的设备上释放快捷指令应用程序的力量！安装后，您将在“应用程序”>“Powercuts”下的“快捷指令编辑器”中找到新操作。您可以在“快捷键”或“个人自动化”中使用这些操作。Pack of actions for Powercuts
 Name: Powercuts Actions Pack
 Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
 Author: AnthoPak <anthopakdev@gmail.com>
@@ -5218,6 +5288,43 @@ Description: 88液态玻璃
 Name: 88液态玻璃
 Author: 一刀
 icon: https://huayuarc.github.io/icon/LiquidAss.png
+
+Package: com.charlieleung.openmask
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: charlie
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.charlieleung.openmask_0.0.1_iphoneos-arm64_1f1265885c76cb9a34f3613b776abb6561b3fa222626442ec668cdda7be277ed.deb
+Size: 3920
+MD5sum: 934acdd8d4dc150568bcf11ff362fe61
+SHA1: 2f8146127acecc8e6de4b7789730f7ed64d86dc0
+SHA256: 1f1265885c76cb9a34f3613b776abb6561b3fa222626442ec668cdda7be277ed
+SHA512: 21f097dee6e0d72656ee6d1ed881d70666f13aff70bbd625968511567e7c1148c2dd4541fa6232e2226cce69c671b77d3c92d65e849d78a3c9792132683789b4
+Description: 将启动 fv 浮窗的接口转发给 open 越狱版。以实现某些手势的联动。
+Name: OpenMask
+Author: charlie
+icon: https://huayuarc.github.io/icon/openmask.jpg
+
+Package: com.charlieleung.openmask
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: charlie
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.charlieleung.openmask_0.0.1_iphoneos-arm64e_7783383cc2ee286bde775ac8070c8a01cd2f1f50aeb0925b9aa5ce64c42820bc.deb
+Size: 3808
+MD5sum: 51a2da5c263e6e7e2db1876643fa0aa7
+SHA1: df8859b6da330dc8f6a1a665ebb7863f951f5d93
+SHA256: 7783383cc2ee286bde775ac8070c8a01cd2f1f50aeb0925b9aa5ce64c42820bc
+SHA512: 5424b6b5b720061e3f4f1fb4628c73caac74fd3a13f9eb4fe50a4bdb1cc229faaff962687c8d516a7abb22fe825689f83fa9bcb2cf25c3597c72777a881e716b
+Description: 将启动 fv 浮窗的接口转发给 open 越狱版。以实现某些手势的联动。
+Name: OpenMask
+Author: charlie
+icon: https://huayuarc.github.io/icon/openmask.jpg
 
 Package: com.charlieleung.snapvision
 Architecture: iphoneos-arm64e
@@ -8975,6 +9082,24 @@ Author: 半生年华
 Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
 
 Package: com.dynamicx.tweak
+Architecture: iphoneos-arm64
+Version: 1.5.1
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 2308
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.dynamicx.tweak_1.5.1_iphoneos-arm64_32dc34b5f5f95a19fc65dac038aabd64dd2e86cabd873b1ece0061f6c0efab5f.deb
+Size: 197300
+MD5sum: 406ff88dead4c8bdf83eb6b43bfea0ef
+SHA1: 6c3f94700346c6697e420794236adeb3fea3d629
+SHA256: 32dc34b5f5f95a19fc65dac038aabd64dd2e86cabd873b1ece0061f6c0efab5f
+SHA512: 592a31304ce8fcb53401b1b01721478fc041b3098883280dd9fc722b7835c99431e5ebaf8ac6f49f397be8ccc8b406a84cae353cd451f010f9c698ad6aebf3a7
+Description: 万物皆上岛
+Name: DynamicX
+Author: 半生年华
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+
+Package: com.dynamicx.tweak
 Architecture: iphoneos-arm64e
 Version: 1.3.2
 Section: Tweaks
@@ -9043,6 +9168,24 @@ MD5sum: 5012016afe8b3a729d482d42bca1ae6e
 SHA1: 6541911072dea9fd04e5e700a8497e8b11ab3f9a
 SHA256: 7547b5d50e96aa910d758357c799a1d175881a4f538dc99e8ebfe4a7717076ea
 SHA512: 03a4169111f5f580ad9bd99a27d498d7ab6423c3072009851672e2a8911e28be0d02b232274b8966ed508004808b6b28c27442fafb0759de6baccffc8828c7c4
+Description: 万物皆上岛
+Name: DynamicX
+Author: 半生年华
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+
+Package: com.dynamicx.tweak
+Architecture: iphoneos-arm64e
+Version: 1.5.1
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 2308
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.dynamicx.tweak_1.5.1_iphoneos-arm64e_50c67a24f752f627d148e0f6ddf64b32c8e94a2a46f39c6c7238bde31b492ace.deb
+Size: 197556
+MD5sum: 1e9ea08117b108929f976bb4a70879fd
+SHA1: a6c1c1f3f50c5304ad76d24364a11f709a9c347e
+SHA256: 50c67a24f752f627d148e0f6ddf64b32c8e94a2a46f39c6c7238bde31b492ace
+SHA512: 26b95e4398201f15368b41ee5acf17e110185bcf0def2fdf2558c8645f895423d3bdaf7d34d24deebc4d969e5bc68715d9e912820c0c83c1794e5631698178e1
 Description: 万物皆上岛
 Name: DynamicX
 Author: 半生年华
@@ -11449,6 +11592,25 @@ Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
 Package: com.huayuarc.cputhermal
 Architecture: iphoneos-arm64
+Version: 1.6.2-154+isolation.6
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1844
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.cputhermal_1.6.2-154+isolation.6_iphoneos-arm64_193e18af1042fd37216cb6a6bff955ccad7c2f2ce056c263030c791949070650.deb
+Size: 125716
+MD5sum: e0449eceaf59de1e663279b82fc3c308
+SHA1: 7f9acdc337e2b51a3966ddc87fec9bba91e6307e
+SHA256: 193e18af1042fd37216cb6a6bff955ccad7c2f2ce056c263030c791949070650
+SHA512: d89f0788617e7853a07ab4a8c97fde905ea1a5a009196a5cda4f56f2a787112a2370a322a83c70f8dc3cf8156dd068d0c9f2feb3653574d102322716fcd51551
+Description: 适配 iOS 15–17 的温控策略。稳定高性能模式阻止用户态热缓解并保持原生 CPU 调度；低功耗模式仅下发 CPU 专用预算与频率策略，不改变亮度。显示亮度保护独立工作；保留充电限制、锁屏、电池页面修复和控制中心。不能绕过固件或硬件紧急保护。
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64
 Version: 1.6.2-164
 Section: Tweaks
 Maintainer: Huayuarc
@@ -11629,6 +11791,25 @@ SHA1: ea0c76c23a4b3045d8cbcd54f60068d8938c0e3a
 SHA256: a7d54757ce4707d7dfd7a81d26c4f5167706f4bcd806e6575e44a86dba0fd95b
 SHA512: 9d5bdd84da7cb1eaff76e3eca6492522afacf5d0fc87b2b85f11a71126d147138b5efc44f4cc95029a89654b7f4dac3f93327b02443f154632e75dd493fb4fd2
 Description: 基于 1.6.2-154 的 CPU 专用低功耗隔离修复。保留双模式、控制中心及原有附加功能；模式切换不启用全局 PowerSave、不重启温控守护、不递归缩放热配置。显示守卫独立于 CPU 预算。
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-154+isolation.6
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1844
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.cputhermal_1.6.2-154+isolation.6_iphoneos-arm64e_9d125494ec3d9591093839ef5142ae8932962670f3688720e7b80c14122bec79.deb
+Size: 120880
+MD5sum: 4f6f69973fa84a597832a9921b27c9ca
+SHA1: 8b43286520f44a878a3d7f32cec82c09fe23f6ea
+SHA256: 9d125494ec3d9591093839ef5142ae8932962670f3688720e7b80c14122bec79
+SHA512: 14779629e45a6cd53c95d66c1180aeb54474d177cefd94c049d3ce5235b714e323cf19d7167d0917bde3eb9948fec3edd3e6d21e7fd1380abc3e0e38f8250299
+Description: 适配 iOS 15–17 的温控策略。稳定高性能模式阻止用户态热缓解并保持原生 CPU 调度；低功耗模式仅下发 CPU 专用预算与频率策略，不改变亮度。显示亮度保护独立工作；保留充电限制、锁屏、电池页面修复和控制中心。不能绕过固件或硬件紧急保护。
 Name: CPU 解除温控
 Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/cputhermal.png
@@ -16370,6 +16551,65 @@ Name: 灵动岛手电筒
 Author: 旧约
 icon: https://huayuarc.github.io/icon/lddsdt.jpg
 
+Package: com.johndie.ccsupport18
+Architecture: iphoneos-arm64
+Version: 1.3.13-3~ios18fix2
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 664
+Provides: com.opa334.ccsupport (= 1.3.13-3), com.ioscreatix.silo
+Depends: mobilesubstrate, firmware (>= 18.0)
+Conflicts: com.opa334.ccsupport, com.ioscreatix.silo
+Replaces: com.opa334.ccsupport, com.ioscreatix.silo
+Filename: debs/iphoneos-arm64/com.johndie.ccsupport18_1.3.13-3~ios18fix2_iphoneos-arm64_710f2b6427f4b5a0cc6ea525acdb0342fbc67139409cbd8215758e7601a30b71.deb
+Size: 62532
+MD5sum: 318ba5174a483f928b4d916551321b47
+SHA1: 0b70a3d58ccb7c08ad0ca3dd0703bf71240f8b4a
+SHA256: 710f2b6427f4b5a0cc6ea525acdb0342fbc67139409cbd8215758e7601a30b71
+SHA512: e19526bbb9a269e167ba8b3e5774c3e111d1f336d0c4a81b8764d0736f7f72f74a8bccb087182a7a4cf99ac0098565d8d978512cc87215e88ed24a51456c96c5
+Description: iOS 18 only. opa334's CCSupport with one fix: Control Center modules from tweaks stay after safe mode and reboots. Replaces CCSupport. By opa334; fix by John d_ie (submitted upstream).
+Name: CCSupport (iOS 18 fix)
+Author: opa334
+Depiction: https://jond-ie.github.io/repo/depictions/com.johndie.ccsupport18.html
+SileoDepiction: https://jond-ie.github.io/repo/depictions/com.johndie.ccsupport18.json
+
+Package: com.johndie.eqelinker
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 32
+Depends: com.johndie.triggr (>= 1.0.4), com.r333d.eqe
+Filename: debs/iphoneos-arm64/com.johndie.eqelinker_1.0.0_iphoneos-arm64_afc670121b45c0bceee4c0c95656be29a1657b96a09f47c68ebc8edc24cff5e3.deb
+Size: 1928
+MD5sum: 16a53259a2432fb567754b6a3fb88428
+SHA1: 615fd9ef4206d2f24e7a402537595c10ae4c860d
+SHA256: afc670121b45c0bceee4c0c95656be29a1657b96a09f47c68ebc8edc24cff5e3
+SHA512: ca782e94846985da4afca1ac9f84c5c9be42d5ff6420ff318c6e8f92e47865cdfe493f1c98f3e6b4981897005cd2be0a1f726df475c6f81f5f617bdd730589e9
+Description: 从Triggr加载您保存的EQE预设：例如，AirPods连接时一个预设，断开连接时另一个预设。将“EQE预设”类别添加到Triggr的操作中。Load your saved EQE presets from Triggr: e.g. one preset when your AirPods connect, another when they disconnect. Adds an "EQE Presets" category to Triggr's actions.
+Name: EQELinker
+Author: John d_ie
+icon: https://huayuarc.github.io/icon/eqe.png
+
+Package: com.johndie.eqelinker
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 32
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.johndie.triggr (>= 1.0.4), com.r333d.eqe
+Filename: debs/iphoneos-arm64e/com.johndie.eqelinker_1.0.0_iphoneos-arm64e_8f9ccd0d511c43ed64beedc397ec3700158b17ca0be334d8d77057d4cfdf3d54.deb
+Size: 1936
+MD5sum: 850d0eaf21e7c5bd2e95218fa388475d
+SHA1: 212087615a025f741323b56be20eb4a40799dc63
+SHA256: 8f9ccd0d511c43ed64beedc397ec3700158b17ca0be334d8d77057d4cfdf3d54
+SHA512: 84abb78ace5512457382e71e89e247770cb5fbd6e8bb835efe012204b743f3a82f7665141dc1ec64269e5922e98b3027092410c098f08d1e0a0514998227c767
+Description: 从Triggr加载您保存的EQE预设：例如，AirPods连接时一个预设，断开连接时另一个预设。将“EQE预设”类别添加到Triggr的操作中。Load your saved EQE presets from Triggr: e.g. one preset when your AirPods connect, another when they disconnect. Adds an "EQE Presets" category to Triggr's actions.
+Name: EQELinker
+Author: John d_ie
+icon: https://huayuarc.github.io/icon/eqe.png
+
 Package: com.johndie.triggr
 Architecture: iphoneos-arm64
 Version: 1.0.3
@@ -16505,6 +16745,45 @@ Author: Jonathan Winger-lang
 icon: https://huayuarc.github.io/icon/snapper.png
 
 Package: com.jontelang.snapper3
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Section: Tweaks
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3free
+Filename: debs/iphoneos-arm64/com.jontelang.snapper3_1.2.1_iphoneos-arm64_ea0899101d8c253cc1663f57a0d01a4a029255ec56f6b10ea3048888562a985f.deb
+Size: 1031368
+MD5sum: a8852cc21c25f975ae0fe93e633ed060
+SHA1: c5f548675b169a7441a3041ee92b8d96e6c1b4ab
+SHA256: ea0899101d8c253cc1663f57a0d01a4a029255ec56f6b10ea3048888562a985f
+SHA512: 534f869740d572d9b233022e01bfe112fd3eb94a4df9a7971c6b77854405bc3024a40e4f9ba21d5e3c6f8cb8ec81192d2e1a9a287162550999e36084255d459d
+Description: Snapper 3 是一款区域截图插件
+Name: Snapper 3 Havor
+Author: Jonathan Winger-lang
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: com.jontelang.snapper3
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: Tweaks
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3free
+Filename: debs/iphoneos-arm64e/com.jontelang.snapper3_1.2.1_iphoneos-arm64e_3f2c34b04f02f12686d361e6b3693e7c388f7bfdc20c71625c25e71c5c69028c.deb
+Size: 1023684
+MD5sum: 5039c51376ce122a7503933663fe7aeb
+SHA1: 209d4196398cb41899a2902a9babdfa41332fbfa
+SHA256: 3f2c34b04f02f12686d361e6b3693e7c388f7bfdc20c71625c25e71c5c69028c
+SHA512: 27552bd0d404670a3b4231c6e680f87ca97ff95c9ca6c6e45568f55685f0fd2d31f719971efae5373e471dbb6bfe9f18f15e3ed6c27fc1514f53974c6a1452a5
+Description: Snapper 3 是一款区域截图插件
+Name: Snapper 3 Havor
+Author: Jonathan Winger-lang
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: com.jontelang.snapper3
 Architecture: iphoneos-arm64e
 Version: 1.2.1
 Section: Tweaks
@@ -16532,12 +16811,51 @@ Maintainer: Jonathan Winger-lang
 Installed-Size: 4148
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3
+Filename: debs/iphoneos-arm64/com.jontelang.snapper3free_1.2.1_iphoneos-arm64_0c7d0a61a5da9d958e3ba2fb7f9f2660d26ad47bb3ffa39fe3227b3240ed83fa.deb
+Size: 1032220
+MD5sum: 48251fb0abc842a9ef954fab8e3edbd2
+SHA1: 993dab79bb79c388441d92259806fcb8d5e8edf1
+SHA256: 0c7d0a61a5da9d958e3ba2fb7f9f2660d26ad47bb3ffa39fe3227b3240ed83fa
+SHA512: 842ebb46dfee3e21393821275c83726177ef03ac45a872ca473c185af7a89532fd6575d677a9ca4f906998c791ffcc1ae6a842c10487ab640ce0756b20e02039
+Description: Snapper 3 是一款区域截图免费插件
+Name: Snapper 3 Free
+Author: Jonathan Winger-lang
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: com.jontelang.snapper3free
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Section: Tweaks
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3
 Filename: debs/iphoneos-arm64/com.jontelang.snapper3free_1.2.1_iphoneos-arm64_43b97aa6c0ab9537d55204e01589d25138f1c30044b67ad7d165a89ed8bf4095.deb
 Size: 1031200
 MD5sum: dcceb1f4f2bf6cd98508eed1b5e2475e
 SHA1: 31ee855e624e54045be7a9be9d7b73c52160dad9
 SHA256: 43b97aa6c0ab9537d55204e01589d25138f1c30044b67ad7d165a89ed8bf4095
 SHA512: 32a41369d7299772edee3390350e68e24c19a9a9943b7c16ccf9b831c2087bfdce8a429ec441756f531b0f0959ffa17fa32e7357e9f4f2e96b55ee74ce8db931
+Description: Snapper 3 是一款区域截图免费插件
+Name: Snapper 3 Free
+Author: Jonathan Winger-lang
+icon: https://huayuarc.github.io/icon/snapper.png
+
+Package: com.jontelang.snapper3free
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: Tweaks
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3
+Filename: debs/iphoneos-arm64e/com.jontelang.snapper3free_1.2.1_iphoneos-arm64e_03a1a3decba6c825fea18c4f37ee6cf7cc0b6b40c500dad223bdec1d9dfbc303.deb
+Size: 1022640
+MD5sum: 71fff4378a196c4b4238a217c10d8af0
+SHA1: 3f095c1523b1bd6bc522942a6cba2da49407e2a2
+SHA256: 03a1a3decba6c825fea18c4f37ee6cf7cc0b6b40c500dad223bdec1d9dfbc303
+SHA512: e2d793c9b75bd8dfd905f2b7ef24631c8257608d6e48509060bfbd2217b924af63b893c354e160349b2734bba0ad1169fb8be32aa4224fa58322032d2ed409df
 Description: Snapper 3 是一款区域截图免费插件
 Name: Snapper 3 Free
 Author: Jonathan Winger-lang
@@ -19898,6 +20216,24 @@ Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootles
 Author: moss <moss@local>
 
 Package: com.moss.pczhexecutor
+Architecture: iphoneos-arm64
+Version: 0.6.0
+Section: Tweaks
+Maintainer: moss <moss@local>
+Installed-Size: 104
+Filename: debs/iphoneos-arm64/com.moss.pczhexecutor_0.6.0_iphoneos-arm64_0be6b202fe01a205c59d9a9e09b89c05dea87ffee525e705affa3b363aef4de3.deb
+Size: 16840
+MD5sum: 3fe6b7909a41abf871d71479d6b854ac
+SHA1: f6aa6367fa11e97cb404488f7ebcf160301ae5f7
+SHA256: 0be6b202fe01a205c59d9a9e09b89c05dea87ffee525e705affa3b363aef4de3
+SHA512: 9d2e466e345cbd502ed3931bb728d091e2885528d86ed35603550069b78b99b2ecbd83871d9ab59ad59cb6445906570b52588f7e2e98d08c94e45b1ac4fa2383
+Description: 扩展原生「快捷指令」实现深度自动化；界面与动作描述已汉化；
+ ☑ 修复「关闭 Siri」动作在 iOS 16+ 崩溃进安全模式的问题
+Name: Powercuts 汉化补丁
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
+Author: moss <moss@local>
+
+Package: com.moss.pczhexecutor
 Architecture: iphoneos-arm64e
 Version: 0.6.0
 Maintainer: moss <moss@local>
@@ -19909,6 +20245,25 @@ MD5sum: baf6bfd93f86828a88721322cfec1e18
 SHA1: 89d18e98fbf7fa6770bb1c764aedffff033b1651
 SHA256: 591b5af03852e1c7b6ca28a7af1d4a94e6d74bb6b69a18ba6995d23f0f8e9ca6
 SHA512: eab639577a49c87a545aa2a6e92ab9c524e5aead6d8d466e819b79a28a2cdee6e24232898ab72580b8610140484c0884f80a3a60bdcaf4a4d562552595209d9a
+Description: 扩展原生「快捷指令」实现深度自动化；界面与动作描述已汉化；
+ ☑ 修复「关闭 Siri」动作在 iOS 16+ 崩溃进安全模式的问题
+Name: Powercuts 汉化补丁
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
+Author: moss <moss@local>
+
+Package: com.moss.pczhexecutor
+Architecture: iphoneos-arm64e
+Version: 0.6.0
+Section: Tweaks
+Maintainer: moss <moss@local>
+Installed-Size: 104
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/iphoneos-arm64e/com.moss.pczhexecutor_0.6.0_iphoneos-arm64e_006d88bf7ca82e54f31dbb75f7ace7694fdda0c5bfb9b750bc124a9dec72a17a.deb
+Size: 16644
+MD5sum: e5471af96142afb00a33cd7c8ab5dc3c
+SHA1: 2e8de83f45b8d02f97f82f25f1606f9aac1e0778
+SHA256: 006d88bf7ca82e54f31dbb75f7ace7694fdda0c5bfb9b750bc124a9dec72a17a
+SHA512: fc74357121531e66637f25e3c1cf634554b6c8b567f2c87df0fed345e4c54eac1134761f2b5fa5878ca3ecc4a1e14e5bca5417cb8c191e1ce2c8aa1e87e01fe2
 Description: 扩展原生「快捷指令」实现深度自动化；界面与动作描述已汉化；
  ☑ 修复「关闭 Siri」动作在 iOS 16+ 崩溃进安全模式的问题
 Name: Powercuts 汉化补丁
@@ -36165,6 +36520,26 @@ Author: XUUᶻ
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.xuuz.douyinhelper
+Architecture: iphoneos-arm64
+Version: 2.2-7
+Priority: optional
+Section: Tweaks
+Maintainer: XUUᶻ
+Installed-Size: 17708
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.xuuz.douyinhelper_2.2-7_iphoneos-arm64_8d7b7c34b521e38ec270bc5fb601708ef82b81e3aef4ea808f865aacb3e1d061.deb
+Size: 6855260
+MD5sum: b38ac181292a3588fc265a498c38f9dc
+SHA1: d856d5203b9ab38f9ee8ca7aa4d5141b7e70fb94
+SHA256: 8d7b7c34b521e38ec270bc5fb601708ef82b81e3aef4ea808f865aacb3e1d061
+SHA512: d0c99e75ef029ddd7302b576cc8c0efb06deed531c6bf91a981df9cc5eceb7cdcfe5b080283abf4c5c47d43c48076837ba616676b3f920821119c11cbd5e324d
+Homepage: https://tc.uddz.cc/xuuz
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Name: 抖音助手
+Author: XUUᶻ
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.xuuz.douyinhelper
 Architecture: iphoneos-arm64e
 Version: 2.2-4
 Priority: optional
@@ -36244,6 +36619,26 @@ Description: 基于 DYYY 的抖音插件
  * 支持信息防撤回
  * 支持猜拳骰子作弊
 Name: Xuu 抖音助手
+Author: XUUᶻ
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.xuuz.douyinhelper
+Architecture: iphoneos-arm64e
+Version: 2.2-7
+Priority: optional
+Section: Tweaks
+Maintainer: XUUᶻ
+Installed-Size: 17708
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.xuuz.douyinhelper_2.2-7_iphoneos-arm64e_8f0babe3fd98b1a4097e1817360c2bbbbf598d8468a094e7d616f5250c731556.deb
+Size: 6851568
+MD5sum: 3664e752415fb9f9c31dad6942e6967d
+SHA1: 908216f840870dec9a2cef408fabe02c355b2979
+SHA256: 8f0babe3fd98b1a4097e1817360c2bbbbf598d8468a094e7d616f5250c731556
+SHA512: 3d5d9334ff0b619bc7d696f456ba2b969e23f844eb57d18c6e19b61d8ba0c180008e709e9e0f4adbb92661a00866183c45b4d9a6072579381a09e77a5576f650
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Name: 抖音助手
 Author: XUUᶻ
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
@@ -37320,6 +37715,23 @@ Name: 番茄净化
 icon: https://huayuarc.github.io/icon/fanqiefn.jpg
 
 Package: fanqiefn
+Architecture: iphoneos-arm64
+Version: 3.0.4
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 240
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/fanqiefn_3.0.4_iphoneos-arm64_92c269950ed5acc9ab037fd530e8538c72cf54f58a6f302d7cde58eaf21f374b.deb
+Size: 29764
+MD5sum: f2e68468b8aff095df6988487da54051
+SHA1: 45f72ad3cf988924cadb00655e37b355475f393d
+SHA256: 92c269950ed5acc9ab037fd530e8538c72cf54f58a6f302d7cde58eaf21f374b
+SHA512: c9225102b7a500fd8749e6d4a089661082e5d9668691f62713becb0be5c209f7dc3321b5ea72f10b7a9bd9a81b2c7122bf17b1d8446add18c40d775ad16c34d5
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+
+Package: fanqiefn
 Architecture: iphoneos-arm64e
 Version: 3.0.1
 Section: Tweaks
@@ -37368,6 +37780,23 @@ SHA1: 5b2157023fd3c8544b54cfef735e02957fd9ba2d
 SHA256: 0e22904f1bd77b7c50846487977b2ff496eb8c9cf72326c8fe08f34bc2829df5
 SHA512: ceb073d8550a382447604f158e7abf08cc29c2ff6440f43d65b6283cf1e4b59c311e5186c6c871d53f25f4a53265f3bc9315086dba30773436bae4e2f11cf237
 Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Name: 番茄净化
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+
+Package: fanqiefn
+Architecture: iphoneos-arm64e
+Version: 3.0.4
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 240
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/fanqiefn_3.0.4_iphoneos-arm64e_2d075f22fa31ddb1727c38b801d42c753d4291935c2ea6e3b91a2007cff1fbb2.deb
+Size: 29776
+MD5sum: 2fae128d5480b9547abce965e9ba7695
+SHA1: ae9a71bcae3c494ae3975d2aeda49a903c37019b
+SHA256: 2d075f22fa31ddb1727c38b801d42c753d4291935c2ea6e3b91a2007cff1fbb2
+SHA512: 30f8ec8ae787917097c48ba1ca25e04647e129d49e30c4ec0fc68b04e60ab23a2693a838b57c1ec00bc8cdcb43abde3382ddb66a46daeb48261129d7eb803284
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
 Name: 番茄净化
 icon: https://huayuarc.github.io/icon/fanqiefn.jpg
 
