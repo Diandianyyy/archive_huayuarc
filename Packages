@@ -6842,6 +6842,42 @@ Name: Disable CutPoP
 Author: crctdd
 icon: https://huayuarc.github.io/icon/disablecutpop.jpg
 
+Package: com.crctdd.disabledynamicisland
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.disabledynamicisland_0.0.1_iphoneos-arm64_9fc679595a9cd37109eb821c9422bd4ab90fd92b3df2914227cfe3135f2a64e1.deb
+Size: 8144
+MD5sum: 67717909f5a7f973cbda144e4e04271e
+SHA1: aa042e23395227c3336a2dc3d3140bf10f33d972
+SHA256: 9fc679595a9cd37109eb821c9422bd4ab90fd92b3df2914227cfe3135f2a64e1
+SHA512: aea879056304f110e4855f4287d0c0e934703d891b62354449a56e2b8e56deca7ded0014f036d2177e537ad53f975b56640dd83ce5e3c01f786f20bf9b4f0a43
+Description: 跟灵动岛说再见！禁用所有上岛行为，除了时钟；无设置项。(支持iOS 16-17 带灵动岛的设备)
+Name: Disable Dynamic Island
+Author: crctdd
+icon: https://sini921.github.io/repo/sileodepiction/icon/ldd.png
+
+Package: com.crctdd.disabledynamicisland
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 76
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.disabledynamicisland_0.0.1_iphoneos-arm64e_75d07084100df6e24b45c9444105cc4837ec7cc8aa04047380bd206b02065751.deb
+Size: 6220
+MD5sum: e84f4d0853df00c28cc026f9d799745e
+SHA1: 12d1f1525d8c5d2b5509ab15190b89f0d773ef1b
+SHA256: 75d07084100df6e24b45c9444105cc4837ec7cc8aa04047380bd206b02065751
+SHA512: 5211db7cb384d1a1bf5aabc6fd2f5b712aba742c5dc6b12c8ead326015cf56fa32f34ca480043f6426a5387fe6c406014e881178857898fb6e3643ea3c13a4f9
+Description: 跟灵动岛说再见！禁用所有上岛行为，除了时钟；无设置项。(支持iOS 16-17 带灵动岛的设备)
+Name: Disable Dynamic Island
+Author: crctdd
+icon: https://sini921.github.io/repo/sileodepiction/icon/ldd.png
+
 Package: com.crctdd.filzarename
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -9881,6 +9917,42 @@ Name: KeyboardHook
 Author: t.me/gyddpu
 Icon: https://huayuarc.github.io/icon/keyboardhook.png
 
+Package: com.hang.douyinclockdock
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 2760
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.hang.douyinclockdock_1.2_iphoneos-arm64_5aad0215362e812d9e5f095b6c566a7e80bc8a9afe0b9e2fe553b02e919f5488.deb
+Size: 610080
+MD5sum: c238295d82290e5c83bedfefa77fe024
+SHA1: a91268432c4749c41e6847e3eca59f6f8c43dd15
+SHA256: 5aad0215362e812d9e5f095b6c566a7e80bc8a9afe0b9e2fe553b02e919f5488
+SHA512: 09b88f20080fe0108ac84c986f49880a5e9bfa7da45d9d0853379ebba9d4ad1bec8edfdf24f0631c978596d2327f81e3d89cd2b46602c55875b438343dce014f
+Description: dyyy魔改版
+Name: 抖音Pro
+Author: 航
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hang.douyinclockdock
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 2760
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.hang.douyinclockdock_1.2_iphoneos-arm64e_ced387bbce84e5e9c6fab37c5e821837078ca7bde14837ff980f86a8f832b8f6.deb
+Size: 613452
+MD5sum: d6d21e5699898d4d73eef6dd4ccd02b9
+SHA1: 2496953ead7203bf70b85d1806f8645516281cdf
+SHA256: ced387bbce84e5e9c6fab37c5e821837078ca7bde14837ff980f86a8f832b8f6
+SHA512: af3ef1cacfa3af7fe1257cede02873463fcb683e3474bc4a2d8981b7763a505f960971e6f99c0705eba51de502ec924001fbc7013bfe7dd68e97db64031c6e5a
+Description: dyyy魔改版
+Name: 抖音Pro
+Author: 航
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
 Package: com.hang.kayoko
 Architecture: iphoneos-arm64
 Version: 4.7.0
@@ -11079,6 +11151,24 @@ Description: An app in "Today" view. Rewritten for iOS 15 and 16 by HoangDus.Kon
 Name: KonbanXV
 Author: HoangDus, nicho1asdev, Nepeta
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.huami.ChoicyConfigPin
+Architecture: iphoneos-arm64
+Version: 1.0-2
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy, com.opa334.altlist
+Filename: debs/iphoneos-arm64/com.huami.ChoicyConfigPin_1.0-2_iphoneos-arm64_4f8569b74849c0f5432aba8295bd08a2f496099964f51161888f49fe1d05a88f.deb
+Size: 6924
+MD5sum: 2b795825808d4f78a430c714a6f16dad
+SHA1: 12b46a0ea0db43eb7ad627ae21155f873ce80fa4
+SHA256: 4f8569b74849c0f5432aba8295bd08a2f496099964f51161888f49fe1d05a88f
+SHA512: 5a8fb64f0d5877fbd089b515fd6f314aabf199ac0050f9aa6e8e9f1b4c56357b8fa265ea7e8f946cf2a54e0c73d801ee5aa08cf3b03310fe0927766ea88be7b5
+Description: Pin apps with custom tweak configuration to the top in Choicy
+Name: ChoicyConfigPin
+Author: huami
+icon: https://huayuarc.github.io/icon/choicy.jpg
 
 Package: com.huami.ChoicyConfigPin
 Architecture: iphoneos-arm64
@@ -18224,6 +18314,24 @@ SHA512: 79cfa696835b8d7458c53ad43c9c4b10e25000e7b9c1fdbc6f0dfc9e164eb001fa11c338
 Description: 新增充电胶囊，新增隐藏系统自带的目前电量和上滑解锁字样。
 Name: 独立锁屏时间渐变
 Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64
+Version: 2.0.18
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.lockscreengradientclock_2.0.18_iphoneos-arm64_3e74b1c0b6bb20422ae89955b51359d180c0f31041fe9cfb51fe3d41584351f5.deb
+Size: 258500
+MD5sum: ce4321e4f3ed1452e7f902dae665a402
+SHA1: be2b0a3394f57ab8311cec4c3dbe32c0789c3190
+SHA256: 3e74b1c0b6bb20422ae89955b51359d180c0f31041fe9cfb51fe3d41584351f5
+SHA512: 705fc6f5c5dc94ca6a11be9b178fd6aaf329dd1ec70ad1af4ebe3d19fc8e501f7bccd8cc6b05789213798db56369df8031f6f6b4fc03e46a972cb31a99770243
+Description: 新增充电胶囊，新增隐藏系统自带的目前电量和上滑解锁字样。
+Name: 独立锁屏时间渐变
+Author: MoWang
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
 
 Package: com.minis.lockscreengradientclock
 Architecture: iphoneos-arm64
@@ -37131,6 +37239,48 @@ Name: 抖音助手
 Author: XUUᶻ
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
+Package: com.xybp888.callassist16.dopamine
+Architecture: iphoneos-arm64
+Version: 3.1.1
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Conflicts:
+Replaces:
+Filename: debs/iphoneos-arm64/com.xybp888.callassist16.dopamine_3.1.1_iphoneos-arm64_84405982a4c4a9861ee566f6ee322882e16beea87366de1565c66a5317179acc.deb
+Size: 3572156
+MD5sum: 834b45da6dd337403b33b2ad10b843c4
+SHA1: 69f3734eab42b6395f81804849932b8ea6e7446f
+SHA256: 84405982a4c4a9861ee566f6ee322882e16beea87366de1565c66a5317179acc
+SHA512: c31c5d3dab545319a2d3644496adf2e1c5ce2bad7d2dac28afb218568e29b648c59e1a74b3e4343d07eedce844396154fc4d1ca8cad25533e8cb940730526ee1
+Homepage:
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS16-正式版(Rootless)
+Author: xybp888
+dev: xybp888
+
+Package: com.xybp888.callassist16.dopamine.roothide
+Architecture: iphoneos-arm64e
+Version: 3.1.1
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Conflicts:
+Replaces:
+Filename: debs/iphoneos-arm64e/com.xybp888.callassist16.dopamine.roothide_3.1.1_iphoneos-arm64e_e8231a32b29c35047e9c5f628caba38dbe9153bc1fc35549fd0bb2f6227fed71.deb
+Size: 3556328
+MD5sum: 26cb3c6ba852d6d030ed79d0a62188f4
+SHA1: 9538fede84a7e2e7a1e9337e0188643519412fa5
+SHA256: e8231a32b29c35047e9c5f628caba38dbe9153bc1fc35549fd0bb2f6227fed71
+SHA512: b2851f54551a1a903878d15eebbdee93b028ef0ef304e371d51094704d39e3fad4d7b8f568fa423c3c9f9ad915427782f43312604380e79e7c5b8599ca086564
+Homepage:
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS16-正式版(Roothide)
+Author: xybp888
+dev: xybp888
+
 Package: com.yaowell.alarmvibrate
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -38415,6 +38565,23 @@ Name: 红果净化
 icon: https://huayuarc.github.io/icon/hongguo.png
 
 Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: 5hux1n
+Installed-Size: 552
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/hongguofn_1.0.3_iphoneos-arm64_f5089c94ffddeed79ffe0637ccf7fe0c6433bfc4acd9a0a82bd04eb434d0ca1a.deb
+Size: 102672
+MD5sum: 09cef1488abe90d5363e74a1b3efc092
+SHA1: f956f53aa55f4509efa32ace3982672d33f7a6c4
+SHA256: f5089c94ffddeed79ffe0637ccf7fe0c6433bfc4acd9a0a82bd04eb434d0ca1a
+SHA512: b9ae3c5ca9479c2525d7d8bd4b64d8fc2f15a0cf6e5985a1ae5d4216164c81a2ca88e1ece2845788e3f276e7c3e694945fc5288201df3d4a1d89d9fd40175511
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -38461,6 +38628,23 @@ MD5sum: d1d202619f9ec44c60a30c34f8a86f5f
 SHA1: 95ab98302630dff59b04dbe9d11851da9d2df42e
 SHA256: 8825e0d45ba148e740f9c8372831a91d7b893cd4520a33b3d7aa53dfa780ba68
 SHA512: afde55ace7efefe345962f9da9849c4dfd76a965bed30d818a0a9fcc2b6365e658d354f535e7ee505666ca9456cd9d22e3cd5d66f30e580c42ffda5a7eb9b49e
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: 5hux1n
+Installed-Size: 552
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/hongguofn_1.0.3_iphoneos-arm64e_0c97258c7d44b7ef818c516adb74292007baebf1d02e7fb74d618ce7da3a7009.deb
+Size: 102944
+MD5sum: bcfde679d72b2d4c6485cb73fcdc9aa2
+SHA1: 0f566fda4ec8bf952dc562fd71dcb5f432edbe2d
+SHA256: 0c97258c7d44b7ef818c516adb74292007baebf1d02e7fb74d618ce7da3a7009
+SHA512: b250114931b770e4dd1a8d00fa857646cea60415caf86337c8d28ed5b77ff502285ffb1688a5923f1008c7e9ef2b373a790a166f10d5b7d70b66a442355293fd
 Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
 Name: 红果净化
 icon: https://huayuarc.github.io/icon/hongguo.png
