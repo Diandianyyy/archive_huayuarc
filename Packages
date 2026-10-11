@@ -3868,6 +3868,71 @@ Name: AhsFilter
 Author: Axs <qiaozhani000@163.com>
 icon: https://huayuarc.github.io/icon/ahsfilter.jpg
 
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64
+Version: 5.2.0-15+abouthide.1
+Section: Axs-Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1368
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.axs.cpufree_5.2.0-15+abouthide.1_iphoneos-arm64_1b194b9e2df3ac152b66e7f5cee03e293b8f6112e07c04bab8d72ff6a37d7577.deb
+Size: 109056
+MD5sum: 8d96cc3dc8ff5ae1004216c637c1b43b
+SHA1: 719b1b75085f7060818fc1588b606410435ceefd
+SHA256: 1b194b9e2df3ac152b66e7f5cee03e293b8f6112e07c04bab8d72ff6a37d7577
+SHA512: 654404aa8d18f9621ce44dfa1d4d671d23ddb405243490b69bc5dbbdcca09a493de2b4b5db1b90f74596958dec0ea327bcc5656ec6b50a2bef9c22027995a404
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU频率显示：实时显示大核真实频率，低功耗模式下上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64e
+Version: 5.2.0-15+abouthide.1
+Section: Axs-Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1368
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.axs.cpufree_5.2.0-15+abouthide.1_iphoneos-arm64e_aff277d7281be2d2fcdbf87dcddb40548a8fd4a2d10f86ed22cc416414587e2d.deb
+Size: 105700
+MD5sum: 3f9711426bbd227a7db1562874d75900
+SHA1: 2c7f599e3f9c0494b2457cfa8ae18ed09fc22e33
+SHA256: aff277d7281be2d2fcdbf87dcddb40548a8fd4a2d10f86ed22cc416414587e2d
+SHA512: 6b4c6bd98b5e09fa97b64fb7a1fedc7a98cdae9d89cc4ef60e02e891fd27e2de6433e65c7732ed061726588ffebf1eb4688d9d5952c232526677726482591332
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU频率显示：实时显示大核真实频率，低功耗模式下上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
 Package: com.axs.snapper4
 Architecture: iphoneos-arm64
 Version: 5.2.0-45
@@ -4133,6 +4198,24 @@ Author: 半生年华
 icon: https://huayuarc.github.io/icon/mydock.jpg
 
 Package: com.ban.mydock
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.ban.mydock_1.1_iphoneos-arm64_5c908e53d8e94ae54b64e4179d2ab47740b65e0de8d3d342c926fe3ed364eefa.deb
+Size: 5128
+MD5sum: 9fbb2248d75da9a70e3b1d65e2977e65
+SHA1: 58fe2927251fd93910fed62a5a5ff414498e5082
+SHA256: 5c908e53d8e94ae54b64e4179d2ab47740b65e0de8d3d342c926fe3ed364eefa
+SHA512: eed8ec15d6d8ac2420868b99b75ab7bc923cb2cdd0d4389205bcc171ed945930213a84a3179682dc45faba0fe294310387945e030141a284f6e005ca039123de
+Description: 键盘增强 自用
+Name: MyDock
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/kb.jpg
+
+Package: com.ban.mydock
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -4150,6 +4233,24 @@ Description: 键盘增强 自用
 Name: MyDock 键盘增强
 Author: 半生年华
 icon: https://huayuarc.github.io/icon/mydock.jpg
+
+Package: com.ban.mydock
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.ban.mydock_1.1_iphoneos-arm64e_abbeae81c75923464207f9924a18d2eb0cfe51096d50e06bd4ed8388bab3af80.deb
+Size: 5056
+MD5sum: 696280e4a3fd52a30353b078a81ed559
+SHA1: 78c56c241218e0093f5814a2b7e92fbec4b964d0
+SHA256: abbeae81c75923464207f9924a18d2eb0cfe51096d50e06bd4ed8388bab3af80
+SHA512: feb3ed81ad0156e31bb1693eacce2cab0b15700a7edc94ad7263efd7d6198b09206a33b3c3c62825c2fdf6ac6ebde059fda03c46f42ecd6ffcdee26f00ba33c3
+Description: 键盘增强 自用
+Name: MyDock
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/kb.jpg
 
 Package: com.banana.trollpadex
 Architecture: iphoneos-arm64
@@ -6806,6 +6907,78 @@ Name: Crane Drop Down
 Author: crctdd
 icon: https://huayuarc.github.io/icon/cranedd.jpg
 
+Package: com.crctdd.disablecallpop
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.disablecallpop_0.0.1_iphoneos-arm64_98e810e9605bdae44f8bacdbb78dc17b0e0ba9ab4d41b4d082afee0f5e3859ec.deb
+Size: 4136
+MD5sum: f1396a95062334bd2b7c26fdf26f47b2
+SHA1: c6a696b5a46bb6ea11e4d60d5f73344e81a3738e
+SHA256: 98e810e9605bdae44f8bacdbb78dc17b0e0ba9ab4d41b4d082afee0f5e3859ec
+SHA512: 3532fafdb60a51d6c404886147457054c1f699871e656a1c1680454f64195b8dbf3fc25add39d08f9f4fd56a4d75e296f62a521425c322b492217a8eaee81489
+Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
+Name: Disable CallPoP
+Author: crctdd
+icon: https://huayuarc.github.io/icon/disablecallpop.jpg
+
+Package: com.crctdd.disablecallpop
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 88
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.disablecallpop_0.0.1_iphoneos-arm64e_c9592cdd7865332d587fd983856b2e5f2260c199f24c2834bdaaf9c991b3cf87.deb
+Size: 3392
+MD5sum: 61d6c01cd2e84c0668e506b6bc407e89
+SHA1: 41a43712cc1a53996257034abce7debbb34d03a1
+SHA256: c9592cdd7865332d587fd983856b2e5f2260c199f24c2834bdaaf9c991b3cf87
+SHA512: 53544346fd021fd50426425d9c7abfa7093be25194e0e003dc39016a92c2c8add2cd9ac34561d89e880be0453fa980e68ef8be81d0c1485704cbc6c3be5e7e23
+Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
+Name: Disable CallPoP
+Author: crctdd
+icon: https://huayuarc.github.io/icon/disablecallpop.jpg
+
+Package: com.crctdd.disablecarrierpop
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.disablecarrierpop_0.0.1_iphoneos-arm64_e1ec017e80a6fc31dfb99d500cc45c69633af87783077be4161bf093c57babfa.deb
+Size: 4480
+MD5sum: 7ac6b741b6a88cd239312e862011bfbd
+SHA1: 9917f63b5f7b65e8d8e6be6f59e319140e55053c
+SHA256: e1ec017e80a6fc31dfb99d500cc45c69633af87783077be4161bf093c57babfa
+SHA512: d4759cb5a70c77221ad1f741a36ff98fda3e2114e711a8bf0c8b06f15c4c4be00943c4253849c2df8a99d04bb60c6ad43dc8af9d2610014162435dda382c4590
+Description: 禁用运营商弹窗；无设置项。(支持iOS 15-17)
+Name: Disable CarrierPoP
+Author: crctdd
+icon: https://huayuarc.github.io/icon/disablecarrierpop.jpg
+
+Package: com.crctdd.disablecarrierpop
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.disablecarrierpop_0.0.1_iphoneos-arm64e_fddbc730cf0fb4be34d8a6fdc36c25abc83be3edf7219bc5dbc34cebdd4b0736.deb
+Size: 3632
+MD5sum: 609c8d5dbf44bb7a4afb96489878e08b
+SHA1: abbc39fd98dd055160066fcaf6d8123428e0beaa
+SHA256: fddbc730cf0fb4be34d8a6fdc36c25abc83be3edf7219bc5dbc34cebdd4b0736
+SHA512: 1b6904b9844257484fda200017e96193cfd2222fc9eb7179d8841f44d585f1b843dbfde8977e8955db3ea1e469cad744b892911b1d521d7ddb72b9e0eb2c9f69
+Description: 禁用运营商弹窗；无设置项。(支持iOS 15-17)
+Name: Disable CarrierPoP
+Author: crctdd
+icon: https://huayuarc.github.io/icon/disablecarrierpop.jpg
+
 Package: com.crctdd.disablecutpop
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -6861,6 +7034,24 @@ Author: crctdd
 icon: https://sini921.github.io/repo/sileodepiction/icon/ldd.png
 
 Package: com.crctdd.disabledynamicisland
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.disabledynamicisland_0.0.3_iphoneos-arm64_a05b7dbb8fceb409c65321ea89b28515f159b60be1f8a02d1a6f16085b0b08df.deb
+Size: 9052
+MD5sum: b15834902ead2a68667c791ca921abf3
+SHA1: b2c972ee3d617ce7b8a92d6d0a6a093dd5fa2f8a
+SHA256: a05b7dbb8fceb409c65321ea89b28515f159b60be1f8a02d1a6f16085b0b08df
+SHA512: f700a0dc66f25bd70f74e2863e758a9a33ad73411f46d2ccbedd29aa27e22ec10ee5f85866d82141c90ed7b56df2bd5ac83ce91405381873bf0cd18850bd6bdd
+Description: 跟灵动岛说再见！禁用部分上岛行为；无设置项。(支持iOS 16-17 带灵动岛的设备)
+Name: Disable Dynamic Island
+Author: crctdd
+icon: https://sini921.github.io/repo/sileodepiction/icon/ldd.png
+
+Package: com.crctdd.disabledynamicisland
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -6874,6 +7065,24 @@ SHA1: 12d1f1525d8c5d2b5509ab15190b89f0d773ef1b
 SHA256: 75d07084100df6e24b45c9444105cc4837ec7cc8aa04047380bd206b02065751
 SHA512: 5211db7cb384d1a1bf5aabc6fd2f5b712aba742c5dc6b12c8ead326015cf56fa32f34ca480043f6426a5387fe6c406014e881178857898fb6e3643ea3c13a4f9
 Description: 跟灵动岛说再见！禁用所有上岛行为，除了时钟；无设置项。(支持iOS 16-17 带灵动岛的设备)
+Name: Disable Dynamic Island
+Author: crctdd
+icon: https://sini921.github.io/repo/sileodepiction/icon/ldd.png
+
+Package: com.crctdd.disabledynamicisland
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 76
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.disabledynamicisland_0.0.3_iphoneos-arm64e_bf9f6463ea5556fa55d739bbe9c3f22ba20dcaa24a459b9761d586cae035e399.deb
+Size: 6920
+MD5sum: cd881f0fb341dbd23c9815ded597b587
+SHA1: 81cc2264092dff4f770def0417709e559b5414d1
+SHA256: bf9f6463ea5556fa55d739bbe9c3f22ba20dcaa24a459b9761d586cae035e399
+SHA512: 638f87730dd5463b8e0b3d8f5deb2d84d0ec92005fcb299dd0273a9ddd47792a5df54c99f26f584c911da28dbe73669ef13a3540f5ddd606d99f04d010a70375
+Description: 跟灵动岛说再见！禁用部分上岛行为；无设置项。(支持iOS 16-17 带灵动岛的设备)
 Name: Disable Dynamic Island
 Author: crctdd
 icon: https://sini921.github.io/repo/sileodepiction/icon/ldd.png
@@ -7519,6 +7728,24 @@ Author: crctdd
 icon: https://huayuarc.github.io/icon/StayAliveLite.png
 
 Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.4.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 2568
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.4.1_iphoneos-arm64_a62f6b1f6ac9ff5c94d14b72262eae79cb39730ba81c2f870cfb3bb26228f950.deb
+Size: 279944
+MD5sum: ef7694bff5416c0a7d32f59d11485cd7
+SHA1: 6007478762fb7d9974529a6b289a62c70f581342
+SHA256: a62f6b1f6ac9ff5c94d14b72262eae79cb39730ba81c2f870cfb3bb26228f950
+SHA512: 44c99e1257183f12e2e0e81ba1160b6130c02c4c5d79ca557b3c8e982be80f66ceb173747eb0538cff13feb5849f8cb8bd6d3b83f82447dd9c849d91ae340dd4
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
 Architecture: iphoneos-arm64e
 Version: 0.1.3
 Section: Tweaks
@@ -7747,6 +7974,24 @@ MD5sum: 0e45171ee6738f6e4f4f76bc3af1d477
 SHA1: 35a47608f8a9809e8af192b5e475e022757cf13f
 SHA256: 715acd2a1cb35bb1ead434b64eac34a1dec89085645971c02d72fd9bb489cd9a
 SHA512: b99cfb12142e8a3d75cfb014d4ee16a38d332bf001cb8113de48f5617f9954e84aac1d15f872ec389f5a50ba2315e8df1a9d9049c2a2a11dccba7e2156ba3f53
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.4.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1272
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.4.1_iphoneos-arm64e_576d3baa039f97c64c2aff6c99e46d76e012be738a4d9dd070709fa9bef48fa6.deb
+Size: 188864
+MD5sum: d71334d2ca38b0afb31bedfc023f1673
+SHA1: 05a883a9cf4b563088659865880a3095649a947a
+SHA256: 576d3baa039f97c64c2aff6c99e46d76e012be738a4d9dd070709fa9bef48fa6
+SHA512: 57109481b4f6571e50e023941627649496cffb7fef22c886e1de747d4b7b9b25cf03b653b77d203335c7782f1d8bf580d16df2d6cd5220c8b3bc38d8febd4503
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Name: StayAlive Lite
 Author: crctdd
@@ -10166,6 +10411,44 @@ Description: Zeppelin Reborn: A plugin that displays images next to the time and
 Name: Zeppelin Reborn
 Author: Hitori
 Icon: https://huayuarc.github.io/icon/zeppelinreborn.jpg
+
+Package: com.hk.dvirtualhome
+Architecture: iphoneos-arm64
+Version: 0.0.16
+Section: 嗨-工具
+Maintainer: daodao
+Installed-Size: 368
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Conflicts: com.dgh0st.dvirtualhome, com.hk.dvirtualhome.cn
+Filename: debs/iphoneos-arm64/com.hk.dvirtualhome_0.0.16_iphoneos-arm64_580c558d29418391070c056181c47e4b578f616f149c2be8c7b01c00778cc213.deb
+Size: 21284
+MD5sum: 870aed8fb13849ecf94be0c3ac519d7f
+SHA1: 12aaf96d9a50391be08afb99a36915cf490ca818
+SHA256: 580c558d29418391070c056181c47e4b578f616f149c2be8c7b01c00778cc213
+SHA512: 28fa8783ac11c00972a626bc87e13ed2512056fde387f9c9b28b96b330a67002ab8f8b514e0fe829e58698419c393879241f1c1f8b4d8c0476917fea7fb52871
+Description: 类似 FingerTouch 的 Touch ID 手势插件，刀刀精简版，带中文翻译；直板机（iPhone7/8/8P/SE2/SE2等）单击/双击/长按指纹按钮可回主屏幕、锁屏、截屏、呼出通知中心；SE2 iOS18.5 实测美滋滋！
+Name: DVirtualHome
+Author: DGh0st
+icon: https://huayuarc.github.io/icon/dvirtualhome.png
+
+Package: com.hk.dvirtualhome
+Architecture: iphoneos-arm64e
+Version: 0.0.16
+Section: 嗨-工具
+Maintainer: daodao
+Installed-Size: 368
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Conflicts: com.dgh0st.dvirtualhome, com.hk.dvirtualhome.cn
+Filename: debs/iphoneos-arm64e/com.hk.dvirtualhome_0.0.16_iphoneos-arm64e_5f8d3be25379de27a00cee9ea4ae0cd6387c7c1f688b7e98625b31901d0cc6fc.deb
+Size: 21224
+MD5sum: 200219ca5ab9652f3cbb3585c7ded091
+SHA1: a3e53ff88506cebbc070b79a26467a1b954ccf44
+SHA256: 5f8d3be25379de27a00cee9ea4ae0cd6387c7c1f688b7e98625b31901d0cc6fc
+SHA512: 8ba672985548905ed62f48f2d2caa9f96d681200eeec2a5bd430789676586781053fa90143166fb135076d9a8ca391dcbb64c4fb9f0f7c10fd3040f0e9ed1a5b
+Description: 类似 FingerTouch 的 Touch ID 手势插件，刀刀精简版，带中文翻译；直板机（iPhone7/8/8P/SE2/SE2等）单击/双击/长按指纹按钮可回主屏幕、锁屏、截屏、呼出通知中心；SE2 iOS18.5 实测美滋滋！
+Name: DVirtualHome
+Author: DGh0st
+icon: https://huayuarc.github.io/icon/dvirtualhome.png
 
 Package: com.hmmzzz.fontmanager
 Architecture: iphoneos-arm64
@@ -18335,6 +18618,24 @@ icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
 
 Package: com.minis.lockscreengradientclock
 Architecture: iphoneos-arm64
+Version: 2.0.20
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.lockscreengradientclock_2.0.20_iphoneos-arm64_c264caa409eeb58e5d314292302e89d0e7df010a946ba12912857882112d516b.deb
+Size: 265040
+MD5sum: 54e2c218466c9ebf9cbd851340f075a5
+SHA1: 8a3e86a2a07073ea19d27ba2d5c65f6a92069dbc
+SHA256: c264caa409eeb58e5d314292302e89d0e7df010a946ba12912857882112d516b
+SHA512: b0bbaf7a93f021a5ecd5fe052f44ba69fc9e5a8adbe6a3a9a9bfeee25ba393a49b8e06cd193f26d4093d3ef6509d5d6b952946e8bd02591e15f3aa3e0937c6d9
+Description: 修复胶囊未充电显示
+Name: 独立锁屏时间渐变
+Author: MoWang
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64
 Version: 2.0.8
 Section: Tweaks
 Maintainer: MoWang
@@ -18401,6 +18702,24 @@ SHA1: 1f53b7a8a9ec43f78ce62d51f93e6c8860fe7c5b
 SHA256: 0e9492d2ae2695989db98c1018f2e981ba0465e9d0dee203f66a6c2fa9e670c5
 SHA512: 7bf5410484410b58c9f325d4f89f645856e205e749654d1af5ca34e07e57fd0c2c405a9764a4f8e52a7d364f0585405317ab1030bf8315fb715bc2bc05a7e1a9
 Description: 新增充电胶囊，新增隐藏系统自带的目前电量和上滑解锁字样。
+Name: 独立锁屏时间渐变
+Author: MoWang
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64e
+Version: 2.0.20
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.lockscreengradientclock_2.0.20_iphoneos-arm64e_234a21288bb69a03b17877c95677a737ab35ed20286e1f9b4c982a1f86e62f74.deb
+Size: 264856
+MD5sum: 6134d9c29d9e720efd17715636022d6f
+SHA1: 442b4f200d2e3c48aeb5120a22f548c49a8c9537
+SHA256: 234a21288bb69a03b17877c95677a737ab35ed20286e1f9b4c982a1f86e62f74
+SHA512: a335057cb06fa9f0e02ea5cad56af00a2ab04476782402a94280eded2e7a293527f7434ce874d5805b1df1c68badc3f3c0f48e0edd78b4c92aa8661fc1b51bb1
+Description: 修复胶囊未充电显示
 Name: 独立锁屏时间渐变
 Author: MoWang
 icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
@@ -24820,6 +25139,27 @@ Author: qq391160
 Icon: https://qq391160.github.io/repo/icons/thermal.png
 
 Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
+Version: 2.0.96
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 3976
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.96_iphoneos-arm64_ec3aca10aac35b2cb19101f628b497f7742f1b8301cdcb6cb1639b91a68a8d25.deb
+Size: 568688
+MD5sum: e148809835b91ef83fbd96202659c24e
+SHA1: fa701ad801ecdd247310f61e39f67defa160f5d0
+SHA256: ec3aca10aac35b2cb19101f628b497f7742f1b8301cdcb6cb1639b91a68a8d25
+SHA512: efd6766e066f730a87b7781246069a3b36f24276d42d27fa102056a97ae44ccf247a6295a13b774e030efcfa9cd52d8648c866937fd0dd93c4762547632a5972
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64e
 Version: 1.4.81
 Priority: optional
@@ -24969,6 +25309,27 @@ MD5sum: ceacabd597809cb9d5e7f4fd09fc5b92
 SHA1: 2ee9cae8be47d5752e4ac5f476983b885b0588f1
 SHA256: 7609928b7ffe0e5cd5daab78280e5c7950864e35a1699e6af3c98973eaec027c
 SHA512: f402dd485be67eb504c188f60e6d1d179457797fbe20dfc81c33338abb70d21aa4b141e68c31a9140a2621dd775285db15232c379ab644f77aedec28e81a8e4a
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.96
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4220
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.96_iphoneos-arm64e_070a4421514a40baec343cae333866e3457ba2b6bd297cb14f89429c60eebe90.deb
+Size: 607376
+MD5sum: c15d9ba56a9a22fd6521c5da8a47c034
+SHA1: 4517ff96b922b845ff91019d0faa92a9129faf4c
+SHA256: 070a4421514a40baec343cae333866e3457ba2b6bd297cb14f89429c60eebe90
+SHA512: 35e06cc294a9766a41b240a3237f556918b4aabdf2101a70f9532b7876984e4ea2046bbba01649831b003ebb4d1fdcf3deb623ee091530f5aa597435aa61e3ad
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
@@ -37248,6 +37609,28 @@ Maintainer: xybp888
 Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
 Conflicts:
 Replaces:
+Filename: debs/iphoneos-arm64/com.xybp888.callassist16.dopamine_3.1.1_iphoneos-arm64_1c1b6c42b6b0a902e89548c2cb3046766193e31ec52a1dba431deb7fcfb40882.deb
+Size: 3571224
+MD5sum: 2936f46e5a86b9e0b91cfd2b8ba3a620
+SHA1: cc08998d6022cc7792c9eca01c9263746e1ea2f8
+SHA256: 1c1b6c42b6b0a902e89548c2cb3046766193e31ec52a1dba431deb7fcfb40882
+SHA512: ced5f8eed671759d743679ab3af85abe94ae813528d811a50c13106016172f4967a87a3085cd2b754507be734a7e7854b3c06305c56752661a2fe7982cca39a3
+Homepage:
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS16
+Author: xybp888
+dev: xybp888
+icon: https://huayuarc.github.io/icon/callassist.png
+
+Package: com.xybp888.callassist16.dopamine
+Architecture: iphoneos-arm64
+Version: 3.1.1
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Conflicts:
+Replaces:
 Filename: debs/iphoneos-arm64/com.xybp888.callassist16.dopamine_3.1.1_iphoneos-arm64_84405982a4c4a9861ee566f6ee322882e16beea87366de1565c66a5317179acc.deb
 Size: 3572156
 MD5sum: 834b45da6dd337403b33b2ad10b843c4
@@ -37259,6 +37642,28 @@ Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡�
 Name: 电话助手iOS16-正式版(Rootless)
 Author: xybp888
 dev: xybp888
+
+Package: com.xybp888.callassist16.dopamine.roothide
+Architecture: iphoneos-arm64e
+Version: 3.1.1
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Conflicts:
+Replaces:
+Filename: debs/iphoneos-arm64e/com.xybp888.callassist16.dopamine.roothide_3.1.1_iphoneos-arm64e_646c54edec5004899fa0eff97c28a761606b1d2034fa2f661aa9842bbd007479.deb
+Size: 3557456
+MD5sum: 144e4cc3241ff7f585554fd087d927ea
+SHA1: fa963d48b03f7399257fe4354c63ff7a39fa3a92
+SHA256: 646c54edec5004899fa0eff97c28a761606b1d2034fa2f661aa9842bbd007479
+SHA512: 1123d0e02413f816cb6cb18527a2a99146a415c232e35e70323113afb8ae15bb0706e5fb6f4e590631eb7f97c04452bc38717e430bf50ff063be906fabdcd7b6
+Homepage:
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS16
+Author: xybp888
+dev: xybp888
+icon: https://huayuarc.github.io/icon/callassist.png
 
 Package: com.xybp888.callassist16.dopamine.roothide
 Architecture: iphoneos-arm64e
