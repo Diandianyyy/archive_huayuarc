@@ -10323,6 +10323,42 @@ Name: 乌贼手势 iOS 17 补丁
 Author: 航
 icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
 
+Package: com.hang.tubiao
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 412
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.hang.tubiao_1.2_iphoneos-arm64_a4086f30961618289c22540cc315dd39b3fc1eda8b80a0373fd43ead3cfed117.deb
+Size: 31376
+MD5sum: c655807dcf860c5e1077766a46b9584f
+SHA1: 7b4da2c01df4ebf95b80f088ba17f68933018634
+SHA256: a4086f30961618289c22540cc315dd39b3fc1eda8b80a0373fd43ead3cfed117
+SHA512: f6e895a114733a20b87eb80880c27010f80412276e2023957ab8b678615e04218d86f3d31ec3e98d8794d3ad84aa498c069b58e82e6e1672bb6bdc176383a132
+Description: 自定义锁屏时间/日期位置与大小
+Name: 锁屏时间自定义
+Author: 航
+icon: https://huayuarc.github.io/icon/tubiao.png
+
+Package: com.hang.tubiao
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/com.hang.tubiao_1.2_iphoneos-arm64e_76252562254f1fbd36d47887dd8c22e095cb89bed775adc056176a66a24c8b13.deb
+Size: 25024
+MD5sum: 6b80cc613d29d561bcd58469aed4cbb0
+SHA1: 27efc3e37a2ede8a88f06cd5dd506f1fa605c4e5
+SHA256: 76252562254f1fbd36d47887dd8c22e095cb89bed775adc056176a66a24c8b13
+SHA512: fc3525cc70f45b9e9e9c687835b198f0348136253bb933161d7d22191ea7765077180d7c47d6f5210022cd9fdd0addd00eca27859545f8b3e39ff4dc82b8fead
+Description: 自定义锁屏时间/日期位置与大小
+Name: 锁屏时间自定义
+Author: 航
+icon: https://huayuarc.github.io/icon/tubiao.png
+
 Package: com.hierarch.dykiller
 Architecture: iphoneos-arm64
 Version: 0.5.5
@@ -19254,6 +19290,25 @@ Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
 Package: com.mlgm.actra
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3716
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64/com.mlgm.actra_1.1.1_iphoneos-arm64_583f152040e17cae62cf27ba1420b66fd35895de484695236229bd101bb3801a.deb
+Size: 716872
+MD5sum: 3cc42ea52aa6841919a773f7dd55f1a0
+SHA1: a2ae95f4013c2b1bfbb488a54a802645aac183f3
+SHA256: 583f152040e17cae62cf27ba1420b66fd35895de484695236229bd101bb3801a
+SHA512: b24c32adfdb8ab4631683a1c9a50ea6ee639bc7970d614b54fe08216278c18f2cd58b2aeec25ff162f5808c69d63dbde855c3e484d525539f1cd5e064ccb8f04
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -19286,6 +19341,25 @@ MD5sum: 11403aee92c13dc6f1a9aa9c86a2539a
 SHA1: 17ba9baa7f00633b78f14bf0cc57cd6378307763
 SHA256: 3063ba132d7afc363cf56e079cba076fb4b4077edc5043f7502477b3c5376aa2
 SHA512: 5f0a15c8d8f1a30d5371e835fdf7781d0f1b18c6f695264e8296b19320932b52e18db254316f88f322c827f31319a3a85007c1852cd27354d8c99cd677a6d5e9
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3684
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64e/com.mlgm.actra_1.1.1_iphoneos-arm64e_7d638b8497e9bb00a6ee3aeaf01c7514dada336153bfa32aee4bf509b3d54da2.deb
+Size: 719252
+MD5sum: f0a3ac2922c42e2aa6224d72d871f40f
+SHA1: b7b52d65da68d8ab77d7b2ffc82ad433257649ac
+SHA256: 7d638b8497e9bb00a6ee3aeaf01c7514dada336153bfa32aee4bf509b3d54da2
+SHA512: c8536d01bfc136330858e9669c8b6704a52c57544cdfb27597d550afd731e067399242fe2ade2947cdd53044e91f956e02a1ee5085a7ec7a8ba564991fe86222
 Description: 手势与事件自动化工具
 Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
@@ -21870,6 +21944,26 @@ Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
 Package: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 2.1.81
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4684
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64/com.muzi.mutool_2.1.81_iphoneos-arm64_cebbb3c293d3dfd9390a92e680f3012619488fcf5868c194cc734bf551eac36c.deb
+Size: 715612
+MD5sum: 1782f7d53025c76f792cbb55db665f62
+SHA1: 6776b74f122d34bf1a364cecb63f32a17a7dc74d
+SHA256: cebbb3c293d3dfd9390a92e680f3012619488fcf5868c194cc734bf551eac36c
+SHA512: 355f1be58b4c98966aeb7627f44ba57a933477c1fbbd2cdfc950d75a94e173f61ab5023398e410f4a18f5eb4e01f6f9c2e2d0287603a5d2aed64b306526217a5
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音与 MagSafe 动画、充电限制（限充阈值停充并回落 5% 自动恢复、阻止充电、智能计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Name: MUtool
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
 Architecture: iphoneos-arm64e
 Version: 2.1.18
 Section: Tweaks
@@ -22064,6 +22158,26 @@ SHA1: 3fe437709665f278010f407bda886c8cd6005b47
 SHA256: af8ad3eaefeb61c4bfadfd9651280480458047de3af1a367a6fa122ae1f21965
 SHA512: 6cbd9f386cadd02708327fb37deca077f7991dff61099e8a153f10aecd6a842b020cff99e62763e969bb6c46e9879ac944d6434b8fbc0f3fe90e854064243bdf
 Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音与 MagSafe 动画、充电限制（限充阈值停充并回落 5% 自动恢复、阻止充电、智能计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Name: MUtool
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64e
+Version: 2.1.81
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64e/com.muzi.mutool_2.1.81_iphoneos-arm64e_e4caa78d215f0625a54e29f38255adfa158324900151dacd95e2fce96a002313.deb
+Size: 710932
+MD5sum: 2a94d85a21d23b43db3edb74fe151822
+SHA1: 4c3ff4b0ce6b093fb812a158f90f517ef98188d6
+SHA256: e4caa78d215f0625a54e29f38255adfa158324900151dacd95e2fce96a002313
+SHA512: 4754760d238940235a637910eb63380e3c55f3031622b1252db1f2eb77207c71c78807de41678046ae924ce91a2f6d50311558f154eebc7bc35115aeda641f46
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音与 MagSafe 动画、充电限制（限充阈值停充并回落 5% 自动恢复、阻止充电、智能计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
 Name: MUtool
 Author: Muzi
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
@@ -27005,6 +27119,24 @@ Author: MoWang
 icon: https://huayuarc.github.io/icon/floating.jpg
 
 Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 6.2
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3444
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_6.2_iphoneos-arm64_065c3d51dd4f74919fdb578dcaaeaac78942a863149a1e9b09ab1d1ad6f001c3.deb
+Size: 474616
+MD5sum: fedce5d68cbcedb3ec65cb4512d8c6c0
+SHA1: aa609aad5142bfbcdb3c3054eb5f25fd9a911046
+SHA256: 065c3d51dd4f74919fdb578dcaaeaac78942a863149a1e9b09ab1d1ad6f001c3
+SHA512: a95d033184f14a689bc2e8019013268ac8ca36a10dd2a010075eaf91238f361e9828dc2e36b943ea026176d4a21451e4be9d88b038cdeff60587e987c0999691
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复 fps 自适应刷新时 60 上限）
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
 Architecture: iphoneos-arm64e
 Version: 1.7.0
 Section: Tweaks
@@ -28011,6 +28143,24 @@ SHA1: f6a19095e89c2aa21e367d773322806c5eb15432
 SHA256: 67c762f03dee4780cf7abb0b9c1f784c70858f926bb027a875818b20d0a90004
 SHA512: e5d2acd549cc8ee723d832b529532d11c938bd36a05cd73d0faece2ffcb0ff9fb6006771ae20ad10b81911222d00a25e5eb1e42c7b58941ee729489b2553eaf5
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复浮窗文字横屏不跟随，修复温控一些 bug，新增灵动岛保护开关，原双击浮窗打开设置改为双击浮窗锁定浮窗位置）
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 6.2
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3444
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_6.2_iphoneos-arm64e_865f9821b9c7b847141f95ff579a1e531e780a558a6c2544185bffcdae97981d.deb
+Size: 475564
+MD5sum: d34a51c164b4dcc2219aa933a371f4da
+SHA1: b059c4bf5ce5b68d8772289d04a6402e252c15d6
+SHA256: 865f9821b9c7b847141f95ff579a1e531e780a558a6c2544185bffcdae97981d
+SHA512: 2ca443fdc3d6a8be2f7772c19c8b1572051a0834b51b704a594fe5ef21c6b0b3586f55333e26583b2652f28e4fa969b16f8d8a83a95f8966b4e24b35f2ae05e3
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复 fps 自适应刷新时 60 帧上限）
 Name: 灵动监测
 Author: MoWang
 icon: https://huayuarc.github.io/icon/floating.jpg
