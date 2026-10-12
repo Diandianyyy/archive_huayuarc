@@ -3901,6 +3901,38 @@ Author: Axs<qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 
 Package: com.axs.cpufree
+Architecture: iphoneos-arm64
+Version: 5.2.0-15+abouthide.1
+Section: Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1368
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.axs.cpufree_5.2.0-15+abouthide.1_iphoneos-arm64_e8aee37008748ee8fecd21bc3cc785913fa930268a341cb39ea9bed1a9985757.deb
+Size: 109092
+MD5sum: ef7e5e3efc0eadff9593955fc50c3ffe
+SHA1: 6e3da3fcdd2e9ceb52f5ce93fda8c4db93eddf54
+SHA256: e8aee37008748ee8fecd21bc3cc785913fa930268a341cb39ea9bed1a9985757
+SHA512: 915cff8b520f2ae0353a2245b7cb1f6fd17bc82daadb4c5fb23b0857980a3f1136a8edc4d87ec39f60933f0c882ea307b1a24f9d157185bc48d90c5662fc92e4
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU频率显示：实时显示大核真实频率，低功耗模式下上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
 Architecture: iphoneos-arm64e
 Version: 5.2.0-15+abouthide.1
 Section: Axs-Tweaks
@@ -3914,6 +3946,39 @@ MD5sum: 3f9711426bbd227a7db1562874d75900
 SHA1: 2c7f599e3f9c0494b2457cfa8ae18ed09fc22e33
 SHA256: aff277d7281be2d2fcdbf87dcddb40548a8fd4a2d10f86ed22cc416414587e2d
 SHA512: 6b4c6bd98b5e09fa97b64fb7a1fedc7a98cdae9d89cc4ef60e02e891fd27e2de6433e65c7732ed061726588ffebf1eb4688d9d5952c232526677726482591332
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU频率显示：实时显示大核真实频率，低功耗模式下上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64e
+Version: 5.2.0-15+abouthide.1
+Section: Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1368
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.axs.cpufree_5.2.0-15+abouthide.1_iphoneos-arm64e_8498cddf306fcfd5de6e2a4bb1caacbdac4f84e0390ae90cb54c0cceb60d7306.deb
+Size: 105712
+MD5sum: 6c636d038ab6232909ef0b56587142a9
+SHA1: 26e44da8fb1dce721ab6d7c5965e6c76a241c299
+SHA256: 8498cddf306fcfd5de6e2a4bb1caacbdac4f84e0390ae90cb54c0cceb60d7306
+SHA512: 95598f06f420f6123cffb8f6f5f9760f9b38597dad5666f982ef6feaf345e9d8951f08e592bc4b0cd5d5096da4d23a45bc0b4864b37241af1d81fd59383e6d00
 Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
  * 一、双防护层拦截
  * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
@@ -10415,6 +10480,25 @@ Icon: https://huayuarc.github.io/icon/zeppelinreborn.jpg
 Package: com.hk.dvirtualhome
 Architecture: iphoneos-arm64
 Version: 0.0.16
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 368
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Conflicts: com.dgh0st.dvirtualhome, com.hk.dvirtualhome.cn
+Filename: debs/iphoneos-arm64/com.hk.dvirtualhome_0.0.16_iphoneos-arm64_27d052aae17114e5572cea6c6ffa50ee03f9ffeead230b1cc5e4205d0f2833ba.deb
+Size: 21284
+MD5sum: 54d399cda1d2520b64cd1688146d39c3
+SHA1: cb55bcdeea47af02af80a5db93c8ae81c7384f35
+SHA256: 27d052aae17114e5572cea6c6ffa50ee03f9ffeead230b1cc5e4205d0f2833ba
+SHA512: 6680c476c654f34697547ecb0f0fc72cd20dbcb46d41469605bcfadc59309c97e1adca6a40c9dad2d63a140e0c6b14bd9636e9a72488f415c5e53f3270e8b259
+Description: 类似 FingerTouch 的 Touch ID 手势插件，刀刀精简版，带中文翻译；直板机（iPhone7/8/8P/SE2/SE2等）单击/双击/长按指纹按钮可回主屏幕、锁屏、截屏、呼出通知中心；SE2 iOS18.5 实测美滋滋！
+Name: DVirtualHome
+Author: DGh0st
+icon: https://huayuarc.github.io/icon/dvirtualhome.png
+
+Package: com.hk.dvirtualhome
+Architecture: iphoneos-arm64
+Version: 0.0.16
 Section: 嗨-工具
 Maintainer: daodao
 Installed-Size: 368
@@ -10426,6 +10510,25 @@ MD5sum: 870aed8fb13849ecf94be0c3ac519d7f
 SHA1: 12aaf96d9a50391be08afb99a36915cf490ca818
 SHA256: 580c558d29418391070c056181c47e4b578f616f149c2be8c7b01c00778cc213
 SHA512: 28fa8783ac11c00972a626bc87e13ed2512056fde387f9c9b28b96b330a67002ab8f8b514e0fe829e58698419c393879241f1c1f8b4d8c0476917fea7fb52871
+Description: 类似 FingerTouch 的 Touch ID 手势插件，刀刀精简版，带中文翻译；直板机（iPhone7/8/8P/SE2/SE2等）单击/双击/长按指纹按钮可回主屏幕、锁屏、截屏、呼出通知中心；SE2 iOS18.5 实测美滋滋！
+Name: DVirtualHome
+Author: DGh0st
+icon: https://huayuarc.github.io/icon/dvirtualhome.png
+
+Package: com.hk.dvirtualhome
+Architecture: iphoneos-arm64e
+Version: 0.0.16
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 368
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Conflicts: com.dgh0st.dvirtualhome, com.hk.dvirtualhome.cn
+Filename: debs/iphoneos-arm64e/com.hk.dvirtualhome_0.0.16_iphoneos-arm64e_ade8c1d679b4a944e5a40be2cd0b8f10609ecebbdf7d5cfc06e48de44fa06273.deb
+Size: 21188
+MD5sum: 503e719e3415f2fc792b7e9ea3dae8a3
+SHA1: 5bfca8339a9de4b5ff6c14059c3d5f2ee86dae4f
+SHA256: ade8c1d679b4a944e5a40be2cd0b8f10609ecebbdf7d5cfc06e48de44fa06273
+SHA512: be60ec34e7d7b4c6fd9f5a1f6014eeeb76367f59c49369f11d60277e99fe46dfa400401282ed172f3d0fd39fba59faa015353fa7ae7a2e6cde2261981a223f72
 Description: 类似 FingerTouch 的 Touch ID 手势插件，刀刀精简版，带中文翻译；直板机（iPhone7/8/8P/SE2/SE2等）单击/双击/长按指纹按钮可回主屏幕、锁屏、截屏、呼出通知中心；SE2 iOS18.5 实测美滋滋！
 Name: DVirtualHome
 Author: DGh0st
@@ -21747,6 +21850,26 @@ Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
 Package: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 2.1.77
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64/com.muzi.mutool_2.1.77_iphoneos-arm64_d56834e3a8776e63749931014b64d4a769d317b4024bb4b66d43e3a833cd8c97.deb
+Size: 707244
+MD5sum: 88081f22fedcf69071fd7ea9ede55078
+SHA1: 04a008bd2d0f3cba564c4c0ff904818f1dfd74bb
+SHA256: d56834e3a8776e63749931014b64d4a769d317b4024bb4b66d43e3a833cd8c97
+SHA512: 44f8a644ea998b5fb8c3ed6c2b7a5c9611498c04ef658187bb770be87a46fb0942a64ca009d3884d4bac966eecbfaa158c6e9ceca9cdbda3aee81a843cb5b76a
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音与 MagSafe 动画、充电限制（限充阈值停充并回落 5% 自动恢复、阻止充电、智能计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Name: MUtool
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
 Architecture: iphoneos-arm64e
 Version: 2.1.18
 Section: Tweaks
@@ -21921,6 +22044,26 @@ SHA1: 2360316227e68c288ac9210d4be8e9b7c4084c0d
 SHA256: 31e402b92118f2d575d0801fca05a09d316795843710d82f573380c6099ce1e3
 SHA512: 66ef7ad2112d973cc6f7f68c31e345d343bb0184bc09915f875243c0631fc06d9e013732cc96e53a5b80e953aa7640aef8ccffd53d2826bd0e9748666bc708cb
 Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音与 MagSafe 动画、充电限制（限充阈值停充并回落 5% 自动恢复、阻止充电、智能计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Name: MUtool
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64e
+Version: 2.1.77
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4652
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64e/com.muzi.mutool_2.1.77_iphoneos-arm64e_af8ad3eaefeb61c4bfadfd9651280480458047de3af1a367a6fa122ae1f21965.deb
+Size: 701284
+MD5sum: 21c5bc4c4951897bce77c1002b515830
+SHA1: 3fe437709665f278010f407bda886c8cd6005b47
+SHA256: af8ad3eaefeb61c4bfadfd9651280480458047de3af1a367a6fa122ae1f21965
+SHA512: 6cbd9f386cadd02708327fb37deca077f7991dff61099e8a153f10aecd6a842b020cff99e62763e969bb6c46e9879ac944d6434b8fbc0f3fe90e854064243bdf
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音与 MagSafe 动画、充电限制（限充阈值停充并回落 5% 自动恢复、阻止充电、智能计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
 Name: MUtool
 Author: Muzi
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
