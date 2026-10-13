@@ -4339,6 +4339,27 @@ Author: khanhduytran0 & banana
 icon: https://huayuarc.github.io/icon/TrollPad.png
 
 Package: com.banana.trollpadex
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 660
+Provides: com.kdt.trollpad
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Filename: debs/iphoneos-arm64/com.banana.trollpadex_2.0.3_iphoneos-arm64_4e3b7219f02c977b4a3b36ff1345b1d5dce2d8225c8a202526455c9ad10288fe.deb
+Size: 58628
+MD5sum: 26252bf916bc14cb0132690b11034d3d
+SHA1: 3779596563f34261c420df3d509bd793b294bfb7
+SHA256: 4e3b7219f02c977b4a3b36ff1345b1d5dce2d8225c8a202526455c9ad10288fe
+SHA512: 5e9716e94bac06fdd4849f302198b1b81495ba42e84f9bc0105fe7e2aea5eaf12fa7112496035885260e6a548fc2224ea2314dfa24993f7783f8d1e7d2869b2d
+Description: 为 iPhone 带来更灵活的多任务、窗口与外接显示体验。Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Name: TrollPadEx
+Author: khanhduytran0 & Banana
+icon: https://huayuarc.github.io/icon/TrollPad.png
+
+Package: com.banana.trollpadex
 Architecture: iphoneos-arm64e
 Version: 2.0.1
 Section: Tweaks
@@ -4357,6 +4378,27 @@ SHA512: 056279e0fa7723b4ec54e03465b4dfd30f008bbcd79b6a45cae22ac603507ef5d5373c60
 Description: Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.iPhone 带来更灵活的多任务、窗口与外接显示体验。
 Name: TrollPadEx
 Author: khanhduytran0 & banana
+icon: https://huayuarc.github.io/icon/TrollPad.png
+
+Package: com.banana.trollpadex
+Architecture: iphoneos-arm64e
+Version: 2.0.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 660
+Provides: com.kdt.trollpad
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Filename: debs/iphoneos-arm64e/com.banana.trollpadex_2.0.3_iphoneos-arm64e_cdf1d8e56469db5122f5750ed10fd1e0b94ee17d11ebb6c3071a909e8477f224.deb
+Size: 57800
+MD5sum: dd951618143d93fa8f43dc8ddba746ac
+SHA1: ba4533921149e28a1e07911aebd49ce378fa4c2d
+SHA256: cdf1d8e56469db5122f5750ed10fd1e0b94ee17d11ebb6c3071a909e8477f224
+SHA512: 699bb395d423f13cafdeb34f14badb6e85a03abbb6095340394aaac0e13327bb58f4166fdb6e8eb5eb80b0dec9c2d7bc750c9cc2d78f6ce581f6321a90da09f8
+Description: 为 iPhone 带来更灵活的多任务、窗口与外接显示体验。Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Name: TrollPadEx
+Author: khanhduytran0 & Banana
 icon: https://huayuarc.github.io/icon/TrollPad.png
 
 Package: com.banshengnianhua.tracex
@@ -6174,6 +6216,50 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.59+screencore.2.user1012
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1225
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.59+screencore.2.user1012_iphoneos-arm64_d3170ce8ac913cc96f367bd9da35f1a020b5605ddd4c3bba310546b9388486b7.deb
+Size: 441116
+MD5sum: 52bfa81fb936ff218c950f83b15c7939
+SHA1: a727d2b928c79aa241cbe554f36a848f2391fde3
+SHA256: d3170ce8ac913cc96f367bd9da35f1a020b5605ddd4c3bba310546b9388486b7
+SHA512: d9f14d21647e1c0bc919eabff66003478b23ac2054e24abcf7834798cd49214b71aac02cdab96855d0c13905d9ec39533b4e3629d1315b425c0ef2f38ef31b56
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.59 SmartDeck Home】
+ - 开放 iOS 16 安装，本包使用标准 rootless /var/jb 安装布局
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+X-ScreenCore-Adapter-Input-SHA256: b6c3c02ec3f359f019fc74fb23c8a6022f233f6d46878e0b66b13ff8689f566d
+X-ScreenCore-Adapter: 10-12-exact-binary.1
+X-Install-Environment: standard-rootless-var-jb
+
+Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64e
 Version: 6.37
 Section: Tweaks
@@ -6331,6 +6417,49 @@ Name: Bottom-x 悬浮球
 Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.59+screencore.2.user1012
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1225
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.59+screencore.2.user1012_iphoneos-arm64e_f3fde7829b41811c5831938c7f7338bce880d88217ec8f72492cff4cab726b2f.deb
+Size: 440952
+MD5sum: 19482fef546b58b995555c3fea82058b
+SHA1: 5b42bb0d7f4d6746febbf14d5b9e1c44783f02a3
+SHA256: f3fde7829b41811c5831938c7f7338bce880d88217ec8f72492cff4cab726b2f
+SHA512: a090c2d7b492e10ab42a0f72fa4b4add3c9c4f561d51ad55117cb0e323795dd0773ebb737257565791009876015f22ad3fa57e49b60624df497a020308f056c7
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.59 SmartDeck Home】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+X-ScreenCore-Adapter-Input-SHA256: b6c3c02ec3f359f019fc74fb23c8a6022f233f6d46878e0b66b13ff8689f566d
+X-ScreenCore-Adapter: 10-12-exact-binary.1
 
 Package: com.colorblack.bottomx.ios17
 Architecture: iphoneos-arm64e
@@ -6991,6 +7120,24 @@ Author: crctdd
 icon: https://huayuarc.github.io/icon/disablecallpop.jpg
 
 Package: com.crctdd.disablecallpop
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.disablecallpop_0.0.2_iphoneos-arm64_a8f1261cd611f122ff4db9523a5218197352b1d2e9c84c4aa8e7dc724c013c27.deb
+Size: 5216
+MD5sum: 7419f5d8cab6f1ccdf52f2b845ab3d8a
+SHA1: 76755370ec5b42c47ea6fe16736f2bfab0dabff6
+SHA256: a8f1261cd611f122ff4db9523a5218197352b1d2e9c84c4aa8e7dc724c013c27
+SHA512: c8c8f08867eba838f937b716374257cfc0b9231f05d8bc7ee130a20042642f0b6a6a0af9623a9ab36a1a20029b17d92377a95c66cf07ae4dbd05fe4c3b71eb0c
+Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
+Name: Disable CallPoP
+Author: crctdd
+icon: https://huayuarc.github.io/icon/disablecallpop.jpg
+
+Package: com.crctdd.disablecallpop
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -7003,6 +7150,24 @@ MD5sum: 61d6c01cd2e84c0668e506b6bc407e89
 SHA1: 41a43712cc1a53996257034abce7debbb34d03a1
 SHA256: c9592cdd7865332d587fd983856b2e5f2260c199f24c2834bdaaf9c991b3cf87
 SHA512: 53544346fd021fd50426425d9c7abfa7093be25194e0e003dc39016a92c2c8add2cd9ac34561d89e880be0453fa980e68ef8be81d0c1485704cbc6c3be5e7e23
+Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
+Name: Disable CallPoP
+Author: crctdd
+icon: https://huayuarc.github.io/icon/disablecallpop.jpg
+
+Package: com.crctdd.disablecallpop
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 88
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.disablecallpop_0.0.2_iphoneos-arm64e_55809c6a5c6897443471e61191e76d81048cc78a80ccd053754a4b0344ae0076.deb
+Size: 4180
+MD5sum: f1a2d287e02045a25c865c4e11b371b1
+SHA1: 0dd23d0245526246da3adcf27b45293d56c91aa6
+SHA256: 55809c6a5c6897443471e61191e76d81048cc78a80ccd053754a4b0344ae0076
+SHA512: bf3fd638ad715918ab500c4a4402a794727a4be80b115ee0f797879e05fe198f3e1d6e4c5eaa87be2553dc33fbfb5edda43f25e18e658885916301cfb381754a
 Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
 Name: Disable CallPoP
 Author: crctdd
@@ -9105,6 +9270,42 @@ Description: 仿ipad可调节后台！
 Name: Fipad 仿IPAD可调节后台
 Author: dgr
 icon: https://huayuarc.github.io/icon/fipad.png
+
+Package: com.doimty.fiona
+Architecture: iphoneos-arm64
+Version: 0.2
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 168
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.doimty.fiona_0.2_iphoneos-arm64_009abfb61bec0fc173853987e3417c4830063fb9099628393979f1d05dee6efb.deb
+Size: 3084
+MD5sum: 3974a56c4db8abfa5c6410e58af75856
+SHA1: 57ec74359ef79885f16dbca2e5f115e0764d911a
+SHA256: 009abfb61bec0fc173853987e3417c4830063fb9099628393979f1d05dee6efb
+SHA512: 9f61c6ddbfd36ef7bec187b99f89c7656c1f73d0709e51310276e9ed258d650924571fa31f732ae258fdef2e1b37f84cfe6ae4c28cb034864298e3e54bbeb354
+Description: 锁屏时保持 WiFi 连接。无开关，安装即生效；
+Name: Fiona
+Author: doimty
+icon: https://huayuarc.github.io/icon/fiona.png
+
+Package: com.doimty.fiona
+Architecture: iphoneos-arm64e
+Version: 0.2
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 168
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.doimty.fiona_0.2_iphoneos-arm64e_9fa822dc63d44c4b3f129097a7a81246e31ee5a053e1ce1c0497af0d8a0f72c3.deb
+Size: 3016
+MD5sum: a9f842d38e064739b88cf43a9d2ed4d8
+SHA1: cb42896879d841b2d782909a6aad8e04d6db4a28
+SHA256: 9fa822dc63d44c4b3f129097a7a81246e31ee5a053e1ce1c0497af0d8a0f72c3
+SHA512: 42262669d5a9b112c1ec3ade49ffa74a146f2a3cdd1515f4594dd61b925e4a683e5325afd34161d4f6e64d2d77a5006ee6cebc02c235af55283aeaa145046ab7
+Description: 锁屏时保持 WiFi 连接。无开关，安装即生效；
+Name: Fiona
+Author: doimty
+icon: https://huayuarc.github.io/icon/fiona.png
 
 Package: com.doimty.promotion
 Architecture: iphoneos-arm64
@@ -12216,6 +12417,25 @@ icon: https://huayuarc.github.io/icon/tieba.jpg
 
 Package: com.huayuarc.cputhermal
 Architecture: iphoneos-arm64
+Version: 1.6.2-154+isolation.15
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1492
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.cputhermal_1.6.2-154+isolation.15_iphoneos-arm64_696b1284e94d457c1b1332f28c29b01c15721c5cd970c4bf305b514b02468c80.deb
+Size: 113848
+MD5sum: 1d6a0d16ae71f7ee0b439214cbb7dedd
+SHA1: 2ed9e74b83cc0b240c830dd34fdaf4895905004e
+SHA256: 696b1284e94d457c1b1332f28c29b01c15721c5cd970c4bf305b514b02468c80
+SHA512: a766fd33b782062a982d3e7657423953a84004668a93b4cc9dd220b248344dd1020413c8ab09ad9c370605a1231a7027a6753bd594d1ef27b796f04282911723
+Description: 适配 iOS 15–17 的用户态预算实验。解除温控请求 CPU/GPU/Package Floor/Ceiling=100、CPU Level0；Package 是共享功率预算，不是整个 SoC 硬锁，不保证最大时钟或实际满功率。低功耗仅限制 CPU 并清除 GPU/Package 满预算下限，不改变亮度。
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64
 Version: 1.6.2-154+isolation.2
 Section: Tweaks
 Maintainer: Huayuarc
@@ -12456,6 +12676,25 @@ Description: 三种模式一键切换的智能温控管理。
 Name: CPU智能温控
 Author: Huayuarc
 Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-154+isolation.15
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1476
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.cputhermal_1.6.2-154+isolation.15_iphoneos-arm64e_90abc33929eb9b8f6fbf0595930180b8282e790d175e159540be50736a5ea87b.deb
+Size: 112172
+MD5sum: e0b234e882e72032ee729119bb3c4bc6
+SHA1: 43260737cd9adf9f00dfe5edb516d272b55373ba
+SHA256: 90abc33929eb9b8f6fbf0595930180b8282e790d175e159540be50736a5ea87b
+SHA512: 4ec03865235b0ac8fc5895a34d7bd1a46208625d1bc4de81ab8fe17d68bd0e4d355689c3d8d04bc726e2cdfd68d3b220daebeaf03977db5ff4ff1c173f764662
+Description: 适配 iOS 15–17 的用户态预算实验。解除温控请求 CPU/GPU/Package Floor/Ceiling=100、CPU Level0；Package 是共享功率预算，不是整个 SoC 硬锁，不保证最大时钟或实际满功率。低功耗仅限制 CPU 并清除 GPU/Package 满预算下限，不改变亮度。
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
 Package: com.huayuarc.cputhermal
@@ -15591,6 +15830,25 @@ icon: https://huayuarc.github.io/icon/ScreenshotShell.png
 
 Package: com.iosdump.shellx
 Architecture: iphoneos-arm64
+Version: 11.3
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 11532
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim
+Filename: debs/iphoneos-arm64/com.iosdump.shellx_11.3_iphoneos-arm64_4fe338fb382517a22aa10fc55ec43a097afe46ca75eb531c89d2cf1d6db0c6df.deb
+Size: 2609168
+MD5sum: cada85ebc256eaa95571e6c497c0e9fa
+SHA1: b84f41ae3510f0a7905b96d926342c9e1bedde85
+SHA256: 4fe338fb382517a22aa10fc55ec43a097afe46ca75eb531c89d2cf1d6db0c6df
+SHA512: 8d567e3820ac88edf578a4af89fb16017abdf8bb38d884c80435179a4868caab764aadfbf7b76d25f36ad1bc3d6df9057df2d267d2ce0b79168789a65438b9a1
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Name: SHELLX
+Author: iosdump
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+
+Package: com.iosdump.shellx
+Architecture: iphoneos-arm64
 Version: 2.0.1
 Section: Tweaks
 Maintainer: iosdump
@@ -16164,6 +16422,25 @@ MD5sum: 93b9b575f815d74cdce8674e6abdf4f0
 SHA1: d8403a274533bcba66e9bac4666bd558817ba01f
 SHA256: 9621ffc899adfac004f2f1baf2f2408c95499eb260fe655558c5598c3ed1b176
 SHA512: 8e70d147edd27ec08b57c5d2f06128166f17151cad7d065b53d52461e78eaf0a1c7487a7bb62b59a8fdb56fa3789d6bc67e7239d3548e97a8c4b5ec31a3da50b
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Name: SHELLX
+Author: iosdump
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+
+Package: com.iosdump.shellx
+Architecture: iphoneos-arm64e
+Version: 11.3
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 11452
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim
+Filename: debs/iphoneos-arm64e/com.iosdump.shellx_11.3_iphoneos-arm64e_2303ba9681a2788dfa4061468f897a818140915ce5c4bfef3d3945259febb3cc.deb
+Size: 2610616
+MD5sum: 4cb1d443f6fc6e82d83035eac4e2c630
+SHA1: 7847df5f7bb9a96b84be07a9c042c92e4bb56a4b
+SHA256: 2303ba9681a2788dfa4061468f897a818140915ce5c4bfef3d3945259febb3cc
+SHA512: e3880a9819716d672cf1ba84ecee3d9d4681535fa45cdb35b4a40c5f6aaab6b4cbebd34bd53849e50a9e203bba96718149526411bc19f1cf020d5ed6b14d761c
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
 Name: SHELLX
 Author: iosdump
@@ -21964,6 +22241,26 @@ Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
 Package: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 2.1.86
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4920
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64/com.muzi.mutool_2.1.86_iphoneos-arm64_4e10a44996ffb060733b74442204e654a1d36d30c5d6cb503e30636fb037f70d.deb
+Size: 730208
+MD5sum: 048ae46dc47949adeed20f7064b7aeee
+SHA1: bcdace078143d531a6d1cc7c1bf9c92cb2530f4f
+SHA256: 4e10a44996ffb060733b74442204e654a1d36d30c5d6cb503e30636fb037f70d
+SHA512: aa5ae404f78555d73b0119d0d49adad44811718e597f884e34b8fed365cb941f86266f1ee6991d05ce19664969d1d27d99deea7e15d4c43860da7dbf34b16281
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电管理（充电提示音：接入提示音、MagSafe 动画、灵动岛电池与电池提醒；充电限制：IORegistry 停充不再跳过设定值、限充阈值停充并回落 5% 自动恢复、阻止充电/电源、满血快充、智能充电计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（自动进桌面、通知亮屏、隐藏与禁用）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Name: MUtool
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
 Architecture: iphoneos-arm64e
 Version: 2.1.18
 Section: Tweaks
@@ -22178,6 +22475,26 @@ SHA1: 4c3ff4b0ce6b093fb812a158f90f517ef98188d6
 SHA256: e4caa78d215f0625a54e29f38255adfa158324900151dacd95e2fce96a002313
 SHA512: 4754760d238940235a637910eb63380e3c55f3031622b1252db1f2eb77207c71c78807de41678046ae924ce91a2f6d50311558f154eebc7bc35115aeda641f46
 Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音与 MagSafe 动画、充电限制（限充阈值停充并回落 5% 自动恢复、阻止充电、智能计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Name: MUtool
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64e
+Version: 2.1.86
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4904
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64e/com.muzi.mutool_2.1.86_iphoneos-arm64e_555ab46daa2ef2e9c9ee9fcf2708af4b56eb1b86fd3b86dd6566131c3301190c.deb
+Size: 721816
+MD5sum: 4729a6ab394da86b12f7cc5490d51b58
+SHA1: 1c87732b45b81ceaffa7cc2ca71d8d88614d7818
+SHA256: 555ab46daa2ef2e9c9ee9fcf2708af4b56eb1b86fd3b86dd6566131c3301190c
+SHA512: 0163ce27d2a9349226ecd88c8822fe649504c806604c7402cfabbeb4e241ed21fee66b51579dfedd1f21d3ad51d0f5636e925117f85eec87904512cb7c6f1306
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电管理（充电提示音：接入提示音、MagSafe 动画、灵动岛电池与电池提醒；充电限制：IORegistry 停充不再跳过设定值、限充阈值停充并回落 5% 自动恢复、阻止充电/电源、满血快充、智能充电计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（自动进桌面、通知亮屏、隐藏与禁用）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
 Name: MUtool
 Author: Muzi
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
@@ -25417,6 +25734,27 @@ Author: qq391160
 Icon: https://qq391160.github.io/repo/icons/thermal.png
 
 Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
+Version: 2.0.97
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 3976
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.97_iphoneos-arm64_1378b63f915ae9d16db41021a2afd901cc836fc167873778169d81a85e7dae19.deb
+Size: 570036
+MD5sum: 501924f925cbad439d5de0861c058c11
+SHA1: 020137b6f916cd76d48d528504bd69549f99a226
+SHA256: 1378b63f915ae9d16db41021a2afd901cc836fc167873778169d81a85e7dae19
+SHA512: 0b76431de1deee4b457338a370235efc8d79bc605bb124a6b57397864d79b6b1f413c751bfb93ab79de49af3ca9bd99eb440e35796eec6dd8d147b6ab1b146f0
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64e
 Version: 1.4.81
 Priority: optional
@@ -25592,6 +25930,27 @@ Name: CPU智能温控(iOS16/17)
 Author: qq391160
 Icon: https://qq391160.github.io/repo/icons/thermal.png
 
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.97
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4220
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.97_iphoneos-arm64e_640389d59265706f592f7526efaa87b2f9a438604ab757e67f1e5a5c28ff007b.deb
+Size: 608020
+MD5sum: 1672d0a7fb2c987cf29a7acdc0c4fb93
+SHA1: c48da18f3f5861b9466095f00ceebd58c63ec4fd
+SHA256: 640389d59265706f592f7526efaa87b2f9a438604ab757e67f1e5a5c28ff007b
+SHA512: 8efaedce5c886bf85689a35dfa24edb6904e194f71055bbff2db460c382e0b9f51bc161181b46d329351726be8b473d65266677b1314078e50b67ce02b47a0e4
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
 Package: com.qq391160.pulloverplus
 Architecture: iphoneos-arm64
 Version: 1.0.566
@@ -25661,6 +26020,36 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.47
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1148
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Filename: debs/iphoneos-arm64/com.quicklaunch.tweak_0.1.47_iphoneos-arm64_a9873547cf82b7f32ddf6245afa5c9de600daae2387c4678948bde9d109614bf.deb
+Size: 205312
+MD5sum: 03cb23d1f81c29702b6b8faf9431c204
+SHA1: 45084efd76c0a20edccb2d929c58e6d7652cddfb
+SHA256: a9873547cf82b7f32ddf6245afa5c9de600daae2387c4678948bde9d109614bf
+SHA512: dd644d3cae3d08c8ee762618b216bf022aa57c3fa7fcb128ae72fcca402798f0a865497fb33943b8d8e3b16ec487c00fc3b80acdf607f4d0e21d50fb04172ad2
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
 Architecture: iphoneos-arm64e
 Version: 0.1.44
 Priority: optional
@@ -25680,6 +26069,37 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
  Keep two overlays with separate apps and settings, adapting to portrait and landscape.
  Tap notification apps to open and remove them; long-press for the full list.
  Both overlays share the lock-screen switch; the capsule hides while typing.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64e
+Version: 0.1.47
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 620
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64e/com.quicklaunch.tweak_0.1.47_iphoneos-arm64e_668a18b064342548d1f8aefdd22a63a9cf787b5e59e6e96e6d203c77b35f9c94.deb
+Size: 153884
+MD5sum: f233b167f1de282dbc9ea3dd20982fa1
+SHA1: d1efaa201b61a416716a591f1a4305db1b1bb9b2
+SHA256: 668a18b064342548d1f8aefdd22a63a9cf787b5e59e6e96e6d203c77b35f9c94
+SHA512: d31cce0a4a88a2b1c7690f390dc8d0bcf62ec04ea0d6f2a4d917ab04174821eb81d2c45d38a1851d13c4ad1d3def7f48db854ddb8ff231e7fe17c5bdfb281ec2
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
  The border turns green when charging and red below 20 percent battery.
  Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
  Five adaptive dock shapes include a short bar, thermometer, dot and pill.
@@ -27137,6 +27557,24 @@ Author: MoWang
 icon: https://huayuarc.github.io/icon/floating.jpg
 
 Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 6.3
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3524
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_6.3_iphoneos-arm64_be704ff814924342d30a4dfa110ac94501a5353899a564a2eecbd0130b0716c6.deb
+Size: 488148
+MD5sum: 9f9727c4e787c79c6c64e37dfced83ca
+SHA1: ef41272a18848e6168179f5179138ed5a879a937
+SHA256: be704ff814924342d30a4dfa110ac94501a5353899a564a2eecbd0130b0716c6
+SHA512: a77b16595cd1b2ce1d8093624237226713d8e5e387618907066fed460bc4c430e89d5efc66f4478e11299e3bf29289d8f6919f6a66ef96e3cfb6863665dfc6ca
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复文字浮窗不是系统原生字体，改了一下排版锁定问题，新增浮窗 2，可以弄两个浮窗，新增上下行网速开关。）
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
 Architecture: iphoneos-arm64e
 Version: 1.7.0
 Section: Tweaks
@@ -28161,6 +28599,24 @@ SHA1: b059c4bf5ce5b68d8772289d04a6402e252c15d6
 SHA256: 865f9821b9c7b847141f95ff579a1e531e780a558a6c2544185bffcdae97981d
 SHA512: 2ca443fdc3d6a8be2f7772c19c8b1572051a0834b51b704a594fe5ef21c6b0b3586f55333e26583b2652f28e4fa969b16f8d8a83a95f8966b4e24b35f2ae05e3
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复 fps 自适应刷新时 60 帧上限）
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 6.3
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3524
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_6.3_iphoneos-arm64e_926a1009c8f28eae8c7d0de8dc8026440314e98fa5b7f207d88d6374e38f448f.deb
+Size: 485800
+MD5sum: 9f7a87acffbc99c8deea59ee93dc7600
+SHA1: 79a539631a7b40f395e2c7fb91a884679f38e868
+SHA256: 926a1009c8f28eae8c7d0de8dc8026440314e98fa5b7f207d88d6374e38f448f
+SHA512: e14a44f31cad287b6d7e46d5d4b04b8bd3cce7274f911a2ece1275bce31de030fa23026dc6c65ab3bc80d3596d3d493eb9081027498d24a8e1763caa699b2915
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复文字浮窗不是系统原生字体，改了一下排版锁定问题，新增浮窗 2，可以弄两个浮窗，新增上下行网速开关。）
 Name: 灵动监测
 Author: MoWang
 icon: https://huayuarc.github.io/icon/floating.jpg
@@ -39143,6 +39599,23 @@ Name: 番茄净化
 icon: https://huayuarc.github.io/icon/fanqiefn.jpg
 
 Package: fanqiefn
+Architecture: iphoneos-arm64
+Version: 3.0.5
+Section: Tweaks
+Maintainer: 5hux1n
+Installed-Size: 240
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/fanqiefn_3.0.5_iphoneos-arm64_71800ec8b0def494648ea307bb064a16a4ddb8d44fb9f0b3f06b72d82bc65e6e.deb
+Size: 30524
+MD5sum: d34c22d36f1455509e71398bd34362df
+SHA1: e9a39072e02df5d30b12d1e11c93c5ac5bf413ff
+SHA256: 71800ec8b0def494648ea307bb064a16a4ddb8d44fb9f0b3f06b72d82bc65e6e
+SHA512: 550c12c720c5e39e66d3c479dc4560a770c2f5969cf09bfe573c96f0dac462c4d77ae2af1012ba90c1ba76486caf1393323649fdf5ee51da262b22079822591e
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Name: 番茄净化
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+
+Package: fanqiefn
 Architecture: iphoneos-arm64e
 Version: 3.0.1
 Section: Tweaks
@@ -39208,6 +39681,23 @@ SHA1: ae9a71bcae3c494ae3975d2aeda49a903c37019b
 SHA256: 2d075f22fa31ddb1727c38b801d42c753d4291935c2ea6e3b91a2007cff1fbb2
 SHA512: 30f8ec8ae787917097c48ba1ca25e04647e129d49e30c4ec0fc68b04e60ab23a2693a838b57c1ec00bc8cdcb43abde3382ddb66a46daeb48261129d7eb803284
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+
+Package: fanqiefn
+Architecture: iphoneos-arm64e
+Version: 3.0.5
+Section: Roothide
+Maintainer: 5hux1n
+Installed-Size: 240
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/fanqiefn_3.0.5_iphoneos-arm64e_32894157f69be3116eda08051e6e3c2f2265a330cb900df7bf38b57a253a0fe5.deb
+Size: 30468
+MD5sum: a365b367877cc3d2b2b02023d8c71634
+SHA1: 978a62016be3f35fd1ff3e98fc0ea354af2a2aef
+SHA256: 32894157f69be3116eda08051e6e3c2f2265a330cb900df7bf38b57a253a0fe5
+SHA512: e606c80cbdc611dc0ce66a286c8b8d61eaae2115d5e00a7e9fdfd7a26d5929a983f01514a18f9e05dde0bb050662a3f34801b316c08f93aba299327f0246a192
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
 Name: 番茄净化
 icon: https://huayuarc.github.io/icon/fanqiefn.jpg
 
@@ -39829,6 +40319,24 @@ icon: https://huayuarc.github.io/icon/DarkIcon.png
 
 Package: iya.banana.dockicon
 Architecture: iphoneos-arm64
+Version: 0.9.19
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1896
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64/iya.banana.dockicon_0.9.19_iphoneos-arm64_cadd57a55ff5d9002d14d19673907592fbf4f339cfe760d7cbc1c0fc228d068f.deb
+Size: 403800
+MD5sum: 98d2e802fdb467e108a1f9cefcb341f1
+SHA1: c353f77d64a42da4b45fbfba62b7df4775ce8688
+SHA256: cadd57a55ff5d9002d14d19673907592fbf4f339cfe760d7cbc1c0fc228d068f
+SHA512: 833345ceaa678c597cd4337c1c5c3f085221ce040953621e2f2dccd8c331be4d256e57dc93105ba6dd4fa288cf14a2366f97b697dcf42cd077638ef211daed50
+Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+icon: https://huayuarc.github.io/icon/DarkIcon.png
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
 Version: 0.9.2
 Section: Tweaks
 Maintainer: hades
@@ -39948,6 +40456,24 @@ MD5sum: 66bed6f9f92d0a6d896d3eaf56b17a35
 SHA1: 80cfd0c989106d35142f054670e0ce70bd32f3ff
 SHA256: 7aef6b147ebfa01a9f8a893cc109141250fdee7bce8bdd5a1b433da42135f9bf
 SHA512: c368c7b9f9f8f9b23a3e305af9b9e7921d025de7fe9f8fd5eb555ea6743efd38d5397db2d2310519eeedff285e9be1f783aa86aead0d75246321cb891e4de7e5
+Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+icon: https://huayuarc.github.io/icon/DarkIcon.png
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.19
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1896
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64e/iya.banana.dockicon_0.9.19_iphoneos-arm64e_241ee7c5f1cbe9d6cbede3e47a15a2ccce942b9940aa1950bcb3cb30c84f1510.deb
+Size: 404900
+MD5sum: 26bee6d311b345889b381521a18a7555
+SHA1: 5a8be901f8b883676c2f72317b132293cac4293c
+SHA256: 241ee7c5f1cbe9d6cbede3e47a15a2ccce942b9940aa1950bcb3cb30c84f1510
+SHA512: 83ef8bbde9517ae90661881fc58c787138c372467ee75b6a160336dcd9ee7d6a40c2561e96d08152a19493617dbe65809dbd584364ed8c6ebce6e74987468b3f
 Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
 Name: DarkIcon
 Author: hades
@@ -43641,6 +44167,31 @@ SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64
+Version: 1.6.5
+Priority: optional
+Section: Terminal Support
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 15600
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64/wiki.qaq.ighostvt_1.6.5_iphoneos-arm64_6e67f9b8281e9ef034b526ecfbd9919d4cbe1d759e631e9e8d3338a6e5063fa6.deb
+Size: 4654984
+MD5sum: 9e25b6615d5a3c94d5f6490677e2393a
+SHA1: 44586cc0f0ebf410b00352c1898e0dfa140f260d
+SHA256: 6e67f9b8281e9ef034b526ecfbd9919d4cbe1d759e631e9e8d3338a6e5063fa6
+SHA512: 055d5f5954251c851abd5f280a9812dc68c9fc77ae9a673f8129933c3fdf9f75fc9e5420153dd644f5740b562eef080eca1a3093c9cd4c4f17cd18b79a956242
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
 Architecture: iphoneos-arm64e
 Version: 1.4.11
 Priority: optional
@@ -43754,6 +44305,31 @@ MD5sum: edd7f20a65e8917fc6fe5a009542d423
 SHA1: 92ba8fb54988373030e6bf51a26f6dbfeb85c2bc
 SHA256: 5dff090c8dba938558f07ccb8bb848b70062af0ddf4e8510e491dbe5624bae66
 SHA512: 08808e8b10b4468f037a2cb900f2114cb7676dba4ea092fbea28b1ee4f2b8a136fbaaabd946fd0e9728d1daa8807547e5fc6c1f548cec091fa30af981e067e77
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64e
+Version: 1.6.5
+Priority: optional
+Section: Terminal Support
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 15600
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64e/wiki.qaq.ighostvt_1.6.5_iphoneos-arm64e_b266d822688954ba4c24e1c7194f0730024d331d3d8302417d37b1398bd096fa.deb
+Size: 4654120
+MD5sum: cfdd2d0931cd493ab2d628a542299f04
+SHA1: 8050ce25ac5a09ff5eb15b6302769cb5b2293593
+SHA256: b266d822688954ba4c24e1c7194f0730024d331d3d8302417d37b1398bd096fa
+SHA512: 6bdd8600c69148c53c15ea590bbe591f2963b2613e5e0017a3884b1a5e01e0a4b5f06bd222151571b9d4818a04f693312db3daf8abb5505c8d21f82230734765
 Description: Ghostty-powered terminal for iOS
  A real terminal on your device, drawn by the same engine as Ghostty on the
  desktop. Your shell keeps running in the background, so a build you started
