@@ -3870,6 +3870,38 @@ icon: https://huayuarc.github.io/icon/ahsfilter.jpg
 
 Package: com.axs.cpufree
 Architecture: iphoneos-arm64
+Version: 5.2.0-15
+Section: Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1368
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.axs.cpufree_5.2.0-15_iphoneos-arm64_f23bc3284a148297e740e1a4bd71bad5035101b7c01c298c8a447765afe85bd7.deb
+Size: 109172
+MD5sum: 7ed9f001f740f5a63adf986768df2a4e
+SHA1: b1c63b9d970c87a4487b5aceb86eca2893c016f0
+SHA256: f23bc3284a148297e740e1a4bd71bad5035101b7c01c298c8a447765afe85bd7
+SHA512: 73078b7e935d253f59a7ff1d9b2b1b298e289e0adf66d2891b746f2fdc3cc88057b05495dd778d033a2976da99c63412d710f5a7d566186623b2dfaa8c1f4ea9
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU频率显示：实时显示大核真实频率，低功耗模式下上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64
 Version: 5.2.0-15+abouthide.1
 Section: Axs-Tweaks
 Maintainer: Axs<qiaozhani000@163.com>
@@ -3913,6 +3945,72 @@ MD5sum: ef7e5e3efc0eadff9593955fc50c3ffe
 SHA1: 6e3da3fcdd2e9ceb52f5ce93fda8c4db93eddf54
 SHA256: e8aee37008748ee8fecd21bc3cc785913fa930268a341cb39ea9bed1a9985757
 SHA512: 915cff8b520f2ae0353a2245b7cb1f6fd17bc82daadb4c5fb23b0857980a3f1136a8edc4d87ec39f60933f0c882ea307b1a24f9d157185bc48d90c5662fc92e4
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU频率显示：实时显示大核真实频率，低功耗模式下上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64
+Version: 5.2.0-62
+Section: Axs-Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1408
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.axs.cpufree_5.2.0-62_iphoneos-arm64_393ec3c0d40e24921a93fcfd12ab59b46401e147814bb716a7cefeb688af3124.deb
+Size: 120280
+MD5sum: c07c04d3dbf2011449be7b4ab5f1cae7
+SHA1: 85e9e47e3c51b1d8629a8a7c6b6ed8a0513b2c90
+SHA256: 393ec3c0d40e24921a93fcfd12ab59b46401e147814bb716a7cefeb688af3124
+SHA512: af49f79847691ba1cd4857c857622b806ca3552e931b1f56fcd2471a470a63ef09799426204c32fab0dc856f6b42962888d8d55baf1036ddcb36e70c73f4e40d
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64e
+Version: 5.2.0-15
+Section: Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1368
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.axs.cpufree_5.2.0-15_iphoneos-arm64e_4d6de3895ad516138a79bc18622f12567d8c6a12339833873e6ea0d699a1769e.deb
+Size: 105732
+MD5sum: e45b77eaf409a92742533c06ff7139ca
+SHA1: ea341a1802a94b151fc2ea26ce78daadc007f469
+SHA256: 4d6de3895ad516138a79bc18622f12567d8c6a12339833873e6ea0d699a1769e
+SHA512: 90123a23eba207b35d8c8e9092d36405091d40c57a91643fcc135b6b44a7f3c88fd87b3eaa72767553b9d5492336b3908276e8f350a7f5df999f3de30ae180c6
 Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
  * 一、双防护层拦截
  * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
@@ -3997,6 +4095,40 @@ Description: 一个强大的 iOS 温控管理插件，接管系统温控决策�
 Name: CPU Free
 Author: Axs<qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64e
+Version: 5.2.0-62
+Section: Axs-Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1408
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.axs.cpufree_5.2.0-62_iphoneos-arm64e_e57dec6fde5ccc6db17799a9fba99628c6154e9a0f7f8569ad70bdc372da82a8.deb
+Size: 116476
+MD5sum: 6d5b022a6072cf338daa7351a8023d42
+SHA1: 567e0c933e06887363369157bad734bfbc1f75ac
+SHA256: e57dec6fde5ccc6db17799a9fba99628c6154e9a0f7f8569ad70bdc372da82a8
+SHA512: 3a5dd1afc55d6ffc6514a270c20314de23d23bc3062ad8ac94526f85527d1539bb5d9842d4e45c39f3cf71ae059e9a8540b57bb5a4849b2de53ec3cbac4a06dc
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
 
 Package: com.axs.snapper4
 Architecture: iphoneos-arm64
@@ -9290,6 +9422,24 @@ Author: doimty
 icon: https://huayuarc.github.io/icon/fiona.png
 
 Package: com.doimty.fiona
+Architecture: iphoneos-arm64
+Version: 0.3
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 304
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.doimty.fiona_0.3_iphoneos-arm64_2dfeafcc6cc0e9828d4a4ed6598b0f355f6cefa3446c4e661e620b5d89a9998b.deb
+Size: 5076
+MD5sum: e1480f97a88fc2a40db7c1e93dcb6763
+SHA1: c0426308232a9f5c4e2e07c919ad4aad382512fc
+SHA256: 2dfeafcc6cc0e9828d4a4ed6598b0f355f6cefa3446c4e661e620b5d89a9998b
+SHA512: 7d612959b3a7a2aea9e9e1e608e1b5f267e1cbe671aca8d018c4d4d83c11078720f9708742a5c15e1f78aa6d3117a7eb7b37009f210a0d8d8e887d4136b68b38
+Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
+Name: Fiona
+Author: doimty
+icon: https://huayuarc.github.io/icon/fiona.png
+
+Package: com.doimty.fiona
 Architecture: iphoneos-arm64e
 Version: 0.2
 Section: Tweaks
@@ -9303,6 +9453,24 @@ SHA1: cb42896879d841b2d782909a6aad8e04d6db4a28
 SHA256: 9fa822dc63d44c4b3f129097a7a81246e31ee5a053e1ce1c0497af0d8a0f72c3
 SHA512: 42262669d5a9b112c1ec3ade49ffa74a146f2a3cdd1515f4594dd61b925e4a683e5325afd34161d4f6e64d2d77a5006ee6cebc02c235af55283aeaa145046ab7
 Description: 锁屏时保持 WiFi 连接。无开关，安装即生效；
+Name: Fiona
+Author: doimty
+icon: https://huayuarc.github.io/icon/fiona.png
+
+Package: com.doimty.fiona
+Architecture: iphoneos-arm64e
+Version: 0.3
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 304
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.doimty.fiona_0.3_iphoneos-arm64e_bbf2e0a737a761266f63cc89124977505c51374f505ef0e30d1c8778f26ec94f.deb
+Size: 5020
+MD5sum: 2a4b32f222a1de655b7a69ddc78d4d8b
+SHA1: e51c0c61b4b8f38277389923cb21b0f9effce378
+SHA256: bbf2e0a737a761266f63cc89124977505c51374f505ef0e30d1c8778f26ec94f
+SHA512: d9200a2ff382b7285a2771faf779af50b99b8b087908cc77a312d483550c73e07b99e38c42b011d0a286afa1da5a30cdad70482cce549c1e753a4eb4a169c285
+Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
 Name: Fiona
 Author: doimty
 icon: https://huayuarc.github.io/icon/fiona.png
@@ -10503,6 +10671,42 @@ Description: 感谢kayoko开源，魔改自用
 Name: Kayoko
 Author: 航
 icon: https://huayuarc.github.io/icon/Kayoko.png
+
+Package: com.hang.noti
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.hang.noti_1.0_iphoneos-arm64_20e6285cb4ef1b5930c87e04250e74125be717b9aa640fcc73037494ecc6167f.deb
+Size: 14308
+MD5sum: 255d477085eb764cc969e21fa967fae8
+SHA1: 1700347d44a23d299c267418dda642da9d764347
+SHA256: 20e6285cb4ef1b5930c87e04250e74125be717b9aa640fcc73037494ecc6167f
+SHA512: cbd59d7e7c2811dc014c76e488a2da8f3af60c696418162eabc2bd7c64d77848b2fc52495cc1b298daa75bdeb06a215471624ec1c1318bed9aa33d39e17d1837
+Description: 双指长按通知取通知中的验证码。
+Name: 通知验证码复制
+Author: 航
+icon: https://huayuarc.github.io/icon/noti.jpg
+
+Package: com.hang.noti
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.hang.noti_1.0_iphoneos-arm64e_be1915172e6aa39df4f99f25e5e8b17d78e96a77bdd034153c71bb00c9be50f1.deb
+Size: 10784
+MD5sum: de98c408dee03186a2544583bd10ccd3
+SHA1: 06e2fc1d4f99706cb3802f2da0080115e634ef28
+SHA256: be1915172e6aa39df4f99f25e5e8b17d78e96a77bdd034153c71bb00c9be50f1
+SHA512: c63b228d83cab40a08361f21e75633e1790a8add5dec28e572651c1a797ef17996f924fddbdff6a9e1a01b95f43402b650f91adb01fe3e6e040f8f6e25cdc4d2
+Description: 双指长按通知取通知中的验证码。
+Name: 通知验证码复制
+Author: 航
+icon: https://huayuarc.github.io/icon/noti.jpg
 
 Package: com.hang.squidgesturepro-ios17fix
 Architecture: iphoneos-arm64e
@@ -27575,6 +27779,24 @@ Author: MoWang
 icon: https://huayuarc.github.io/icon/floating.jpg
 
 Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 6.4
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3544
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_6.4_iphoneos-arm64_98ecde8fe928dd119e45c1c4a1dd77fd2e40d54aa78f5dedb9cb90428087edca.deb
+Size: 494064
+MD5sum: 1e28e004b94fd57e05bfe8b23acfe3fb
+SHA1: 6b8fc4fd6c520e13fb9c27843f5c9735aaeef8f0
+SHA256: 98ecde8fe928dd119e45c1c4a1dd77fd2e40d54aa78f5dedb9cb90428087edca
+SHA512: 9c30634784b04ec79c31e8dfd4a4506479ac62f3418f670dc1d7ae5802fa6e4d4a2f0e5ceba605b5b061d230c5da771bc84999ca8efc422bdf85ebce122368bb
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
 Architecture: iphoneos-arm64e
 Version: 1.7.0
 Section: Tweaks
@@ -28617,6 +28839,24 @@ SHA1: 79a539631a7b40f395e2c7fb91a884679f38e868
 SHA256: 926a1009c8f28eae8c7d0de8dc8026440314e98fa5b7f207d88d6374e38f448f
 SHA512: e14a44f31cad287b6d7e46d5d4b04b8bd3cce7274f911a2ece1275bce31de030fa23026dc6c65ab3bc80d3596d3d493eb9081027498d24a8e1763caa699b2915
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复文字浮窗不是系统原生字体，改了一下排版锁定问题，新增浮窗 2，可以弄两个浮窗，新增上下行网速开关。）
+Name: 灵动监测
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 6.4
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3544
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_6.4_iphoneos-arm64e_b1eb8cce9acdff605c55fa7e369e56c3e9bcafd2223636ec63698027265e9966.deb
+Size: 493032
+MD5sum: a82a71b0fa65f332ec0237216e040682
+SHA1: 9cc49ec1e1d4d147baef39c76a041150a43545b5
+SHA256: b1eb8cce9acdff605c55fa7e369e56c3e9bcafd2223636ec63698027265e9966
+SHA512: 04e513c5ff2f3da7aaa79ffb9de365d5a6c9b8c38a966873a33877457177323f5e3ea87d7cee3d641c1f5363287427fa01406dd08e6fd52900ede04447675563
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
 Name: 灵动监测
 Author: MoWang
 icon: https://huayuarc.github.io/icon/floating.jpg
@@ -35441,6 +35681,122 @@ Author: SuSu
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 
 Package: com.susudear.screencore
+Architecture: iphoneos-arm64
+Version: 2.0.3+windowscheduler.12-1
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 3770
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Filename: debs/iphoneos-arm64/com.susudear.screencore_2.0.3+windowscheduler.12-1_iphoneos-arm64_bec348441f42fe13b1d7aa671ba2862106afb01fbc7f521a5571b30221c22dd1.deb
+Size: 549076
+MD5sum: d38e76d4c4fac1af13ee88c5f4b30bb1
+SHA1: 4117792daa53e3774b1ae253a467d2c14da1e95a
+SHA256: bec348441f42fe13b1d7aa671ba2862106afb01fbc7f521a5571b30221c22dd1
+SHA512: 32c94636213f9f6c842dbb71bf3d1673873b43213d1d647bb83bcadb355d4946f9a986232a5144af8dcb4ac16807451a6d0018600279ce5d9dd104f3732e6fba
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-1。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
+ 安装后重启桌面。
+Name: screencore-窗口调度版
+Author: kanuo
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Install-Environment: standard-rootless-var-jb
+X-Rootless-Input-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Rootless-Revision: exact11-libroot-paths.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: 64fc26d41398f82dee8c641dc82a401d5dc908d5ef75deb55fb5af6334f8762e
+X-Core-Identity-Revision: expected-author-kanuo.1
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
+
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64
+Version: 2.0.3+windowscheduler.12-5
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 4139
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Filename: debs/iphoneos-arm64/com.susudear.screencore_2.0.3+windowscheduler.12-5_iphoneos-arm64_2c8f7d6990454d3660a265e0c46dddba19438dcc811d0616a0bd6ddcc07b64df.deb
+Size: 573020
+MD5sum: fc1effec12402eb35e757c1747c683e4
+SHA1: 843a09f2347af1b6077de7e83906abe3ad9b1c72
+SHA256: 2c8f7d6990454d3660a265e0c46dddba19438dcc811d0616a0bd6ddcc07b64df
+SHA512: d8cfc148bac6854402619f77078fc91c1a8f12ffe05355305e4508b20d92614a7d80f707e43122d2920794a8a3e2d4d2605b520bafb5088ef7e21a7314260973
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-5。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
+ 安装后重启桌面。
+ 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
+ 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
+ App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
+ 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
+ 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
+ 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
+ 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
+ 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
+Name: screencore-窗口调度版
+Author: kanuo
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Install-Environment: standard-rootless-var-jb
+X-Rootless-Input-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Rootless-Revision: exact11-libroot-paths.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: 64fc26d41398f82dee8c641dc82a401d5dc908d5ef75deb55fb5af6334f8762e
+X-Core-Identity-Revision: expected-author-kanuo.1
+X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Geometry-Base-SHA256: e9cabb058422ab075eac379c15438bf6a962e86bccfa870ee7bc62cc8b286028
+X-Native-Jump-Geometry: popup-only-native-size.1
+X-Native-Jump-Base-SHA256: ff0edfa8b9ce6ee38054136a0e2da0d69004907dad70e00d8b8f24f74fa171fc
+X-Keyboard-Compatibility: scene-identity-and-missing-host.1
+X-Keyboard-Base-SHA256: 800e03d7f9f55d66479729b6ff73b9f446efa62b503104a54944f64a2e3eef28
+X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
+X-Fullscreen-Exit-Base-SHA256: cc28b5bc9408b504b09179029545c90c7d3fd6f110af80b2a8b520f76e5204e0
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
+
+Package: com.susudear.screencore
 Architecture: iphoneos-arm64e
 Version: 1.1.1
 Section: Tweaks
@@ -35547,6 +35903,116 @@ Description: 分屏而已
 Name: ScreenCore
 Author: SuSu
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64e
+Version: 2.0.3+windowscheduler.12-1
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 3207
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Filename: debs/iphoneos-arm64e/com.susudear.screencore_2.0.3+windowscheduler.12-1_iphoneos-arm64e_52d26dd0a632c6f302ea0a9d5f4a825b016fdeb51f989b31e0859d8b0806422b.deb
+Size: 521016
+MD5sum: 9727aca7bfeaa4202daee9337ffff553
+SHA1: 1a530933b5f878e8739686852e0e193cd673ea08
+SHA256: 52d26dd0a632c6f302ea0a9d5f4a825b016fdeb51f989b31e0859d8b0806422b
+SHA512: d5d31cba573422ff78fe813adcf29560da3d0d8f22e5e402967078ee8e386aa913bc1e678d8641ef44fd7bf6f34df725c4008fac3b6a44dbe5fd71a7c3ad9772
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-1。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
+ 安装后重启桌面。
+Name: screencore-窗口调度版
+Author: kanuo
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Core-Identity-Revision: expected-author-kanuo.1
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
+
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64e
+Version: 2.0.3+windowscheduler.12-5
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 3369
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Filename: debs/iphoneos-arm64e/com.susudear.screencore_2.0.3+windowscheduler.12-5_iphoneos-arm64e_562274e55cc97f0fc3914073023fe44525442630ada180d2f019589e38eeb797.deb
+Size: 538012
+MD5sum: f9059ae280af2529108a4cbb75d5abc3
+SHA1: e066f8745bc4f0702842b1cf38e5dd8090e4182a
+SHA256: 562274e55cc97f0fc3914073023fe44525442630ada180d2f019589e38eeb797
+SHA512: 23cd480ab5de68146b52f1c4e817ab68d136ab10607f5d6ca5cb997407befebe65a1992d7825092145b5942160d09a1e31d5a57181441985e63ba4033819ca24
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-5。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
+ 安装后重启桌面。
+ 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
+ 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
+ App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
+ 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
+ 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
+ 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
+ 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
+ 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
+Name: screencore-窗口调度版
+Author: kanuo
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Core-Identity-Revision: expected-author-kanuo.1
+X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Geometry-Base-SHA256: 619767fdd4d744203cef45ca1d5cd370b5f9a5521850034a21ddf3523a7c2701
+X-Native-Jump-Geometry: popup-only-native-size.1
+X-Native-Jump-Base-SHA256: 2bc5d7e4c7c8ab8b0fe6117bc5fbd98a784701d429016984ce6a570ac54b131e
+X-Keyboard-Compatibility: scene-identity-and-missing-host.1
+X-Keyboard-Base-SHA256: 977060949ce7844f48841d26af651704bfee38b84b6a72840753452e9f9d0c66
+X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
+X-Fullscreen-Exit-Base-SHA256: 2dbe5dde47fdac2b813d9cb27434286885af7e29ee8b6f783a5ea86557fe9a58
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
 
 Package: com.susudear.sharingdalertwatchdog
 Architecture: iphoneos-arm64
@@ -40355,6 +40821,24 @@ icon: https://huayuarc.github.io/icon/DarkIcon.png
 
 Package: iya.banana.dockicon
 Architecture: iphoneos-arm64
+Version: 0.9.20
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1960
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 28.0)
+Filename: debs/iphoneos-arm64/iya.banana.dockicon_0.9.20_iphoneos-arm64_6cf596f365f23cee62baca810c52103b64e89d299594ad4455e3911a3d713e1e.deb
+Size: 428056
+MD5sum: cfe5a4cd0f2d2bdb9d53b6fa3a916f1e
+SHA1: 5d39c8f5a19234ad58e3ba6ad5d3c53733dcaf61
+SHA256: 6cf596f365f23cee62baca810c52103b64e89d299594ad4455e3911a3d713e1e
+SHA512: cd65f241c9b2d2bf71fbe39db36423f54d6d61885d87aa18f7ba0c0e59e489c0fc3e66225182ceb19993fb04dddde10e68966fb0364ca741376bf8475b3dd289
+Description: 自适应图标样式、图标包与图片壁纸暗化。Icon styles and theme packs on iOS 15-18, 26 and 27; photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+icon: https://huayuarc.github.io/icon/dockicon.png
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
 Version: 0.9.4
 Section: Tweaks
 Maintainer: hades
@@ -40496,6 +40980,24 @@ Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.io
 Name: DarkIcon
 Author: hades
 icon: https://huayuarc.github.io/icon/DarkIcon.png
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.20
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1960
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 28.0)
+Filename: debs/iphoneos-arm64e/iya.banana.dockicon_0.9.20_iphoneos-arm64e_1eb5e8836659fd1df8d622c9c6ce2401e3d6e9cc88d91619621b30c7e3b7bc94.deb
+Size: 428700
+MD5sum: af6866623a50c1b44856e812bd7b37ca
+SHA1: 47d8860271c6dfb5f36419a7c13962117b41cc28
+SHA256: 1eb5e8836659fd1df8d622c9c6ce2401e3d6e9cc88d91619621b30c7e3b7bc94
+SHA512: 2276872fa18b0543a2380d8610bbd613170cce58d340e05366328404ed7f03eef6429c55f626d63484c0fa2b3b95c5563da62bbc03653d9b41d307b67864b774
+Description: 自适应图标样式、图标包与图片壁纸暗化。Icon styles and theme packs on iOS 15-18, 26 and 27; photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+icon: https://huayuarc.github.io/icon/dockicon.png
 
 Package: iya.banana.dockicon
 Architecture: iphoneos-arm64e
