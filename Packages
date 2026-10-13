@@ -3017,6 +3017,24 @@ icon: https://huayuarc.github.io/icon/axiskey.png
 
 Package: com.aa22qq.axiskey
 Architecture: iphoneos-arm64
+Version: 10.0.0
+Section: Tweaks
+Maintainer: aa22qq
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.aa22qq.axiskey_10.0.0_iphoneos-arm64_94d3431b2bdae1dae3e1841fe972be9324d289698d477623fc4278dbd8e27309.deb
+Size: 109148
+MD5sum: c347601c4c41de00607027bca49a5753
+SHA1: d9a7e100a5625c2d6eaa65d54515ee84cfe261c4
+SHA256: 94d3431b2bdae1dae3e1841fe972be9324d289698d477623fc4278dbd8e27309
+SHA512: ab00451254c596c8a8f1a570979eaede85979f6b7cfafaca8080d4b6058a3d4a22ae4008c494371020eb0df212d6323b3f661a8ade8b4416e0f639927d113ba4
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Name: AxisKeyGesture
+Author: aa22qq
+icon: https://huayuarc.github.io/icon/axiskey.png
+
+Package: com.aa22qq.axiskey
+Architecture: iphoneos-arm64
 Version: 3.0.0
 Section: Tweaks
 Maintainer: aa22qq
@@ -3048,6 +3066,24 @@ SHA256: 58fd54aae4459a0d18d8b024c40642af482ec1389d4755839cee729351b6e1f9
 SHA512: 9f1807d13a20da0c3564a778068b6be81f21b085787f103c41c874bade6920cfbb360f8570ae4374657f05099a2f16fa58b0e76182bf836470233a74e77ceba7
 Description: 结合物理按键与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌️
 Name: AxisKey 多维轴向按键
+Author: aa22qq
+icon: https://huayuarc.github.io/icon/axiskey.png
+
+Package: com.aa22qq.axiskey
+Architecture: iphoneos-arm64e
+Version: 10.0.0
+Section: Tweaks
+Maintainer: aa22qq
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/com.aa22qq.axiskey_10.0.0_iphoneos-arm64e_af7cbf760b79728f80a7f7bc4d6678d5933ff433872c7d20ca6e7320434fc1dc.deb
+Size: 108736
+MD5sum: 0ff9e94d4332d47a45dafef74d9b9530
+SHA1: 92aee521ddd73c370ee3b925c9fde770f648556b
+SHA256: af7cbf760b79728f80a7f7bc4d6678d5933ff433872c7d20ca6e7320434fc1dc
+SHA512: c9abfedb0d2545405fd2e6bfcdcbb71f6dceef86aa45b31f908045f538df471917b13a68f04a231f6a97a793a7ea9446aacd54c64e8873e63885a28b1168192e
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Name: AxisKeyGesture
 Author: aa22qq
 icon: https://huayuarc.github.io/icon/axiskey.png
 
@@ -3875,6 +3911,38 @@ Section: Tweaks
 Maintainer: Axs<qiaozhani000@163.com>
 Installed-Size: 1368
 Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.axs.cpufree_5.2.0-15_iphoneos-arm64_88de64a2676ad1361eecc0e9967f8997c668b999c33f7ce02e1f5a139af3eb31.deb
+Size: 109060
+MD5sum: 486d5e680de80b4a3693c5282b3c885c
+SHA1: 9c6ae3e4262ed8d086e7160701562445e390d487
+SHA256: 88de64a2676ad1361eecc0e9967f8997c668b999c33f7ce02e1f5a139af3eb31
+SHA512: 989bd60588b01b7938ac22659af49b9fb1bb86f3e8e6cfbf9906f93a18a3958aea45e27195e9cddabb94f5c2add04f4b1ff3f7e3760de4c75365413bb7411ff7
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU频率显示：实时显示大核真实频率，低功耗模式下上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64
+Version: 5.2.0-15
+Section: Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1368
+Depends: mobilesubstrate, preferenceloader
 Filename: debs/iphoneos-arm64/com.axs.cpufree_5.2.0-15_iphoneos-arm64_f23bc3284a148297e740e1a4bd71bad5035101b7c01c298c8a447765afe85bd7.deb
 Size: 109172
 MD5sum: 7ed9f001f740f5a63adf986768df2a4e
@@ -3998,6 +4066,108 @@ Icon: https://axs66.github.io/pro/icon/cpufree.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
 
 Package: com.axs.cpufree
+Architecture: iphoneos-arm64
+Version: 5.2.0-62
+Section: Axs-Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1408
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.axs.cpufree_5.2.0-62_iphoneos-arm64_eea741a3b70359cdd96edadc3206d540989df5333cb2617d10c31b28a156e2e8.deb
+Size: 120316
+MD5sum: 6082e486316663c36202c44942b63d91
+SHA1: 5877b9c00f04743379a368749c7d0021797f4759
+SHA256: eea741a3b70359cdd96edadc3206d540989df5333cb2617d10c31b28a156e2e8
+SHA512: 94c30ae048edbceeb0731ea3375adf96ac5b81ea6b5bce8c9ce0fd21a735d3f993f35b952f9afde6c100277079888b11e5b03b825808fa8f277e47383a7e7fe0
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64
+Version: 5.2.0-66
+Section: Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1412
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.axs.cpufree_5.2.0-66_iphoneos-arm64_ac720eddd3080bf750624b4da5b2af3e20360b23352662c6ca044ae9c82772eb.deb
+Size: 122604
+MD5sum: 7a3bd85cce869d3dede9e38d0b6a1099
+SHA1: 0c0fa4756115d6eb43ce09e40a5bb790a8672b8b
+SHA256: ac720eddd3080bf750624b4da5b2af3e20360b23352662c6ca044ae9c82772eb
+SHA512: 30660b09d07c931c50ab030d95983917c680b1d8357c6786012f3923fca201799b59aca4e9b41bbe499865cae70bf49dcc39fb771d6904c70cc2f14ed17e5f06
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64
+Version: 5.2.0-68
+Section: Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1428
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.axs.cpufree_5.2.0-68_iphoneos-arm64_2ad399346cca95a614789a195e9e96f6a090374b42a8e437db4a72ffd584acec.deb
+Size: 125128
+MD5sum: c42b0548ed21e4bb6c103e7510934e46
+SHA1: 36e4382404061431131dee567e286af60d844d71
+SHA256: 2ad399346cca95a614789a195e9e96f6a090374b42a8e437db4a72ffd584acec
+SHA512: 8097aa854526ad6dbe24d617826bdc2c2d00bc1fb49637fbd06d70bb61f3629e82921602b5dd46ac2eae836d31485dc35126c6b362520a6f54c8062edbed0a19
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
 Architecture: iphoneos-arm64e
 Version: 5.2.0-15
 Section: Tweaks
@@ -4011,6 +4181,39 @@ MD5sum: e45b77eaf409a92742533c06ff7139ca
 SHA1: ea341a1802a94b151fc2ea26ce78daadc007f469
 SHA256: 4d6de3895ad516138a79bc18622f12567d8c6a12339833873e6ea0d699a1769e
 SHA512: 90123a23eba207b35d8c8e9092d36405091d40c57a91643fcc135b6b44a7f3c88fd87b3eaa72767553b9d5492336b3908276e8f350a7f5df999f3de30ae180c6
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU频率显示：实时显示大核真实频率，低功耗模式下上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64e
+Version: 5.2.0-15
+Section: Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1368
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.axs.cpufree_5.2.0-15_iphoneos-arm64e_d428a5e146de0f57a66b5b0ace3ea630505f385a287922a90edcd6b3237f7bad.deb
+Size: 105680
+MD5sum: d2412b5bfcec4e413139b62f70582965
+SHA1: 2289db68de61f1088742f575463b9b360cde1d71
+SHA256: d428a5e146de0f57a66b5b0ace3ea630505f385a287922a90edcd6b3237f7bad
+SHA512: f4fcae52e8aaecc389e157784468d7a1c95842c289ed96e248a369c7e615d4fbfd7218fbf42b85349c3651bdd4e21b9334fd49316d718ea675272cb7f55b71c2
 Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
  * 一、双防护层拦截
  * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
@@ -4104,6 +4307,39 @@ Maintainer: Axs<qiaozhani000@163.com>
 Installed-Size: 1408
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.axs.cpufree_5.2.0-62_iphoneos-arm64e_22c0bfc125a339bb0c79291f946431509c552eec4dadad366169ca5844c37c63.deb
+Size: 116524
+MD5sum: c7e8b737df05469475b8eea11ab0f01f
+SHA1: 6df9abed08425cb878f20220bd7d436f63b677a8
+SHA256: 22c0bfc125a339bb0c79291f946431509c552eec4dadad366169ca5844c37c63
+SHA512: a5fa6a0f35d53721a3889aa2c162011ebf6a1ae403c27d8ea17c16dc88cfa6502336988e223dbd0d6387e908be5bf0ed7562b1eba653490b226d0b8a16df285c
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64e
+Version: 5.2.0-62
+Section: Axs-Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1408
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
 Filename: debs/iphoneos-arm64e/com.axs.cpufree_5.2.0-62_iphoneos-arm64e_e57dec6fde5ccc6db17799a9fba99628c6154e9a0f7f8569ad70bdc372da82a8.deb
 Size: 116476
 MD5sum: 6d5b022a6072cf338daa7351a8023d42
@@ -4129,6 +4365,78 @@ Name: CPU Free
 Author: Axs<qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64e
+Version: 5.2.0-66
+Section: Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1412
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.axs.cpufree_5.2.0-66_iphoneos-arm64e_24b098b80b89c6c2406a2eb50d57d101abd26466c021330fb9cb79bff7c78993.deb
+Size: 118732
+MD5sum: f2d3196415b164700eea78f22fc0ba76
+SHA1: 29592bb559320aeed7e8c4280f421cd57f809191
+SHA256: 24b098b80b89c6c2406a2eb50d57d101abd26466c021330fb9cb79bff7c78993
+SHA512: 176331125915b058133e0fd2cbfb6551c879279b1bc5e38399994a402361abaac1d5eaff4716675efcbcc6b8e661383b13f3168b671ac2e4248fe9a763514356
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64e
+Version: 5.2.0-68
+Section: Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1428
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.axs.cpufree_5.2.0-68_iphoneos-arm64e_3444f63933d1d757c19b88372f7a5b7e34af7a10dd33a0a1e44a9f1421b56897.deb
+Size: 121352
+MD5sum: 501ab7ccd25f3bbd373345690ec5ac77
+SHA1: a5c26b2ce36fbbc05434faca8c1b606a19951413
+SHA256: 3444f63933d1d757c19b88372f7a5b7e34af7a10dd33a0a1e44a9f1421b56897
+SHA512: c2223de3680f7a060f44bad2281cdae45a575e0f615932e0fbfafa0dfa0efddc69257df6c0859c009c5a5a2482b5a283ab38385c738e42b5cbe7d3194fa8fa6f
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
 
 Package: com.axs.snapper4
 Architecture: iphoneos-arm64
@@ -9081,6 +9389,78 @@ Description: 桌面图标通知角标变成空心小圆圈，自适应颜色。
 Name: Donut 图标通知角标
 Author: daodao
 icon: https://huayuarc.github.io/icon/Donut.png
+
+Package: com.dao.keybar
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.dao.keybar_1.0_iphoneos-arm64_10b9c1f389f1fc22b467f173784bcaa9a9cf080bb6abb09f2cb74066aa261470.deb
+Size: 10416
+MD5sum: 5534693cab7f23fe9473523b3ab13717
+SHA1: 442c7e462f3d7a16d1e62f8fe7f27b33c475246b
+SHA256: 10b9c1f389f1fc22b467f173784bcaa9a9cf080bb6abb09f2cb74066aa261470
+SHA512: b0e370f4a8b5db2a0dd2149215fdd47cde23cd25552d70f9e3176e5664d56dd88f1d4a357b1d5383694644e0b8f749ffdb2330c71955371f0aa90c320e297b6d
+Description: X键盘下方添加快捷按钮(全选/复制/剪切/粘贴)，自适应深色/浅色，上下距离跟随地球键/听写键的高度，无设置项。
+Name: KeyBar
+Author: daodao
+icon: https://huayuarc.github.io/icon/kb.jpg
+
+Package: com.dao.keybar
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.dao.keybar_1.0.1_iphoneos-arm64_ea23bb291f8c57499433d1ff7b105b0a668fe4ffa27673a492f4d061f652a912.deb
+Size: 13784
+MD5sum: 77346465f486357a0a2de64fd1182006
+SHA1: 6a32e7afb2ddc9ba2127348e263a7115135b9299
+SHA256: ea23bb291f8c57499433d1ff7b105b0a668fe4ffa27673a492f4d061f652a912
+SHA512: 8697bda2ae8c52bb16f878871a98753acc4d8dbc74552e85ca4b35f23836ca77fc6bf1bc2da45e432dc832e249ee848a11bea21aeb24ef4a5f2189562af28b5b
+Description: X 键盘下方新增快捷操作按钮，支持全选、复制、剪切和粘贴。按钮采用胶囊样式，带细腻的高光边缘线，并自动适配深色与浅色模式。按钮位置根据地球键/听写键的高度自动调整，无需额外设置；长按任意按钮即可收起键盘。
+Name: KeyBar
+Author: daodao
+icon: https://huayuarc.github.io/icon/kb.jpg
+
+Package: com.dao.keybar
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.dao.keybar_1.0_iphoneos-arm64e_216bd8c548ebe4a578bc2d68674b966b0aad0250a0a031420703dd221ab7e8da.deb
+Size: 10428
+MD5sum: 01534cc7684edd6f6c51977ecd3aa80f
+SHA1: fa0661c827a03b68318cb13bc29464c6ad14a4fd
+SHA256: 216bd8c548ebe4a578bc2d68674b966b0aad0250a0a031420703dd221ab7e8da
+SHA512: c16efa6ae6916c3303260ce5fd84246ad6b261e240f11ca568b4d423ceac18e6d142f99fff537918742f659038557c9443ad0bd159a94498338dc23cbc7211a1
+Description: X键盘下方添加快捷按钮(全选/复制/剪切/粘贴)，自适应深色/浅色，上下距离跟随地球键/听写键的高度，无设置项。
+Name: KeyBar
+Author: daodao
+icon: https://huayuarc.github.io/icon/kb.jpg
+
+Package: com.dao.keybar
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: daodao
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.dao.keybar_1.0.1_iphoneos-arm64e_8dd2380476e876981c277a5948e4230721494b4039949ddee09e8e0c8efc65f2.deb
+Size: 13712
+MD5sum: e599e8faff03c76a72afda6207084343
+SHA1: 1502464c3dadefc1997faf1c38d278077b0002b4
+SHA256: 8dd2380476e876981c277a5948e4230721494b4039949ddee09e8e0c8efc65f2
+SHA512: 0dc7ccf77d7ca39d82705d102c4d61620f25bf08c32682e489e82208f6eea0d657fc9706fb77655ea278acbcd525fc674dd54b6fc66cea5fc374a91e29f804fd
+Description: X 键盘下方新增快捷操作按钮，支持全选、复制、剪切和粘贴。按钮采用胶囊样式，带细腻的高光边缘线，并自动适配深色与浅色模式。按钮位置根据地球键/听写键的高度自动调整，无需额外设置；长按任意按钮即可收起键盘。
+Name: KeyBar
+Author: daodao
+icon: https://huayuarc.github.io/icon/kb.jpg
 
 Package: com.dao.little16
 Architecture: iphoneos-arm64
@@ -19790,6 +20170,25 @@ Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
 Package: com.mlgm.actra
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3844
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64/com.mlgm.actra_1.2_iphoneos-arm64_8954f43e62046550be2cdd9e3aa032fe6af1ba7de3f132db7757cbbd3772fef2.deb
+Size: 753924
+MD5sum: 98904d6d68b585c30880770c73ca7c7f
+SHA1: fcfb6180ef970d49bb359a65a4b382109e8899e9
+SHA256: 8954f43e62046550be2cdd9e3aa032fe6af1ba7de3f132db7757cbbd3772fef2
+SHA512: a22dcc52b2eacc3277567d1e2f6e580319fc694ed8724c09b7bd05395cabe8077876bcee800e5244bd248b98bbafda7b93ccd9fe2d32b6cf7df5cfc8e4857929
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -19841,6 +20240,25 @@ MD5sum: f0a3ac2922c42e2aa6224d72d871f40f
 SHA1: b7b52d65da68d8ab77d7b2ffc82ad433257649ac
 SHA256: 7d638b8497e9bb00a6ee3aeaf01c7514dada336153bfa32aee4bf509b3d54da2
 SHA512: c8536d01bfc136330858e9669c8b6704a52c57544cdfb27597d550afd731e067399242fe2ade2947cdd53044e91f956e02a1ee5085a7ec7a8ba564991fe86222
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3844
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64e/com.mlgm.actra_1.2_iphoneos-arm64e_ac3941f9d55999ef08545488d62948a348d0e73c489cd86c0bd3ee08176679a1.deb
+Size: 756080
+MD5sum: 1ea0379a8f0dd681cc61c35401e50e22
+SHA1: 14ac08e28a09f568ba4bce27642198fbbdf5dd83
+SHA256: ac3941f9d55999ef08545488d62948a348d0e73c489cd86c0bd3ee08176679a1
+SHA512: 1448adbe9128af91df49f00ebaa28939208b7a00f2f2e6549df478758561a1141c33799353dc58b073c24569e648265cd3563bcead4b2e62d66cc47f5989fd48
 Description: 手势与事件自动化工具
 Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
@@ -20247,6 +20665,24 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/isgkb.png
 
 Package: com.mlgm.isgkb
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 448
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.mlgm.isgkb_1.1.1_iphoneos-arm64_0abaf8dce4a7d09bd3006c42e4b3cee0f9629f0b3c68ed0f8d9afcfc60b1c467.deb
+Size: 41496
+MD5sum: c0e757ea42c547ea10f1b79827eaec1d
+SHA1: 4239f14bfcfcec13c372363975ef70c2b3f63354
+SHA256: 0abaf8dce4a7d09bd3006c42e4b3cee0f9629f0b3c68ed0f8d9afcfc60b1c467
+SHA512: 45a3fee8c6c2d68739be7050e927dcc3abb7250b8aeedad6a70efcec72c67c466fe67c9d5518c0e1e7d38363744f0598557358e6a2a350160947fdd8b77c588c
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Name: iSgkb
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/isgkb.png
+
+Package: com.mlgm.isgkb
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -20277,6 +20713,24 @@ MD5sum: 52b9213f75d98659b6de20725f833230
 SHA1: 375d7bf3796f2f85c2d84351bb7e580b1d501e68
 SHA256: 4669469c0a5b69be14019a345880df134cbd8339eac4330d248fbe3792bb4986
 SHA512: 2973dbff026e291b7d7b7583caba0663fda09f52b2b89361d2ec430505c9f1d8289db3c9e0a2c1d2e1407696adccdb24551229670b2bdad76f8ccc3316ec32b6
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Name: iSgkb
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/isgkb.png
+
+Package: com.mlgm.isgkb
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 448
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.mlgm.isgkb_1.1.1_iphoneos-arm64e_7f833bb23db31c9c136532da67150268bf5b36c565cf688466c4fab3391753ba.deb
+Size: 39524
+MD5sum: 1dca3263537e1d878ad9f7dbf79388b5
+SHA1: 4631da18fdafdde575854286da78ed01fc4be3f8
+SHA256: 7f833bb23db31c9c136532da67150268bf5b36c565cf688466c4fab3391753ba
+SHA512: 277d0e58be61feea23d38a84022e36363211ff44976bcc5c29a0cb29ab19bc1584def1c795a939eea25a7df2b46f5e7ffce67d329928c69b16c8aa9cc2d3b781
 Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
 Name: iSgkb
 Author: mlgm
@@ -20319,6 +20773,24 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/iwxkb.png
 
 Package: com.mlgm.iwxkb
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.mlgm.iwxkb_1.1.1_iphoneos-arm64_f7af98d77ee4ec69cffbfb2e0c20c263026433c8e547c3f47c98716328f43bd0.deb
+Size: 44704
+MD5sum: 503f5f4a3e0aba18e21f97dff0cf84f2
+SHA1: 03d4e734bd9088249098d0088c33adf692355a90
+SHA256: f7af98d77ee4ec69cffbfb2e0c20c263026433c8e547c3f47c98716328f43bd0
+SHA512: 9a6d177286b08da43520b6d46143733bc53386cac2319ead2338cf0ac8481e8a902361597d67ee0b23f789729af0a0b5ff14c90afc2a4de9ba2830bdd6feb9b0
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Name: iWxkb
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+
+Package: com.mlgm.iwxkb
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -20349,6 +20821,24 @@ MD5sum: 41764249c2ca1a44b29b2022910d9771
 SHA1: 83d886dfa7efde320ad9233dce1c0bfe8de972ac
 SHA256: 8ce59029fa9c41099c6f07fcbf77a5047b09673768bccd11ccb3cad86e246f1e
 SHA512: e2b966dc4f00ca4b11547152cb5a2cbb451422f86ebeea90fb2cfa3fb628ac5d43ef2463a514f263152f9cb1f6d3a54da8c5f4fafe6f7a3e823e62ef644d9d0a
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Name: iWxkb
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+
+Package: com.mlgm.iwxkb
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 420
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.mlgm.iwxkb_1.1.1_iphoneos-arm64e_0d20805a1805dfc5934699145842f162509f33cd4b7c2dc048588c4f56467802.deb
+Size: 42936
+MD5sum: dba2858ec4c7df12de89d86546f52da0
+SHA1: 9f61b7d872fbcf448076dc576fbc2f79ffec8c52
+SHA256: 0d20805a1805dfc5934699145842f162509f33cd4b7c2dc048588c4f56467802
+SHA512: a651e8c3e995f076eaedb41a45f45b0f93fdfa1e9a8adef3149941d8411405251b00507c497384f14bacf35468f19cbb45082f629d9c870daacc895e972593bf
 Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
 Name: iWxkb
 Author: mlgm
@@ -20519,6 +21009,27 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 5.0.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_5.0.2_iphoneos-arm64_0a385d06731c3d1c3a062502457aba36202055a0477a1668efb5ae91fee630b9.deb
+Size: 748044
+MD5sum: 072c9a5e8a0f1f7d9d709c5672e4191b
+SHA1: 9414ddd6bd72eade267e54f709e0cb99c780a84e
+SHA256: 0a385d06731c3d1c3a062502457aba36202055a0477a1668efb5ae91fee630b9
+SHA512: b2c753e4e454c9989867038f8de1bf00de2cf88750c54ff9e6c9a129933a52d57f358c2ca95f6012e43851a7fc458ce909a01db879af612961fcbac2b878f977
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
 Architecture: iphoneos-arm64e
 Version: 4.5
 Section: Tweaks
@@ -20676,6 +21187,27 @@ MD5sum: 4131bced66e8f67d7e9564d42e352954
 SHA1: cf90f0476cc0b34c9596f3cdea9b189a1990b8d3
 SHA256: 836353146286adf51918a42b3e91d1d235afbf499778f1c50311b59d9b8eb0d7
 SHA512: d02fcf1ec1822293ddeb85e380ef001a1d56c8fd2f8e12f730a16a4fd1417d3b388afb5f278f6d740db8eecce9e975ce2f1a5b0c35844bdaac7e0701a0065395
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.0.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3500
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_5.0.2_iphoneos-arm64e_bee3ff734e64532a7eb2d526ce52c3d8159c015249bd1b9478fc5f7096f1dcb9.deb
+Size: 744840
+MD5sum: c0801c1abd1174e51d233e365a2996de
+SHA1: e06e954f36c71e9dd973c622ab59c1b0e11ca9d8
+SHA256: bee3ff734e64532a7eb2d526ce52c3d8159c015249bd1b9478fc5f7096f1dcb9
+SHA512: 55cbd8b701f0b9a42dbacbdf885029c5d2a308e9db55ab1ba2f761897cc4e8ff89d287be9e2fb4485885b85eb8143bb30b8536cfb55348a17671ba6c1643e13a
 Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
 Name: Kayoko
 Author: mlgm
@@ -24635,6 +25167,24 @@ Author: 半生年华
 icon: https://huayuarc.github.io/icon/NoAds@2x.png
 
 Package: com.noads.tweka
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 2616
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.noads.tweka_1.3.1_iphoneos-arm64_d6ee3ffc665be31d52e05d3c667bd9930ee49140d196853546ad4dc442d534ef.deb
+Size: 767952
+MD5sum: 82d85d4e4bd67eeb40f721e1ea5ee70c
+SHA1: 0dbece6baa7825af07145577cf9cd072d3d16a53
+SHA256: d6ee3ffc665be31d52e05d3c667bd9930ee49140d196853546ad4dc442d534ef
+SHA512: 22dc1df5db125c4bc09e9d3170bf5606a47dd321a8afc00576ea6c715ae20635454f11a0ea80d478bee318413a730746b07b2cb2481884daad1d1112c928c849
+Description: 去除广告。
+Name: NoAdsX
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
+Package: com.noads.tweka
 Architecture: iphoneos-arm64e
 Version: 1.2.7
 Section: Tweaks
@@ -24665,6 +25215,42 @@ MD5sum: 4e8e127e6ec528eeab343fcac08bd830
 SHA1: 9691e88d755141a6b9a2d53b6aa9b1421ad5a90c
 SHA256: 4b4a588d029ec46fc595d9f4ee9083cc28d7b19761f369e14df2084a7dc57b3b
 SHA512: e3f0f6fab79041b0d55c06db6f0fd853ad09ee5d9d546de7a9f1c7b0b8933dd5fb5f0c12dadba142a465590cc22420f22413091b9fd31a85cdd151adc789e0b1
+Description: 去除广告。
+Name: NoAdsX
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
+Package: com.noads.tweka
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 2284
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.noads.tweka_1.3.0_iphoneos-arm64e_eced67d01834f95593859faa97a6ca17243ad9d7d1a5d7a629d81d988548b1cd.deb
+Size: 466516
+MD5sum: 597204fcb78604f03bbf1cc81a4df5da
+SHA1: 97a920b1bff8dfd052899e06c048b8fe0b23e91b
+SHA256: eced67d01834f95593859faa97a6ca17243ad9d7d1a5d7a629d81d988548b1cd
+SHA512: b7b2b347621088aa33728559f538f615803ecd6f9c32ddaef8e7ebac085bc2551d9bffe208accf3660905833dbe0c03b32988be13c7d306f6c3bbf263d25555b
+Description: 去除广告。
+Name: NoAdsX
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
+Package: com.noads.tweka
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 2616
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.noads.tweka_1.3.1_iphoneos-arm64e_c4ee712d376462ffc58b2a82f897038bffc6515e5777b506f90b206e4616db99.deb
+Size: 765864
+MD5sum: 2b2f2a28158215a080f6ddf03ea2514e
+SHA1: 2c8f06954e51bdfff014e7b54b631539ae9b210d
+SHA256: c4ee712d376462ffc58b2a82f897038bffc6515e5777b506f90b206e4616db99
+SHA512: 0c379bc600400d1ce32a0cf0dfbfc69e2e0a99e6f62fd32f59bdaafa894538aba8a9450ef6fc5d8e618e3ca0732555755a4291626138092858083c5f9708b646
 Description: 去除广告。
 Name: NoAdsX
 Author: 半生年华
@@ -25834,6 +26420,48 @@ Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
 Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64
+Version: 2.0.103
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 3960
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.103_iphoneos-arm64_e863ada220df3831fa31f9d56af3c9e81d56aa2747aa6a8cbe9bc9718fb5f55e.deb
+Size: 567404
+MD5sum: d100860a72ec6f943f47d72e6cae06ff
+SHA1: dd5a0ee99d1c1c34afbd92189d798e9817f57a27
+SHA256: e863ada220df3831fa31f9d56af3c9e81d56aa2747aa6a8cbe9bc9718fb5f55e
+SHA512: 9edad32f3f6d0f68f4f52c0bfc1fc9cc75ed29a50674ea2f515da082e50b0223cdade1c680e9ad88a73ea8adcfb570df0083a32ff44308c92e70259bd92ed9f9
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
+Version: 2.0.109
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4012
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.109_iphoneos-arm64_ab727015ae1cb2f57726bf2f03524b4439c8d66954f3dbe9b930e3a8796ba36a.deb
+Size: 578520
+MD5sum: 49034672b829e99390eccc3f9d646bb7
+SHA1: 8abe95bbc4d04dee86b11935d1e56a88968274cc
+SHA256: ab727015ae1cb2f57726bf2f03524b4439c8d66954f3dbe9b930e3a8796ba36a
+SHA512: 0260ea85815c866f9586a1e0b0476e3913e37f6b1901af4d3f3695cd7ce9c214492f42e39c5beb80f3e8d5de311be402f12d83dbef962d1fea72593cc5eff627
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
 Version: 2.0.3
 Priority: optional
 Section: Tweaks
@@ -26026,6 +26654,48 @@ Name: CPU智能温控
 Author: Huayuarc
 Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.103
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4204
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.103_iphoneos-arm64e_1d6b81a4fdfa2d8573f898181ae00a657fe91cfff76ec21d56d4e69b6d7d04fd.deb
+Size: 607612
+MD5sum: c8a4944b9dca42dda08871e5a319c71e
+SHA1: 57b29713ed39316f3f61af25e84ddb9f93873a83
+SHA256: 1d6b81a4fdfa2d8573f898181ae00a657fe91cfff76ec21d56d4e69b6d7d04fd
+SHA512: 456cd73c9a6234f41ec125ca00a912304bbbc376d401d93d2b0bd60d11494e1c0bfd49659bd13054682330455c870a3e10d0268f0b6324a6ac64171e425db493
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.109
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4220
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.109_iphoneos-arm64e_496716f6dd40cf5849b27194122c2bc2ba22e0eca61420a9674928598f99165e.deb
+Size: 619596
+MD5sum: 7797ae00c40f42aec8ab1e058a9ee730
+SHA1: 0347fe75ccd25acfdf74ce848fb819063e20173a
+SHA256: 496716f6dd40cf5849b27194122c2bc2ba22e0eca61420a9674928598f99165e
+SHA512: c3d0508840d95d50dd5617b173d2c6cf8509c20e1b679052dca96e37b1716eade77cb8d60c0525a35f53424db2966a410cda0308b9141efc9a329da7f0e84dfa
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
 
 Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64e
@@ -26566,6 +27236,42 @@ Description: Pauses and resumes a normal video recording in the stock Camera app
 Name: CameraPause 录制暂停
 Author: Resul
 icon: https://huayuarc.github.io/icon/camerapause.jpg
+
+Package: com.root.noicisland
+Architecture: iphoneos-arm64
+Version: 0.15
+Section: Tweaks
+Maintainer: root
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.root.noicisland_0.15_iphoneos-arm64_f2689e6065fe9c7c475fb029d3f4e28a0a5b305f2756fa6c86d5b5995f27266f.deb
+Size: 9320
+MD5sum: fee8b0693ca925d8a5fd812da169f81b
+SHA1: 2c73bdfc67bd8e2ef27459f4e081326a38064698
+SHA256: f2689e6065fe9c7c475fb029d3f4e28a0a5b305f2756fa6c86d5b5995f27266f
+SHA512: 876e811034fbde9ccbf35be7a98c72717608349b6031e886213ff73b94fdfa59d3983640ca19dce046b52cbd5d4123241c79ed570369ad409458321d54b94a47
+Description: 富佬装穷专用插件，假装自己是没岛的穷逼15系统。ps：仅供16+富佬用，15的穷逼别用，否则用了穷上加穷。
+Name: NoIsland
+Author: root
+Icon: https://huayuarc.github.io/icon/lingdd.jpg
+
+Package: com.root.noicisland
+Architecture: iphoneos-arm64e
+Version: 0.15
+Section: Tweaks
+Maintainer: root
+Installed-Size: 76
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.root.noicisland_0.15_iphoneos-arm64e_cf26700b17a6ec491e7e5da4169330f1a3a666be4b5f1a17947b7f7d22e8328f.deb
+Size: 7032
+MD5sum: 79a7daad497e0a6db40672e2b17e2621
+SHA1: 2cf0f46aa0e2c8190be8ce803c4e3f5509111f8f
+SHA256: cf26700b17a6ec491e7e5da4169330f1a3a666be4b5f1a17947b7f7d22e8328f
+SHA512: 2283790392919041b1f1e86c87b70080c2367a6eb139bdc79af57c9ff86090b208457c4d1ec11ffb24731e1656fa1195a136f914402573be3e8d73ce2ae54138
+Description: 富佬装穷专用插件，假装自己是没岛的穷逼15系统。ps：仅供16+富佬用，15的穷逼别用，否则用了穷上加穷。
+Name: NoIsland
+Author: root
+Icon: https://huayuarc.github.io/icon/lingdd.jpg
 
 Package: com.rootless.patcher
 Architecture: iphoneos-arm64
