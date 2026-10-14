@@ -7589,6 +7589,42 @@ Name: App Lecard
 Author: Crassna
 icon: https://huayuarc.github.io/icon/appcardlite.jpg
 
+Package: com.crctdd.autocopyverify
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1524
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.autocopyverify_0.0.5_iphoneos-arm64_42ae91e492c341c2861add7ba2ccdc5b3d80de06e1de56e2f2e3362394345625.deb
+Size: 100760
+MD5sum: f727504dfa7ffe141862227b98487e15
+SHA1: 8834792ab7fdfa55066da5af128069c6b35c1073
+SHA256: 42ae91e492c341c2861add7ba2ccdc5b3d80de06e1de56e2f2e3362394345625
+SHA512: 35620752700ad91b20cf0a441b70812094cbc0673e3cec4345e28ab4b77546565b1ece15d669bca67eb38ac56235cef4b18a7a9408d01abbdb4d1b70d76df114
+Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板，第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
+Name: Auto Copy Verify
+Author: crctdd
+icon: https://huayuarc.github.io/icon/disablecutpop.jpg
+
+Package: com.crctdd.autocopyverify
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 740
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.autocopyverify_0.0.5_iphoneos-arm64e_2679502f133174d7974d257037d8f12cccbb4a68e588661763995e99fbb1f711.deb
+Size: 77020
+MD5sum: 9ea7f762e546d706a8a49948a783d3ad
+SHA1: d0bd720f438692d01fadac7343e8c2dd4e1345b7
+SHA256: 2679502f133174d7974d257037d8f12cccbb4a68e588661763995e99fbb1f711
+SHA512: 6c14897d14746b4803d6ed5f815d4cdd8334942f9101afeefb7e004b4b86c624b6f6a661415f1c7e3bbed7dd8bc2675e024d99c3874626121995213655f7f502
+Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板，第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
+Name: Auto Copy Verify
+Author: crctdd
+icon: https://huayuarc.github.io/icon/disablecutpop.jpg
+
 Package: com.crctdd.choicy-patch
 Architecture: iphoneos-arm64
 Version: 0.0.2
@@ -25583,6 +25619,24 @@ Author: 半生年华
 icon: https://huayuarc.github.io/icon/NoAds@2x.png
 
 Package: com.noads.tweka
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 6768
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.noads.tweka_1.3.2_iphoneos-arm64_7a897a1445748c4f75e7accbb307f6aa3f41c944cd4f3076b121c76f4fea3706.deb
+Size: 1020104
+MD5sum: 760edd97a96df65c25ff6cee15c5017e
+SHA1: b43e8112bbf4aba0f2f2ca632a44387c1885326f
+SHA256: 7a897a1445748c4f75e7accbb307f6aa3f41c944cd4f3076b121c76f4fea3706
+SHA512: 3d5ecdfea9520acb7e24dfc4492bcabc80bafec63b4636d3eb737e4acc65dcfdc3c4652871b13993a8ca06471147cfb0b188f0045499e409a3c4f9839f6ab348
+Description: 去除广告。
+Name: NoAdsX
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
+Package: com.noads.tweka
 Architecture: iphoneos-arm64e
 Version: 1.2.7
 Section: Tweaks
@@ -25649,6 +25703,24 @@ MD5sum: 2b2f2a28158215a080f6ddf03ea2514e
 SHA1: 2c8f06954e51bdfff014e7b54b631539ae9b210d
 SHA256: c4ee712d376462ffc58b2a82f897038bffc6515e5777b506f90b206e4616db99
 SHA512: 0c379bc600400d1ce32a0cf0dfbfc69e2e0a99e6f62fd32f59bdaafa894538aba8a9450ef6fc5d8e618e3ca0732555755a4291626138092858083c5f9708b646
+Description: 去除广告。
+Name: NoAdsX
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
+Package: com.noads.tweka
+Architecture: iphoneos-arm64e
+Version: 1.3.2
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 6768
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.noads.tweka_1.3.2_iphoneos-arm64e_6519099ff081871c7a88b3857372090e9cc461236ff7eeac0790ef656e868dd9.deb
+Size: 1018232
+MD5sum: c3443a29a36238a02a05c3e14f74aeee
+SHA1: 3114ef5106c715468d9e548419bbb03631b1dbdd
+SHA256: 6519099ff081871c7a88b3857372090e9cc461236ff7eeac0790ef656e868dd9
+SHA512: 3383be325b1f66b8092f463b773a3b4d2e3fe8b12432047a643058bf7de4727bc41e4adc2eab453e8dee017c9dd0722323ed424f061b7c1d895114249afe46a8
 Description: 去除广告。
 Name: NoAdsX
 Author: 半生年华
