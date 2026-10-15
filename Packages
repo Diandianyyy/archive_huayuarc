@@ -805,6 +805,25 @@ SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.bbqzr/bbq.
 icon: https://huayuarc.github.io/icon/qqantirecall.jpg
 
 Package: cn.llld.bbqzr
+Architecture: iphoneos-arm64
+Version: 0.6.10
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 404
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/cn.llld.bbqzr_0.6.10_iphoneos-arm64_d493f928923bca066361c2596a91e14a7136ebac65750f760a9d68929488626e.deb
+Size: 66220
+MD5sum: a1820a84f9e128a4564a8d7c9b7b0216
+SHA1: ff5d497087f9a0a61d93a669519bf8ca13077afd
+SHA256: d493f928923bca066361c2596a91e14a7136ebac65750f760a9d68929488626e
+SHA512: 33431575b0ff1d39a729dd1f643192f71ae8bb51e5afd922a9a903abda3f25f358ea0e9e232d095582ca709b0c2e70cb1ab747f2f0502fe69a08271d58849266
+Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。QQ对话消息页面长按表情，QQ侧边栏长按 日间 天气，QQ设置右上角都可以进入插件窗口。。。因版本不同 某些函数改动也不同
+Name: QQ绿化_芭比Q
+Author: 来了老弟
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.bbqzr/bbq.json
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+
+Package: cn.llld.bbqzr
 Architecture: iphoneos-arm64e
 Version: 0.6
 Section: Tweaks
@@ -838,6 +857,26 @@ MD5sum: 76626f48a2fd5241c2c313d3b94e246e
 SHA1: c9680bd0beaa77a459b53a88c349e889eab60c3d
 SHA256: 7cbd0d20a0f2d6ed1900904c1ac0bea502f1e98e87b9cca920a512667b2651ce
 SHA512: a85211fa7387840dfc1320cc32207505249f45de89c388a8f53bd9a01a4795407aadf8a85e7a05babe1b796997505c26f7e99d181f76da35994b674b0d268c87
+Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。QQ对话消息页面长按表情，QQ侧边栏长按 日间 天气，QQ设置右上角都可以进入插件窗口。。。因版本不同 某些函数改动也不同
+Name: QQ绿化_芭比Q
+Author: 来了老弟
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.bbqzr/bbq.json
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+
+Package: cn.llld.bbqzr
+Architecture: iphoneos-arm64e
+Version: 0.6.10
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 404
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/cn.llld.bbqzr_0.6.10_iphoneos-arm64e_71bb8ebc810cb28de67c4207cfb31c44abe9545b98da453e921a6e03de23851f.deb
+Size: 65088
+MD5sum: c74941332654aebba40b87b2a0f68745
+SHA1: 0318e30db39cf736c7639f6909312efb0a2c0c92
+SHA256: 71bb8ebc810cb28de67c4207cfb31c44abe9545b98da453e921a6e03de23851f
+SHA512: 2e7eaa45a4a5b39a4d81a34cf6e627024fad60ee26f1ce37b9345084d98adb35f98419b82e825d3148754faa442d7a85f9c279c6869657c82b27f6e253e56381
 Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。QQ对话消息页面长按表情，QQ侧边栏长按 日间 天气，QQ设置右上角都可以进入插件窗口。。。因版本不同 某些函数改动也不同
 Name: QQ绿化_芭比Q
 Author: 来了老弟
@@ -23114,6 +23153,46 @@ Author: Muzi
 Icon: https://muzikeji.github.io/Sileo/icons/dndscheduler.png
 Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.muzi.dndscheduler.json
 
+Package: com.muzi.keyboardx
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 7120
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.muzi.keyboardx_1.0.2_iphoneos-arm64_cbe5914947ae003d7841c72f6643cef1c87aa653ccddc2db3fb7aefdb639a0b8.deb
+Size: 1781068
+MD5sum: c8127d1d957c52ef88498467359c5e09
+SHA1: 2378389e19d12ee0661424a604838a5a00658efa
+SHA256: cbe5914947ae003d7841c72f6643cef1c87aa653ccddc2db3fb7aefdb639a0b8
+SHA512: 0724501660f46199cb5dd06ef55bd57564af2e79f519e0afc73d2c168cf8703b701c915920d5c17c65b04ddacf0ff172a70b5e5f098e56413ef7fb71bbfa81c5
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Name: KeyboardX
+Author: Muzi
+icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
+
+Package: com.muzi.keyboardx
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 7120
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.muzi.keyboardx_1.0.2_iphoneos-arm64e_d4811a01f01a01a3debb2baf92f9a999566d5a572bdb45cf48906661b98727be.deb
+Size: 1775308
+MD5sum: e5077f0c2b6a02fd7dc87afe6b221621
+SHA1: 383dade3d43f737672daa4e137c5c39b80d15ebe
+SHA256: d4811a01f01a01a3debb2baf92f9a999566d5a572bdb45cf48906661b98727be
+SHA512: 46c34b5172ca19c09eba80e2f974ca8efd0f95402bd0b8fb285da9db2b022cca195755cf77e057b80b25687cb4777c772fc738e83c12957e378818283c1631f5
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Name: KeyboardX
+Author: Muzi
+icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
+
 Package: com.muzi.mupill
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -25637,6 +25716,24 @@ Author: 半生年华
 icon: https://huayuarc.github.io/icon/NoAds@2x.png
 
 Package: com.noads.tweka
+Architecture: iphoneos-arm64
+Version: 1.3.3
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 9080
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.noads.tweka_1.3.3_iphoneos-arm64_d45927cf8f62a4a5adb4aada9dbbb2e8ac82dcdc0cd80f45e1eaf6fb89384361.deb
+Size: 1306308
+MD5sum: 04ddf1f58e90a51755046cb9d4077bc0
+SHA1: f906959b8498f1be251bbca5b8259ded623449e1
+SHA256: d45927cf8f62a4a5adb4aada9dbbb2e8ac82dcdc0cd80f45e1eaf6fb89384361
+SHA512: 9f6474f66d999892353729c66dde14262c4ef917e5d46c6a9be2734c868f6aac4cf4f9cc1c5524db2729962f2b9b212ab865855230df9c1d2e709547103b5724
+Description: 去除广告。
+Name: NoAdsX
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
+Package: com.noads.tweka
 Architecture: iphoneos-arm64e
 Version: 1.2.7
 Section: Tweaks
@@ -25721,6 +25818,24 @@ MD5sum: c3443a29a36238a02a05c3e14f74aeee
 SHA1: 3114ef5106c715468d9e548419bbb03631b1dbdd
 SHA256: 6519099ff081871c7a88b3857372090e9cc461236ff7eeac0790ef656e868dd9
 SHA512: 3383be325b1f66b8092f463b773a3b4d2e3fe8b12432047a643058bf7de4727bc41e4adc2eab453e8dee017c9dd0722323ed424f061b7c1d895114249afe46a8
+Description: 去除广告。
+Name: NoAdsX
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
+Package: com.noads.tweka
+Architecture: iphoneos-arm64e
+Version: 1.3.3
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 9080
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.noads.tweka_1.3.3_iphoneos-arm64e_4477361fc3f156e5bfe2cfb9b6e7d72e20772bae49d8e331d80845a37805456e.deb
+Size: 1305252
+MD5sum: 5ee3488e25fb5bd903d45bc65e272be3
+SHA1: d67591688bb77f800575606440c2e1d5090b7672
+SHA256: 4477361fc3f156e5bfe2cfb9b6e7d72e20772bae49d8e331d80845a37805456e
+SHA512: 38ba301c5d166c18259b8ad06d5e17b72eae4871cc8b1228e3b71fbd534a5d7514a4de9e023832f79dc8452569cbbd9111adc459e02c58eff038a43768f220d6
 Description: 去除广告。
 Name: NoAdsX
 Author: 半生年华
