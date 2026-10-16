@@ -4577,6 +4577,27 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/ips.png
 
 Package: com.axs.ipslog
+Architecture: iphoneos-arm64
+Version: 5.2.0-31
+Section: Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 512
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64/com.axs.ipslog_5.2.0-31_iphoneos-arm64_c620352a9ff06eb90cbc214a091634ffe4da81678d4b4b73c6d69a3ea0d5817d.deb
+Size: 99728
+MD5sum: 8f01f5c58ccd3b6db5f3d9da6d510426
+SHA1: 65973e3e9534b48300e5641d6ad90205e1e8e3c2
+SHA256: c620352a9ff06eb90cbc214a091634ffe4da81678d4b4b73c6d69a3ea0d5817d
+SHA512: 55c66c1535821596401677af1800b8fb804d4eb87fc838b4479ab393af2e60a954081b29f2e041d6a78739377651e743084f9be5d71465698b6d2cc83a512e50
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Name: IPSLog
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+
+Package: com.axs.ipslog
 Architecture: iphoneos-arm64e
 Version: 5.2.0-30
 Section: Tweaks
@@ -4589,6 +4610,27 @@ MD5sum: e19e6c44e726d565d83d31c7c6c39833
 SHA1: 989fb308db18df59f0362e3bd3d2ba9c7c1bec73
 SHA256: 8ef7a705a5337d6f0851aa3d506d4ab226c41301199ed52f43f565fe07226e23
 SHA512: 209e806083126894b13bd8d92aa8662d3faed87ca24401f536dca6dd0440c504da67e1534a8d339153d04de805da1682263c30cc455231af00144a30e68aab8a
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Name: IPSLog
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+
+Package: com.axs.ipslog
+Architecture: iphoneos-arm64e
+Version: 5.2.0-31
+Section: Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 512
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64e/com.axs.ipslog_5.2.0-31_iphoneos-arm64e_5d9489ce473dedaaccf9695f8dc6ea3e2fe648d6d419ebf806967b2de12c46c6.deb
+Size: 99976
+MD5sum: 22e9d9994fae4e78c87301b1c5670334
+SHA1: c1f57d46368b9da259915a906fa93ef9ec908422
+SHA256: 5d9489ce473dedaaccf9695f8dc6ea3e2fe648d6d419ebf806967b2de12c46c6
+SHA512: 4696063ac4690795d7e78486de319377f6c8976f6cc2a27b8b0753a26de06081c22a9d89919ea3b5a0dd4ec7fea83b4b9b49d87dc059e38f750f5413dadb2115
 Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
  * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
  * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
@@ -11492,6 +11534,44 @@ Author: hierarch
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64
+Version: 0.6.0
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 2048
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.hierarch.dykiller_0.6.0_iphoneos-arm64_677fc5d3f648f3c893f3988efd8f8d1fde21175e5566769becb416a04953be3e.deb
+Size: 489480
+MD5sum: e15b1725464af567dd0e354066d79136
+SHA1: 1891f1dec516509144e0eabfbcdf2f6d7e85da48
+SHA256: 677fc5d3f648f3c893f3988efd8f8d1fde21175e5566769becb416a04953be3e
+SHA512: 8c3eb7cb1dfbe332842b41874ef4104655a991b31191fa8fc7c683bd15585a6ca240a75c78b9323c19e21be83b48f721f42528c4d33de2efa0c995757006706f
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64
+Version: 0.6.1
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 2244
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.hierarch.dykiller_0.6.1_iphoneos-arm64_c1b2a6d4e381760082e051b72c33c3684373c9c182f72fdb52c4bc957bdf4bb2.deb
+Size: 535784
+MD5sum: 56ae55f41ed5b4096a276e06e46ac812
+SHA1: c16aa6e21f3a9828719d260ab283c64af3a7a47c
+SHA256: c1b2a6d4e381760082e051b72c33c3684373c9c182f72fdb52c4bc957bdf4bb2
+SHA512: c0281dfe44d52072988f2cec87f2e93029e993817857fa77f35c652add04249052b9597209fd7197ae5000d0a155bb85be1eb6835e460c1a2991d454834c1661
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
 Architecture: iphoneos-arm64e
 Version: 0.5.5
 Priority: optional
@@ -11528,6 +11608,44 @@ Description: 抖音 UI 增强插件（模块化 hook 框架）
 Name: DYKiller 抖音 UI 增强
 Author: hierarch
 icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64e
+Version: 0.6.0
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 2048
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.hierarch.dykiller_0.6.0_iphoneos-arm64e_b83a6a4599c3fcb0b8551235ee083f9df8c02efc4f87fe6c8d18aec5006a1bb3.deb
+Size: 490424
+MD5sum: c6110a95e87db09280206798a4957299
+SHA1: 77f36e0275ba496d4e17a560071f73f0e823a415
+SHA256: b83a6a4599c3fcb0b8551235ee083f9df8c02efc4f87fe6c8d18aec5006a1bb3
+SHA512: f8bac2eecd5a618578f368a9af97861d9e0fac02ba625d5206cd4ef7b30619e6d9cebf584ce0f4e1c4ed2df8a40a00b761a8501117e99922f0df38b0206f1d22
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64e
+Version: 0.6.1
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 2244
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.hierarch.dykiller_0.6.1_iphoneos-arm64e_e68bb3db61698a064b70144600fbce3293f7daff896bc514d7556c80a5a5ca4f.deb
+Size: 534312
+MD5sum: 8199b22aaf50815d1cbe4bf51756111e
+SHA1: a3bf06803195b6d47f7804f0807c911f23bee1f9
+SHA256: e68bb3db61698a064b70144600fbce3293f7daff896bc514d7556c80a5a5ca4f
+SHA512: 78ae9930001fcba7bdc877e539dd1e2854e3f19c50db18c0ca1a863cb476646ec3f230f616ba7370ab0757d236afbeda035ebe48d746387d1408f85bc94887d4
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.hitori.misaki
 Architecture: iphoneos-arm64
@@ -18861,6 +18979,191 @@ Name: Feemcrack
 Author: jzksnsjswkw
 Icon: https://huayuarc.github.io/icon/feem.jpg
 
+Package: com.kanuo.screencore
+Architecture: iphoneos-arm64
+Version: 2.0.3+windowscheduler.12-12
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 4342
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Filename: debs/iphoneos-arm64/com.kanuo.screencore_2.0.3+windowscheduler.12-12_iphoneos-arm64_14e354f64fee08696d7c3b75de5f7c8a7669bd6aed3865f24cc33a52fabdc9d6.deb
+Size: 619476
+MD5sum: db474d4aab7bf27a2018e4cd80638f3f
+SHA1: 784779e4e2fc559d8ccb36caf15880fcf9814c58
+SHA256: 14e354f64fee08696d7c3b75de5f7c8a7669bd6aed3865f24cc33a52fabdc9d6
+SHA512: 6177ac044b7ade340a10254ddbf28855df44399a47063f5d6f27e3e279fcb38e40f380a6789b3987ad4c1b6b8c87bf193e34eafb285e03a192d86052cc37468f
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-12。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
+ 安装后重启桌面。
+ 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
+ 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
+ App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
+ 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
+ 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
+ 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
+ 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
+ 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
+ 长按收藏 App 原地松手打开自由独立窗口，不受普通浮窗数量、单窗口替换或自动边缘停靠限制。
+ 独立窗口沿用分屏比例，不依赖 App 跳转弹窗开关；普通切换保留它，同 App 复用原窗口。
+ 保留放大退出修复、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 设置新增移除底部系统 Dock 开关，默认关闭，更改立即生效；不影响键盘或应用内底栏。
+ 保留长按独立窗口、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+Name: screencore-窗口调度版
+Author: kanuo
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Install-Environment: standard-rootless-var-jb
+X-Rootless-Input-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Rootless-Revision: exact11-libroot-paths.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: 64fc26d41398f82dee8c641dc82a401d5dc908d5ef75deb55fb5af6334f8762e
+X-Core-Identity-Revision: expected-author-kanuo.1
+X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Geometry-Base-SHA256: e9cabb058422ab075eac379c15438bf6a962e86bccfa870ee7bc62cc8b286028
+X-Native-Jump-Geometry: popup-only-native-size.1
+X-Native-Jump-Base-SHA256: ff0edfa8b9ce6ee38054136a0e2da0d69004907dad70e00d8b8f24f74fa171fc
+X-Keyboard-Compatibility: scene-identity-and-missing-host.1
+X-Keyboard-Base-SHA256: 800e03d7f9f55d66479729b6ff73b9f446efa62b503104a54944f64a2e3eef28
+X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
+X-Fullscreen-Exit-Base-SHA256: cc28b5bc9408b504b09179029545c90c7d3fd6f110af80b2a8b520f76e5204e0
+X-Favorite-Standalone: independent-policy-normal-split-geometry.1
+X-Favorite-Standalone-Base-SHA256: f76ac941e43f74f0c57dff7b93ea3907d6af4e739b3497b865c555c3e2fa09a7
+X-Fullscreen-Native-Canvas: physical-screen-reversible-queued-geometry.1
+X-Fullscreen-Base-SHA256: 472fac2e6b474876df278e7c5fb457f443d155e1b34981d21e26f7ee38038bf6
+X-Fullscreen-Rendered-Canvas: instance-settings-hosted-resize-ack-validation.1
+X-Fullscreen-Rendered-Base-SHA256: 311a97ab829ac8dbcdd53964dab86477b1b30576a23e690f6fe5c7d1790db0a1
+X-Native-Fullscreen-Return: native-promotion-scoped-nonkey-icon.1
+X-Native-Fullscreen-Base-SHA256: 74aa276a95ac2633d2ecf174254bc04b9aded83084d61109cb9fffe723cdfaf8
+X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
+X-Native-Fullscreen-Canvas-Handoff: atomic-hosted-resize.1
+X-Native-Fullscreen-Scene-State: scoped-input-layout.1
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
+
+Package: com.kanuo.screencore
+Architecture: iphoneos-arm64e
+Version: 2.0.3+windowscheduler.12-12
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 3475
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Filename: debs/iphoneos-arm64e/com.kanuo.screencore_2.0.3+windowscheduler.12-12_iphoneos-arm64e_8e3d93994c37c2e01659df942ce7621b984768f9a47e93e81a782b37a96335f7.deb
+Size: 566368
+MD5sum: 0c2d8a79fcd75719ba2cb56286bc4673
+SHA1: 7400812d60fbe1b215e94ad226f996190ad0d6c7
+SHA256: 8e3d93994c37c2e01659df942ce7621b984768f9a47e93e81a782b37a96335f7
+SHA512: b6b2adf546c938b730c52d7e37225853bc76bb8a3f313bfd8d39cac57ce2147ddbdce100dc793c02d62ade0d3a4db64b10d39e3071ca5e355591e6f6249b5802
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-12。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
+ 安装后重启桌面。
+ 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
+ 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
+ App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
+ 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
+ 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
+ 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
+ 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
+ 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
+ 长按收藏 App 原地松手打开自由独立窗口，不受普通浮窗数量、单窗口替换或自动边缘停靠限制。
+ 独立窗口沿用分屏比例，不依赖 App 跳转弹窗开关；普通切换保留它，同 App 复用原窗口。
+ 保留放大退出修复、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 设置新增移除底部系统 Dock 开关，默认关闭，更改立即生效；不影响键盘或应用内底栏。
+ 保留长按独立窗口、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+Name: screencore-窗口调度版
+Author: kanuo
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Core-Identity-Revision: expected-author-kanuo.1
+X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Geometry-Base-SHA256: 619767fdd4d744203cef45ca1d5cd370b5f9a5521850034a21ddf3523a7c2701
+X-Native-Jump-Geometry: popup-only-native-size.1
+X-Native-Jump-Base-SHA256: 2bc5d7e4c7c8ab8b0fe6117bc5fbd98a784701d429016984ce6a570ac54b131e
+X-Keyboard-Compatibility: scene-identity-and-missing-host.1
+X-Keyboard-Base-SHA256: 977060949ce7844f48841d26af651704bfee38b84b6a72840753452e9f9d0c66
+X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
+X-Fullscreen-Exit-Base-SHA256: 2dbe5dde47fdac2b813d9cb27434286885af7e29ee8b6f783a5ea86557fe9a58
+X-Favorite-Standalone: independent-policy-normal-split-geometry.1
+X-Favorite-Standalone-Base-SHA256: c09cf505d87431c352c80b52dfdf435801a3422b77cd0ee875ab481e35e55b34
+X-Fullscreen-Native-Canvas: physical-screen-reversible-queued-geometry.1
+X-Fullscreen-Base-SHA256: 60dcbb8f1b3dd67d1b0e8e6ba861883515b9dc279ba1fe805acc156d7bba5270
+X-Fullscreen-Rendered-Canvas: instance-settings-hosted-resize-ack-validation.1
+X-Fullscreen-Rendered-Base-SHA256: e68c9aa0f0da74a9601ef610ef3db3e9ef6a29042b7a60ea3c7ae24235bd45ba
+X-Native-Fullscreen-Return: native-promotion-scoped-nonkey-icon.1
+X-Native-Fullscreen-Base-SHA256: 52c3ba9af8bb6d2b7dd5c42428ff7f73b3ab48518d2d56448a732f0804c5ead3
+X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
+X-Native-Fullscreen-Canvas-Handoff: atomic-hosted-resize.1
+X-Native-Fullscreen-Scene-State: scoped-input-layout.1
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
+
 Package: com.kdt.unrestrictmirroring
 Architecture: iphoneos-arm64
 Version: 0.0.2
@@ -19449,6 +19752,24 @@ Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
 
 Package: com.m4fn3.k2gecamen
 Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: Tweaks
+Maintainer: mafu
+Installed-Size: 6204
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.m4fn3.k2gecamen_1.0.5_iphoneos-arm64_96d01d3842fc380bf9257ebb199028420dfb543f243e36b002602615c8f5501d.deb
+Size: 2112432
+MD5sum: d2488fa0faebb8915321ef3ef4f8317f
+SHA1: d7b7850416048e485cd7177dd204f80cdcfbb5f2
+SHA256: 96d01d3842fc380bf9257ebb199028420dfb543f243e36b002602615c8f5501d
+SHA512: fed9a25f91af045e519a5a3956cce73f60a9b2c9c7ad596f80eb89bd4d273d55d2232627a82e773b7f7028ace609fa475f4ec650f4dd26640c6f9d896488723c
+Description: Capture moments with photos, videos, and audio in the background with ease.
+Name: K2gecamen (简体中文版)
+Author: mafu
+Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+
+Package: com.m4fn3.k2gecamen
+Architecture: iphoneos-arm64
 Version: 1.1.0
 Section: Tweaks
 Maintainer: mafu
@@ -19462,6 +19783,25 @@ SHA256: 5dc6db08da29a280fe9aec46e279925467bfd6ea6fef2721e7e2f1758e3cf0c1
 SHA512: 0e30999d35643b3d2fb4b2a69954c75ace7256c4ba958e45fb4f6988ef5720fe12a4968d210213c5f7edfd5f142be644e0b1e30e7f0d5a3d7302281749a46755
 Description: 隐私相机，轻松捕捉照片、视频和音频的时刻。Capture moments with photos, videos, and audio in the background with ease.
 Name: K2gecamen
+Author: mafu
+Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+
+Package: com.m4fn3.k2gecamen
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Section: Tweaks
+Maintainer: mafu
+Installed-Size: 6204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.m4fn3.k2gecamen_1.0.5_iphoneos-arm64e_3dc0f659bf659e0328a0aa05d8c1356819feec09f4a63f5b5976601206a09f0e.deb
+Size: 2083544
+MD5sum: ff6980f06e56bcecc932ea93515ef0e1
+SHA1: f6da5f7b1aad16224f68e614e1bb6e8f8c1ba0b2
+SHA256: 3dc0f659bf659e0328a0aa05d8c1356819feec09f4a63f5b5976601206a09f0e
+SHA512: 78c2574ef30e2c53dabafb0995259250b5860948604d7223c1e9ba3d9d9386e757278b2e10d855c60e00f6ee04b55d79546d3fed09cf8b9f5eaf0228af6c498c
+Description: Capture moments with photos, videos, and audio in the background with ease.
+Name: K2gecamen (简体中文版)
 Author: mafu
 Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
 
@@ -27697,6 +28037,42 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.58
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1356
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64/com.quicklaunch.tweak_0.1.58_iphoneos-arm64_0b922050683c25e6bc1428a6a8243fb04b6143f2d078f4a58d96e8b9aef1fd42.deb
+Size: 250916
+MD5sum: fd1a32023ee5adb129db52142ef03309
+SHA1: 96b8bd12d044c64a55b87e927268787f45d6d0db
+SHA256: 0b922050683c25e6bc1428a6a8243fb04b6143f2d078f4a58d96e8b9aef1fd42
+SHA512: 990dd25f3e7873bf4d9be32ba9f0c458f52c68bb3639d90bac5014691696cad77888f5747d8d60b21fa29dbac0588c396335beeb0b8bb5363244647114d6a6bd
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
 Architecture: iphoneos-arm64e
 Version: 0.1.44
 Priority: optional
@@ -27775,6 +28151,42 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
  Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
  Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
  Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64e
+Version: 0.1.58
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 748
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64e/com.quicklaunch.tweak_0.1.58_iphoneos-arm64e_19e02d067db5e57f9db17498bc4418a5c0c4c1cfd308c429d80f648a15a5506d.deb
+Size: 184372
+MD5sum: 6cd0f7011b362d3907b743d671258524
+SHA1: baac19e9e2d72a8c0a8673688c1c4dfec8657672
+SHA256: 19e02d067db5e57f9db17498bc4418a5c0c4c1cfd308c429d80f648a15a5506d
+SHA512: 3aec85af715159bee531800ece8083fb8f3d004cac4c51ff1e478cc80eff5ee35bfb7a014ccd3472a0fd8150a04990e40906aa5016efb8edeb9bbfa6bcc3f340
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
  Optionally retain one to three empty Home Screen pages after existing pages.
  Keep two overlays with separate apps and settings, adapting to portrait and landscape.
  Select any number of rail apps; scroll within a fixed eight-slot viewport.
