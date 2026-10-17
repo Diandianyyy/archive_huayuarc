@@ -3205,6 +3205,24 @@ Author: aa22qq
 
 Package: com.aa22qq.axiskey
 Architecture: iphoneos-arm64
+Version: 11.0.0
+Section: Tweaks
+Maintainer: aa22qq
+Installed-Size: 796
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.aa22qq.axiskey_11.0.0_iphoneos-arm64_647847124646c41bc38875c4b99f9e2c8c25463296a27d3f4dfa2165580079fc.deb
+Size: 114692
+MD5sum: e3411dc7640beadf27bae05da450fd4c
+SHA1: 17561ee78f360f5d467733c4b06f4e6b3c6273bb
+SHA256: 647847124646c41bc38875c4b99f9e2c8c25463296a27d3f4dfa2165580079fc
+SHA512: d660c957afd085598ad6c437d1c09613e340ba3d1e13f178506b6ef03c82b063b06ae7dbc7d5b64208a42589be7a4993f2a721f56722bf385d048879dee3e494
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Name: AxisKeyGesture (多维轴向按键手势)
+Author: aa22qq
+icon: https://huayuarc.github.io/icon/axiskey.png
+
+Package: com.aa22qq.axiskey
+Architecture: iphoneos-arm64
 Version: 3.0.0
 Section: Tweaks
 Maintainer: aa22qq
@@ -3273,6 +3291,24 @@ SHA512: d6a280878a9c6281a815a47ab172f20b214040956c1d5d6172882e3bb133bf5622e3f5d7
 Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
 Name: AxisKeyGesture (多维轴向按键手势)
 Author: aa22qq
+
+Package: com.aa22qq.axiskey
+Architecture: iphoneos-arm64e
+Version: 11.0.0
+Section: Tweaks
+Maintainer: aa22qq
+Installed-Size: 796
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/com.aa22qq.axiskey_11.0.0_iphoneos-arm64e_d0e97944de27cdfaa6727d189df041a79ab32d09dba518fe50d3f2bd5217f2b1.deb
+Size: 114528
+MD5sum: a789e872c47bc17b9f515903324ea906
+SHA1: 7cc6356957d69cde1667a8d0cdc0a88f26a6d340
+SHA256: d0e97944de27cdfaa6727d189df041a79ab32d09dba518fe50d3f2bd5217f2b1
+SHA512: 6ff33b7881292e7058c5258964fa48a914eebc6d1bb40db9263925a2eadea61e5184cb43ab9a8443cee36215549964a0f2fc831a4fa5b5310e243c31e01658d3
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Name: AxisKeyGesture (多维轴向按键手势)
+Author: aa22qq
+icon: https://huayuarc.github.io/icon/axiskey.png
 
 Package: com.aa22qq.axiskey
 Architecture: iphoneos-arm64e
@@ -18502,6 +18538,33 @@ Depiction: https://eleveny123.github.io/EvoCenter/
 SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=3.1.0-beta.1
 
 Package: com.jaysuen.evocenter
+Architecture: iphoneos-arm64
+Version: 4.0.0-beta.2
+Section: Tweaks
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 27220
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: debs/iphoneos-arm64/com.jaysuen.evocenter_4.0.0-beta.2_iphoneos-arm64_f2af771b7900ac7193416908c65335d7c2fd54e326a44c51313e38280879033a.deb
+Size: 1445304
+MD5sum: a69af96b6bc11e194e7b7b5fae341193
+SHA1: 61cb12b06d1308cfd0f7519bd66b87d718d4477f
+SHA256: f2af771b7900ac7193416908c65335d7c2fd54e326a44c51313e38280879033a
+SHA512: 2b3d2868434f20fe22d1b963ea1660a76c0e970eb78dc73c860f9b455d6e0a6409f722f4de985755c9b642037f897250a089ef9e4baf77133d7bfe26f0fe59c0
+Homepage: https://eleveny123.github.io/EvoCenter/
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Name: Evo Center
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.2
+
+Package: com.jaysuen.evocenter
 Architecture: iphoneos-arm64e
 Version: 2.0.0-beta.2-6
 Section: Tweaks
@@ -18609,6 +18672,33 @@ Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
 Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 Depiction: https://eleveny123.github.io/EvoCenter/
 SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=3.1.0-beta.1
+
+Package: com.jaysuen.evocenter
+Architecture: iphoneos-arm64e
+Version: 4.0.0-beta.2
+Section: Tweaks
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 27716
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: debs/iphoneos-arm64e/com.jaysuen.evocenter_4.0.0-beta.2_iphoneos-arm64e_188d16f3b0bbee54c13e8d7cf911ebae9fd1c7f88431809d3566ca6aa2592aa2.deb
+Size: 1453728
+MD5sum: d30c92a69340ad52f842287fe39767f5
+SHA1: 7c82475416520d09a8f07b4df02704c18b5f0427
+SHA256: 188d16f3b0bbee54c13e8d7cf911ebae9fd1c7f88431809d3566ca6aa2592aa2
+SHA512: ff7faeccea09fc5065777b8c50b95b834a50ec42ccb7b3bbce2bbf29d8e4320c6f4a939808a057d22e40dbcd56ae2addf6f971ab5f19991880db2596c60ac5ab
+Homepage: https://eleveny123.github.io/EvoCenter/
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Name: Evo Center
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.2
 
 Package: com.jiuyue.lightisle
 Architecture: iphoneos-arm64
@@ -44372,6 +44462,24 @@ icon: https://huayuarc.github.io/icon/SpatialScene.png
 
 Package: iya.banana.spatialscene
 Architecture: iphoneos-arm64
+Version: 1.1.18
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 13644
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64/iya.banana.spatialscene_1.1.18_iphoneos-arm64_a6d3c7d82f72f900c6c460ff4f3c5c7d0fb3ce463bd99cbbc9a0b719d6c0f108.deb
+Size: 6437700
+MD5sum: 31b8047d88520a722ca555d44e306f25
+SHA1: 8e50d0cff545209de51c2a82abf22058102d51fc
+SHA256: a6d3c7d82f72f900c6c460ff4f3c5c7d0fb3ce463bd99cbbc9a0b719d6c0f108
+SHA512: 8b8c13b020105ece0e98e430aeb2a6606352585ff88fc53e4d1f888c025b5592d41cd5493e56188a32fad334e70d775fe689c3bc1d775777eae24343f62a29ae
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: Banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64
 Version: 1.1.5
 Section: Tweaks
 Maintainer: banana
@@ -44455,6 +44563,24 @@ MD5sum: 34491d61eb5fdde62ea243724144e161
 SHA1: f76a5fa01dd6f63f828292b738ab2dfcf1cecbca
 SHA256: 60bda22a76c3a3c8ff712f5cff93c8006788d9ae18aa0858f9d6809e02c7c6cb
 SHA512: 40e5cff3d14217faf2957aec9b6bc36f5cdc8d9ad9d3036177ecec2de08be201578ee93e162df70a3757e95bdb5db2289357cfb777095daacdadc34ca03b9bea
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: Banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64e
+Version: 1.1.18
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 13644
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64e/iya.banana.spatialscene_1.1.18_iphoneos-arm64e_df319b7f0422da02a7be8d261068a13ac8e219035c100a3837293b6087a11a56.deb
+Size: 6438208
+MD5sum: 0a5386ac028b75ee82f3821fa9e8fb23
+SHA1: e8a9a3b722b782545da4bc57056c7d2fb1de66fc
+SHA256: df319b7f0422da02a7be8d261068a13ac8e219035c100a3837293b6087a11a56
+SHA512: 62c8b285b527916513e7d5da1de8301fa2ccd6f7722fe320883a0e60f976c8a0a68d09d2f2609cd143adb042930771962ca781c51133ab9f4c59ed7d4d0ebb6b
 Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
 Name: SpatialScene
 Author: Banana
@@ -48225,6 +48351,26 @@ Provides: jp.akusio.backgrounderaction15 (= 0.1.0)
 Depends: mobilesubstrate, com.opa334.ccsupport
 Conflicts:  jp.akusio.backgrounderaction15
 Replaces: jp.akusio.backgrounderaction15
+Filename: debs/iphoneos-arm64/xyz.cypwn.backgrounderaction15_0.1.0-1_iphoneos-arm64_4fd26e3390ff505cadc0479a27c8b4bc8f5b8e992d9ec0f980ad1c44c971c4f2.deb
+Size: 8548
+MD5sum: 1ba896bf8cf73d0f1831a615365264b4
+SHA1: 452442457e75fefd7bed65cf0ec1eb5c0adb54d5
+SHA256: 4fd26e3390ff505cadc0479a27c8b4bc8f5b8e992d9ec0f980ad1c44c971c4f2
+SHA512: c8fa1c439c8001e3f73edd4748f73d71f0e7b1aa2201290a57f950296e2e0a1e9e7096e3817f33aa74ac4e79bfad4292e56c57f2002ed1e6dfdfdf97d0ccc8aa
+Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.
+icon: https://huayuarc.github.io/icon/backgrounderaction.png
+Name: BackgrounderAction15 CCSupport
+Author: @akusio_RR
+
+Package: xyz.cypwn.backgrounderaction15
+Architecture: iphoneos-arm64
+Version: 0.1.0-1
+Section: Tweaks
+Maintainer: CyPwn
+Provides: jp.akusio.backgrounderaction15 (= 0.1.0)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Conflicts:  jp.akusio.backgrounderaction15
+Replaces: jp.akusio.backgrounderaction15
 Filename: debs/iphoneos-arm64/xyz.cypwn.backgrounderaction15_0.1.0-1_iphoneos-arm64_8bf1b27c3839d0911a6dfed220a317657bc451fa130e1eb3279fcbdf90441794.deb
 Size: 9892
 MD5sum: 8f59a2bafd0033e1e341ce222956319a
@@ -48235,6 +48381,27 @@ Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.
 Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
 Name: BackgrounderAction15 CCSupport
 Author: @akusio_RR
+
+Package: xyz.cypwn.backgrounderaction15
+Architecture: iphoneos-arm64e
+Version: 0.1.0-1
+Section: Tweaks
+Maintainer: CyPwn
+Provides: jp.akusio.backgrounderaction15 (= 0.1.0)
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Conflicts:  jp.akusio.backgrounderaction15
+Replaces: jp.akusio.backgrounderaction15
+Filename: debs/iphoneos-arm64e/xyz.cypwn.backgrounderaction15_0.1.0-1_iphoneos-arm64e_2126516c9c2ea4fdfaea98493880bda28b7957d4ce405e5a9deedc9784fa71c4.deb
+Size: 8072
+MD5sum: 5e5b950b6c62eb372c11276b262d01c4
+SHA1: d5ec11f6d43d5106db5f23335ef055c39be316ac
+SHA256: 2126516c9c2ea4fdfaea98493880bda28b7957d4ce405e5a9deedc9784fa71c4
+SHA512: 821b5b907ff52a202f363d4ef13fa631eef2631c74e517b6002c1b69e1c2e7ec03de10a769970407c8ee305486c1519de3896544d77ddcc3279367b6faafafc5
+Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.
+Name: BackgrounderAction15 CCSupport
+Author: @akusio_RR
+icon: https://huayuarc.github.io/icon/backgrounderaction.png
 
 Package: xyz.cypwn.backgrounderaction15
 Architecture: iphoneos-arm64e
@@ -48263,6 +48430,23 @@ Version: 1.0.3
 Section: Tweaks
 Maintainer: CyPwn
 Depends: xyz.cypwn.backgrounderaction15, com.opa334.altlist
+Filename: debs/iphoneos-arm64/xyz.cypwn.backgrounderaction15autostate_1.0.3_iphoneos-arm64_a0c718cd25a48f5b8556e3c09a59c3915fa69e5b10bd42753d4f44276c2654e4.deb
+Size: 25712
+MD5sum: e441849f7c588d64dcd19a895f9257e7
+SHA1: 3563d69f923ef7ffbd327b01c1b9198c174ca38f
+SHA256: a0c718cd25a48f5b8556e3c09a59c3915fa69e5b10bd42753d4f44276c2654e4
+SHA512: 3838f4d8d3f371b0d32a334b0dfad7e8a36e9ceb56abbd3a08182efbc14825e4c6a1c9bcb9a705bdeba4a3525370ce3f48293d1d5b699a6f5d7d58991a512aa3
+Description: iOS真后台插件。Save Action state for BackgrounderAction15 CC Toggle
+icon: https://huayuarc.github.io/icon/backgrounderaction.png
+Name: BackgrounderAction15AutoState
+Author: 0xkuj
+
+Package: xyz.cypwn.backgrounderaction15autostate
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: CyPwn
+Depends: xyz.cypwn.backgrounderaction15, com.opa334.altlist
 Filename: debs/iphoneos-arm64/xyz.cypwn.backgrounderaction15autostate_1.0.3_iphoneos-arm64_a767ef13006c25617cb5c4a369c279cb4c34a12eba1e49914855afd321789396.deb
 Size: 25696
 MD5sum: 3870dfdd546eee4ea5d36127755bdebc
@@ -48273,6 +48457,24 @@ Description: Save Action state for BackgrounderAction15 CC Toggle
 Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
 Name: BackgrounderAction15AutoState
 Author: 0xkuj
+
+Package: xyz.cypwn.backgrounderaction15autostate
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: xyz.cypwn.backgrounderaction15, com.opa334.altlist
+Filename: debs/iphoneos-arm64e/xyz.cypwn.backgrounderaction15autostate_1.0.3_iphoneos-arm64e_639d19399c28f608bae3c461ba15c2f3dbc7868bac3f59bc8651b28db3bdec9b.deb
+Size: 25088
+MD5sum: 2196d415bfca8a0726e8ddd0564fd7a9
+SHA1: 39f4e8eeae2fc9ac0548becad80847809e21e6a9
+SHA256: 639d19399c28f608bae3c461ba15c2f3dbc7868bac3f59bc8651b28db3bdec9b
+SHA512: e8dbc69a8e989436bfe6b8d9696b1eeb066586c4c0c97bf2846dc20fb6030438ce761f560ed46b8a67b10d61a722419d4846539d69995f2b2098de00d601b27f
+Description: iOS真后台插件。Save Action state for BackgrounderAction15 CC Toggle
+Name: BackgrounderAction15AutoState
+Author: 0xkuj
+icon: https://huayuarc.github.io/icon/backgrounderaction.png
 
 Package: xyz.cypwn.backgrounderaction15autostate
 Architecture: iphoneos-arm64e
