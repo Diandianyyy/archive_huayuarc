@@ -2765,6 +2765,24 @@ Author: 34306, KhanhDuyTran
 icon: https://huayuarc.github.io/icon/upsidedowned.jpg
 
 Package: com.34306.upsidedowned
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.34306.upsidedowned_1.1-9_iphoneos-arm64_44a65a431d463623c3437a616cef1fee63ebd3a8e25d3ebfd5684774d40c535b.deb
+Size: 6796
+MD5sum: cf13ceda4e5329a17b7ddbd99ba9e5ab
+SHA1: 37d6ee563facaf8f3be62ace276b59a065491470
+SHA256: 44a65a431d463623c3437a616cef1fee63ebd3a8e25d3ebfd5684774d40c535b
+SHA512: d3e8c260c0a5eca2771b777038aa9dbe65a3593918294fb49ed482a19b4197891158d20084fa3c65bb6237866ca8967adfd2423408a042ad68df8f4837aa55f7
+Description: Rotate left, right, up side down your iPhone. I take the code from TrollPad by @TranKha50277352
+Name: upsidedowned
+Author: 34306, KhanhDuyTran
+icon: https://huayuarc.github.io/icon/upsidedowned.jpg
+
+Package: com.34306.upsidedowned
 Architecture: iphoneos-arm64e
 Version: 1.1-8
 Section: Tweaks
@@ -2777,6 +2795,24 @@ MD5sum: 98f0682f8a9fad8850c4a88d4650f829
 SHA1: e92b21bb83ecc98c4b60197fe5633286203fd8bb
 SHA256: dc6d2689d5d802ccb6fd01333fb66fe8ea9c5242f0d1e6b48b31547e8c95a32c
 SHA512: 304b21d37602c874a96f9666fa5e85e853a8619b3aa838fb97106d3a8428a87e8b5937688c1bb6cd61ec733c821c0a77a715b0aa51f3937f6384b1ad1dacd670
+Description: Rotate left, right, up side down your iPhone. I take the code from TrollPad by @TranKha50277352
+Name: upsidedowned
+Author: 34306, KhanhDuyTran
+icon: https://huayuarc.github.io/icon/upsidedowned.jpg
+
+Package: com.34306.upsidedowned
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.34306.upsidedowned_1.1-9_iphoneos-arm64e_b899472899b858401d32aeb2632f514e78fab796b5030f9716a6b1baae1f6dcc.deb
+Size: 6732
+MD5sum: 88dddb0aaee5a867f059f1834abc8859
+SHA1: e3d074b0a1413893ff1eb05efb05d68e8d1d085e
+SHA256: b899472899b858401d32aeb2632f514e78fab796b5030f9716a6b1baae1f6dcc
+SHA512: 7d6eb43685a5e4f190b5200d4f5b1b5eef36a54396cf34e83640acf65d0aa3910de4fe4db2b2529c15a661c49961011a7a16013d79d669192032c487ccc3020f
 Description: Rotate left, right, up side down your iPhone. I take the code from TrollPad by @TranKha50277352
 Name: upsidedowned
 Author: 34306, KhanhDuyTran
@@ -37813,6 +37849,24 @@ Name: split-view-pro
 icon: https://huayuarc.github.io/icon/Floating-View.jpg
 
 Package: com.sunshinesong.split-view-pro
+Architecture: iphoneos-arm64
+Version: 1.4.2-1
+Section: Tweaks
+Maintainer: sunshinesong
+Depends: mobilesubstrate, preferenceloader
+Conflicts: xyz.cypwn.splitviewpro, com.jtis.splitviewpro, com.tqm-mos.splitviewpro, com.bvn.splitviewpro
+Filename: debs/iphoneos-arm64/com.sunshinesong.split-view-pro_1.4.2-1_iphoneos-arm64_d2a0eff64cd94d58dfc15084c134e69df88c0e55b1ab92375b141ecadc923f06.deb
+Size: 1541432
+MD5sum: b725c1a27ef11110c71dd96f312b0535
+SHA1: ae63e5382f1748146d3dbaffd9babd73ef00cbfe
+SHA256: d2a0eff64cd94d58dfc15084c134e69df88c0e55b1ab92375b141ecadc923f06
+SHA512: 5984674a78dced17c7382fd057b6503ada983d36184813d49a2cbb284ed272205820a79773d3ec0aa51b60842735e9bf8894d0151ac0bfecfcf5b36d0a847294
+Description: 分屏，不必太复杂，一切从简即可.
+icon: https://huayuarc.github.io/icon/Floating-View.jpg
+Name: Split View Pro
+Author: sunshinesong
+
+Package: com.sunshinesong.split-view-pro
 Architecture: iphoneos-arm64e
 Version: 1.3.7
 Section: Tweaks
@@ -37831,6 +37885,25 @@ Author: sunshinesong
 TS: sp-sss
 Name: split-view-pro
 icon: https://huayuarc.github.io/icon/Floating-View.jpg
+
+Package: com.sunshinesong.split-view-pro
+Architecture: iphoneos-arm64e
+Version: 1.4.2-1
+Section: Tweaks
+Maintainer: sunshinesong
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: xyz.cypwn.splitviewpro, com.jtis.splitviewpro, com.tqm-mos.splitviewpro, com.bvn.splitviewpro
+Filename: debs/iphoneos-arm64e/com.sunshinesong.split-view-pro_1.4.2-1_iphoneos-arm64e_85f121e8747f3c8f09bf927c677a4b4a66ffc5979a61366f1e52733509570b18.deb
+Size: 1515756
+MD5sum: a42a2c13ecd6feee906d437e25fd71a1
+SHA1: 702d037ff3f86c18b9b41d13773b75506d2edfe6
+SHA256: 85f121e8747f3c8f09bf927c677a4b4a66ffc5979a61366f1e52733509570b18
+SHA512: 90497556f1e5eab549ef806f1209c1f25dd25716babdfa36a6da5347f4427235151f278eef36dd7edf9fce2e3debfca04cf09f46516dd67203fec350a3b6ab10
+Description: 分屏，不必太复杂，一切从简即可.
+icon: https://huayuarc.github.io/icon/Floating-View.jpg
+Name: Split View Pro
+Author: sunshinesong
 
 Package: com.susu.snapper3.picta
 Architecture: iphoneos-arm64
