@@ -4427,6 +4427,44 @@ Author: Axs<qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 
 Package: com.axs.cpufree
+Architecture: iphoneos-arm64
+Version: 5.2.0-72
+Section: Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1492
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64/com.axs.cpufree_5.2.0-72_iphoneos-arm64_6aba040f381d2189aea33dafc73b0be79dc402de8b8e753e82babba1c220c926.deb
+Size: 146792
+MD5sum: b336a51a8459a1656cf4a571bc856461
+SHA1: da0364b933d4e4be37fa3e63cee30bfc8ffb3539
+SHA256: 6aba040f381d2189aea33dafc73b0be79dc402de8b8e753e82babba1c220c926
+SHA512: bc29e41f2748e6109989ab604d009f43c7f7a8e02889950813a9bee7b61dc61bad3557ed55692be89d62b853232083df2fd1318be46f81cc65d89fa76cdfd006
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+ * 七、刷新率管理
+ * 1. 支持 10 / 30 / 60 / 80 / 120Hz 优选帧率、全局注入及应用排除；
+ * 2. 提供系统调试 HUD 与 120fps 系统录屏支持，实际效果受设备和系统限制。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
 Architecture: iphoneos-arm64e
 Version: 5.2.0-15
 Section: Tweaks
@@ -4693,6 +4731,45 @@ Description: 一个强大的 iOS 温控管理插件，接管系统温控决策�
  * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
  * 六、机型适配
  * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64e
+Version: 5.2.0-72
+Section: Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1492
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64e/com.axs.cpufree_5.2.0-72_iphoneos-arm64e_1135a7c796d00d949a04fc1163395162c3e4749f74ff6701132a4dc6d50828ca.deb
+Size: 142248
+MD5sum: ea5fb57dc59e58ed7af5a5879ca8da16
+SHA1: 885992662c7b3a3719395f769ccf712c579032fc
+SHA256: 1135a7c796d00d949a04fc1163395162c3e4749f74ff6701132a4dc6d50828ca
+SHA512: d3ea2a4816b5c0eee45a0ee1984d6857952f850788ce8c884ec3e228ab49f413fb8aaf3a08bddbba8aff444ccacd7d4b29ee26ff44b091ca05ff153ec5aba366
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+ * 七、刷新率管理
+ * 1. 支持 10 / 30 / 60 / 80 / 120Hz 优选帧率、全局注入及应用排除；
+ * 2. 提供系统调试 HUD 与 120fps 系统录屏支持，实际效果受设备和系统限制。
 Name: CPU Free
 Author: Axs<qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/cpufree.png
@@ -6884,6 +6961,46 @@ Maintainer: kanuo
 Installed-Size: 1048
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.51_iphoneos-arm64_20d3660d57579a6d143644d338554e6e72174654efbfea16b840b1ca75d9ba3b.deb
+Size: 408196
+MD5sum: 78db175731f7269fe1d2580b062db485
+SHA1: 9cecfa56131eda4a90e31245db84a1acc99e6b72
+SHA256: 20d3660d57579a6d143644d338554e6e72174654efbfea16b840b1ca75d9ba3b
+SHA512: c64f664c6180b4399d9016d57e35f21032128a1d1d39405a577bc85a15f200ef97d9d34629e404a703edbd4dc7d7804b1473baa2c7a04a7185cfd3fa025d6406
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.51 兼容更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 仅前台 App 显示一个球，跨 App 记忆位置，桌面和设置隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 按视频恢复贴边青蓝柔光与慢速流动，点击光效缩小至约 1.7 倍球直径
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.51
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1048
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
 Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.51_iphoneos-arm64_27103215f41ec0391f9066ad4d6f54d6684acf65cc9105039f4bde5946eec8e5.deb
 Size: 401656
 MD5sum: 0e6d2a6c36475c7675459d7a522e9e89
@@ -6959,6 +7076,47 @@ SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bot
 
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64
+Version: 6.56
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1052
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.56_iphoneos-arm64_d704a0f5384a69e3baa124d9d2fa5cbd96750b3ff7705a08fe28c877438aed63.deb
+Size: 413076
+MD5sum: 774e34e394f1a5428b46433acb291c27
+SHA1: 3ffc71c8839f8237a5bb0d2e709e1e404d124154
+SHA256: d704a0f5384a69e3baa124d9d2fa5cbd96750b3ff7705a08fe28c877438aed63
+SHA512: 9bf24e0b976f91b1bcb431c387f3b50a9a77b011af4ed9d721c96492d3a86a0fd9cba17341d23e857d4d1e2fb2bef4769f3253823caeb6466423d7ceff663f84
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.53 设置与分屏更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
 Version: 6.59
 Section: Tweaks
 Maintainer: kanuo
@@ -6971,6 +7129,47 @@ MD5sum: 483df3d5dc22ecd4539232e1968f4b9a
 SHA1: 8adfa3283d97bebb906a688d6db3036402fe879d
 SHA256: 1dba6c831bcc79d0a37345b86e1da3209edc6de105967bff1749035e96e8191f
 SHA512: ff11643909add654f987ccac0fd00f31b6b154d01609a56dca1d7207cbb3c52c221375dbe9a2b2cf1fb23869237f55eebb35c2b241fd49fa61eebd06468199b5
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.59 SmartDeck Home】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.59
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1084
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.59_iphoneos-arm64_9b040159a406d453cdb195f8f6495b5725ece6bd22a5adfdd84380749dae63a3.deb
+Size: 419688
+MD5sum: abb04f8565bf027fdfc51c4831e7afaa
+SHA1: adce16fe5546aa0bafd15ba03c6def87551d45f6
+SHA256: 9b040159a406d453cdb195f8f6495b5725ece6bd22a5adfdd84380749dae63a3
+SHA512: 5e701b2b77c7c61d74f4f89c319a7505093f860f6bfa0cdd477c56755bc7cdfa090a48aabd5637e16b345d3d3d609562e1a2ded1b658561ecb9f48e2034e574e
 Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
  依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
  .
@@ -7043,6 +7242,188 @@ X-ScreenCore-Adapter: 10-12-exact-binary.1
 X-Install-Environment: standard-rootless-var-jb
 
 Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.59+screencore.2.user1012
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1225
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.59+screencore.2.user1012_iphoneos-arm64_d6fdc79accfd8357cc77db6d551481c14a0c024f30d2abca1624777e8e39219e.deb
+Size: 425336
+MD5sum: bf30ebb61cd7bc778ddfb4ddec867116
+SHA1: 8df765f8157c0263e1ddfdc0bff7d18c4d1b7950
+SHA256: d6fdc79accfd8357cc77db6d551481c14a0c024f30d2abca1624777e8e39219e
+SHA512: 1037814dd37dec03481c5c75a160eaebb8b30c57e338b97e776198405644043501f3db0ab0c4e000d0f0389aa117f54e40a377db0ef757d932446720a9cdf825
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.59 SmartDeck Home】
+ - 开放 iOS 16 安装，本包使用标准 rootless /var/jb 安装布局
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+X-ScreenCore-Adapter-Input-SHA256: b6c3c02ec3f359f019fc74fb23c8a6022f233f6d46878e0b66b13ff8689f566d
+X-ScreenCore-Adapter: 10-12-exact-binary.1
+X-Install-Environment: standard-rootless-var-jb
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.65
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1136
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.65_iphoneos-arm64_38a9345ecef5be45a09f717841f2951f4a655c4e9a1369704538886481e75626.deb
+Size: 435140
+MD5sum: 270fa50aaab1219d065152ff667b9f9f
+SHA1: 60d365bba613a2da6f99315f236be2caab7f9d2a
+SHA256: 38a9345ecef5be45a09f717841f2951f4a655c4e9a1369704538886481e75626
+SHA512: c35a0ba17c45ca6ea6ae387821bf72f887ffa86128de23488abe193cfdf74cfac3f80e5438fe7a5b9e09b1374a7fdefa5c921a3b5d9ee95703a46d05de073469
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.65 全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，拖动仍可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.70
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1432
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.70_iphoneos-arm64_ea07ca3a253c5b7cd34ec92ce11faba1347915258b471afb1050da65e63e6da1.deb
+Size: 491572
+MD5sum: 0480acaad0764c989246d1cc42847ebf
+SHA1: a7f8f84d17612d690b7ea14c14f062c9b5b28538
+SHA256: ea07ca3a253c5b7cd34ec92ce11faba1347915258b471afb1050da65e63e6da1
+SHA512: a0761e3b938f4ccb21e0588f89e8290e8e6ead254d0696c9078a914a905a0ada12c80102945d39c52920a333cc4984fa9d8d6a39f7220bc382ef276fe8117d94
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.70 双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64e
 Version: 6.37
 Section: Tweaks
@@ -7087,6 +7468,46 @@ Maintainer: kanuo
 Installed-Size: 1048
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.51_iphoneos-arm64e_26ae07e0055252c3e56d323e00c5f322521e242af3b0dfb691f07351c6880eeb.deb
+Size: 408560
+MD5sum: b8c5cc0d40c31481e6457ae281af18c5
+SHA1: 45c7aaf89eae35ce88b94c0dbfed4e21b274e98f
+SHA256: 26ae07e0055252c3e56d323e00c5f322521e242af3b0dfb691f07351c6880eeb
+SHA512: 1af76ba079d61ee67742e04f92e18ff4ff80bb3d9cea1de95e5bffd625dc96a96711f3c29a3db055dbc917be2f19b99c14c09c0c94782a1158c5fb8afd9d6bd8
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.51 兼容更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 仅前台 App 显示一个球，跨 App 记忆位置，桌面和设置隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 按视频恢复贴边青蓝柔光与慢速流动，点击光效缩小至约 1.7 倍球直径
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.51
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1048
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
 Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.51_iphoneos-arm64e_e938dfd88f44b2c72f8cb6b6c153b1fd818a4b5e8ad7db24897b2cd9738ffcd0.deb
 Size: 401996
 MD5sum: ecf87b3ee169c1082b7b8606a9c69f06
@@ -7118,6 +7539,47 @@ Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自
 Name: Bottom-x 悬浮球
 Author: kanuo
 Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.56
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1052
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.56_iphoneos-arm64e_b0ed59a733d39615450ed4111fd8a70ab4c8c89efe522323396f92941a3da1f1.deb
+Size: 413328
+MD5sum: 26d7e90b62fb2eaebbad8d9a00863cbf
+SHA1: cd2bdf861a516c180e1ff367bf3948bf895fe358
+SHA256: b0ed59a733d39615450ed4111fd8a70ab4c8c89efe522323396f92941a3da1f1
+SHA512: 1a39964842db346fcf29003ea679a7c37d996e56cf6f4c3fbe076e1cd0766a0ee703c3e21e3bdd2e331d59718a0e551fa706a1331e65f1185aec58a7d8911a20
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.53 设置与分屏更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64e
@@ -7203,6 +7665,90 @@ SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bot
 
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64e
+Version: 6.59
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1084
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.59_iphoneos-arm64e_ed075a588b3c35aa4444324a242d2554f3cc6fa08c0478b4bc31ee42d610ae48.deb
+Size: 419880
+MD5sum: cf3b99363c588c284f45219bc75cd1bd
+SHA1: 149852726f5ef79bb457089e43f44f524ae06720
+SHA256: ed075a588b3c35aa4444324a242d2554f3cc6fa08c0478b4bc31ee42d610ae48
+SHA512: acaac70d7344ab325617278b53511a43f09ec6a959e07d16c5e19e10206bf3d36d38a485ea233466faae899c9131b3f2cb6670f727e521523773ce928043aeab
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.59 SmartDeck Home】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.59+screencore.2.user1012
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1225
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.59+screencore.2.user1012_iphoneos-arm64e_770624d8a8095f1732c5e456da1912c93345554f910d0e8790c74b295e01f04b.deb
+Size: 425536
+MD5sum: 6ca6e2596ec1a537f0a6aaf2157c072d
+SHA1: 130acf0beb394fbe2840b6aa32f1381597586452
+SHA256: 770624d8a8095f1732c5e456da1912c93345554f910d0e8790c74b295e01f04b
+SHA512: d822fa57dfebd5c47772e77fe411da3d07f64acd046395a903fa0cd4a3db95f79cac0a7f505e892c886c3c59812145f31c65c0fb650b34945df3a5e1b0b76bae
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.59 SmartDeck Home】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+X-ScreenCore-Adapter-Input-SHA256: b6c3c02ec3f359f019fc74fb23c8a6022f233f6d46878e0b66b13ff8689f566d
+X-ScreenCore-Adapter: 10-12-exact-binary.1
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
 Version: 6.59+screencore.2.user1012
 Section: Tweaks
 Maintainer: kanuo
@@ -7243,6 +7789,144 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 X-ScreenCore-Adapter-Input-SHA256: b6c3c02ec3f359f019fc74fb23c8a6022f233f6d46878e0b66b13ff8689f566d
 X-ScreenCore-Adapter: 10-12-exact-binary.1
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.65
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1136
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.65_iphoneos-arm64e_144ceea6106a31a76c9142f16dac144ec4d0e3f2237279117b5c5349b4cfd4f5.deb
+Size: 435244
+MD5sum: cbd745eae67e2b957bb9ff37baf9835a
+SHA1: 73cc3e6a86bcc50644a59d3a12d65893770caa3f
+SHA256: 144ceea6106a31a76c9142f16dac144ec4d0e3f2237279117b5c5349b4cfd4f5
+SHA512: e76f6f44a15e3e04fe35de8eea3b827f91a480c164786e1a2db86bf58406f5806a5c93e147d9f00e6b28370dbfb45dcf79109822bb085eeec03ab656cdeb0639
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.65 全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，拖动仍可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.70
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1432
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.70_iphoneos-arm64e_16660a2e08f302fa31fc1536c3ffa3ef627e9a68c794943b82c66349108e992b.deb
+Size: 492024
+MD5sum: 33671682b0282c5ae99d620e1f15e809
+SHA1: b21f2f1beb261bb7e152cf837e6613b2e7b0d0e3
+SHA256: 16660a2e08f302fa31fc1536c3ffa3ef627e9a68c794943b82c66349108e992b
+SHA512: c4b825ff904a7008b0f8e5347ddec81b411b2950d1807c81ceb2c031c717649283565716b1a18d7d048000b4900c15e332a61b2e35c7e339a064dfc79f971613
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.70 双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.ios17
 Architecture: iphoneos-arm64e
@@ -24143,6 +24827,26 @@ Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
 Package: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 2.2.09
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4844
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64/com.muzi.mutool_2.2.09_iphoneos-arm64_81fa42a9907bba2d600ddcc652c055044b50f649e15787ac7903ab26d50771cb.deb
+Size: 753736
+MD5sum: 582ebd443cf3166f31291ec1f3b3fc1c
+SHA1: 6035d753daee1c5c9b598b8fa8a0ce011113a56c
+SHA256: 81fa42a9907bba2d600ddcc652c055044b50f649e15787ac7903ab26d50771cb
+SHA512: 80f59049cc74413c35e577cbbeee7599d7f277e54b5128f716856c852cbc0f32953a44334d40096bf138d8ee03e8138dfbf3d0a24f41151b06eb6bbda8801d57
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音（接入提示音、MagSafe 动画、灵动岛电池与电池提醒）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（二级分类：锁屏增强 / 主屏幕增强 / 桌面增强，所有说明统一以 ⓘ 图标点击查看；锁屏：自动进桌面、解锁显示、通知亮屏、锁屏禁用与隐藏、唤醒与锁屏、锁屏充电胶囊、动作反馈；主屏幕：禁用项、隐藏项、小组件多选拖动、底栏设置、动画与后台；桌面：图标下载进度条与阴影、桌面电源菜单）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息。2.2.01 彻底移除充电限制/充电控制功能（阻止充电、阻止电源、限充阈值、智能充电计划、温度停充、满血充电、充电诊断日志），充电行为完全回归系统默认；升级/卸载自动清理历史版本写入的 SMC/IORegistry 充电残留与守护进程。2.2.02 修复 VoIP 通话录音：①修复 VoIP 录音已录到但通话录音列表不显示的问题（无号码录音不再被索引过滤）；②修复 VoIP 录音命名错误——从 CallKit 通话记录获取真正发起通话的 App（例如在闲鱼界面接听微信通话时正确命名「微信」而非前台「闲鱼」），并记录通话对方标识；③录音记录改为单一索引文件（recordings.json）追加写入，不再每次通话生成一个新 .json 文件。2.2.03 修复与增强：①修复 VoIP 录音导致 SpringBoard 桌面进程崩溃（微信 VoIP 通话回调在 SpringBoard 主线程同步加载 MobileCoreServices 卡死主线程触发 watchdog 超时，改为纯内存静态映射）；②电话 App 录音列表改用固定行高手写布局（滚动更流畅）+ 底部安全区域适配；③录音列表改为按最新在前平铺展示、不再按联系人分组，并调整为三行格式（渠道·联系人 / 方向·号码或用户 ID / 日期 时间·通话时长·文件大小），VoIP 记录新增通信渠道字段（微信/FaceTime 等），来电登记对方姓名与 wxid 用户 ID。2.2.04 彻底修复：①SpringBoard 崩溃根治——2.2.02/2.2.03 的 VoIP CXCallObserver delegate 设为主队列，微信来电时 callUpdated 在 SpringBoard 主线程解析 CXCall 私有字段（KVC bundleIdentifier/remoteHandle/displayName 等）长时间占用主线程触发 watchdog 60s 超时崩溃；现将 delegate 队列改为后台串行队列，CXCall 解析全部在后台完成，仅把门控与录音/UI 操作提交回主线程，主线程零负担；②修复电话 App 录音列表最后两条被底部 Tab 栏遮挡——child VC 铺满挂载时安全区不含 tabBar 高度，改为沿视图层级找到 UITabBar 并动态将表格底部 contentInset 加上 Tab 栏高度，最后记录可完整滚动到 Tab 上方。2.2.05 修复：电话 App 录音列表仍无法滑到最底端、最后几条被底部 Tab 栏挡住——2.2.04 沿 superview 查找 UITabBar 失败（Tab 栏是 UITabBarController 视图里的兄弟浮层，并非本视图祖先），从未真正加上 inset；改为通过 tabBarController（含父链兜底）定位 Tab 栏，并按表视图与 Tab 栏在表视图坐标系中的实际几何重叠量设置底部 contentInset，最后一个 cell 可完整滚动到 Tab 栏上方。2.2.06 修复：电话 App 录音列表页滚动到底部时底部 Tab 栏变透明、内容透出——iOS 15+ 在列表滚到相邻边缘时启用透明的 scrollEdge 外观；现将录音列表页显示期间的 Tab 栏 scrollEdge 外观改为不透明（沿用原图标/文字配色），离开页面时恢复，使录音列表底栏与其他页面一致。2.2.07 修复与优化：①电话 App 录音列表页底部 Tab 栏由不透明改为系统标准高斯模糊（毛玻璃）效果，与其它页面底栏观感一致；②录音列表拿不到用户名（无姓名，或姓名只是号码/wxid 本身）时，第一行用户名槽显示「未知号码」，不再空白或只显示渠道；③个人收藏页被录音列表替换后，隐藏原收藏页左上角「+」按钮，退出替换时恢复。2.2.08 修复：个人收藏页被录音列表替换后，导航栏「编辑/添加」按钮（及语音留言页「+」）仍残留——原实现只在首次挂载时隐藏一次，被替换 VC 后续 viewWillAppear/viewDidAppear 会重新补上系统按钮；现改为每次出现都重复隐藏（已挂载分支也收敛），并新增 viewDidAppear 兜底 hook，按钮不再残留；开关关闭退出替换时恢复原按钮。另确认 2.2.01 起插件已彻底移除充电限制/充电控制代码（daemon 仅承载定时唤醒调度，SMC 充电键仅在卸载清理 --restore 时恢复默认），不会再阻止充电。2.2.09 修复：微信 VoIP 来电接通后灵动岛通话弹窗卡死、无法挂断，对方挂断后弹窗仍不消失、桌面被看门狗结束——2.2.02 起为修正命名改用 CXCall 私有键（valueForKey bundleIdentifier/remoteHandle/displayName）获取通讯 App 与对方标识，该私有键访问在微信来电时触发系统误判主线程无响应；现取消该获取方式，完全回归「电话 App 获取方式」：CXCall 只读公开属性，通讯 App 名统一经前台 App 名（_MUCFrontmostAppName）在主线程获取，与 2.2.01 之前一致，通话不再卡死。2.2.10 修复：在 2.2.09 完全取消 CXCall 私有 KVC 的基础上，把 VoIP 录音功能进一步回退到 2.2.01 的可靠实现——CXCallObserver delegate 队列改回主线程队列，通话状态回调直接在主线程处理（只读 CXCall 公开属性），前台 App 名统一经 _MUCFrontmostAppName 获取，与 2.2.01 之前行为一致；同时保留录音列表三行布局、底栏遮挡修复与收藏页按钮隐藏等增强。2.2.14 修复：微信 VoIP 来电在主屏幕接听瞬间 SpringBoard 主线程被看门狗终结（60s 无响应）——定位到前台 App 名查询 _MUCFrontmostAppName() 在 SpringBoard 主线程做同步跨进程调用（_accessibilityFrontMostApplication 走 Accessibility daemon RPC、SBSCopyFrontmostApplicationDisplayIdentifier 走 backboardd mach），接听瞬间系统正做通话 UI 过渡极易长时间阻塞/死锁主线程；现将前台 App 名改为独立后台线程每 1s 轮询一次并缓存，主线程只读缓存字符串，命名路径上不再有任何主线程同步 IPC；同时恢复诊断日志落盘（CallRecordings/voip_diag.log，异步追加，主线程只投递一行），并埋点 handleCall/音频 hint/startRec 全链路，若异常可凭日志精确定位。2.2.15 修复：进一步落实 1.9.102 已验证的教训——SBSCopyFrontmostApplicationDisplayIdentifier 在 SpringBoard 进程内任何线程调用都会 XPC 自连 SpringBoardServices 死锁，现从 SpringBoard 代码中彻底移除该私有 API 调用（不再有任何线程调用它）；前台 App 名仅保留后台线程的 accessibility 显示名查询，主线程只读缓存，命名与稳定性两者兼顾。2.2.16 修复与调整：①第三方 App（微信等）VoIP 录音恢复获取对方名称/号码、渠道不再只显示 VoIP——参照电话 App 通话记录的获取原理（CallKit 同一数据源），CXCallObserver delegate 队列改回后台串行队列，在后台解析 CXCall 私有 KVC（bundleIdentifier 静态表→微信/WhatsApp 等渠道名、remoteHandle→对方号码或 wxid、displayName/localizedName→对方姓名），姓名缺失时后台按号码反查通讯录；前台 App 名缓存兜底，主线程零同步 IPC（延续 2.2.15 彻底移除 SBSCopy，杜绝看门狗）；②电话 App 录音列表与设置内录音列表格式调回两行：第一行「渠道·联系人名称·联系人号码」，第二行「呼出/接听·日期 时间 · 录音时长 ·录音大小」，行高收紧。2.2.17 修复：2.2.16 的 CXCall 私有键名在 iOS 17 取不到值（bundleIdentifier/remoteHandle/displayName 全部 nil，录音仍显示 VoIP·未知号码）；现将 CXCall KVC 改为多键候选逐键探测（bundleIdentifier/providerBundleIdentifier/providerIdentifier/applicationIdentifier/sourceIdentifier；remoteHandleValue/handleValue/address/remoteHandle/handle；displayName/localizedName/callerName/remoteName/callerDisplayName），并把每个键的命中/缺失结果写进 voip_diag.log，日志可直接判定可用键名；handleCall 诊断行增加通话 UUID 便于对账。2.2.18 调整：录音列表取不到联系人名称时，第一行不再显示「未知号码」，改为直接显示「渠道·号码」（如「微信·138 1234 5678」）；有名称则仍为「渠道·名称·号码」，两者均无则只显示渠道。2.2.03 修复：桌面悬浮药丸透明/去边框样式按背景反色的文字颜色，由「截图采样背景亮度（默认 0.5s 刷新，总比系统状态栏反转慢半拍）」改为「跟随系统状态栏前景色」——系统状态栏 setForegroundColor 变化时立即同步反色（事件驱动、零延迟），截图采样降级为兜底。2.2.04 修复：2.2.03 跟随系统状态栏反色在某些机型/场景导致药丸「直接不变色」——系统信号读取不可靠时 luma 被永久锁死、截图采样兜底被短路；现系统信号改为带 0.35s 时效（过期自动回退截图采样，绝不锁死），并新增 iOS17 STUIStatusBar setStyle: 这一可靠反转入口直接推送状态栏风格枚举（白字/黑字），多入口互补。2.2.05 修复：随反色出现「变色后又恢复、过一会才再变色」的抖动——系统信号 0.35s 时效过期后被截图采样拉回旧色；现系统状态栏信号一旦收到即持续有效（setStyle/setForegroundColor 为系统权威反转入口，不再过期），截图采样仅在从未收到系统信号时兜底，反色稳定跟随系统状态栏、零抖动。另修正与现有 STUIStatusBar setStyle hook 的编译冲突。2.2.06 修复：切浅色背景时药丸刚反转为黑字又立刻被拉回白字——iOS17 上旧的 _UIStatusBar setForegroundColor / UIStatusBar layoutSubviews 转发也会触发，且其 foregroundColor 可能恒白（非主状态栏文字色），覆盖了 STUIStatusBar setStyle: 的正确反转信号；现两处低优先级转发仅在无 STUIStatusBar（iOS15/16 非灵动岛）时启用，iOS17 只信任 setStyle: 权威入口，反色不再被覆盖回跳。2.2.07 重构：跟随系统状态栏信号的方案在灵动岛机型上不可靠（主屏状态栏文字可能不随壁纸反色，导致悬浮药丸恒白/反转错乱）；现回归「按药丸自身背景亮度反色」——把背景亮度采样频率从默认 0.5s 提升到独立 0.1s 高频轮询（仅透明/去边框样式启用），浅背景黑字/深背景白字的直觉正确性恢复，且响应接近即时，不再慢半拍；移除 STUIStatusBar setStyle / _UIStatusBar setForegroundColor / UIStatusBar 的三处状态栏信号转发。2.2.08 提速：反色仍比状态栏慢一点（0.1s 轮询固有延迟）；现把背景亮度采样间隔从 0.1s 收紧到 0.05s（20fps），并让截图只渲染药丸所在区域（不再渲染整个窗口 bounds，降低高频采样开销），反转响应接近即时。2.2.09 修复充电受影响：安装/升级 MUtool 时 postinst 会执行 --restore 清理工具，它每次都会写 IORegistry（IsCharging/ExternalConnected/PredictiveChargingInhibit）并触碰 SMC 充电键、强杀正在运行的 daemon，干扰系统充电状态；现升级路径不再执行 --restore（仅停止残留 daemon + 删除残留文件，不写入任何充电状态），SMC/IORegistry 历史残留清理仅在卸载时由 prerm 执行；排查确认 daemon 正常运行/worker/温控均不写充电键。
+Name: MUtool
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
 Architecture: iphoneos-arm64e
 Version: 2.1.18
 Section: Tweaks
@@ -24438,6 +25142,26 @@ SHA256: 288d78283f22f155d56f90db5ff1bac8b783786fcdb64615c0da014584c147a1
 SHA512: 9dc57f3128b8d947af28242c0a185cbac7aa4c8a40fff66e82826948eaf7bf60292f1ce21c1900cd65c7333682d9f7b945573cacf76ef76baceb0c2b0e455d43
 Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音（接入提示音、MagSafe 动画、灵动岛电池与电池提醒）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（二级分类：锁屏增强 / 主屏幕增强 / 桌面增强，所有说明统一以 ⓘ 图标点击查看；锁屏：自动进桌面、解锁显示、通知亮屏、锁屏禁用与隐藏、唤醒与锁屏、锁屏充电胶囊、动作反馈；主屏幕：禁用项、隐藏项、小组件多选拖动、底栏设置、动画与后台；桌面：图标下载进度条与阴影、桌面电源菜单）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息。2.2.01 彻底移除充电限制/充电控制功能（阻止充电、阻止电源、限充阈值、智能充电计划、温度停充、满血充电、充电诊断日志），充电行为完全回归系统默认；升级/卸载自动清理历史版本写入的 SMC/IORegistry 充电残留与守护进程。2.2.02 修复 VoIP 通话录音：①修复 VoIP 录音已录到但通话录音列表不显示的问题（无号码录音不再被索引过滤）；②修复 VoIP 录音命名错误——从 CallKit 通话记录获取真正发起通话的 App（例如在闲鱼界面接听微信通话时正确命名「微信」而非前台「闲鱼」），并记录通话对方标识；③录音记录改为单一索引文件（recordings.json）追加写入，不再每次通话生成一个新 .json 文件。2.2.03 修复与增强：①修复 VoIP 录音导致 SpringBoard 桌面进程崩溃（微信 VoIP 通话回调在 SpringBoard 主线程同步加载 MobileCoreServices 卡死主线程触发 watchdog 超时，改为纯内存静态映射）；②电话 App 录音列表改用固定行高手写布局（滚动更流畅）+ 底部安全区域适配；③录音列表改为按最新在前平铺展示、不再按联系人分组，并调整为三行格式（渠道·联系人 / 方向·号码或用户 ID / 日期 时间·通话时长·文件大小），VoIP 记录新增通信渠道字段（微信/FaceTime 等），来电登记对方姓名与 wxid 用户 ID。2.2.04 彻底修复：①SpringBoard 崩溃根治——2.2.02/2.2.03 的 VoIP CXCallObserver delegate 设为主队列，微信来电时 callUpdated 在 SpringBoard 主线程解析 CXCall 私有字段（KVC bundleIdentifier/remoteHandle/displayName 等）长时间占用主线程触发 watchdog 60s 超时崩溃；现将 delegate 队列改为后台串行队列，CXCall 解析全部在后台完成，仅把门控与录音/UI 操作提交回主线程，主线程零负担；②修复电话 App 录音列表最后两条被底部 Tab 栏遮挡——child VC 铺满挂载时安全区不含 tabBar 高度，改为沿视图层级找到 UITabBar 并动态将表格底部 contentInset 加上 Tab 栏高度，最后记录可完整滚动到 Tab 上方。2.2.05 修复：电话 App 录音列表仍无法滑到最底端、最后几条被底部 Tab 栏挡住——2.2.04 沿 superview 查找 UITabBar 失败（Tab 栏是 UITabBarController 视图里的兄弟浮层，并非本视图祖先），从未真正加上 inset；改为通过 tabBarController（含父链兜底）定位 Tab 栏，并按表视图与 Tab 栏在表视图坐标系中的实际几何重叠量设置底部 contentInset，最后一个 cell 可完整滚动到 Tab 栏上方。2.2.06 修复：电话 App 录音列表页滚动到底部时底部 Tab 栏变透明、内容透出——iOS 15+ 在列表滚到相邻边缘时启用透明的 scrollEdge 外观；现将录音列表页显示期间的 Tab 栏 scrollEdge 外观改为不透明（沿用原图标/文字配色），离开页面时恢复，使录音列表底栏与其他页面一致。2.2.07 修复与优化：①电话 App 录音列表页底部 Tab 栏由不透明改为系统标准高斯模糊（毛玻璃）效果，与其它页面底栏观感一致；②录音列表拿不到用户名（无姓名，或姓名只是号码/wxid 本身）时，第一行用户名槽显示「未知号码」，不再空白或只显示渠道；③个人收藏页被录音列表替换后，隐藏原收藏页左上角「+」按钮，退出替换时恢复。2.2.08 修复：个人收藏页被录音列表替换后，导航栏「编辑/添加」按钮（及语音留言页「+」）仍残留——原实现只在首次挂载时隐藏一次，被替换 VC 后续 viewWillAppear/viewDidAppear 会重新补上系统按钮；现改为每次出现都重复隐藏（已挂载分支也收敛），并新增 viewDidAppear 兜底 hook，按钮不再残留；开关关闭退出替换时恢复原按钮。另确认 2.2.01 起插件已彻底移除充电限制/充电控制代码（daemon 仅承载定时唤醒调度，SMC 充电键仅在卸载清理 --restore 时恢复默认），不会再阻止充电。2.2.09 修复：微信 VoIP 来电接通后灵动岛通话弹窗卡死、无法挂断，对方挂断后弹窗仍不消失、桌面被看门狗结束——2.2.02 起为修正命名改用 CXCall 私有键（valueForKey bundleIdentifier/remoteHandle/displayName）获取通讯 App 与对方标识，该私有键访问在微信来电时触发系统误判主线程无响应；现取消该获取方式，完全回归「电话 App 获取方式」：CXCall 只读公开属性，通讯 App 名统一经前台 App 名（_MUCFrontmostAppName）在主线程获取，与 2.2.01 之前一致，通话不再卡死。2.2.10 修复：在 2.2.09 完全取消 CXCall 私有 KVC 的基础上，把 VoIP 录音功能进一步回退到 2.2.01 的可靠实现——CXCallObserver delegate 队列改回主线程队列，通话状态回调直接在主线程处理（只读 CXCall 公开属性），前台 App 名统一经 _MUCFrontmostAppName 获取，与 2.2.01 之前行为一致；同时保留录音列表三行布局、底栏遮挡修复与收藏页按钮隐藏等增强。2.2.14 修复：微信 VoIP 来电在主屏幕接听瞬间 SpringBoard 主线程被看门狗终结（60s 无响应）——定位到前台 App 名查询 _MUCFrontmostAppName() 在 SpringBoard 主线程做同步跨进程调用（_accessibilityFrontMostApplication 走 Accessibility daemon RPC、SBSCopyFrontmostApplicationDisplayIdentifier 走 backboardd mach），接听瞬间系统正做通话 UI 过渡极易长时间阻塞/死锁主线程；现将前台 App 名改为独立后台线程每 1s 轮询一次并缓存，主线程只读缓存字符串，命名路径上不再有任何主线程同步 IPC；同时恢复诊断日志落盘（CallRecordings/voip_diag.log，异步追加，主线程只投递一行），并埋点 handleCall/音频 hint/startRec 全链路，若异常可凭日志精确定位。2.2.15 修复：进一步落实 1.9.102 已验证的教训——SBSCopyFrontmostApplicationDisplayIdentifier 在 SpringBoard 进程内任何线程调用都会 XPC 自连 SpringBoardServices 死锁，现从 SpringBoard 代码中彻底移除该私有 API 调用（不再有任何线程调用它）；前台 App 名仅保留后台线程的 accessibility 显示名查询，主线程只读缓存，命名与稳定性两者兼顾。2.2.16 修复与调整：①第三方 App（微信等）VoIP 录音恢复获取对方名称/号码、渠道不再只显示 VoIP——参照电话 App 通话记录的获取原理（CallKit 同一数据源），CXCallObserver delegate 队列改回后台串行队列，在后台解析 CXCall 私有 KVC（bundleIdentifier 静态表→微信/WhatsApp 等渠道名、remoteHandle→对方号码或 wxid、displayName/localizedName→对方姓名），姓名缺失时后台按号码反查通讯录；前台 App 名缓存兜底，主线程零同步 IPC（延续 2.2.15 彻底移除 SBSCopy，杜绝看门狗）；②电话 App 录音列表与设置内录音列表格式调回两行：第一行「渠道·联系人名称·联系人号码」，第二行「呼出/接听·日期 时间 · 录音时长 ·录音大小」，行高收紧。2.2.17 修复：2.2.16 的 CXCall 私有键名在 iOS 17 取不到值（bundleIdentifier/remoteHandle/displayName 全部 nil，录音仍显示 VoIP·未知号码）；现将 CXCall KVC 改为多键候选逐键探测（bundleIdentifier/providerBundleIdentifier/providerIdentifier/applicationIdentifier/sourceIdentifier；remoteHandleValue/handleValue/address/remoteHandle/handle；displayName/localizedName/callerName/remoteName/callerDisplayName），并把每个键的命中/缺失结果写进 voip_diag.log，日志可直接判定可用键名；handleCall 诊断行增加通话 UUID 便于对账。2.2.18 调整：录音列表取不到联系人名称时，第一行不再显示「未知号码」，改为直接显示「渠道·号码」（如「微信·138 1234 5678」）；有名称则仍为「渠道·名称·号码」，两者均无则只显示渠道。
 Name: MUtool(roothide)
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64e
+Version: 2.2.09
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 4812
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64e/com.muzi.mutool_2.2.09_iphoneos-arm64e_8cfcbd434594821298b2a046c2ced6391e026b1d4b8ad4e98e35bb0c4e2f5660.deb
+Size: 750516
+MD5sum: d5cd824e60d3c436f1b9d0b4c1d08f74
+SHA1: 770f540d932b77d0bee72cff409d974d0014c98c
+SHA256: 8cfcbd434594821298b2a046c2ced6391e026b1d4b8ad4e98e35bb0c4e2f5660
+SHA512: 58b9add6fb92d6f97dc878224e9b5a004ae137cd295d5d00510e0c53b2f632f5d4b04037564763996755c242fbea9407bb04c48f825547f18ebc2a8ca51b7474
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音（接入提示音、MagSafe 动画、灵动岛电池与电池提醒）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（二级分类：锁屏增强 / 主屏幕增强 / 桌面增强，所有说明统一以 ⓘ 图标点击查看；锁屏：自动进桌面、解锁显示、通知亮屏、锁屏禁用与隐藏、唤醒与锁屏、锁屏充电胶囊、动作反馈；主屏幕：禁用项、隐藏项、小组件多选拖动、底栏设置、动画与后台；桌面：图标下载进度条与阴影、桌面电源菜单）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息。2.2.01 彻底移除充电限制/充电控制功能（阻止充电、阻止电源、限充阈值、智能充电计划、温度停充、满血充电、充电诊断日志），充电行为完全回归系统默认；升级/卸载自动清理历史版本写入的 SMC/IORegistry 充电残留与守护进程。2.2.02 修复 VoIP 通话录音：①修复 VoIP 录音已录到但通话录音列表不显示的问题（无号码录音不再被索引过滤）；②修复 VoIP 录音命名错误——从 CallKit 通话记录获取真正发起通话的 App（例如在闲鱼界面接听微信通话时正确命名「微信」而非前台「闲鱼」），并记录通话对方标识；③录音记录改为单一索引文件（recordings.json）追加写入，不再每次通话生成一个新 .json 文件。2.2.03 修复与增强：①修复 VoIP 录音导致 SpringBoard 桌面进程崩溃（微信 VoIP 通话回调在 SpringBoard 主线程同步加载 MobileCoreServices 卡死主线程触发 watchdog 超时，改为纯内存静态映射）；②电话 App 录音列表改用固定行高手写布局（滚动更流畅）+ 底部安全区域适配；③录音列表改为按最新在前平铺展示、不再按联系人分组，并调整为三行格式（渠道·联系人 / 方向·号码或用户 ID / 日期 时间·通话时长·文件大小），VoIP 记录新增通信渠道字段（微信/FaceTime 等），来电登记对方姓名与 wxid 用户 ID。2.2.04 彻底修复：①SpringBoard 崩溃根治——2.2.02/2.2.03 的 VoIP CXCallObserver delegate 设为主队列，微信来电时 callUpdated 在 SpringBoard 主线程解析 CXCall 私有字段（KVC bundleIdentifier/remoteHandle/displayName 等）长时间占用主线程触发 watchdog 60s 超时崩溃；现将 delegate 队列改为后台串行队列，CXCall 解析全部在后台完成，仅把门控与录音/UI 操作提交回主线程，主线程零负担；②修复电话 App 录音列表最后两条被底部 Tab 栏遮挡——child VC 铺满挂载时安全区不含 tabBar 高度，改为沿视图层级找到 UITabBar 并动态将表格底部 contentInset 加上 Tab 栏高度，最后记录可完整滚动到 Tab 上方。2.2.05 修复：电话 App 录音列表仍无法滑到最底端、最后几条被底部 Tab 栏挡住——2.2.04 沿 superview 查找 UITabBar 失败（Tab 栏是 UITabBarController 视图里的兄弟浮层，并非本视图祖先），从未真正加上 inset；改为通过 tabBarController（含父链兜底）定位 Tab 栏，并按表视图与 Tab 栏在表视图坐标系中的实际几何重叠量设置底部 contentInset，最后一个 cell 可完整滚动到 Tab 栏上方。2.2.06 修复：电话 App 录音列表页滚动到底部时底部 Tab 栏变透明、内容透出——iOS 15+ 在列表滚到相邻边缘时启用透明的 scrollEdge 外观；现将录音列表页显示期间的 Tab 栏 scrollEdge 外观改为不透明（沿用原图标/文字配色），离开页面时恢复，使录音列表底栏与其他页面一致。2.2.07 修复与优化：①电话 App 录音列表页底部 Tab 栏由不透明改为系统标准高斯模糊（毛玻璃）效果，与其它页面底栏观感一致；②录音列表拿不到用户名（无姓名，或姓名只是号码/wxid 本身）时，第一行用户名槽显示「未知号码」，不再空白或只显示渠道；③个人收藏页被录音列表替换后，隐藏原收藏页左上角「+」按钮，退出替换时恢复。2.2.08 修复：个人收藏页被录音列表替换后，导航栏「编辑/添加」按钮（及语音留言页「+」）仍残留——原实现只在首次挂载时隐藏一次，被替换 VC 后续 viewWillAppear/viewDidAppear 会重新补上系统按钮；现改为每次出现都重复隐藏（已挂载分支也收敛），并新增 viewDidAppear 兜底 hook，按钮不再残留；开关关闭退出替换时恢复原按钮。另确认 2.2.01 起插件已彻底移除充电限制/充电控制代码（daemon 仅承载定时唤醒调度，SMC 充电键仅在卸载清理 --restore 时恢复默认），不会再阻止充电。2.2.09 修复：微信 VoIP 来电接通后灵动岛通话弹窗卡死、无法挂断，对方挂断后弹窗仍不消失、桌面被看门狗结束——2.2.02 起为修正命名改用 CXCall 私有键（valueForKey bundleIdentifier/remoteHandle/displayName）获取通讯 App 与对方标识，该私有键访问在微信来电时触发系统误判主线程无响应；现取消该获取方式，完全回归「电话 App 获取方式」：CXCall 只读公开属性，通讯 App 名统一经前台 App 名（_MUCFrontmostAppName）在主线程获取，与 2.2.01 之前一致，通话不再卡死。2.2.10 修复：在 2.2.09 完全取消 CXCall 私有 KVC 的基础上，把 VoIP 录音功能进一步回退到 2.2.01 的可靠实现——CXCallObserver delegate 队列改回主线程队列，通话状态回调直接在主线程处理（只读 CXCall 公开属性），前台 App 名统一经 _MUCFrontmostAppName 获取，与 2.2.01 之前行为一致；同时保留录音列表三行布局、底栏遮挡修复与收藏页按钮隐藏等增强。2.2.14 修复：微信 VoIP 来电在主屏幕接听瞬间 SpringBoard 主线程被看门狗终结（60s 无响应）——定位到前台 App 名查询 _MUCFrontmostAppName() 在 SpringBoard 主线程做同步跨进程调用（_accessibilityFrontMostApplication 走 Accessibility daemon RPC、SBSCopyFrontmostApplicationDisplayIdentifier 走 backboardd mach），接听瞬间系统正做通话 UI 过渡极易长时间阻塞/死锁主线程；现将前台 App 名改为独立后台线程每 1s 轮询一次并缓存，主线程只读缓存字符串，命名路径上不再有任何主线程同步 IPC；同时恢复诊断日志落盘（CallRecordings/voip_diag.log，异步追加，主线程只投递一行），并埋点 handleCall/音频 hint/startRec 全链路，若异常可凭日志精确定位。2.2.15 修复：进一步落实 1.9.102 已验证的教训——SBSCopyFrontmostApplicationDisplayIdentifier 在 SpringBoard 进程内任何线程调用都会 XPC 自连 SpringBoardServices 死锁，现从 SpringBoard 代码中彻底移除该私有 API 调用（不再有任何线程调用它）；前台 App 名仅保留后台线程的 accessibility 显示名查询，主线程只读缓存，命名与稳定性两者兼顾。2.2.16 修复与调整：①第三方 App（微信等）VoIP 录音恢复获取对方名称/号码、渠道不再只显示 VoIP——参照电话 App 通话记录的获取原理（CallKit 同一数据源），CXCallObserver delegate 队列改回后台串行队列，在后台解析 CXCall 私有 KVC（bundleIdentifier 静态表→微信/WhatsApp 等渠道名、remoteHandle→对方号码或 wxid、displayName/localizedName→对方姓名），姓名缺失时后台按号码反查通讯录；前台 App 名缓存兜底，主线程零同步 IPC（延续 2.2.15 彻底移除 SBSCopy，杜绝看门狗）；②电话 App 录音列表与设置内录音列表格式调回两行：第一行「渠道·联系人名称·联系人号码」，第二行「呼出/接听·日期 时间 · 录音时长 ·录音大小」，行高收紧。2.2.17 修复：2.2.16 的 CXCall 私有键名在 iOS 17 取不到值（bundleIdentifier/remoteHandle/displayName 全部 nil，录音仍显示 VoIP·未知号码）；现将 CXCall KVC 改为多键候选逐键探测（bundleIdentifier/providerBundleIdentifier/providerIdentifier/applicationIdentifier/sourceIdentifier；remoteHandleValue/handleValue/address/remoteHandle/handle；displayName/localizedName/callerName/remoteName/callerDisplayName），并把每个键的命中/缺失结果写进 voip_diag.log，日志可直接判定可用键名；handleCall 诊断行增加通话 UUID 便于对账。2.2.18 调整：录音列表取不到联系人名称时，第一行不再显示「未知号码」，改为直接显示「渠道·号码」（如「微信·138 1234 5678」）；有名称则仍为「渠道·名称·号码」，两者均无则只显示渠道。2.2.03 修复：桌面悬浮药丸透明/去边框样式按背景反色的文字颜色，由「截图采样背景亮度（默认 0.5s 刷新，总比系统状态栏反转慢半拍）」改为「跟随系统状态栏前景色」——系统状态栏 setForegroundColor 变化时立即同步反色（事件驱动、零延迟），截图采样降级为兜底。2.2.04 修复：2.2.03 跟随系统状态栏反色在某些机型/场景导致药丸「直接不变色」——系统信号读取不可靠时 luma 被永久锁死、截图采样兜底被短路；现系统信号改为带 0.35s 时效（过期自动回退截图采样，绝不锁死），并新增 iOS17 STUIStatusBar setStyle: 这一可靠反转入口直接推送状态栏风格枚举（白字/黑字），多入口互补。2.2.05 修复：随反色出现「变色后又恢复、过一会才再变色」的抖动——系统信号 0.35s 时效过期后被截图采样拉回旧色；现系统状态栏信号一旦收到即持续有效（setStyle/setForegroundColor 为系统权威反转入口，不再过期），截图采样仅在从未收到系统信号时兜底，反色稳定跟随系统状态栏、零抖动。另修正与现有 STUIStatusBar setStyle hook 的编译冲突。2.2.06 修复：切浅色背景时药丸刚反转为黑字又立刻被拉回白字——iOS17 上旧的 _UIStatusBar setForegroundColor / UIStatusBar layoutSubviews 转发也会触发，且其 foregroundColor 可能恒白（非主状态栏文字色），覆盖了 STUIStatusBar setStyle: 的正确反转信号；现两处低优先级转发仅在无 STUIStatusBar（iOS15/16 非灵动岛）时启用，iOS17 只信任 setStyle: 权威入口，反色不再被覆盖回跳。2.2.07 重构：跟随系统状态栏信号的方案在灵动岛机型上不可靠（主屏状态栏文字可能不随壁纸反色，导致悬浮药丸恒白/反转错乱）；现回归「按药丸自身背景亮度反色」——把背景亮度采样频率从默认 0.5s 提升到独立 0.1s 高频轮询（仅透明/去边框样式启用），浅背景黑字/深背景白字的直觉正确性恢复，且响应接近即时，不再慢半拍；移除 STUIStatusBar setStyle / _UIStatusBar setForegroundColor / UIStatusBar 的三处状态栏信号转发。2.2.08 提速：反色仍比状态栏慢一点（0.1s 轮询固有延迟）；现把背景亮度采样间隔从 0.1s 收紧到 0.05s（20fps），并让截图只渲染药丸所在区域（不再渲染整个窗口 bounds，降低高频采样开销），反转响应接近即时。2.2.09 修复充电受影响：安装/升级 MUtool 时 postinst 会执行 --restore 清理工具，它每次都会写 IORegistry（IsCharging/ExternalConnected/PredictiveChargingInhibit）并触碰 SMC 充电键、强杀正在运行的 daemon，干扰系统充电状态；现升级路径不再执行 --restore（仅停止残留 daemon + 删除残留文件，不写入任何充电状态），SMC/IORegistry 历史残留清理仅在卸载时由 prerm 执行；排查确认 daemon 正常运行/worker/温控均不写充电键。
+Name: MUtool
 Author: Muzi
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
@@ -28465,6 +29189,47 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.62
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1424
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64/com.quicklaunch.tweak_0.1.62_iphoneos-arm64_579bbee47077ba5be06bbfdb2b60a28693971acb08a61efd2604f4c6fe8e80f2.deb
+Size: 261268
+MD5sum: e25f939a1c8d5ac571c4018cf97f80d4
+SHA1: 751ed7a2b78408f4966f774b0267d80b29da3a3f
+SHA256: 579bbee47077ba5be06bbfdb2b60a28693971acb08a61efd2604f4c6fe8e80f2
+SHA512: 62008ae2e8e6997f96e131589e0633c8cbc23eb3a099f52f30ba9c8bba04b7fc13baefcfc923585e83ba07289bba1b34c2d5d94699006395446c53081c50da8e
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
 Architecture: iphoneos-arm64e
 Version: 0.1.44
 Priority: optional
@@ -28622,6 +29387,47 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
  Select any number of rail apps; scroll within a fixed eight-slot viewport.
  Tap notification apps to open and remove them; long-press for the full list.
  Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64e
+Version: 0.1.62
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 784
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64e/com.quicklaunch.tweak_0.1.62_iphoneos-arm64e_6bd2b77bfbe66e842655571d70fe14f9ed410f800296e8198e206e17f775ef03.deb
+Size: 191612
+MD5sum: 47687bcbe3e609bdb227c97c02d84548
+SHA1: ae5766fa0f7f5768182dce1b96982f7f7cb762cc
+SHA256: 6bd2b77bfbe66e842655571d70fe14f9ed410f800296e8198e206e17f775ef03
+SHA512: 99e7552f4aacecc5b996513e3ce8e9574274dd05e43a49ee663c8b51e9c31e7c37347d6e4b4f1ccd95231fd2f7b0b85308c34e32205ac7a4e7c883cdd5bbcdd2
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
  The border turns green when charging and red below 20 percent battery.
  Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
  Five adaptive dock shapes include a short bar, thermometer, dot and pill.
@@ -39259,6 +40065,46 @@ Name: ThemeCore
 Author: SuSuDear
 Icon: https://repo.susubaby.cn/icons/ThemeCore.png
 
+Package: com.taikulayyds.rotatefree
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 412
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.34306.upsidedowned
+Replaces: com.34306.upsidedowned
+Filename: debs/iphoneos-arm64/com.taikulayyds.rotatefree_1.0.0_iphoneos-arm64_59bf2c687802c499ea97fbd5b21198a82b27e15354b024588ddf693ddea7ae5b.deb
+Size: 51416
+MD5sum: fe468c606d010f0e93b1c37b9a467271
+SHA1: b9e9580c813f86325051964f606921632ccc15ea
+SHA256: 59bf2c687802c499ea97fbd5b21198a82b27e15354b024588ddf693ddea7ae5b
+SHA512: d326f7985fbe86d383e4862bf2ec7c5625742f7e80d3a9a3cf926d60d89c54d71c44c379aeef344d5c44e46a8d67dc1c30076b3a95280da523f5c5f6c6b67676
+Description: 屏幕内容跟随手机状态随心旋转，可以上下左右自由旋转。设置内可单独指定app或者锁屏/主屏幕状态。
+Name: 旋转随心 · RotateFree
+Author: 34306, KhanhDuyTran, taikulayyds
+Icon: https://github.com/taikulayyds/icon/raw/refs/heads/mina/rotatefree.png
+
+Package: com.taikulayyds.rotatefree
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 412
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.34306.upsidedowned
+Replaces: com.34306.upsidedowned
+Filename: debs/iphoneos-arm64e/com.taikulayyds.rotatefree_1.0.0_iphoneos-arm64e_953dfe3f1a9073ee2ab5325e5df1ba9580e4c20575a2328e5c138e8b9323a86f.deb
+Size: 51376
+MD5sum: c5a56dafb06d0df74c1ae98ee462c6b6
+SHA1: 52df00ea2eda29c3cbfdc20084f2ac86b97d8eba
+SHA256: 953dfe3f1a9073ee2ab5325e5df1ba9580e4c20575a2328e5c138e8b9323a86f
+SHA512: aeb35c8f1e056049df579ca13a2500b4df643dceaac72de9fafeed9262521f6824e6603230730d8d0040279291929fc123d756822ce26740ab054343bf359a79
+Description: 屏幕内容跟随手机状态随心旋转，可以上下左右自由旋转。设置内可单独指定app或者锁屏/主屏幕状态。
+Name: 旋转随心 · RotateFree
+Author: 34306, KhanhDuyTran, taikulayyds
+Icon: https://github.com/taikulayyds/icon/raw/refs/heads/mina/rotatefree.png
+
 Package: com.thefool.ccaudioplay
 Architecture: iphoneos-arm64
 Version: 0.0.1-7+debug
@@ -44730,6 +45576,44 @@ Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与�
 Name: SpatialScene
 Author: banana
 icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.springboardaction
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 608
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0), firmware (<< 19.0)
+Conflicts: com.cameronkatri.quickactions
+Filename: debs/iphoneos-arm64/iya.banana.springboardaction_1.0.0_iphoneos-arm64_62471ca9452f2961b0098d7dcc3d2ae783b16d9651278f17467c896ad6dfff37.deb
+Size: 80868
+MD5sum: 778d94eac21c834b68fe1c43c5abda8b
+SHA1: 9a77d3f7d9c014902c9a29fcc74de8afccbd8971
+SHA256: 62471ca9452f2961b0098d7dcc3d2ae783b16d9651278f17467c896ad6dfff37
+SHA512: b2347fe014851276e2574d8b11c151e8ad7630861ae646b0615658e59c2b7bf54bd5386c379833927e037567210fca33de3bba61e48056eca955c1981376fa0c
+Description: 适用于iOS 16-18的自定义锁定屏幕快速操作、应用程序和快捷方式。Custom lock screen quick actions, apps, and shortcuts for iOS 16-18.
+Name: SpringBoardAction
+Author: Banana
+icon: https://huayuarc.github.io/icon/springboardaction.png
+
+Package: iya.banana.springboardaction
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 588
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0), firmware (<< 19.0)
+Conflicts: com.cameronkatri.quickactions
+Filename: debs/iphoneos-arm64e/iya.banana.springboardaction_1.0.0_iphoneos-arm64e_acc4af51acec414ff7c2a8442409555ab4198bfe40f5a8409074fd5813e5961d.deb
+Size: 78516
+MD5sum: 9bc412beebde31399a265750f187851a
+SHA1: 83af6d8d4aeff44f367bf5524f8f7e3854eeac96
+SHA256: acc4af51acec414ff7c2a8442409555ab4198bfe40f5a8409074fd5813e5961d
+SHA512: f8f886bf05217c4d86213b82a6f3967866736187e879de5a71291f6a58db19ff28b4607fe2c777719a532539ea1e8fcb0b4c0b769628a5d0e150a31ab6258244
+Description: 适用于iOS 16-18的自定义锁定屏幕快速操作、应用程序和快捷方式。Custom lock screen quick actions, apps, and shortcuts for iOS 16-18.
+Name: SpringBoardAction
+Author: Banana
+icon: https://huayuarc.github.io/icon/springboardaction.png
 
 Package: iya.banana.springboardgame
 Architecture: iphoneos-arm64
