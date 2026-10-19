@@ -4243,12 +4243,60 @@ Maintainer: Axs <qiaozhani000@163.com>
 Installed-Size: 1032
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
 Conflicts: com.axs.screenlocktime
+Filename: debs/iphoneos-arm64/com.axs.bigtime_5.2.0-81_iphoneos-arm64_7c5f2b4ca2455dcf599bc556287d56920f109ce731ba1e52b9d3d4d66a9fec75.deb
+Size: 172548
+MD5sum: cff1745b7890fc27a9600ac42ada23fe
+SHA1: 0d2012f9123865ec5204b5928120d72c7272d33f
+SHA256: 7c5f2b4ca2455dcf599bc556287d56920f109ce731ba1e52b9d3d4d66a9fec75
+SHA512: 52b4d763366ca4629cba72a2c65fc0085c88a96a2a26b44c87c1e39b74614b9fd59c63c41e413060181c6b3f0f1a5f8c16db87cd267c7c9ae835fb7116b1e617
+Description: 一个简单的锁屏时钟插件，支持在设置面板导入或选择 OTF、TTF 字体，素材目录为 /var/mobile/Axs/字体素材。
+ * 1.锁屏大字时钟玻璃效果，隐藏系统时间（锁屏时）;
+ * 2.支持锁屏时钟启用开关、帧率上限和垂直偏移调节;
+ * 3.支持玻璃边缘、模糊、厚度和折射调节;
+ * 4.支持浅色/深色染色强度与深浅模式覆盖;
+ * 5.支持 iOS 16+ 可变字体粗细、大小、宽度、高度和柔和度调节。
+Name: BigTime
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/bigtime.png
+
+Package: com.axs.bigtime
+Architecture: iphoneos-arm64
+Version: 5.2.0-81
+Section: Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 1032
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Conflicts: com.axs.screenlocktime
 Filename: debs/iphoneos-arm64/com.axs.bigtime_5.2.0-81_iphoneos-arm64_9afb36751427751767dae000a0f19c31ec41bdecb289f15a999d934f5ecf73b1.deb
 Size: 173252
 MD5sum: 9f3ecd5592b0d19901fd04d7fd494604
 SHA1: 2e138c1c8f1f753c7976421a5120968099f6ec39
 SHA256: 9afb36751427751767dae000a0f19c31ec41bdecb289f15a999d934f5ecf73b1
 SHA512: a45d315f97782214a9787c607334df4ab799c2c83000c0c99fa1681f81fa80644bb371c2d10a9b252e16362070e393b3145d395c01df711646bd07876b275145
+Description: 一个简单的锁屏时钟插件，支持在设置面板导入或选择 OTF、TTF 字体，素材目录为 /var/mobile/Axs/字体素材。
+ * 1.锁屏大字时钟玻璃效果，隐藏系统时间（锁屏时）;
+ * 2.支持锁屏时钟启用开关、帧率上限和垂直偏移调节;
+ * 3.支持玻璃边缘、模糊、厚度和折射调节;
+ * 4.支持浅色/深色染色强度与深浅模式覆盖;
+ * 5.支持 iOS 16+ 可变字体粗细、大小、宽度、高度和柔和度调节。
+Name: BigTime
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/bigtime.png
+
+Package: com.axs.bigtime
+Architecture: iphoneos-arm64e
+Version: 5.2.0-81
+Section: Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 1032
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Conflicts: com.axs.screenlocktime
+Filename: debs/iphoneos-arm64e/com.axs.bigtime_5.2.0-81_iphoneos-arm64e_b6fe85200a03266725ea216c7b9ec30687e8a36670c4c59992e69c311c3b93e5.deb
+Size: 171628
+MD5sum: c0f34c2c89b9371c13b1b00c3a9aa0e6
+SHA1: 437678d7f38618887d876d11708585c7e32d9641
+SHA256: b6fe85200a03266725ea216c7b9ec30687e8a36670c4c59992e69c311c3b93e5
+SHA512: ca732d00435a88a1f1d6e37023f401c831ab3e77a10464f9eff7e47b25b13ee239f1cbf33289b5d967578e6098c726ebf7dc25dba07a1926509f9a7a1c4207f4
 Description: 一个简单的锁屏时钟插件，支持在设置面板导入或选择 OTF、TTF 字体，素材目录为 /var/mobile/Axs/字体素材。
  * 1.锁屏大字时钟玻璃效果，隐藏系统时间（锁屏时）;
  * 2.支持锁屏时钟启用开关、帧率上限和垂直偏移调节;
@@ -7702,6 +7750,139 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.79
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1564
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.79_iphoneos-arm64_857d18211c7b29ff4d25ca7dda873e64f974df169fb658c11e6877df5f16c428.deb
+Size: 548220
+MD5sum: fac0159720a48287665959dcb2261e20
+SHA1: e455943a68b8eec0b22911864d58f1817b978167
+SHA256: 857d18211c7b29ff4d25ca7dda873e64f974df169fb658c11e6877df5f16c428
+SHA512: 0848bef05ff0f755444f2379087cdffc0082282d6104fcdd35851101d4916cc7df980288e46772876fb3237d39875c746de787ffe6e923cdcb4add6913e9e049
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.79 同步 QuickLaunch 系统工具】
+ - 新增 25 个工具，共 66 项，可搜索并独立配置四个方向
+ - 新增系统录屏与开麦录屏、截图编辑、独立区域截图框选复制和分享
+ - 新增 Siri、搜索、资源库、摇一摇、语音控制等辅助功能及 iPad 工具
+ - 新增 8 项 Open 窗口操作，以及自动亮度、夜览、原彩切换
+ - 运行时校验接口及设备支持，录屏等待回执，失败提示具体原因
+ - 无 QuickLaunch 安装依赖；Open 工具需要对应插件，保留全部原有功能
+ .
+ 【保留的 Open 分屏窗口返回】
+ - 点击悬浮球返回当前活动 Open 窗口的上一层，精确匹配应用进程与托管场景
+ - 原生导航首页再次点击仅收起当前窗口，不让底层 App 回桌面
+ - 多窗口跟随 Open 焦点，目标不明、切换或场景未连接时不误操作底层应用
+ - 保留键盘隐藏与避让、横屏手势、双击固定及原有打开方式
+ .
+ 【保留的 Open 分屏窗口】
+ - 应用打开方式新增 Open 分屏窗口，四个方向分别保存
+ - 参考 QuickLaunch 的 TrollOpenJB 1.5.2 接口，运行时检查兼容性
+ - 插件缺失或接口不兼容时全屏打开，提交后不重复启动，不绕过窗口限制
+ - 仅应用动作显示打开方式；保留横屏手势、键盘避让及原有功能
+ .
+ 【保留的横屏四向手势坐标修复】
+ - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
+ - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
+ - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
+ - 诊断增加最近一次手势的坐标、方向及窗口变换信息
+ .
+ 【保留的自动旋转显示与拖动修复】
+ - 全局球使用跟随前台方向的独立内容区域，覆盖桌面宿主仍竖屏的横屏 App
+ - 不再强制覆盖系统窗口及根视图尺寸，避免自动旋转后显示和触摸区域被裁切
+ - 拖动边界使用转换后的安全区域，横屏可上下左右调整位置
+ - 位置按可见区域比例保存与恢复，旋转后限制在屏幕内，普通切换不移动
+ .
+ 【保留的横屏滑动方向修复】
+ - 四向动作按当前界面方向识别，兼容左右横屏及返回竖屏
+ - 统一转换屏幕坐标，兼容前台横屏而全局窗口仍为竖屏，避免重复旋转
+ - 滑动中旋转取消当前手势，保留固定位置、自由拖动和键盘行为
+ - 修复 UIKit 提前更新窗口尺寸时漏掉旋转布局，避免悬浮球留在屏幕边缘外
+ .
+ 【保留的截图并复制】
+ - 四向滑动的工具选项新增“截图并复制（不保存）”，无需外部截图插件
+ - 截取屏幕图片后只写入系统剪贴板，不调用相册保存或系统截图编辑流程
+ - 截图前短暂隐藏悬浮球，完成或失败后恢复；切换界面或锁屏时取消待执行截图
+ .
+ 【保留的自定义键盘避让高度】
+ - 设置增加键盘避让高度，0.1 到 10 厘米，滑块、加减及数字输入，按 0.1 厘米调整
+ - 默认改为 1 厘米，保存后立即重新计算，保留原位置和双击固定模式
+ - 避让区域包含键盘上方缓冲带，空间不足时限制在顶部可见范围内
+ - 键盘收起恢复原位置，保留双击固定模式、四向动作、返回及长按菜单
+ .
+ 【保留的双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64e
 Version: 6.37
 Section: Tweaks
@@ -8236,6 +8417,139 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
  .
  【6.76 横屏四向手势坐标修复】
+ - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
+ - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
+ - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
+ - 诊断增加最近一次手势的坐标、方向及窗口变换信息
+ .
+ 【保留的自动旋转显示与拖动修复】
+ - 全局球使用跟随前台方向的独立内容区域，覆盖桌面宿主仍竖屏的横屏 App
+ - 不再强制覆盖系统窗口及根视图尺寸，避免自动旋转后显示和触摸区域被裁切
+ - 拖动边界使用转换后的安全区域，横屏可上下左右调整位置
+ - 位置按可见区域比例保存与恢复，旋转后限制在屏幕内，普通切换不移动
+ .
+ 【保留的横屏滑动方向修复】
+ - 四向动作按当前界面方向识别，兼容左右横屏及返回竖屏
+ - 统一转换屏幕坐标，兼容前台横屏而全局窗口仍为竖屏，避免重复旋转
+ - 滑动中旋转取消当前手势，保留固定位置、自由拖动和键盘行为
+ - 修复 UIKit 提前更新窗口尺寸时漏掉旋转布局，避免悬浮球留在屏幕边缘外
+ .
+ 【保留的截图并复制】
+ - 四向滑动的工具选项新增“截图并复制（不保存）”，无需外部截图插件
+ - 截取屏幕图片后只写入系统剪贴板，不调用相册保存或系统截图编辑流程
+ - 截图前短暂隐藏悬浮球，完成或失败后恢复；切换界面或锁屏时取消待执行截图
+ .
+ 【保留的自定义键盘避让高度】
+ - 设置增加键盘避让高度，0.1 到 10 厘米，滑块、加减及数字输入，按 0.1 厘米调整
+ - 默认改为 1 厘米，保存后立即重新计算，保留原位置和双击固定模式
+ - 避让区域包含键盘上方缓冲带，空间不足时限制在顶部可见范围内
+ - 键盘收起恢复原位置，保留双击固定模式、四向动作、返回及长按菜单
+ .
+ 【保留的双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.79
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1564
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.79_iphoneos-arm64e_8ace9e87d552d6f3c2ce0edeb9bb81f5255798d8fd6168b82343f9751c99b4d1.deb
+Size: 548136
+MD5sum: aa02599ff4c85dfc28d4456144f5cfef
+SHA1: 65d0049c9a4973dea007a65b40baac3962087f46
+SHA256: 8ace9e87d552d6f3c2ce0edeb9bb81f5255798d8fd6168b82343f9751c99b4d1
+SHA512: f711a4354502f46cade0251246fb1fdb625a9a5efb260bb80af5f98facefd2539cab43bca237a87c58195009c790dd5d22a23667b3e69f56bd8fd6a50f2270e5
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.79 同步 QuickLaunch 系统工具】
+ - 新增 25 个工具，共 66 项，可搜索并独立配置四个方向
+ - 新增系统录屏与开麦录屏、截图编辑、独立区域截图框选复制和分享
+ - 新增 Siri、搜索、资源库、摇一摇、语音控制等辅助功能及 iPad 工具
+ - 新增 8 项 Open 窗口操作，以及自动亮度、夜览、原彩切换
+ - 运行时校验接口及设备支持，录屏等待回执，失败提示具体原因
+ - 无 QuickLaunch 安装依赖；Open 工具需要对应插件，保留全部原有功能
+ .
+ 【保留的 Open 分屏窗口返回】
+ - 点击悬浮球返回当前活动 Open 窗口的上一层，精确匹配应用进程与托管场景
+ - 原生导航首页再次点击仅收起当前窗口，不让底层 App 回桌面
+ - 多窗口跟随 Open 焦点，目标不明、切换或场景未连接时不误操作底层应用
+ - 保留键盘隐藏与避让、横屏手势、双击固定及原有打开方式
+ .
+ 【保留的 Open 分屏窗口】
+ - 应用打开方式新增 Open 分屏窗口，四个方向分别保存
+ - 参考 QuickLaunch 的 TrollOpenJB 1.5.2 接口，运行时检查兼容性
+ - 插件缺失或接口不兼容时全屏打开，提交后不重复启动，不绕过窗口限制
+ - 仅应用动作显示打开方式；保留横屏手势、键盘避让及原有功能
+ .
+ 【保留的横屏四向手势坐标修复】
  - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
  - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
  - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
@@ -12567,6 +12881,24 @@ Author: 航
 icon: https://huayuarc.github.io/icon/keyboardeffects.png
 
 Package: com.hang.keyboardeffects
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 744
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.hang.keyboardeffects_1.2_iphoneos-arm64_48b79b33827db3df13f765f8fd6786e8c13d7a09235ec4fc1ed24f59296b2c62.deb
+Size: 125584
+MD5sum: 6db11903126809e41388714a55e875a5
+SHA1: ef53786715032a1f0a786e6c28faf1d6c2871d5f
+SHA256: 48b79b33827db3df13f765f8fd6786e8c13d7a09235ec4fc1ed24f59296b2c62
+SHA512: 0bcaadccbbe744d3bb8e854fd56d4cbb0413b33e6b17823c61396d149da9db3bb7eb09a67ba78e890d58cd65dfc710bf743b58af36ebc6ba800f03404ca4923b
+Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
+Name: 键盘特效
+Author: 航
+icon: https://huayuarc.github.io/icon/keyboardeffects.png
+
+Package: com.hang.keyboardeffects
 Architecture: iphoneos-arm64e
 Version: 1.1
 Section: Tweaks
@@ -12579,6 +12911,24 @@ MD5sum: b328b5243559ecfbb2aeccf9b3d04463
 SHA1: 79bd5d7b31c3c1acb416e034eabe80673738ddb4
 SHA256: 09189e8b19561ad9b8d742808fd8e4f0b1560e3b7eaf2c096c273d0dbf4273c0
 SHA512: ae818bee7837a01d07c985fe34f44616388fdb55ed35974c4221268991dbdafa17bae30a5d87ce847b23f0ad28809b0f580fc216bf6d20c5d9c4e0b11ce6d170
+Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
+Name: 键盘特效
+Author: 航
+icon: https://huayuarc.github.io/icon/keyboardeffects.png
+
+Package: com.hang.keyboardeffects
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 744
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.hang.keyboardeffects_1.2_iphoneos-arm64e_63bd0514d015ebf71325c02210ebe06400ec333f0e63ab84df18ff0bfb938062.deb
+Size: 125772
+MD5sum: 72c9abe1d7c6a2e3da7bbf6f382d9394
+SHA1: 924456d5b59f63aa177758ae7e5f423d764a9c02
+SHA256: 63bd0514d015ebf71325c02210ebe06400ec333f0e63ab84df18ff0bfb938062
+SHA512: 0daedd4df486e075938f0bbc5cd61e167e30f3d11202f9841d62f9c03e63041dfe5620553576f6e569e733ebc5031c1cc6495130b7cca542667c01e269a2b78c
 Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
 Name: 键盘特效
 Author: 航
@@ -12844,6 +13194,25 @@ Author: hierarch
 Icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64
+Version: 0.6.3
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 2476
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.hierarch.dykiller_0.6.3_iphoneos-arm64_3f714f495346a2c4195947e12ea313e9e57e88e48750570d3348458cbb664830.deb
+Size: 597680
+MD5sum: eeb6bd90649813375d53914b03be613b
+SHA1: 37ffa33088dfc57ccbb60ebc41e3f4d645976990
+SHA256: 3f714f495346a2c4195947e12ea313e9e57e88e48750570d3348458cbb664830
+SHA512: 91f934400c9944cc5a5f904861b8bcf201dab32b50e454f3a5ec23d244169e992a8be143bb831670b4931ae3239f64572da71dee48f02f433d702e3911a90323
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
 Architecture: iphoneos-arm64e
 Version: 0.5.5
 Priority: optional
@@ -12933,6 +13302,25 @@ MD5sum: 51b73d021fd472673b4b35ba6b78ccf5
 SHA1: 8ea546eb40684c26b726da1ae4fb4901d44d1e80
 SHA256: 3fa9265d120bee61425ad56095b49c39059c149b3c1731e0cd18ea7ac720f9b3
 SHA512: d2cb54f9c042da7df6bbdaad68ae6c5b1772b4808a51d7d60a60d11c6584ac5b1e6a559e8f6fa73b02d1fc14fa9c6a0814e063348d6188daf97a118327acd7e2
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64e
+Version: 0.6.3
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 2476
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.hierarch.dykiller_0.6.3_iphoneos-arm64e_207c2797db9061b74931e33c5de0414b7b351b8fde83e4c53a5de9d4d3e50b5a.deb
+Size: 597696
+MD5sum: 14d7734fb930aa0c6446e02dda9f77b8
+SHA1: 2c66265488def32ab2315627ce212928f3f88ff6
+SHA256: 207c2797db9061b74931e33c5de0414b7b351b8fde83e4c53a5de9d4d3e50b5a
+SHA512: 6fc720ea70c484cbef61a541ca1d90683afe186b87d577ec5a9620bd0a6e5890f3ed69ec2d0a36fe985c729e9e1a9a2b8ff05d86bf62f755dad58a6a9efa24e5
 Description: 抖音 UI 增强插件（模块化 hook 框架）
 Name: DYKiller
 Author: hierarch
@@ -15696,6 +16084,24 @@ icon: https://huayuarc.github.io/icon/SneakyCam.png
 
 Package: com.huayuarc.sneakycam
 Architecture: iphoneos-arm64
+Version: 2.1.2
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 880
+Depends: firmware (>= 15.0), firmware (<= 17.4), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.huayuarc.sneakycam_2.1.2_iphoneos-arm64_a1b73aa9aa965f86367dbc5885cc5ecf310a7d60931f668fbcf546090fbc51f1.deb
+Size: 138340
+MD5sum: 891acb61aaca4e08725a19e1977b66a4
+SHA1: c4ffa760b209705a1ed6cadf806e281d3b5f57ae
+SHA256: a1b73aa9aa965f86367dbc5885cc5ecf310a7d60931f668fbcf546090fbc51f1
+SHA512: 1c9f9cbeb2fa8d01302d86e68c93e7c0bc88950ffa657c05b9449f80afffa446326f68dd219770550d003ccc50485568dc9114787eca06097687ab194d276cd3
+Description: Native SneakyCam capture build for iOS 15.0–17.4, Dopamine rootless and RootHide. 支持锁屏拍照/录像、录像声音、跨设备摄像头回退、会话中断恢复和多代音量键 API。视频或照片默认保存到系统相册，也可保存至 /var/mobile/Media/Camera。
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64
 Version: 2.1.3
 Section: Tweaks
 Maintainer: Huayuarc
@@ -16032,6 +16438,24 @@ SHA1: 8975e39cf2ef101fd31a88eca58ca2fa5836e7b7
 SHA256: a963ac919092bdcce64e996ddc1c1096410ad6041b6edc8cd3b05656a464c49e
 SHA512: 782ab3b4655cb39e9083432e2c2495918de21652c26217713b158f54ce04c0e8d844daa399d398e68f955f5a4a5667d6cf798c564fc6814e4d55b099232350ff
 Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Name: SneakyCam 隐私相机
+Author: Huayuarc,Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.1.2
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 448
+Depends: firmware (>= 15.0), firmware (<= 17.4), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.huayuarc.sneakycam_2.1.2_iphoneos-arm64e_6c567096a987133a33a69fbf48724e2350222c239609141321da36d8b95c50e7.deb
+Size: 124320
+MD5sum: 9d6923b34531bd266b4a6e39b72bde2c
+SHA1: ebdac972ebaacfd30e8b3f6c511a46b15ce0008a
+SHA256: 6c567096a987133a33a69fbf48724e2350222c239609141321da36d8b95c50e7
+SHA512: 45cdb11a0c2cda174e78ef744cefc3d094410e0b503c5d8edae0f7a3dc72192047bde0ee289035fb90ae49adf2d6b94cbd2b911d913fe0a1569d5f6f11517eda
+Description: Native SneakyCam capture build for iOS 15.0–17.4, Dopamine rootless and RootHide. 支持锁屏拍照/录像、录像声音、跨设备摄像头回退、会话中断恢复和多代音量键 API。视频或照片默认保存到系统相册，也可保存至 /var/mobile/Media/Camera。
 Name: SneakyCam 隐私相机
 Author: Huayuarc,Spark
 icon: https://huayuarc.github.io/icon/SneakyCam.png
@@ -19558,6 +19982,42 @@ Name: Zone 交互壁纸/视频壁纸
 Author: iosdump
 Icon: https://huayuarc.github.io/icon/Zone.png
 
+Package: com.iosrxwy.vvebofix
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: iosrxwy
+Installed-Size: 220
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.iosrxwy.vvebofix_1.0.1_iphoneos-arm64_143d66689b4227ed486733bf7c070d12719fd2a5aefbc211ef36b69bad68ce29.deb
+Size: 49680
+MD5sum: 3835368a624dfb83afc76681e94b6596
+SHA1: 22f2b68d62c8760eac7dec6b147b33427ff6933b
+SHA256: 143d66689b4227ed486733bf7c070d12719fd2a5aefbc211ef36b69bad68ce29
+SHA512: 5c525e43fc6f3d55905e6aa461952715b6f28d4f0d2316295de63654116aeac5973233f02d99bc6bec89a3ee4c5936bddb3beff13967d3f2e831598480f4e56e
+Description: 修复 VVebo 主页时间线，恢复专业版，把反馈入口改到作者频道。实况图可以点开播放，长按可以保存和分享。切换账号不再打开频道。三指双击打开设置，长按底栏编辑按钮打开或关闭设置。时间线、实况图、会员和 120Hz 默认开启
+Name: VVeboFix
+Author: iosrxwy
+icon: https://huayuarc.github.io/icon/vvebo.jpg
+
+Package: com.iosrxwy.vvebofix
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: iosrxwy
+Installed-Size: 220
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.iosrxwy.vvebofix_1.0.1_iphoneos-arm64e_f3d0ff6b556b02969884626bda7d56d4587d5e7062d0346d0326a5287687cfec.deb
+Size: 49632
+MD5sum: f4a6de6546d9590875d97a51375e1d7e
+SHA1: 00f6c5563fe8ca0e76612ed6f5b633562d089bcc
+SHA256: f3d0ff6b556b02969884626bda7d56d4587d5e7062d0346d0326a5287687cfec
+SHA512: b4a45244a61df924106140a3abf1999918692ff5907390e56750d7ca6d5399bcd2f6046066020266a64bbc673cf3e339f65d0268161dc199b69dc2bf9c85c69c
+Description: 修复 VVebo 主页时间线，恢复专业版，把反馈入口改到作者频道。实况图可以点开播放，长按可以保存和分享。切换账号不再打开频道。三指双击打开设置，长按底栏编辑按钮打开或关闭设置。时间线、实况图、会员和 120Hz 默认开启
+Name: VVeboFix
+Author: iosrxwy
+icon: https://huayuarc.github.io/icon/vvebo.jpg
+
 Package: com.iosrxwy.weibonoads
 Architecture: iphoneos-arm64
 Version: 1.1-12
@@ -19577,6 +20037,24 @@ Author: iosrxwy
 icon: https://huayuarc.github.io/icon/weibonoads.jpg
 
 Package: com.iosrxwy.weibonoads
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Section: Tweaks
+Maintainer: iosrxwy
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.iosrxwy.weibonoads_1.2.4_iphoneos-arm64_97f61e1f567fe098739b97417166d6b5e60e0d7e472895a3c196bbf561d99758.deb
+Size: 107076
+MD5sum: b5776ca02f72fdd79425b4aac0d4e2a5
+SHA1: 2916846ec83f810dab041138f2c816a0eadbaf2b
+SHA256: 97f61e1f567fe098739b97417166d6b5e60e0d7e472895a3c196bbf561d99758
+SHA512: 1bc2ca8d0eddb1a6e4b1d9b19c56d7db3a66dc9d3c55af7e078d53d1f56ee07267faa3f1274c8513c436b3a0c21e76dc3d96f61082f3437de7f48762197f3a5e
+Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。闪退后，下次打开会提示并可以导出日志。三指双击打开设置，长按底栏「我」开关设置
+Name: 微博 NoAds
+Author: iosrxwy
+icon: https://huayuarc.github.io/icon/weibonoads.jpg
+
+Package: com.iosrxwy.weibonoads
 Architecture: iphoneos-arm64e
 Version: 1.1-12
 Section: Tweaks
@@ -19591,6 +20069,24 @@ SHA1: 097dcdfd07e6008dd020cd8f5dc0318e29a52291
 SHA256: b5197ad9fd1ab82ac439f381992f45c083a185a52188b1e4c4bc6c78c4886212
 SHA512: e12581803dd44340fc870435544e9ec7f2b4ee92582a982d8075f5ff00f6ac630b3bc718fbd8c10119067ec2cc6ead4f4a8d0051cdc70d9b7c4688d069b06214
 Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。三指双击打开设置，长按底栏「我」开关设置
+Name: 微博 NoAds
+Author: iosrxwy
+icon: https://huayuarc.github.io/icon/weibonoads.jpg
+
+Package: com.iosrxwy.weibonoads
+Architecture: iphoneos-arm64e
+Version: 1.2.4
+Section: Tweaks
+Maintainer: iosrxwy
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.iosrxwy.weibonoads_1.2.4_iphoneos-arm64e_952092efae921933f040ada60a111b5f1627c0eba0d66f145239e0d6af46fce6.deb
+Size: 107044
+MD5sum: fefa201a798c8957395e338ac3ae7b79
+SHA1: d1a5c3725eaaf93469fe68a93ecc9ed8f3a25ddd
+SHA256: 952092efae921933f040ada60a111b5f1627c0eba0d66f145239e0d6af46fce6
+SHA512: 9421214dbdedc02fa47638db8091ade9835a9d0f5990afbb0e19f1b442cc7dfe8c386d2ea889a64b90e38de458f8694a4e60f4611200c481ba19be62fbc36b09
+Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。闪退后，下次打开会提示并可以导出日志。三指双击打开设置，长按底栏「我」开关设置
 Name: 微博 NoAds
 Author: iosrxwy
 icon: https://huayuarc.github.io/icon/weibonoads.jpg
@@ -25137,6 +25633,26 @@ Author: Muzi
 icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
 
 Package: com.muzi.keyboardx
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 7236
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.muzi.keyboardx_1.0.9_iphoneos-arm64_b0eed646615308a35d3fa9a2e881dd93195cdd4144919038d209c77d982b320a.deb
+Size: 1802540
+MD5sum: 345a8dd30f287f15530472b092152de2
+SHA1: 9ef5ca0c8953812e358dd52230d3fa531a3f8ea1
+SHA256: b0eed646615308a35d3fa9a2e881dd93195cdd4144919038d209c77d982b320a
+SHA512: 03f67100efd5da24daeb206d73069feef28d5465b9be1586da1fea078de3db5131f1b458d9d437542b56dfb1618ab0e42a8357427e85b1d239551ac0443f6c23
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Name: KeyboardX
+Author: Muzi
+icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
+
+Package: com.muzi.keyboardx
 Architecture: iphoneos-arm64e
 Version: 1.0.2
 Section: Tweaks
@@ -25151,6 +25667,26 @@ MD5sum: e5077f0c2b6a02fd7dc87afe6b221621
 SHA1: 383dade3d43f737672daa4e137c5c39b80d15ebe
 SHA256: d4811a01f01a01a3debb2baf92f9a999566d5a572bdb45cf48906661b98727be
 SHA512: 46c34b5172ca19c09eba80e2f974ca8efd0f95402bd0b8fb285da9db2b022cca195755cf77e057b80b25687cb4777c772fc738e83c12957e378818283c1631f5
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Name: KeyboardX
+Author: Muzi
+icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
+
+Package: com.muzi.keyboardx
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 7188
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.muzi.keyboardx_1.0.9_iphoneos-arm64e_b29c4e58e33560a8de033bbacb3e155bb9584b5a50c6a0da53a01ec6cd0bb993.deb
+Size: 1795164
+MD5sum: 6aa99ced477cac34985ecb5469418aaa
+SHA1: 7af68e89f3e5d48982255a0ed16a8bcc763baa3b
+SHA256: b29c4e58e33560a8de033bbacb3e155bb9584b5a50c6a0da53a01ec6cd0bb993
+SHA512: f937bb29bfc8adf433a05ff17a89b668935279628f910accf9f6ef260b4d0f4a4a8efe89c4f7916dc2b2f1e50dc8d687721e69b05fe29619b5e9bc429ea2dd36
 Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
 Name: KeyboardX
 Author: Muzi
@@ -29305,6 +29841,27 @@ Icon: https://qq391160.github.io/repo/icons/thermal.png
 
 Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64
+Version: 2.0.146
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4196
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.146_iphoneos-arm64_dfb02d9315ad247328eaa184cc64b4e3557378a9d9155813235ed243042ddb84.deb
+Size: 614344
+MD5sum: bad00398e3ee9e625dc093838cd8c74e
+SHA1: c756b6482014453176d56918df5e06f61e47e9f1
+SHA256: dfb02d9315ad247328eaa184cc64b4e3557378a9d9155813235ed243042ddb84
+SHA512: 66ad26508d20399ed0e7eb7e5dc96f2a804d29206483b6ede404350dafead026043d79c7c4a4faba5f620c83d50ffe8acc713a0c1cfdf73c6c4753b1e1b0f86e
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
 Version: 2.0.3
 Priority: optional
 Section: Tweaks
@@ -29598,6 +30155,27 @@ MD5sum: d54e6b6317e44f1aa083db607f2d6efb
 SHA1: a796e0eba2b5bed0eb9a2298b473718302770c79
 SHA256: a7585915dc8835314a7d1592e2db5897104216c112ce9479868aa05baaae60d2
 SHA512: 0da0eeba6a6f1dfd494ab5652f4c69bf3608846895dc558ef73cbed13413673b07e98418d268fc02005267cf00ca8db3fd0ddff0ff4fc44ff5857809447d990a
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.146
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4448
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.146_iphoneos-arm64e_63bb40dbbc1485b2b9b1f1a78a5e331048fe26241aa7f2d7389f66deade8a39b.deb
+Size: 673768
+MD5sum: 50589606c68973ef18b874a78350bc35
+SHA1: cd60b4d622c928d980fd0c3e96e738d804ec307a
+SHA256: 63bb40dbbc1485b2b9b1f1a78a5e331048fe26241aa7f2d7389f66deade8a39b
+SHA512: 5b5f74d133bf2845dbda0b2cfdda422594088b451d50c1de45e4619a5c69722526da48d1cff70bfba792040460e9201ca99cdd17aa2fce6774d8f147521629fc
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
@@ -30082,6 +30660,65 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.76
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 2192
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64/com.quicklaunch.tweak_0.1.76_iphoneos-arm64_c85322cb769d7a77586203155da6230c7160b301dd62e9af595a534d7fbb615a.deb
+Size: 417844
+MD5sum: 5a579fa347b964214cd1b4955ca0bb99
+SHA1: 0d070984c098089d08468ad69948f9439266854d
+SHA256: c85322cb769d7a77586203155da6230c7160b301dd62e9af595a534d7fbb615a
+SHA512: 876671097ae3bcb0bba433bb16f1bfcb74390ca86aca06eeea19c7db8a693dfec9d39fd00b0049237a7b4b722a0351d043d2eb79ee4e7b3f18e345d61627f63c
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Adds automatic brightness, Night Shift, True Tone and independent region screenshot selection.
+ Follow the foreground App interface orientation and independently choose recent background Apps or saved favorites per menu.
+ Synchronizes cross-process menu preferences and shows a dedicated recent/favorite selection page.
+ Compensates the actual overlay host transform to prevent duplicate landscape rotation.
+ Preserves favorite Apps and actions when switching content sources.
+ Adds 21 shared tools including acknowledged screen recording, accessibility actions and optional Open window management.
+ Shared tool dispatch validates runtime method encodings and uses the same lock-state sources as overlay visibility.
+ Separate system tools, URLs and Shortcuts lists for each rail, capsule and radial menu.
+ Radial apps, tools, URLs and Shortcuts share consecutive slots across the same concentric rings.
+ Consecutive circular app and action slots with adjustable spacing; rail and capsule actions appear inline beside apps.
+ Shared custom URL images or name tiles in every menu.
+ Host-aware SpringBoard and LaunchServices URL dispatch with ordinary app fallback and failure feedback.
+ Customizable center icon with an independent app, tool, URL or Shortcut binding and photo/file artwork.
+ Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
+ Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
+ Shared square or circular icon frames across all quick menus and radial previews.
+ Choose fullscreen, PullOver-X, ScreenCore, Open or FV split windows independently for all menus.
+ Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
+ Optional floatingView 1.6.0-6 bridge using its in-process app-opening notification.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
 Architecture: iphoneos-arm64e
 Version: 0.1.44
 Priority: optional
@@ -30393,6 +31030,65 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
+Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64e
+Version: 0.1.76
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1200
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64e/com.quicklaunch.tweak_0.1.76_iphoneos-arm64e_c0adebace65bd592ed5d5c543e91fe69f264f1c96c3192bc5b6b7e0bf90cd1bf.deb
+Size: 287292
+MD5sum: 943f8c28853104835143e59581bbc253
+SHA1: 04f35e0d0ce10b8d36be1e43e88cdd3d807b07b0
+SHA256: c0adebace65bd592ed5d5c543e91fe69f264f1c96c3192bc5b6b7e0bf90cd1bf
+SHA512: 1112aeb105269c26fecd45febdffcb79e9cc4c7bbccba4fc3ea457eacb2c4df6b88ae26f4158e8befef21a99fbe0d5ed3929f045e46ad3ea78adae56ab40af65
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Adds automatic brightness, Night Shift, True Tone and independent region screenshot selection.
+ Follow the foreground App interface orientation and independently choose recent background Apps or saved favorites per menu.
+ Synchronizes cross-process menu preferences and shows a dedicated recent/favorite selection page.
+ Compensates the actual overlay host transform to prevent duplicate landscape rotation.
+ Preserves favorite Apps and actions when switching content sources.
+ Adds 21 shared tools including acknowledged screen recording, accessibility actions and optional Open window management.
+ Shared tool dispatch validates runtime method encodings and uses the same lock-state sources as overlay visibility.
+ Separate system tools, URLs and Shortcuts lists for each rail, capsule and radial menu.
+ Radial apps, tools, URLs and Shortcuts share consecutive slots across the same concentric rings.
+ Consecutive circular app and action slots with adjustable spacing; rail and capsule actions appear inline beside apps.
+ Shared custom URL images or name tiles in every menu.
+ Host-aware SpringBoard and LaunchServices URL dispatch with ordinary app fallback and failure feedback.
+ Customizable center icon with an independent app, tool, URL or Shortcut binding and photo/file artwork.
+ Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
+ Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
+ Shared square or circular icon frames across all quick menus and radial previews.
+ Choose fullscreen, PullOver-X, ScreenCore, Open or FV split windows independently for all menus.
+ Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
+ Optional floatingView 1.6.0-6 bridge using its in-process app-opening notification.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
 Package: com.quickvox.tweak
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -30428,6 +31124,45 @@ Description: 录个音吧
 Name: QuickVox
 Author: 半生年华
 icon: https://huayuarc.github.io/icon/quickvox.png
+
+Package: com.rain.120hzstable
+Architecture: iphoneos-arm64
+Version: 1.3.0
+Section: Tweaks
+Maintainer: Rain
+Installed-Size: 484
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Conflicts: com.rain.120hzpro
+Filename: debs/iphoneos-arm64/com.rain.120hzstable_1.3.0_iphoneos-arm64_6265cc4aaca6f6427eaf605e6c992285e22351354796ce0d2549ed2ccca90c06.deb
+Size: 63656
+MD5sum: 94598c4247a03228bc28174e00cfb830
+SHA1: 604403754bb5d20626e1e451ad0c71339809a176
+SHA256: 6265cc4aaca6f6427eaf605e6c992285e22351354796ce0d2549ed2ccca90c06
+SHA512: c7dc596f1c8c95e6d34e7c2d3135fb5b94423e1eb784108b9a4da8a0cbd131e54e4c31bd4980ea87849097d14b7ff74c2754bb2e4ecba5857348e1c1edcf7509
+Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。支持 iOS 15.0 及以上。
+Name: RainFlow 120Hz
+Author: Rain
+icon: https://huayuarc.github.io/icon/120hzpro.png
+
+Package: com.rain.120hzstable
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Section: Tweaks
+Maintainer: Rain
+Installed-Size: 484
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Conflicts: com.rain.120hzpro
+Filename: debs/iphoneos-arm64e/com.rain.120hzstable_1.3.0_iphoneos-arm64e_28e97e1864a10d6abdc37825b31b7f7263c03f7b18443c5d1a14e89de83854ab.deb
+Size: 62276
+MD5sum: 9da25247d7cf97d75d09da411d6bf338
+SHA1: 1d362b4477ac5cf003ad60dd2c8cb461f7cdb10b
+SHA256: 28e97e1864a10d6abdc37825b31b7f7263c03f7b18443c5d1a14e89de83854ab
+SHA512: b1bbf9d363e31dd33cd1fa1d5767d3ace65ed140737d6517647aca6e004e1adfbce76243f9c0c324c26e8166460f493216414348816834ccbf2d1b1259a166d9
+Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。支持 iOS 15.0 及以上。
+Name: RainFlow 120Hz
+Author: Rain
+icon: https://huayuarc.github.io/icon/120hzpro.png
 
 Package: com.rain.actionbutton
 Architecture: iphoneos-arm64e
@@ -44035,6 +44770,42 @@ Icon: https://huayuarc.github.io/icon/douyin.jpg
 Tags: compatible_min::ios15.0, compatible_max::ios26.0
 Author: Junhong <mail@mjh.im>
 
+Package: danmutool
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Section: Tweaks
+Maintainer: Junhong <mail@mjh.im>
+Installed-Size: 952
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/danmutool_2.0.0_iphoneos-arm64_196acc5efa03e2f5f5c098e2eca6cab6ecd3d3bb69e922d77bf7999a05d69501.deb
+Size: 309132
+MD5sum: 5022dc593b82be6ad8cbceda0a19981e
+SHA1: c0ab92ca0037ef11622e267bdd04044bcb29589c
+SHA256: 196acc5efa03e2f5f5c098e2eca6cab6ecd3d3bb69e922d77bf7999a05d69501
+SHA512: d12346ff094220ee941c3b972fe1039ca8c87410718d0cbca5f9a481eeec722fa546ac01b3d882ed57d10463c9a85a15761a4670984d8b4a139806cfe05d3f11
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Name: 弹幕助手
+Author: Junhong
+icon: https://huayuarc.github.io/icon/danmutool.jpg
+
+Package: danmutool
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Section: Tweaks
+Maintainer: Junhong <mail@mjh.im>
+Installed-Size: 968
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/danmutool_2.0.0_iphoneos-arm64e_24a7216aecca2fdc2ccc6e39b9e2c823b82390387650f2265319e88ebaed2459.deb
+Size: 312376
+MD5sum: 2aa2a328f1a642f6f9f4bca72f583128
+SHA1: c32ffe3b7c8ad40dc2f14a0c9b52bbcd2a5e961d
+SHA256: 24a7216aecca2fdc2ccc6e39b9e2c823b82390387650f2265319e88ebaed2459
+SHA512: 0581112a89cd98a4771bfc8e893ba9edb5c7cce4d1791fbaa0b7b2e1761c84a42bc6a00430e13c30ef66ee14d78fb06e417c096df2094b3ffb48612ab3d1687b
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Name: 弹幕助手
+Author: Junhong
+icon: https://huayuarc.github.io/icon/danmutool.jpg
+
 Package: dev.mineek.appstoretroller
 Architecture: iphoneos-arm64
 Version: 0.0.2-1+debug
@@ -44626,6 +45397,23 @@ Name: 番茄净化
 icon: https://huayuarc.github.io/icon/fanqiefn.jpg
 
 Package: fanqiefn
+Architecture: iphoneos-arm64
+Version: 3.1.1
+Section: Tweaks
+Maintainer: 5hux1n
+Installed-Size: 3008
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/fanqiefn_3.1.1_iphoneos-arm64_07f375062ba3bfb2b63f998a3670f20145f1b5517291d73d79b9ddc3aed60cf8.deb
+Size: 1331356
+MD5sum: cf22db5f6baa65f005e0826309c5011c
+SHA1: dadebf3b3fc81978cea6f67e216b7151a1178f42
+SHA256: 07f375062ba3bfb2b63f998a3670f20145f1b5517291d73d79b9ddc3aed60cf8
+SHA512: a3095a5cf21b8786145fd834a91f5d7b06b7bf7cedf5184e385f05234303f51b07965795329bbc59bdf7260f9ee28d2710cba5e7cfee5325ccf6ff54da01e9e6
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Name: 番茄净化
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+
+Package: fanqiefn
 Architecture: iphoneos-arm64e
 Version: 3.0.1
 Section: Tweaks
@@ -44727,6 +45515,26 @@ MD5sum: 2a0880e6a61865f7e9dbc0a5b7e8fa3e
 SHA1: fccdc742cb9af3b93da86458c8f5a803fcf9ff4c
 SHA256: 06d1b4eadbbf3f8fb4ea541e4fa512187526c6c61c8a8e8ddb7089dfb02137de
 SHA512: 4d3a9da6056a2a69549a560f7191507a6d345bcf101147b9946c8585300a03bb9a302e0e1245511f374f6aa23403f609eb81e15baa1501274100a4170344974b
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Name: 番茄净化
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+
+Package: fanqiefn
+Architecture: iphoneos-arm64e
+Version: 3.1.1
+Section: Tweaks
+Maintainer: 5hux1n
+Installed-Size: 2992
+Provides: fanqiefn
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: fanqiefn
+Replaces: fanqiefn
+Filename: debs/iphoneos-arm64e/fanqiefn_3.1.1_iphoneos-arm64e_fb903bf28cd7e9d65743b88d5ee3f599739c04a624847de07b13a02d51c3797e.deb
+Size: 1324452
+MD5sum: 058e783931d26f1f6352f98a90efbf3d
+SHA1: 14b3e6ca80c3f24e13f47be31cbaf8410e4dabf7
+SHA256: fb903bf28cd7e9d65743b88d5ee3f599739c04a624847de07b13a02d51c3797e
+SHA512: 15a8dfcfe69c0f0b77e37c467166049567c9ec6f9ef2f20fbc67b5405710ef05c6e4150041491484752851d54556995182f059232c2d2b65b179ded28e414c9b
 Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
 Name: 番茄净化
 icon: https://huayuarc.github.io/icon/fanqiefn.jpg
@@ -45102,6 +45910,26 @@ Author: junhong
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
 Package: im.mjh.xianyuadblock
+Architecture: iphoneos-arm64
+Version: 3.2.1
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 1580
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/iphoneos-arm64/im.mjh.xianyuadblock_3.2.1_iphoneos-arm64_fc186d04fd3560d838e4e4c40c7eb807fc7d8eaff66369ea4998d7f81d1a3fe3.deb
+Size: 572880
+MD5sum: 358bd08b21a9bfebc51204189a9165bc
+SHA1: 6e3bc699f8a4e814c1b1d6ee746d8cc39b277ffe
+SHA256: fc186d04fd3560d838e4e4c40c7eb807fc7d8eaff66369ea4998d7f81d1a3fe3
+SHA512: 45fe52161be8fd08197bb78f0fc97f3bea672de94c91a5a2a00373ffd17207ddc88316d5c88fb98bbdd16231d23cfd0f514fece4f6c989cb138e2ae90ae715c1
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Name: 闲鱼助手
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+
+Package: im.mjh.xianyuadblock
 Architecture: iphoneos-arm64e
 Version: 3.0.0
 Section: Tweaks
@@ -45178,6 +46006,26 @@ MD5sum: 4dc97328f2c1a3fe780a67a4478ef540
 SHA1: d55fbdabf2a1446ff702aefcda2646788c4ecdd1
 SHA256: d36422cfbdc8ee2b83970532412af3b65c5e42394967c13fcd63e4a642c384d6
 SHA512: 9dedaacdc4582d216f5783be0ecb79c7b858258f959238085ad31cce72f34c17ee4a5be63d38a6a389b80e92a3d8da50268fad0a2582e2dbb3b4fcdbbd45853e
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Name: 闲鱼助手
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+
+Package: im.mjh.xianyuadblock
+Architecture: iphoneos-arm64e
+Version: 3.2.1
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 1580
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/iphoneos-arm64e/im.mjh.xianyuadblock_3.2.1_iphoneos-arm64e_9d0d2d34962cae379b05558b77b0a3d0335011150fa3c88bdcff7aca21375dd7.deb
+Size: 570532
+MD5sum: e0b628c86d7f4422f17374a662594ac7
+SHA1: b5a88a199e759656555054fe3082a4048b07ee66
+SHA256: 9d0d2d34962cae379b05558b77b0a3d0335011150fa3c88bdcff7aca21375dd7
+SHA512: b2d6b8c3a18a76a2554483e2ec766c65b14f59c7bf61caf1fd54ed0152e04073339d9d703db423b64ca97231ff9d7bb0f7d4ac99f85c041d561691c017e53e25
 Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
 Name: 闲鱼助手
 Author: junhong
