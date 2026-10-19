@@ -3331,6 +3331,24 @@ icon: https://huayuarc.github.io/icon/axiskey.png
 
 Package: com.aa22qq.axiskey
 Architecture: iphoneos-arm64
+Version: 12.0.0
+Section: Tweaks
+Maintainer: aa22qq
+Installed-Size: 976
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.aa22qq.axiskey_12.0.0_iphoneos-arm64_7a08dbf358515f5c0704068459c5d49af963f0756fd3e6f033e17fd4d15fc271.deb
+Size: 136316
+MD5sum: b09919216a846d8dc0ea1174abb1dfa0
+SHA1: 0f060a12ca2cba98a16f435480d1d011954fbd29
+SHA256: 7a08dbf358515f5c0704068459c5d49af963f0756fd3e6f033e17fd4d15fc271
+SHA512: 07280d36704c58ba4b0bdd504c93a68b5e7e5ebaf2c16cc2dbf729803b616c66abd59af2ff0ac09fdd85eae37e444b36dc658d5a52df6dc33de5766ace36b6fd
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Name: AxisKeyGesture (多维轴向按键手势)
+Author: aa22qq
+icon: https://huayuarc.github.io/icon/axiskey.png
+
+Package: com.aa22qq.axiskey
+Architecture: iphoneos-arm64
 Version: 3.0.0
 Section: Tweaks
 Maintainer: aa22qq
@@ -3413,6 +3431,24 @@ MD5sum: a789e872c47bc17b9f515903324ea906
 SHA1: 7cc6356957d69cde1667a8d0cdc0a88f26a6d340
 SHA256: d0e97944de27cdfaa6727d189df041a79ab32d09dba518fe50d3f2bd5217f2b1
 SHA512: 6ff33b7881292e7058c5258964fa48a914eebc6d1bb40db9263925a2eadea61e5184cb43ab9a8443cee36215549964a0f2fc831a4fa5b5310e243c31e01658d3
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Name: AxisKeyGesture (多维轴向按键手势)
+Author: aa22qq
+icon: https://huayuarc.github.io/icon/axiskey.png
+
+Package: com.aa22qq.axiskey
+Architecture: iphoneos-arm64e
+Version: 12.0.0
+Section: Tweaks
+Maintainer: aa22qq
+Installed-Size: 976
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/com.aa22qq.axiskey_12.0.0_iphoneos-arm64e_86853537114d48c1ee5054ed8fd5efbfdf586a2c1d942c00ef504ab996363865.deb
+Size: 136212
+MD5sum: 1a6f58f472321ebf863a580b8592e6b8
+SHA1: 6578c8d8c0d3ccb4d36807eec29748b692ca4cae
+SHA256: 86853537114d48c1ee5054ed8fd5efbfdf586a2c1d942c00ef504ab996363865
+SHA512: c9c2dc45add889a14a12ad5e5559ba3fb41ac76ddb42f40b3235f7a0b4e9bc91a294f714c3550df25ebe7a12c1128f9560dd0c54ddecced315fba5b8a402ab10
 Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
 Name: AxisKeyGesture (多维轴向按键手势)
 Author: aa22qq
@@ -45785,6 +45821,42 @@ Name: 虚拟权限 · Fake Permission
 Author: Junhong
 icon: https://huayuarc.github.io/icon/fakeperm.png
 
+Package: im.mjh.uuscreenswitch
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 172
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/im.mjh.uuscreenswitch_1.0.0_iphoneos-arm64_e40dcf2346239e8af95e4d183e273e07ccb23406056d9a76e159adc51ac454b0.deb
+Size: 13856
+MD5sum: 68d316c68ee82e54789d65a9f1a0c371
+SHA1: 65958ff3ca0124b25b5cf55c0278a244c96370d5
+SHA256: e40dcf2346239e8af95e4d183e273e07ccb23406056d9a76e159adc51ac454b0
+SHA512: 4427d44bd59d3e6fe573396e706ed2ec92925190bfc5ce7445bffb8d1d3c04227f03ae563ecae43a9110950d32e7a42bfd3ed257eff39f423216315e056ca885
+Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
+Name: UU远控切屏
+Author: junhong
+icon: https://huayuarc.github.io/icon/uuscreenswitch.jpg
+
+Package: im.mjh.uuscreenswitch
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 172
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/im.mjh.uuscreenswitch_1.0.0_iphoneos-arm64e_c8b1ca98553abb37976eb533d2aedbbd98b9ec26585927fe0651c98f53c6a3c9.deb
+Size: 13836
+MD5sum: 0c86bb489f30f8886287cf4a7c154673
+SHA1: aaaf203ca46aa04f9c30e9894519db4b8be22458
+SHA256: c8b1ca98553abb37976eb533d2aedbbd98b9ec26585927fe0651c98f53c6a3c9
+SHA512: 221ad4e561d99725bc4a55d6ca6e7b915fc5e929950a72b774e17d320fb9378e53f55adccde4a182e23202354998fc6b6f752e76a64aafeb9ee9b82cdd50309b
+Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
+Name: UU远控切屏
+Author: junhong
+icon: https://huayuarc.github.io/icon/uuscreenswitch.jpg
+
 Package: im.mjh.wclocate
 Architecture: iphoneos-arm64
 Version: 3.0.0
@@ -46715,6 +46787,42 @@ Name: FaceTime Audio Enabler
 Author: hxhlb
 icon: https://huayuarc.github.io/icon/FaceTimeAudioEnabler.png
 
+Package: iya.banana.iphoneduoflow
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1352
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoflow_0.1.1_iphoneos-arm64_950b3af94700673851d7264c672d06fccec9bac9f2d1b48ca54249c75eb99c1d.deb
+Size: 137476
+MD5sum: 02cd552a74016e8e1de4b6425844cb75
+SHA1: 97a0ba7975bb024d9de413b496ab72f758f18324
+SHA256: 950b3af94700673851d7264c672d06fccec9bac9f2d1b48ca54249c75eb99c1d
+SHA512: c5a71482b3088a2721f308f380e29d237ae2e0a0454d296918a7124c11ded36ea91edcbd76a17705e44ca2ee713571bd1a2fc8b245dbbe1b9e6e16572f305272
+Description: 随倾斜变化的场景效果、横屏侧边 Dock与可展开状态星环。Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
+Name: DuoFlow
+Author: Banana
+icon: https://huayuarc.github.io/icon/iphoneduoflow.png
+
+Package: iya.banana.iphoneduoflow
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1352
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoflow_0.1.1_iphoneos-arm64e_0eedfc69c37863f4691a26e1442bfea6efb14e0449b7e497063bddd7dc1d53c8.deb
+Size: 136556
+MD5sum: ee368ae1b4100ec4bbb729a896a5d926
+SHA1: e69bf8faa5a600ca6b1a524d1f5ca617528cc47b
+SHA256: 0eedfc69c37863f4691a26e1442bfea6efb14e0449b7e497063bddd7dc1d53c8
+SHA512: 24d752ec8822c4764420a6b90f5a4e8ee0d211bb168dd0d10f8d767fb7704991719efe2d3be3f3feeb15794733149032dc17bf13173c728aeb5493861498cf31
+Description: 随倾斜变化的场景效果、横屏侧边 Dock与可展开状态星环。Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
+Name: DuoFlow
+Author: Banana
+icon: https://huayuarc.github.io/icon/iphoneduoflow.png
+
 Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -47212,6 +47320,42 @@ Description: 趣味壁纸，为 SpringBoard 提供重力感应的多层、APNG�
 Name: Lenticular Wallpaper
 Author: banana
 icon: https://huayuarc.github.io/icon/LenticularWallpaper.png
+
+Package: iya.banana.multitask
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1940
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/iya.banana.multitask_0.1.1_iphoneos-arm64_de494175ec0f5308ea2b04706b1a37eb14be38e4c4bf9abfe47f8e2b8f79d4a1.deb
+Size: 297736
+MD5sum: 49b6069c379e0f115070357e9894fb0a
+SHA1: 02e24acafe06865ef479d918b82623d9bea58d75
+SHA256: de494175ec0f5308ea2b04706b1a37eb14be38e4c4bf9abfe47f8e2b8f79d4a1
+SHA512: d49c4a87b7f6821a5526200328566fa295e81b62e8b23b014fffe40a528eddcc90dec7cd6603401b175eed105f5807650ec3c9365a91ba6ff36cb0f59f4f8d26
+Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+
+Package: iya.banana.multitask
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1924
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/iya.banana.multitask_0.1.1_iphoneos-arm64e_87b49157185580c82a03050d8d52db3dccc0a7a9cba0f800654310231b3262ee.deb
+Size: 297872
+MD5sum: c1814edd96e09aecd0531e0bb55caf46
+SHA1: 37e3a29bad109a69568548060f9e3ed5ac24dbbd
+SHA256: 87b49157185580c82a03050d8d52db3dccc0a7a9cba0f800654310231b3262ee
+SHA512: 289a2a0ec650a8ba50bcd92f9ac32dbdb38d60127779aba9f27392168fe9c14402b554a25eccbf46b463a5e4dde10cc1cb07ef60df507ce2814f91e2b12c89f2
+Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
 
 Package: iya.banana.musichaptics
 Architecture: iphoneos-arm64
