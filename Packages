@@ -4226,6 +4226,43 @@ Name: BoardSwipe 滑动键盘
 Author: Anubis
 icon: https://huayuarc.github.io/icon/boardswipe.jpg
 
+Package: com.aronsz26.lockscreenrestore
+Architecture: iphoneos-arm64
+Version: 1.9.5
+Section: Tweaks
+Maintainer: aronsz26
+Installed-Size: 768
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.aronsz26.lockscreenrestore_1.9.5_iphoneos-arm64_62062a38b314a5eda146c74456c8b555a64d69c95b74f4f2e21da119fca2c70e.deb
+Size: 134556
+MD5sum: 48188c016f8c1be99f795ae351d278dc
+SHA1: 2b04799af023b3338fdbd95c888677452dbed8b2
+SHA256: 62062a38b314a5eda146c74456c8b555a64d69c95b74f4f2e21da119fca2c70e
+SHA512: d90ef4c98e8bcd7fa9f9b941c445edd7cf0002cfefcc7516f13be2c499a36eb0d4be76b7b2e7934fdb72486588f322a323bcbf5b95c690d87144470921e6f5af
+Description: iOS 16上的iOS 15风格锁定屏幕：时钟、日期、挂锁、聚焦药丸、顶部通知、iOS 15音乐播放器、解锁动画、iOS 15图标标签阴影、实时和动态壁纸以及iOS 15设置>壁纸页面和壁纸下载。每个部件都可以在“设置”中关闭。iOS 15 style lock screen on iOS 16: clock, date, padlock, Focus pill, notifications from the top, iOS 15 music player, unlock animation, iOS 15 icon label shadows, live and dynamic wallpapers and the iOS 15 Settings > Wallpaper page with wallpaper downloads. Each part can be switched off in Settings.
+Name: LockScreenRestore
+Author: aronsz26
+Icon: https://aronsz26.github.io/depictions/lockscreenrestore/depiction/icon.png
+
+Package: com.aronsz26.lockscreenrestore
+Architecture: iphoneos-arm64e
+Version: 1.9.5
+Section: Tweaks
+Maintainer: aronsz26
+Installed-Size: 768
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.aronsz26.lockscreenrestore_1.9.5_iphoneos-arm64e_b17f10b3cfbeea1277e0d7682c6b8b77f1716e63e22a31faefe2a0201a454ad1.deb
+Size: 138352
+MD5sum: cfe8fc52ee24fc69cbb661f9ed195951
+SHA1: c052485dfc38bb7ca2a61db8fda91c4986884d92
+SHA256: b17f10b3cfbeea1277e0d7682c6b8b77f1716e63e22a31faefe2a0201a454ad1
+SHA512: 1736863efe290908db638ed6c9c0e2d80299e9a4803a0a4e235b33261aa06e4eccfd5130189beccac3980eebf9dc673b40f845c7248f629b2f8726ad7fb25f7b
+Description: iOS 16上的iOS 15风格锁定屏幕：时钟、日期、挂锁、聚焦药丸、顶部通知、iOS 15音乐播放器、解锁动画、iOS 15图标标签阴影、实时和动态壁纸以及iOS 15设置>壁纸页面和壁纸下载。每个部件都可以在“设置”中关闭。iOS 15 style lock screen on iOS 16: clock, date, padlock, Focus pill, notifications from the top, iOS 15 music player, unlock animation, iOS 15 icon label shadows, live and dynamic wallpapers and the iOS 15 Settings > Wallpaper page with wallpaper downloads. Each part can be switched off in Settings.
+Name: LockScreenRestore
+Author: aronsz26
+Icon: https://aronsz26.github.io/depictions/lockscreenrestore/depiction/icon.png
+
 Package: com.axs.ahsfilter
 Architecture: iphoneos-arm64
 Version: 5.2.0-3
@@ -46334,6 +46371,26 @@ Name: SafariTools
 Author: YUKU
 icon: https://huayuarc.github.io/icon/Safari.png
 
+Package: com.yuku.safaritools
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Section: Tweaks
+Maintainer: YUKU
+Installed-Size: 324
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
+Conflicts: com.yuku.safarinoinlinecompletion, com.yuku.safarifloatingbar, com.yuku.safarifloatingbardiagnostics
+Replaces: com.yuku.safarinoinlinecompletion, com.yuku.safarifloatingbar, com.yuku.safarifloatingbardiagnostics
+Filename: debs/iphoneos-arm64e/com.yuku.safaritools_0.2.0_iphoneos-arm64e_fcb94a4e7d99209b33b8a9bc1ae0631834dc3467d560fc4a394106719520733b.deb
+Size: 53624
+MD5sum: 4dcad26cfd8e365095232369bfac271f
+SHA1: 5cfc652db16b8bc9f47a05febe231a587552c63e
+SHA256: fcb94a4e7d99209b33b8a9bc1ae0631834dc3467d560fc4a394106719520733b
+SHA512: 12b9723bbcdfaebee2a376fe08ecc16e8038d10be9121234e94f56680b7c3d9fc8022cab16b5d3f953b688bb71d7709c2d65e4ea4fba69bf4b4ee8b39222c090
+Description: 去掉 safari浏览器该死的自动补全跳转，并优化UI 固定的Safari浏览器外观，带有12pt编辑提升和ABI-gated完成保护。没有面板或捕获。Fixed-on Safari appearance with 12pt editing lift and ABI-gated completion protection. No panel or capture.
+Name: SafariTools
+Author: YUKU
+icon: https://huayuarc.github.io/icon/Safari.png
+
 Package: com.yzdmm.kbtheme
 Architecture: iphoneos-arm64
 Version: 1.1.1
@@ -51186,6 +51243,42 @@ SHA256: 4c532ecd18949be3c1c9ae08a9be150d6c58b0fe4b711d4da305e0939252c63b
 SHA512: 1e05e52940fee8565c733376970537c2a5b15a0c7b1faed1e7d9ac697ba13100079438c6d5a52c78064ce42e1d2f8c2f33d53cc65f42a648b7023bb53903cd56
 Description: 在锁定屏幕上显示充满电的剩余时间 Show time left to full charge on your lock screen
 Name: Jikan
+Author: waruhachi
+icon: https://huayuarc.github.io/icon/jikan.png
+
+Package: moe.waru.jikan
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 2380
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/moe.waru.jikan_1.0.2_iphoneos-arm64_9f93f6c10e40d33f3287f2248ae2cf2f056104e133f532e5a075e1413fb51d59.deb
+Size: 347400
+MD5sum: 78ac68891153de94d2a64fbe56c4c404
+SHA1: fae0f415808243b6861c4630405063917cedb4e1
+SHA256: 9f93f6c10e40d33f3287f2248ae2cf2f056104e133f532e5a075e1413fb51d59
+SHA512: efade6e5e52a402db4a8c4e2cf71211a23fbcbb65f41de53e8da8b7930cc726c6124337106987fff03937f688baf7103046095ebec63bb5973907cca5bc26b9c
+Description: 在锁定屏幕上显示充满电的剩余时间 Show time left to full charge on your lock screen
+Name: 锁屏充电胶囊
+Author: waruhachi
+icon: https://huayuarc.github.io/icon/jikan.png
+
+Package: moe.waru.jikan
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 2344
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/moe.waru.jikan_1.0.2_iphoneos-arm64e_3f19d2747286eba7fd18473844c074836576320d41842afc55c85b7f864e95c8.deb
+Size: 348168
+MD5sum: 84a3bd641bba240b0c9f72afd484f1ab
+SHA1: 94d0d959d15ce6345f206d0593e9b0e73764fb68
+SHA256: 3f19d2747286eba7fd18473844c074836576320d41842afc55c85b7f864e95c8
+SHA512: d5833dc34adf67b99dbdb0f80ee3ba75cecfdc11fc697de3f986c3390e0f4039c9bdbb718e9cd4e69c8bd7cfcb6724dbcb2f13bb63af6dd6bf836688fb7df4d3
+Description: 在锁定屏幕上显示充满电的剩余时间 Show time left to full charge on your lock screen
+Name: 锁屏充电胶囊
 Author: waruhachi
 icon: https://huayuarc.github.io/icon/jikan.png
 
