@@ -59119,6 +59119,28 @@ Section: Tweaks
 Maintainer: ray
 Installed-Size: 2148
 Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/me.ray.jev-chat_1.1.1-20261023.1750-1+debug_iphoneos-arm64_06206d62a502b11eaa57dae3df34253525db521ffc1d66556bf7893907b11596.deb
+Size: 437476
+MD5sum: ad216e688fd0bcdb63ac1990ca58fe95
+SHA1: 0aeb5ef94467e7307a64bf22b115134bdf87589c
+SHA256: 06206d62a502b11eaa57dae3df34253525db521ffc1d66556bf7893907b11596
+SHA512: 5ee14414053aeeb3554057b1016ce99039a37c0129ab5a20236aff34d1e9bad65cda929940c39b8147024f7c9e3406702243a0039b6d44ae9ec037544fc1c45a
+Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
+ * ## 一、快速上手（三步）
+ * 1. **装插件**：deb 装完**重启微信**，打开入口 **微信 → 我 → 设置 → Jev Chat**。
+ * 2. **填 API**：「建议回复」页填服务地址 / Key / 模型（生成层，必填）；「意图判断」页选个预设只填 Key（判断层，可不填）。
+ * 3. **启用并选人**：主页「启用插件」→ 打开开关 → 选择联系人。之后对方发消息，消息下方自动出现分析卡片和 4 条建议回复，点 ➤ 直接发送。
+Name: Jev-Chat
+Author: ray
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: me.ray.jev-chat
+Architecture: iphoneos-arm64
+Version: 1.1.1-20261023.1750-1+debug
+Section: Tweaks
+Maintainer: ray
+Installed-Size: 2148
+Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/iphoneos-arm64/me.ray.jev-chat_1.1.1-20261023.1750-1+debug_iphoneos-arm64_325b52b59260499b6180225b9df98d3aa9bcf714b210bb34f594cf74c0ca70de.deb
 Size: 438960
 MD5sum: 256ef70e6a07302cb1eff4f6af7c2d3f
@@ -59145,6 +59167,29 @@ SHA1: 2467d91db55d8ce265cfeb17a96fd3b3d66123f5
 SHA256: 661bd87a4cec24627722e77a09e1792f050624f5d5ccaf014aa898be09f69591
 SHA512: 3bed4e6b5e46d450d9405bc3143ee30528217892bfb000c3f621fc917cb527c47eefe0376e31fc318e857905600f8e8bac8cc5b68f1b9a09f0f9e2c0c289ac05
 Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
+Name: Jev-Chat
+Author: ray
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: me.ray.jev-chat
+Architecture: iphoneos-arm64e
+Version: 1.1.1-20261023.1750-1+debug
+Section: Tweaks
+Maintainer: ray
+Installed-Size: 2148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/me.ray.jev-chat_1.1.1-20261023.1750-1+debug_iphoneos-arm64e_13891336f350dbe639bec7077197678a3c16c3deafcfc3f55b872d753af40bfe.deb
+Size: 427888
+MD5sum: 56156f8209ebd7818072d227167b3dca
+SHA1: e38e84f5aad752a3d348b850af1dfa512c4c2f1a
+SHA256: 13891336f350dbe639bec7077197678a3c16c3deafcfc3f55b872d753af40bfe
+SHA512: 483edf34ab86b72387ea127135f402e14b610c6bc0f3a51dabd02282a63065aea7f161d9698521a37093e10ca5d6b378600bd371105214c57a0b0d3bf3c8cc58
+Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
+ * ## 一、快速上手（三步）
+ * 1. **装插件**：deb 装完**重启微信**，打开入口 **微信 → 我 → 设置 → Jev Chat**。
+ * 2. **填 API**：「建议回复」页填服务地址 / Key / 模型（生成层，必填）；「意图判断」页选个预设只填 Key（判断层，可不填）。
+ * 3. **启用并选人**：主页「启用插件」→ 打开开关 → 选择联系人。之后对方发消息，消息下方自动出现分析卡片和 4 条建议回复，点 ➤ 直接发送。
 Name: Jev-Chat
 Author: ray
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
