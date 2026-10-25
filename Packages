@@ -3391,6 +3391,24 @@ icon: https://huayuarc.github.io/icon/islanddigest.png
 
 Package: com.MoWang.islanddigest
 Architecture: iphoneos-arm64
+Version: 0.3.24
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.MoWang.islanddigest_0.3.24_iphoneos-arm64_87163b3ebeb23344cf7a51bba8340f1d7da8229f8da4a41c8d2385b579a85ad4.deb
+Size: 1251096
+MD5sum: 667f3e929be5da87dd6fb43bd5a44201
+SHA1: 17d1897b4e39b82252e69ece3a46f550e605d13d
+SHA256: 87163b3ebeb23344cf7a51bba8340f1d7da8229f8da4a41c8d2385b579a85ad4
+SHA512: c9438f142945ea9b853553535ccd7b12c124d5586c9e9822772bc49dc74f0275d39966e2d9cdf98ef4ceee8b87fe3c2e37149015b18f6648952e5729d9609158
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。（提升下拉通知流畅度）
+Name: 灵屿通知
+Author: MoWang
+icon: https://huayuarc.github.io/icon/islanddigest.png
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64
 Version: 0.3.3
 Section: Tweaks
 Maintainer: MoWang
@@ -3457,6 +3475,24 @@ SHA1: 85479c751a5bd48ad33b1f8d091d63eb90d68d29
 SHA256: 2db5fd7178ef88138ce4cee6e3d8c5d2feb76bf867238af9c5fa3b22a1befe1c
 SHA512: 5116f08966623736f428e7145c1c44c30a23e149d334b0b5bd317e69c1d52dafee5e9eadbb24dda6cdee974340cf15e9b25c00034fbf6f4adeaf06e90368aa1e
 Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+icon: https://huayuarc.github.io/icon/islanddigest.png
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64e
+Version: 0.3.24
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.MoWang.islanddigest_0.3.24_iphoneos-arm64e_4f92b6f8cf0ed0d61df8b528e431b223c86b025442300b3857aa924796d77559.deb
+Size: 1250624
+MD5sum: fa80d9ebf884ae2651ac10a0b8a68c5f
+SHA1: a4892e393714fa79eb4b7e6ae274fb44264ebed2
+SHA256: 4f92b6f8cf0ed0d61df8b528e431b223c86b025442300b3857aa924796d77559
+SHA512: 426bd3988d7c1d9d53d4f2f2024271e0790aeeee58dc84f841d6ea1ab042922f9f7697e8be9c31ae2143f4ad8a3704a42c0dbe029cf2233a26f1ee1f5ae99e5c
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。（提升下拉通知流畅度）
 Name: 灵屿通知
 Author: MoWang
 icon: https://huayuarc.github.io/icon/islanddigest.png
@@ -19237,6 +19273,24 @@ Author: 航
 Icon: file:///var/jb/usr/share/icons/com.hang.liquiddock.png
 
 Package: com.hang.liquiddock
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 1032
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.hang.liquiddock_1.1_iphoneos-arm64_dfc6740218ddbb7d022f78ed203a5c803acf1fd892d5a83f7eb9d051fee79eff.deb
+Size: 495376
+MD5sum: b0d6b295983c2947da8a96266183d9bf
+SHA1: cc5a7acd7159eceb003ea9bfbf7b84fb71ca83a9
+SHA256: dfc6740218ddbb7d022f78ed203a5c803acf1fd892d5a83f7eb9d051fee79eff
+SHA512: 6a1fbc1a0981b863e2559ab879e49e79cc43944559362e36e1caf31fbcd7135ada687a785be4fca6ada6196a2ea43ccf10a0c14db2c684242598ca0de3a689b1
+Description: 液态Dock
+Name: 液态Dock
+Author: 航
+icon: https://huayuarc.github.io/icon/com.hang.liquiddock.png
+
+Package: com.hang.liquiddock
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -19271,6 +19325,24 @@ Description: 液态Dock
 Name: 液态Dock
 Author: 航
 Icon: file:///usr/share/icons/com.hang.liquiddock.png
+
+Package: com.hang.liquiddock
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 712
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.hang.liquiddock_1.1_iphoneos-arm64e_f5cecb532bf3423e1b46fb88d4e824119bc569a9e7d576994ce4310032489eed.deb
+Size: 477456
+MD5sum: c7eb90c5289a5e7b8281493f203698ff
+SHA1: 8c447e8a5f81325569cd5ba75250055ec25b4519
+SHA256: f5cecb532bf3423e1b46fb88d4e824119bc569a9e7d576994ce4310032489eed
+SHA512: a5bf39c77e9c02ca763a9a776be418f4c2665efbdc4cf216a0f95dd9d8ac31b38c952f770c1fa5024e1edbcb225bf838bb61ddac4f15e8455e80edb5017aad1e
+Description: 液态Dock
+Name: 液态Dock
+Author: 航
+icon: https://huayuarc.github.io/icon/com.hang.liquiddock.png
 
 Package: com.hang.noti
 Architecture: iphoneos-arm64
@@ -22065,6 +22137,26 @@ Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
 Package: com.huayuarc.cputhermal
 Architecture: iphoneos-arm64
+Version: 1.6.2-155+isolation.22
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1812
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/iphoneos-arm64/com.huayuarc.cputhermal_1.6.2-155+isolation.22_iphoneos-arm64_880d338cec7ec30a2a2067837abb524549d3cf91be7fd83556b4c93c38edcd21.deb
+Size: 157188
+MD5sum: 02a0ea9cd3da8136749e2def9c6c3316
+SHA1: d947fb1fa5df56ff82734d4d3751c6f333c201a4
+SHA256: 880d338cec7ec30a2a2067837abb524549d3cf91be7fd83556b4c93c38edcd21
+SHA512: e0bea00b4e26cf063cf849540c21b70b072e9792fc3d4f20353590ec141f12e353ead8c57b3bed86525a99f57df8078b718c1a8c32af14fc96ff47950531bbda
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64
 Version: 1.6.2-164
 Section: Tweaks
 Maintainer: Huayuarc
@@ -22361,6 +22453,26 @@ SHA1: 27275ba0c1ab5cd7eb11da3b90a5eed4afb52aa0
 SHA256: 406215418547e1aef2f080776d051a38f40d5dfc22371e62ac6267ed51f2eec7
 SHA512: 97bc635feac7a62b1bf02766e1bf169f26e487073707ac7c32e62ffd09210799e07d61510eafea846a276c8c6e25f0e259141042fbe2f53537c74d5a4ef64d8f
 Description: 适配 iOS 15–17 的用户态预算实验。解除温控请求 CPU/GPU/Package Floor/Ceiling=100、CPU Level0；Package 是共享功率预算，不是整个 SoC 硬锁，不保证最大时钟或实际满功率。低功耗仅限制 CPU 并清除 GPU/Package 满预算下限，不改变亮度。保留显示保护、充电限制、锁屏、电池页面修复和控制中心。硬件紧急保护仍可接管。
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-155+isolation.22
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1812
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/iphoneos-arm64e/com.huayuarc.cputhermal_1.6.2-155+isolation.22_iphoneos-arm64e_935fcaedad03ae027b43cf81ef0ba94693bb2d7b5fdd5aef7a86bdec71089198.deb
+Size: 154568
+MD5sum: 06a36d95c2a870440ba6078e3b862ee7
+SHA1: 4745a1255911b608d4c02df721fdd526c9b4cfa0
+SHA256: 935fcaedad03ae027b43cf81ef0ba94693bb2d7b5fdd5aef7a86bdec71089198
+SHA512: d1573022e515d4f6fd56feb181312d9459c42bfc45934cd9cd1b614747426d6ec82bcc51fb189b3b933d485b4e8da6238fc377d413005fb26c50320b94ef6a9c
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
 Name: CPU 解除温控
 Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/cputhermal.png
@@ -33504,6 +33616,24 @@ Author: MoWang
 icon: https://huayuarc.github.io/icon/crashanalyzer.png
 
 Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64
+Version: 1.4.1
+Section: Utilities
+Maintainer: MoWang
+Installed-Size: 292
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64/com.mowang.crashanalyzer_1.4.1_iphoneos-arm64_a98b70e11c54a961e9df8484b4566e0fe70859314b40a79a33cbeb21ced8d529.deb
+Size: 91672
+MD5sum: cf1c23c05f62183af9156df51ea63c05
+SHA1: 2687075eda9c7b40f4b781eb0d3f698aed38c456
+SHA256: a98b70e11c54a961e9df8484b4566e0fe70859314b40a79a33cbeb21ced8d529
+SHA512: e1095e8c8ffb6301e86469ebed70693b5ba9586621da06840521e03353d0cef42a4aafb00c0b4ac37384253f62d4334eeebedf2cfb3ec6e9d46c7e9d4c5b23fc
+Description: iOS IPS 日志搜索、进程分组与证据分析（1.4.0 体验版）
+Name: AI 日志分析
+Author: MoWang
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+
+Package: com.mowang.crashanalyzer
 Architecture: iphoneos-arm64e
 Version: 1.1.5
 Section: Tweaks
@@ -33570,6 +33700,24 @@ MD5sum: abd26af0faae4c02a56c43f2edba86a6
 SHA1: ea06cf6c7ccf0773061dffb20015e75ecc85fd60
 SHA256: afe23e08f8eb6e59b0eccec359693b709fed7be4c2d0b86b1852c9f5f4400c1b
 SHA512: 46f9007f399601f8a28f35837540d68e4d9b7e4e6fbce03ad623e9969a5f0882f859e260506e59fd962f1c7b369b9507dd1edcc856d23955c0f6c2fbe9a805dc
+Description: iOS IPS 日志搜索、进程分组与证据分析（1.4.0 体验版）
+Name: AI 日志分析
+Author: MoWang
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+
+Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64e
+Version: 1.4.1
+Section: Utilities
+Maintainer: MoWang
+Installed-Size: 292
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64e/com.mowang.crashanalyzer_1.4.1_iphoneos-arm64e_31b5465d9f13a20dcb91d8a00453edcd0e36bc69ce44b5eb0f9dfb8fa98875de.deb
+Size: 91652
+MD5sum: 676bee83680e7595b7f9d35c4bb16c0c
+SHA1: 6463198a026fe43bde40d45fdd6c7b1ab78cd716
+SHA256: 31b5465d9f13a20dcb91d8a00453edcd0e36bc69ce44b5eb0f9dfb8fa98875de
+SHA512: eb1ad273b2d7d891c638452f265d146483b3c8a1ae1994c2417025bcfd588f769a3e2af211f392dbfe8137f0848bd7da1ec442b6016ab3b5ed6ef83cba68e90a
 Description: iOS IPS 日志搜索、进程分组与证据分析（1.4.0 体验版）
 Name: AI 日志分析
 Author: MoWang
@@ -37904,6 +38052,25 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
 
 Package: com.qianuo.chatassist
+Architecture: iphoneos-arm64
+Version: 0.1.67
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 3228
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Filename: debs/iphoneos-arm64/com.qianuo.chatassist_0.1.67_iphoneos-arm64_0829d0b907d7184d1cca2effd94046eb39e9e5dc9d3585316ed0fec4a518798d.deb
+Size: 599512
+MD5sum: 49788016a7f4668eecb8e1977324a165
+SHA1: 29629f67d1ab6ca53f3da622d8a7ce90d3196fbf
+SHA256: 0829d0b907d7184d1cca2effd94046eb39e9e5dc9d3585316ed0fec4a518798d
+SHA512: 75ccea96776ae256efb27d11e293ffa272dee6019cd7cfb799635c64d41f57238bb6b40a8573b0bf9d3c92d32963684e71f43699ca56fad88b95e8eb5b6cef86
+Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
+Name: ChatAssist
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
+
+Package: com.qianuo.chatassist
 Architecture: iphoneos-arm64e
 Version: 0.1.33
 Section: Tweaks
@@ -38021,6 +38188,25 @@ Description: 选区 OCR + AI 回复助手（实验版）。框选屏幕上的聊
   【依赖】
   firmware (>= 15.0), preferenceloader, uikittools
 Name: 聊伴 ChatAssist
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
+
+Package: com.qianuo.chatassist
+Architecture: iphoneos-arm64e
+Version: 0.1.67
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 3228
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Filename: debs/iphoneos-arm64e/com.qianuo.chatassist_0.1.67_iphoneos-arm64e_41da18e9a76ac7c6da8deb0b4d17f0eff50ed173bc65b4d2a11b59b233a2a39c.deb
+Size: 599680
+MD5sum: b0bdc09aa4e1184c9d8eddbb11d8f4bb
+SHA1: de771ef357330ffaac3f0ddd43ea06d1bb7f0e3a
+SHA256: 41da18e9a76ac7c6da8deb0b4d17f0eff50ed173bc65b4d2a11b59b233a2a39c
+SHA512: 99ac00d5508b4317216d7f567b856d8d0061e0b4490261c0bb4b91e5823ae45d8c0aacadd1e4ed46180590282ff64a2e294991b02bc6c3d6909559de176a5221
+Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
+Name: ChatAssist
 Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
@@ -61103,6 +61289,42 @@ Name: DisintegrateLock 息屏特效
 Author: p0358
 Icon: https://huayuarc.github.io/icon/DisintegrateLock.png
 
+Package: net.pane.l.evilscheme
+Architecture: iphoneos-arm64
+Version: 19.07.2002-14
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 852
+Depends: firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/net.pane.l.evilscheme_19.07.2002-14_iphoneos-arm64_a6be5bd9d5dd800b983cbcce8ff5c2d2745280ff05ce2514c6b192f094dd6c36.deb
+Size: 116772
+MD5sum: 7ec241776a59d0b8fc628803ea78df0c
+SHA1: cb80a6dee245d0c199bf56503612436844370cbd
+SHA256: a6be5bd9d5dd800b983cbcce8ff5c2d2745280ff05ce2514c6b192f094dd6c36
+SHA512: 76102e793c23692effaf25840cbaaafebe998549e663df32b3182a29dfac30ae5ba00d83e37c9d737d81b12460483a78ef6cb08795f16a862bac16fc6cb9e881
+Description: 管理默认浏览器、导航应用程序、软件包管理器等！更改逻辑 强制跳转：请求已经被 iOS 解析到系统默认浏览器时，只要 URL是http、https或x-web-search，就把它改投到 「目标为com.apple.mobilesafari 那条配置指定的替代 App 上，URL本身保持不变。Manage default browser, navigation app, package manager, and more!
+Name: EvilScheme
+Author: Lorenzo Pane
+icon: https://huayuarc.github.io/icon/evilscheme.png
+
+Package: net.pane.l.evilscheme
+Architecture: iphoneos-arm64e
+Version: 19.07.2002-14
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 852
+Depends: firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/net.pane.l.evilscheme_19.07.2002-14_iphoneos-arm64e_334cff8ba4299a397c5dc614fefa1f191bbf0b19dd3290b7f2ae56278f0fef43.deb
+Size: 116628
+MD5sum: b0534e68d123b8e655dd11a4915a259d
+SHA1: 49eab5dcfb94487824c01e43d1a88adf2aa720e3
+SHA256: 334cff8ba4299a397c5dc614fefa1f191bbf0b19dd3290b7f2ae56278f0fef43
+SHA512: 77560aa7bcd28c2c1752134ad235a5ac2eebea5adc8ed65a2b71b1bca85964ae45bd6586a44d8b36e1971cfce64c9a1f24bb3367a50fadaa1e2a15726eae11a9
+Description: 管理默认浏览器、导航应用程序、软件包管理器等！更改逻辑 强制跳转：请求已经被 iOS 解析到系统默认浏览器时，只要 URL是http、https或x-web-search，就把它改投到 「目标为com.apple.mobilesafari 那条配置指定的替代 App 上，URL本身保持不变。Manage default browser, navigation app, package manager, and more!
+Name: EvilScheme
+Author: Lorenzo Pane
+icon: https://huayuarc.github.io/icon/evilscheme.png
+
 Package: net.sourceloc.pinanim
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -63717,6 +63939,26 @@ Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depic
 Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
 
 Package: xc.lzsxcl.o2pro
+Architecture: iphoneos-arm64
+Version: 18.9.18-11
+Section: Tweaks
+Maintainer: lzsxcl
+Installed-Size: 32088
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/xc.lzsxcl.o2pro_18.9.18-11_iphoneos-arm64_fa6b305550eb4d57fc9651a548e217385067a6d3361f3d0099d66b3c2cc75bb1.deb
+Size: 13274804
+MD5sum: f0b73ed2fa0587fa317cea50e835c080
+SHA1: 0191fa072ef3e012cdb6e9b161e6d6a07f554c78
+SHA256: fa6b305550eb4d57fc9651a548e217385067a6d3361f3d0099d66b3c2cc75bb1
+SHA512: e1b15794ba422a673f92c7617b7ecdaa1fbc22c02b03c51183a0169ab4cc5799d601441c095195417c1ad281a4ad3399542ff6d0a7519adbf2808fb79b12c389
+Description: 注重设计与用户体验的优雅产品。
+Name: o2Pro
+Author: lzsxcl
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Sileodepiction: http://apt.bitilly.cn/Description/O2pro/O2pro2.json
+Icon: http://apt.bitilly.cn/Description/O2pro/icon.png
+
+Package: xc.lzsxcl.o2pro
 Architecture: iphoneos-arm64e
 Version: 18.9.17-6
 Section: Tweaks
@@ -63736,6 +63978,27 @@ Author: lzsxcl
 Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
 Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
 Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+
+Package: xc.lzsxcl.o2pro
+Architecture: iphoneos-arm64e
+Version: 18.9.18-11
+Section: Tweaks
+Maintainer: lzsxcl
+Installed-Size: 32088
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/xc.lzsxcl.o2pro_18.9.18-11_iphoneos-arm64e_d5c1a73a46d6114ba5a627f9f2baae05f1a4b922c13a1a7db0e4144227c9c0db.deb
+Size: 13127784
+MD5sum: 7d09295fb24e033877e7787b314d0f88
+SHA1: faa73d4c2ba7c6c67f28f353e2d5a25ebf055ba2
+SHA256: d5c1a73a46d6114ba5a627f9f2baae05f1a4b922c13a1a7db0e4144227c9c0db
+SHA512: ee92a4d963cfd1067cc6ac9cccfebff108c35a8fa0aeb777017bc4c393eb9d77ba0176ebcacb85c12ad8235fb802ea09d23c3151df126ae63fa63b856fdae4e8
+Description: 注重设计与用户体验的优雅产品。
+Name: o2Pro
+Author: lzsxcl
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Sileodepiction: http://apt.bitilly.cn/Description/O2pro/O2pro2.json
+Icon: http://apt.bitilly.cn/Description/O2pro/icon.png
 
 Package: xhs.x
 Architecture: iphoneos-arm64
