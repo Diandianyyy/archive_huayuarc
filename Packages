@@ -19219,6 +19219,24 @@ Author: 航
 icon: https://huayuarc.github.io/icon/com.hang.liquiddock.png
 
 Package: com.hang.liquiddock
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 1032
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.hang.liquiddock_1.1_iphoneos-arm64_942cc958fe48bebaf23a95990b59fd7ab894a4506286cf8c63498507c4670c47.deb
+Size: 495496
+MD5sum: d01898127ebb6d005f73c3a73c212fcf
+SHA1: 92e86481d1f255bf77c038b751940d427a8064de
+SHA256: 942cc958fe48bebaf23a95990b59fd7ab894a4506286cf8c63498507c4670c47
+SHA512: ed09425f712be75cebad42bbb5682c0aafa0968c3e03ed99b41a02a39ac755d144c40cf8f9b77d62dd19bb796c1eeb17fe35d5ab7b453440e7aa680e72c341ed
+Description: 液态Dock
+Name: 液态Dock
+Author: 航
+Icon: file:///var/jb/usr/share/icons/com.hang.liquiddock.png
+
+Package: com.hang.liquiddock
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -19235,6 +19253,24 @@ Description: 液态Dock
 Name: 液态Dock
 Author: 航
 icon: https://huayuarc.github.io/icon/com.hang.liquiddock.png
+
+Package: com.hang.liquiddock
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 712
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.hang.liquiddock_1.1_iphoneos-arm64e_2db297258a512854a83eb5d10363184ec672693d968caeea927640d05f8374fd.deb
+Size: 477472
+MD5sum: fab35d5a5a69fc24bba8b640f6e6ef73
+SHA1: 44de0256747960a51dc2c168f8b396dd12a45f50
+SHA256: 2db297258a512854a83eb5d10363184ec672693d968caeea927640d05f8374fd
+SHA512: 719924f5bcce4145a15df653fb635bd470dffddbf3d40883800485842cf7178409f0c64b590ed75cc685001113e5499532a013b40440991c8844e92ad5b91f17
+Description: 液态Dock
+Name: 液态Dock
+Author: 航
+Icon: file:///usr/share/icons/com.hang.liquiddock.png
 
 Package: com.hang.noti
 Architecture: iphoneos-arm64
@@ -31038,6 +31074,25 @@ Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
 Package: com.mlgm.actra
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 4076
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64/com.mlgm.actra_1.3.1_iphoneos-arm64_51e9890926ea68e2b69e230577ae9d84e8c7890eb0d1f9f971485de0ed203b42.deb
+Size: 814116
+MD5sum: 7a5cfad5c1359e2e7bbffd7c07b6e31b
+SHA1: b23e5d4c127ff0bf3889c8c05fd25e0ea04f0c80
+SHA256: 51e9890926ea68e2b69e230577ae9d84e8c7890eb0d1f9f971485de0ed203b42
+SHA512: d007706d2005d5446bd79982efef89265b3d350ddca9a2595a7ea5cc6a07ef18d954439b4dfc56a28bccb5e016bf402b9c2291fc1c819d89d49a5e9a2d194ebe
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -31113,6 +31168,25 @@ Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 4080
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64e/com.mlgm.actra_1.3.1_iphoneos-arm64e_ef3f77836969dc5d3d86227892e0991b23e33ff0aa4ad8951f0eced610da62fd.deb
+Size: 813736
+MD5sum: 0635c6642d46a4af11c4bb0d1a3fafaf
+SHA1: e757e02c43b5cacf2a63231150285b0bb491d84b
+SHA256: ef3f77836969dc5d3d86227892e0991b23e33ff0aa4ad8951f0eced610da62fd
+SHA512: 0cf60c021598f31b671c83c006760d49d92e4b8508959ade2fc6bf3c089a4b73cb940f99ea6f394eda583978819a96d4ce425721896e676df2b2c2515e57cd80
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
 Package: com.mlgm.appdata
 Architecture: iphoneos-arm64
 Version: 1.3.7
@@ -31128,6 +31202,26 @@ MD5sum: a8d58bedcd7c3c21338ba12145a7351f
 SHA1: bc0528dce1ac7887a1cf9aec92056a0d83867db0
 SHA256: 5fb9ec0adf4afa7310dfedc7154fb96f0f580c290cb11e2cc2d7e3fa2c05c6fe
 SHA512: ec185619487c2840b4c6dbe0af1e445ecbb7712dc04a7dd7bcca4c9de9bf16b8ac55111da7da21365f11b88f0b216389cb707ac7a2f4d4725ea1bc2a00d9b6e7
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Name: AppData
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+
+Package: com.mlgm.appdata
+Architecture: iphoneos-arm64
+Version: 1.3.8
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1188
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: debs/iphoneos-arm64/com.mlgm.appdata_1.3.8_iphoneos-arm64_f5bf8c5b881fb03270b8b55a913a1ef120ef0c0d4303ce43f0394396d2003b8b.deb
+Size: 214060
+MD5sum: 761173a6aa7b5a146a6c57ab6ffcfa24
+SHA1: 379bd88a92cb5d0807ae63345daa6aabf52bde05
+SHA256: f5bf8c5b881fb03270b8b55a913a1ef120ef0c0d4303ce43f0394396d2003b8b
+SHA512: 1c2756294fbc2b76a2be364c1f745bbe4a0ed8245be65cc96e61139057340306b193be0d34a73338cf2990be33cfc2913692b81623ced875b8bd987c8986d26d
 Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
 Name: AppData
 Author: Fouad Raheb <support@fouadraheb.com>
@@ -31152,6 +31246,64 @@ Description: 上滑或长按桌面图标，即可查看和管理应用数据，�
 Name: AppData
 Author: Fouad Raheb <support@fouadraheb.com>
 Icon: https://mlgm66.github.io/icon/appdata.png
+
+Package: com.mlgm.appdata
+Architecture: iphoneos-arm64e
+Version: 1.3.8
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1188
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: debs/iphoneos-arm64e/com.mlgm.appdata_1.3.8_iphoneos-arm64e_8a4e56e9d3173fe0332e3214e36221fc560a25772d0803ba3a5378fec51beb25.deb
+Size: 212140
+MD5sum: 3c0d5a8cbcf412f95d7acb536082f1d0
+SHA1: 4b4877d3548148f15c66d0e5a91eb627bc75958b
+SHA256: 8a4e56e9d3173fe0332e3214e36221fc560a25772d0803ba3a5378fec51beb25
+SHA512: d77fbef57c4e65144fbf44fc9d213160f2df320be6aa51a743fd599fc991b482c0c2eb8193c6acf5e6593cc240027440712cfa294245c71a5d9e565d62e514d7
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Name: AppData
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+
+Package: com.mlgm.clippa
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Priority: optional
+Section: System
+Maintainer: mlgm
+Installed-Size: 36728
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.mlgm.clippa_1.0.3_iphoneos-arm64_d0079f57b72a6dadd01bd6006b2ca55d712ca2cbdb503f3c589bdd7d7009bbb8.deb
+Size: 31190816
+MD5sum: c6b9478374b09f1750b45789997222a8
+SHA1: 66bba4210414cd42159191e6995b7bfc2a750cd6
+SHA256: d0079f57b72a6dadd01bd6006b2ca55d712ca2cbdb503f3c589bdd7d7009bbb8
+SHA512: c25321c06a0f647786f39b121ee1862ee503348f0fb98194b36cabe180e7bb8b43f25d85146f372fde562a9d57100370b6ffd225b50fcfd4c59ad6924fae0f86
+Description: 截图与悬浮贴图工具。
+Name: Clippa
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+
+Package: com.mlgm.clippa
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Priority: optional
+Section: System
+Maintainer: mlgm
+Installed-Size: 36724
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.mlgm.clippa_1.0.3_iphoneos-arm64e_59dcc89481ab8a5286ab4d20af60f6ac5bc8c951d6a523b6c02a4021dc0ec3f5.deb
+Size: 31188756
+MD5sum: 486b7950c9838cf97f47effe4b8e73e8
+SHA1: a3c804b1e4d0a26b5f943660a6ee0275ad2184a4
+SHA256: 59dcc89481ab8a5286ab4d20af60f6ac5bc8c951d6a523b6c02a4021dc0ec3f5
+SHA512: 27c9c197f70df845634416dec8e898bf9fbe71b556f9458965d10f609145e8586c0a3a28a10b5ab2d39d94d9aa0962f5626f4cf80a7f320d1a27213ddae0605e
+Description: 截图与悬浮贴图工具。
+Name: Clippa
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
 
 Package: com.mlgm.idata
 Architecture: iphoneos-arm64
@@ -31244,6 +31396,24 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/idata.png
 
 Package: com.mlgm.idata
+Architecture: iphoneos-arm64
+Version: 1.3.3
+Section: Applications
+Maintainer: mlgm
+Installed-Size: 8432
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: debs/iphoneos-arm64/com.mlgm.idata_1.3.3_iphoneos-arm64_0600f53068c64a92ed313a7b14bf7bb01289263bc009cd6b5269617ed7f84ff6.deb
+Size: 2508456
+MD5sum: 1564a0086c6b0ec3bc30673a28d8f202
+SHA1: 2cf305a0f7b9f475fbe9ef33ff9e7943f99dd556
+SHA256: 0600f53068c64a92ed313a7b14bf7bb01289263bc009cd6b5269617ed7f84ff6
+SHA512: b08658a143ec0eb11374ccaf02e88098708e5ba26998dff73139a18fff209f4d2942770325d593c0bf52b38250907195564ef2c5f1d2f398d5283a4b49fa8194
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.idata
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -31328,6 +31498,24 @@ MD5sum: 87ab48c0ab08eaa70dd95bf5a372aa1b
 SHA1: dc5768a048441706f39b14d2c6076d5e0c19838a
 SHA256: caf97d1cf058d221a905523cd761cbab5668e117ddfa25264487f23695ec2633
 SHA512: 5d476fe1318daa30356b1ca22257b31a7c09c43a26756f058c0eb1c1db12fc3835dbee0014ca447cbac1f3bd2b1b2f9a17b051afc1c638b6eb20a8904e317359
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64e
+Version: 1.3.3
+Section: Applications
+Maintainer: mlgm
+Installed-Size: 8432
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: debs/iphoneos-arm64e/com.mlgm.idata_1.3.3_iphoneos-arm64e_237ca559f70a5cde29ee7c5b2560b80db66f41ba4ced9d3ccfb74a7eaa93664a.deb
+Size: 2507368
+MD5sum: fe8189677f0c79070c9ed488ec808065
+SHA1: 41f852fa0ac0fade9769693afd492c1f38a2acd3
+SHA256: 237ca559f70a5cde29ee7c5b2560b80db66f41ba4ced9d3ccfb74a7eaa93664a
+SHA512: 83ef0723087184f7c53624371c36d9891678fb3f0932a1a9c2884e79c9ead6f9482c64605b6ab238caa8aa8becbb109f237849206db634accf18cff6e20c3bb3
 Description: 应用、插件数据管理工具，一键备份/恢复
 Name: iData
 Author: mlgm
@@ -31694,6 +31882,27 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/iwxkb.png
 
 Package: com.mlgm.kayoko
+Architecture: iphoneos-arm
+Version: 5.0.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3532
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm/com.mlgm.kayoko_5.0.3_iphoneos-arm_d6563f17076a612a3a2523931e5d45e2b8b3a5cbd3026b285a7aa88d05dab0f4.deb
+Size: 753584
+MD5sum: 4b43657ae9815279d2541100b38e0536
+SHA1: 8c281cd9c445db2aeb3212813b97ff9c9a7ee832
+SHA256: d6563f17076a612a3a2523931e5d45e2b8b3a5cbd3026b285a7aa88d05dab0f4
+SHA512: 72590f26f2c470d3b1fa1942cde8c62d242bbb14f9a286bc063f97ce81a77049c6878436a1e06f5e3b7b33dce9318700c7863c8118ba1a0e983722ddb2be315f
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
 Architecture: iphoneos-arm64
 Version: 4.5
 Section: Tweaks
@@ -31872,6 +32081,27 @@ MD5sum: 072c9a5e8a0f1f7d9d709c5672e4191b
 SHA1: 9414ddd6bd72eade267e54f709e0cb99c780a84e
 SHA256: 0a385d06731c3d1c3a062502457aba36202055a0477a1668efb5ae91fee630b9
 SHA512: b2c753e4e454c9989867038f8de1bf00de2cf88750c54ff9e6c9a129933a52d57f358c2ca95f6012e43851a7fc458ce909a01db879af612961fcbac2b878f977
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 5.0.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3532
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_5.0.3_iphoneos-arm64_a16d158776a072db4a50464d42d66f5648ad583734bbc55eef40157798397e05.deb
+Size: 751728
+MD5sum: f499c3f0fb1696a0ccc8dfbb52095975
+SHA1: 482a99abc037759f5598763d37fb7f6f52a45edd
+SHA256: a16d158776a072db4a50464d42d66f5648ad583734bbc55eef40157798397e05
+SHA512: dbdc8824dcc9e63987d4c6220d122b874c64e375c03a7b7f0845353611132b45a317e0225d17fc5cbd8117ab4f021f18acface1b950fd1c26c83ea09171ee5e1
 Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
 Name: Kayoko
 Author: mlgm
@@ -32063,6 +32293,27 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.0.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3500
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_5.0.3_iphoneos-arm64e_1b045487619957a4456e9a1c2274e60ca6750040b63eccc7cd8072a7077e527b.deb
+Size: 747816
+MD5sum: aa3402482d4d36513720a7122358fd6f
+SHA1: 7ed8cb6893bd15b9730d08944b0c6503904b25c9
+SHA256: 1b045487619957a4456e9a1c2274e60ca6750040b63eccc7cd8072a7077e527b
+SHA512: c76fea03ca1805add43beb1019ec6e158aa098f10e09a7c44becd74e42df338ef3f76bafe9e5289d870bf837f84420e37cff157db0b8d128fbfe4b9024de707a
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
 Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -32100,6 +32351,24 @@ Icon: https://mlgm66.github.io/icon/prefnest.png
 Author: mlgm
 
 Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.mlgm.prefnest_1.2.2_iphoneos-arm64_b0105a29314cd1fe56d7ef0083c090e6a49f6b9e4286c54bdc8406e26efe4cc1.deb
+Size: 172176
+MD5sum: aab6bf4153b1da68135da6c402a34b49
+SHA1: fcf19d3cebc2d1a03fa3efbb0cc5f92bff63fade
+SHA256: b0105a29314cd1fe56d7ef0083c090e6a49f6b9e4286c54bdc8406e26efe4cc1
+SHA512: 9f1049537559731db36d57ff0deceb2526e451b0a02b8952a31d173bb8bc9ca3a35bbb457a1379984b175c103aff6ed9e9b770ec0bfc27ce4cc63fbb89a2fc9a
+Description: 整理设置首页，集中收纳越狱插件。
+Name: PrefNest
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Author: mlgm
+
+Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64e
 Version: 1.1
 Section: Tweaks
@@ -32130,6 +32399,24 @@ MD5sum: 380df3359dd98d3898b77622cf53d41b
 SHA1: bc63d471c8ab85c384bb6c85a0cf00c13ae8f6e7
 SHA256: 14ba4ab2bdb8b4b654a2094177d0654dc579c05355f6534566d2762b73f065bf
 SHA512: 588d8c5a451bca6527167f8c70eac18bef5965e5a8bc49bc9b2aea6a207f7741743449a6e12b7c2e3dfc5e6051c3862b3f2f2533bf4a332027bfb7553efa0f31
+Description: 整理设置首页，集中收纳越狱插件。
+Name: PrefNest
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Author: mlgm
+
+Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.mlgm.prefnest_1.2.2_iphoneos-arm64e_8d8a8c6ad02a80028b2add83b6d5a8e4e49bf7e7e9114419851f1503b9e6b9ac.deb
+Size: 170644
+MD5sum: d9f36fb4228975a0dd9c1d9241fcaee8
+SHA1: aa8a92c9266fc6d0b775db3836665a3b49d55ab1
+SHA256: 8d8a8c6ad02a80028b2add83b6d5a8e4e49bf7e7e9114419851f1503b9e6b9ac
+SHA512: 1f75a4716127f27dec1cb1d033ea8d92c5c7b1878a99301cc58e513629f34449b3cde38bb7ce2429886393c94dae96908fde4406712a9999409fc5738688ff8f
 Description: 整理设置首页，集中收纳越狱插件。
 Name: PrefNest
 Icon: https://mlgm66.github.io/icon/prefnest.png
@@ -38271,6 +38558,27 @@ Icon: https://qq391160.github.io/repo/icons/thermal.png
 
 Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64
+Version: 2.0.288
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4108
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.288_iphoneos-arm64_d4b38158b6a3bf0072bd98de940b2a480a2f07dbd5eede428a60e968fea23613.deb
+Size: 636684
+MD5sum: fac5919a14a1be70d2e5df90cf8e7bc7
+SHA1: f701124b662ad4bb33c1292ef2e92682e68e9d7d
+SHA256: d4b38158b6a3bf0072bd98de940b2a480a2f07dbd5eede428a60e968fea23613
+SHA512: ad15cc6be45bd2b5b46217f258563278f04293226042c25a8c714497332637fbc092fef888c6f3fd250098394d8e1347f363aea218b8ffc76f22000f8becd23e
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
 Version: 2.0.3
 Priority: optional
 Section: Tweaks
@@ -38606,6 +38914,27 @@ MD5sum: 3abbd55652c156c4031314da11c5700f
 SHA1: 63cbbd69a0ae16eda5bc5307eb549592372053dc
 SHA256: 5670284be53d9a228181606f0cbbffa7d702ac361fda2e5f6ab10a707559e166
 SHA512: af999d79aea80d35c1507d3519292329f7d49a2411ea1601b62c4b0846fb07b25fa3a588e97a67ed60edc4e4bdab5c3fea3d47f0733059bc0ff5c9f8370f756d
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.288
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4376
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.288_iphoneos-arm64e_a6734939009a82966d47c95e08e90deb1668519526d868824f35cbbcadc295a4.deb
+Size: 700960
+MD5sum: ecd3061f345d89928059f3cf1890c8cd
+SHA1: 1f7edc89471673b39feffd584d5a354d32849873
+SHA256: a6734939009a82966d47c95e08e90deb1668519526d868824f35cbbcadc295a4
+SHA512: e857fc4a98197a1863f495162ab5f7d790ff0e2392dfb93d11ad89faaea4551072213b2d4721d2eedbf88ea3f5fadc0dabc1679d152df3d313b962cbb20f4854
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
@@ -56007,6 +56336,25 @@ ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json
 Tags: compatible_min::ios15.0
 
 Package: im.mjh.doleo
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: junhong <mail@mjh.im>
+Installed-Size: 892
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Filename: debs/iphoneos-arm64/im.mjh.doleo_1.0.1_iphoneos-arm64_bef8520e2326e8b990c1c63d36c0571965825d50df35da15fcf8571f1de88b80.deb
+Size: 206448
+MD5sum: bad4559d767ab53a40ca57ab63f0d824
+SHA1: 038636ad275c1b0082e2f9c02a28874460c5b85d
+SHA256: bef8520e2326e8b990c1c63d36c0571965825d50df35da15fcf8571f1de88b80
+SHA512: 7bf8f6523836786397e681cae265b19d42fd037a4e05f5a94995c63c4c5c7b32083247f41c854a8f6ce0dcf80a7b75f356bf2c5b43688e7652a101a7f2484f10
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Name: Doleo
+Author: junhong <mail@mjh.im>
+Icon: https://apt.mjh.im/assets/im.mjh.doleo/icon.png
+Tags: compatible_min::ios15.0
+
+Package: im.mjh.doleo
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -56027,6 +56375,25 @@ Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json
+Tags: compatible_min::ios15.0
+
+Package: im.mjh.doleo
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: junhong <mail@mjh.im>
+Installed-Size: 904
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Filename: debs/iphoneos-arm64e/im.mjh.doleo_1.0.1_iphoneos-arm64e_0aa9c446bb96263d4393401a3c320218a6a347fc9d82de8b93fd29de82caf4e4.deb
+Size: 208548
+MD5sum: 5b84405c1daea548ac985c6d2adddeab
+SHA1: dddaa83c9a7fcdc8a58278bed9b0ba97ec0fd635
+SHA256: 0aa9c446bb96263d4393401a3c320218a6a347fc9d82de8b93fd29de82caf4e4
+SHA512: 0cf63370b9a7d976e16ea00626833e99c45971d0b0f3c6e70627fe71e1c698393ee9979b24ee80d5fd0c927b70672e1b20db37ccc3db27a7ff9b87504c85bb86
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Name: Doleo
+Author: junhong <mail@mjh.im>
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
 Tags: compatible_min::ios15.0
 
 Package: im.mjh.fakenotify
@@ -61855,6 +62222,26 @@ icon: https://huayuarc.github.io/icon/uuhelper.jpg
 
 Package: uuhelper
 Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 328
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Filename: debs/iphoneos-arm64/uuhelper_1.0.2_iphoneos-arm64_7a601cf72d2e8fb8dd648eeec2c721cf15b0a14d41fddb347c907ff0357d2d20.deb
+Size: 50300
+MD5sum: 20f8c662dec4521e84a20a0424054d8b
+SHA1: a42dbbcbe792a7dfc7c4015c8c12e45845eb2006
+SHA256: 7a601cf72d2e8fb8dd648eeec2c721cf15b0a14d41fddb347c907ff0357d2d20
+SHA512: 9e392b43654b2dfd01c606fa3cb35ea12ed1c1173a756bd2c1f0310df262837e3bdbd2da60462c5014fdf74595554617c10fa7fe644fab6edf50ed22dad09254
+Description: UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。
+Name: UU 远控增强
+Author: junhong
+icon: https://huayuarc.github.io/icon/uuhelper.jpg
+
+Package: uuhelper
+Architecture: iphoneos-arm64
 Version: 1.1.0
 Section: Tweaks
 Maintainer: junhong
@@ -61887,6 +62274,26 @@ SHA1: a636e623a420b9d9db9e1b92ed7fb3f61a116828
 SHA256: b3e0183fc92a86c4acec84d6f67bafb16a79d9d741a4b6ba08ea3b091d0c6134
 SHA512: 06c4f90078d2b2fccc475c61c2b7c2843affbfe80df67143d055b5f53a831b02dced5574cbbeb39f8770f63c34599a7513c25264de51e74b7b7f5512ac01025b
 Description: UU 远控常用组合键、圆环滚轮与显示器视角记忆增强。
+Name: UU 远控增强
+Author: junhong
+icon: https://huayuarc.github.io/icon/uuhelper.jpg
+
+Package: uuhelper
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 328
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Filename: debs/iphoneos-arm64e/uuhelper_1.0.2_iphoneos-arm64e_d0874c8b82b9c1c5565dc9a98f6561b4fc641c9e727b1a2f2b2d5243c58668aa.deb
+Size: 50292
+MD5sum: c1b5810fd82ef67825a6aa15e35f8a15
+SHA1: 40ebbe744c373e98c4a3137d6939c76054a5dd4a
+SHA256: d0874c8b82b9c1c5565dc9a98f6561b4fc641c9e727b1a2f2b2d5243c58668aa
+SHA512: 92402f4ff0b611972ba840455623c0f0ba5e4932b2acaa527bd0ba57a3a83f319b0f76fcac9060366bc685ceec9ef8f1027af3e64775643ca1965bee80a22ed5
+Description: UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。
 Name: UU 远控增强
 Author: junhong
 icon: https://huayuarc.github.io/icon/uuhelper.jpg
@@ -62027,6 +62434,29 @@ SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.1.9
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 91008
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.1.9_iphoneos-arm64_f3080cd06b05dab7b3c2f88e563afc0b7da55e11b87263410ccb66bdc69b9e38.deb
+Size: 22106652
+MD5sum: d5bada69c55ee383cc99eb52a120c500
+SHA1: 69ae8f63f1234c51bc4f2c41bba994adf251d1db
+SHA256: f3080cd06b05dab7b3c2f88e563afc0b7da55e11b87263410ccb66bdc69b9e38
+SHA512: 858976e3af4020782f931b9811cb1b593fd30b72e8a0122549e61f4b682fc0c01fe59ce81a0012c9bc7a549c5582771e55c7c15f12d7b80676edb0bed19b84dd
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Priority: optional
@@ -62133,6 +62563,29 @@ MD5sum: 485f79c9c696c66e9201e57d22fde469
 SHA1: b0e6e67b5aaf66a39258412cbcb7ef55f81da14f
 SHA256: 8b1846ae6c993c319153243fec5c5101420177d79bf9f139e5d63e7147d2bd73
 SHA512: d58fb56a34e27bbdfe5852290025b5b9a9a348d14b07d54e922c02732d38249d70004c9a5f121597e9d893000c809d7829d047cd2824e30427baace839f2140c
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64e
+Version: 0.1.9
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 91008
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin_0.1.9_iphoneos-arm64e_f3421994433550df9a47e58622b3facb34b831be0b64723ad44b689609625239.deb
+Size: 22112604
+MD5sum: 29977c7c6b915efb57e421a0a3b17ed4
+SHA1: ee1d990551a16a9bb53d8ad7e81e11a104d3b7fa
+SHA256: f3421994433550df9a47e58622b3facb34b831be0b64723ad44b689609625239
+SHA512: 125c118972d4858b4469aa90796df975bf2554382df9218413a8d90da06472e454f3ad2155ebe7ab57182f3fbb068f381bf53c8b9e940348fdf77770e6ad3087
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
 Name: Apelin
