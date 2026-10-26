@@ -24185,6 +24185,21 @@ dev: ichitaso
 
 Package: com.icli.icli
 Architecture: iphoneos-arm64
+Version: 0.10.0
+Section: Development
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.icli.icli_0.10.0_iphoneos-arm64_99f613ea199b2c8ba03b3c2a9aadcaf09b30807dd854af81e4ea0cd8376ded03.deb
+Size: 1127836
+MD5sum: e89c868c9d9570df6f5f6e50b098b79a
+SHA1: 00ab6a1d694acc50973857dc14415f36ffa1347c
+SHA256: 99f613ea199b2c8ba03b3c2a9aadcaf09b30807dd854af81e4ea0cd8376ded03
+SHA512: c2ab4b264a95f892440eabadd9002b6c34fd6f1593f13a28b8deba0ac707f2685e238e1e026c651c71ae5944551de3f253320c2b5a5769679d6440118d8cb9dd
+Description: On-device iOS control CLI
+Name: icli
+
+Package: com.icli.icli
+Architecture: iphoneos-arm64
 Version: 0.9.2
 Section: Development
 Maintainer: icli
@@ -24195,6 +24210,21 @@ MD5sum: 26dbc10e2068358921a4194166c281ee
 SHA1: 034843755dd14f7942d775031f64e7e62299dc62
 SHA256: 1fd6304c1af71bffdb73e5185c40aae34b6b810d83d66a0c33e3fdcb3324aa03
 SHA512: 4d05fbdd16a49b5a3dd409573d2fe2763bf476f1bdb22aad3eba98e6dd5f5a39ac5f0b17f40f60f7575fead87f752be6f6b5fd5ddc6955638d97d06f1f090671
+Description: On-device iOS control CLI
+Name: icli
+
+Package: com.icli.icli
+Architecture: iphoneos-arm64e
+Version: 0.10.0
+Section: Development
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.icli.icli_0.10.0_iphoneos-arm64e_7ac57329ebd7c1b4ad11750187f53363b985575adb4030775d4be495af150c01.deb
+Size: 1121840
+MD5sum: 3ef55d4805d0fe33c31e207c237ffcd7
+SHA1: 2261788a54a332368d3311346cc4f9eae9f9729b
+SHA256: 7ac57329ebd7c1b4ad11750187f53363b985575adb4030775d4be495af150c01
+SHA512: ef7abf68778b726dbc8d5646fc005287fe973924fa5eb2d3a3ba894b0f0b72632904d3bb98bda4da9f4373a5eb248388bb2fb695b262de68ff7ea338f3e668cb
 Description: On-device iOS control CLI
 Name: icli
 
@@ -29611,6 +29641,25 @@ Section: Tweaks
 Maintainer: Local Workspace
 Installed-Size: 268
 Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64_24d76e227889ea87b6f3211ea6dd3b7ae461c359886d6c59154b42f192d49579.deb
+Size: 29916
+MD5sum: 9b160888c4fd839d0667454a74934229
+SHA1: 364a6eff352344efcc9e081922738934c8fd8766
+SHA256: 24d76e227889ea87b6f3211ea6dd3b7ae461c359886d6c59154b42f192d49579
+SHA512: 66ae98f6d53cbcb6ba0d295c8dac5ac7650aaa5156b713835705da3fd6ad3ac3556f6396b481fcb309c19b3955cd909644ea6b71de2debbe51f4d41e6430ab03
+Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
+Author: Local Workspace
+Name: 支付宝身份验证兼容
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+
+Package: com.local.alipay.identity-compat
+Architecture: iphoneos-arm64
+Version: 0.1.9
+Priority: optional
+Section: Tweaks
+Maintainer: Local Workspace
+Installed-Size: 268
+Depends: mobilesubstrate
 Filename: debs/iphoneos-arm64/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64_581c14abdd2549e9d2b131cce04a092f1f13fdc9c70b7cb1903abbbaa0b74dbc.deb
 Size: 29964
 MD5sum: a521511c82f1734e69006b58a00842a2
@@ -29637,6 +29686,26 @@ MD5sum: 85b1ce8b98b7853686f9d7221a645637
 SHA1: 324dee5f361d144b06afd55f7a5a873e4d6c55ec
 SHA256: 803e3a963111ee5d41b138a71d82eb10111b1dac3e93f2a993dcabb815956596
 SHA512: 720d8a6f0d43a5694507f8e3c12bf22a937692a6daff85d6da34e60e1e1ec5eb8354d2f30e0ff0a52ef4be5fb90ba996a7126b2baf490e760651c72c71d2c720
+Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
+Author: Local Workspace
+Name: 支付宝身份验证兼容
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+
+Package: com.local.alipay.identity-compat
+Architecture: iphoneos-arm64e
+Version: 0.1.9
+Priority: optional
+Section: Tweaks
+Maintainer: Local Workspace
+Installed-Size: 268
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.local.alipay.identity-compat_0.1.9_iphoneos-arm64e_fc3472976c55cc8c67f11c7db2f03ba4877a574cbe58f3ccaea97987df1ad9de.deb
+Size: 29484
+MD5sum: a4d5f513c40463b7b1054d937b270c8d
+SHA1: 967bbc6110aa4a1af391943b42256ef07b4e85de
+SHA256: fc3472976c55cc8c67f11c7db2f03ba4877a574cbe58f3ccaea97987df1ad9de
+SHA512: b0e2b964093df07c4e7b68b516277cf865d7841409fd244a86c3c0fb92efbbd446cb3298210e02393dd6eb0a3694feffb22f0b08f469a212fe3c9e614f2f1de1
 Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
 Author: Local Workspace
 Name: 支付宝身份验证兼容
@@ -31789,6 +31858,24 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/idata.png
 
 Package: com.mlgm.idata
+Architecture: iphoneos-arm64
+Version: 1.3.4
+Section: Applications
+Maintainer: mlgm
+Installed-Size: 8532
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: debs/iphoneos-arm64/com.mlgm.idata_1.3.4_iphoneos-arm64_117ada8d8bf126c72f3d9bc9a47aaafb7c6cb10924a72b9eb1ebae7cd59aadb6.deb
+Size: 2531120
+MD5sum: 74642ecf7ed3949d5bd63b8bc4fd7388
+SHA1: e8a886adc4c8fea6a8f474ae838b10a179e0fec4
+SHA256: 117ada8d8bf126c72f3d9bc9a47aaafb7c6cb10924a72b9eb1ebae7cd59aadb6
+SHA512: f72d7e64ea7ead6885a6d90e60cb14f20d27b15fc51330a9c865f324f862b7a4a6af778b91bc5155ecb5568b0ca2e3f06c722f65aca8188afe59907c038585c0
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.idata
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -31891,6 +31978,24 @@ MD5sum: fe8189677f0c79070c9ed488ec808065
 SHA1: 41f852fa0ac0fade9769693afd492c1f38a2acd3
 SHA256: 237ca559f70a5cde29ee7c5b2560b80db66f41ba4ced9d3ccfb74a7eaa93664a
 SHA512: 83ef0723087184f7c53624371c36d9891678fb3f0932a1a9c2884e79c9ead6f9482c64605b6ab238caa8aa8becbb109f237849206db634accf18cff6e20c3bb3
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64e
+Version: 1.3.4
+Section: Applications
+Maintainer: mlgm
+Installed-Size: 8532
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: debs/iphoneos-arm64e/com.mlgm.idata_1.3.4_iphoneos-arm64e_dadaca7804f4a3d7a832f32c701127480a5f52dae9188742846f5009c1b6fd66.deb
+Size: 2533664
+MD5sum: 03d72ecb3e37d4ebc47dcc995c15256f
+SHA1: f0312b6c461e192277afc7b74a55f0febab031e6
+SHA256: dadaca7804f4a3d7a832f32c701127480a5f52dae9188742846f5009c1b6fd66
+SHA512: fb2193b8c114df6bbce2aa3819a0e6e96fb1d82d4f0fba1a4936196e65a121a0f7c00785000999f20a9e5b712035a62d5517bd6c98b95dcfcae20166da9deaf4
 Description: 应用、插件数据管理工具，一键备份/恢复
 Name: iData
 Author: mlgm
@@ -44112,6 +44217,26 @@ Section: Tweaks
 Maintainer: ylr
 Installed-Size: 224
 Depends: firmware (>= 14.0), com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.sini.alipaycc_1.5.5-3+debug_iphoneos-arm64_5984728b7afe929bcede209e15ae89b2cb15f6ebdb20dfea32c62ffaf87c1737.deb
+Size: 8232
+MD5sum: e246884c996a77efc046955e32fef620
+SHA1: 3a2a159cfe780dba4328fe74ca7a1b8e92e532af
+SHA256: 5984728b7afe929bcede209e15ae89b2cb15f6ebdb20dfea32c62ffaf87c1737
+SHA512: 1e381b6d77b6f487834ec905fbaa0dd4cc358ed85517cc6fc716d842b40d7cb0591ad354069dfc6bc2dfa351886f14238e4cae39dd21d9becefdee233d92fe3d
+Description: 控制中心添加支付宝中蚂蚁森林与手机充值，ylr制作投稿
+Name: 支付宝蚂蚁森林手机充值
+Icon: https://sini921.github.io/repo/sileodepiction/icon/alipaycc.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/alipaycc/js.json
+Author: ylr
+
+Package: com.sini.alipaycc
+Architecture: iphoneos-arm64
+Version: 1.5.5-3+debug
+Priority: optional
+Section: Tweaks
+Maintainer: ylr
+Installed-Size: 224
+Depends: firmware (>= 14.0), com.opa334.ccsupport
 Filename: debs/iphoneos-arm64/com.sini.alipaycc_1.5.5-3+debug_iphoneos-arm64_81450ee1c4b559f66ea8cfc4e2b589ad1855a4d98b3b649cb54530c2bc8ebf45.deb
 Size: 8208
 MD5sum: 248be8e927b22c7355bcfdbd7087c57e
@@ -44120,6 +44245,27 @@ SHA256: 81450ee1c4b559f66ea8cfc4e2b589ad1855a4d98b3b649cb54530c2bc8ebf45
 SHA512: 5c6df4e644b22250b244cc08941d6ae82cd09c00c96790dfb29e1e33d8e64839b0060efaae2cc8197a5c084f3cbf0529767fc3dcd6e5a8763444d6b4e9862fc7
 Description: 控制中心添加支付宝中蚂蚁森林与手机充值，ylr制作投稿
 Name: AlipayCC
+Icon: https://sini921.github.io/repo/sileodepiction/icon/alipaycc.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/alipaycc/js.json
+Author: ylr
+
+Package: com.sini.alipaycc
+Architecture: iphoneos-arm64e
+Version: 1.5.5-3+debug
+Priority: optional
+Section: Tweaks
+Maintainer: ylr
+Installed-Size: 224
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.sini.alipaycc_1.5.5-3+debug_iphoneos-arm64e_9f73cac6ac1448fea1c45bec5101fecb40936aea81edaa076df8512049495be6.deb
+Size: 8272
+MD5sum: 2a12f2c3bf92d2a1fa87e75e37775bd7
+SHA1: 1d2a6422a5ecdbaeb0a1efce550c22c095b33dbd
+SHA256: 9f73cac6ac1448fea1c45bec5101fecb40936aea81edaa076df8512049495be6
+SHA512: 8dd776f02f069b14749c1143dda0be9159304cd493de2e53f2d4800ab467a6a2ada9fa39926a232a5dd56e430b88822e13ee5860a8117085c069d80b4c41304d
+Description: 控制中心添加支付宝中蚂蚁森林与手机充值，ylr制作投稿
+Name: 支付宝蚂蚁森林手机充值
 Icon: https://sini921.github.io/repo/sileodepiction/icon/alipaycc.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/alipaycc/js.json
 Author: ylr
@@ -52715,6 +52861,24 @@ icon: https://huayuarc.github.io/icon/CCAudioPlay.png
 
 Package: com.thefool.ccaudioplay
 Architecture: iphoneos-arm64
+Version: 0.0.1-7+debug
+Section: Tweaks
+Maintainer: thefool
+Installed-Size: 29768
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.thefool.ccaudioplay_0.0.1-7+debug_iphoneos-arm64_72fbfb6d9be7e6dbc1bb6c1d9a1b1ec3c7c5cba2604e6a4c4a6bd06c3bb74920.deb
+Size: 25107812
+MD5sum: 60d32612ca06258d6a6645aec9d8e059
+SHA1: 3d51e9210e17603b63816dbf95baced49690db67
+SHA256: 72fbfb6d9be7e6dbc1bb6c1d9a1b1ec3c7c5cba2604e6a4c4a6bd06c3bb74920
+SHA512: 5e23d9f63af2e5bd8f3cfcc4c8816f5db7115feb035d50f788c3ad6907c0166886df7f484776efef853affb5774e8f37652c513975b40a1c3e14a54b79111e73
+Description: 播放器美化 不支IOS15
+Name: CCAudioPlay 控制中心播放器美化
+Author: thefool
+icon: https://huayuarc.github.io/icon/CCAudioPlay.png
+
+Package: com.thefool.ccaudioplay
+Architecture: iphoneos-arm64
 Version: 0.0.1-94+debug
 Section: Tweaks
 Maintainer: thefool
@@ -52728,6 +52892,24 @@ SHA256: 51ac27a58198ecc751afcf769ab9522beb1246b2d0a368458f4bc21066e14a3b
 SHA512: 4bad668f4ac34a518e96049f8741d17c032e93d7a9dbbc4a6d34eff1b26c9c367519790a8665aea24cb524b15d19597350c3fd7dfad105daab7f8f5f01d80ee8
 Description: 播放器美化 不支IOS15
 Name: CCAudioPlay 播放器美化
+Author: thefool
+icon: https://huayuarc.github.io/icon/CCAudioPlay.png
+
+Package: com.thefool.ccaudioplay
+Architecture: iphoneos-arm64
+Version: 0.0.1-94+debug
+Section: Tweaks
+Maintainer: thefool
+Installed-Size: 29540
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.thefool.ccaudioplay_0.0.1-94+debug_iphoneos-arm64_844b9f6bd693971a26e2b5e446d5128891a6719dd8bb8a4b8c76e444a935dad3.deb
+Size: 25090924
+MD5sum: 601d8670b3e8456484a86c7ec67bd849
+SHA1: 8619023487e41a9a6527d59c087bdde08a328467
+SHA256: 844b9f6bd693971a26e2b5e446d5128891a6719dd8bb8a4b8c76e444a935dad3
+SHA512: 2222906b3a920c0a219ba85572455572c485115bb4d2c1d8344def30ef397c561b0a64e1eeeb1ada9c0304a9c69747f69aaa6a4fbcda1eea99500085079af8af
+Description: 播放器美化 不支IOS15
+Name: CCAudioPlay 控制中心播放器美化
 Author: thefool
 icon: https://huayuarc.github.io/icon/CCAudioPlay.png
 
@@ -52747,6 +52929,44 @@ SHA256: 6f378eb8b071c5da84470164a634a83999891995ba94a2fbbc53b6f9557ea42a
 SHA512: 1bd7cff979ac9bcb086707b62d41f3a112685e72b13a908dd7b5530c73efcf4197be2814401435cf148c96b2ce9e5fd7193109fd894246d0693b7b19da28df1f
 Description: 播放器美化 不支IOS15
 Name: CCAudioPlay 播放器美化
+Author: thefool
+icon: https://huayuarc.github.io/icon/CCAudioPlay.png
+
+Package: com.thefool.ccaudioplay
+Architecture: iphoneos-arm64e
+Version: 0.0.1-7+debug
+Section: Tweaks
+Maintainer: thefool
+Installed-Size: 29768
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.thefool.ccaudioplay_0.0.1-7+debug_iphoneos-arm64e_878250b7884c675faf8aa3a9f6dff467a9b783ee8e059296c4a17929125bcec6.deb
+Size: 25097416
+MD5sum: 1aecea33f410f6a6a6ccb1c7a50d7d62
+SHA1: 25dfc4bc719bd069b950073e3a87ff4e0d7cc4c2
+SHA256: 878250b7884c675faf8aa3a9f6dff467a9b783ee8e059296c4a17929125bcec6
+SHA512: a112249d0da91fd9ae40f482e1e46a0331a7b9465d4cb76cf46ed0a791720a1111d3ab46d1280207aa6bd77b00315a85c057025a928c3e888c557042a9ea52f1
+Description: 播放器美化 不支IOS15
+Name: CCAudioPlay 控制中心播放器美化
+Author: thefool
+icon: https://huayuarc.github.io/icon/CCAudioPlay.png
+
+Package: com.thefool.ccaudioplay
+Architecture: iphoneos-arm64e
+Version: 0.0.1-94+debug
+Section: Tweaks
+Maintainer: thefool
+Installed-Size: 29540
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.thefool.ccaudioplay_0.0.1-94+debug_iphoneos-arm64e_2e40c895800c60beaae7a3a6c86eff8fb85192e2fdf894a01dc137f12fe2af67.deb
+Size: 25081616
+MD5sum: dc23dc270abc6e4423d41cb5dbc6f74f
+SHA1: b85439c1facfa4e64f93a71656f3c02fc5005cb8
+SHA256: 2e40c895800c60beaae7a3a6c86eff8fb85192e2fdf894a01dc137f12fe2af67
+SHA512: 821ab9d20a7e1dea78454b81bf36b2aeded8961f56e89efbef63613de24f9830e84e7341c3683beae95ba7378b69a0603e0bfb6daffb9f100c171fd2eb987acf
+Description: 播放器美化 不支IOS15
+Name: CCAudioPlay 控制中心播放器美化
 Author: thefool
 icon: https://huayuarc.github.io/icon/CCAudioPlay.png
 
@@ -54042,6 +54262,29 @@ MD5sum: 548d5b6dacfb5391dbcc5fc6e13ada7f
 SHA1: 687e71704308db3da4c64dbd3ec5284715407e2d
 SHA256: 3657f58b230dba0d6d222710dd37449f74069da2d93afa76011b4e9e0e216be6
 SHA512: 20726b8a3e46c50c51f5f6eedbb9165cadafb80273acc465f82c85f3b3213d521439430527e7b8075ba8efdc7dfa10e00a2d322b76535a249d1a068ae988aeb3
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+
+Package: com.tsangbaby.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.3.2
+Priority: optional
+Section: Tweaks
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.tsangbaby.pulloverx_2.3.2_iphoneos-arm64e_4775598bbe55271e4b948768df7ed1632e69b8c0529a2e610806269a0893b9fa.deb
+Size: 671736
+MD5sum: c6c6d423aa2c36552ed54b6606b2e71a
+SHA1: 6782a24b854f8ecbc2990745399c195c2f9e141c
+SHA256: 4775598bbe55271e4b948768df7ed1632e69b8c0529a2e610806269a0893b9fa
+SHA512: ce164ef1ae7f4df3627432fdfa16b10de76f4b674200e43d930fc1efa336c59f38e1b2fb18a5dc66cbd7f2a3e1a8ca90ffc892a21a194ee439177736c93d06e5
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
 Name: PullOver X
 Author: Tsangbaby
@@ -56637,6 +56880,24 @@ Author: junhong
 icon: https://huayuarc.github.io/icon/fanqiefn.jpg
 
 Package: fanqiefn
+Architecture: iphoneos-arm64
+Version: 3.3.0
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 3412
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/fanqiefn_3.3.0_iphoneos-arm64_b74f0cbfba9a33116fb4930cf9fc1d3f2a64804afec9e5b73b135dd24a6fb61e.deb
+Size: 1494652
+MD5sum: 3f82ee0142ba1131cf17f8adb4cdca07
+SHA1: c7f293b63be75310d53eddc39db197871f0a367e
+SHA256: b74f0cbfba9a33116fb4930cf9fc1d3f2a64804afec9e5b73b135dd24a6fb61e
+SHA512: 423a9401613fd99d93e1db9114e186b262b7a2e66eb292e7e2e6081361751e84eeb942ba935bf7f01e0ab4bea28ed2f8bc3aaa92a93978177f5ea2cfc8308ffd
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Name: 番茄净化
+Author: junhong
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+
+Package: fanqiefn
 Architecture: iphoneos-arm64e
 Version: 3.0.1
 Section: Tweaks
@@ -56783,6 +57044,27 @@ Name: 番茄净化
 Author: junhong
 icon: https://huayuarc.github.io/icon/fanqiefn.jpg
 
+Package: fanqiefn
+Architecture: iphoneos-arm64e
+Version: 3.3.0
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 3396
+Provides: fanqiefn
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: fanqiefn
+Replaces: fanqiefn
+Filename: debs/iphoneos-arm64e/fanqiefn_3.3.0_iphoneos-arm64e_90443efa9626db03cb3c8d0d3f21a64de6f8e24ac3e377de7e072dbfd2406106.deb
+Size: 1488960
+MD5sum: 93e4edc2c4b5690b0ccc53230ce64b15
+SHA1: 2b8a4c0f77883c1bdb21967b7af0467d40a6ae0b
+SHA256: 90443efa9626db03cb3c8d0d3f21a64de6f8e24ac3e377de7e072dbfd2406106
+SHA512: 02d002371c7eb26d191139e70cb48f519d6a02b3a430ee5e22ae8cb194d5c642aff757d151c3182cb52de4f9d72897af123d6e7ef0e0b96cf66605c7f7717eda
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Name: 番茄净化
+Author: junhong
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+
 Package: hongguofn
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -56852,6 +57134,24 @@ Name: 红果净化
 icon: https://huayuarc.github.io/icon/hongguo.png
 
 Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 4456
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/hongguofn_2.0.0_iphoneos-arm64_cf17f13662e700c5b4fb88d3ab17c696834101ca4ab9c4f7a24126c6c248d8f0.deb
+Size: 1939568
+MD5sum: a1615d0be751621a4389e36f6831be2b
+SHA1: ad7fec5b445a9f18b992aee64c15f21a002a3f62
+SHA256: cf17f13662e700c5b4fb88d3ab17c696834101ca4ab9c4f7a24126c6c248d8f0
+SHA512: f6a14d5283f67b52bdb96408e18eca1a557ee4131076c63af050b173d7cf67bab09e27a52d52eabb07310f27a381dff2b92243ae65f54d8384037a54022ff11a
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+Author: junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -56917,6 +57217,24 @@ SHA256: 0c97258c7d44b7ef818c516adb74292007baebf1d02e7fb74d618ce7da3a7009
 SHA512: b250114931b770e4dd1a8d00fa857646cea60415caf86337c8d28ed5b77ff502285ffb1688a5923f1008c7e9ef2b373a790a166f10d5b7d70b66a442355293fd
 Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
 Name: 红果净化
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 4456
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/hongguofn_2.0.0_iphoneos-arm64e_531fa688a6ec4439bc000909d62a1c36171a102ba8e3d7c54cfb18c0e7e44bba.deb
+Size: 1934008
+MD5sum: a49c2f564c9544595c2afb89f0a285f7
+SHA1: 66da2ff24fb20d4d16cbc0899c72e84a610d1c26
+SHA256: 531fa688a6ec4439bc000909d62a1c36171a102ba8e3d7c54cfb18c0e7e44bba
+SHA512: 0ca2b540f76315100f4593d8529f251b1a838928108dc5c543c7142801bda38cecb9705a80ef77847466d9e66439ed0a9d6dd129d9eee9cbf578ff3160f2f152
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+Author: junhong
 icon: https://huayuarc.github.io/icon/hongguo.png
 
 Package: hypicfix
@@ -59347,6 +59665,24 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/onboarding-icon.png
 
 Package: iya.banana.multitask
+Architecture: iphoneos-arm64
+Version: 0.1.4-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2552
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/iya.banana.multitask_0.1.4-1_iphoneos-arm64_21468e1cebc7da9c450e2be16313cfcc477b1b5f7f0c3b7f6073176402930da9.deb
+Size: 431452
+MD5sum: 895e5ed215341151fea117c6764d511a
+SHA1: db52ffcb60756a2d1f9c61f6cd17404bce2c8517
+SHA256: 21468e1cebc7da9c450e2be16313cfcc477b1b5f7f0c3b7f6073176402930da9
+SHA512: 9790eaef916a5f041faf617a3b2b64c7ed92cf9cce49d1eea970a70e522f29dcbdba8efe1dba72f550f8392483cb06fe4ca12e95389b21cce89e71c1f502ed0d
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+
+Package: iya.banana.multitask
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Section: Tweaks
@@ -59414,6 +59750,24 @@ SHA1: b9fb502447520c4f5129ecd009a4d9301a488de4
 SHA256: fe4e99e6c36c21e3a44a74617305686a90b9952b2504452c02d958f6c6e95339
 SHA512: 0a018a63b9b9d0319d9c900f8ce0865efc64d77e92c6cc57e257705824ddd4b0005151316f340fef78d32046830251c6528b9ac463ade35a021897d17699393c
 Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+
+Package: iya.banana.multitask
+Architecture: iphoneos-arm64e
+Version: 0.1.4-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2536
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/iya.banana.multitask_0.1.4-1_iphoneos-arm64e_234b6e2210ac18fb0e4d99a57a3bb04140146a44aeaa87c31dda3b6cc7149032.deb
+Size: 430632
+MD5sum: 6a60e94cd19c2b6c161bf1fc068ecce8
+SHA1: 5505031e716e8d2639984edfbf04f17fbc889626
+SHA256: 234b6e2210ac18fb0e4d99a57a3bb04140146a44aeaa87c31dda3b6cc7149032
+SHA512: 78f7d72329c9de6a233d9cb645e920a00ab7c5313c4bd29f66da546d651f702c7c9b57d7409cdbc37fec2ee9d46d6fc8f7e237ee4299cdce10388d0bdaac80c9
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
 Name: 一芽分屏 (Iya Split)
 Author: Banana
 icon: https://huayuarc.github.io/icon/onboarding-icon.png
@@ -61873,6 +62227,42 @@ Author: Netskao <xuanhua880@gmail.com>
 icon: https://huayuarc.github.io/icon/alipayscan.png
 
 Package: netskao.alipayscan
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets <xuanhua880@gmail.com>
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/netskao.alipayscan_1.2-2_iphoneos-arm64_756224037cc08d3f9ad63ec24b256fc623e920057eee2e3d4ab0c0941479b200.deb
+Size: 43012
+MD5sum: 719ee612453615de6733edfb4c11315a
+SHA1: 75e3558e26a2a88b1b28ad5e7562cd21b23d1983
+SHA256: 756224037cc08d3f9ad63ec24b256fc623e920057eee2e3d4ab0c0941479b200
+SHA512: 999d9efe2352fc40c48cf93ad15a2e8ac99632571979ba090eabfebb219e66f91d3444ca666831f4d9aa9dc2da7a87d3c28995b1f4010744a7605cbbf0fbe28a
+Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
+Name: 支付宝扫一扫
+Author: Netskao <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/alipayscan.png
+
+Package: netskao.alipayscan
+Architecture: iphoneos-arm64e
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 160
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/netskao.alipayscan_1.2-2_iphoneos-arm64e_47bd794046de0586c7c9618f8b671b5f283442bd090680a88496f38eac4c579b.deb
+Size: 43168
+MD5sum: b2a299e666290b4025f82a77b23b2f47
+SHA1: 66703b7bedd8c98b67c4857b72fd82a04053099b
+SHA256: 47bd794046de0586c7c9618f8b671b5f283442bd090680a88496f38eac4c579b
+SHA512: 1258a8e11083e2814d27047f6f71889ec1b80ba786fafd016e447fc12bb2d060e444d56b1f14b151cb7ac72d3b1c1970b73c7f7a886ecdd07d7e80144a3f9140
+Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
+Name: 支付宝扫一扫
+Author: Netskao
+icon: https://huayuarc.github.io/icon/alipayscan.png
+
+Package: netskao.alipayscan
 Architecture: iphoneos-arm64e
 Version: 1.2-2
 Section: Tweaks
@@ -62368,6 +62758,23 @@ Version: 1.2-2
 Section: Tweaks
 Maintainer: Nets <xuanhua880@gmail.com>
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/netskao.wechatscan_1.2-2_iphoneos-arm64_343e1fd98dede48c62500e7d83273f481efc53b3061c71ac4abc2c9a63e700dc.deb
+Size: 28708
+MD5sum: 7ab83391797726c1d6da1e55d22a8579
+SHA1: 33ec13dd0c1aa894a0faee99048562ff5f9f70e8
+SHA256: 343e1fd98dede48c62500e7d83273f481efc53b3061c71ac4abc2c9a63e700dc
+SHA512: 3da32938a93eb3cb7ebf5c0cf4645d18c34a87cd3903703b0723ddbf1511a4f5c71ab5fb1dfefd65cf6d470a8706e01659e22a6405e89d80a49fb531114dc1ad
+Description: 通过控制中心快捷打开微信扫一扫，设置-控制中心-自定控制内添加后使用
+Name: 微信扫一扫
+Author: Netskao <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/wechatscan.png
+
+Package: netskao.wechatscan
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets <xuanhua880@gmail.com>
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Filename: debs/iphoneos-arm64/netskao.wechatscan_1.2-2_iphoneos-arm64_90e538bd34b13f524676b9e1ac75ecaea3dfe04e683e2ded8b92a5f45a99b6c4.deb
 Size: 28712
 MD5sum: 08b2d582c4c967808f3b2ff2f6a5303d
@@ -62395,6 +62802,25 @@ SHA256: 6ea933faf180656b0abce118a15f56d4b6b0a0d81bbb9e607366416a354c3871
 SHA512: bdedd95b0fab42154df387bea8bda9a964728d303faa139014af116d1317aa6d5bf85c78be457ef330f21693ae083f6267827987d7addf6f1a27994ef3f6e053
 Description: 通过控制中心快捷打开微信扫一扫，设置-控制中心-自定控制内添加后使用
 Name: WeChatScan
+Author: Netskao
+icon: https://huayuarc.github.io/icon/wechatscan.png
+
+Package: netskao.wechatscan
+Architecture: iphoneos-arm64e
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 160
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/netskao.wechatscan_1.2-2_iphoneos-arm64e_a95097d55a78b9010880c14eef88b30e68d5f20a3653e9c29f36c5603b55b2e5.deb
+Size: 28856
+MD5sum: 3cd73323c61e2015515b9ca165ebbeb7
+SHA1: 9bd296793b90adaa1356e9cac9d849447c361383
+SHA256: a95097d55a78b9010880c14eef88b30e68d5f20a3653e9c29f36c5603b55b2e5
+SHA512: 6c063c958073ba3a012d3229f56c96fd0ff4d13a54d44d90c1f6e9fe819d5f8370481597115b2142af9bdbcc3de5703ecb78cc2414eead2fe12cd5d3ac40cd88
+Description: 通过控制中心快捷打开微信扫一扫，设置-控制中心-自定控制内添加后使用
+Name: 微信扫一扫
 Author: Netskao
 icon: https://huayuarc.github.io/icon/wechatscan.png
 
@@ -63271,6 +63697,29 @@ SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.2.3
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 92020
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.2.3_iphoneos-arm64_a5dfb386389da683b35b565da74b8e302d2e4060deede6ebd0bd1c8a6c6a46a8.deb
+Size: 22310328
+MD5sum: c26f854bca51283ddf9bb82c457b92fa
+SHA1: cc9f55445bd316ca28f19ed3f72a2781e84b9129
+SHA256: a5dfb386389da683b35b565da74b8e302d2e4060deede6ebd0bd1c8a6c6a46a8
+SHA512: 599570eee504a0723a0f2e03256e649db68ea1ed897aad0b8b49d6ae2b1ed4096b7aec06ff636ef9f8d0ba58c033e80a7aa433454845411527454ab4c348095c
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Priority: optional
@@ -63423,6 +63872,29 @@ MD5sum: 6a8df5d27ad6aa8ff9e811ac6cad464f
 SHA1: 131118da0c30f51de689d15a89d9ceed9c95b2e3
 SHA256: 664fc7eb9b8b83e0c0a0643c18b8e4210ed07b0028b25cfdd95c11304d92b7d7
 SHA512: 9fe65dfb6e2b2bdb4f56d8847b5c0e89b317d1e497d8e640fa24dcd023999ecef7c38337a9691f8d455d23b4cbe9a69a81949def82bbaa9990736decc9bcad48
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64e
+Version: 0.2.3
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 92020
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin_0.2.3_iphoneos-arm64e_e27f8378f1b84f5e583187c03403b498a0c1d3fab5617fa604f9c033cd0ddc49.deb
+Size: 22305664
+MD5sum: a0d14199def6eef6a7ac855049018e2c
+SHA1: 0e5e4f203bec87455f36d20a2f6b8711a9cfc32d
+SHA256: e27f8378f1b84f5e583187c03403b498a0c1d3fab5617fa604f9c033cd0ddc49
+SHA512: 273bfb69e4bb8eb53098757f55ab958c8005e33918af043553128f10f0551b1d1ce9c0b5686d21e157f8c4254de03ad49686663edf6b22f7f8dfe12556596800
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
 Name: Apelin
@@ -65725,6 +66197,23 @@ Version: 1.0.2
 Section: Tweaks
 Maintainer: zqbb <xuanhua880@gmail.com>
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/zqbb.alipayfuk_1.0.2_iphoneos-arm64_499b44f9f0c7ff68a978f4aed2ba384a52ee6147badac6cf45afd9a79af1c7eb.deb
+Size: 36400
+MD5sum: 701ced99aacec7aa1ec95a921d5733bc
+SHA1: 8429ac596e564aa059ef93b32b3305bd88dc9faf
+SHA256: 499b44f9f0c7ff68a978f4aed2ba384a52ee6147badac6cf45afd9a79af1c7eb
+SHA512: dbecb18d0dc21fec4ca40c0d79d95a45321d2e8a38d69bbd71f8357a767dee39a714cc2b1f419b4fbc23f51df32b93e13eecd1724e8d897c84410bad009aad2a
+Description: 通过控制中心快捷打开支付宝付款码，设置-控制中心-自定控制内添加后使用
+Name: 支付宝付款码
+Author: zqbb <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/alipayfuk.png
+
+Package: zqbb.alipayfuk
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: zqbb <xuanhua880@gmail.com>
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Filename: debs/iphoneos-arm64/zqbb.alipayfuk_1.0.2_iphoneos-arm64_8dc4c47840c158d215a380005a9f0e3b8a66560a5a34953137890b6f9a200d2a.deb
 Size: 36404
 MD5sum: 834a355720014d68ea3a658b9d012379
@@ -65752,6 +66241,25 @@ SHA256: 376ba538e21fc1d25e8fc3ff51c01ab578e2e1b23acba9f1a37d101b3def8b9b
 SHA512: eea9cd5c7957749eaa947b0f25653b55e0d4a5f1399a5465772d61e222689bc20076a4296a5a283fcd6e447e3910ec607b9be2fd7ba7c64c213ff399c73af682
 Description: 通过控制中心快捷打开支付宝付款码，设置-控制中心-自定控制内添加后使用
 Name: AlipayFuk
+Author: zqbb
+icon: https://huayuarc.github.io/icon/alipayfuk.png
+
+Package: zqbb.alipayfuk
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 160
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/zqbb.alipayfuk_1.0.2_iphoneos-arm64e_b7603973164c595b02c89bd7bb56a9d4b0ccbbb6cf328c10ed68be62d052ba49.deb
+Size: 36508
+MD5sum: 2ead2df508e4aba896fc89cc184b9a7d
+SHA1: aae077defb4fcc76a34a3e09129638f7c13f7ae5
+SHA256: b7603973164c595b02c89bd7bb56a9d4b0ccbbb6cf328c10ed68be62d052ba49
+SHA512: 9d2170fb91440ae98fa72a3cf45ccca5b308f1145e24ab5a02566ead393a803caf92a9c9419ca3ba1a15f2a9f01d265c405c151bcb0d6992c4bc7d946ac3e896
+Description: 通过控制中心快捷打开支付宝付款码，设置-控制中心-自定控制内添加后使用
+Name: 支付宝付款码
 Author: zqbb
 icon: https://huayuarc.github.io/icon/alipayfuk.png
 
