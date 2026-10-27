@@ -14675,6 +14675,26 @@ Author: 7513
 icon: https://huayuarc.github.io/icon/header@2x.png
 
 Package: com.cracklock.7513
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: 7513
+Installed-Size: 1788
+Provides: com.cracklock.shatter
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Filename: debs/iphoneos-arm64/com.cracklock.7513_1.0.2_iphoneos-arm64_d48bc099417d03f6f7a5aaae53f36c2835c8daa277debaffdcfe98bfdaeaf901.deb
+Size: 1156024
+MD5sum: f077b38280a52c11a0e0c81d2176b356
+SHA1: 5b787d850dbde5b0412b4f4f75f7ecc44b0665d6
+SHA256: d48bc099417d03f6f7a5aaae53f36c2835c8daa277debaffdcfe98bfdaeaf901
+SHA512: 97639296734ecfde8b302cbcd7f9eda71d7bb59fa55f943567f02bbb551f41e0ca759afb59bdf1ef549f415c064a1e5b2bfc62e8198887cfa0b8ca95fa3f604e
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
+Name: 熄屏幻术
+Author: 7513
+icon: https://huayuarc.github.io/icon/header@2x.png
+
+Package: com.cracklock.7513
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Section: Tweaks
@@ -14690,6 +14710,26 @@ SHA1: efa25afbd02693fe5eab4bf0d4def6fa74b8aabd
 SHA256: d7b4a835bc088b1b56b36b6fa94a230f60dc816c8ef4dba5b06b8de5751c0418
 SHA512: 8a5df0165fedf7a0205f036569ff05aa2fb20967091bd97494f4f2d090cc618e7f8d52b51237d908c7d80c81b12d06d863f170459deb68cf2fd5fd3511fe4653
 Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素溶解 / 百叶窗 / 故障闪烁 / CRT 关机 / 3D 翻转 / 旋涡内爆 / 灰烬上升 / 沙化 / 融化坠落 / 波纹扭曲 / 拼图崩落 / 旋卷飞散 / 剥落坠落 / 闪烁熄灭 / 墨色飘散），每种可单独调参。
+Name: 熄屏幻术
+Author: 7513
+icon: https://huayuarc.github.io/icon/header@2x.png
+
+Package: com.cracklock.7513
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: 7513
+Installed-Size: 1741
+Provides: com.cracklock.shatter
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Filename: debs/iphoneos-arm64e/com.cracklock.7513_1.0.2_iphoneos-arm64e_390e4fa9255b190c4cc4219998326fde1cda42b58a807a83412ffa39da2b6229.deb
+Size: 1156112
+MD5sum: b92c7f0970ffbc3ec721d9b5f40de310
+SHA1: 9dba5b8507d31c1b5dc92d30103a623c4bc41de9
+SHA256: 390e4fa9255b190c4cc4219998326fde1cda42b58a807a83412ffa39da2b6229
+SHA512: c0475a97cd9d3a2f5714913af1c32dbb54ff81ec8478f15f879c1d48e68f7bc69bd64ec4856baaadd9729ed6651e68ac60d0fea15b924bc7fc9e2942f3111482
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
 Name: 熄屏幻术
 Author: 7513
 icon: https://huayuarc.github.io/icon/header@2x.png
@@ -18503,6 +18543,45 @@ SHA1: d5a081d8036c4629d305b2a1e658c0f0210cfc0d
 SHA256: 919bd4c1bf2633db40d20757aa007e13eeee1eda8d57e0c843703e591097bab0
 SHA512: ec471a499d818e83bc8d8b4dc66b9ac97dae2442a08118259a2f3cffeca0f0332071a0412fe6eb687d5b52b55e46b6834ecce024d5e82594f65959270d35b9c5
 Description: 让应用在后台持续前台保活！支持 iOS 14 至 26.0.1 Foreground your apps even if they are in the background! Supports iOS 14-26.0.1
+Name: Immortalizer Reborn
+Author: evgeniy
+icon: https://huayuarc.github.io/icon/immortalizerreborn.png
+
+Package: com.evgeniy.immortalizerreborn
+Architecture: iphoneos-arm64
+Version: 1.16
+Section: Tweaks
+Maintainer: evgeniy
+Installed-Size: 792
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: xyz.cypwn.immortalizer, com.sergy.immortalizer
+Filename: debs/iphoneos-arm64/com.evgeniy.immortalizerreborn_1.16_iphoneos-arm64_ad4c4e88a0d5ffa19e87049ca7ee21bcc3f8590064c9c9d91044febe338de9e9.deb
+Size: 121136
+MD5sum: 89ded3442373c9a2577fcb55108f0fc7
+SHA1: fca3a780ed90f3a8834064445d414780407047ad
+SHA256: ad4c4e88a0d5ffa19e87049ca7ee21bcc3f8590064c9c9d91044febe338de9e9
+SHA512: 5b2ddce8b8d9e75ae43dbfd423fb3b48e6efec85dec5c385e89a10796672538ae28f2f32a45dc0beed5f6506dc0f3166d60f2a98d63485c72b4b150440d381f3
+Description: 让应用在后台持续前台保活！Foreground your apps even if they are in the background! Supports iOS 14-26.0.1
+Name: Immortalizer Reborn
+Author: evgeniy
+icon: https://huayuarc.github.io/icon/immortalizerreborn.png
+
+Package: com.evgeniy.immortalizerreborn
+Architecture: iphoneos-arm64e
+Version: 1.16
+Section: Tweaks
+Maintainer: evgeniy
+Installed-Size: 792
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: xyz.cypwn.immortalizer, com.sergy.immortalizer
+Filename: debs/iphoneos-arm64e/com.evgeniy.immortalizerreborn_1.16_iphoneos-arm64e_199651c6529c7e98ba264d8d2127acfc3fee6f4d5a74982b5f0ed2bc6fd3f0d6.deb
+Size: 120560
+MD5sum: 580160379df4e1158b47766f67c6c8de
+SHA1: 33002800d27493fb6a78c3afee8cd438122152b5
+SHA256: 199651c6529c7e98ba264d8d2127acfc3fee6f4d5a74982b5f0ed2bc6fd3f0d6
+SHA512: 413dc5d3a01307fb274ee6bb65c8384bd31891f3179d672f2d1ad47ad623b527a257208d9134b5c0f754f819ded16bba6f5671b60f891d77478d4cce6b7a76ad
+Description: 让应用在后台持续前台保活！ Foreground your apps even if they are in the background! Supports iOS 14-26.0.1
 Name: Immortalizer Reborn
 Author: evgeniy
 icon: https://huayuarc.github.io/icon/immortalizerreborn.png
@@ -28099,6 +28178,47 @@ SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.
 
 Package: com.jibamao.gaodeclean
 Architecture: iphoneos-arm64
+Version: 0.9.110+trial71
+Section: Tweaks
+Maintainer: jibamao
+Installed-Size: 420
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.jibamao.gaodeclean_0.9.110+trial71_iphoneos-arm64_dcc4759da50e3a178081909ae0a3ddea3ee097ded9ae92184f5c3391c59c1acf.deb
+Size: 79892
+MD5sum: 93822e296093963b6e4f12e4c5b5ee2b
+SHA1: 2fcf9ef35b1f03a3a1ece6df8f4958ae5271c62f
+SHA256: dcc4759da50e3a178081909ae0a3ddea3ee097ded9ae92184f5c3391c59c1acf
+SHA512: 4db1afca183e127613af3ddcae56cfe15dc4438eafcc1d68042bccfe49f0afd8e97c334503b1d7444c4864301e52bb89418ce0e2eb052fc8d6ad2f091786eec8
+Description: 高德地图界面精简 · 纯本地运行
+ 把多余的视觉干扰去掉，把该在的位置摆回原样；不抓网络、不改安装包、不采集任何数据。
+ .
+ 添加源 https://gan-jibamao.github.io 后搜索 GaodeClean 即可安装（RootHide 选 arm64e，
+ Dopamine / rootless 选 arm64，两者不可同时安装）。
+ .
+ 界面精简：
+  • 去底栏「上拉发现」引导提示，去上拉白雾与闪白
+  • 去顶部高斯模糊带，去首页白块
+ .
+ 位置归位（对表高德原生布局）：
+  • 搜索栏 / 天气行 / 连接车机 / 2D·3D / 定位·路线胶囊，各归其位
+  • 2D·3D 按钮回到定位·路线胶囊正上方
+  • 连接车机按钮位于天气行上方，天气行与按钮左对齐
+ .
+ 稳定不闪：
+  • 切页、切 2D·3D 不再跳动
+  • 冷启动全程不会在屏幕中部闪出按钮
+ .
+ 全版本自适应：按控件特征判定，不绑定具体高德版本号。
+ 只改界面显示，不影响搜索、导航、路线规划等原有功能。
+ 装后请注销（sbreload）或重启用户空间再打开高德。
+ .
+ 常用说明与更新日志见仓库 Release 页面。
+Name: GaodeClean 高德精简
+Author: jibamao
+icon: https://huayuarc.github.io/icon/gaodeclean.jpg
+
+Package: com.jibamao.gaodeclean
+Architecture: iphoneos-arm64
 Version: 0.9.21
 Section: Tweaks
 Maintainer: jibamao
@@ -28233,6 +28353,47 @@ MD5sum: 4f4b5a26742db44cc07149cf8d8d0ee5
 SHA1: 505ae9d58aea7ead5b7140b845f8b52ee7eedc63
 SHA256: 103a0ff48daac0092677f23c0f83d83616d38e20e59fe36f84d2a01f54a6ee96
 SHA512: 566cb9958cd8299332a039c308b3e8ae126206c0c62a60066bb8f7a4fba8e64ba3691ba140fb1dc92b8ae59be905760f839062d138a59acdc22e0f7e47b56d7f
+Description: 高德地图界面精简 · 纯本地运行
+ 把多余的视觉干扰去掉，把该在的位置摆回原样；不抓网络、不改安装包、不采集任何数据。
+ .
+ 添加源 https://gan-jibamao.github.io 后搜索 GaodeClean 即可安装（RootHide 选 arm64e，
+ Dopamine / rootless 选 arm64，两者不可同时安装）。
+ .
+ 界面精简：
+  • 去底栏「上拉发现」引导提示，去上拉白雾与闪白
+  • 去顶部高斯模糊带，去首页白块
+ .
+ 位置归位（对表高德原生布局）：
+  • 搜索栏 / 天气行 / 连接车机 / 2D·3D / 定位·路线胶囊，各归其位
+  • 2D·3D 按钮回到定位·路线胶囊正上方
+  • 连接车机按钮位于天气行上方，天气行与按钮左对齐
+ .
+ 稳定不闪：
+  • 切页、切 2D·3D 不再跳动
+  • 冷启动全程不会在屏幕中部闪出按钮
+ .
+ 全版本自适应：按控件特征判定，不绑定具体高德版本号。
+ 只改界面显示，不影响搜索、导航、路线规划等原有功能。
+ 装后请注销（sbreload）或重启用户空间再打开高德。
+ .
+ 常用说明与更新日志见仓库 Release 页面。
+Name: GaodeClean 高德精简
+Author: jibamao
+icon: https://huayuarc.github.io/icon/gaodeclean.jpg
+
+Package: com.jibamao.gaodeclean
+Architecture: iphoneos-arm64e
+Version: 0.9.110+trial71
+Section: Tweaks
+Maintainer: jibamao
+Installed-Size: 420
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.jibamao.gaodeclean_0.9.110+trial71_iphoneos-arm64e_5ab79507432af3ea218b5a9805699c0782151ee026ee9d649bdf9d9ed913c0b7.deb
+Size: 79868
+MD5sum: c01a35ddb051507d57ce025c84f7d284
+SHA1: b91c987b1a1795383e7e0c4d78e1b4e546d41b35
+SHA256: 5ab79507432af3ea218b5a9805699c0782151ee026ee9d649bdf9d9ed913c0b7
+SHA512: 1009a7dfca425ac722b6ac32a5977194f87c0edbe8fa878abb8583957edef6a74140e28bbe2ba1f96a7a48698b6a82c4913b154ba6b9a92d4457d51550a44e43
 Description: 高德地图界面精简 · 纯本地运行
  把多余的视觉干扰去掉，把该在的位置摆回原样；不抓网络、不改安装包、不采集任何数据。
  .
@@ -40209,6 +40370,26 @@ dev: mlgm
 Icon: https://mlgm66.github.io/icon/pullover.png
 
 Package: com.qq391160.pulloverplus
+Architecture: iphoneos-arm64
+Version: 1.0.567
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro, com.huayuarc.pulloverplus
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro, com.huayuarc.pulloverplus
+Filename: debs/iphoneos-arm64/com.qq391160.pulloverplus_1.0.567_iphoneos-arm64_66e3d3383bc3e23568c5f4bb86b17e138363982c5254e51dea550a1053d3d921.deb
+Size: 380260
+MD5sum: 664112eef9c9a58acf239058cf453a14
+SHA1: eea5c722f85adf12572961b2f57a5d25ecc3c632
+SHA256: 66e3d3383bc3e23568c5f4bb86b17e138363982c5254e51dea550a1053d3d921
+SHA512: 7d799d975cb58fb0ec538c318738c058ae03cb2a19f0f41c8992c88d2b3f30ca671eaaeff8a298e6cd22cc00331559cf13ee1d76a2e33b0bc5d5c0064e48108b
+Description: 此插件基于 PullOver X（原作者 mlgm）与 PullOver Pro 修改；本版为 qq391160 的增强版。
+Name: PullOver Plus
+Author: qq391160（基于 mlgm 的 PullOver X）
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.qq391160.pulloverplus
 Architecture: iphoneos-arm64e
 Version: 1.0.566
 Priority: optional
@@ -40222,6 +40403,27 @@ MD5sum: 759167d5ee56e968b79c46b5b22154ce
 SHA1: 5b40e16f98330376103bb8a350c12ff34b436b4f
 SHA256: 5efa8d841dd8d95eeb57616218e8110bf3f374cafa14cb69192db7ecae02908a
 SHA512: 397f102b24beba699026baf32ab4f193bd8ccfbf74213b68cec0c76c5ea64c1161dcdd3c5e4a12330849fd71a098ddce60e6f63ae9e368350748a84639828bc0
+Description: 此插件基于 PullOver X（原作者 mlgm）与 PullOver Pro 修改；本版为 qq391160 的增强版。
+Name: PullOver Plus
+Author: qq391160（基于 mlgm 的 PullOver X）
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.qq391160.pulloverplus
+Architecture: iphoneos-arm64e
+Version: 1.0.567
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro, com.huayuarc.pulloverplus
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro, com.huayuarc.pulloverplus
+Filename: debs/iphoneos-arm64e/com.qq391160.pulloverplus_1.0.567_iphoneos-arm64e_63494d32ee82d1bc11e76ee91739eaf22f14f59b3789c853b19f8f0cad77ddc5.deb
+Size: 378060
+MD5sum: 0af283a746f42e9659ebe9177a07f6af
+SHA1: 31c05eb70a92b3b9260976611bc737cc2c73fd89
+SHA256: 63494d32ee82d1bc11e76ee91739eaf22f14f59b3789c853b19f8f0cad77ddc5
+SHA512: a25bdb2c55f5c15bfcbbd7be238091622584e7e9520909b219e85562b5391272aafb324ab65a2661ff7c267c2c56aefcb959eaf0cb1cc16e4d6ac8c693e538da
 Description: 此插件基于 PullOver X（原作者 mlgm）与 PullOver Pro 修改；本版为 qq391160 的增强版。
 Name: PullOver Plus
 Author: qq391160（基于 mlgm 的 PullOver X）
@@ -56899,6 +57101,24 @@ Author: MoWang
 icon: https://huayuarc.github.io/icon/settingsorganizer.png
 
 Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 505
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/dev.owngoal.settingsorganizer_0.0.2_iphoneos-arm64_3fba28527bf0e9d5b1c9dcce75f9dc09bb5971ecc21c287d23da5a855d179506.deb
+Size: 68336
+MD5sum: af3714bc14043b8ac432332d4712a709
+SHA1: b24a1a0457018e775bdd26f04ae162a67096f17a
+SHA256: 3fba28527bf0e9d5b1c9dcce75f9dc09bb5971ecc21c287d23da5a855d179506
+SHA512: 655b50804c045d96eedef75d3155ecd566b775c536b89dad3527b59d56143766744eca51e11b24edc9245098ba04f87564394f8b3883c08483e295fb584e0003
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+
+Package: dev.owngoal.settingsorganizer
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -56911,6 +57131,24 @@ MD5sum: ebd4b8f537cc6c078985a9950cfc5252
 SHA1: 1bb5b18c9a37ba553e17217291170d6a3f3ca1ab
 SHA256: 577513223da74388e9059099d603c56376a1e1549b9c3020ad0b0029dd2a8760
 SHA512: 9202d4f7d324c7117e8f341c59e5a2d50e43b2d8f7ada6ec9da590f980810a6e5bac24f5196c1f25e5ec9b585de8fa07c52dd02e096a7b3e62f8334175a7a490
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+
+Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 247
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/dev.owngoal.settingsorganizer_0.0.2_iphoneos-arm64e_c2bd56745a9e2fdc5e3d6d8b4d0b15843cd401463a4b83f3d66c8c241bdf72d5.deb
+Size: 57628
+MD5sum: 593609be0f4de27a2cc7469220c0a2ae
+SHA1: f4a2740c1edcab36bdd6cd0ddc82fd66d6f1b632
+SHA256: c2bd56745a9e2fdc5e3d6d8b4d0b15843cd401463a4b83f3d66c8c241bdf72d5
+SHA512: 2503747e2e48ae993aacbc423f2e9eb6b5cc31bfd22356eeb8f7440061c12adc2ab75e07067d5359aa078e05eab674e30e8523220bcec3366a689b788721b8ba
 Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
 Name: 设置插件收纳
 Author: MoWang
@@ -57814,6 +58052,24 @@ Author: Junhong
 icon: https://huayuarc.github.io/icon/hongguo.png
 
 Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 4568
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/hongguofn_2.0.3_iphoneos-arm64_f9f6e2ea31ea68fd5577f6d39d0393010baa048a04e42d8e8fae85a515135abe.deb
+Size: 1974536
+MD5sum: 2d62826b28c3a69789f9b086dc297c4b
+SHA1: 9005880b447b64fb4db57caa9051421d832c0e75
+SHA256: f9f6e2ea31ea68fd5577f6d39d0393010baa048a04e42d8e8fae85a515135abe
+SHA512: 8b9ca0f44e58964cc54bf3cfedcf4a8f02860e35ec18273d4eb7abc4aa34deb48d32ad8861d232ddd9f3d94ba49cd4b7c6848f0fb701e58cdc82ba6d55c5a38b
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -57930,6 +58186,24 @@ MD5sum: 0a1cc8d7154748f9ba1fc153952b4d6e
 SHA1: d267fe0b019b3f634f45b39f620de6ba79609b01
 SHA256: 2481872ed97112c55ebe128d83a7e56dbe5713b7d9bc3229d0625f7a1661d41d
 SHA512: b20cbe4303b1eab6b6d504c41c61a2245d265cac3e102c11371c2f1ed373e8a5fe65c2ea36cf2ec7dad7049ed1e63280661f27efb992e07d8d030021d9097724
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
+Architecture: iphoneos-arm64e
+Version: 2.0.3
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 4568
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/hongguofn_2.0.3_iphoneos-arm64e_c93cb828974da8b5e88f60b13d471109582f272a2d1e03dd8b9b19e89893192f.deb
+Size: 1981304
+MD5sum: ae7fcf02dc9c12e9dbd820cf327b56f8
+SHA1: e2cbafaafcbb94e88ad090aab87ec5cdcaeef384
+SHA256: c93cb828974da8b5e88f60b13d471109582f272a2d1e03dd8b9b19e89893192f
+SHA512: 2786c969d73ff440911f11413e3542c7436f64df95f9d832ac79b12b05bf46b571f964cd768ee1675786d7d4572010006deabdded38e16dbd95eb2b55fa93d9a
 Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
 Name: 红果净化
 Author: Junhong
@@ -59416,6 +59690,25 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/dynamicnotch.png
 
 Package: iya.banana.dynamicnotch
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1436
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: debs/iphoneos-arm64/iya.banana.dynamicnotch_0.1.1_iphoneos-arm64_09a755353361a307306968a44c278061dd1abf1a4457f1ba0495ecaf75dacf8c.deb
+Size: 243124
+MD5sum: f9b6efb7fed0f1f82add51b745c2d1b9
+SHA1: 401085170d2ad7f65b6a11779936267aae3f1fd2
+SHA256: 09a755353361a307306968a44c278061dd1abf1a4457f1ba0495ecaf75dacf8c
+SHA512: 2b9f1530a94ecd3911e2da933640a2a70cb2f84b7dccabaecdf1285dd658e6dd5d3ec33f188a0ae457e995dd0de0117322676c158b65aea92dd9f84914f078d6
+Description: Notch activities, notifications and adjustable glass for iOS 15–26.
+Name: DynamicNotch · 动态刘海
+Author: Banana
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+
+Package: iya.banana.dynamicnotch
 Architecture: iphoneos-arm64e
 Version: 0.1.0~beta1
 Section: Tweaks
@@ -59430,6 +59723,25 @@ SHA1: c61b8bec111848df1794885e3ab321dd452c8d45
 SHA256: 7ffdc8cf5bd7bfe96d3e5782b1d73b86843034eb10cb30cda935adb4195ea33c
 SHA512: 2216248fabdf0e91dcfeb776c76a810b3e929b3067e92dccc247468cae3bee9a164e5f912d7a12ce45156ae320e1f60a1c66eab65761efc2d52b443e9ebe680c
 Description: 让刘海承载通知、活动与可调玻璃外观。Notch activities, notifications and adjustable glass for iOS 15–26. Beta release.
+Name: DynamicNotch · 动态刘海
+Author: Banana
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+
+Package: iya.banana.dynamicnotch
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1436
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: debs/iphoneos-arm64e/iya.banana.dynamicnotch_0.1.1_iphoneos-arm64e_3c1f33e4c3324d23a6d48ebd5a64fc1e281ff374151491757d687661c7e0e4e8.deb
+Size: 240624
+MD5sum: e334340d5988c1e095b00c80b030287e
+SHA1: 6d3a46a943018487644f5592eca67ee63ede1807
+SHA256: 3c1f33e4c3324d23a6d48ebd5a64fc1e281ff374151491757d687661c7e0e4e8
+SHA512: ab9e863b8bcb08e98eeea4277b8bf842590a8e052176bdfb0f5c630e608ba83e52cd5a1450af823cdcbac67c120cad79304cb77101e4269a682966a998a33789
+Description: Notch activities, notifications and adjustable glass for iOS 15–26.
 Name: DynamicNotch · 动态刘海
 Author: Banana
 icon: https://huayuarc.github.io/icon/dynamicnotch.png
@@ -59507,6 +59819,24 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/hide2less.png
 
 Package: iya.banana.hide2less
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Section: Utilities
+Maintainer: Banana
+Installed-Size: 580
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid, shell-cmds
+Filename: debs/iphoneos-arm64/iya.banana.hide2less_0.1.3_iphoneos-arm64_162038f256378528ce1824305db9829c9d3dd7d8a0301b75a5c877ca3dcffcb6.deb
+Size: 162652
+MD5sum: e2c5571377f3cd7f3599ea48035e8b7b
+SHA1: 707b55f5121362d9b8a5e28bc717251c763f14e1
+SHA256: 162038f256378528ce1824305db9829c9d3dd7d8a0301b75a5c877ca3dcffcb6
+SHA512: 24c6fb6ea3feffe91355dd760650088bf2c86d517e94990997d1573986191e8f99d5617fd3c298f2b74c27801a027742f97e870f1bbb345c69e94c36dc9c5998
+Description: 在手机上将受支持的 RootHide 插件包转换为 Rootless 安装包。Convert supported RootHide tweak packages to Rootless on device.
+Name: Hide2Less
+Author: Banana
+icon: https://huayuarc.github.io/icon/hide2less.png
+
+Package: iya.banana.hide2less
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Section: Utilities
@@ -59537,6 +59867,24 @@ MD5sum: 0c483e49a5162f0a46c2016dbc25d775
 SHA1: 20f2080eb6119ea4618ab08b32ad1e1691ebd62f
 SHA256: f8b3d76927d4cd2f81d6695662cf99e188e4f81f833917a979a5113113d3fab4
 SHA512: b00e59c16afb0ec26c45f85f00fe6c228de4ad5a01f9a045203b10d07caaff6970f6848e8a5de080cf1deb93ad2f287cb2d52783ea9c4373fb9b20a7f3e2c183
+Description: 在手机上将受支持的 RootHide 插件包转换为 Rootless 安装包。Convert supported RootHide tweak packages to Rootless on device.
+Name: Hide2Less
+Author: Banana
+icon: https://huayuarc.github.io/icon/hide2less.png
+
+Package: iya.banana.hide2less
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Section: Utilities
+Maintainer: Banana
+Installed-Size: 580
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid, shell-cmds
+Filename: debs/iphoneos-arm64e/iya.banana.hide2less_0.1.3_iphoneos-arm64e_18ecd3e5110104bf29e7fa863289b561ba8e5430fba92ccef63406ca1ecf80bb.deb
+Size: 163032
+MD5sum: 06f6ade480274a0d8c5420f59d66b073
+SHA1: a69778a5fdd9aa4a282a47d120287ffa33cec4bf
+SHA256: 18ecd3e5110104bf29e7fa863289b561ba8e5430fba92ccef63406ca1ecf80bb
+SHA512: d62a97da6b8e2a5d1aae949c24b6cc78f244ebcedfd0a75d430f4172eb38b2eb48973275a205facd6c74046b5a0bb55344eab1c1a25b0fff09cbc582f7beb05f
 Description: 在手机上将受支持的 RootHide 插件包转换为 Rootless 安装包。Convert supported RootHide tweak packages to Rootless on device.
 Name: Hide2Less
 Author: Banana
@@ -60798,6 +61146,24 @@ icon: https://huayuarc.github.io/icon/SpatialScene.png
 
 Package: iya.banana.spatialscene
 Architecture: iphoneos-arm64
+Version: 1.1.19
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 12612
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64/iya.banana.spatialscene_1.1.19_iphoneos-arm64_29652173ea17b8989098ad93e8630e8cbf6164b2d54e26f98dcc842c143e1dba.deb
+Size: 5908392
+MD5sum: 44d0f5f0b5ffefa4692013b338cfa7d2
+SHA1: 37119241d7687f78f3cd5a1632e858c6ee1335bd
+SHA256: 29652173ea17b8989098ad93e8630e8cbf6164b2d54e26f98dcc842c143e1dba
+SHA512: 5b9c24f928da767434ea06f24ae5722feaf74690cc842d70d1ec4efe004ca861cd44c88f459939d9a307d6b4eb35c3929443c3b81ab2e2bbeb4e442f931b0aa7
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: Banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64
 Version: 1.1.5
 Section: Tweaks
 Maintainer: banana
@@ -60917,6 +61283,24 @@ MD5sum: 77b1600394290d6c49b07c161fff3b75
 SHA1: cd3252efcce5ddbaa442cf7029d241326b9abeef
 SHA256: 180960d5717db3cea9bb557a3bc6f3688352604b8ed7811b53243d8998bbc00b
 SHA512: dee37cdca69ce4a9d9d5ac7b199a72dba0873a99ca8686861b44fd50b80b7c2a58981ffed1b31edfde4da26575a0a61edfd8a8b9fe771bc6e355af9cc4f39431
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: Banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64e
+Version: 1.1.19
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 12628
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64e/iya.banana.spatialscene_1.1.19_iphoneos-arm64e_a746bc0434c77e8eb1a5d053dc4eafd3a1e0e2e8bf0f2566b86630197fd66706.deb
+Size: 5909160
+MD5sum: 44fe7059f6d1a69648e92cca1c855937
+SHA1: a7db16d21c390a07d843b87e45bad6023bea20cd
+SHA256: a746bc0434c77e8eb1a5d053dc4eafd3a1e0e2e8bf0f2566b86630197fd66706
+SHA512: 9e56efae98036db7a2dfbb148c295ada5dd11cccea4437ca5715d86e344431cfc40a66c3e7da5d12ce6c7f9933b28b575ba3b9aee7c5be6ef6c439b6924af3a3
 Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
 Name: SpatialScene
 Author: Banana
@@ -65664,6 +66048,66 @@ Name: iGhostVT
 Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
 Depiction: https://owngoal-dev.github.io/iGhostVT/
 SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.inspector
+Architecture: iphoneos-arm64
+Version: 0.6.7
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 3980
+Depends: firmware (>= 13.0), uikittools, launchctl
+Filename: debs/iphoneos-arm64/wiki.qaq.inspector_0.6.7_iphoneos-arm64_9361823eb34333da8b564231245b05d49e91e5a4e66d5941ac6068285f6c2bbb.deb
+Size: 968896
+MD5sum: 17f04cf291720a6c5f05cf8fc3a1a104
+SHA1: c71aba3da976960065b18097b2ffe76ec7b80e77
+SHA256: 9361823eb34333da8b564231245b05d49e91e5a4e66d5941ac6068285f6c2bbb
+SHA512: 20a0aad6f2418068fe2103b1bbab1aafefdc0fa4360e37cee86923e335dd53b3fb1c44732bf2222e74266326966826feee1d88235e6fbdf6c252abfec50ef77e
+Description: Live process inspector for iOS on custom firmware (rootless)
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Name: Inspector
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Depiction: https://owngoal-dev.github.io/Inspector/
+SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.inspector
+Architecture: iphoneos-arm64e
+Version: 0.6.7
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 3980
+Depends: firmware (>= 13.0), uikittools, launchctl
+Filename: debs/iphoneos-arm64e/wiki.qaq.inspector_0.6.7_iphoneos-arm64e_3e39e5a5cb47ad9e8045a9b54866e18bd8cfe5b2b527eb0d14578de838aca83b.deb
+Size: 968476
+MD5sum: 0bdd57d3426693cf0f91a23465d88ef7
+SHA1: 14c30c07c8fc381c66a5a7b5853c3c1128cd2623
+SHA256: 3e39e5a5cb47ad9e8045a9b54866e18bd8cfe5b2b527eb0d14578de838aca83b
+SHA512: 8114bd7828f5b7995943de41e474d14266f8ede777d55f4dabcb903751c33b92ff621d43cc51f3f784bd20181e67c25931ea23bcb80444cc8b8d8ff1917772a8
+Description: Live process inspector for iOS on custom firmware (roothide)
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Name: Inspector
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Depiction: https://owngoal-dev.github.io/Inspector/
+SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.irisin
