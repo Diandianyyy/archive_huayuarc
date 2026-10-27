@@ -34015,6 +34015,24 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/taploom.png
 
 Package: com.mlgm.taploom
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1120
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.mlgm.taploom_1.1.3_iphoneos-arm64_03c061a23d1572a1c6941b176a494c3f37e45fffad6890d64925e6796db58060.deb
+Size: 168436
+MD5sum: e56323199a2deee7b1a2c5e9931c6f2b
+SHA1: 7e21b904c97da799c435bed5505cd00e299dd377
+SHA256: 03c061a23d1572a1c6941b176a494c3f37e45fffad6890d64925e6796db58060
+SHA512: 6dd2656df9d4536fdc03d5f9af1c31995aa601f57cf494363cda7bd05815272a0894f29eda3859c99706ea12c22ee36cd56ecb37497e666405569067a9bcc494
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
+Package: com.mlgm.taploom
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Section: Tweaks
@@ -34045,6 +34063,24 @@ MD5sum: e87bb146e3328fe114bdbeab6654c106
 SHA1: 977f025a34b0d406646b7ad1ce37ddc0262627e8
 SHA256: 53c38d63aab8e077fab859dc09c53781528b138b6fa09e4cc602e020b1c1c1fc
 SHA512: 4d6e9c9ab0737c22bf890ec5d07c7967d34235a8e959bf2f2177b6022816ca94255dddb3de69e489bae842ef1a331505890a6f8241f2384904bbdf6f2d9b41ab
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
+Package: com.mlgm.taploom
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1120
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.mlgm.taploom_1.1.3_iphoneos-arm64e_9b424b3e7ce7aad50bf05d3d8aa5cf204f5f1f301111d49697bc5f5b713b8904.deb
+Size: 168108
+MD5sum: 4660db392319e186055a674b676a17a2
+SHA1: 369c382ffd36687afd961b3283a76a9339c9dafa
+SHA256: 9b424b3e7ce7aad50bf05d3d8aa5cf204f5f1f301111d49697bc5f5b713b8904
+SHA512: 45944d58430c64ff18e51592c640565135159073650dca7f89803a165d7828e8f5b6cd24b53e5a45516e90f2701fbc52b1b50cdede25212aa62d87580de02572
 Description: 触摸轨迹可视化
 Name: Taploom
 Author: mlgm
@@ -55463,6 +55499,42 @@ Name: iOS MCP
 Author: witchan
 icon: https://huayuarc.github.io/icon/iosmcp.png
 
+Package: com.wkk.screenfarewell
+Architecture: iphoneos-arm64
+Version: 1.0-3
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 556
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.wkk.screenfarewell_1.0-3_iphoneos-arm64_29426fe08f2be20dbbd71d9ec8811d12ecc5a1912dd5e7019545de8d8f00970f.deb
+Size: 64756
+MD5sum: d87e6b8177211faacb7ae278c65e97ae
+SHA1: 8de9053a1d8231548b840861aba633dc05d67602
+SHA256: 29426fe08f2be20dbbd71d9ec8811d12ecc5a1912dd5e7019545de8d8f00970f
+SHA512: 8d1077f4f1bfb561bc2db58882ba984d417fcfac00c3070af677082bb1c638f5f421d791e6e49c7d55fdda3e7d328e52fabcae408dbb4f2fbdec36ace8adc318
+Description: 锁屏特效，效果任选，无用请卸载。
+Name: DriftX
+Author: wkk
+icon: https://huayuarc.github.io/icon/screenfarewell.png
+
+Package: com.wkk.screenfarewell
+Architecture: iphoneos-arm64e
+Version: 1.0-3
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 556
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.wkk.screenfarewell_1.0-3_iphoneos-arm64e_3118dd03e49df7396938c1ab3049a6e4acc9f6f511f8504b663d168e7d55f8a7.deb
+Size: 64752
+MD5sum: 7969c62265ed589cd42ce9d0656fe61c
+SHA1: e34ae40e472687c7a0adc408afe6ec877aef972f
+SHA256: 3118dd03e49df7396938c1ab3049a6e4acc9f6f511f8504b663d168e7d55f8a7
+SHA512: 20879fc90d7d420944a6e989598b5c9eb51ba4bf6884422c97bc78d7d01a5398a4441fbdb51f9de55e4550cef38b1784e00f7080de78c98d0922aa6227422625
+Description: 锁屏特效，效果任选，无用请卸载。
+Name: DriftX
+Author: wkk
+icon: https://huayuarc.github.io/icon/screenfarewell.png
+
 Package: com.wkk.smoffice17
 Architecture: iphoneos-arm64e
 Version: 1.0-1
@@ -56694,6 +56766,42 @@ Name: appstoretroller
 Author: Mineek
 icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
 
+Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 473
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/dev.owngoal.settingsorganizer_0.0.1_iphoneos-arm64_84b7bfe432b072b39978088af3939371828782b1a2863469a42e8f1615ddb7f3.deb
+Size: 65352
+MD5sum: 85486e8293b1984572e27be7a6d88450
+SHA1: 7834f9993fa7c67aac5648b003feb42905c189a3
+SHA256: 84b7bfe432b072b39978088af3939371828782b1a2863469a42e8f1615ddb7f3
+SHA512: 7c71c7bb8323a09d35d95b3a5b2454b96ebc372861a2bfef59dcd2977545df04d9154f17def59c0f31ea8303981db90d0786821729291ec7c378aebd65e7dbae
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+
+Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 231
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/dev.owngoal.settingsorganizer_0.0.1_iphoneos-arm64e_577513223da74388e9059099d603c56376a1e1549b9c3020ad0b0029dd2a8760.deb
+Size: 55600
+MD5sum: ebd4b8f537cc6c078985a9950cfc5252
+SHA1: 1bb5b18c9a37ba553e17217291170d6a3f3ca1ab
+SHA256: 577513223da74388e9059099d603c56376a1e1549b9c3020ad0b0029dd2a8760
+SHA512: 9202d4f7d324c7117e8f341c59e5a2d50e43b2d8f7ada6ec9da590f980810a6e5bac24f5196c1f25e5ec9b585de8fa07c52dd02e096a7b3e62f8334175a7a490
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+
 Package: dylv.deepliquid
 Architecture: iphoneos-arm64
 Version: 0.1.93b
@@ -57574,6 +57682,24 @@ Author: Junhong
 icon: https://huayuarc.github.io/icon/hongguo.png
 
 Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 2.0.2
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 4520
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/hongguofn_2.0.2_iphoneos-arm64_aac4eccf30451db4d5828ddfd6fb06231a67db7b6e9c08dc948f45a91b3e8984.deb
+Size: 1953576
+MD5sum: e33b54daa43e3333b7f62f61e19cae9d
+SHA1: c8848fc343f5df10d4e7df6caa6ea1f561ab87b0
+SHA256: aac4eccf30451db4d5828ddfd6fb06231a67db7b6e9c08dc948f45a91b3e8984
+SHA512: 58d8ccb64efc7bc010693826b8c2ca0dd78ecfc6cf65cb45b1aced3e765ad6bbd7b7f30b23854b5c3ff4d94f92c69a36ba0287ba1b60fdd4603a90ff91222a2e
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -57677,6 +57803,24 @@ Name: 红果净化
 Author: Junhong
 icon: https://huayuarc.github.io/icon/hongguo.png
 
+Package: hongguofn
+Architecture: iphoneos-arm64e
+Version: 2.0.2
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 4520
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/hongguofn_2.0.2_iphoneos-arm64e_2481872ed97112c55ebe128d83a7e56dbe5713b7d9bc3229d0625f7a1661d41d.deb
+Size: 1955988
+MD5sum: 0a1cc8d7154748f9ba1fc153952b4d6e
+SHA1: d267fe0b019b3f634f45b39f620de6ba79609b01
+SHA256: 2481872ed97112c55ebe128d83a7e56dbe5713b7d9bc3229d0625f7a1661d41d
+SHA512: b20cbe4303b1eab6b6d504c41c61a2245d265cac3e102c11371c2f1ed373e8a5fe65c2ea36cf2ec7dad7049ed1e63280661f27efb992e07d8d030021d9097724
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
 Package: hypicfix
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -57756,6 +57900,29 @@ Icon: https://apt.mjh.im/assets/im.mjh.doleo/icon.png
 Tags: compatible_min::ios15.0
 
 Package: im.mjh.doleo
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 1008
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Filename: debs/iphoneos-arm64/im.mjh.doleo_1.0.2_iphoneos-arm64_807fb733919c039570e50e411cb4d3a755f43afa6cdc34517ac284d23bb8b1ac.deb
+Size: 234624
+MD5sum: d2fe1d0b0fe0e285708af49b25bafbe9
+SHA1: 14b15ea4cf6a0634061d73a8c2d03ae2c6fb9b74
+SHA256: 807fb733919c039570e50e411cb4d3a755f43afa6cdc34517ac284d23bb8b1ac
+SHA512: 91786f02387d8f1df2f5fbbbc9fd35c74ed8baf657165c48f796cbff77fcc7fbe7890b3c518ac3ba0eaeb26aaf57e51c302ad3e42b01b8949eeaf3e808ed1cfe
+Homepage: https://doleo.goforit.si/
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Name: Doleo
+Author: Junhong
+Icon: https://apt.mjh.im/assets/im.mjh.doleo/icon.png
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.html?v=0945bdb0e780
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json?v=0e1406951917
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json?v=0e1406951917
+Tags: compatible_min::ios15.0
+
+Package: im.mjh.doleo
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -57795,6 +57962,29 @@ Description: Sileo 的 DEB 下载与本地仓库工具。
 Name: Doleo
 Author: junhong <mail@mjh.im>
 Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
+Tags: compatible_min::ios15.0
+
+Package: im.mjh.doleo
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 1008
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Filename: debs/iphoneos-arm64e/im.mjh.doleo_1.0.2_iphoneos-arm64e_faa1d9b77f7500ff24e23cb8c437d77e17e436d369b72225e300d682f6c11b8f.deb
+Size: 234568
+MD5sum: 7b6a5fd72323c6e2fe0f5456e837ee61
+SHA1: f0f953f1f187e3a0b2528a94c77de8cd92447247
+SHA256: faa1d9b77f7500ff24e23cb8c437d77e17e436d369b72225e300d682f6c11b8f
+SHA512: 3bf1a626f2243653ceb90428c6f79dccbd579887b7f2ad855482e03e7644599f90294b76cc9f05e2440d956b588242e8605451239d3ec44fcecad8662d75e3e0
+Homepage: https://doleo.goforit.si/
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Name: Doleo
+Author: Junhong
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=a89cb7b26821
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
 Tags: compatible_min::ios15.0
 
 Package: im.mjh.fakenotify
