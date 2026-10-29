@@ -14695,6 +14695,26 @@ Author: 7513
 icon: https://huayuarc.github.io/icon/header@2x.png
 
 Package: com.cracklock.7513
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: 7513
+Installed-Size: 1852
+Provides: com.cracklock.shatter
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Filename: debs/iphoneos-arm64/com.cracklock.7513_1.0.3_iphoneos-arm64_3addd37f974cff94b5d87135c52cb6911ac109ee7f31067517589b5f1b7ec9c9.deb
+Size: 1165824
+MD5sum: 2f9639f5b6270a6521234f95dde0c886
+SHA1: d2500a8c4edcaf60db8db76730511c6c93d0fdca
+SHA256: 3addd37f974cff94b5d87135c52cb6911ac109ee7f31067517589b5f1b7ec9c9
+SHA512: ba7aba4f1c9de228e825b57604f089a93f6357aa585d7787b71c077b9c7aaacd4b9b65c4d8f79b60d8e16a05d72c7aa47ea366cca293db97bf4730c1ad2f76ec
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
+Name: 熄屏幻术
+Author: 7513
+icon: https://huayuarc.github.io/icon/header@2x.png
+
+Package: com.cracklock.7513
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Section: Tweaks
@@ -14729,6 +14749,26 @@ MD5sum: b92c7f0970ffbc3ec721d9b5f40de310
 SHA1: 9dba5b8507d31c1b5dc92d30103a623c4bc41de9
 SHA256: 390e4fa9255b190c4cc4219998326fde1cda42b58a807a83412ffa39da2b6229
 SHA512: c0475a97cd9d3a2f5714913af1c32dbb54ff81ec8478f15f879c1d48e68f7bc69bd64ec4856baaadd9729ed6651e68ac60d0fea15b924bc7fc9e2942f3111482
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
+Name: 熄屏幻术
+Author: 7513
+icon: https://huayuarc.github.io/icon/header@2x.png
+
+Package: com.cracklock.7513
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: 7513
+Installed-Size: 1775
+Provides: com.cracklock.shatter
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Filename: debs/iphoneos-arm64e/com.cracklock.7513_1.0.3_iphoneos-arm64e_20be79e75051dcdf479be54367c7475ec80902b373fa51761df251089c257bf6.deb
+Size: 1166056
+MD5sum: 1d4997f3b6130ced96186c1e1e9513fd
+SHA1: 4e64d510851bd8375890c86c822ff0cafdef579c
+SHA256: 20be79e75051dcdf479be54367c7475ec80902b373fa51761df251089c257bf6
+SHA512: 7086a1dc2bec3881b201a50337399d1039faeb7b987b3100f915e11a8cc486bc541947ebe822a1705571be7b74cd3390b6a6173822bf3d7393d7af14295d5572
 Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
 Name: 熄屏幻术
 Author: 7513
@@ -24487,6 +24527,21 @@ Name: icli
 
 Package: com.icli.icli
 Architecture: iphoneos-arm64
+Version: 0.11.0
+Section: Development
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.icli.icli_0.11.0_iphoneos-arm64_9b38a83df6ce8384a21f5f4471f1faccef26a7078747b3b54c0970f98eeefcf4.deb
+Size: 1145452
+MD5sum: 239d7a53cfdec594597444f8c1a104ad
+SHA1: 5f4fe7eb82985a0500db8a8eecc5c7dd5ed9d9a6
+SHA256: 9b38a83df6ce8384a21f5f4471f1faccef26a7078747b3b54c0970f98eeefcf4
+SHA512: 740a49b06e09152e14ffa9ea117fa491b97370bb7a118d7143b24e19d5c5e03de7734dcbe62af19bdb38438334ff92baecfb4440f057ecf28343f8d1846f5bae
+Description: On-device iOS control CLI
+Name: icli
+
+Package: com.icli.icli
+Architecture: iphoneos-arm64
 Version: 0.9.2
 Section: Development
 Maintainer: icli
@@ -24512,6 +24567,21 @@ MD5sum: 3ef55d4805d0fe33c31e207c237ffcd7
 SHA1: 2261788a54a332368d3311346cc4f9eae9f9729b
 SHA256: 7ac57329ebd7c1b4ad11750187f53363b985575adb4030775d4be495af150c01
 SHA512: ef7abf68778b726dbc8d5646fc005287fe973924fa5eb2d3a3ba894b0f0b72632904d3bb98bda4da9f4373a5eb248388bb2fb695b262de68ff7ea338f3e668cb
+Description: On-device iOS control CLI
+Name: icli
+
+Package: com.icli.icli
+Architecture: iphoneos-arm64e
+Version: 0.11.0
+Section: Development
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.icli.icli_0.11.0_iphoneos-arm64e_7cd17f93ccc1c545995639756c0c4d53a0b113bcdd181df492758b5a55a5a88a.deb
+Size: 1143308
+MD5sum: 57b90f13cd5b6ac6fd2521faa76e2b54
+SHA1: 765b1ae007dc0c365542e206d24409b3772c8bb8
+SHA256: 7cd17f93ccc1c545995639756c0c4d53a0b113bcdd181df492758b5a55a5a88a
+SHA512: 0e6cd95f72997f4b2a91421f7b2c5b6a5daa592f734a7d62596cf3380ce1f452209596f438edcd8f38c69a5b9f91122ddfbef752231e709be97131916215a333
 Description: On-device iOS control CLI
 Name: icli
 
@@ -28703,6 +28773,43 @@ Name: 灵动岛手电筒
 Author: 旧约
 icon: https://huayuarc.github.io/icon/lddsdt.jpg
 
+Package: com.johndie.anywhere
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.johndie.anywhere_1.0.0_iphoneos-arm64_d9f2e72ce6312c337fe85e67956fa0cb2dd17add54fcc90c59182fb17858b158.deb
+Size: 17584
+MD5sum: 81352be19ec52eda9206e31f204bf093
+SHA1: 2aa5d9e85e2172fa54b9722747386e8df20e8869
+SHA256: d9f2e72ce6312c337fe85e67956fa0cb2dd17add54fcc90c59182fb17858b158
+SHA512: 344ff053349a347f5512a1f1e74dd498ff20dd3019fde6f6eefb1a44fda516107d7a7d120a6a9d248eafb879a0dde6b95df92a38e7fa9297840e94c460b3a155
+Description: 将应用程序和小组件放置在主屏幕上的任意位置，中间有空白，就像iOS 18一样。对于iOS 15到17。没什么需要设置的：安装并拖动。Place apps and widgets anywhere on the Home Screen, with empty spaces in between, like iOS 18. For iOS 15 to 17. Nothing to set up: install it and drag.
+Name: Anywhere
+Author: John d_ie
+icon: https://huayuarc.github.io/icon/anywhere.jpg
+
+Package: com.johndie.anywhere
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.johndie.anywhere_1.0.0_iphoneos-arm64e_041f0fad2b520e5adffea0141318979d398fb577eb1bf3e80852bd33856c72c9.deb
+Size: 17252
+MD5sum: c5e5fed40208c7565b6b0ffa0adaa1d6
+SHA1: 759bd34b18356991171f6e6abf74b2055f513d38
+SHA256: 041f0fad2b520e5adffea0141318979d398fb577eb1bf3e80852bd33856c72c9
+SHA512: da2b7f1d5db8f3d7a397e64eaaf918dc54b48fce769b15f6004d354afa0a764fd4c765f62b34f58a35a5de4536827eeb416a59c8af6bfbb6f166ab65acb629fb
+Description: 将应用程序和小组件放置在主屏幕上的任意位置，中间有空白，就像iOS 18一样。对于iOS 15到17。没什么需要设置的：安装并拖动。Place apps and widgets anywhere on the Home Screen, with empty spaces in between, like iOS 18. For iOS 15 to 17. Nothing to set up: install it and drag.
+Name: Anywhere
+Author: John d_ie
+icon: https://huayuarc.github.io/icon/anywhere.jpg
+
 Package: com.johndie.catapult
 Architecture: iphoneos-arm64
 Version: 0.1.0~beta2
@@ -31988,6 +32095,25 @@ Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
 Package: com.mlgm.actra
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 4080
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64/com.mlgm.actra_1.3.2_iphoneos-arm64_c060bfe71005e9766e63176365bd4995aae2fbea767b79f6e5a544703a52324c.deb
+Size: 815184
+MD5sum: 358cfb3d3abb1e7e583a5e5fad8fd4ce
+SHA1: f5b3aff60e6fb934a1196c88bbd8b4c9927b2c31
+SHA256: c060bfe71005e9766e63176365bd4995aae2fbea767b79f6e5a544703a52324c
+SHA512: d5bef728ae76f7478dd17dfe94c85fa6b1c80b06b5f0f159adb087049c6bf5da4579e65d45a16fe2d54509b32854cd301220bf0b121153954a2ede394088a55c
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -32077,6 +32203,25 @@ MD5sum: 0635c6642d46a4af11c4bb0d1a3fafaf
 SHA1: e757e02c43b5cacf2a63231150285b0bb491d84b
 SHA256: ef3f77836969dc5d3d86227892e0991b23e33ff0aa4ad8951f0eced610da62fd
 SHA512: 0cf60c021598f31b671c83c006760d49d92e4b8508959ade2fc6bf3c089a4b73cb940f99ea6f394eda583978819a96d4ce425721896e676df2b2c2515e57cd80
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.3.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 4084
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64e/com.mlgm.actra_1.3.2_iphoneos-arm64e_941aee627f7e56f9b0226a445998b78333c753ccc5ded5ae2cb5a7d949a46dc9.deb
+Size: 814628
+MD5sum: 89fd5c386461f3d520a8ad4035d0b5ac
+SHA1: e39b90422bb3be07f3028500635c33ff312052d4
+SHA256: 941aee627f7e56f9b0226a445998b78333c753ccc5ded5ae2cb5a7d949a46dc9
+SHA512: 1795a09f6e10f0dabeaf1b54e43dc13db995d56c708420ca12406098256399053d3a302a39a2f0bbd70b992da8f00e5b5d0c60cd63f0c3617f9756e5c3b1c3ee
 Description: 手势与事件自动化工具
 Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
@@ -32834,6 +32979,27 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.kayoko
+Architecture: iphoneos-arm
+Version: 5.0.4
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm/com.mlgm.kayoko_5.0.4_iphoneos-arm_5e04440640add1b0938176b55319ff68d4cb42e6dfd49019f334c9ea65099183.deb
+Size: 750860
+MD5sum: baedd06f0f3ddd443518bfd04d88bb35
+SHA1: 2f742f98297f241f84ae0aa9416b91cb21d94d85
+SHA256: 5e04440640add1b0938176b55319ff68d4cb42e6dfd49019f334c9ea65099183
+SHA512: bac99b31fd6aebba55f9f13d5e0c98ab83ac5252473abb4c09a5c7f7c0590beb17610ca1072810814bbec1fff3530c09a67984fc56cf3e9722c1c54eb7ec0c3e
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
 Architecture: iphoneos-arm64
 Version: 4.5
 Section: Tweaks
@@ -33040,6 +33206,27 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 5.0.4
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_5.0.4_iphoneos-arm64_d4a885504feedb1fe018a029566d587892727839f3a6b1d55aa8bfea2ef8d24d.deb
+Size: 749600
+MD5sum: bec45ce49c34abaa72058e3d2f2c3576
+SHA1: 97a086b9975b14e97f0015c368c45407e962a0af
+SHA256: d4a885504feedb1fe018a029566d587892727839f3a6b1d55aa8bfea2ef8d24d
+SHA512: 3b20f51095803f1f79f20147b2bb42617d344ae66967ca70dca9ccf1f857c6e9886e58a77f5517502bc8cd677f0978f0ddfa510a104b5f02192649016c93b6b2
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
 Architecture: iphoneos-arm64e
 Version: 4.5
 Section: Tweaks
@@ -33239,6 +33426,27 @@ MD5sum: aa3402482d4d36513720a7122358fd6f
 SHA1: 7ed8cb6893bd15b9730d08944b0c6503904b25c9
 SHA256: 1b045487619957a4456e9a1c2274e60ca6750040b63eccc7cd8072a7077e527b
 SHA512: c76fea03ca1805add43beb1019ec6e158aa098f10e09a7c44becd74e42df338ef3f76bafe9e5289d870bf837f84420e37cff157db0b8d128fbfe4b9024de707a
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.0.4
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3500
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_5.0.4_iphoneos-arm64e_3b25c8bfe86908da06faefbaf5a3f52cedb7d37dff1a5cf2b0d294b76aa7b587.deb
+Size: 745728
+MD5sum: 4d2d5d19adb7609720e6dc843641a9c8
+SHA1: 56d10f39975e3e76c45f63d326790252c3804f17
+SHA256: 3b25c8bfe86908da06faefbaf5a3f52cedb7d37dff1a5cf2b0d294b76aa7b587
+SHA512: be96a3e78b0150b3b70643f63fd325bcdeda04de47ef1fd185e5d659b5a678e011cb45a21b2f05fa5157f9f3283fc8ae041abe8a37b59895fb835901bb5c698f
 Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
 Name: Kayoko
 Author: mlgm
@@ -55893,6 +56101,43 @@ Name: iOS MCP
 Author: witchan
 icon: https://huayuarc.github.io/icon/iosmcp.png
 
+Package: com.wkk.copylogx
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 1828
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.wkk.copylogx_1.1-9_iphoneos-arm64_5e243f165a963a263c6b40d823465df9e33db81329a4f5e1c9e6bb318c56cc58.deb
+Size: 273188
+MD5sum: 2569fcd55d04e9c6414e275c013fe022
+SHA1: e64002b56c5320168ab778bed8493d0f7e79abf1
+SHA256: 5e243f165a963a263c6b40d823465df9e33db81329a4f5e1c9e6bb318c56cc58
+SHA512: a99a0378ee73ce9fa37ee7e3d3adb287c99319a3e24426faa681e273aebff39380e31924c2173f913c012d623c4474cd1da29b6283d0af640c9ccd8b55a04bc1
+Description: cool！
+Name: CopylogX
+Author: wkk
+icon: https://huayuarc.github.io/icon/copylogx.png
+
+Package: com.wkk.copylogx
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 1828
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.wkk.copylogx_1.1-9_iphoneos-arm64e_ec744bdd5b8db06b66fc87ab1f1c6f6b429c2066453979f0e46c685d7eec604a.deb
+Size: 265220
+MD5sum: 159b6bb8e505aebd8e6d3906d235f397
+SHA1: 31414a7b686d8db910db5a0c9f0589e2f5702e6d
+SHA256: ec744bdd5b8db06b66fc87ab1f1c6f6b429c2066453979f0e46c685d7eec604a
+SHA512: 312d5275d9fc6b903f53695bf350f55bc04d5853eab99e43f5ee73c10cf9d840463ad9670e81d75efca114ea460eb7ac3ea48539d8535d677d40988c4f38b11a
+Description: cool！
+Name: CopylogX
+Author: wkk
+icon: https://huayuarc.github.io/icon/copylogx.png
+
 Package: com.wkk.screenfarewell
 Architecture: iphoneos-arm64
 Version: 1.0-3
@@ -56955,6 +57200,139 @@ Description: 给 Sileo 加整页自定义背景图（三指双击相册导入）
 Name: Sileo 背景图
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon-sileobackground.png
 Author: 泽哥
+
+Package: com.zegeyoudaoli.liquidass27
+Architecture: iphoneos-arm64
+Version: 1.0.0-78
+Section: Tweaks
+Maintainer: dylv&泽哥
+Installed-Size: 10384
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Filename: debs/iphoneos-arm64/com.zegeyoudaoli.liquidass27_1.0.0-78_iphoneos-arm64_5f71bbd6508011f6402df4679680e50d1e9e7e580a21a2c07e367277e1ad0fa6.deb
+Size: 3645104
+MD5sum: fe6438234d26576783d45bc6996e40cd
+SHA1: a6fde61fdeb3b0a6dfdb78e2d777430e2d9d8b13
+SHA256: 5f71bbd6508011f6402df4679680e50d1e9e7e580a21a2c07e367277e1ad0fa6
+SHA512: 178550c46890cb14487e25625b20d0473d85be08b75945cb2edeb2d88b1c4458beafdf384c9c17db74e28ff3045a0867993c87b8619ecd88b0c9fec66b8a0cbf
+Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+ 【本版的改动】
+ • 重构液态玻璃渲染引擎 / 对标 iOS 27 系统
+ • 重构锁屏大时钟减少卡顿增强观感
+ • 新增锁屏时钟/日期/通知/横幅/灵动岛/上下文菜单/警报渐变引擎并设置可调参数
+ • 新增小组件去背景及相应设置项
+ • 新增更多可调参数
+ • 新增全界面导航栏液态玻璃
+ • 新增底部弹窗 / App 弹窗液态玻璃
+ • 新增灵动岛液态玻璃（上岛全元素液态）
+ • 新增「灵动岛」设置页面
+ • 新增锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 新增锁屏“通知清除按钮”透明化
+ • 新增锁屏“通知中心”文字直接隐藏
+ • 新增音量 HUD 液态玻璃
+ • 修复锁屏时钟景深效果
+ • 修复锁屏场景下灵动岛取不到子视图的问题
+ • 修复 iOS 16 设备标签栏透镜渲染错位问题
+ • 修复灵动岛实时活动远端渲染黑块问题
+ • 修复标签栏文字闪烁的 bug
+ • 修复调试日志开关被诊断包硬编码为常开、导致渲染路径每帧同步写盘（卡顿/掉帧/发热）
+ • 修复总开关关闭后，仍然保持液态的问题（需多次注销）
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1；部分 iOS 16 设备存在兼容问题，那些设备请改装「Liquid (Gl)ass · 泽哥维护兼容版」（包名 dylv.liquidass）
+ 本插件包名已由 dylv.liquidass 改为 com.zegeyoudaoli.liquidass27，与旧版本是两个独立插件：装了旧线不会自动收到本线更新，需要重新安装本包（安装时会提示替换旧包）。
+Name: Liquid (Gl)ass 27（rootless 测试）
+Author: dylv&泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
+
+Package: com.zegeyoudaoli.liquidass27
+Architecture: iphoneos-arm64e
+Version: 1.0.0-78
+Section: Tweaks
+Maintainer: dylv&泽哥
+Installed-Size: 10368
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Filename: debs/iphoneos-arm64e/com.zegeyoudaoli.liquidass27_1.0.0-78_iphoneos-arm64e_3b0719e13226b587021e796b237db7690e09fc441208400225d57ae2a0b0f493.deb
+Size: 3653152
+MD5sum: ac5cbf9a5be99df0068fce773c59ca5f
+SHA1: f1d008277d22177a80c0d943b531863c70d3633a
+SHA256: 3b0719e13226b587021e796b237db7690e09fc441208400225d57ae2a0b0f493
+SHA512: 4a7c704039e895bec9697769912f3bac5eb6d1b4cc0229c3a6435134c8f941dc2892a9e94bb529a1a6bb38f99db997fd094ab0da968a49427fed6bce9bd43528
+Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+ 【本版的改动】
+ • 重构液态玻璃渲染引擎 / 对标 iOS 27 系统
+ • 重构锁屏大时钟减少卡顿增强观感
+ • 新增锁屏时钟/日期/通知/横幅/灵动岛/上下文菜单/警报渐变引擎并设置可调参数
+ • 新增小组件去背景及相应设置项
+ • 新增更多可调参数
+ • 新增全界面导航栏液态玻璃
+ • 新增底部弹窗 / App 弹窗液态玻璃
+ • 新增灵动岛液态玻璃（上岛全元素液态）
+ • 新增「灵动岛」设置页面
+ • 新增锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 新增锁屏“通知清除按钮”透明化
+ • 新增锁屏“通知中心”文字直接隐藏
+ • 新增音量 HUD 液态玻璃
+ • 修复锁屏时钟景深效果
+ • 修复锁屏场景下灵动岛取不到子视图的问题
+ • 修复 iOS 16 设备标签栏透镜渲染错位问题
+ • 修复灵动岛实时活动远端渲染黑块问题
+ • 修复标签栏文字闪烁的 bug
+ • 修复调试日志开关被诊断包硬编码为常开、导致渲染路径每帧同步写盘（卡顿/掉帧/发热）
+ • 修复总开关关闭后，仍然保持液态的问题（需多次注销）
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1；部分 iOS 16 设备存在兼容问题，那些设备请改装「Liquid (Gl)ass · 泽哥维护兼容版」（包名 dylv.liquidass）
+ 本插件包名已由 dylv.liquidass 改为 com.zegeyoudaoli.liquidass27，与旧版本是两个独立插件：装了旧线不会自动收到本线更新，需要重新安装本包（安装时会提示替换旧包）。
+Name: Liquid (Gl)ass 27
+Author: dylv&泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.5.2-16
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 6788
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.zooah.swipedeck_0.5.2-16_iphoneos-arm64_c0385e61c5e2a694e03100c52ae8adf4dc024dc83e31929dfc5ff68ba982e186.deb
+Size: 2317084
+MD5sum: a60d51c45795e098cbe4957149895b49
+SHA1: 685668e111ff92b67bfa4fc9ee27d19908d7704d
+SHA256: c0385e61c5e2a694e03100c52ae8adf4dc024dc83e31929dfc5ff68ba982e186
+SHA512: 12bc461a3513672c7b15b05719b1ea70aa070eeb55421c8a1c981fe1c0d3581c5a753b21202299ec4a539493b3d35105a9b91b1a34354adb016103b88f59a1d4
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+ *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.5.2-16
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 6788
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.zooah.swipedeck_0.5.2-16_iphoneos-arm64e_68ab45ba9536f1663611c56c679b1b19f7058bafa065c7d638e06e011b720cbf.deb
+Size: 2293436
+MD5sum: 9d6550485bdf641dfbbe240540b12822
+SHA1: 44357c02d25b32b874318eeba41f8adf8c60d61a
+SHA256: 68ab45ba9536f1663611c56c679b1b19f7058bafa065c7d638e06e011b720cbf
+SHA512: 4a49dba2faa5e2ad351b486a88b7b9837e5501a62b30aec8ff5a0ffeed1f29312ea6a2281c80697274ad08e5804544ea7b7e0ac321e9d0c10f33d3a3603277ca
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+ *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
 
 Package: com.zqbb.savephotos
 Architecture: iphoneos-arm64
@@ -58148,6 +58526,24 @@ Author: Junhong
 icon: https://huayuarc.github.io/icon/hongguo.png
 
 Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 2.0.6
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 4700
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/hongguofn_2.0.6_iphoneos-arm64_7101c1e7a4600f53e042c91f701c6a89d5aa08038cae18dbaf9e02166eaf28e8.deb
+Size: 2024240
+MD5sum: abd89721e729fc8c61f800ee4067eb83
+SHA1: 74bafb7232a7d2e92564e20a98673deaf742f528
+SHA256: 7101c1e7a4600f53e042c91f701c6a89d5aa08038cae18dbaf9e02166eaf28e8
+SHA512: 975766e451aaaea34e71a33937767146eb6395b04886af3ba83a01c48b665ba49288493c6648bb8013e8dfaff9f5cba27e6c0b11f69a2abf7bedbb562a689510
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -58282,6 +58678,24 @@ MD5sum: ae7fcf02dc9c12e9dbd820cf327b56f8
 SHA1: e2cbafaafcbb94e88ad090aab87ec5cdcaeef384
 SHA256: c93cb828974da8b5e88f60b13d471109582f272a2d1e03dd8b9b19e89893192f
 SHA512: 2786c969d73ff440911f11413e3542c7436f64df95f9d832ac79b12b05bf46b571f964cd768ee1675786d7d4572010006deabdded38e16dbd95eb2b55fa93d9a
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
+Architecture: iphoneos-arm64e
+Version: 2.0.6
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 4700
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/hongguofn_2.0.6_iphoneos-arm64e_8c343d8b5a43335b137e80cf8d3c92d7fae0302c746b96503e0125925d2aa940.deb
+Size: 2027668
+MD5sum: 4dbea425bf3080254cc71b68bcb0a0d5
+SHA1: 2c6a42ac72a2b271a035eca5ee9b62e13baaf7ba
+SHA256: 8c343d8b5a43335b137e80cf8d3c92d7fae0302c746b96503e0125925d2aa940
+SHA512: 3431c7b214aec7239a61ef3facf66b8462712c59315e82d128b4e3c1daac8ddac7a750423180162b4cd6160721de6ad993d865d22182780a254968cf5f0678f3
 Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
 Name: 红果净化
 Author: Junhong
@@ -59787,6 +60201,44 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/dynamicnotch.png
 
 Package: iya.banana.dynamicnotch
+Architecture: iphoneos-arm64
+Version: 0.1.1-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1452
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: debs/iphoneos-arm64/iya.banana.dynamicnotch_0.1.1-1_iphoneos-arm64_0229f67ec23e792bc7940b4c969b92708a9bd0234321903dacb0f2ebecde31f1.deb
+Size: 242552
+MD5sum: 36397fb4768a20375b69104e8d6bcfa7
+SHA1: 728e11710928ac130c4ba060e469534821cf4ecd
+SHA256: 0229f67ec23e792bc7940b4c969b92708a9bd0234321903dacb0f2ebecde31f1
+SHA512: 9ac4f32cb82d5ab77caf5a86e8d3c936c8842d8aaad640b4c8a0d3551e933c6194e5e89cdcacb73aa13479c3f300832a899c5940a4faf69feaffb5b07bca1eab
+Description: Notch activities, notifications and adjustable glass for iOS 15–26.
+Name: DynamicNotch · 动态刘海
+Author: Banana
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+
+Package: iya.banana.dynamicnotch
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1452
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: debs/iphoneos-arm64/iya.banana.dynamicnotch_0.1.2_iphoneos-arm64_a97235548845c286a1c27c1ab12ecdb40f91caf9f7080a9a612eb66e0d7112b5.deb
+Size: 242500
+MD5sum: e360d9af29a5de1357f2b3b2343dd424
+SHA1: a20cde51e368e12405c1e7ee76c640fd6d71f0bb
+SHA256: a97235548845c286a1c27c1ab12ecdb40f91caf9f7080a9a612eb66e0d7112b5
+SHA512: c1f3383740a6f2ab1572d872c2d2b4afb956e8855e9625afa3f46dd300cbe499e3fadb2294825a7734214a4be7dd3ecbdfcc760b223cd21b5ca806c5448cd02a
+Description: 让刘海承载通知、活动与可调玻璃外观。Notch activities, notifications and adjustable glass for iOS 15–26.
+Name: DynamicNotch · 动态刘海
+Author: Banana
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+
+Package: iya.banana.dynamicnotch
 Architecture: iphoneos-arm64e
 Version: 0.1.0~beta1
 Section: Tweaks
@@ -59820,6 +60272,44 @@ SHA1: 6d3a46a943018487644f5592eca67ee63ede1807
 SHA256: 3c1f33e4c3324d23a6d48ebd5a64fc1e281ff374151491757d687661c7e0e4e8
 SHA512: ab9e863b8bcb08e98eeea4277b8bf842590a8e052176bdfb0f5c630e608ba83e52cd5a1450af823cdcbac67c120cad79304cb77101e4269a682966a998a33789
 Description: Notch activities, notifications and adjustable glass for iOS 15–26.
+Name: DynamicNotch · 动态刘海
+Author: Banana
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+
+Package: iya.banana.dynamicnotch
+Architecture: iphoneos-arm64e
+Version: 0.1.1-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1452
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: debs/iphoneos-arm64e/iya.banana.dynamicnotch_0.1.1-1_iphoneos-arm64e_e94b84f93e0a24630b05a58c3df85aefdf990af26da91a6beeee4bc5623f75d6.deb
+Size: 237760
+MD5sum: c036fd642e92ea0bfc30a897b7a7c134
+SHA1: 462ecaa5a2493e430382d4956b9abcc40c867a95
+SHA256: e94b84f93e0a24630b05a58c3df85aefdf990af26da91a6beeee4bc5623f75d6
+SHA512: 92d66d85e7987830c0c87a0b4228b8529f9facc3a02f93df90d497aabf406f7f9471252ae85d7cb38fc72e50807007bbf3e2617e250803c265cf38ceb2f31896
+Description: Notch activities, notifications and adjustable glass for iOS 15–26.
+Name: DynamicNotch · 动态刘海
+Author: Banana
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+
+Package: iya.banana.dynamicnotch
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1452
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: debs/iphoneos-arm64e/iya.banana.dynamicnotch_0.1.2_iphoneos-arm64e_be583e55b9a4d7eb79c829577526e6e612dbf7a888632b027db9b3f4001a7e5d.deb
+Size: 240336
+MD5sum: 1575ebabc07bb7042d67972ebfea47de
+SHA1: 9e52e63f59a61ac138af1778db8d59a6b284f79f
+SHA256: be583e55b9a4d7eb79c829577526e6e612dbf7a888632b027db9b3f4001a7e5d
+SHA512: 602c4487e7ad585dd2d843db981d0e706e06bc2c1e7fcfb097cac9658cea170b00857e5687621b9f1ddbb46216f48008539531a6c8081b4c1510d98975925229
+Description: 让刘海承载通知、活动与可调玻璃外观。Notch activities, notifications and adjustable glass for iOS 15–26.
 Name: DynamicNotch · 动态刘海
 Author: Banana
 icon: https://huayuarc.github.io/icon/dynamicnotch.png
@@ -60458,6 +60948,26 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
 
 Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5596
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.1.6_iphoneos-arm64_292a4cb166c530427442c6b43a333c7b42592e22be30738ecfef5646e43643bd.deb
+Size: 1020644
+MD5sum: 04dd3df6a6931a9e056169debddf1d69
+SHA1: 78853486173c3741b40f5432bafcc069957ff062
+SHA256: 292a4cb166c530427442c6b43a333c7b42592e22be30738ecfef5646e43643bd
+SHA512: f1826aeedc4f3a2f7aa53650fb3bbaa8a6dfd1b3ea936c2fbec3739f96c590b7feb6b86cdf93cc8c6042cc68c092e45cd3409eebc5bb5de191504f12d477adde
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -60727,6 +61237,26 @@ MD5sum: 7ee30d0f6f951ecc089abd5ff4510e66
 SHA1: f24fd2c32b6f565a96d791ec4dcfc86eacda509d
 SHA256: a925b79c63e58fb851339436940cc671fce91377754f14aca5688f7ef4930562
 SHA512: 79eee28059acb0d767b1f6cb8e911cdc0ef92976ec7aa7d7888f9ed5521db5f5f93a638330d27bc14a2ece89e46805caa54deefa6712a4fb35afebe6751d8778
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.1.6
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5596
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.1.6_iphoneos-arm64e_640a9217a6176ba881abb20e822b85ca0aaca679bcfa42888505d99be6e37540.deb
+Size: 1016876
+MD5sum: 93ab8ac81f11dbe24bd200726c686afe
+SHA1: 0f41a248ff85f9b155204b62ad250889e869362b
+SHA256: 640a9217a6176ba881abb20e822b85ca0aaca679bcfa42888505d99be6e37540
+SHA512: 33bc8f85eb2b68a503b6cc238a8d74a8562071aecab9999d827bd389c67fb87f442250f3cfb328f9db30bc8a9e55441ff7259053f20277ab093d76f756c269a3
 Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
 Name: Lunora
 Author: Banana
@@ -61242,6 +61772,24 @@ icon: https://huayuarc.github.io/icon/SpatialScene.png
 
 Package: iya.banana.spatialscene
 Architecture: iphoneos-arm64
+Version: 1.1.19-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 12612
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64/iya.banana.spatialscene_1.1.19-1_iphoneos-arm64_1573a4ea27a4d039c81c075d4fa1c68b9d8f067e01cdb85d7d0bf88e05182f64.deb
+Size: 5908060
+MD5sum: 317d07ac8601babc22d8830c3f909203
+SHA1: 5130043b395fc43f9d2a4ea957aa15c3ea8f4a75
+SHA256: 1573a4ea27a4d039c81c075d4fa1c68b9d8f067e01cdb85d7d0bf88e05182f64
+SHA512: 8f53ce2ffd67d424c170a93ee1493aefbc2d5b0ac1d6fe69bc7c3b5051eae00258da253b3d20ec6d15c1603c318eb13709d17e0c012681177c096d98ef5562b0
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: Banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64
 Version: 1.1.5
 Section: Tweaks
 Maintainer: banana
@@ -61379,6 +61927,24 @@ MD5sum: 44fe7059f6d1a69648e92cca1c855937
 SHA1: a7db16d21c390a07d843b87e45bad6023bea20cd
 SHA256: a746bc0434c77e8eb1a5d053dc4eafd3a1e0e2e8bf0f2566b86630197fd66706
 SHA512: 9e56efae98036db7a2dfbb148c295ada5dd11cccea4437ca5715d86e344431cfc40a66c3e7da5d12ce6c7f9933b28b575ba3b9aee7c5be6ef6c439b6924af3a3
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: Banana
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64e
+Version: 1.1.19-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 12628
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64e/iya.banana.spatialscene_1.1.19-1_iphoneos-arm64e_a4f1d32525cbbc99fff69bcb94ecd44fcfdf67f2c63a2ae90c2f8087fcdd6b48.deb
+Size: 5908772
+MD5sum: d4a630155c9aa814bfa4ac982ac2a974
+SHA1: c95b788d84cb388394a59c33db80c6e915d36787
+SHA256: a4f1d32525cbbc99fff69bcb94ecd44fcfdf67f2c63a2ae90c2f8087fcdd6b48
+SHA512: ee3c211c4b657a442e944b6ae880edf692c9054766f3fa5c959c9aca3a88648682fc7a1ea064568889b205065d0e677ab0a31622530a31c08e22c4095f50ee16
 Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
 Name: SpatialScene
 Author: Banana
@@ -65059,6 +65625,29 @@ SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.2.5
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 92072
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.2.5_iphoneos-arm64_5aed06e49b9e3b34d0762cfc5fea896b1c5c295a0f361b5e2bb166f59c41419f.deb
+Size: 22340968
+MD5sum: 3554da439d647a633c02cf48eed9598b
+SHA1: 190234165cbcc0061fde67f196465a7199760c37
+SHA256: 5aed06e49b9e3b34d0762cfc5fea896b1c5c295a0f361b5e2bb166f59c41419f
+SHA512: 6656ab558eff9747ff9dec855d1678f9cf349f44a2f72a7f745b653566eea0ab8824b7e00d8df66cab5cda01d1de9ef2882fd77b96bc9938b70e42a7b283d10b
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Priority: optional
@@ -65234,6 +65823,29 @@ MD5sum: a0d14199def6eef6a7ac855049018e2c
 SHA1: 0e5e4f203bec87455f36d20a2f6b8711a9cfc32d
 SHA256: e27f8378f1b84f5e583187c03403b498a0c1d3fab5617fa604f9c033cd0ddc49
 SHA512: 273bfb69e4bb8eb53098757f55ab958c8005e33918af043553128f10f0551b1d1ce9c0b5686d21e157f8c4254de03ad49686663edf6b22f7f8dfe12556596800
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64e
+Version: 0.2.5
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 92072
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin_0.2.5_iphoneos-arm64e_66a02b7fc488351041ddb0625c538c487cd5d3ecfd314f1b62d56122063f3cf5.deb
+Size: 22343048
+MD5sum: 40a989dd0998553c0935ba2fddbddffe
+SHA1: ce172aa06d6e7b81562b4e9f19ca2fd60264c2d3
+SHA256: 66a02b7fc488351041ddb0625c538c487cd5d3ecfd314f1b62d56122063f3cf5
+SHA512: 71519f11f2ae27084f65a2c497dbed0be9204742229f16a7ab285f2cc6ef6c416c818673798072471e87aa460a6cfe8e04358d4f6a0eace00bdda6ab4146c0f0
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
 Name: Apelin
@@ -65880,6 +66492,31 @@ Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.ighostvt
 Architecture: iphoneos-arm64
+Version: 1.6.20
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 16452
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64/wiki.qaq.ighostvt_1.6.20_iphoneos-arm64_3375d3a16f08ef12952a87496a5fabb74035360f07d6177f9e20651664539ac7.deb
+Size: 4903048
+MD5sum: 897fe68ae0338c34908cae423fe5ca37
+SHA1: e8e2ce27d29a933914d5c6b3a77302d84f39d749
+SHA256: 3375d3a16f08ef12952a87496a5fabb74035360f07d6177f9e20651664539ac7
+SHA512: 3967c4a9904981207e66cecdd26b49d4df957bb823a8682abbecfac3750f3b549699f9451fc38dd265ed9fc33201a45260de9259eb6b76fa0f9adee448658929
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64
 Version: 1.6.5
 Priority: optional
 Section: Terminal Support
@@ -66105,6 +66742,31 @@ Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.ighostvt
 Architecture: iphoneos-arm64e
+Version: 1.6.20
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 16452
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64e/wiki.qaq.ighostvt_1.6.20_iphoneos-arm64e_d71f07d4113332db622fed8e7fbf4a5f101a7f2e856b5f282862cde878a18169.deb
+Size: 4902712
+MD5sum: 0fdca7e338211ccc2207a9511f8c1658
+SHA1: 0186d23df1ab7ad1c485c3368ddce2bc1db16a6f
+SHA256: d71f07d4113332db622fed8e7fbf4a5f101a7f2e856b5f282862cde878a18169
+SHA512: f5705170a7b6e0f33c92356cc401523284bb9a359933becac7c18c1b8ac1b18756fc2f83228e54fc180884e343d4d02f5c2daf497b845efa0090b8ef2f3cb932
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64e
 Version: 1.6.5
 Priority: optional
 Section: Terminal Support
@@ -66296,6 +66958,33 @@ SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
 
 Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 5.0.3
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 21088
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_5.0.3_iphoneos-arm64_d046caa851dbc470fa1c836d387803901579c6d2198b30ea8d6e6d2a5e69b9d1.deb
+Size: 5404400
+MD5sum: 4615da684adbc72085cbef7313b9853f
+SHA1: dccceae164ef7cbef7c0ba4b02801a146b94ce0a
+SHA256: d046caa851dbc470fa1c836d387803901579c6d2198b30ea8d6e6d2a5e69b9d1
+SHA512: da71d5f27171a8346a1e4ed188015c309fcdb1b0e6f28f8b8cc204f9fba47a7b2724b118d7985786bba471c7cea75e35e89a7cc3e266d62618e0fc0f07e3b8b4
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64e
 Version: 4.7.5
 Priority: optional
@@ -66375,6 +67064,67 @@ Icon: https://lakr233.github.io/Irisin/icon.png
 Depiction: https://lakr233.github.io/Irisin/
 SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 5.0.3
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 21088
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_5.0.3_iphoneos-arm64e_a5868d389ba7674144f14332d0841a4c8a0b75df1b588888d1c32275709d5c7e.deb
+Size: 5404336
+MD5sum: cf2c9ebcff3eb266d8e143aded354382
+SHA1: 66b0d6ed3a6b4d2546a9c053173e39f8e1eed07d
+SHA256: a5868d389ba7674144f14332d0841a4c8a0b75df1b588888d1c32275709d5c7e
+SHA512: cb05638029535b4ad02f845f4d71849da54ee1120d3a19c726743b368f4e984c33d7c600ab1aaaffb6ef64e4d9e9d34e41b31f17357fafa59e49c402d3d0e3c6
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.qqrecallprobe
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Section: Tweaks
+Maintainer: QQNT Anti-Recall contributors
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.qqrecallprobe_1.1.6_iphoneos-arm64_7a1a2c701fdbc3be568d8ceb94aefe4e19eab3a8c65fda04ccfad807bcd266df.deb
+Size: 39088
+MD5sum: ceb9ad175a744fc199258820768f8058
+SHA1: 6ce3ecfcd719c88783040a0ca713f987b591ee46
+SHA256: 7a1a2c701fdbc3be568d8ceb94aefe4e19eab3a8c65fda04ccfad807bcd266df
+SHA512: 36c3ce79e24cb4f5bb2bbd9ff3163c2e20df12ae617424902e7c141a16c54c5dd7d858a529cb7adc9046b0c2fffec736b74562f014d0bb5e818542839ecc4b7b
+Description: QQ 消息防撤回，支持 QQ 9.1.5 ~ 9.3.78（9.1.65 / 9.1.66 / 9.1.70 / 9.1.90 / 9.2.5 / 9.2.95 已实测）。撤回入口、OCMsgRecord 取用函数与记录槽位在启动时按 QQ 自身代码结构解析，QQ 升级后无需更新插件；被撤回的消息保留原内容，淡化并加虚线框与「已撤回」角标，提示只出现在当前会话。
+Name: QQNT防撤回
+Author: QQNT Anti-Recall contributors
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+
+Package: wiki.qaq.qqrecallprobe
+Architecture: iphoneos-arm64e
+Version: 1.1.6
+Section: Tweaks
+Maintainer: QQNT Anti-Recall contributors
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.qqrecallprobe_1.1.6_iphoneos-arm64e_f1e06bc6266aae446bfbd3d3c1b1e73de76239de7963f210bc002b6f9bbf1e79.deb
+Size: 39048
+MD5sum: 14539ef494a15c2f6cc9dcd2096c204a
+SHA1: e48a6b0a7af17b9ff53f318d49bd7d5da236dcec
+SHA256: f1e06bc6266aae446bfbd3d3c1b1e73de76239de7963f210bc002b6f9bbf1e79
+SHA512: 4c19763bf35ec1077ed2ce569c0b4de6c32786530673310c20eba867a06f5a5f385e997faf3303d6392ba66008b3ca6b5d6ebc48ac04bc29bb20f32fd6fb61be
+Description: QQ 消息防撤回，支持 QQ 9.1.5 ~ 9.3.78（9.1.65 / 9.1.66 / 9.1.70 / 9.1.90 / 9.2.5 / 9.2.95 已实测）。撤回入口、OCMsgRecord 取用函数与记录槽位在启动时按 QQ 自身代码结构解析，QQ 升级后无需更新插件；被撤回的消息保留原内容，淡化并加虚线框与「已撤回」角标，提示只出现在当前会话。
+Name: QQNT防撤回
+Author: QQNT Anti-Recall contributors
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
 
 Package: ws.hbang.newterm3
 Architecture: iphoneos-arm64e
