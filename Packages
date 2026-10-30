@@ -65481,6 +65481,78 @@ icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/libcolorpicker/js.json
 Name: libcolorpicker (Unofficial)
 
+Package: owngoal-bootstrap-vphone
+Architecture: appletvos-arm64e
+Version: 1.2.0
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depends: apt, dpkg, bash, zsh, dash, sudo, coreutils, debianutils, shell-cmds, system-cmds, file-cmds, diffutils, findutils, grep, sed, gawk, less, tar, gzip, xz-utils, ncurses-bin, ncurses-term, profile.d, ca-certificates, openssh-server, curl, wget, nano, vim, htop, git, fastfetch, uikittools, launchctl, wiki.qaq.irisin
+Filename: debs/appletvos-arm64e/owngoal-bootstrap-vphone_1.2.0_appletvos-arm64e_b14990c9ecb01fcdb5fa777503fbb8fbfc0d561986a58bbdf298a5186d155fd9.deb
+Size: 1140
+MD5sum: 4dd94c05cd615b28f784a237215be977
+SHA1: 8b77dcd1966e061004ba78131679d3edab775b8c
+SHA256: b14990c9ecb01fcdb5fa777503fbb8fbfc0d561986a58bbdf298a5186d155fd9
+SHA512: 8fb1d48899d9318830e666b58101c4a00fa42d1063d4463ed2a4a32bd9ff076ea0c6415ff274d51a34912be025956aa9e53107607ea8405dc2e6e51ce4a92336
+Description: Base system, command-line tools and Irisin for an Apple TV vphone
+ Installs apt and dpkg, bash, zsh and dash, sudo, the core command-line tools,
+ openssh-server, curl and wget, nano and vim, htop, git and fastfetch,
+ uikittools and launchctl, plus Irisin. The base packages come from OwnGoal
+ Stripe. This package installs no files of its own.
+Name: OwnGoal Bootstrap for vphone
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/ball.png
+Depiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/
+SileoDepiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/depiction.json
+
+Package: owngoal-bootstrap-vphone
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depends: apt, dpkg, bash, zsh, dash, sudo, coreutils, debianutils, shell-cmds, system-cmds, file-cmds, diffutils, findutils, grep, sed, gawk, less, tar, gzip, xz-utils, ncurses-bin, ncurses-term, profile.d, ca-certificates, openssh-server, curl, wget, nano, vim, htop, git, fastfetch | wiki.qaq.fastfetch, uikittools, launchctl, owngoal-essential-apps
+Filename: debs/iphoneos-arm64/owngoal-bootstrap-vphone_1.2.0_iphoneos-arm64_ca7632f62821575bea5bc07f8762ad18476cd73db9eda8e8e66650aef4dbc683.deb
+Size: 1160
+MD5sum: 5109456e7a2b97c8edfb853cafbcb79a
+SHA1: bf687d4bab7313da10968fffaf56584ae4a4077d
+SHA256: ca7632f62821575bea5bc07f8762ad18476cd73db9eda8e8e66650aef4dbc683
+SHA512: cf6379459295e483644a8992a3e05eab7afe6a9ee946d9eb7f51e6f589e04a1e4d4ac8f60e7f606ca960c1d7ac4d6abe33583bc60a6d69aeb008cd0f808ae096
+Description: Base system, command-line tools and OwnGoal apps for a vphone
+ Installs apt and dpkg, bash, zsh and dash, sudo, the core command-line tools,
+ openssh-server, curl and wget, nano and vim, htop, git and fastfetch,
+ uikittools and launchctl, plus OwnGoal Essential Apps: Irisin, Fila,
+ iGhostVT, Xrash and Inspector. This package installs no files of its own.
+Name: OwnGoal Bootstrap for vphone
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/ball.png
+Depiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/
+SileoDepiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/depiction.json
+
+Package: owngoal-bootstrap-vphone
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depends: apt, dpkg, bash, zsh, dash, sudo, coreutils, debianutils, shell-cmds, system-cmds, file-cmds, diffutils, findutils, grep, sed, gawk, less, tar, gzip, xz-utils, ncurses-bin, ncurses-term, profile.d, ca-certificates, openssh-server, curl, wget, nano, vim, htop, git, fastfetch | wiki.qaq.fastfetch, uikittools, launchctl, owngoal-essential-apps
+Filename: debs/iphoneos-arm64e/owngoal-bootstrap-vphone_1.2.0_iphoneos-arm64e_636c5e5faab36ca9024932f9620a8bd9cdb81177947b016032276b913eea281b.deb
+Size: 1164
+MD5sum: ad59c36ff6fd99a4316d10fc7e70fc7f
+SHA1: 7401e07d121941a69f6963ca7c2246e93d8dbdc0
+SHA256: 636c5e5faab36ca9024932f9620a8bd9cdb81177947b016032276b913eea281b
+SHA512: e39afa7011d5131b8ac62e2eb5548c7c8d854789234def330e697aa5b2dd14ab5f8ffc9e12bdad935ab60e246df023dc6ace3d1c236a8c81985104ecaea90342
+Description: Base system, command-line tools and OwnGoal apps for a vphone
+ Installs apt and dpkg, bash, zsh and dash, sudo, the core command-line tools,
+ openssh-server, curl and wget, nano and vim, htop, git and fastfetch,
+ uikittools and launchctl, plus OwnGoal Essential Apps: Irisin, Fila,
+ iGhostVT, Xrash and Inspector. This package installs no files of its own.
+Name: OwnGoal Bootstrap for vphone
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/ball.png
+Depiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/
+SileoDepiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/depiction.json
+
 Package: preferenceloader.top
 Architecture: iphoneos-arm64
 Version: 2.2.8-2
@@ -66230,6 +66302,29 @@ SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 93244
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.3.0_iphoneos-arm64_9f249c3c9f64b71c90ab51b9393b9bf338687aca4f3bf6ec83999ea759833f1c.deb
+Size: 22474060
+MD5sum: 4ae022d6464959d16ddb182d236feb28
+SHA1: d2635b6b6686eaa483ea409977995cc3a57fe028
+SHA256: 9f249c3c9f64b71c90ab51b9393b9bf338687aca4f3bf6ec83999ea759833f1c
+SHA512: 2aabf99175316f19dd68b0eb7a5e8b61a296d6f8b1b8c93e4912cc40571b5f6fb0d1cd15c4c6a206230b615e1a30c48fcb6fb6e2bf839acde78b19b89f9d3de7
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Priority: optional
@@ -66482,6 +66577,29 @@ Depiction: https://owngoal-dev.github.io/Apelin/
 SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64e
+Version: 0.3.0
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 93244
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin_0.3.0_iphoneos-arm64e_61acedc62a7abd9316cbb418939b3fcea8ed8d2c3a89ddcbb3a6eea0d3a76d2c.deb
+Size: 22474396
+MD5sum: f692d90737bf332dbde442c6e7bbf95e
+SHA1: e59c6ef3c6f83ad5d7a4f8ee75d0a6bc87cfc92c
+SHA256: 61acedc62a7abd9316cbb418939b3fcea8ed8d2c3a89ddcbb3a6eea0d3a76d2c
+SHA512: 0fc985c734f6afb095b6bf901932d6e2233fb68b13e9a459eb3beff5bb7daf95b2cbc5944930c946dec02262367d8173e141e086ffa17cc021407c0ae97819f9
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
 Package: wiki.qaq.apelin.agent-tools.assembler
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -66591,6 +66709,30 @@ Depiction: https://owngoal-dev.github.io/Apelin/
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin.dev.app
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 76
+Depends: wiki.qaq.apelin (>= 0.1.0), uikittools
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin.dev.app_0.1.1_iphoneos-arm64_4d23db16f895156c66dd6d0d59a16369d8bca04fa371ac67630238091e4b6923.deb
+Size: 8232
+MD5sum: eba2351c7b843f2132f743143fd3c673
+SHA1: df89945fd17cc12e3199c806ad495646f9556a35
+SHA256: 4d23db16f895156c66dd6d0d59a16369d8bca04fa371ac67630238091e4b6923
+SHA512: 72d41c43794329f424d64334a55c8ed1a7acea91136d48cbae83231cc507ad0300efa5d49834952abe72a8f938ce4ff7c7ae03834331088a1501dab9863a5827
+Description: UIKit app templates for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package UIKit apps on the device, installed
+ into /Applications: an Objective-C template, and a Swift one for when the
+ Swift toolchain component is set up.
+Name: Apelin App Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.app.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.app
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Priority: optional
@@ -66605,6 +66747,30 @@ MD5sum: 6267799789bbacb0e54e5404892a1a29
 SHA1: 33c9c2c30d9dae93ad9d2df5c30d562dd328ae6c
 SHA256: ebe1bac9681e03c8d737bd07889cd2fec0bec74ca1719557507616810ba39f23
 SHA512: c3c6117e1d96a16173bcc03cfda48a41db78c6e9f90aad55068953ed2258e420cc45e60991caada1058a51a3c085b293edfb1b2fdae09ef8609ff85c0a4d78ba
+Description: UIKit app templates for Apelin, for roothide jailbreaks
+ Lets Apelin create, build and package UIKit apps on the device, installed
+ into /Applications: an Objective-C template, and a Swift one for when the
+ Swift toolchain component is set up.
+Name: Apelin App Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.app.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.app
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 76
+Depends: wiki.qaq.apelin (>= 0.1.0), uikittools
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin.dev.app_0.1.1_iphoneos-arm64e_017d0a2a8e3b3aaf36dd90ba5333c9f9821e00800cdd94d3e6cb2f4bc38c0495.deb
+Size: 8120
+MD5sum: 8373d2627f0557b224a7d61d7019fd6b
+SHA1: e9b7de2415de3f9e3724224b377405471f416758
+SHA256: 017d0a2a8e3b3aaf36dd90ba5333c9f9821e00800cdd94d3e6cb2f4bc38c0495
+SHA512: 30abf5c3d7300608787597075e323fdb5c92380c79cc0f1556f28ba71aa13a2915d89ebcfa776ab96a29f5213056fe24224a1b67f30ef23905746660e150fca9
 Description: UIKit app templates for Apelin, for roothide jailbreaks
  Lets Apelin create, build and package UIKit apps on the device, installed
  into /Applications: an Objective-C template, and a Swift one for when the
@@ -66661,6 +66827,29 @@ Depiction: https://owngoal-dev.github.io/Apelin/
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin.dev.cli
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 36
+Depends: wiki.qaq.apelin (>= 0.1.0)
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin.dev.cli_0.1.2_iphoneos-arm64_55c547304f26846e0f3022250c1b0b8fc9f4688eada234506a07dee216cfc324.deb
+Size: 5760
+MD5sum: 4a1950dd2da4252871dd9ee194722093
+SHA1: 4c37ae9022fa07c6d7fac9b9af045d246ed73dd3
+SHA256: 55c547304f26846e0f3022250c1b0b8fc9f4688eada234506a07dee216cfc324
+SHA512: 47f9ac7ffe9eb33ee091bd565c6aa12e11424b466f7e0b32ab7ba38a3f18d980031a4c67dfd47d21b5424a848b89f3ed45c2f6e690d4984c7a711a4ebddd83ed
+Description: Command-line tool templates for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package C and Objective-C command-line tools
+ on the device, installed into the bootstrap's /usr/bin.
+Name: Apelin Command-Line Tool Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.cli.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.cli
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Priority: optional
@@ -66698,6 +66887,29 @@ MD5sum: 75d33a9289c30c9c3b0559a140dbbd58
 SHA1: cfebc8da59661d518a8fc5c733f2d25423e1c083
 SHA256: 7c24a45fd39eb11b9406d2bce05ace90714f41d0bfda4395dd54d402d7f9fe76
 SHA512: 98f6a60e3e162f4073e56b55226bb560df012c9d07513dbd38f1203bd493708ba34ac797a3b75e6ec12402f8459f73051cf92deed7bb3d269402f472457a0da9
+Description: Command-line tool templates for Apelin, for roothide jailbreaks
+ Lets Apelin create, build and package C and Objective-C command-line tools
+ on the device, installed into the bootstrap's /usr/bin.
+Name: Apelin Command-Line Tool Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.cli.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.cli
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 36
+Depends: wiki.qaq.apelin (>= 0.1.0)
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin.dev.cli_0.1.2_iphoneos-arm64e_336116f0439bc266110ec65e74cbb448959e38e189f6f604b78c61e9f803ac6a.deb
+Size: 5696
+MD5sum: d1aa819aa6114c90df8ef88117256940
+SHA1: 9acaa31961311b1e64fc50810b96fcbb4ca6ab79
+SHA256: 336116f0439bc266110ec65e74cbb448959e38e189f6f604b78c61e9f803ac6a
+SHA512: 1c0169da28f829d39d92316547e111837cf5a9bd309a92caa03128ca157ac3bd4c89a222d332945ce0f86f02080e0d0f4124c9ac38eacaaca392419eb61c7988
 Description: Command-line tool templates for Apelin, for roothide jailbreaks
  Lets Apelin create, build and package C and Objective-C command-line tools
  on the device, installed into the bootstrap's /usr/bin.
@@ -66747,6 +66959,32 @@ MD5sum: e6c767c31d1d9f36c2879942950b3acd
 SHA1: 599b99f19cf0ece87d958ee855cb270e70112895
 SHA256: 5ec9107b073c116fcc40c2df600478e81cecb60d8714839107dafc6136dea02b
 SHA512: 250c7125f89274e7316bfb34e9b215ce188ed603fff7ebca4a270d2e0dc068af06d8e33efd2254cefd5d6da4d1b07a561e65ffee370b3ecc09fa21e30dd76769
+Description: Settings pane templates for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package preference bundles on the device: a
+ template with a switch and a text field, the PreferenceLoader entry that
+ shows it in Settings, and declarations for the private Preferences
+ framework. Needs PreferenceLoader, which your preferred package manager
+ installs with it.
+Name: Apelin Preference Bundle Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.preferences.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.preferences
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 40
+Depends: wiki.qaq.apelin (>= 0.1.0), preferenceloader
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin.dev.preferences_0.1.2_iphoneos-arm64_c91377f04ab606b2968a0a3fb9bac084861ff01382a3b61c4b3871f4aabe169d.deb
+Size: 6740
+MD5sum: ecab87ac90dd339e54db7094a0ab02ae
+SHA1: bf3802514ff4a9fc544339c7b8f6c2b368ffc5f3
+SHA256: c91377f04ab606b2968a0a3fb9bac084861ff01382a3b61c4b3871f4aabe169d
+SHA512: 3fd7a1f82144d2e5d29af85d0a50beaa529cd793da714c46fc0906fe7b0b5aa6de8a83d89ba1d4cc12d56192ca993c87843e9c81a6cc1d7284b898af30ac5569
 Description: Settings pane templates for Apelin, for rootless jailbreaks
  Lets Apelin create, build and package preference bundles on the device: a
  template with a switch and a text field, the PreferenceLoader entry that
@@ -66810,6 +67048,32 @@ Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.preferences
 Depiction: https://owngoal-dev.github.io/Apelin/
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
+Package: wiki.qaq.apelin.dev.preferences
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 40
+Depends: wiki.qaq.apelin (>= 0.1.0), preferenceloader
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin.dev.preferences_0.1.2_iphoneos-arm64e_3398f01f17901b944d7f77c58501ad9855ded2a499e89bc324319b87bab24f44.deb
+Size: 6660
+MD5sum: b0bfffc9ce902ec077db47582d95c9db
+SHA1: d9fe711c62c33c109eb6585a9e79b5517adb9b54
+SHA256: 3398f01f17901b944d7f77c58501ad9855ded2a499e89bc324319b87bab24f44
+SHA512: b6c936dc73736d334950aedd08d2e5190903c5fc79ecac11f9c5861c18fb20293cfc92b558a4eda27dc290c1b5d2b99cf62f980a328de63b318efef1c8f2fe88
+Description: Settings pane templates for Apelin, for roothide jailbreaks
+ Lets Apelin create, build and package preference bundles on the device: a
+ template with a switch and a text field, the PreferenceLoader entry that
+ shows it in Settings, and declarations for the private Preferences
+ framework. Needs PreferenceLoader, which your preferred package manager
+ installs with it.
+Name: Apelin Preference Bundle Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.preferences.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
 Package: wiki.qaq.apelin.dev.tweak
 Architecture: iphoneos-arm64
 Version: 0.1.0
@@ -66836,6 +67100,31 @@ Depiction: https://owngoal-dev.github.io/Apelin/
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin.dev.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 32
+Depends: wiki.qaq.apelin (>= 0.1.0), mobilesubstrate
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin.dev.tweak_0.1.1_iphoneos-arm64_25ea91e88075f80666f22462f600f78d5f9766dcffed7b7093ff663015b09d21.deb
+Size: 6324
+MD5sum: 6f09990213402d1d59a47c02173334ef
+SHA1: a613e5cce906582f81af8dbcffd21f35490c540e
+SHA256: 25ea91e88075f80666f22462f600f78d5f9766dcffed7b7093ff663015b09d21
+SHA512: e255624a627cf05028d56f1b3fd4c9ed6a38fcdfe3b1c81830f97b805ae906a04d449f59f1e50b68fc408cdaaef2310e7d1cea1dffd110fa29c9b8a720002779
+Description: Tweak templates and hooking headers for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package Objective-C tweaks on the device: a
+ template that hooks SpringBoard through the substrate-compatible API, the
+ headers and link stubs for that API, and the process filter. Needs an
+ injection framework, which your preferred package manager installs with it.
+Name: Apelin Tweak Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.tweak
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Priority: optional
@@ -66850,6 +67139,31 @@ MD5sum: 5736978c7ef1003a0b22b087d6466271
 SHA1: f5d4bcf5cc09cba22b284a21ca71e434ae09367e
 SHA256: c9e4b7d2dda3404bd9ee358d795118e944aa12aadc783e17294fbc379c8e3ef2
 SHA512: 19f186a280cc8dff99aac292622680c3a5bc521c116255bf006944d292282a793949555cb992667ef17f2548488804e7c8fde7249eacfa624f9417a3d25b5eb5
+Description: Tweak templates and hooking headers for Apelin, for roothide jailbreaks
+ Lets Apelin create, build and package Objective-C tweaks on the device: a
+ template that hooks SpringBoard through the substrate-compatible API, the
+ headers and link stubs for that API, and the process filter. Needs an
+ injection framework, which your preferred package manager installs with it.
+Name: Apelin Tweak Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.tweak
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 32
+Depends: wiki.qaq.apelin (>= 0.1.0), mobilesubstrate
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin.dev.tweak_0.1.1_iphoneos-arm64e_d515273cf1cd29b1696dbf36fdab1e7d5289a8afca85ed92367345fb2cf7f448.deb
+Size: 6220
+MD5sum: 9681e0d9c0d528fd7793bed076afdb38
+SHA1: cdd1d070643030bb9be895a6a8e67018c64b14f6
+SHA256: d515273cf1cd29b1696dbf36fdab1e7d5289a8afca85ed92367345fb2cf7f448
+SHA512: f918360b1c4efd96087b7e45af142b11ecde160b6037eb296ecc49c71b1944178f75341f47c9340b234a8119ca4ce95da4fcae2d61e40327a67388c23c202a4b
 Description: Tweak templates and hooking headers for Apelin, for roothide jailbreaks
  Lets Apelin create, build and package Objective-C tweaks on the device: a
  template that hooks SpringBoard through the substrate-compatible API, the
@@ -67322,6 +67636,31 @@ Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.ighostvt
 Architecture: iphoneos-arm64
+Version: 1.6.22
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 16512
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64/wiki.qaq.ighostvt_1.6.22_iphoneos-arm64_4215cf98e7061fc6db17fa22bf9f244c7fe4b3987eb3ec8bb410d042e5ccc43e.deb
+Size: 4924508
+MD5sum: 31b7a2ea0da444af0dd3a24669cde6f3
+SHA1: f09c466145c8df42c242c5b9d1da5057cc8e5b55
+SHA256: 4215cf98e7061fc6db17fa22bf9f244c7fe4b3987eb3ec8bb410d042e5ccc43e
+SHA512: f18647215c2df9fe805a59fd32a653891260f7a691ffb60be02f14e153fff546257563f0d8aff1dc099a7f4aad6634eb81a55a21fcfc882697555f40fe4c56f6
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64
 Version: 1.6.5
 Priority: optional
 Section: Terminal Support
@@ -67597,6 +67936,31 @@ Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.ighostvt
 Architecture: iphoneos-arm64e
+Version: 1.6.22
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 16512
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64e/wiki.qaq.ighostvt_1.6.22_iphoneos-arm64e_1396a6293fc59fb5ab7b44915328923bb8cb25a388a41e2d5d40f3e18c7784fb.deb
+Size: 4923004
+MD5sum: 709521954cbd893f0a2053bd2f08bb3a
+SHA1: 74189239e0d846b5938796d769d4a1605ab3c494
+SHA256: 1396a6293fc59fb5ab7b44915328923bb8cb25a388a41e2d5d40f3e18c7784fb
+SHA512: b9dbeb2f660974b33aa9933bb53f8717f07ab342ccc24c7d4f4c7ab1443ee0e75405eb0529e3ee2012435a9b2d9a89a83cf4a0e5d2f3398a918f315d5ec425c7
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64e
 Version: 1.6.5
 Priority: optional
 Section: Terminal Support
@@ -67720,6 +68084,33 @@ MD5sum: 0af5289284206b258a4b6a5f40622984
 SHA1: f9f558f0fa2fd4d5b9a90e2d4bab7557b2dbf11d
 SHA256: 5cfc94ac5b93e6ce082d6024f318a299025117dbe26d28349e7d3e8878d63cf5
 SHA512: 2bf262f2878b670725e88e500c1b30d50973968953699e872522b681fd2f0b198c3e8f5d2e3156e70162f6a934f7e4c6c0dc82df5d546ae302fce27cfa828b58
+Homepage: https://github.com/Lakr233/Irisin
+Description: Package manager for Apple TV on RootHide custom firmware
+ Irisin on the Apple TV's Home Screen shows an address and a code: open the
+ page on a phone or computer on the same network to browse repositories and
+ install, update and remove packages, each change confirmed on the TV with
+ the remote. An on-demand root daemon installs packages natively and
+ registers apps with the system, without dpkg.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: appletvos-arm64e
+Version: 5.1.1
+Priority: optional
+Section: System
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 11124
+Depends: firmware (>= 16.0)
+Filename: debs/appletvos-arm64e/wiki.qaq.irisin_5.1.1_appletvos-arm64e_9738790c35e605f2e6d5972b8f5cfebee3e958726fb6b80d7bab197bf9e82c3b.deb
+Size: 3267440
+MD5sum: ac0ba40dc719344623d124007508a6df
+SHA1: 1b3d51e6e6a90f86fa727922beb23715f6ca607b
+SHA256: 9738790c35e605f2e6d5972b8f5cfebee3e958726fb6b80d7bab197bf9e82c3b
+SHA512: b203a53d2fdb34e6e8c62a072cb7c232c2b2447eab1a18fdefb2be4fac365f11f7b7372ca5850fc587a00aa986832e645c4c20e03947d390b550ebd995f5bd30
 Homepage: https://github.com/Lakr233/Irisin
 Description: Package manager for Apple TV on RootHide custom firmware
  Irisin on the Apple TV's Home Screen shows an address and a code: open the
@@ -67882,6 +68273,33 @@ MD5sum: 0b928ab16e4514b430dc381a9d62ea17
 SHA1: 55f3d6f59f904bbfba64ae52faacda3acb0f54cc
 SHA256: da19f2a05f4a42e4183d5df1752e436fe92f173f71e4847314d8541b6475ac81
 SHA512: 41c221e5dbd69579733bc4e69762c59e22d60f52d8f4e9d7bc2efe33596a8ff7ebc23be64ed68fca99160fbe42c25f10b3f97df85d8a86579ea82a5eaf90393b
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 5.1.1
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 20704
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_5.1.1_iphoneos-arm64_45cbb21d0c07008bc02f460ae401b8f1edcf4349c7961276ec676c7b5347a5ed.deb
+Size: 5290904
+MD5sum: 824b45964febb567162f932ea0d46aa7
+SHA1: d4209f79ffdc43e335127fc9195ad08e6ebf13e0
+SHA256: 45cbb21d0c07008bc02f460ae401b8f1edcf4349c7961276ec676c7b5347a5ed
+SHA512: 90b4752707c683bb491bff6ad4fc0144420d79b169cb922f39f31e0e9ba321b183d59a3a054f46dca9955bad6a73c96de9e9e154c5f087e80bd67b9a7f715b1d
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for rootless custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
@@ -68098,6 +68516,33 @@ MD5sum: e6031a089be0ac858d9aca98bc7ae1ce
 SHA1: cc41f2d0e85920a94776d3b5960b0b4a73ec1c71
 SHA256: 341fb5fdb1bfd919e704276adedbc971713712521001f2e4744b47f39bf81950
 SHA512: c9dd987dfb8b1bb0769f3cbf400754e003078a7e2f1ef06ba92cc3a9500f6c49e90450d69abf27425c2b455833e20b1d9da54b4c96332ff2637afcb80847d2c4
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 5.1.1
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 20704
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_5.1.1_iphoneos-arm64e_9a6363a5e207278cda69cd3305dccb16c86eb597a485f053866c07029773f7f6.deb
+Size: 5291224
+MD5sum: 129f462af3269a7a91907d8ecb8060f5
+SHA1: 957af4792bd35aa96cf8b1354c573e9beb169433
+SHA256: 9a6363a5e207278cda69cd3305dccb16c86eb597a485f053866c07029773f7f6
+SHA512: b6ed5fd170a98e274a4d63379da5b6a2383d0ca8f9bc19664fb07a61d61644316f0c4247e91ad460a64912c60a4e441c1b5f2055cafd68596f75a739d5780b93
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for roothide custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
