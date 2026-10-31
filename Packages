@@ -36747,6 +36747,26 @@ Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
 Package: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 2.2.50
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 5152
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64/com.muzi.mutool_2.2.50_iphoneos-arm64_e7d207a0cc157530269db5171282703f2c200ddf8c09ca57df81b8472c24c680.deb
+Size: 845084
+MD5sum: 79cdd166d135a49aac482c9850705644
+SHA1: c5783ccbb68f5ebab31a1bf573b312eb6f233940
+SHA256: e7d207a0cc157530269db5171282703f2c200ddf8c09ca57df81b8472c24c680
+SHA512: 66fba27f5c8a5ec70860a87457724f3249ed85c895f26f95b03c56bf17a016bc0adc947b685b9312e21c5aef1d4dea5d74934b6ef448ae57fe0d9aa94054372b
+Description: 2.2.50 测试版本：优化温控相关代码。多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音（接入提示音、MagSafe 动画、灵动岛电池与电池提醒）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（二级分类：锁屏增强 / 主屏幕增强 / 桌面增强，所有说明统一以 ⓘ 图标点击查看；锁屏：自动进桌面、解锁显示、通知亮屏、锁屏禁用与隐藏、唤醒与锁屏、锁屏充电胶囊、动作反馈；主屏幕：禁用项、隐藏项、小组件多选拖动、底栏设置、动画与后台；桌面：图标下载进度条与阴影、桌面电源菜单）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量 / 天气，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息。2.2.44 修复：诊断日志落盘改无锁 libc 直写（posix open/write），不再在自定义串行队列触碰 Foundation 文件机制——消除音频守护进程（nanoregistryd/audioaggregated）内诊断队列与主线程 CoreAudio 锁的互持死锁，修复 mediaserverd 看门狗超时崩溃（无声音/来电无响应）。2.2.43 修复：尝试修复了堵塞进程问题，以及长按桌面弹出电源菜单与电话助手冲突问题。2.2.42 修复：三合一状态栏完整支持 iOS16 经典 UIStatusBar——补齐经典状态栏的图标隐藏/恢复、周期刷新与三合一定位（仅 iOS16 会使用 UIStatusBar，此前只覆盖 STUIStatusBar/_UIStatusBar）；恢复逻辑只还原插件主动隐藏的图标，系统原本隐藏的视图不会被误还原显示；移除 SF Symbol 长期缓存，系统复用同一视图更换图标也能正确识别；状态栏前景层重建/替换后自动重扫定位。2.2.41 完善：修复历史残留充电状态恢复流程——恢复校验强化、失败保留重试，编译兼容修正。2.2.40 优化：悬浮药丸天气指标图标根据天气实时变化（下雨展示下雨图标、晴天展示晴天图标等），包含中英文条件匹配、多云/阴/雾/雷/雪门类全面约束；修正多云被误判为晴夕的问题。 2.2.39 修复：悬浮药丸「显示内容」补入天气类开关（当天天气 / 今日天气详情 / 两日天气），与「天气来源」配置匹配，各悬浮窗独立勾选。 2.2.38 新增：悬浮药丸新增天气指标（当天天气 / 今日天气详情 / 两日天气），支持三种数据源（系统天气本地缓存 / Open-Meteo 手动经纬度 / 和风天气个人 API），在悬浮药丸设置页新增「天气来源」配置组（总共开关，各悬浮窗独立勾选天气指标），后续刷新由药丸统一调度。2.2.36 修复：悬浮药丸横竖屏跟随不完整。①方向校验上界误用 UIInterfaceOrientationLandscapeRight(3)，把 LandscapeLeft(4) 判为非法值并回退竖屏，导致逆时针（左横）旋转到横屏时不显示横屏悬浮、顺时针正常；现改为以 LandscapeLeft 为上界，同时修正状态栏方向通知里的同一处校验。②承载窗口改为关闭系统自动旋转（setAutorotates），窗口固定竖屏坐标系，内容旋转角只由前台 App 界面方向推导，消除残留的跟随重力旋转动画，并避免设备旋转动画中途取到瞬时角度导致方向错乱。③新增设备方向变化通知作为即时对齐触发源，旋转动画结束后补做一次内容对齐与重定位。2.2.35 修复：悬浮药丸横屏应用时不再错误显示竖屏悬浮——方向源改用 UIApplication 私有 _frontMostAppOrientation（直接返回前台应用界面方向，不依赖 SpringBoard 场景/状态栏方向，后者在 SpringBoard 进程恒报竖屏），并新增 0.4s 主线程方向轮询捕捉前台 App 横竖屏变化（SpringBoard 状态栏方向通知对前台 App 旋转不可靠）；竖屏应用只显示竖屏三悬浮、横屏应用只显示横屏悬浮，均不跟随传感器旋转、无黑影。2.2.34 修复：悬浮药丸旋转黑影与卡死。彻底放弃 Helium 的 scene-less 窗口架构（2.2.33 实测在 SpringBoard 注入进程使 UIKit 无限递归 _unassociatedWindowSceneForScreen 栈溢出进安全模式），回退到 2.2.31 已验证的「窗口挂 scene + 根视图按 App 界面方向－设备方向反向旋转」架构（悬浮球不随重力旋转），并新增旋转过渡期整窗隐藏：状态栏方向变化预告（WillChange）后立即隐藏所有模块窗口——系统旋转快照不完全包含磨砂窗口（消除 UIVisualEffectView 黑块/黑角），DidChange 后延迟 0.35s 恢复显隐（旋转动画结束 bounds 稳定），1.5s 兜底超时防通知丢失；竖屏应用只显示竖屏三悬浮、横屏应用只显示横屏悬浮，均不跟随传感器旋转，且无任何黑影。2.2.33 重构：悬浮药丸完全照搬 Helium 窗口架构——承载窗口改为 scene-less（initWithFrame: 不挂 scene）+ 声明系统窗口（_isSystemWindow，类方法）+ 非 WindowServer 托管（_isWindowServerHostingManaged=NO）：系统不对窗口做旋转快照（消除磨砂黑块）、窗口不参与系统界面旋转（不再跟随重力/设备旋转），并经 SBSAccessibilityWindowHostingController 注册 contextID 显示（Helium 同款）。方向完全由控制器驱动：多级兜底读取前台 App 界面方向（UIApplication _frontMostAppOrientation → statusBarOrientation → 窗口 bounds，全部进程内安全读取，绝不调用 SBSCopyFrontmostApplicationDisplayIdentifier），0.4s 主线程轮询保证稳定；方向变化时把每个模块根视图按 Helium HUDRootViewController updateOrientation: 同款方式手动旋转（orientationBounds 宽高互换 + transform 旋转到对应角度），横屏 App 药丸横向显示、竖屏 App 药丸纵向显示，与系统/重力完全解耦；定位基准回归根视图 rv 坐标系，贴边 clamp 基于旋转后的 rv bounds。2.2.32 修复：悬浮药丸旋转方案重构——不再旋转承载窗口/根视图（整屏旋转会产生黑角），改为只旋转药丸自身内容。窗口随场景旋转后，悬浮球按「App 界面方向 − 窗口实际界面方向」角度差反向旋转（PillView transform，scaleFactor 与 contentRotation 合成同一 transform），始终以 App 界面方向显示，且不会出现整屏旋转黑边；定位坐标系回归窗口（rootViewController.view 与窗口同尺寸同坐标），贴边 clamp 按旋转后的视觉半宽/半高计算（旋转 90° 时宽高互换也能正确贴边）。方向来源改多级兜底（进程内安全读取）：UIApplication _frontMostAppOrientation → statusBarOrientation → 窗口 scene 方向，并新增 0.4s 主线程轮询（_orientationTimer）保证方向稳定跟随前台 App（SpringBoard 状态栏方向通知覆盖不全且不可靠）；绝不再调用 SBSCopyFrontmostApplicationDisplayIdentifier（SpringBoard 进程内任何线程调用都会 XPC 自连 SpringBoardServices 死锁，1.9.100/1.9.101 曾卡死、1.9.102/2.2.15 已移除）。2.2.31 修复：2.2.30 安装后悬浮窗全部消失（开关全开、横竖屏都不显示）。根因是 2.2.29 重构时误删了 applyInitialPositionWithTargetBounds: 的实现（仅剩声明与调用）：运行期调用抛 doesNotRecognizeSelector——这正是 2.2.29 安全模式崩溃的真实原因；2.2.30 把方向链几何操作收进 reloadPrefs 的 @try 后，异常被 @catch 吞掉并触发 _teardownPill 拆掉全部窗口，于是药丸消失。现补回该方法实现，并在 window 布局回调里「内容层旋转完成后立即按新 rv bounds 重算锚点重新定位」，修复旋转后药丸落到屏幕外的问题。2.2.30 紧急修复：2.2.29 安装后进安全模式——崩溃在系统 setStatusBarOrientation 方向通知的同步回调链里（MUtool.dylib doesNotRecognizeSelector / _copyDescription）。此前在方向 WillChange/DidChange/reloadPrefs 同步执行悬浮球内容旋转（rootViewController.view 的 bounds/transform 几何操作），UIKit 正在执行旋转动画时访问中间态对象触发异常；现收敛为「方向通知只更新方向标记与模块显隐，几何旋转统一由 window 的 viewDidLayoutSubviews 布局回调（pillModuleDidLayout:）在 UIKit 布局完成后执行」，方向通知同步链内零几何操作，崩溃消除。2.2.29 修复：悬浮药丸彻底不随重力传感器旋转——悬浮窗挂 scene 后窗口会随设备方向自动旋转，此前只做方向通知显隐切换、未对悬浮球内容做反向旋转，导致竖屏 App 下手机横放时悬浮球仍跟着传感器转。现恢复已验证的「内容反向旋转对齐前台 App 界面方向」机制：每个模块的悬浮球内容层按「App 界面方向(状态栏方向)−设备方向」角度差反向旋转（rootViewController.view transform），窗口随设备转但悬浮球始终以 App 方向显示——竖屏 App 只显示竖屏三悬浮、横屏 App 只显示横屏悬浮，且都不随重力旋转；定位坐标系同步改为 rv(内容层)坐标系与旋转一致。2.2.28 修复：悬浮药丸横竖屏判定改回跟随「应用界面方向」——此前 2.2.25-27 采用 Helium 的 FBSOrientationObserver（设备物理方向）会随重力传感器旋转，竖屏应用被误判横屏、旋转后仍显示竖屏三悬浮或错显横屏悬浮；现改回 UIApplicationWillChange/DidChangeStatusBarOrientation 通知（App 界面横竖屏变化才触发，不受重力影响）：竖屏应用只显示竖屏三悬浮、横屏应用只显示横屏悬浮，旋转时按目标方向 bounds 预翻转定位，悬浮不随设备旋转。2.2.27 紧急修复：2.2.26 安装后 SpringBoard 卡 logo 无法进桌面——悬浮药丸横竖屏的 FBSOrientationObserver 在 %ctor 启动早期同步创建并反射调用 XPC（FrontBoard 服务未就绪），阻塞 SpringBoard 启动主线程被看门狗终结；现改为仅在 UIApplicationDidFinishLaunching/DidBecomeActive（SpringBoard 就绪后主线程）安装观察器，并去掉 Helium 不使用的同步 activeInterfaceOrientation 查询（只保留 setHandler 事件驱动），启动路径零同步 XPC。2.2.26 修复：①第三方（微信等）VoIP 录音平台名补全增强——CallHistory 里 provider 在部分 iOS 版本是关联表外键（数字 Z_PK）或全新列名，此前读不到导致渠道仍显示「VoIP」；现新增关联表解析（枚举含 PROVIDER/SERVICE 的表回查文本）、动态列名兜底（遍历行内含 provider/service 的列）、bundle id 大小写不敏感映射（com.Tencent.Xin 等同匹配「微信」）；②录音文件名与播放列表同步——补全拿到渠道/姓名后，把「VoIP接听-未知号码-时间」类占位文件名自动重命名为「微信接听-姜曼曼-时间」，并同步更新 recordings.json 的 m4a 字段，文件名与列表第一行一致；③悬浮药丸横竖屏识别完全改为 Helium（AsakuraFuuko/Helium）方案——用 FBSOrientationObserver 监听 FrontBoard 方向事件驱动维护 _orientation，isLandscape 优先取方向、未知回退 bounds 宽高比，彻底移除旧 UIApplication 状态栏方向通知、过渡 token 与 1.5s 兜底定时器。2.2.25 修复：三合一状态栏改为实时刷新——此前电量与原图标只随系统状态栏 layoutSubviews 更新，SpringBoard 不重排时电量显示慢一拍，部分界面切换后原生图标露出、需划掉后台重新切换才恢复三合一；现新增 0.52s 主线程周期刷新，扫描窗口树内所有 STUIStatusBar/_UIStatusBar 强制执行完整布局（电量采集 + 原生图标隐藏 + 三合一定位刷新），电量始终随系统当前值对齐、任何界面进入即正确显示三合一。2.2.24 稳定性修复：录音列表的通话记录补全改为「后台只读计算 + 主线程落盘」两步——数据库查询移到后台队列，主线程零 SQLite/文件阻塞，且不再在后台线程改写录音条目对象（消除并发读写），并移除 CallHistory.framework CHManager 兜底（同步跨进程调用在高负载下可能长时间阻塞），电话 App 主线程流程不再有任何可能触发系统看门狗的操作。2.2.23 修复：①VoIP 自动录音门控——此前「其他应用通话录音」独立触发录音并绕过「通话自动录音」总开关，用户关闭自动录音仍会自动录制（微信等 App 来电就录）；现 VoIP 两条自动触发路径（CXCallObserver 与音频 hint 兜底）与蜂窝一致，均受「通话自动录音」总开关门控，关闭总开关后仅悬浮按钮手动触发才会录音；②第三方录音平台名补全增强——录音列表加载时继续用系统通话记录（CallHistory）回填渠道/对方名称/号码，新增更多 provider 字段候选并扩充 CallHistory.framework CHManager 的 provider 取值，匹配到记录时会记录原始 provider/name/address 到 voip_diag.log（[ch] matched 行），便于定位「仍显示 VoIP」的机型差异。2.2.22 修复第三方 App（微信等）VoIP 录音的平台与对方信息：iOS 17 上 CXCall 私有键全部取不到值，录音仍显示「VoIP·未知号码」；现改为在电话 App 录音列表加载时读取系统通话记录（CallHistory.storedata，与「最近通话」同源）按通话时间匹配，回填平台（如「微信音频」）、对方名称（如「姜曼曼」）与用户 ID（wxid），并写回 recordings.json 补全存量记录；数据库不可用时回退 CallHistory.framework 的 CHManager，仍失败则保持原显示并记录 voip_diag.log。2.2.21 优化：三合一状态栏电量同步系统状态栏数据源——此前电量读 IOPS（IOPSCopyPowerSourcesInfo）的 current/max capacity 比值自行取整，与系统状态栏电池图标（STStatusBarData.mainBatteryEntry.capacity，系统已按 0-100 取整）存在数值差，用户常反馈「三合一电量和系统不一样」；现改为在状态栏布局刷新时直接读取系统电池 entry 的 capacity（0-100 取整值）作为电量来源，与系统状态栏图标完全一致，IOPS 仅作数据源缺失时的兜底，充电判定仍走 IOPS（AC/isCharging，稳定可靠）。2.2.20 新增：设置页「充电相关 → 充电功能」新增「修复充电状态」按钮——一键执行 daemon --restore，清理历史版本（2.2.01 之前 Battman 充电控制）写入的 SMC 充电键（CH0C/CH0I/CH0B/CH0J/CH0K）与 IORegistry 停充残留（IsCharging/ExternalConnected/PredictiveChargingInhibit）及 topoffprotection 残留，恢复系统默认充电行为；用于解决「时充时不充」（历史残留停充键导致 iOS 间歇性不充电）的问题，修复请求经偏好键投递由 SpringBoard 后台执行、执行完自动清除。另：2.2.19 的全局总开关因安装后严重卡顿已整体回滚撤销，本版不含总开关功能。2.2.01 充电行为回归系统默认；升级/卸载自动清理历史残留与守护进程。2.2.02 修复 VoIP 通话录音：①修复 VoIP 录音已录到但通话录音列表不显示的问题（无号码录音不再被索引过滤）；②修复 VoIP 录音命名错误——从 CallKit 通话记录获取真正发起通话的 App（例如在闲鱼界面接听微信通话时正确命名「微信」而非前台「闲鱼」），并记录通话对方标识；③录音记录改为单一索引文件（recordings.json）追加写入，不再每次通话生成一个新 .json 文件。2.2.03 修复与增强：①修复 VoIP 录音导致 SpringBoard 桌面进程崩溃（微信 VoIP 通话回调在 SpringBoard 主线程同步加载 MobileCoreServices 卡死主线程触发 watchdog 超时，改为纯内存静态映射）；②电话 App 录音列表改用固定行高手写布局（滚动更流畅）+ 底部安全区域适配；③录音列表改为按最新在前平铺展示、不再按联系人分组，并调整为三行格式（渠道·联系人 / 方向·号码或用户 ID / 日期 时间·通话时长·文件大小），VoIP 记录新增通信渠道字段（微信/FaceTime 等），来电登记对方姓名与 wxid 用户 ID。2.2.04 彻底修复：①SpringBoard 崩溃根治——2.2.02/2.2.03 的 VoIP CXCallObserver delegate 设为主队列，微信来电时 callUpdated 在 SpringBoard 主线程解析 CXCall 私有字段（KVC bundleIdentifier/remoteHandle/displayName 等）长时间占用主线程触发 watchdog 60s 超时崩溃；现将 delegate 队列改为后台串行队列，CXCall 解析全部在后台完成，仅把门控与录音/UI 操作提交回主线程，主线程零负担；②修复电话 App 录音列表最后两条被底部 Tab 栏遮挡——child VC 铺满挂载时安全区不含 tabBar 高度，改为沿视图层级找到 UITabBar 并动态将表格底部 contentInset 加上 Tab 栏高度，最后记录可完整滚动到 Tab 上方。2.2.05 修复：电话 App 录音列表仍无法滑到最底端、最后几条被底部 Tab 栏挡住——2.2.04 沿 superview 查找 UITabBar 失败（Tab 栏是 UITabBarController 视图里的兄弟浮层，并非本视图祖先），从未真正加上 inset；改为通过 tabBarController（含父链兜底）定位 Tab 栏，并按表视图与 Tab 栏在表视图坐标系中的实际几何重叠量设置底部 contentInset，最后一个 cell 可完整滚动到 Tab 栏上方。2.2.06 修复：电话 App 录音列表页滚动到底部时底部 Tab 栏变透明、内容透出——iOS 15+ 在列表滚到相邻边缘时启用透明的 scrollEdge 外观；现将录音列表页显示期间的 Tab 栏 scrollEdge 外观改为不透明（沿用原图标/文字配色），离开页面时恢复，使录音列表底栏与其他页面一致。2.2.07 修复与优化：①电话 App 录音列表页底部 Tab 栏由不透明改为系统标准高斯模糊（毛玻璃）效果，与其它页面底栏观感一致；②录音列表拿不到用户名（无姓名，或姓名只是号码/wxid 本身）时，第一行用户名槽显示「未知号码」，不再空白或只显示渠道；③个人收藏页被录音列表替换后，隐藏原收藏页左上角「+」按钮，退出替换时恢复。2.2.08 修复：个人收藏页被录音列表替换后，导航栏「编辑/添加」按钮（及语音留言页「+」）仍残留——原实现只在首次挂载时隐藏一次，被替换 VC 后续 viewWillAppear/viewDidAppear 会重新补上系统按钮；现改为每次出现都重复隐藏（已挂载分支也收敛），并新增 viewDidAppear 兜底 hook，按钮不再残留；开关关闭退出替换时恢复原按钮。2.2.09 修复：微信 VoIP 来电接通后灵动岛通话弹窗卡死、无法挂断，对方挂断后弹窗仍不消失、桌面被看门狗结束——2.2.02 起为修正命名改用 CXCall 私有键（valueForKey bundleIdentifier/remoteHandle/displayName）获取通讯 App 与对方标识，该私有键访问在微信来电时触发系统误判主线程无响应；现取消该获取方式，完全回归「电话 App 获取方式」：CXCall 只读公开属性，通讯 App 名统一经前台 App 名（_MUCFrontmostAppName）在主线程获取，与 2.2.01 之前一致，通话不再卡死。2.2.14 修复：微信 VoIP 来电在主屏幕接听瞬间 SpringBoard 主线程被看门狗终结（60s 无响应）——定位到前台 App 名查询 _MUCFrontmostAppName() 在 SpringBoard 主线程做同步跨进程调用（_accessibilityFrontMostApplication 走 Accessibility daemon RPC、SBSCopyFrontmostApplicationDisplayIdentifier 走 backboardd mach），接听瞬间系统正做通话 UI 过渡极易长时间阻塞/死锁主线程；现将前台 App 名改为独立后台线程每 1s 轮询一次并缓存，主线程只读缓存字符串，命名路径上不再有任何主线程同步 IPC；同时恢复诊断日志落盘（CallRecordings/voip_diag.log，异步追加，主线程只投递一行），并埋点 handleCall/音频 hint/startRec 全链路，若异常可凭日志精确定位。2.2.15 修复：进一步落实 1.9.102 已验证的教训——SBSCopyFrontmostApplicationDisplayIdentifier 在 SpringBoard 进程内任何线程调用都会 XPC 自连 SpringBoardServices 死锁，现从 SpringBoard 代码中彻底移除该私有 API 调用（不再有任何线程调用它）；前台 App 名仅保留后台线程的 accessibility 显示名查询，主线程只读缓存，命名与稳定性两者兼顾。2.2.16 修复与调整：①第三方 App（微信等）VoIP 录音恢复获取对方名称/号码、渠道不再只显示 VoIP——参照电话 App 通话记录的获取原理（CallKit 同一数据源），CXCallObserver delegate 队列改回后台串行队列，在后台解析 CXCall 私有 KVC（bundleIdentifier 静态表→微信/WhatsApp 等渠道名、remoteHandle→对方号码或 wxid、displayName/localizedName→对方姓名），姓名缺失时后台按号码反查通讯录；前台 App 名缓存兜底，主线程零同步 IPC（延续 2.2.15 彻底移除 SBSCopy，杜绝看门狗）；②电话 App 录音列表与设置内录音列表格式调回两行：第一行「渠道·联系人名称·联系人号码」，第二行「呼出/接听·日期 时间 · 录音时长 ·录音大小」，行高收紧。2.2.17 修复：2.2.16 的 CXCall 私有键名在 iOS 17 取不到值（bundleIdentifier/remoteHandle/displayName 全部 nil，录音仍显示 VoIP·未知号码）；现将 CXCall KVC 改为多键候选逐键探测（bundleIdentifier/providerBundleIdentifier/providerIdentifier/applicationIdentifier/sourceIdentifier；remoteHandleValue/handleValue/address/remoteHandle/handle；displayName/localizedName/callerName/remoteName/callerDisplayName），并把每个键的命中/缺失结果写进 voip_diag.log，日志可直接判定可用键名；handleCall 诊断行增加通话 UUID 便于对账。2.2.18 调整：录音列表取不到联系人名称时，第一行不再显示「未知号码」，改为直接显示「渠道·号码」（如「微信·138 1234 5678」）；有名称则仍为「渠道·名称·号码」，两者均无则只显示渠道。2.2.03 修复：桌面悬浮药丸透明/去边框样式按背景反色的文字颜色，由「截图采样背景亮度（默认 0.5s 刷新，总比系统状态栏反转慢半拍）」改为「跟随系统状态栏前景色」——系统状态栏 setForegroundColor 变化时立即同步反色（事件驱动、零延迟），截图采样降级为兜底。2.2.04 修复：2.2.03 跟随系统状态栏反色在某些机型/场景导致药丸「直接不变色」——系统信号读取不可靠时 luma 被永久锁死、截图采样兜底被短路；现系统信号改为带 0.35s 时效（过期自动回退截图采样，绝不锁死），并新增 iOS17 STUIStatusBar setStyle: 这一可靠反转入口直接推送状态栏风格枚举（白字/黑字），多入口互补。2.2.05 修复：随反色出现「变色后又恢复、过一会才再变色」的抖动——系统信号 0.35s 时效过期后被截图采样拉回旧色；现系统状态栏信号一旦收到即持续有效（setStyle/setForegroundColor 为系统权威反转入口，不再过期），截图采样仅在从未收到系统信号时兜底，反色稳定跟随系统状态栏、零抖动。另修正与现有 STUIStatusBar setStyle hook 的编译冲突。2.2.06 修复：切浅色背景时药丸刚反转为黑字又立刻被拉回白字——iOS17 上旧的 _UIStatusBar setForegroundColor / UIStatusBar layoutSubviews 转发也会触发，且其 foregroundColor 可能恒白（非主状态栏文字色），覆盖了 STUIStatusBar setStyle: 的正确反转信号；现两处低优先级转发仅在无 STUIStatusBar（iOS15/16 非灵动岛）时启用，iOS17 只信任 setStyle: 权威入口，反色不再被覆盖回跳。2.2.07 重构：跟随系统状态栏信号的方案在灵动岛机型上不可靠（主屏状态栏文字可能不随壁纸反色，导致悬浮药丸恒白/反转错乱）；现回归「按药丸自身背景亮度反色」——把背景亮度采样频率从默认 0.5s 提升到独立 0.1s 高频轮询（仅透明/去边框样式启用），浅背景黑字/深背景白字的直觉正确性恢复，且响应接近即时，不再慢半拍；移除 STUIStatusBar setStyle / _UIStatusBar setForegroundColor / UIStatusBar 的三处状态栏信号转发。2.2.08 提速：反色仍比状态栏慢一点（0.1s 轮询固有延迟）；现把背景亮度采样间隔从 0.1s 收紧到 0.05s（20fps），并让截图只渲染药丸所在区域（不再渲染整个窗口 bounds，降低高频采样开销），反转响应接近即时。2.2.09 修复充电受影响：安装/升级 MUtool 时 postinst 会执行 --restore 清理工具，它每次都会写 IORegistry（IsCharging/ExternalConnected/PredictiveChargingInhibit）并触碰 SMC 充电键、强杀正在运行的 daemon，干扰系统充电状态；现升级路径不再执行 --restore（仅停止残留 daemon + 删除残留文件，不写入任何充电状态），SMC/IORegistry 历史残留清理仅在卸载时由 prerm 执行；排查确认 daemon 正常运行/worker/温控均不写充电键。2.2.10 新增与调整：①文件夹主题新增「网格大小」3×3 / 4×4 / 5×5 / 6×6 可选（大文件夹开启时生效，6×6 最多 36 个图标，图标按网格自动缩放）；②「充电提示音」菜单更名为「充电相关」；③「录制增强」菜单更名为「拨号｜录制」。2.2.11 调整：文件夹「展开尺寸」下限由 500pt 放宽到 300pt（上限仍为 550pt，默认 525pt），可把大文件夹收得更小。2.2.11 新增：文件夹「按图标数量自适应」——开启后展开高度完全随图标数量自适应（图标越少越矮），不再受「展开尺寸」影响，各网格行距恒定一致（3×3 不再被撑大），范围 250–550pt；另将大文件夹图标上限恢复为固定 30，规避 5×5/6×6 在文件夹缩回瞬间的崩溃。2.2.12 重构：大文件夹 4×4/5×5/6×6 改用 FolderPro 方案——移除图标网格的 transform 缩放（该方案在 5×5/6×6 缩回瞬间导致 SpringBoard 崩溃进安全模式），改为 SBIconView 图标内容按网格 cell 自适应缩放，图标上限仅在系统默认 9 时按网格返回 16/25/36；文件夹浮层改为对称边距 + 垂直居中。2.2.13 修复「锁定 120Hz」实际最高只有 80Hz：①MUtoolRefresh 注入 backboardd，并通过 CAWindowServerDisplay 的 setHighFrameRateReasons:count: 提交高帧率理由——此前只在 SpringBoard 请求高刷，请求被渲染服务器拒绝后回落 80Hz；②强制期间 hardwareRefreshRate 报告为 120；③执行期间每 3s 重提高帧率理由，防止 display 重配后失效；④恢复 refresh_diag.log 落盘（CallRecordings/refresh_diag.log），用于验证各类私有方法是否命中。2.2.14 继续修复 120Hz（2.2.13 日志显示 applySystemRefreshRate 在遍历 display 前就提前返回）：①CAWindowServer 实例获取增加 +server 兜底（iOS 17 上 serverIfRunning 可能返回 nil），并对 class 缺失/实例 nil/displays 为空分别记录日志；②渲染服务器提交逻辑在 SpringBoard 与 backboardd 两个进程都执行（display 可能只存在于 backboardd）；③首次执行记录 display 类名及 setHighFrameRateReasons:count:/各刷新率 setter 的命中情况，便于一次定位。2.2.15 修复 120Hz 卡在 80Hz 的根因（backboardd 中 +[CAWindowServer server] 返回 nil，拿不到 display 实例）：改为 hook CAWindowServerDisplay 自身——①系统调用 setHighFrameRateReasons:count: 时改写为只提交高帧率理由（1114113），并顺带把最小/最大/理想刷新率顶到 120；②vblDelta 在强制期间返回 1/120；③缓存系统实际使用的 display 实例，CAWindowServer 不可用时直接对其重复提交；④hook 前记录各方法是否原生存在，避免对不存在的方法调 %orig 崩溃。2.2.16 新增：文件夹主题「大文件夹」新增「图标大小」调节（0.5×~2.0×，默认 1.0×）——展开后文件夹内 App 图标按比例缩放（参照 FolderPro 的展开图标缩放机制，通过 SBIconView 图标内容缩放实现），网格布局不变。2.2.17 重构：悬浮药丸纯文字/去边框样式文字反色完全改用 Helium（github.com/AsakuraFuuko/Helium）方案——移除原有 0.05s 高频截图采样 + overrideUserInterfaceStyle 切换（慢且主线程开销大），改为 CABackdropLayer + colorInvert 反色滤镜 + 字形 mask：反色图层由 GPU 实时采样窗口背后内容，字形区域显示背景反色（深背景白字/亮背景黑字），背景变化零延迟跟随、无轮询、无主线程采样开销；「背景反色检测」滑杆随之移除。2.2.18 重构：文件夹「展开尺寸」参考 FolderPro 双参数模型重做——原固定「展开尺寸」滑杆（300–550pt）移除，改为「展开背景宽度」（左右边距，0–100 默认 10，越大文件夹背景越窄，图标水平间距随之变化）+「展开背景高度」（0–100 默认 60，高度 = 宽度 + 该值，越大背景越高，图标垂直间距随之变化）两个滑杆；展开宽度自动铺满屏幕减去左右边距，「按图标数量自适应」保持不受影响。
+Name: MUtool
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
 Architecture: iphoneos-arm64e
 Version: 2.1.18
 Section: Tweaks
@@ -37221,6 +37241,26 @@ SHA1: 4b1a01f497d4e967a483843e02ffd53320163241
 SHA256: 1bfc056544efecef1245df7a9cd1c1840569c982aa6c254936aaf0ab08b727c1
 SHA512: c791c89469268104bdd5a673c717cefa90b6aa6392da08b5712611628d096730717ed2c9c41ea32b33fe609c2e1231a5117f6c2e66663f386635347d836ed45f
 Description: 2.2.48 发布：基于 2.2.43 稳定底版，含 2.2.44 起的诊断日志无锁直写、文件夹图标开关与覆盖生命周期等修复，沿用原有授权机制。多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音（接入提示音、MagSafe 动画、灵动岛电池与电池提醒）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（二级分类：锁屏增强 / 主屏幕增强 / 桌面增强，所有说明统一以 ⓘ 图标点击查看；锁屏：自动进桌面、解锁显示、通知亮屏、锁屏禁用与隐藏、唤醒与锁屏、锁屏充电胶囊、动作反馈；主屏幕：禁用项、隐藏项、小组件多选拖动、底栏设置、动画与后台；桌面：图标下载进度条与阴影、桌面电源菜单）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量 / 天气，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息。2.2.44 修复：诊断日志落盘改无锁 libc 直写（posix open/write），不再在自定义串行队列触碰 Foundation 文件机制——消除音频守护进程（nanoregistryd/audioaggregated）内诊断队列与主线程 CoreAudio 锁的互持死锁，修复 mediaserverd 看门狗超时崩溃（无声音/来电无响应）。2.2.43 修复：尝试修复了堵塞进程问题，以及长按桌面弹出电源菜单与电话助手冲突问题。2.2.42 修复：三合一状态栏完整支持 iOS16 经典 UIStatusBar——补齐经典状态栏的图标隐藏/恢复、周期刷新与三合一定位（仅 iOS16 会使用 UIStatusBar，此前只覆盖 STUIStatusBar/_UIStatusBar）；恢复逻辑只还原插件主动隐藏的图标，系统原本隐藏的视图不会被误还原显示；移除 SF Symbol 长期缓存，系统复用同一视图更换图标也能正确识别；状态栏前景层重建/替换后自动重扫定位。2.2.41 完善：修复历史残留充电状态恢复流程——恢复校验强化、失败保留重试，编译兼容修正。2.2.40 优化：悬浮药丸天气指标图标根据天气实时变化（下雨展示下雨图标、晴天展示晴天图标等），包含中英文条件匹配、多云/阴/雾/雷/雪门类全面约束；修正多云被误判为晴夕的问题。 2.2.39 修复：悬浮药丸「显示内容」补入天气类开关（当天天气 / 今日天气详情 / 两日天气），与「天气来源」配置匹配，各悬浮窗独立勾选。 2.2.38 新增：悬浮药丸新增天气指标（当天天气 / 今日天气详情 / 两日天气），支持三种数据源（系统天气本地缓存 / Open-Meteo 手动经纬度 / 和风天气个人 API），在悬浮药丸设置页新增「天气来源」配置组（总共开关，各悬浮窗独立勾选天气指标），后续刷新由药丸统一调度。2.2.36 修复：悬浮药丸横竖屏跟随不完整。①方向校验上界误用 UIInterfaceOrientationLandscapeRight(3)，把 LandscapeLeft(4) 判为非法值并回退竖屏，导致逆时针（左横）旋转到横屏时不显示横屏悬浮、顺时针正常；现改为以 LandscapeLeft 为上界，同时修正状态栏方向通知里的同一处校验。②承载窗口改为关闭系统自动旋转（setAutorotates），窗口固定竖屏坐标系，内容旋转角只由前台 App 界面方向推导，消除残留的跟随重力旋转动画，并避免设备旋转动画中途取到瞬时角度导致方向错乱。③新增设备方向变化通知作为即时对齐触发源，旋转动画结束后补做一次内容对齐与重定位。2.2.35 修复：悬浮药丸横屏应用时不再错误显示竖屏悬浮——方向源改用 UIApplication 私有 _frontMostAppOrientation（直接返回前台应用界面方向，不依赖 SpringBoard 场景/状态栏方向，后者在 SpringBoard 进程恒报竖屏），并新增 0.4s 主线程方向轮询捕捉前台 App 横竖屏变化（SpringBoard 状态栏方向通知对前台 App 旋转不可靠）；竖屏应用只显示竖屏三悬浮、横屏应用只显示横屏悬浮，均不跟随传感器旋转、无黑影。2.2.34 修复：悬浮药丸旋转黑影与卡死。彻底放弃 Helium 的 scene-less 窗口架构（2.2.33 实测在 SpringBoard 注入进程使 UIKit 无限递归 _unassociatedWindowSceneForScreen 栈溢出进安全模式），回退到 2.2.31 已验证的「窗口挂 scene + 根视图按 App 界面方向－设备方向反向旋转」架构（悬浮球不随重力旋转），并新增旋转过渡期整窗隐藏：状态栏方向变化预告（WillChange）后立即隐藏所有模块窗口——系统旋转快照不完全包含磨砂窗口（消除 UIVisualEffectView 黑块/黑角），DidChange 后延迟 0.35s 恢复显隐（旋转动画结束 bounds 稳定），1.5s 兜底超时防通知丢失；竖屏应用只显示竖屏三悬浮、横屏应用只显示横屏悬浮，均不跟随传感器旋转，且无任何黑影。2.2.33 重构：悬浮药丸完全照搬 Helium 窗口架构——承载窗口改为 scene-less（initWithFrame: 不挂 scene）+ 声明系统窗口（_isSystemWindow，类方法）+ 非 WindowServer 托管（_isWindowServerHostingManaged=NO）：系统不对窗口做旋转快照（消除磨砂黑块）、窗口不参与系统界面旋转（不再跟随重力/设备旋转），并经 SBSAccessibilityWindowHostingController 注册 contextID 显示（Helium 同款）。方向完全由控制器驱动：多级兜底读取前台 App 界面方向（UIApplication _frontMostAppOrientation → statusBarOrientation → 窗口 bounds，全部进程内安全读取，绝不调用 SBSCopyFrontmostApplicationDisplayIdentifier），0.4s 主线程轮询保证稳定；方向变化时把每个模块根视图按 Helium HUDRootViewController updateOrientation: 同款方式手动旋转（orientationBounds 宽高互换 + transform 旋转到对应角度），横屏 App 药丸横向显示、竖屏 App 药丸纵向显示，与系统/重力完全解耦；定位基准回归根视图 rv 坐标系，贴边 clamp 基于旋转后的 rv bounds。2.2.32 修复：悬浮药丸旋转方案重构——不再旋转承载窗口/根视图（整屏旋转会产生黑角），改为只旋转药丸自身内容。窗口随场景旋转后，悬浮球按「App 界面方向 − 窗口实际界面方向」角度差反向旋转（PillView transform，scaleFactor 与 contentRotation 合成同一 transform），始终以 App 界面方向显示，且不会出现整屏旋转黑边；定位坐标系回归窗口（rootViewController.view 与窗口同尺寸同坐标），贴边 clamp 按旋转后的视觉半宽/半高计算（旋转 90° 时宽高互换也能正确贴边）。方向来源改多级兜底（进程内安全读取）：UIApplication _frontMostAppOrientation → statusBarOrientation → 窗口 scene 方向，并新增 0.4s 主线程轮询（_orientationTimer）保证方向稳定跟随前台 App（SpringBoard 状态栏方向通知覆盖不全且不可靠）；绝不再调用 SBSCopyFrontmostApplicationDisplayIdentifier（SpringBoard 进程内任何线程调用都会 XPC 自连 SpringBoardServices 死锁，1.9.100/1.9.101 曾卡死、1.9.102/2.2.15 已移除）。2.2.31 修复：2.2.30 安装后悬浮窗全部消失（开关全开、横竖屏都不显示）。根因是 2.2.29 重构时误删了 applyInitialPositionWithTargetBounds: 的实现（仅剩声明与调用）：运行期调用抛 doesNotRecognizeSelector——这正是 2.2.29 安全模式崩溃的真实原因；2.2.30 把方向链几何操作收进 reloadPrefs 的 @try 后，异常被 @catch 吞掉并触发 _teardownPill 拆掉全部窗口，于是药丸消失。现补回该方法实现，并在 window 布局回调里「内容层旋转完成后立即按新 rv bounds 重算锚点重新定位」，修复旋转后药丸落到屏幕外的问题。2.2.30 紧急修复：2.2.29 安装后进安全模式——崩溃在系统 setStatusBarOrientation 方向通知的同步回调链里（MUtool.dylib doesNotRecognizeSelector / _copyDescription）。此前在方向 WillChange/DidChange/reloadPrefs 同步执行悬浮球内容旋转（rootViewController.view 的 bounds/transform 几何操作），UIKit 正在执行旋转动画时访问中间态对象触发异常；现收敛为「方向通知只更新方向标记与模块显隐，几何旋转统一由 window 的 viewDidLayoutSubviews 布局回调（pillModuleDidLayout:）在 UIKit 布局完成后执行」，方向通知同步链内零几何操作，崩溃消除。2.2.29 修复：悬浮药丸彻底不随重力传感器旋转——悬浮窗挂 scene 后窗口会随设备方向自动旋转，此前只做方向通知显隐切换、未对悬浮球内容做反向旋转，导致竖屏 App 下手机横放时悬浮球仍跟着传感器转。现恢复已验证的「内容反向旋转对齐前台 App 界面方向」机制：每个模块的悬浮球内容层按「App 界面方向(状态栏方向)−设备方向」角度差反向旋转（rootViewController.view transform），窗口随设备转但悬浮球始终以 App 方向显示——竖屏 App 只显示竖屏三悬浮、横屏 App 只显示横屏悬浮，且都不随重力旋转；定位坐标系同步改为 rv(内容层)坐标系与旋转一致。2.2.28 修复：悬浮药丸横竖屏判定改回跟随「应用界面方向」——此前 2.2.25-27 采用 Helium 的 FBSOrientationObserver（设备物理方向）会随重力传感器旋转，竖屏应用被误判横屏、旋转后仍显示竖屏三悬浮或错显横屏悬浮；现改回 UIApplicationWillChange/DidChangeStatusBarOrientation 通知（App 界面横竖屏变化才触发，不受重力影响）：竖屏应用只显示竖屏三悬浮、横屏应用只显示横屏悬浮，旋转时按目标方向 bounds 预翻转定位，悬浮不随设备旋转。2.2.27 紧急修复：2.2.26 安装后 SpringBoard 卡 logo 无法进桌面——悬浮药丸横竖屏的 FBSOrientationObserver 在 %ctor 启动早期同步创建并反射调用 XPC（FrontBoard 服务未就绪），阻塞 SpringBoard 启动主线程被看门狗终结；现改为仅在 UIApplicationDidFinishLaunching/DidBecomeActive（SpringBoard 就绪后主线程）安装观察器，并去掉 Helium 不使用的同步 activeInterfaceOrientation 查询（只保留 setHandler 事件驱动），启动路径零同步 XPC。2.2.26 修复：①第三方（微信等）VoIP 录音平台名补全增强——CallHistory 里 provider 在部分 iOS 版本是关联表外键（数字 Z_PK）或全新列名，此前读不到导致渠道仍显示「VoIP」；现新增关联表解析（枚举含 PROVIDER/SERVICE 的表回查文本）、动态列名兜底（遍历行内含 provider/service 的列）、bundle id 大小写不敏感映射（com.Tencent.Xin 等同匹配「微信」）；②录音文件名与播放列表同步——补全拿到渠道/姓名后，把「VoIP接听-未知号码-时间」类占位文件名自动重命名为「微信接听-姜曼曼-时间」，并同步更新 recordings.json 的 m4a 字段，文件名与列表第一行一致；③悬浮药丸横竖屏识别完全改为 Helium（AsakuraFuuko/Helium）方案——用 FBSOrientationObserver 监听 FrontBoard 方向事件驱动维护 _orientation，isLandscape 优先取方向、未知回退 bounds 宽高比，彻底移除旧 UIApplication 状态栏方向通知、过渡 token 与 1.5s 兜底定时器。2.2.25 修复：三合一状态栏改为实时刷新——此前电量与原图标只随系统状态栏 layoutSubviews 更新，SpringBoard 不重排时电量显示慢一拍，部分界面切换后原生图标露出、需划掉后台重新切换才恢复三合一；现新增 0.52s 主线程周期刷新，扫描窗口树内所有 STUIStatusBar/_UIStatusBar 强制执行完整布局（电量采集 + 原生图标隐藏 + 三合一定位刷新），电量始终随系统当前值对齐、任何界面进入即正确显示三合一。2.2.24 稳定性修复：录音列表的通话记录补全改为「后台只读计算 + 主线程落盘」两步——数据库查询移到后台队列，主线程零 SQLite/文件阻塞，且不再在后台线程改写录音条目对象（消除并发读写），并移除 CallHistory.framework CHManager 兜底（同步跨进程调用在高负载下可能长时间阻塞），电话 App 主线程流程不再有任何可能触发系统看门狗的操作。2.2.23 修复：①VoIP 自动录音门控——此前「其他应用通话录音」独立触发录音并绕过「通话自动录音」总开关，用户关闭自动录音仍会自动录制（微信等 App 来电就录）；现 VoIP 两条自动触发路径（CXCallObserver 与音频 hint 兜底）与蜂窝一致，均受「通话自动录音」总开关门控，关闭总开关后仅悬浮按钮手动触发才会录音；②第三方录音平台名补全增强——录音列表加载时继续用系统通话记录（CallHistory）回填渠道/对方名称/号码，新增更多 provider 字段候选并扩充 CallHistory.framework CHManager 的 provider 取值，匹配到记录时会记录原始 provider/name/address 到 voip_diag.log（[ch] matched 行），便于定位「仍显示 VoIP」的机型差异。2.2.22 修复第三方 App（微信等）VoIP 录音的平台与对方信息：iOS 17 上 CXCall 私有键全部取不到值，录音仍显示「VoIP·未知号码」；现改为在电话 App 录音列表加载时读取系统通话记录（CallHistory.storedata，与「最近通话」同源）按通话时间匹配，回填平台（如「微信音频」）、对方名称（如「姜曼曼」）与用户 ID（wxid），并写回 recordings.json 补全存量记录；数据库不可用时回退 CallHistory.framework 的 CHManager，仍失败则保持原显示并记录 voip_diag.log。2.2.21 优化：三合一状态栏电量同步系统状态栏数据源——此前电量读 IOPS（IOPSCopyPowerSourcesInfo）的 current/max capacity 比值自行取整，与系统状态栏电池图标（STStatusBarData.mainBatteryEntry.capacity，系统已按 0-100 取整）存在数值差，用户常反馈「三合一电量和系统不一样」；现改为在状态栏布局刷新时直接读取系统电池 entry 的 capacity（0-100 取整值）作为电量来源，与系统状态栏图标完全一致，IOPS 仅作数据源缺失时的兜底，充电判定仍走 IOPS（AC/isCharging，稳定可靠）。2.2.20 新增：设置页「充电相关 → 充电功能」新增「修复充电状态」按钮——一键执行 daemon --restore，清理历史版本（2.2.01 之前 Battman 充电控制）写入的 SMC 充电键（CH0C/CH0I/CH0B/CH0J/CH0K）与 IORegistry 停充残留（IsCharging/ExternalConnected/PredictiveChargingInhibit）及 topoffprotection 残留，恢复系统默认充电行为；用于解决「时充时不充」（历史残留停充键导致 iOS 间歇性不充电）的问题，修复请求经偏好键投递由 SpringBoard 后台执行、执行完自动清除。另：2.2.19 的全局总开关因安装后严重卡顿已整体回滚撤销，本版不含总开关功能。2.2.01 彻底移除充电限制/充电控制功能（阻止充电、阻止电源、限充阈值、智能充电计划、温度停充、满血充电、充电诊断日志），充电行为完全回归系统默认；升级/卸载自动清理历史版本写入的 SMC/IORegistry 充电残留与守护进程。2.2.02 修复 VoIP 通话录音：①修复 VoIP 录音已录到但通话录音列表不显示的问题（无号码录音不再被索引过滤）；②修复 VoIP 录音命名错误——从 CallKit 通话记录获取真正发起通话的 App（例如在闲鱼界面接听微信通话时正确命名「微信」而非前台「闲鱼」），并记录通话对方标识；③录音记录改为单一索引文件（recordings.json）追加写入，不再每次通话生成一个新 .json 文件。2.2.03 修复与增强：①修复 VoIP 录音导致 SpringBoard 桌面进程崩溃（微信 VoIP 通话回调在 SpringBoard 主线程同步加载 MobileCoreServices 卡死主线程触发 watchdog 超时，改为纯内存静态映射）；②电话 App 录音列表改用固定行高手写布局（滚动更流畅）+ 底部安全区域适配；③录音列表改为按最新在前平铺展示、不再按联系人分组，并调整为三行格式（渠道·联系人 / 方向·号码或用户 ID / 日期 时间·通话时长·文件大小），VoIP 记录新增通信渠道字段（微信/FaceTime 等），来电登记对方姓名与 wxid 用户 ID。2.2.04 彻底修复：①SpringBoard 崩溃根治——2.2.02/2.2.03 的 VoIP CXCallObserver delegate 设为主队列，微信来电时 callUpdated 在 SpringBoard 主线程解析 CXCall 私有字段（KVC bundleIdentifier/remoteHandle/displayName 等）长时间占用主线程触发 watchdog 60s 超时崩溃；现将 delegate 队列改为后台串行队列，CXCall 解析全部在后台完成，仅把门控与录音/UI 操作提交回主线程，主线程零负担；②修复电话 App 录音列表最后两条被底部 Tab 栏遮挡——child VC 铺满挂载时安全区不含 tabBar 高度，改为沿视图层级找到 UITabBar 并动态将表格底部 contentInset 加上 Tab 栏高度，最后记录可完整滚动到 Tab 上方。2.2.05 修复：电话 App 录音列表仍无法滑到最底端、最后几条被底部 Tab 栏挡住——2.2.04 沿 superview 查找 UITabBar 失败（Tab 栏是 UITabBarController 视图里的兄弟浮层，并非本视图祖先），从未真正加上 inset；改为通过 tabBarController（含父链兜底）定位 Tab 栏，并按表视图与 Tab 栏在表视图坐标系中的实际几何重叠量设置底部 contentInset，最后一个 cell 可完整滚动到 Tab 栏上方。2.2.06 修复：电话 App 录音列表页滚动到底部时底部 Tab 栏变透明、内容透出——iOS 15+ 在列表滚到相邻边缘时启用透明的 scrollEdge 外观；现将录音列表页显示期间的 Tab 栏 scrollEdge 外观改为不透明（沿用原图标/文字配色），离开页面时恢复，使录音列表底栏与其他页面一致。2.2.07 修复与优化：①电话 App 录音列表页底部 Tab 栏由不透明改为系统标准高斯模糊（毛玻璃）效果，与其它页面底栏观感一致；②录音列表拿不到用户名（无姓名，或姓名只是号码/wxid 本身）时，第一行用户名槽显示「未知号码」，不再空白或只显示渠道；③个人收藏页被录音列表替换后，隐藏原收藏页左上角「+」按钮，退出替换时恢复。2.2.08 修复：个人收藏页被录音列表替换后，导航栏「编辑/添加」按钮（及语音留言页「+」）仍残留——原实现只在首次挂载时隐藏一次，被替换 VC 后续 viewWillAppear/viewDidAppear 会重新补上系统按钮；现改为每次出现都重复隐藏（已挂载分支也收敛），并新增 viewDidAppear 兜底 hook，按钮不再残留；开关关闭退出替换时恢复原按钮。另确认 2.2.01 起插件已彻底移除充电限制/充电控制代码（daemon 仅承载定时唤醒调度，SMC 充电键仅在卸载清理 --restore 时恢复默认），不会再阻止充电。2.2.09 修复：微信 VoIP 来电接通后灵动岛通话弹窗卡死、无法挂断，对方挂断后弹窗仍不消失、桌面被看门狗结束——2.2.02 起为修正命名改用 CXCall 私有键（valueForKey bundleIdentifier/remoteHandle/displayName）获取通讯 App 与对方标识，该私有键访问在微信来电时触发系统误判主线程无响应；现取消该获取方式，完全回归「电话 App 获取方式」：CXCall 只读公开属性，通讯 App 名统一经前台 App 名（_MUCFrontmostAppName）在主线程获取，与 2.2.01 之前一致，通话不再卡死。2.2.14 修复：微信 VoIP 来电在主屏幕接听瞬间 SpringBoard 主线程被看门狗终结（60s 无响应）——定位到前台 App 名查询 _MUCFrontmostAppName() 在 SpringBoard 主线程做同步跨进程调用（_accessibilityFrontMostApplication 走 Accessibility daemon RPC、SBSCopyFrontmostApplicationDisplayIdentifier 走 backboardd mach），接听瞬间系统正做通话 UI 过渡极易长时间阻塞/死锁主线程；现将前台 App 名改为独立后台线程每 1s 轮询一次并缓存，主线程只读缓存字符串，命名路径上不再有任何主线程同步 IPC；同时恢复诊断日志落盘（CallRecordings/voip_diag.log，异步追加，主线程只投递一行），并埋点 handleCall/音频 hint/startRec 全链路，若异常可凭日志精确定位。2.2.15 修复：进一步落实 1.9.102 已验证的教训——SBSCopyFrontmostApplicationDisplayIdentifier 在 SpringBoard 进程内任何线程调用都会 XPC 自连 SpringBoardServices 死锁，现从 SpringBoard 代码中彻底移除该私有 API 调用（不再有任何线程调用它）；前台 App 名仅保留后台线程的 accessibility 显示名查询，主线程只读缓存，命名与稳定性两者兼顾。2.2.16 修复与调整：①第三方 App（微信等）VoIP 录音恢复获取对方名称/号码、渠道不再只显示 VoIP——参照电话 App 通话记录的获取原理（CallKit 同一数据源），CXCallObserver delegate 队列改回后台串行队列，在后台解析 CXCall 私有 KVC（bundleIdentifier 静态表→微信/WhatsApp 等渠道名、remoteHandle→对方号码或 wxid、displayName/localizedName→对方姓名），姓名缺失时后台按号码反查通讯录；前台 App 名缓存兜底，主线程零同步 IPC（延续 2.2.15 彻底移除 SBSCopy，杜绝看门狗）；②电话 App 录音列表与设置内录音列表格式调回两行：第一行「渠道·联系人名称·联系人号码」，第二行「呼出/接听·日期 时间 · 录音时长 ·录音大小」，行高收紧。2.2.17 修复：2.2.16 的 CXCall 私有键名在 iOS 17 取不到值（bundleIdentifier/remoteHandle/displayName 全部 nil，录音仍显示 VoIP·未知号码）；现将 CXCall KVC 改为多键候选逐键探测（bundleIdentifier/providerBundleIdentifier/providerIdentifier/applicationIdentifier/sourceIdentifier；remoteHandleValue/handleValue/address/remoteHandle/handle；displayName/localizedName/callerName/remoteName/callerDisplayName），并把每个键的命中/缺失结果写进 voip_diag.log，日志可直接判定可用键名；handleCall 诊断行增加通话 UUID 便于对账。2.2.18 调整：录音列表取不到联系人名称时，第一行不再显示「未知号码」，改为直接显示「渠道·号码」（如「微信·138 1234 5678」）；有名称则仍为「渠道·名称·号码」，两者均无则只显示渠道。2.2.03 修复：桌面悬浮药丸透明/去边框样式按背景反色的文字颜色，由「截图采样背景亮度（默认 0.5s 刷新，总比系统状态栏反转慢半拍）」改为「跟随系统状态栏前景色」——系统状态栏 setForegroundColor 变化时立即同步反色（事件驱动、零延迟），截图采样降级为兜底。2.2.04 修复：2.2.03 跟随系统状态栏反色在某些机型/场景导致药丸「直接不变色」——系统信号读取不可靠时 luma 被永久锁死、截图采样兜底被短路；现系统信号改为带 0.35s 时效（过期自动回退截图采样，绝不锁死），并新增 iOS17 STUIStatusBar setStyle: 这一可靠反转入口直接推送状态栏风格枚举（白字/黑字），多入口互补。2.2.05 修复：随反色出现「变色后又恢复、过一会才再变色」的抖动——系统信号 0.35s 时效过期后被截图采样拉回旧色；现系统状态栏信号一旦收到即持续有效（setStyle/setForegroundColor 为系统权威反转入口，不再过期），截图采样仅在从未收到系统信号时兜底，反色稳定跟随系统状态栏、零抖动。另修正与现有 STUIStatusBar setStyle hook 的编译冲突。2.2.06 修复：切浅色背景时药丸刚反转为黑字又立刻被拉回白字——iOS17 上旧的 _UIStatusBar setForegroundColor / UIStatusBar layoutSubviews 转发也会触发，且其 foregroundColor 可能恒白（非主状态栏文字色），覆盖了 STUIStatusBar setStyle: 的正确反转信号；现两处低优先级转发仅在无 STUIStatusBar（iOS15/16 非灵动岛）时启用，iOS17 只信任 setStyle: 权威入口，反色不再被覆盖回跳。2.2.07 重构：跟随系统状态栏信号的方案在灵动岛机型上不可靠（主屏状态栏文字可能不随壁纸反色，导致悬浮药丸恒白/反转错乱）；现回归「按药丸自身背景亮度反色」——把背景亮度采样频率从默认 0.5s 提升到独立 0.1s 高频轮询（仅透明/去边框样式启用），浅背景黑字/深背景白字的直觉正确性恢复，且响应接近即时，不再慢半拍；移除 STUIStatusBar setStyle / _UIStatusBar setForegroundColor / UIStatusBar 的三处状态栏信号转发。2.2.08 提速：反色仍比状态栏慢一点（0.1s 轮询固有延迟）；现把背景亮度采样间隔从 0.1s 收紧到 0.05s（20fps），并让截图只渲染药丸所在区域（不再渲染整个窗口 bounds，降低高频采样开销），反转响应接近即时。2.2.09 修复充电受影响：安装/升级 MUtool 时 postinst 会执行 --restore 清理工具，它每次都会写 IORegistry（IsCharging/ExternalConnected/PredictiveChargingInhibit）并触碰 SMC 充电键、强杀正在运行的 daemon，干扰系统充电状态；现升级路径不再执行 --restore（仅停止残留 daemon + 删除残留文件，不写入任何充电状态），SMC/IORegistry 历史残留清理仅在卸载时由 prerm 执行；排查确认 daemon 正常运行/worker/温控均不写充电键。2.2.10 新增与调整：①文件夹主题新增「网格大小」3×3 / 4×4 / 5×5 / 6×6 可选（大文件夹开启时生效，6×6 最多 36 个图标，图标按网格自动缩放）；②「充电提示音」菜单更名为「充电相关」；③「录制增强」菜单更名为「拨号｜录制」。2.2.11 调整：文件夹「展开尺寸」下限由 500pt 放宽到 300pt（上限仍为 550pt，默认 525pt），可把大文件夹收得更小。2.2.11 新增：文件夹「按图标数量自适应」——开启后展开高度完全随图标数量自适应（图标越少越矮），不再受「展开尺寸」影响，各网格行距恒定一致（3×3 不再被撑大），范围 250–550pt；另将大文件夹图标上限恢复为固定 30，规避 5×5/6×6 在文件夹缩回瞬间的崩溃。2.2.12 重构：大文件夹 4×4/5×5/6×6 改用 FolderPro 方案——移除图标网格的 transform 缩放（该方案在 5×5/6×6 缩回瞬间导致 SpringBoard 崩溃进安全模式），改为 SBIconView 图标内容按网格 cell 自适应缩放，图标上限仅在系统默认 9 时按网格返回 16/25/36；文件夹浮层改为对称边距 + 垂直居中。2.2.13 修复「锁定 120Hz」实际最高只有 80Hz：①MUtoolRefresh 注入 backboardd，并通过 CAWindowServerDisplay 的 setHighFrameRateReasons:count: 提交高帧率理由——此前只在 SpringBoard 请求高刷，请求被渲染服务器拒绝后回落 80Hz；②强制期间 hardwareRefreshRate 报告为 120；③执行期间每 3s 重提高帧率理由，防止 display 重配后失效；④恢复 refresh_diag.log 落盘（CallRecordings/refresh_diag.log），用于验证各类私有方法是否命中。2.2.14 继续修复 120Hz（2.2.13 日志显示 applySystemRefreshRate 在遍历 display 前就提前返回）：①CAWindowServer 实例获取增加 +server 兜底（iOS 17 上 serverIfRunning 可能返回 nil），并对 class 缺失/实例 nil/displays 为空分别记录日志；②渲染服务器提交逻辑在 SpringBoard 与 backboardd 两个进程都执行（display 可能只存在于 backboardd）；③首次执行记录 display 类名及 setHighFrameRateReasons:count:/各刷新率 setter 的命中情况，便于一次定位。2.2.15 修复 120Hz 卡在 80Hz 的根因（backboardd 中 +[CAWindowServer server] 返回 nil，拿不到 display 实例）：改为 hook CAWindowServerDisplay 自身——①系统调用 setHighFrameRateReasons:count: 时改写为只提交高帧率理由（1114113），并顺带把最小/最大/理想刷新率顶到 120；②vblDelta 在强制期间返回 1/120；③缓存系统实际使用的 display 实例，CAWindowServer 不可用时直接对其重复提交；④hook 前记录各方法是否原生存在，避免对不存在的方法调 %orig 崩溃。2.2.16 新增：文件夹主题「大文件夹」新增「图标大小」调节（0.5×~2.0×，默认 1.0×）——展开后文件夹内 App 图标按比例缩放（参照 FolderPro 的展开图标缩放机制，通过 SBIconView 图标内容缩放实现），网格布局不变。2.2.17 重构：悬浮药丸纯文字/去边框样式文字反色完全改用 Helium（github.com/AsakuraFuuko/Helium）方案——移除原有 0.05s 高频截图采样 + overrideUserInterfaceStyle 切换（慢且主线程开销大），改为 CABackdropLayer + colorInvert 反色滤镜 + 字形 mask：反色图层由 GPU 实时采样窗口背后内容，字形区域显示背景反色（深背景白字/亮背景黑字），背景变化零延迟跟随、无轮询、无主线程采样开销；「背景反色检测」滑杆随之移除。2.2.18 重构：文件夹「展开尺寸」参考 FolderPro 双参数模型重做——原固定「展开尺寸」滑杆（300–550pt）移除，改为「展开背景宽度」（左右边距，0–100 默认 10，越大文件夹背景越窄，图标水平间距随之变化）+「展开背景高度」（0–100 默认 60，高度 = 宽度 + 该值，越大背景越高，图标垂直间距随之变化）两个滑杆；展开宽度自动铺满屏幕减去左右边距，「按图标数量自适应」保持不受影响。
+Name: MUtool
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64e
+Version: 2.2.50
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 5112
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64e/com.muzi.mutool_2.2.50_iphoneos-arm64e_bcc597f150b3e7ed05c1b517c5de2e9fef97ccaae39a416665d60b712733d0d8.deb
+Size: 840148
+MD5sum: 09377f594e085b1152ab1ec42ff7b0d2
+SHA1: d64eb12299e5f54f843cb1323efb086b2a008f7d
+SHA256: bcc597f150b3e7ed05c1b517c5de2e9fef97ccaae39a416665d60b712733d0d8
+SHA512: 69c6596f5515b0e1aed80f3ba9752635e62d65d123b4889740bcc963f6afb7bf0727e7699d5c4d62861041a9eee0b0f0bd554ee7b8866bf67249ae8288cd2a42
+Description: 2.2.50 测试版本：优化温控相关代码。多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音（接入提示音、MagSafe 动画、灵动岛电池与电池提醒）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（二级分类：锁屏增强 / 主屏幕增强 / 桌面增强，所有说明统一以 ⓘ 图标点击查看；锁屏：自动进桌面、解锁显示、通知亮屏、锁屏禁用与隐藏、唤醒与锁屏、锁屏充电胶囊、动作反馈；主屏幕：禁用项、隐藏项、小组件多选拖动、底栏设置、动画与后台；桌面：图标下载进度条与阴影、桌面电源菜单）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量 / 天气，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息。2.2.44 修复：诊断日志落盘改无锁 libc 直写（posix open/write），不再在自定义串行队列触碰 Foundation 文件机制——消除音频守护进程（nanoregistryd/audioaggregated）内诊断队列与主线程 CoreAudio 锁的互持死锁，修复 mediaserverd 看门狗超时崩溃（无声音/来电无响应）。2.2.43 修复：尝试修复了堵塞进程问题，以及长按桌面弹出电源菜单与电话助手冲突问题。2.2.42 修复：三合一状态栏完整支持 iOS16 经典 UIStatusBar——补齐经典状态栏的图标隐藏/恢复、周期刷新与三合一定位（仅 iOS16 会使用 UIStatusBar，此前只覆盖 STUIStatusBar/_UIStatusBar）；恢复逻辑只还原插件主动隐藏的图标，系统原本隐藏的视图不会被误还原显示；移除 SF Symbol 长期缓存，系统复用同一视图更换图标也能正确识别；状态栏前景层重建/替换后自动重扫定位。2.2.41 完善：修复历史残留充电状态恢复流程——恢复校验强化、失败保留重试，编译兼容修正。2.2.40 优化：悬浮药丸天气指标图标根据天气实时变化（下雨展示下雨图标、晴天展示晴天图标等），包含中英文条件匹配、多云/阴/雾/雷/雪门类全面约束；修正多云被误判为晴夕的问题。 2.2.39 修复：悬浮药丸「显示内容」补入天气类开关（当天天气 / 今日天气详情 / 两日天气），与「天气来源」配置匹配，各悬浮窗独立勾选。 2.2.38 新增：悬浮药丸新增天气指标（当天天气 / 今日天气详情 / 两日天气），支持三种数据源（系统天气本地缓存 / Open-Meteo 手动经纬度 / 和风天气个人 API），在悬浮药丸设置页新增「天气来源」配置组（总共开关，各悬浮窗独立勾选天气指标），后续刷新由药丸统一调度。2.2.36 修复：悬浮药丸横竖屏跟随不完整。①方向校验上界误用 UIInterfaceOrientationLandscapeRight(3)，把 LandscapeLeft(4) 判为非法值并回退竖屏，导致逆时针（左横）旋转到横屏时不显示横屏悬浮、顺时针正常；现改为以 LandscapeLeft 为上界，同时修正状态栏方向通知里的同一处校验。②承载窗口改为关闭系统自动旋转（setAutorotates），窗口固定竖屏坐标系，内容旋转角只由前台 App 界面方向推导，消除残留的跟随重力旋转动画，并避免设备旋转动画中途取到瞬时角度导致方向错乱。③新增设备方向变化通知作为即时对齐触发源，旋转动画结束后补做一次内容对齐与重定位。2.2.35 修复：悬浮药丸横屏应用时不再错误显示竖屏悬浮——方向源改用 UIApplication 私有 _frontMostAppOrientation（直接返回前台应用界面方向，不依赖 SpringBoard 场景/状态栏方向，后者在 SpringBoard 进程恒报竖屏），并新增 0.4s 主线程方向轮询捕捉前台 App 横竖屏变化（SpringBoard 状态栏方向通知对前台 App 旋转不可靠）；竖屏应用只显示竖屏三悬浮、横屏应用只显示横屏悬浮，均不跟随传感器旋转、无黑影。2.2.34 修复：悬浮药丸旋转黑影与卡死。彻底放弃 Helium 的 scene-less 窗口架构（2.2.33 实测在 SpringBoard 注入进程使 UIKit 无限递归 _unassociatedWindowSceneForScreen 栈溢出进安全模式），回退到 2.2.31 已验证的「窗口挂 scene + 根视图按 App 界面方向－设备方向反向旋转」架构（悬浮球不随重力旋转），并新增旋转过渡期整窗隐藏：状态栏方向变化预告（WillChange）后立即隐藏所有模块窗口——系统旋转快照不完全包含磨砂窗口（消除 UIVisualEffectView 黑块/黑角），DidChange 后延迟 0.35s 恢复显隐（旋转动画结束 bounds 稳定），1.5s 兜底超时防通知丢失；竖屏应用只显示竖屏三悬浮、横屏应用只显示横屏悬浮，均不跟随传感器旋转，且无任何黑影。2.2.33 重构：悬浮药丸完全照搬 Helium 窗口架构——承载窗口改为 scene-less（initWithFrame: 不挂 scene）+ 声明系统窗口（_isSystemWindow，类方法）+ 非 WindowServer 托管（_isWindowServerHostingManaged=NO）：系统不对窗口做旋转快照（消除磨砂黑块）、窗口不参与系统界面旋转（不再跟随重力/设备旋转），并经 SBSAccessibilityWindowHostingController 注册 contextID 显示（Helium 同款）。方向完全由控制器驱动：多级兜底读取前台 App 界面方向（UIApplication _frontMostAppOrientation → statusBarOrientation → 窗口 bounds，全部进程内安全读取，绝不调用 SBSCopyFrontmostApplicationDisplayIdentifier），0.4s 主线程轮询保证稳定；方向变化时把每个模块根视图按 Helium HUDRootViewController updateOrientation: 同款方式手动旋转（orientationBounds 宽高互换 + transform 旋转到对应角度），横屏 App 药丸横向显示、竖屏 App 药丸纵向显示，与系统/重力完全解耦；定位基准回归根视图 rv 坐标系，贴边 clamp 基于旋转后的 rv bounds。2.2.32 修复：悬浮药丸旋转方案重构——不再旋转承载窗口/根视图（整屏旋转会产生黑角），改为只旋转药丸自身内容。窗口随场景旋转后，悬浮球按「App 界面方向 − 窗口实际界面方向」角度差反向旋转（PillView transform，scaleFactor 与 contentRotation 合成同一 transform），始终以 App 界面方向显示，且不会出现整屏旋转黑边；定位坐标系回归窗口（rootViewController.view 与窗口同尺寸同坐标），贴边 clamp 按旋转后的视觉半宽/半高计算（旋转 90° 时宽高互换也能正确贴边）。方向来源改多级兜底（进程内安全读取）：UIApplication _frontMostAppOrientation → statusBarOrientation → 窗口 scene 方向，并新增 0.4s 主线程轮询（_orientationTimer）保证方向稳定跟随前台 App（SpringBoard 状态栏方向通知覆盖不全且不可靠）；绝不再调用 SBSCopyFrontmostApplicationDisplayIdentifier（SpringBoard 进程内任何线程调用都会 XPC 自连 SpringBoardServices 死锁，1.9.100/1.9.101 曾卡死、1.9.102/2.2.15 已移除）。2.2.31 修复：2.2.30 安装后悬浮窗全部消失（开关全开、横竖屏都不显示）。根因是 2.2.29 重构时误删了 applyInitialPositionWithTargetBounds: 的实现（仅剩声明与调用）：运行期调用抛 doesNotRecognizeSelector——这正是 2.2.29 安全模式崩溃的真实原因；2.2.30 把方向链几何操作收进 reloadPrefs 的 @try 后，异常被 @catch 吞掉并触发 _teardownPill 拆掉全部窗口，于是药丸消失。现补回该方法实现，并在 window 布局回调里「内容层旋转完成后立即按新 rv bounds 重算锚点重新定位」，修复旋转后药丸落到屏幕外的问题。2.2.30 紧急修复：2.2.29 安装后进安全模式——崩溃在系统 setStatusBarOrientation 方向通知的同步回调链里（MUtool.dylib doesNotRecognizeSelector / _copyDescription）。此前在方向 WillChange/DidChange/reloadPrefs 同步执行悬浮球内容旋转（rootViewController.view 的 bounds/transform 几何操作），UIKit 正在执行旋转动画时访问中间态对象触发异常；现收敛为「方向通知只更新方向标记与模块显隐，几何旋转统一由 window 的 viewDidLayoutSubviews 布局回调（pillModuleDidLayout:）在 UIKit 布局完成后执行」，方向通知同步链内零几何操作，崩溃消除。2.2.29 修复：悬浮药丸彻底不随重力传感器旋转——悬浮窗挂 scene 后窗口会随设备方向自动旋转，此前只做方向通知显隐切换、未对悬浮球内容做反向旋转，导致竖屏 App 下手机横放时悬浮球仍跟着传感器转。现恢复已验证的「内容反向旋转对齐前台 App 界面方向」机制：每个模块的悬浮球内容层按「App 界面方向(状态栏方向)−设备方向」角度差反向旋转（rootViewController.view transform），窗口随设备转但悬浮球始终以 App 方向显示——竖屏 App 只显示竖屏三悬浮、横屏 App 只显示横屏悬浮，且都不随重力旋转；定位坐标系同步改为 rv(内容层)坐标系与旋转一致。2.2.28 修复：悬浮药丸横竖屏判定改回跟随「应用界面方向」——此前 2.2.25-27 采用 Helium 的 FBSOrientationObserver（设备物理方向）会随重力传感器旋转，竖屏应用被误判横屏、旋转后仍显示竖屏三悬浮或错显横屏悬浮；现改回 UIApplicationWillChange/DidChangeStatusBarOrientation 通知（App 界面横竖屏变化才触发，不受重力影响）：竖屏应用只显示竖屏三悬浮、横屏应用只显示横屏悬浮，旋转时按目标方向 bounds 预翻转定位，悬浮不随设备旋转。2.2.27 紧急修复：2.2.26 安装后 SpringBoard 卡 logo 无法进桌面——悬浮药丸横竖屏的 FBSOrientationObserver 在 %ctor 启动早期同步创建并反射调用 XPC（FrontBoard 服务未就绪），阻塞 SpringBoard 启动主线程被看门狗终结；现改为仅在 UIApplicationDidFinishLaunching/DidBecomeActive（SpringBoard 就绪后主线程）安装观察器，并去掉 Helium 不使用的同步 activeInterfaceOrientation 查询（只保留 setHandler 事件驱动），启动路径零同步 XPC。2.2.26 修复：①第三方（微信等）VoIP 录音平台名补全增强——CallHistory 里 provider 在部分 iOS 版本是关联表外键（数字 Z_PK）或全新列名，此前读不到导致渠道仍显示「VoIP」；现新增关联表解析（枚举含 PROVIDER/SERVICE 的表回查文本）、动态列名兜底（遍历行内含 provider/service 的列）、bundle id 大小写不敏感映射（com.Tencent.Xin 等同匹配「微信」）；②录音文件名与播放列表同步——补全拿到渠道/姓名后，把「VoIP接听-未知号码-时间」类占位文件名自动重命名为「微信接听-姜曼曼-时间」，并同步更新 recordings.json 的 m4a 字段，文件名与列表第一行一致；③悬浮药丸横竖屏识别完全改为 Helium（AsakuraFuuko/Helium）方案——用 FBSOrientationObserver 监听 FrontBoard 方向事件驱动维护 _orientation，isLandscape 优先取方向、未知回退 bounds 宽高比，彻底移除旧 UIApplication 状态栏方向通知、过渡 token 与 1.5s 兜底定时器。2.2.25 修复：三合一状态栏改为实时刷新——此前电量与原图标只随系统状态栏 layoutSubviews 更新，SpringBoard 不重排时电量显示慢一拍，部分界面切换后原生图标露出、需划掉后台重新切换才恢复三合一；现新增 0.52s 主线程周期刷新，扫描窗口树内所有 STUIStatusBar/_UIStatusBar 强制执行完整布局（电量采集 + 原生图标隐藏 + 三合一定位刷新），电量始终随系统当前值对齐、任何界面进入即正确显示三合一。2.2.24 稳定性修复：录音列表的通话记录补全改为「后台只读计算 + 主线程落盘」两步——数据库查询移到后台队列，主线程零 SQLite/文件阻塞，且不再在后台线程改写录音条目对象（消除并发读写），并移除 CallHistory.framework CHManager 兜底（同步跨进程调用在高负载下可能长时间阻塞），电话 App 主线程流程不再有任何可能触发系统看门狗的操作。2.2.23 修复：①VoIP 自动录音门控——此前「其他应用通话录音」独立触发录音并绕过「通话自动录音」总开关，用户关闭自动录音仍会自动录制（微信等 App 来电就录）；现 VoIP 两条自动触发路径（CXCallObserver 与音频 hint 兜底）与蜂窝一致，均受「通话自动录音」总开关门控，关闭总开关后仅悬浮按钮手动触发才会录音；②第三方录音平台名补全增强——录音列表加载时继续用系统通话记录（CallHistory）回填渠道/对方名称/号码，新增更多 provider 字段候选并扩充 CallHistory.framework CHManager 的 provider 取值，匹配到记录时会记录原始 provider/name/address 到 voip_diag.log（[ch] matched 行），便于定位「仍显示 VoIP」的机型差异。2.2.22 修复第三方 App（微信等）VoIP 录音的平台与对方信息：iOS 17 上 CXCall 私有键全部取不到值，录音仍显示「VoIP·未知号码」；现改为在电话 App 录音列表加载时读取系统通话记录（CallHistory.storedata，与「最近通话」同源）按通话时间匹配，回填平台（如「微信音频」）、对方名称（如「姜曼曼」）与用户 ID（wxid），并写回 recordings.json 补全存量记录；数据库不可用时回退 CallHistory.framework 的 CHManager，仍失败则保持原显示并记录 voip_diag.log。2.2.21 优化：三合一状态栏电量同步系统状态栏数据源——此前电量读 IOPS（IOPSCopyPowerSourcesInfo）的 current/max capacity 比值自行取整，与系统状态栏电池图标（STStatusBarData.mainBatteryEntry.capacity，系统已按 0-100 取整）存在数值差，用户常反馈「三合一电量和系统不一样」；现改为在状态栏布局刷新时直接读取系统电池 entry 的 capacity（0-100 取整值）作为电量来源，与系统状态栏图标完全一致，IOPS 仅作数据源缺失时的兜底，充电判定仍走 IOPS（AC/isCharging，稳定可靠）。2.2.20 新增：设置页「充电相关 → 充电功能」新增「修复充电状态」按钮——一键执行 daemon --restore，清理历史版本（2.2.01 之前 Battman 充电控制）写入的 SMC 充电键（CH0C/CH0I/CH0B/CH0J/CH0K）与 IORegistry 停充残留（IsCharging/ExternalConnected/PredictiveChargingInhibit）及 topoffprotection 残留，恢复系统默认充电行为；用于解决「时充时不充」（历史残留停充键导致 iOS 间歇性不充电）的问题，修复请求经偏好键投递由 SpringBoard 后台执行、执行完自动清除。另：2.2.19 的全局总开关因安装后严重卡顿已整体回滚撤销，本版不含总开关功能。2.2.01 充电行为回归系统默认；升级/卸载自动清理历史残留与守护进程。2.2.02 修复 VoIP 通话录音：①修复 VoIP 录音已录到但通话录音列表不显示的问题（无号码录音不再被索引过滤）；②修复 VoIP 录音命名错误——从 CallKit 通话记录获取真正发起通话的 App（例如在闲鱼界面接听微信通话时正确命名「微信」而非前台「闲鱼」），并记录通话对方标识；③录音记录改为单一索引文件（recordings.json）追加写入，不再每次通话生成一个新 .json 文件。2.2.03 修复与增强：①修复 VoIP 录音导致 SpringBoard 桌面进程崩溃（微信 VoIP 通话回调在 SpringBoard 主线程同步加载 MobileCoreServices 卡死主线程触发 watchdog 超时，改为纯内存静态映射）；②电话 App 录音列表改用固定行高手写布局（滚动更流畅）+ 底部安全区域适配；③录音列表改为按最新在前平铺展示、不再按联系人分组，并调整为三行格式（渠道·联系人 / 方向·号码或用户 ID / 日期 时间·通话时长·文件大小），VoIP 记录新增通信渠道字段（微信/FaceTime 等），来电登记对方姓名与 wxid 用户 ID。2.2.04 彻底修复：①SpringBoard 崩溃根治——2.2.02/2.2.03 的 VoIP CXCallObserver delegate 设为主队列，微信来电时 callUpdated 在 SpringBoard 主线程解析 CXCall 私有字段（KVC bundleIdentifier/remoteHandle/displayName 等）长时间占用主线程触发 watchdog 60s 超时崩溃；现将 delegate 队列改为后台串行队列，CXCall 解析全部在后台完成，仅把门控与录音/UI 操作提交回主线程，主线程零负担；②修复电话 App 录音列表最后两条被底部 Tab 栏遮挡——child VC 铺满挂载时安全区不含 tabBar 高度，改为沿视图层级找到 UITabBar 并动态将表格底部 contentInset 加上 Tab 栏高度，最后记录可完整滚动到 Tab 上方。2.2.05 修复：电话 App 录音列表仍无法滑到最底端、最后几条被底部 Tab 栏挡住——2.2.04 沿 superview 查找 UITabBar 失败（Tab 栏是 UITabBarController 视图里的兄弟浮层，并非本视图祖先），从未真正加上 inset；改为通过 tabBarController（含父链兜底）定位 Tab 栏，并按表视图与 Tab 栏在表视图坐标系中的实际几何重叠量设置底部 contentInset，最后一个 cell 可完整滚动到 Tab 栏上方。2.2.06 修复：电话 App 录音列表页滚动到底部时底部 Tab 栏变透明、内容透出——iOS 15+ 在列表滚到相邻边缘时启用透明的 scrollEdge 外观；现将录音列表页显示期间的 Tab 栏 scrollEdge 外观改为不透明（沿用原图标/文字配色），离开页面时恢复，使录音列表底栏与其他页面一致。2.2.07 修复与优化：①电话 App 录音列表页底部 Tab 栏由不透明改为系统标准高斯模糊（毛玻璃）效果，与其它页面底栏观感一致；②录音列表拿不到用户名（无姓名，或姓名只是号码/wxid 本身）时，第一行用户名槽显示「未知号码」，不再空白或只显示渠道；③个人收藏页被录音列表替换后，隐藏原收藏页左上角「+」按钮，退出替换时恢复。2.2.08 修复：个人收藏页被录音列表替换后，导航栏「编辑/添加」按钮（及语音留言页「+」）仍残留——原实现只在首次挂载时隐藏一次，被替换 VC 后续 viewWillAppear/viewDidAppear 会重新补上系统按钮；现改为每次出现都重复隐藏（已挂载分支也收敛），并新增 viewDidAppear 兜底 hook，按钮不再残留；开关关闭退出替换时恢复原按钮。2.2.09 修复：微信 VoIP 来电接通后灵动岛通话弹窗卡死、无法挂断，对方挂断后弹窗仍不消失、桌面被看门狗结束——2.2.02 起为修正命名改用 CXCall 私有键（valueForKey bundleIdentifier/remoteHandle/displayName）获取通讯 App 与对方标识，该私有键访问在微信来电时触发系统误判主线程无响应；现取消该获取方式，完全回归「电话 App 获取方式」：CXCall 只读公开属性，通讯 App 名统一经前台 App 名（_MUCFrontmostAppName）在主线程获取，与 2.2.01 之前一致，通话不再卡死。2.2.14 修复：微信 VoIP 来电在主屏幕接听瞬间 SpringBoard 主线程被看门狗终结（60s 无响应）——定位到前台 App 名查询 _MUCFrontmostAppName() 在 SpringBoard 主线程做同步跨进程调用（_accessibilityFrontMostApplication 走 Accessibility daemon RPC、SBSCopyFrontmostApplicationDisplayIdentifier 走 backboardd mach），接听瞬间系统正做通话 UI 过渡极易长时间阻塞/死锁主线程；现将前台 App 名改为独立后台线程每 1s 轮询一次并缓存，主线程只读缓存字符串，命名路径上不再有任何主线程同步 IPC；同时恢复诊断日志落盘（CallRecordings/voip_diag.log，异步追加，主线程只投递一行），并埋点 handleCall/音频 hint/startRec 全链路，若异常可凭日志精确定位。2.2.15 修复：进一步落实 1.9.102 已验证的教训——SBSCopyFrontmostApplicationDisplayIdentifier 在 SpringBoard 进程内任何线程调用都会 XPC 自连 SpringBoardServices 死锁，现从 SpringBoard 代码中彻底移除该私有 API 调用（不再有任何线程调用它）；前台 App 名仅保留后台线程的 accessibility 显示名查询，主线程只读缓存，命名与稳定性两者兼顾。2.2.16 修复与调整：①第三方 App（微信等）VoIP 录音恢复获取对方名称/号码、渠道不再只显示 VoIP——参照电话 App 通话记录的获取原理（CallKit 同一数据源），CXCallObserver delegate 队列改回后台串行队列，在后台解析 CXCall 私有 KVC（bundleIdentifier 静态表→微信/WhatsApp 等渠道名、remoteHandle→对方号码或 wxid、displayName/localizedName→对方姓名），姓名缺失时后台按号码反查通讯录；前台 App 名缓存兜底，主线程零同步 IPC（延续 2.2.15 彻底移除 SBSCopy，杜绝看门狗）；②电话 App 录音列表与设置内录音列表格式调回两行：第一行「渠道·联系人名称·联系人号码」，第二行「呼出/接听·日期 时间 · 录音时长 ·录音大小」，行高收紧。2.2.17 修复：2.2.16 的 CXCall 私有键名在 iOS 17 取不到值（bundleIdentifier/remoteHandle/displayName 全部 nil，录音仍显示 VoIP·未知号码）；现将 CXCall KVC 改为多键候选逐键探测（bundleIdentifier/providerBundleIdentifier/providerIdentifier/applicationIdentifier/sourceIdentifier；remoteHandleValue/handleValue/address/remoteHandle/handle；displayName/localizedName/callerName/remoteName/callerDisplayName），并把每个键的命中/缺失结果写进 voip_diag.log，日志可直接判定可用键名；handleCall 诊断行增加通话 UUID 便于对账。2.2.18 调整：录音列表取不到联系人名称时，第一行不再显示「未知号码」，改为直接显示「渠道·号码」（如「微信·138 1234 5678」）；有名称则仍为「渠道·名称·号码」，两者均无则只显示渠道。2.2.03 修复：桌面悬浮药丸透明/去边框样式按背景反色的文字颜色，由「截图采样背景亮度（默认 0.5s 刷新，总比系统状态栏反转慢半拍）」改为「跟随系统状态栏前景色」——系统状态栏 setForegroundColor 变化时立即同步反色（事件驱动、零延迟），截图采样降级为兜底。2.2.04 修复：2.2.03 跟随系统状态栏反色在某些机型/场景导致药丸「直接不变色」——系统信号读取不可靠时 luma 被永久锁死、截图采样兜底被短路；现系统信号改为带 0.35s 时效（过期自动回退截图采样，绝不锁死），并新增 iOS17 STUIStatusBar setStyle: 这一可靠反转入口直接推送状态栏风格枚举（白字/黑字），多入口互补。2.2.05 修复：随反色出现「变色后又恢复、过一会才再变色」的抖动——系统信号 0.35s 时效过期后被截图采样拉回旧色；现系统状态栏信号一旦收到即持续有效（setStyle/setForegroundColor 为系统权威反转入口，不再过期），截图采样仅在从未收到系统信号时兜底，反色稳定跟随系统状态栏、零抖动。另修正与现有 STUIStatusBar setStyle hook 的编译冲突。2.2.06 修复：切浅色背景时药丸刚反转为黑字又立刻被拉回白字——iOS17 上旧的 _UIStatusBar setForegroundColor / UIStatusBar layoutSubviews 转发也会触发，且其 foregroundColor 可能恒白（非主状态栏文字色），覆盖了 STUIStatusBar setStyle: 的正确反转信号；现两处低优先级转发仅在无 STUIStatusBar（iOS15/16 非灵动岛）时启用，iOS17 只信任 setStyle: 权威入口，反色不再被覆盖回跳。2.2.07 重构：跟随系统状态栏信号的方案在灵动岛机型上不可靠（主屏状态栏文字可能不随壁纸反色，导致悬浮药丸恒白/反转错乱）；现回归「按药丸自身背景亮度反色」——把背景亮度采样频率从默认 0.5s 提升到独立 0.1s 高频轮询（仅透明/去边框样式启用），浅背景黑字/深背景白字的直觉正确性恢复，且响应接近即时，不再慢半拍；移除 STUIStatusBar setStyle / _UIStatusBar setForegroundColor / UIStatusBar 的三处状态栏信号转发。2.2.08 提速：反色仍比状态栏慢一点（0.1s 轮询固有延迟）；现把背景亮度采样间隔从 0.1s 收紧到 0.05s（20fps），并让截图只渲染药丸所在区域（不再渲染整个窗口 bounds，降低高频采样开销），反转响应接近即时。2.2.09 修复充电受影响：安装/升级 MUtool 时 postinst 会执行 --restore 清理工具，它每次都会写 IORegistry（IsCharging/ExternalConnected/PredictiveChargingInhibit）并触碰 SMC 充电键、强杀正在运行的 daemon，干扰系统充电状态；现升级路径不再执行 --restore（仅停止残留 daemon + 删除残留文件，不写入任何充电状态），SMC/IORegistry 历史残留清理仅在卸载时由 prerm 执行；排查确认 daemon 正常运行/worker/温控均不写充电键。2.2.10 新增与调整：①文件夹主题新增「网格大小」3×3 / 4×4 / 5×5 / 6×6 可选（大文件夹开启时生效，6×6 最多 36 个图标，图标按网格自动缩放）；②「充电提示音」菜单更名为「充电相关」；③「录制增强」菜单更名为「拨号｜录制」。2.2.11 调整：文件夹「展开尺寸」下限由 500pt 放宽到 300pt（上限仍为 550pt，默认 525pt），可把大文件夹收得更小。2.2.11 新增：文件夹「按图标数量自适应」——开启后展开高度完全随图标数量自适应（图标越少越矮），不再受「展开尺寸」影响，各网格行距恒定一致（3×3 不再被撑大），范围 250–550pt；另将大文件夹图标上限恢复为固定 30，规避 5×5/6×6 在文件夹缩回瞬间的崩溃。2.2.12 重构：大文件夹 4×4/5×5/6×6 改用 FolderPro 方案——移除图标网格的 transform 缩放（该方案在 5×5/6×6 缩回瞬间导致 SpringBoard 崩溃进安全模式），改为 SBIconView 图标内容按网格 cell 自适应缩放，图标上限仅在系统默认 9 时按网格返回 16/25/36；文件夹浮层改为对称边距 + 垂直居中。2.2.13 修复「锁定 120Hz」实际最高只有 80Hz：①MUtoolRefresh 注入 backboardd，并通过 CAWindowServerDisplay 的 setHighFrameRateReasons:count: 提交高帧率理由——此前只在 SpringBoard 请求高刷，请求被渲染服务器拒绝后回落 80Hz；②强制期间 hardwareRefreshRate 报告为 120；③执行期间每 3s 重提高帧率理由，防止 display 重配后失效；④恢复 refresh_diag.log 落盘（CallRecordings/refresh_diag.log），用于验证各类私有方法是否命中。2.2.14 继续修复 120Hz（2.2.13 日志显示 applySystemRefreshRate 在遍历 display 前就提前返回）：①CAWindowServer 实例获取增加 +server 兜底（iOS 17 上 serverIfRunning 可能返回 nil），并对 class 缺失/实例 nil/displays 为空分别记录日志；②渲染服务器提交逻辑在 SpringBoard 与 backboardd 两个进程都执行（display 可能只存在于 backboardd）；③首次执行记录 display 类名及 setHighFrameRateReasons:count:/各刷新率 setter 的命中情况，便于一次定位。2.2.15 修复 120Hz 卡在 80Hz 的根因（backboardd 中 +[CAWindowServer server] 返回 nil，拿不到 display 实例）：改为 hook CAWindowServerDisplay 自身——①系统调用 setHighFrameRateReasons:count: 时改写为只提交高帧率理由（1114113），并顺带把最小/最大/理想刷新率顶到 120；②vblDelta 在强制期间返回 1/120；③缓存系统实际使用的 display 实例，CAWindowServer 不可用时直接对其重复提交；④hook 前记录各方法是否原生存在，避免对不存在的方法调 %orig 崩溃。2.2.16 新增：文件夹主题「大文件夹」新增「图标大小」调节（0.5×~2.0×，默认 1.0×）——展开后文件夹内 App 图标按比例缩放（参照 FolderPro 的展开图标缩放机制，通过 SBIconView 图标内容缩放实现），网格布局不变。2.2.17 重构：悬浮药丸纯文字/去边框样式文字反色完全改用 Helium（github.com/AsakuraFuuko/Helium）方案——移除原有 0.05s 高频截图采样 + overrideUserInterfaceStyle 切换（慢且主线程开销大），改为 CABackdropLayer + colorInvert 反色滤镜 + 字形 mask：反色图层由 GPU 实时采样窗口背后内容，字形区域显示背景反色（深背景白字/亮背景黑字），背景变化零延迟跟随、无轮询、无主线程采样开销；「背景反色检测」滑杆随之移除。2.2.18 重构：文件夹「展开尺寸」参考 FolderPro 双参数模型重做——原固定「展开尺寸」滑杆（300–550pt）移除，改为「展开背景宽度」（左右边距，0–100 默认 10，越大文件夹背景越窄，图标水平间距随之变化）+「展开背景高度」（0–100 默认 60，高度 = 宽度 + 该值，越大背景越高，图标垂直间距随之变化）两个滑杆；展开宽度自动铺满屏幕减去左右边距，「按图标数量自适应」保持不受影响。
 Name: MUtool
 Author: Muzi
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
@@ -39390,6 +39430,162 @@ Name: NotiflyX
 Author: 半生年华
 icon: https://huayuarc.github.io/icon/notiflyx.png
 
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm
+Version: 2.3.50
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm/com.ntm.notifymanager_2.3.50_iphoneos-arm_8fe598c3ff8a8ad86cd062ccbb2c7150102bcbcbd764da0f8595a5d3eccee15a.deb
+Size: 109480
+MD5sum: 6bcd3e14db34993a62eeba094a726bd4
+SHA1: 7b0ce8f72a9f2a8edc2d087263198a1152b0dd3c
+SHA256: 8fe598c3ff8a8ad86cd062ccbb2c7150102bcbcbd764da0f8595a5d3eccee15a
+SHA512: 1b59962eb8188dbd7d4dfc686bf6e7ffcf399f8f150e6300c4aaa43cb651980866da7a8ca1579377089f7f2eddee34ab7efe4a0380d3e84bd996db5af06bc71a
+Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
+ 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
+ 空闲时不耗电；不在后台常驻任何进程。
+ .
+ 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
+ （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
+ - 总开关：关闭后该 App 的通知不再显示
+ - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
+ - 隐藏预览：只显示 App 名称，不显示具体内容
+ - 仅隐藏角标：保留通知，只去掉数字角标
+ - 关键词过滤：命中关键词的通知自动丢弃
+ .
+ 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
+ - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
+ - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
+ - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
+ - 不需要拦截时可一键关闭，恢复系统原生选择框
+ .
+ 【其他】
+ - 批量控制、搜索、单应用重置、配置导入导出
+ - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
+ - 面板内置诊断日志，可查看弹窗拦截的命中情况
+ .
+ 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
+ iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
+ 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
+Name: 通知管理
+Author: yzdmm2024
+icon: https://huayuarc.github.io/icon/notifymanager.png
+Firmware: >= 14.0
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64
+Version: 2.3.50
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.notifymanager_2.3.50_iphoneos-arm64_b54d357c31c5fd7b9d2fe0d1e36d8cc6b90b1ac4428aac560e3ab92eab18ca02.deb
+Size: 109592
+MD5sum: 9916849edacd38900f813d3eff2cdf85
+SHA1: f5ae1a5d7a9f0e50fa7825324ea84baaa4f10f6c
+SHA256: b54d357c31c5fd7b9d2fe0d1e36d8cc6b90b1ac4428aac560e3ab92eab18ca02
+SHA512: 0e564b68b51f690596c5630b8785ca474cb2780e5914539b6404ef26c630e3166698f481cc25139cf60a01426e0c76d5062b65cc0249007710d6c53e167ea026
+Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
+ 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
+ 空闲时不耗电；不在后台常驻任何进程。
+ .
+ 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
+ （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
+ - 总开关：关闭后该 App 的通知不再显示
+ - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
+ - 隐藏预览：只显示 App 名称，不显示具体内容
+ - 仅隐藏角标：保留通知，只去掉数字角标
+ - 关键词过滤：命中关键词的通知自动丢弃
+ .
+ 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
+ - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
+ - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
+ - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
+ - 不需要拦截时可一键关闭，恢复系统原生选择框
+ .
+ 【其他】
+ - 批量控制、搜索、单应用重置、配置导入导出
+ - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
+ - 面板内置诊断日志，可查看弹窗拦截的命中情况
+ .
+ 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
+ iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
+ 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
+Name: 通知管理
+Author: yzdmm2024
+icon: https://huayuarc.github.io/icon/notifymanager.png
+Firmware: >= 14.0
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64e
+Version: 2.3.38
+Section: Tweaks
+Maintainer: yzdmm2024
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/com.ntm.notifymanager_2.3.38_iphoneos-arm64e_0a825edc29b7f10e2e51b06812e990cfc9582ace872fcd513008185801c58770.deb
+Size: 114636
+MD5sum: 8ed440cf0ed3a9eb0e93564fa9dba3bb
+SHA1: b8de922916bc29e63c9659a03bf426b355b9afde
+SHA256: 0a825edc29b7f10e2e51b06812e990cfc9582ace872fcd513008185801c58770
+SHA512: 3d589121f37d2f969470ea37d0b9443cdb78f3037a37fe26fc3f62f4663d07104642e7551619cdcd086a8b5b9fcc44bffe127c00b1a52cca21c09fcbf5a789fe
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用；2.3.16 断网修复：注入范围扩到所有 App 进程(UIApplication)，解决第三方 App 未注入导致断网不生效的问题（隐根环境需在 Bootstrap 的 App List 里为目标 App 开启注入）；2.3.17 断网修复：修正 PSAppDataUsagePolicyCache 在新系统的框架路径(SettingsCellular.framework)，并补上 CommCenter 写入签名权限，面板「断网」现在能真正把系统「允许App使用数据」设为「关闭」(WiFi+蜂窝同时切断)；2.3.18 断网修复：改用系统设置页的真实写入路径(policiesFor: → setCellular:/setWifi: → setPolicies:completion:)，此前调用的 setUsagePoliciesForBundle:cellular:wifi: 与 CoreTelephony 写入接口在 iOS 15/16/17 上均不存在，导致策略写入一直是空操作、系统设置里看不到「关闭」；2.3.19 弹窗修复：面板设为「断网」的 App，启动时不再弹国行机「允许"XX"使用无线数据」选择框——hook SpringBoard 的网络类启动弹窗评估器(SBApplicationLaunchAlertEvaluatorForNetworkBasedAlertItems -shouldShowLaunchAlertForApplication:)与展示入口(SBApplicationLaunchAlertService -showLaunchAlertOfType:forApplication:)，对断网 App 直接不展示，避免用户误点弹窗把权限改回允许导致与面板设置不一致；2.3.20 弹窗修复：开启「后台断网」的 App 回前台时也不再弹国行机「允许"XX"使用无线数据」选择框——弹窗拦截条件补上后台断网判断（NTM_netRead==1 或 NTM_bgNetOn 均拦截），并把回前台时的网络策略恢复提前到系统弹窗评估之前（hook_fg 先恢复策略再调用原函数），解决只要断网或后台断网就必弹弹窗的问题；2.3.21 弹窗修复：彻底屏蔽 CommCenter 直发的「允许"XX"使用无线数据」——实测该弹窗由 CommCenter 直接给 SpringBoard 发请求经 +[SBUserNotificationCenter dispatchUserNotification:flags:replyPort:auditToken:] 创建，并不经过 2.3.19/2.3.20 hook 的启动弹窗评估器，所以仍会漏弹；现对面板里设为「断网」或「后台断网」的 App，识别消息里的 App 名解析出 bundle id 后，直接按实测格式回一条「不允许」报文给 CommCenter，弹窗不再出现，且系统数据策略与面板保持同源、解除断网后自动恢复；2.3.22 后台断网修复：iOS 16 已移除 FBSceneManager 的 _noteSceneMovedToBackground:/_noteSceneMovedToForeground:，旧 hook 静默失败、KVC identity.bundleIdentifier 也取不到 bundle id，且 SpringBoard 进程没有 CommCenter 的 data-allowed-write 权限（实测只有 spi/voice/phone 等）、即便 hook 生效也写不了系统数据策略，这就是「后台断网」一直没效果的根因；现改为在 App 自己进程内实现：监听 UIApplication 进后台/回前台通知，进后台时 shutdown 本进程所有指向远端的已建立连接并拒绝新建连接(connectx/connect/sendto/sendmsg)，回前台自动恢复放行，面板里显式设为「断网」的 App 仍照常拦截；2.3.23 断网根因修复：实测第三方 App 沙盒完全读不到面板配置（cfprefsd 隔离，NSUserDefaults/CFPreferences/直读 plist 三条路全失败）；2.3.24 修复注销后网络重置+新App自动授权WiFi蜂窝：SpringBoard启动10s后遍历面板配置重新应用系统蜂窝策略(NTM_applyAllPolicies)，新安装App面板未配置时默认允许WiFi+蜂窝不弹系统选择框，「后台断网」与进程级「断网」在 App 内一直读到默认值、从未真正生效——现由 SpringBoard（能读面板配置）把每个 App 的配置按 bundle id 转写到其容器 Library/ntm_config.plist 并广播更新，App 端读不到面板配置时改读该镜像（镜像优先、suite 兜底），配置变更约 0.3 秒内自动同步，SpringBoard 开机 10 秒后全量补写一次；同时补上面板「断网」按钮与「后台断网」全局标记保存后遗漏的配置变更广播，后台断网与断网拦截自此在 App 进程内真正生效；2.3.25 弹窗彻底修复+新App自动联网：①auditToken直提bundle id，不依赖中文App名解析，解决注销后「允许使用无线数据」弹窗仍漏弹的问题（旧版靠解析弹窗引号内App名匹配，「」《》等引号变体导致匹配失败）；②弹窗文本匹配扩展为无线数据/蜂窝数据/使用数据/访问数据四种中文变体，覆盖各iOS语言版本；③新安装App首次联网不再无网——SpringBoard启动时遍历未配置App写入系统策略缓存allow(WiFi+蜂窝)，同时拦截弹窗时即时写入策略，双重保障；④策略重应用延迟从10s缩至2s，缩小注销后策略空窗期；2.3.26 修复编译错误：libproc.h是macOS专用头文件iOS SDK未提供，改为手动声明proc_pidpath私有API；2.3.27 再次修复编译：移除sys/proc_info.h依赖，完全手动声明
+ 2.3.30 iOS 16+系统级授权弹窗彻底拦截：①修复策略缓存写入API——旧版只尝试 init:withCellularPolicy:andWifiPolicy: 单一方法，iOS 16+ 上该 API 不存在导致策略写入静默失败，现尝试多种可能的 policiesFor/init/setPolicy 方法名并加诊断日志，定位失败原因；②iOS 16+ 无线数据权限弹窗不走通知系统 dispatchUserNotification（旧 API），走 SpringBoard 内部的 _UISystemAlertViewController / SBAuthorizationDialogController / _UIAlertControllerDialogViewController，新增这些类的 showWithCompletion: hook，统一检测"无线数据/蜂窝数据/使用数据/访问数据/无线局域网与蜂窝网络"关键词；③兜底 hook UIViewController presentViewController:animated:completion:，检测 UIAlertController 的 title+message+actions 文本，覆盖所有通过 present API 展示的网络授权弹窗；④新增 NTM_diagLog 诊断日志，所有 hook 触发和策略写入结果写入 NSUserDefaults，便于定位为什么弹窗仍漏出。
+ 2.3.31 弹窗兜底彻底修复：2.3.30 的兜底 hook 用了错误 selector（presentViewControllerAnimated:completion: 缺第一个冒号），导致 UIViewController 兜底根本没装上，且只从 alert title 提取 App 名（该弹窗 title 为「错误」、权限文本在 message），无法解析 bundle id，新安装 App 仍会弹「允许使用无线数据」选择框；现修正 selector 为 presentViewController:animated:completion:，并从 title+message+actions 完整文本提取 App 名，新安装 App 联网自动写入 allow 策略并不弹窗。
+ 2.3.32 弹窗拦截再加固：2.3.31 兜底 hook 虽已命中弹窗，但「中文 App 名 → bundle id」解析在部分 App（本地化名与弹窗名存在 NFC/NFKC 归一差异）上失败，仍回退到系统原生弹窗；现新增两道兜底——①规范化中文名（去空白+预组合）并兼容 displayName 后再匹配 LSApplicationWorkspace，②实在解析不到时用前台 App 的 bundle id 兜底（网络授权弹窗由前台 App 触发）；并新增源头拦截 SBAlertItemsController -_presentAlertItem:withPresenter:animated:，在 alert controller 构建前直接拿到 SBUserNotificationAlert、不再依赖 UIAlertController 类层级，命中网络授权关键词即写入 allow 策略并吞掉弹窗；所有分支均带 NTM_diagLog，可在面板诊断日志查看命中情况。
+ 2.3.33 弹窗彻底修复（换思路）：2.3.31/2.3.32 在 UIAlertController / SBAlertItemsController 层面吞弹窗，实测会掐断 CommCenter 的 replyPort 回包、导致该 App 联网卡死，且「已配置就回退弹窗」逻辑让新 App 仍弹出；现改为唯一可靠处理点——hook SBUserNotificationCenter +dispatchUserNotification:flags:replyPort:auditToken:（弹窗源头，CommCenter 经此把请求发给 SpringBoard 并等待 replyPort 回包，正是 2.3.21 断网 App 成功压住弹窗的同一机制），命中网络授权关键词后：断网/后台断网 App 回「不允许」报文，非断网 App（含新安装未配置）回「允许」报文并写入系统蜂窝 allow 策略，弹窗在源头被消解、不再上屏，且不会卡联网；purepresentVC/presentAlertItem 降级为仅诊断记录（不可吞，避免卡死）；init 日志记录三道 hook 是否真正装上，便于定位漏拦。
+ 2.3.34 修「不弹窗但没网」：2.3.33 源头拦截虽压住了弹窗，但非断网 App 没真正拿到「无线局域网与蜂窝网络」——根因是 dispatch 里 bundle id 四路兜底全失败、策略写入被 `if(bid.length && !NTM_isAppConfigured)` 跳过，只发了一条（且很可能没送达的）allow 回包，CommCenter 超时按拒绝处理 → 没网；现修正：①audit_token PID 偏移读错（旧代码用 t32[4]=at_asid 会话ID，应为 t32[3]=at_pid），auditToken 这条路现在能直接定位触发弹窗的 App 进程并取 bundle id；②前台 App 兜底扩充 SBMainWorkspace 等类与选择器；③dispatch 里无条件为非断网 App 写 allow 策略（不再被「已配置」跳过），并重构解析顺序为 auditToken→前台→文本提取，每步打 NTM_diagLog；④NTM_sendReply 记录 mach_msg 返回值 kr，便于确认回包是否真送达。
+ 2.3.35 修「不弹窗但没网」（换对拦截点）：实测本机 iOS 16.6 网络授权弹窗根本不走 SBUserNotificationCenter +dispatchUserNotification:flags:replyPort:auditToken:（该 selector 在本机不存在，2.3.33/2.3.34 的源头 hook 是死代码、永不触发）；真正压弹窗的是 2.3.19 就装上的 SBApplicationLaunchAlertEvaluatorForNetworkBasedAlertItems -shouldShowLaunchAlertForApplication: 与 SBApplicationLaunchAlertService -showLaunchAlertOfType:forApplication:，这两道只「压弹窗」却从不「授权」，导致新 App 联网被卡（没网）。现改为：在这两道 hook 里，对面板未配置的新 App 直接调用 NTM_syncCellularSB(bid,0) 写系统蜂窝 allow 策略（wifi+流量允许）再 return，既压住弹窗又真正授权；断网/后台断网 App 仍压弹窗不授权。各分支均打 NTM_diagLog（launchEval ALLOW+write / launchShow ALLOW+write），可在面板诊断日志确认命中。
+ 2.3.38 设置页改版（越狱源发布版）：①顶部「自定义」按钮改为「设置」入口，新设置页集中三个全局开关——隐藏网络弹窗（默认开，关=所有网络弹窗 hook 放行、恢复系统原生「允许XX使用无线数据」选择框；面板里断网/后台断网的 App 仍不弹窗）、保留首次安装弹窗（默认关，开=面板未配置的新装 App 首次打开时仍走系统原生流程弹选择框，允许/不允许由用户自己决定；开启时 SpringBoard 不再为未配置 App 预写 allow 策略，否则策略已允许系统不会再弹）、自动授权通知（抹除后免弹窗，从主页迁入设置页）；②设置页另保留「恢复自定义配置」按钮=原「自定义」按钮功能（撤销上次全部开启/关闭批量操作）；③所有开关改动即时经 configChanged 广播生效，无需重启。
+ 2.3.37.1 设置页改版：①顶部原「自定义」按钮改为「设置」入口，新增设置页集中三个全局开关——隐藏网络弹窗（默认开，关=所有网络弹窗 hook 放行、恢复系统原生「允许XX使用无线数据」选择框；面板里断网/后台断网的 App 仍不弹窗）、保留首次安装弹窗（默认关，开=面板未配置的新装 App 首次打开时仍走系统原生流程弹选择框，允许/不允许由用户自己决定；开启时 SpringBoard 不再为未配置 App 预写 allow 策略，否则策略已允许系统不会再弹）、自动授权通知（抹除后免弹窗，从主页迁入设置页）；②设置页另保留「恢复自定义配置」按钮=原「自定义」按钮功能（撤销上次全部开启/关闭批量操作）；③所有开关改动即时经 configChanged 广播生效，无需重启。
+Name: 通知管理
+Author: yzdmm2024
+icon: https://huayuarc.github.io/icon/notifymanager.png
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64e
+Version: 2.3.50
+Section: Tweaks
+Maintainer: yzdmm2024
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/com.ntm.notifymanager_2.3.50_iphoneos-arm64e_dd6dc384173d6b660f5a776d4b8f8767f76b8d3eacb3f586c8f06ab98c59d79a.deb
+Size: 109004
+MD5sum: f3a15b752035b33acc95c61dd44df2d5
+SHA1: eb7ab168e43c0c44494cd984653a95f7145931b3
+SHA256: dd6dc384173d6b660f5a776d4b8f8767f76b8d3eacb3f586c8f06ab98c59d79a
+SHA512: 85f660f7eb0b1550f2225d5a609461dc58c5ec89403a7b95491ec1126b89e738752a0d4fe4442f07b366023f6f803905c16b281cc2dc860897016d190465601b
+Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
+ 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
+ 空闲时不耗电；不在后台常驻任何进程。
+ .
+ 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
+ （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
+ - 总开关：关闭后该 App 的通知不再显示
+ - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
+ - 隐藏预览：只显示 App 名称，不显示具体内容
+ - 仅隐藏角标：保留通知，只去掉数字角标
+ - 关键词过滤：命中关键词的通知自动丢弃
+ .
+ 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
+ - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
+ - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
+ - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
+ - 不需要拦截时可一键关闭，恢复系统原生选择框
+ .
+ 【其他】
+ - 批量控制、搜索、单应用重置、配置导入导出
+ - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
+ - 面板内置诊断日志，可查看弹窗拦截的命中情况
+ .
+ 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
+ iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
+ 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
+Name: 通知管理
+Author: yzdmm2024
+icon: https://huayuarc.github.io/icon/notifymanager.png
+Firmware: >= 14.0
+
 Package: com.ntm.privacymanager
 Architecture: iphoneos-arm64
 Version: 1.1.0
@@ -39408,6 +39604,23 @@ Author: yzdmm2024
 icon: https://huayuarc.github.io/icon/privacymanager.png
 
 Package: com.ntm.privacymanager
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: preferenceloader, ellekit
+Filename: debs/iphoneos-arm64/com.ntm.privacymanager_1.5.5_iphoneos-arm64_688cc23215079025f512020f5f22bfee568add73f67081801dc4b688d56f0433.deb
+Size: 64304
+MD5sum: 2771323448890cab17a6c03287e9f9ed
+SHA1: e376d1ae9161e191061ff0c80a76528fd1a90a44
+SHA256: 688cc23215079025f512020f5f22bfee568add73f67081801dc4b688d56f0433
+SHA512: 92992e34396afa74adc711477e7e71adb16310a21c846c0855e1979bedcea7127b45d9c977a92c782f2d1748512b18311aa1440e389151e3457981853126fd03
+Description: 隐私总开关：系统「设置→隐私与安全性」的镜像。App 列表取自系统 LSApplicationWorkspace（与通知管理同一套，已剔除 XPC 服务/扩展等假条目），面板秒开（上次列表快照缓存，进面板即可搜、即可点），后台再刷新成最新。五个权限开关（照片 / 麦克风 / 相机 / 跟踪 / 通讯录）实时写 TCC.db 并在 App 进程内 hook 静默应答——面板开/关，App 里立刻生效，不必划掉重开。跟踪权限 App 侧 hook 静默应答 ATT 弹窗（未配置的 App 默认拒绝）。定位与本地网络已移除：定位授权由 locationd 独占、本地网络名单在 nehelper 内存里，非 root 写入不会真正生效。
+Name: 隐私总开关
+Author: yzdmm2024
+icon: https://huayuarc.github.io/icon/privacymanager.png
+
+Package: com.ntm.privacymanager
 Architecture: iphoneos-arm64e
 Version: 1.1.0
 Section: Tweaks
@@ -39421,6 +39634,24 @@ SHA1: 024e4b6c75f67748f6b70b10ea910d7bc9514bdb
 SHA256: 0b41a898567f54021644fba1552813bbdb0f86b47f700b1f996d7dce47d888ef
 SHA512: 022da9e0a7b8964b42a12b2d940dd91cbe5df86a50085e415b2eb62603237556f1940f38f792a859012b63335d259530fc787f731e4f9e04c6a05e0a9d7c552b
 Description: 隐私总开关：系统「设置→隐私与安全性」的实时镜像。App 列表直接取自系统 TCC 数据库（与系统面板完全一致），七个权限开关实时读写同一 TCC.db——你在此开/关，系统设置立刻同步（双向）。顶部「按功能一键开关」可一次性对某权限（照片/本地网络/麦克风/相机/定位/跟踪/通讯录）对全部应用开启或关闭；每个 App 卡片支持独立开关与重置。本地网络为尽力项。支持配置导入导出。跟踪权限为双重管控：面板写 TCC 授权状态，同时 App 侧 hook（PMHook）静默应答 ATT「允许跟踪」弹窗——抹除/还原设置后打开 App 不再弹出跟踪询问（未配置的 App 默认拒绝跟踪）。 定位支持三态：使用app期间 / 始终 / 下次询问或在我共享时（长按定位开关选择）。
+Name: 隐私总开关
+Author: yzdmm2024
+icon: https://huayuarc.github.io/icon/privacymanager.png
+
+Package: com.ntm.privacymanager
+Architecture: iphoneos-arm64e
+Version: 1.5.5
+Section: Tweaks
+Maintainer: yzdmm2024
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader, ellekit
+Filename: debs/iphoneos-arm64e/com.ntm.privacymanager_1.5.5_iphoneos-arm64e_2d2e167d76f275996bfacb4577b4d8b63c3cd692c368c86a5989c3349d7d205e.deb
+Size: 64052
+MD5sum: 681b06440a460fb5cd9e9305ac5484a2
+SHA1: fa34475e9911ce55cf8b58d9dfd072b506106ed3
+SHA256: 2d2e167d76f275996bfacb4577b4d8b63c3cd692c368c86a5989c3349d7d205e
+SHA512: 454de8a20e4a0605acecaedfe572f071abbd587e6cb773cb6e1c42e09252e826503aedafdb5d708482d0509a2190868b947c903f1c63a338856cb4f2fef4357b
+Description: 隐私总开关：系统「设置→隐私与安全性」的镜像。App 列表取自系统 LSApplicationWorkspace（与通知管理同一套，已剔除 XPC 服务/扩展等假条目），面板秒开（上次列表快照缓存，进面板即可搜、即可点），后台再刷新成最新。五个权限开关（照片 / 麦克风 / 相机 / 跟踪 / 通讯录）实时写 TCC.db 并在 App 进程内 hook 静默应答——面板开/关，App 里立刻生效，不必划掉重开。跟踪权限 App 侧 hook 静默应答 ATT 弹窗（未配置的 App 默认拒绝）。定位与本地网络已移除：定位授权由 locationd 独占、本地网络名单在 nehelper 内存里，非 root 写入不会真正生效。
 Name: 隐私总开关
 Author: yzdmm2024
 icon: https://huayuarc.github.io/icon/privacymanager.png
@@ -39445,6 +39676,25 @@ Description: Support tweak for CC modules!
 Name: CCSupport
 Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
+Package: com.opa334.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5.4
+Section: Tweaks
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1136
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/iphoneos-arm64e/com.opa334.choicy_1.5.4_iphoneos-arm64e_e6c14c0942114c275108eb6ab407319daa2cf6f4d3060e95e641f4f0215321e2.deb
+Size: 159664
+MD5sum: 4a2923dc060fa9a7e346062ee629bb0a
+SHA1: 98833ec1cac30068e4c54e2bb5e685eee37d2017
+SHA256: e6c14c0942114c275108eb6ab407319daa2cf6f4d3060e95e641f4f0215321e2
+SHA512: 70ac5cea7e3b92bde26f04cdda1e05db810811e380e33bcf8ecb70aed201135b413020cb20e252d807daa4e1df570463653dd14ddd81b651e2bb91bf0796da3b
+Description: Advanced Tweak Configuration!
+Name: Choicy
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Author: opa334 <opa334@protonmail.com>
+icon: https://huayuarc.github.io/icon/choicy.jpg
 
 Package: com.opa334.trollstorelite
 Architecture: iphoneos-arm64
@@ -57137,6 +57387,80 @@ Name: QQ图文同发
 Author: wacljcr
 icon: https://huayuarc.github.io/icon/qq.png
 
+Package: com.wacljcr.superscreenshot
+Architecture: iphoneos-arm64
+Version: 7.3.0-1+debug
+Section: Tweaks
+Maintainer: yzdmm2024
+Installed-Size: 3144
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.wacljcr.superscreenshot_7.3.0-1+debug_iphoneos-arm64_edffd90b030f7560fdbd5d12db10cf79ffda0f47db03623c95aa8f7cc7deabda.deb
+Size: 503372
+MD5sum: c596ff05710a297f281a3042f3920372
+SHA1: fb7f1ac5b0269e10a854d4f2e2537152c28e02cd
+SHA256: edffd90b030f7560fdbd5d12db10cf79ffda0f47db03623c95aa8f7cc7deabda
+SHA512: 4abe505a787643ea9b2b52947bb7a8c4d63206d5eaad719eaab9910164170fd5fbbc0edb2d037fd199500425a3bf138b1e50fae77d4f8dfe118b7d82318f25c5
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+Name: 超级截图
+icon: https://huayuarc.github.io/icon/freecut.png
+Author: yzdmm2024
+
+Package: com.wacljcr.superscreenshot
+Architecture: iphoneos-arm64
+Version: 8.0.19
+Section: Tweaks
+Maintainer: yzdmm2024
+Installed-Size: 2044
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.wacljcr.superscreenshot_8.0.19_iphoneos-arm64_97a40b29ac493694110632fc87f921b728a267caef53d2739d2648d7ef775a31.deb
+Size: 383984
+MD5sum: 9e5d3e8e6468ebe62797be0c562bcb82
+SHA1: bf76695ed160274c9300cb7b6a9c47142129f46e
+SHA256: 97a40b29ac493694110632fc87f921b728a267caef53d2739d2648d7ef775a31
+SHA512: 2856a6e6ae807475685e0a48151f0217b5586a0a1841062b2dffbc2622df0c3a72b1b1392bda8deeb45b4cafea5f2ed72c7bef45cfb609000d88a2c5f0c49b32
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+Name: 超级截图
+icon: https://huayuarc.github.io/icon/freecut.png
+Author: yzdmm2024
+
+Package: com.wacljcr.superscreenshot
+Architecture: iphoneos-arm64e
+Version: 7.3.0-1+debug
+Section: Tweaks
+Maintainer: yzdmm2024
+Installed-Size: 3144
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.wacljcr.superscreenshot_7.3.0-1+debug_iphoneos-arm64e_fd026188f92792778bc9531802f35f73da62b7bed4261ab651dc2beafe780632.deb
+Size: 488528
+MD5sum: 5f0d26102ed00bdbf39600f2439ec774
+SHA1: cf57dc4edeb27794f061196095c1e0a6ed59c634
+SHA256: fd026188f92792778bc9531802f35f73da62b7bed4261ab651dc2beafe780632
+SHA512: 1c4392540ef4a418097d780bf486dab69bd03516ddbb3a66b4758bc0113c0adf92bd6824e2d1ed7876002a36f7cd4430971a20d355c4892bbbf6104c6c2a39b6
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+Name: 超级截图
+icon: https://huayuarc.github.io/icon/freecut.png
+Author: yzdmm2024
+
+Package: com.wacljcr.superscreenshot
+Architecture: iphoneos-arm64e
+Version: 8.0.19
+Section: Tweaks
+Maintainer: yzdmm2024
+Installed-Size: 2044
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.wacljcr.superscreenshot_8.0.19_iphoneos-arm64e_d9d8e08afaf2d6ca483dd8881d0ba1f29c85f466aef2cb26a21913a088a67bc1.deb
+Size: 382176
+MD5sum: d7ab1f168b38a43a256741e610bfb8b5
+SHA1: a55eb7612417594e76d014a06b8805493418df0f
+SHA256: d9d8e08afaf2d6ca483dd8881d0ba1f29c85f466aef2cb26a21913a088a67bc1
+SHA512: 029d2ff3730c294049a0482a4ccd153075090d61f285cf441f82abf78aa3af01063b8e0d855e88333291ce7a7597937eeb6dad27e499302055061d64ea97ecf0
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+Name: 超级截图
+icon: https://huayuarc.github.io/icon/freecut.png
+Author: yzdmm2024
+
 Package: com.wacljcr.wxkbtoolbar10
 Architecture: iphoneos-arm64
 Version: 4.0
@@ -66693,6 +67017,30 @@ Priority: optional
 Section: Utilities
 Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Depends: apt, dpkg, bash, zsh, dash, sudo, coreutils, debianutils, shell-cmds, system-cmds, file-cmds, diffutils, findutils, grep, sed, gawk, less, tar, gzip, xz-utils, ncurses-bin, ncurses-term, profile.d, ca-certificates, openssh-server, curl, wget, nano, vim, htop, git, fastfetch, uikittools, launchctl, wiki.qaq.irisin
+Filename: debs/appletvos-arm64e/owngoal-bootstrap-vphone_1.2.0_appletvos-arm64e_4d0b236d0a3d6cbdb169c405411f9f95762f13d3b04b575f060f07113c0dd5aa.deb
+Size: 1124
+MD5sum: e9e52df0b7828fe79e9a6266b6815206
+SHA1: 4bfa8aeea5d8022f68be6a17abaeab6752699235
+SHA256: 4d0b236d0a3d6cbdb169c405411f9f95762f13d3b04b575f060f07113c0dd5aa
+SHA512: 8069c83b77f1ce5375f900074c1a2501edfaa42a44d29f47af5cf972071e9fb9719c9801557107d4779c79b8dab113d99b02bb188d2ee20bc4aaa1ce3bd5aeab
+Description: Base system, command-line tools and Irisin for an Apple TV vphone
+ Installs apt and dpkg, bash, zsh and dash, sudo, the core command-line tools,
+ openssh-server, curl and wget, nano and vim, htop, git and fastfetch,
+ uikittools and launchctl, plus Irisin. The base packages come from OwnGoal
+ Stripe. This package installs no files of its own.
+Name: OwnGoal Bootstrap for vphone
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/ball.png
+Depiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/
+SileoDepiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/depiction.json
+
+Package: owngoal-bootstrap-vphone
+Architecture: appletvos-arm64e
+Version: 1.2.0
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depends: apt, dpkg, bash, zsh, dash, sudo, coreutils, debianutils, shell-cmds, system-cmds, file-cmds, diffutils, findutils, grep, sed, gawk, less, tar, gzip, xz-utils, ncurses-bin, ncurses-term, profile.d, ca-certificates, openssh-server, curl, wget, nano, vim, htop, git, fastfetch, uikittools, launchctl, wiki.qaq.irisin
 Filename: debs/appletvos-arm64e/owngoal-bootstrap-vphone_1.2.0_appletvos-arm64e_b14990c9ecb01fcdb5fa777503fbb8fbfc0d561986a58bbdf298a5186d155fd9.deb
 Size: 1140
 MD5sum: 4dd94c05cd615b28f784a237215be977
@@ -66704,6 +67052,30 @@ Description: Base system, command-line tools and Irisin for an Apple TV vphone
  openssh-server, curl and wget, nano and vim, htop, git and fastfetch,
  uikittools and launchctl, plus Irisin. The base packages come from OwnGoal
  Stripe. This package installs no files of its own.
+Name: OwnGoal Bootstrap for vphone
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/ball.png
+Depiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/
+SileoDepiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/depiction.json
+
+Package: owngoal-bootstrap-vphone
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depends: apt, dpkg, bash, zsh, dash, sudo, coreutils, debianutils, shell-cmds, system-cmds, file-cmds, diffutils, findutils, grep, sed, gawk, less, tar, gzip, xz-utils, ncurses-bin, ncurses-term, profile.d, ca-certificates, openssh-server, curl, wget, nano, vim, htop, git, fastfetch | wiki.qaq.fastfetch, uikittools, launchctl, owngoal-essential-apps
+Filename: debs/iphoneos-arm64/owngoal-bootstrap-vphone_1.2.0_iphoneos-arm64_bd3f9defb19121e37ac65888cb9d916058d6bf1944471f662364dc75a86516ab.deb
+Size: 1148
+MD5sum: 94de48555673afa582d0e9c2fc5ff9ee
+SHA1: 4af5268660919e0dad1b090e91293b6642c0f934
+SHA256: bd3f9defb19121e37ac65888cb9d916058d6bf1944471f662364dc75a86516ab
+SHA512: b3759c1aee07a0a350ea0e3f8f4f194cd83d930ea18f434e6bc4bcbcadb466a15285cb1b700a1813a46470d55575fbc6d7be471983728beb6cff63a62ebadcfa
+Description: Base system, command-line tools and OwnGoal apps for a vphone
+ Installs apt and dpkg, bash, zsh and dash, sudo, the core command-line tools,
+ openssh-server, curl and wget, nano and vim, htop, git and fastfetch,
+ uikittools and launchctl, plus OwnGoal Essential Apps: Irisin, Fila,
+ iGhostVT, Xrash and Inspector. This package installs no files of its own.
 Name: OwnGoal Bootstrap for vphone
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Icon: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/ball.png
@@ -66747,6 +67119,30 @@ MD5sum: ad59c36ff6fd99a4316d10fc7e70fc7f
 SHA1: 7401e07d121941a69f6963ca7c2246e93d8dbdc0
 SHA256: 636c5e5faab36ca9024932f9620a8bd9cdb81177947b016032276b913eea281b
 SHA512: e39afa7011d5131b8ac62e2eb5548c7c8d854789234def330e697aa5b2dd14ab5f8ffc9e12bdad935ab60e246df023dc6ace3d1c236a8c81985104ecaea90342
+Description: Base system, command-line tools and OwnGoal apps for a vphone
+ Installs apt and dpkg, bash, zsh and dash, sudo, the core command-line tools,
+ openssh-server, curl and wget, nano and vim, htop, git and fastfetch,
+ uikittools and launchctl, plus OwnGoal Essential Apps: Irisin, Fila,
+ iGhostVT, Xrash and Inspector. This package installs no files of its own.
+Name: OwnGoal Bootstrap for vphone
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/ball.png
+Depiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/
+SileoDepiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/depiction.json
+
+Package: owngoal-bootstrap-vphone
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depends: apt, dpkg, bash, zsh, dash, sudo, coreutils, debianutils, shell-cmds, system-cmds, file-cmds, diffutils, findutils, grep, sed, gawk, less, tar, gzip, xz-utils, ncurses-bin, ncurses-term, profile.d, ca-certificates, openssh-server, curl, wget, nano, vim, htop, git, fastfetch | wiki.qaq.fastfetch, uikittools, launchctl, owngoal-essential-apps
+Filename: debs/iphoneos-arm64e/owngoal-bootstrap-vphone_1.2.0_iphoneos-arm64e_bed2214130776863293abcee7ccd788055cd138f4ae5ec82c824113ea58d2041.deb
+Size: 1152
+MD5sum: 3b35c6a6ceb58733b95fe8dabb8c7f71
+SHA1: 5301783498d3ed5db637700b746bd546c4b6a110
+SHA256: bed2214130776863293abcee7ccd788055cd138f4ae5ec82c824113ea58d2041
+SHA512: 6960931b8cbe5fa900624b900496d847f4731b41ae82dfd99d3ebec6aa7f77082abad6186e9ce1ca041b240fee8c1aca0d26346cf47df3786da0087b6b948247
 Description: Base system, command-line tools and OwnGoal apps for a vphone
  Installs apt and dpkg, bash, zsh and dash, sudo, the core command-line tools,
  openssh-server, curl and wget, nano and vim, htop, git and fastfetch,
@@ -67530,6 +67926,52 @@ SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.3.1
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 93872
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.3.1_iphoneos-arm64_9f14f57fbb7580b5d5e8ffaffd86d2aabf5f9ed3414b8b4f05c47cf2c6008258.deb
+Size: 22226376
+MD5sum: 3756f53fb8ea02de491b06b853d7a3cd
+SHA1: f6632eed1bdb1ed5410618f1159b7b4addea8233
+SHA256: 9f14f57fbb7580b5d5e8ffaffd86d2aabf5f9ed3414b8b4f05c47cf2c6008258
+SHA512: f1593a65301e2121522994cb2b4c671915123e2678fd65003719b2be03dc5f2cf9cb2af3d1154bab07655936c2da602b02efd465318d9125b80e2a0daeac9bec
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.3.2
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 93872
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.3.2_iphoneos-arm64_625ffa1c4b5ac658213ea1da558bc1178911ad1c6b0318e82072c8a0666cbf30.deb
+Size: 22224936
+MD5sum: e18df15ac8df4581d4dff52979196200
+SHA1: d90aabdd0830978f9c084644f558a66e70191b02
+SHA256: 625ffa1c4b5ac658213ea1da558bc1178911ad1c6b0318e82072c8a0666cbf30
+SHA512: 7e44590be67c7c6d65f8d7c328224463ecf63b60ff6ec9a718481f46705016c7314bb8192d9f5e97974dcbb36f1da7d64e7b39b8bb947fbb2c0c19698eecf8ec
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Priority: optional
@@ -67805,6 +68247,29 @@ Depiction: https://owngoal-dev.github.io/Apelin/
 SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64e
+Version: 0.3.2
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 93872
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin_0.3.2_iphoneos-arm64e_b5082a2d2fccbf368cea99c6a6cd9a54d23b88447ba0de31087d0ba03465a8c9.deb
+Size: 22223704
+MD5sum: 2b021be8b56ca0a224e36e8e92b32e28
+SHA1: 4b8a51b8eecfe68a3ef71a3e8556ac7ebada81fe
+SHA256: b5082a2d2fccbf368cea99c6a6cd9a54d23b88447ba0de31087d0ba03465a8c9
+SHA512: 9e2a5ccb99ed3c2f9e524ef398049752c8f7315ce0963bdeafef83ca1d18110ec406e5a95817cecb549731836e5911f11060f6bad536eee302989b77d7d4bb38
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
 Package: wiki.qaq.apelin.agent-tools.assembler
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -67938,6 +68403,30 @@ Depiction: https://owngoal-dev.github.io/Apelin/
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin.dev.app
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 76
+Depends: wiki.qaq.apelin (>= 0.1.0), uikittools
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin.dev.app_0.1.1_iphoneos-arm64_f24d02182327bdf7434f971e2bdbbb10f369e6b64409ebddd29f08e6785114cd.deb
+Size: 8212
+MD5sum: 712707797a44eb68c666601b9ffdc89b
+SHA1: 076bc88ffeb8aac06cc4ca005992f6661e3cbb17
+SHA256: f24d02182327bdf7434f971e2bdbbb10f369e6b64409ebddd29f08e6785114cd
+SHA512: 2a050ac39dbad0d44495be781760ea81749a257d0a546f2fbddf61b69427f8000b064b9b9bdd3267497cc9cdeb3f44f145381bc0a4d7573cd6f73203936b989c
+Description: UIKit app templates for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package UIKit apps on the device, installed
+ into /Applications: an Objective-C template, and a Swift one for when the
+ Swift toolchain component is set up.
+Name: Apelin App Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.app.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.app
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Priority: optional
@@ -67976,6 +68465,30 @@ MD5sum: 8373d2627f0557b224a7d61d7019fd6b
 SHA1: e9b7de2415de3f9e3724224b377405471f416758
 SHA256: 017d0a2a8e3b3aaf36dd90ba5333c9f9821e00800cdd94d3e6cb2f4bc38c0495
 SHA512: 30abf5c3d7300608787597075e323fdb5c92380c79cc0f1556f28ba71aa13a2915d89ebcfa776ab96a29f5213056fe24224a1b67f30ef23905746660e150fca9
+Description: UIKit app templates for Apelin, for roothide jailbreaks
+ Lets Apelin create, build and package UIKit apps on the device, installed
+ into /Applications: an Objective-C template, and a Swift one for when the
+ Swift toolchain component is set up.
+Name: Apelin App Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.app.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.app
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 76
+Depends: wiki.qaq.apelin (>= 0.1.0), uikittools
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin.dev.app_0.1.1_iphoneos-arm64e_fdfc5928b294a40043eb2a99a4365af62b0e90bd96433863d9acd30b01e32c50.deb
+Size: 8100
+MD5sum: 8c60baf6a76a87d4c598ed71f06d2adf
+SHA1: ad939e6aa330036bec517067dd7cefd9c5e24969
+SHA256: fdfc5928b294a40043eb2a99a4365af62b0e90bd96433863d9acd30b01e32c50
+SHA512: b7025d4a2d60eac8d57ce0d0293d5e5a19864fe8505cbd854510d9cb25c323b0eb61b7fbf99f6ebc384a029cdfa49b4b924fc3708548bd2eb293a6792dfb0d67
 Description: UIKit app templates for Apelin, for roothide jailbreaks
  Lets Apelin create, build and package UIKit apps on the device, installed
  into /Applications: an Objective-C template, and a Swift one for when the
@@ -68055,6 +68568,29 @@ Depiction: https://owngoal-dev.github.io/Apelin/
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin.dev.cli
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 36
+Depends: wiki.qaq.apelin (>= 0.1.0)
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin.dev.cli_0.1.2_iphoneos-arm64_f86013b4ab4622d2e28bad478536e68922c99d9e91aa633d5f95ba06ccda3688.deb
+Size: 5752
+MD5sum: dca380de6d5e6cc98cc316822bdaaad0
+SHA1: b27316517ceafad187fe5fcfb2c9af2d99f40124
+SHA256: f86013b4ab4622d2e28bad478536e68922c99d9e91aa633d5f95ba06ccda3688
+SHA512: 14269a264f044ca8d6106c783cdae3a15fc2dc99007db841102a89fb8d77e7f4a0a16812c777ee32840288e56579d05e469b9a38a65348c5061ef4b099fc4997
+Description: Command-line tool templates for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package C and Objective-C command-line tools
+ on the device, installed into the bootstrap's /usr/bin.
+Name: Apelin Command-Line Tool Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.cli.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.cli
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Priority: optional
@@ -68115,6 +68651,29 @@ MD5sum: d1aa819aa6114c90df8ef88117256940
 SHA1: 9acaa31961311b1e64fc50810b96fcbb4ca6ab79
 SHA256: 336116f0439bc266110ec65e74cbb448959e38e189f6f604b78c61e9f803ac6a
 SHA512: 1c0169da28f829d39d92316547e111837cf5a9bd309a92caa03128ca157ac3bd4c89a222d332945ce0f86f02080e0d0f4124c9ac38eacaaca392419eb61c7988
+Description: Command-line tool templates for Apelin, for roothide jailbreaks
+ Lets Apelin create, build and package C and Objective-C command-line tools
+ on the device, installed into the bootstrap's /usr/bin.
+Name: Apelin Command-Line Tool Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.cli.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.cli
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 36
+Depends: wiki.qaq.apelin (>= 0.1.0)
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin.dev.cli_0.1.2_iphoneos-arm64e_33d1786c8928e2f4ef8e37e55553fe2ef5d0bc555776faabc07f4acffd2b2def.deb
+Size: 5684
+MD5sum: 7bf104c239dc7d278ce7e695d37f3c75
+SHA1: 982aa7f150aa678c1be767bc2d4ea61dc2ba7b84
+SHA256: 33d1786c8928e2f4ef8e37e55553fe2ef5d0bc555776faabc07f4acffd2b2def
+SHA512: dd68fdf765843f9b24950a1d47690d2f8b9cfde231163ed8a0f1c0b453465a6c2c69f25ff854ebe56c66b4157a11363043f3c0165f85d2fd6c6d2ec4488b480f
 Description: Command-line tool templates for Apelin, for roothide jailbreaks
  Lets Apelin create, build and package C and Objective-C command-line tools
  on the device, installed into the bootstrap's /usr/bin.
@@ -68190,6 +68749,32 @@ MD5sum: ecab87ac90dd339e54db7094a0ab02ae
 SHA1: bf3802514ff4a9fc544339c7b8f6c2b368ffc5f3
 SHA256: c91377f04ab606b2968a0a3fb9bac084861ff01382a3b61c4b3871f4aabe169d
 SHA512: 3fd7a1f82144d2e5d29af85d0a50beaa529cd793da714c46fc0906fe7b0b5aa6de8a83d89ba1d4cc12d56192ca993c87843e9c81a6cc1d7284b898af30ac5569
+Description: Settings pane templates for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package preference bundles on the device: a
+ template with a switch and a text field, the PreferenceLoader entry that
+ shows it in Settings, and declarations for the private Preferences
+ framework. Needs PreferenceLoader, which your preferred package manager
+ installs with it.
+Name: Apelin Preference Bundle Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.preferences.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.preferences
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 60
+Depends: wiki.qaq.apelin (>= 0.1.0), preferenceloader
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin.dev.preferences_0.1.3_iphoneos-arm64_3235f119075f4d8b12bbefca0222dc650f0832d713b16e3f13063d31c7eaeb79.deb
+Size: 20076
+MD5sum: 92e50753f8a8e864f278fb5da270df99
+SHA1: fdb514100662f92cc0e1a7c0997c093b12c316d1
+SHA256: 3235f119075f4d8b12bbefca0222dc650f0832d713b16e3f13063d31c7eaeb79
+SHA512: 17bfd3a61135ffc7a4a3273b2c32abf4545ae7b3d137b6a08a66f3b868940d8126e66705e721413c0d218b29407797b643ba90b29e5214a098ca1ff7235911d6
 Description: Settings pane templates for Apelin, for rootless jailbreaks
  Lets Apelin create, build and package preference bundles on the device: a
  template with a switch and a text field, the PreferenceLoader entry that
@@ -68279,6 +68864,32 @@ Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.preferences
 Depiction: https://owngoal-dev.github.io/Apelin/
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
+Package: wiki.qaq.apelin.dev.preferences
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 60
+Depends: wiki.qaq.apelin (>= 0.1.0), preferenceloader
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin.dev.preferences_0.1.3_iphoneos-arm64e_49f742fa453acf7b94a219213ad451c3e8e68635d5f6cf8dd2397053adb0f76b.deb
+Size: 20020
+MD5sum: 6ce5217130cb48a8d64e37938c724038
+SHA1: eb7142731401db4d70f87fdb29434bd5808c7514
+SHA256: 49f742fa453acf7b94a219213ad451c3e8e68635d5f6cf8dd2397053adb0f76b
+SHA512: f16b3f2dc743e34826c2ccce236c4511fe205df13eacecf060875e3d105a3e68d59b3c6994a2a268c6d83d34d1112fbfb2ce75e7880774891db23e8e764df66e
+Description: Settings pane templates for Apelin, for roothide jailbreaks
+ Lets Apelin create, build and package preference bundles on the device: a
+ template with a switch and a text field, the PreferenceLoader entry that
+ shows it in Settings, and declarations for the private Preferences
+ framework. Needs PreferenceLoader, which your preferred package manager
+ installs with it.
+Name: Apelin Preference Bundle Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.preferences.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
 Package: wiki.qaq.apelin.dev.tweak
 Architecture: iphoneos-arm64
 Version: 0.1.0
@@ -68330,6 +68941,31 @@ Depiction: https://owngoal-dev.github.io/Apelin/
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin.dev.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 32
+Depends: wiki.qaq.apelin (>= 0.1.0), mobilesubstrate
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin.dev.tweak_0.1.1_iphoneos-arm64_3462bb262f8550c7c6b6502db86a7b5e508037e8cf9e6ad774edde016bf9c9ab.deb
+Size: 6312
+MD5sum: 6fd0562f904c25759796ed704dbc4be8
+SHA1: b65f3e03279833e9c320a384ff82d9e413becbcf
+SHA256: 3462bb262f8550c7c6b6502db86a7b5e508037e8cf9e6ad774edde016bf9c9ab
+SHA512: 8971af21a508caa668bcc5b83d105ce1fed5653264253281b1d84988499dbdd3d47d4d117c0bb0b27c9ffdce07bc276f8ed3d5c47463c6cf9b591a45d8535d83
+Description: Tweak templates and hooking headers for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package Objective-C tweaks on the device: a
+ template that hooks SpringBoard through the substrate-compatible API, the
+ headers and link stubs for that API, and the process filter. Needs an
+ injection framework, which your preferred package manager installs with it.
+Name: Apelin Tweak Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.tweak
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Priority: optional
@@ -68344,6 +68980,31 @@ MD5sum: 5736978c7ef1003a0b22b087d6466271
 SHA1: f5d4bcf5cc09cba22b284a21ca71e434ae09367e
 SHA256: c9e4b7d2dda3404bd9ee358d795118e944aa12aadc783e17294fbc379c8e3ef2
 SHA512: 19f186a280cc8dff99aac292622680c3a5bc521c116255bf006944d292282a793949555cb992667ef17f2548488804e7c8fde7249eacfa624f9417a3d25b5eb5
+Description: Tweak templates and hooking headers for Apelin, for roothide jailbreaks
+ Lets Apelin create, build and package Objective-C tweaks on the device: a
+ template that hooks SpringBoard through the substrate-compatible API, the
+ headers and link stubs for that API, and the process filter. Needs an
+ injection framework, which your preferred package manager installs with it.
+Name: Apelin Tweak Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.tweak
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 32
+Depends: wiki.qaq.apelin (>= 0.1.0), mobilesubstrate
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin.dev.tweak_0.1.1_iphoneos-arm64e_02bb20e8c71bfead03e454e73fba7b766c352f6396f86494ee4e4b623b7eab30.deb
+Size: 6204
+MD5sum: 92d26f45a9cb79d90ee6fc613afd2315
+SHA1: 3fc14f842083be9508788cca0d9198c3e2e9ee82
+SHA256: 02bb20e8c71bfead03e454e73fba7b766c352f6396f86494ee4e4b623b7eab30
+SHA512: 5dfbb2e4e10c365749207d953e91c5ac1c1ae44c1b93a9105a46c7759d703d8e438d264dc8d6a5f018d915d9bd84dfa390f72a97dc4886bdd223380174cfc1c2
 Description: Tweak templates and hooking headers for Apelin, for roothide jailbreaks
  Lets Apelin create, build and package Objective-C tweaks on the device: a
  template that hooks SpringBoard through the substrate-compatible API, the
@@ -68866,6 +69527,31 @@ Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.ighostvt
 Architecture: iphoneos-arm64
+Version: 1.6.23
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 16512
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64/wiki.qaq.ighostvt_1.6.23_iphoneos-arm64_b66cf800ed9c3328918eb45ac1889c1d18ab02e48a90d8d769d5a99f745e7b11.deb
+Size: 4923176
+MD5sum: dbc8536c4e75b035f0cde2787066fe6d
+SHA1: 08c95d2bf2819df4e15746178837f272be7cfafa
+SHA256: b66cf800ed9c3328918eb45ac1889c1d18ab02e48a90d8d769d5a99f745e7b11
+SHA512: 873ccc7024e8477fe35e2f2a68e380fc60299ddf54fe4e6c3fbd1b5ab7a44135417f1f734049af9dad7374879db7be07eca5d53c37ad2c21c53d5142b27f1950
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64
 Version: 1.6.5
 Priority: optional
 Section: Terminal Support
@@ -69166,6 +69852,31 @@ Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.ighostvt
 Architecture: iphoneos-arm64e
+Version: 1.6.23
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 16512
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64e/wiki.qaq.ighostvt_1.6.23_iphoneos-arm64e_083987c075897f21a3a9c67ad2a979a7ca7769d5a91bd7b909296c074ab87d19.deb
+Size: 4923432
+MD5sum: 22185c1e69e64b0fe0d00373898f0c4d
+SHA1: c495fa5ea213829972dcff0f557ba38cdaac74bc
+SHA256: 083987c075897f21a3a9c67ad2a979a7ca7769d5a91bd7b909296c074ab87d19
+SHA512: 568ca176ff88faa6b2c24cfda95e1e462b1e3042cdf49b4b97df98f80041d4766e06ad3580f670318dfe241e673ed5f8539b00fa1745b87b6f385c4a52704e38
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64e
 Version: 1.6.5
 Priority: optional
 Section: Terminal Support
@@ -69316,6 +70027,33 @@ MD5sum: ac0ba40dc719344623d124007508a6df
 SHA1: 1b3d51e6e6a90f86fa727922beb23715f6ca607b
 SHA256: 9738790c35e605f2e6d5972b8f5cfebee3e958726fb6b80d7bab197bf9e82c3b
 SHA512: b203a53d2fdb34e6e8c62a072cb7c232c2b2447eab1a18fdefb2be4fac365f11f7b7372ca5850fc587a00aa986832e645c4c20e03947d390b550ebd995f5bd30
+Homepage: https://github.com/Lakr233/Irisin
+Description: Package manager for Apple TV on RootHide custom firmware
+ Irisin on the Apple TV's Home Screen shows an address and a code: open the
+ page on a phone or computer on the same network to browse repositories and
+ install, update and remove packages, each change confirmed on the TV with
+ the remote. An on-demand root daemon installs packages natively and
+ registers apps with the system, without dpkg.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: appletvos-arm64e
+Version: 5.1.4
+Priority: optional
+Section: System
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 11172
+Depends: firmware (>= 16.0)
+Filename: debs/appletvos-arm64e/wiki.qaq.irisin_5.1.4_appletvos-arm64e_02b6996f325f6db054e86bc6e291edbb9cee574452875e8af628893a1a4cc2c3.deb
+Size: 3284592
+MD5sum: 5191942dee4722c75c3a68edc1031787
+SHA1: 920969a2a22e80ae4b93f610c3a1f9878480dbe7
+SHA256: 02b6996f325f6db054e86bc6e291edbb9cee574452875e8af628893a1a4cc2c3
+SHA512: 8fe2f0ff32c933883566db873e093f1eedec76d0aa9fe635c7df005e3b5f575f82d5c060a77924779ac296766e84772c8490eebd31502f4af7664ff4765405af
 Homepage: https://github.com/Lakr233/Irisin
 Description: Package manager for Apple TV on RootHide custom firmware
  Irisin on the Apple TV's Home Screen shows an address and a code: open the
@@ -69546,6 +70284,33 @@ SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
 
 Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 5.1.4
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 20800
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_5.1.4_iphoneos-arm64_d97b219844f9bf96459c58af35d6a78ac27f1ff85b407572853235689fbc9af9.deb
+Size: 5315196
+MD5sum: 7c2840e97a7c10ae226ff2deb11b1575
+SHA1: 52ea10e79eee0f60c903a689ef096fc83e60cde9
+SHA256: d97b219844f9bf96459c58af35d6a78ac27f1ff85b407572853235689fbc9af9
+SHA512: cf6b3113e1d9b492ba08f5cb9496ee75a204399a4d34459884800f4adca9ea840ab43741785f374ddd4cb560a9aed23eea842208ccc40599db9d26ec519ff066
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64e
 Version: 4.7.5
 Priority: optional
@@ -69748,6 +70513,33 @@ MD5sum: 129f462af3269a7a91907d8ecb8060f5
 SHA1: 957af4792bd35aa96cf8b1354c573e9beb169433
 SHA256: 9a6363a5e207278cda69cd3305dccb16c86eb597a485f053866c07029773f7f6
 SHA512: b6ed5fd170a98e274a4d63379da5b6a2383d0ca8f9bc19664fb07a61d61644316f0c4247e91ad460a64912c60a4e441c1b5f2055cafd68596f75a739d5780b93
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 5.1.4
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 20800
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_5.1.4_iphoneos-arm64e_dfc1c94d581f0a32a1423537773d658286559d53727d1f762c40e57f6e32aabb.deb
+Size: 5314404
+MD5sum: 1461cf5f4ae71a65292887a8465edb50
+SHA1: 14b5fb68f9ea5423000af67a03ee1cb6bb9e7697
+SHA256: dfc1c94d581f0a32a1423537773d658286559d53727d1f762c40e57f6e32aabb
+SHA512: c1bef16b6e1b153722b447b7310eff4add5b6e1849295afc92ddaff791557647a1d5e9d7380f9a34f7387bb26758d6985df658b47eb124f50d121ba5c557c3d1
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for roothide custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
