@@ -60280,6 +60280,25 @@ Author: zooah212
 icon: https://huayuarc.github.io/icon/swipedeck.png
 
 Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.5.6-2
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7360
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.zooah.swipedeck_0.5.6-2_iphoneos-arm64_32c3554bca318f4afb2c3216f2f8144d876a3880f4f98e90eb0159ffd429ef25.deb
+Size: 2377564
+MD5sum: 12801d5743533c7926c0d88075f960e6
+SHA1: 6686d397dd45381082df00784a0aba6fd5afeb1d
+SHA256: 32c3554bca318f4afb2c3216f2f8144d876a3880f4f98e90eb0159ffd429ef25
+SHA512: 847a5096831cac83d421f68aa1c49468c56970e0bde8a13e2512f1352c3442ea971bf5d8b08ef9f2f0c6ee95223672b17a930b4510db00536afd4422ceff1092
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+  *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
 Architecture: iphoneos-arm64e
 Version: 0.5.2-16
 Section: Tweaks
@@ -60353,6 +60372,26 @@ MD5sum: 425586deb382d90109874dc7d4986c7b
 SHA1: 5f988364529fcdfad20bbdede7b320b62b7d619e
 SHA256: 9596e53131fe969ea30db8d2af48522a28de48e65a90f228a3b51368b64e8f73
 SHA512: 8ec640b8634c9438335675b5804d75d471bfe813a77188be3f8cc674b4499205340b9e5f7888fa55e3dcd789d115367dd2f2d21bd24316be2c546b61a549cf38
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+  *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.5.6-2
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7360
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.zooah.swipedeck_0.5.6-2_iphoneos-arm64e_63ef220e54555701a68f118b5f1a690e9f47a4445fe6389461098f123d1690d1.deb
+Size: 2351076
+MD5sum: d253dbf513fcdb5062ea27ec2c462dac
+SHA1: 2f544fff5c657d2537ee13903dc3ee2930bb0670
+SHA256: 63ef220e54555701a68f118b5f1a690e9f47a4445fe6389461098f123d1690d1
+SHA512: d923be566d9069de34c98807fd2bd317e64bc5e6ce8c9480a51c9a77d327109edb25bf073efab557b916125bd996918e16b7bd8276b1600e213ff3e79c717ede
 Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
 Name: SwipeDeck - 快捷助手
