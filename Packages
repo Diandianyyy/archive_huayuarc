@@ -7067,6 +7067,42 @@ Name: VolumeMixer
 Author: Brend0n <brendonjkding@126.com>
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
 
+Package: com.bsnh.touch3ddeblur
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 196
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.bsnh.touch3ddeblur_1.0_iphoneos-arm64_10bd20cb6c236f099189aaf10cde2359df85e32196cb551a9da4ee18720bbc43.deb
+Size: 5324
+MD5sum: 5a65b6d5cbb537fe482c237832283bad
+SHA1: 3095cd45ec6784abc8c552769f09a0b3eb9c55ac
+SHA256: 10bd20cb6c236f099189aaf10cde2359df85e32196cb551a9da4ee18720bbc43
+SHA512: f1e2f6876cae05694b3b527f52546245c3a000af5bd572486aaf177b5c7697776db176a7f3e3b587216df39c268767fe6240e717b11d80ac081b1deabf288cc9
+Description: 3D Touch 长按图标弹出菜单时去除背景毛玻璃模糊，仅保留轻微灰色变暗，关闭时平滑渐隐
+Name: Touch3DDeblur
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/touch3ddeblur.jpg
+
+Package: com.bsnh.touch3ddeblur
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 196
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.bsnh.touch3ddeblur_1.0_iphoneos-arm64e_34a894882ad4e9ce0b786b8d3b08873167ea023b4cfecfd1d501eaf4552ee695.deb
+Size: 5564
+MD5sum: e20d7a24f64e7dde4a7d2633badde988
+SHA1: 7623abca197f8e8e0c39df72c2a150afb1becaf4
+SHA256: 34a894882ad4e9ce0b786b8d3b08873167ea023b4cfecfd1d501eaf4552ee695
+SHA512: 1aa2f8249817d6b1b692b86f70ea417b49a65694de1682f91aa2ac891e1466f6904b03e19c8c6b2c50c8ef79a58cfadfb1852d670cb9f63b6ea6917221eea68d
+Description: 3D Touch 长按图标弹出菜单时去除背景毛玻璃模糊，仅保留轻微灰色变暗，关闭时平滑渐隐
+Name: Touch3DDeblur
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/touch3ddeblur.jpg
+
 Package: com.bvm.wuzeililiang
 Architecture: iphoneos-arm64
 Version: 1.0.1-1
@@ -16697,6 +16733,42 @@ Name: Safari PyVideo
 Author: crctdd
 icon: https://huayuarc.github.io/icon/pyvideo.jpg
 
+Package: com.crctdd.sharingx
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 17.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.sharingx_0.0.3_iphoneos-arm64_737732469f5f78ce872b36175be8f85caddeadfe7f24e3821af0db573e3825c6.deb
+Size: 11992
+MD5sum: 961cdddce71bca50587fc73b51057bf0
+SHA1: acabfb0a4ab5b60003a734b412d8c16b33c06e22
+SHA256: 737732469f5f78ce872b36175be8f85caddeadfe7f24e3821af0db573e3825c6
+SHA512: b972db6c6187ff52ea299d859435d67a64f7653f8ed27b5edb22d3ebc31a16b6c614ee5d2f5ac2f7b5512340bf84c2cc1ccec17b56c161d9bbef52ae6db75dc2
+Description: iOS17接收隔空投送弹出系统分享面板 (照片/视频 除外)，不直接跳转；无设置项。(仅iOS 17.0+使用)
+Name: SharingX
+Author: crctdd
+icon: https://huayuarc.github.io/icon/sharingx.jpg
+
+Package: com.crctdd.sharingx
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 92
+Depends: mobilesubstrate, firmware (>= 17.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.sharingx_0.0.3_iphoneos-arm64e_7817a0a3b6fd0987e96eff48e5e6fdde8a3e555c056e4ce0c217327752b33cf3.deb
+Size: 9112
+MD5sum: 03d4da4c10e156dd8daa93dc77ac9f4a
+SHA1: a1be2b22df3afbad1d29b99b301c00c538328d97
+SHA256: 7817a0a3b6fd0987e96eff48e5e6fdde8a3e555c056e4ce0c217327752b33cf3
+SHA512: b2855a0f663f89e4b2a809da3cd0ae802955b1f638cc5523bff4b21b670144b7989dcd5ceaa2a8b1764052ce76a1807f39f847fb9ff2a99a734a501ec6a0198e
+Description: iOS17接收隔空投送弹出系统分享面板 (照片/视频 除外)，不直接跳转；无设置项。(仅iOS 17.0+使用)
+Name: SharingX
+Author: crctdd
+icon: https://huayuarc.github.io/icon/sharingx.jpg
+
 Package: com.crctdd.shorbar
 Architecture: iphoneos-arm64
 Version: 0.0.7
@@ -23925,6 +23997,26 @@ Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
 Package: com.huayuarc.cputhermal
 Architecture: iphoneos-arm64
+Version: 1.6.2-161+isolation.42
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 2432
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/iphoneos-arm64/com.huayuarc.cputhermal_1.6.2-161+isolation.42_iphoneos-arm64_169d3bb098e625ce952c9b81e57ffd11cd04f0de969e1440c2eeabc9f934cd2b.deb
+Size: 179512
+MD5sum: 31cf5a65ad85d6d1b9ce030b741dfa18
+SHA1: 1b3f4686b951c5d63fd2d652836109e029ff0108
+SHA256: 169d3bb098e625ce952c9b81e57ffd11cd04f0de969e1440c2eeabc9f934cd2b
+SHA512: 1f3e72830ea65cdaf7b5d6e17027a16169a6331a6f930781e8f3be87e0edb89eabb74d8900c0274fc8247c1a644e687816bdf755262753fb066e41cbcc8127c6
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64
 Version: 1.6.2-164
 Section: Tweaks
 Maintainer: Huayuarc
@@ -24259,6 +24351,26 @@ MD5sum: 4c392c3a10480141b7c4bbafbe27e560
 SHA1: f3ccc051ecd799183210429eabf578594ff67ffb
 SHA256: 4c1f5e81410fb4ff19ffde9abdaa032a6cc3d43b2ebbdb12b684cb38355e717c
 SHA512: 0ef12e63440874df8e8d3ac6b153fc1c20bf9f235cf3072168b2233f3817507cd5c2e451b262dd21863836b00fc16a0fb930a9ca25ddc8555ee90ad968c77af1
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-161+isolation.42
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 2448
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/iphoneos-arm64e/com.huayuarc.cputhermal_1.6.2-161+isolation.42_iphoneos-arm64e_a3b7730bf99d4f24c6d3aa07709e75f33f9c17d58e877015a0b984fc3d3ee93c.deb
+Size: 180460
+MD5sum: 9493488602c901a2a934ef0e35dc6650
+SHA1: 5042d97f0fdf7f78dd1e1195f3fc9dcbb7df9eba
+SHA256: a3b7730bf99d4f24c6d3aa07709e75f33f9c17d58e877015a0b984fc3d3ee93c
+SHA512: 2b4c5c8de85413f40dac1842d11596292a1f005c1eeddc94c2e88edbe827772ae5fa60a5d565245c0d0b80e8a0383ab743531299b3a6eee0af8fc47e20a6dbdb
 Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
 Name: CPU 解除温控
 Author: Huayuarc
@@ -52898,6 +53010,53 @@ Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
 
 Package: com.snapbackup
+Architecture: iphoneos-arm64
+Version: 3.8.4
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 648
+Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
+Filename: debs/iphoneos-arm64/com.snapbackup_3.8.4_iphoneos-arm64_d3447ee71164d5ae7f82d8ea2b4e4ab673b776923a3cef94c3973355089bf1bb.deb
+Size: 1121004
+MD5sum: 27c87ca704ce9cbabdcd553de9109e98
+SHA1: 98d7232396bb24f8895ba364e6baabf60a4eb4f4
+SHA256: d3447ee71164d5ae7f82d8ea2b4e4ab673b776923a3cef94c3973355089bf1bb
+SHA512: 32a5b66342ff062c2e1d1e0dcc179a73e7458f0a3261c8b5aa237eefe84423546ba4ebfbcdfeb8eac2f0330e759d1d74dc45f2b3b2669f1b7877980d03a0b8f5
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有者
+ .
+ 【恢复流程】
+ - 独立 root helper 校验备份完整性、包元数据与架构，依赖由 Sileo 处理
+ - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安装
+ - 备份结果支持多选恢复，自动处理 Sileo 获取及本地重新安装入队
+ - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
+ - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
+ - 外观支持浅色、深色及跟随系统，自动记住选择
+ - Sileo 内仍支持多选 deb、导入文件夹与 SnapBackup 待恢复任务
+ - 使用 Sileo 原生安装队列；恢复插件与恢复配置为独立按钮
+ - 可单独恢复备份配置，也可按 Sileo 任务核验安装结果后恢复对应配置
+ - 保留恢复日志与配置覆盖前的副本
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包
+ ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安装
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Name: SnapBackup 备份恢复
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.snapbackup.json
+
+Package: com.snapbackup
 Architecture: iphoneos-arm64e
 Version: 3.6.5
 Section: Tweaks
@@ -52935,6 +53094,53 @@ Author: kanuo
 dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
+
+Package: com.snapbackup
+Architecture: iphoneos-arm64e
+Version: 3.8.4
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 648
+Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
+Filename: debs/iphoneos-arm64e/com.snapbackup_3.8.4_iphoneos-arm64e_1389d1fd188b59c1fc6b28254f5a2192574cbd5e7fb849ca87fdf741afed7328.deb
+Size: 1120788
+MD5sum: 594aad366fb57ba02ff665824699e00c
+SHA1: 5258a3364b0cc440259ed58ebc7131756c90a593
+SHA256: 1389d1fd188b59c1fc6b28254f5a2192574cbd5e7fb849ca87fdf741afed7328
+SHA512: c3b84881239cd06b622f4f625f692ca939705cb86878d72755dbb48543a5a0bba1640a567baf028656e9baa8bb84dafb55697f29a9d47180cb30f065c75935c3
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有者
+ .
+ 【恢复流程】
+ - 独立 root helper 校验备份完整性、包元数据与架构，依赖由 Sileo 处理
+ - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安装
+ - 备份结果支持多选恢复，自动处理 Sileo 获取及本地重新安装入队
+ - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
+ - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
+ - 外观支持浅色、深色及跟随系统，自动记住选择
+ - Sileo 内仍支持多选 deb、导入文件夹与 SnapBackup 待恢复任务
+ - 使用 Sileo 原生安装队列；恢复插件与恢复配置为独立按钮
+ - 可单独恢复备份配置，也可按 Sileo 任务核验安装结果后恢复对应配置
+ - 保留恢复日志与配置覆盖前的副本
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包
+ ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安装
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Name: SnapBackup 备份恢复
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.snapbackup.json
 
 Package: com.spark.ccmusicartwork
 Architecture: iphoneos-arm64
@@ -56419,6 +56625,25 @@ Icon: https://tsangbaby.github.io/Icon/Galaxy.png
 SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
 
 Package: com.tsangbaby.galaxy
+Architecture: iphoneos-arm64
+Version: 0.5.3
+Section: Tweaks
+Maintainer: Tsangbaby
+Installed-Size: 2852
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.tsangbaby.galaxy_0.5.3_iphoneos-arm64_b0d03bdb7bce34aacf71ba1e79a12d64a77b7bab8e05c7c55ab426eb1f15fc38.deb
+Size: 620692
+MD5sum: 737f65509b53b18698639abd92bbf48d
+SHA1: cd426c16530a032453ef146584cc4e4075324948
+SHA256: b0d03bdb7bce34aacf71ba1e79a12d64a77b7bab8e05c7c55ab426eb1f15fc38
+SHA512: fd141f1c7c42c22d0da76fdc5b372b09494854a185b490aefb91d4850235ee58c8f9bedbad48c5b9f4e6e8b4f474d127a74e7986f659a5f34b9fd7cdb4ae6be9
+Description: Independent circular app launcher for iOS 15 and later.
+Name: Galaxy
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
+Package: com.tsangbaby.galaxy
 Architecture: iphoneos-arm64e
 Version: 0.2.3
 Section: Tweaks
@@ -56488,6 +56713,25 @@ MD5sum: b237f771e8d413889419848e06640e8d
 SHA1: d76981968f304e6f95fb95921962865a70c0c801
 SHA256: 5443251f598fb96b9c06e3f0cd7612d86862f251dabc887fa935a66c03996af6
 SHA512: 4491c17b3b43d7850a53bec210bce5bdd53c2caa0437bf3193e6baba683df73b0640eaa571c6e29cf5ab60568d05a522d66d50a3a3f67703d96519567724065a
+Description: Independent circular app launcher for iOS 15 and later.
+Name: Galaxy
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
+Package: com.tsangbaby.galaxy
+Architecture: iphoneos-arm64e
+Version: 0.5.3
+Section: Tweaks
+Maintainer: Tsangbaby
+Installed-Size: 2852
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.tsangbaby.galaxy_0.5.3_iphoneos-arm64e_54bff94bcf3811d3f94c4af640b73c6d9d3d546024557fd3a89f23071e295142.deb
+Size: 621244
+MD5sum: a71f9cba53a41f7f58042bce21be2d5f
+SHA1: 8f2f05c950233d9f6b98c2115eb4180e355bfa23
+SHA256: 54bff94bcf3811d3f94c4af640b73c6d9d3d546024557fd3a89f23071e295142
+SHA512: 7da3693e59d25d3929dcd180719517cf79c37391c64d5e3d06b0cd0b1172bcaff5e3f8b9dddd7c522a5b15937d3287e71d302e543899c16350ae61d48550c3b2
 Description: Independent circular app launcher for iOS 15 and later.
 Name: Galaxy
 Author: Tsangbaby
@@ -57114,6 +57358,29 @@ SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/d
 Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
 
 Package: com.tsangbaby.pulloverx
+Architecture: iphoneos-arm64
+Version: 2.4.0
+Priority: optional
+Section: Tweaks
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64/com.tsangbaby.pulloverx_2.4.0_iphoneos-arm64_5848472faf4149e09d1f4fe1ee77c827232e4632bfe69d2acc4e02a7eb5105cb.deb
+Size: 679008
+MD5sum: 7bd9537984aa53f9e1a1cf619f5a7f16
+SHA1: e9d75d2903f700f8dd8587f5fbdff8ecbc2fd271
+SHA256: 5848472faf4149e09d1f4fe1ee77c827232e4632bfe69d2acc4e02a7eb5105cb
+SHA512: 908bc66eeb4b0f56953126750c64205008ff3b74d80d4f11ff6e428ad073c81c00d1fe40cddba5d36cef48a64efacfe24c4f9eb2202760edd1e2bddfbb1208e2
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+
+Package: com.tsangbaby.pulloverx
 Architecture: iphoneos-arm64e
 Version: 1.4.6
 Priority: optional
@@ -57694,6 +57961,29 @@ MD5sum: c6c6d423aa2c36552ed54b6606b2e71a
 SHA1: 6782a24b854f8ecbc2990745399c195c2f9e141c
 SHA256: 4775598bbe55271e4b948768df7ed1632e69b8c0529a2e610806269a0893b9fa
 SHA512: ce164ef1ae7f4df3627432fdfa16b10de76f4b674200e43d930fc1efa336c59f38e1b2fb18a5dc66cbd7f2a3e1a8ca90ffc892a21a194ee439177736c93d06e5
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Name: PullOver X
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+
+Package: com.tsangbaby.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.4.0
+Priority: optional
+Section: Tweaks
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/iphoneos-arm64e/com.tsangbaby.pulloverx_2.4.0_iphoneos-arm64e_0bd817cb233c8005c24b1637c20a16985d24abbac28e7c4a1778ebfd1ae9467a.deb
+Size: 677492
+MD5sum: d8c85d9c11c7668b7c47b1717d6b5cbf
+SHA1: becebf2ec286a30eba47c255adb4962f9b7bf182
+SHA256: 0bd817cb233c8005c24b1637c20a16985d24abbac28e7c4a1778ebfd1ae9467a
+SHA512: b97541c422b077b716ec8bf9f73cbc1a32bffcb2e5eeb7c73fd44619eda86da7de87b33c9b87b986efc536377130b0d5cc65e64e6e39bc8077289fd164f8534e
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
 Name: PullOver X
 Author: Tsangbaby
@@ -61664,6 +61954,26 @@ Author: Junhong
 icon: https://huayuarc.github.io/icon/hongguo.png
 
 Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 2.2.0
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 5052
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/hongguofn_2.2.0_iphoneos-arm64_feb076211a651365345ab3d61ce57fcccf9f8a328b571a3f5d9b8daddbd7f846.deb
+Size: 2197520
+MD5sum: 8ad003c006e35b2826f3d96dce8a45d8
+SHA1: f73b3e070b47417f3c6f2a40f9e3693713ea9082
+SHA256: feb076211a651365345ab3d61ce57fcccf9f8a328b571a3f5d9b8daddbd7f846
+SHA512: 0a32a757a7d4a04dbea552527b23dedffa6f909ed4e59163dc3aeee6f81c98101a6d5f755ee48c657ea0b6675b913879d83fb59844a405671eaa0bc826327e5a
+Homepage: https://hongguo.goforit.si
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -61834,6 +62144,26 @@ MD5sum: dfc86d3852a2c2ea57972c36a404146c
 SHA1: 669c0d1623e840d27706c13f0b6e645235db3cc2
 SHA256: d56487d7236b68c351931635c0779dfeaa73f1ba601196ed2933d7f7843a6821
 SHA512: fce78d4b3e6126337fb13dbb8534b09a804dfc19b117298bedcf8975152be01cf0c80e0b7bc9c0e71f8bd1134fe4f49220398ab8e9b7888115e857e626268418
+Homepage: https://hongguo.goforit.si
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
+Architecture: iphoneos-arm64e
+Version: 2.2.0
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 5068
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/hongguofn_2.2.0_iphoneos-arm64e_97903072683a8266d73e6244342d8ba108800878ba9680cec9c8b0078c82f81f.deb
+Size: 2193204
+MD5sum: 379bc67e85c6a9e73cb28b40f8d9ccf5
+SHA1: 393f5dc022dce3f145839731b7542d1925348914
+SHA256: 97903072683a8266d73e6244342d8ba108800878ba9680cec9c8b0078c82f81f
+SHA512: 0f78533017d06a5326c49d35d946def51d50c9590ed14b56583f85e66f6ff268e6a39b2227f9bf83c1566d3d2c469665fc872f90f5ac03f3fe2044683239d8f9
 Homepage: https://hongguo.goforit.si
 Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
  兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
@@ -69282,6 +69612,29 @@ SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.3.4
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 96260
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.3.4_iphoneos-arm64_90caddba29867c937420522ead4f6d55b27eea12de11c571cb49502410382e9f.deb
+Size: 22697268
+MD5sum: db7a9ddaa5b7d73e0c38052f2df01b53
+SHA1: ed177bfef93e700de98656fff80a6562f7c3e62c
+SHA256: 90caddba29867c937420522ead4f6d55b27eea12de11c571cb49502410382e9f
+SHA512: ae46d8dbf3638decb37afa602478528e5d7e91031115f59cc0308fa315118ea5ef9823dc9138d48bfb4e1c73234d3a325ef60183846bc8bd08c185c5e6aa5b90
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Priority: optional
@@ -69595,6 +69948,29 @@ MD5sum: 8f4a8f398a7ae349b1703428b1c716e8
 SHA1: 704fd884d70a0ee5aeb4f2da5d0b309110c4643e
 SHA256: fee4bdcb94e289cc170888e626ba05587911aec1a2e9a1a796363e31344425e8
 SHA512: e3da5d750d5b21c25dfec214fec842ac2b8c6b23c13e8df237e187bbc5b224374db23a6702d3732dedf9b51ec2a7c2bbba7413d4bbc93814325e8c0119b43249
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64e
+Version: 0.3.4
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 96260
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin_0.3.4_iphoneos-arm64e_5a13ec0b4bd62547c5112cf78f607e31b69c6a90addce68ca10a742a3060ab2d.deb
+Size: 22689624
+MD5sum: c7f7bd07f8d57a73e8d8944c35c7885d
+SHA1: 09d81b582893d8996566a187df996a5d899b7506
+SHA256: 5a13ec0b4bd62547c5112cf78f607e31b69c6a90addce68ca10a742a3060ab2d
+SHA512: 8c07c7b59e36a89aaf9e2253ee291574e80863a1794df1e31dc6c99f00cc80c6304d50bbb0a40f866f35ede27990a215727169f5151d4f14bfbb78b935eece15
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
 Name: Apelin
