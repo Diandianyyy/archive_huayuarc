@@ -33706,6 +33706,25 @@ Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
 Package: com.mlgm.actra
+Architecture: iphoneos-arm64
+Version: 1.3.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 4112
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64/com.mlgm.actra_1.3.3_iphoneos-arm64_d06b69437901ce6332d045adfc1d6de75706b31f603f3cd5687d0b280a492e3c.deb
+Size: 815308
+MD5sum: 62fb580d045b436f45de9081471c115c
+SHA1: 166afc39e66f4b0173830dfec09bd4aea031e312
+SHA256: d06b69437901ce6332d045adfc1d6de75706b31f603f3cd5687d0b280a492e3c
+SHA512: fb742142a8dd770efd740f83b0650db8f08cbfa9bedc7917db1ea5e0dc0c9b80971d7ebd38f8558630edc8a8c1e2eaa159cd7e83da323fdbd29203da6b264fed
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -33814,6 +33833,25 @@ MD5sum: 89fd5c386461f3d520a8ad4035d0b5ac
 SHA1: e39b90422bb3be07f3028500635c33ff312052d4
 SHA256: 941aee627f7e56f9b0226a445998b78333c753ccc5ded5ae2cb5a7d949a46dc9
 SHA512: 1795a09f6e10f0dabeaf1b54e43dc13db995d56c708420ca12406098256399053d3a302a39a2f0bbd70b992da8f00e5b5d0c60cd63f0c3617f9756e5c3b1c3ee
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.3.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 4116
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64e/com.mlgm.actra_1.3.3_iphoneos-arm64e_ecc82214ddbb88b0fdab68d0e918a412486ee6c7d78da17146c1ec34d6bd3b24.deb
+Size: 817304
+MD5sum: c6b7dde5fabc2daec3197591a09870cf
+SHA1: ecb0fa9c2a2800a37169766ee1a8cfd229ec44a7
+SHA256: ecc82214ddbb88b0fdab68d0e918a412486ee6c7d78da17146c1ec34d6bd3b24
+SHA512: d0103516f028face3c4531ce802a83d211c2ec732a5b89459434e3c93078ba2b579cae3776315f58a41ed1e6a529299ef3533938a338ffc826372d4df0d2d152
 Description: 手势与事件自动化工具
 Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
@@ -34668,6 +34706,27 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.kayoko
+Architecture: iphoneos-arm
+Version: 5.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3896
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm/com.mlgm.kayoko_5.1_iphoneos-arm_7e87bb408b2f3544006bd9675a2593dc71a3d657cae2120b0bee0f14f87525b4.deb
+Size: 824324
+MD5sum: 919ed6acb8df668f36c05299d98d9e0f
+SHA1: 8fad2202ab871144751114dac7aa7c1c0a17003a
+SHA256: 7e87bb408b2f3544006bd9675a2593dc71a3d657cae2120b0bee0f14f87525b4
+SHA512: 5b09b0d7450aaf8d776f7db51976b38c43a2fc03699e990d8a4192367b4bde688fdb948278973ccb3d06f91fc377334b1a8595c152807e5769716311b0fa1a81
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
 Architecture: iphoneos-arm64
 Version: 4.5
 Section: Tweaks
@@ -34888,6 +34947,27 @@ MD5sum: bec45ce49c34abaa72058e3d2f2c3576
 SHA1: 97a086b9975b14e97f0015c368c45407e962a0af
 SHA256: d4a885504feedb1fe018a029566d587892727839f3a6b1d55aa8bfea2ef8d24d
 SHA512: 3b20f51095803f1f79f20147b2bb42617d344ae66967ca70dca9ccf1f857c6e9886e58a77f5517502bc8cd677f0978f0ddfa510a104b5f02192649016c93b6b2
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 5.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3896
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_5.1_iphoneos-arm64_263ffbceff07cc3b8363f8bfd0a1f74775f9358fef5de38b4ec830e2b0542396.deb
+Size: 824044
+MD5sum: f15d21ff55b93425de6027c11d8b8c00
+SHA1: 95c505ad72a261606346ababfdcd23107f64442d
+SHA256: 263ffbceff07cc3b8363f8bfd0a1f74775f9358fef5de38b4ec830e2b0542396
+SHA512: 3aee8f5d2dc2276b73a52b5d55812bd735a4e58e4d689f2a490576830fb6708894121a52cb7b2f75d96f9b69933b532bd4cc3bd827a8946c464c77b98367c013
 Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
 Name: Kayoko
 Author: mlgm
@@ -35121,6 +35201,27 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3864
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_5.1_iphoneos-arm64e_ee19cbf3d6db42e9ba8d5b5d332f17f6aee02720e576819bbe14c2cdeb8f75f4.deb
+Size: 819056
+MD5sum: 8b267ae9b142c742f109eb2e4ab12d63
+SHA1: dca24a61c1cfc9083c21bc6e12f1306fa62d2573
+SHA256: ee19cbf3d6db42e9ba8d5b5d332f17f6aee02720e576819bbe14c2cdeb8f75f4
+SHA512: be4c3de93bce9ffe1f42d04435c21dfe81f2aa86a6b55da867fbda48969c60acc486847c7612eaf22d5f18b7b3eb932aae4b4af7f309437a3d1530f1e14baf24
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
 Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -35176,6 +35277,24 @@ Icon: https://mlgm66.github.io/icon/prefnest.png
 Author: mlgm
 
 Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.mlgm.prefnest_1.2.3_iphoneos-arm64_cd90325aa96e63847be23cf544a043cc6c8b69ce58bcb1e24f42a6154f8fa314.deb
+Size: 173568
+MD5sum: b59a0a08c246b608a9403b3153487577
+SHA1: 3a5ba7f867b73f15ce3545f75f0c65cac33574e1
+SHA256: cd90325aa96e63847be23cf544a043cc6c8b69ce58bcb1e24f42a6154f8fa314
+SHA512: 7050239d86784d475da75232d379871e594a8850da2a7af96569b0d4ee768a6af8d4bd6cdd5e54f47a70e2fc50dc9869b96086d7aee117ad31d92d251ff51ddc
+Description: 整理设置首页，集中收纳越狱插件。
+Name: PrefNest
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Author: mlgm
+
+Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64e
 Version: 1.1
 Section: Tweaks
@@ -35224,6 +35343,24 @@ MD5sum: d9f36fb4228975a0dd9c1d9241fcaee8
 SHA1: aa8a92c9266fc6d0b775db3836665a3b49d55ab1
 SHA256: 8d8a8c6ad02a80028b2add83b6d5a8e4e49bf7e7e9114419851f1503b9e6b9ac
 SHA512: 1f75a4716127f27dec1cb1d033ea8d92c5c7b1878a99301cc58e513629f34449b3cde38bb7ce2429886393c94dae96908fde4406712a9999409fc5738688ff8f
+Description: 整理设置首页，集中收纳越狱插件。
+Name: PrefNest
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Author: mlgm
+
+Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.mlgm.prefnest_1.2.3_iphoneos-arm64e_790cb41dee90d224de75865f0efa890e641e26466ade378bd84f2e544d930c2f.deb
+Size: 171304
+MD5sum: a4e79fc26ebe28acb566cb8adadc31bf
+SHA1: 7992d2cb0f5c23f4230f745b846ed8444370c582
+SHA256: 790cb41dee90d224de75865f0efa890e641e26466ade378bd84f2e544d930c2f
+SHA512: 8dbc42c46ea19dc02f8ea9fd2bae145a61e14a08908ecf7edbe6b64913fac7d68a06aa0859be642cf97243aa28fe3608694b9c028b98ff674d46bbe6b9147632
 Description: 整理设置首页，集中收纳越狱插件。
 Name: PrefNest
 Icon: https://mlgm66.github.io/icon/prefnest.png
@@ -36272,6 +36409,42 @@ Description: 触摸轨迹可视化
 Name: Taploom
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/taploom.png
+
+Package: com.mlgm.watchfix
+Architecture: iphoneos-arm64
+Version: 2.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5248
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.mlgm.watchfix_2.1_iphoneos-arm64_fc9fbab78146c8e0daddc150d73206f272b39e38230b91e737f95bb4c9660b41.deb
+Size: 823456
+MD5sum: beab7702b6ecdbe48c5d5d223a871ced
+SHA1: fa9b5794185b7ce80c1b6e9ef5753272c189fd9e
+SHA256: fc9fbab78146c8e0daddc150d73206f272b39e38230b91e737f95bb4c9660b41
+SHA512: d5917d218db8774cbc127d5a04f08d494ed2838eb0967c0bdb04992b131ed21ca454530b236d0ca8f9da2820fe5ad121c93ac0bb6164beb3b3c1c5aa72b8415b
+Description: 解决 Apple Watch 连接问题
+Name: WatchFix
+Author: 577FKJ
+Icon: https://mlgm66.github.io/icon/watchfix.png
+
+Package: com.mlgm.watchfix
+Architecture: iphoneos-arm64e
+Version: 2.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5252
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.mlgm.watchfix_2.1_iphoneos-arm64e_30b8f3cc38025b0d65278eecc4362e87801bbc359a68e950316318b97d0ecb7b.deb
+Size: 819624
+MD5sum: 6e2f025a95a87e8c60f77ae795c3d850
+SHA1: 6cb68c42866ef6739ec812c1c359cedfc361d2bf
+SHA256: 30b8f3cc38025b0d65278eecc4362e87801bbc359a68e950316318b97d0ecb7b
+SHA512: 8f3ceebb9d3ee6d1530e30e160ad95c45fd835f4f83a8df5235d788363ca6350582b69f06367702368c391adbde15ef27799c076d4970247d3276521c24621b4
+Description: 解决 Apple Watch 连接问题
+Name: WatchFix
+Author: 577FKJ
+Icon: https://mlgm66.github.io/icon/watchfix.png
 
 Package: com.monian.b612patch
 Architecture: iphoneos-arm64
@@ -60571,6 +60744,25 @@ icon: https://huayuarc.github.io/icon/swipedeck.png
 
 Package: com.zooah.swipedeck
 Architecture: iphoneos-arm64
+Version: 0.5.6-14
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7424
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.zooah.swipedeck_0.5.6-14_iphoneos-arm64_a307c047f20b6621aa1cf1dc061d7674878c8f296f1a3b3588ded6d07400ccad.deb
+Size: 2393196
+MD5sum: f2cbe49c0940223456c16816bbb95aaa
+SHA1: 554a87c6f2e5233060a20933b9bc73eab8be8723
+SHA256: a307c047f20b6621aa1cf1dc061d7674878c8f296f1a3b3588ded6d07400ccad
+SHA512: c2a98d1812d4964d60a2e5f4892c039ce6cba96bd4434193910344dc1cef6463530b7988c767cd4b09643fe42368c3285b4fe7389fcaed4186583672aa983239
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
 Version: 0.5.6-2
 Section: Tweaks
 Maintainer: zooah212
@@ -60664,6 +60856,26 @@ SHA256: 9596e53131fe969ea30db8d2af48522a28de48e65a90f228a3b51368b64e8f73
 SHA512: 8ec640b8634c9438335675b5804d75d471bfe813a77188be3f8cc674b4499205340b9e5f7888fa55e3dcd789d115367dd2f2d21bd24316be2c546b61a549cf38
 Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.5.6-14
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7424
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.zooah.swipedeck_0.5.6-14_iphoneos-arm64e_7ac1a1a5a1c883a7fd5d4bf456cb6273ea2915f86b826b2aafac4745c8848157.deb
+Size: 2369132
+MD5sum: 1da297e2eecba6cb682c8c7a73c3cafb
+SHA1: 8dbe182ef93d8d52da288538087be69a38baa93f
+SHA256: 7ac1a1a5a1c883a7fd5d4bf456cb6273ea2915f86b826b2aafac4745c8848157
+SHA512: 694ace4578731ff741e6e70f27707836332485215a23da4668158268615f54fc3a698e7583603aec57ce7d339c0a428a2863cf1c619c81f1667e3480d701b233
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
 Name: SwipeDeck - 快捷助手
 Author: zooah212
 icon: https://huayuarc.github.io/icon/swipedeck.png
