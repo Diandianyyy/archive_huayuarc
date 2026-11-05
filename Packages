@@ -16412,6 +16412,42 @@ Author: colorblack
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
 
 Package: com.colorblack.youdaoyunbiji
+Architecture: iphoneos-arm64
+Version: 0.0.1-11+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.colorblack.youdaoyunbiji_0.0.1-11+debug_iphoneos-arm64_d8417aa4b77032d1ac50330dd0372207efbc66ad584a41c77c5fcf6a98569820.deb
+Size: 7652
+MD5sum: 62a12c8c6ac3b6043918a318e772f5f4
+SHA1: 5e079efc5ac3853047e7d52bf55bac31842e3007
+SHA256: d8417aa4b77032d1ac50330dd0372207efbc66ad584a41c77c5fcf6a98569820
+SHA512: 5d19ca2a66f39f718e2c3909fd4ad084595ebb78a73fd38ada2330234ca70e9c6cfef17131c2e1bbba478ac59d98efb34c275c4c388d5c89286d8a8c51be8331
+Description: 有道云笔记启动屏广告跳过插件，适配隐根(RootHide) ,
+Name: 有道云笔记 NoAds
+Author: colorblack
+icon: https://huayuarc.github.io/icon/youdaoyunbiji.jpg
+
+Package: com.colorblack.youdaoyunbiji
+Architecture: iphoneos-arm64e
+Version: 0.0.1-10+debug
+Section: Tweaks
+Maintainer: colorblack
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.colorblack.youdaoyunbiji_0.0.1-10+debug_iphoneos-arm64e_71e91b6281a098a41ab697e47985504ddc9c055681740bfe821705ffa42725bd.deb
+Size: 7588
+MD5sum: ded2f5d2bc9960ecf6d9f5b60ca4bd5b
+SHA1: 71dc3b4821b712843b18cf5574863be61aa102ce
+SHA256: 71e91b6281a098a41ab697e47985504ddc9c055681740bfe821705ffa42725bd
+SHA512: c043604dcaf6178795e59a343ec4ee78d846fbc605618566d3e9ba3ca8381c0dfb5effb2590254324ecb64562783312f88087b7269e0d9ce11673347f0f2fdb0
+Description: 有道云笔记启动屏广告跳过插件，适配隐根(RootHide) ,
+Name: 有道云笔记 NoAds
+Author: colorblack
+icon: https://huayuarc.github.io/icon/youdaoyunbiji.jpg
+
+Package: com.colorblack.youdaoyunbiji
 Architecture: iphoneos-arm64e
 Version: 0.0.1-10+debug
 Section: Tweaks
@@ -17202,6 +17238,25 @@ Author: crctdd
 icon: https://huayuarc.github.io/icon/memtrim.png
 
 Package: com.crctdd.memtrim
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.memtrim_0.0.3_iphoneos-arm64_d662888ec2903588ee7f4cbb3f4581e5ebaae3a87ce2931aedf46bb551c1136c.deb
+Size: 69404
+MD5sum: a3434f345f6e61ec137f7b4f28a68a1b
+SHA1: c4a27f61211da6f09597b4fec94e05c0ad6638de
+SHA256: d662888ec2903588ee7f4cbb3f4581e5ebaae3a87ce2931aedf46bb551c1136c
+SHA512: a73e3eabeac3872d69a020bb397f9933362272d12665203f3a6d462bea98d972027ed25fd41bb2a6740c369686be360f2e9b9a7a40a212f417d921a8f7324210
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Name: MemTrim
+Author: crctdd
+icon: https://huayuarc.github.io/icon/memtrim.png
+
+Package: com.crctdd.memtrim
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -17233,6 +17288,25 @@ MD5sum: 29c10fd77a6990a159fc213ddbd9b057
 SHA1: ed8c8e6cedf9cdcf96823f11a565b63a14b9d3d9
 SHA256: e73f48e6aea4285abb68c81581efcac0ea2675e949d94b181c295cff7cd35686
 SHA512: 73573aa668730a3a4c61d3c986157afef0c000e875e2fe9a96beb00ad36433e71903fb3f9188cd5c88c5b0b860d248fb332c140d2d0726e77b17c47a4d504ec7
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Name: MemTrim
+Author: crctdd
+icon: https://huayuarc.github.io/icon/memtrim.png
+
+Package: com.crctdd.memtrim
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 464
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.memtrim_0.0.3_iphoneos-arm64e_d5f16776c58e49cbdca0f3c4077b262be39e0ad5f6b4cb0854ac3f44f2438106.deb
+Size: 54516
+MD5sum: 98c93b8f7480366ea2e9b4bfc334fdae
+SHA1: 6edf75e16c44e781456047b0435b5dfc2f862019
+SHA256: d5f16776c58e49cbdca0f3c4077b262be39e0ad5f6b4cb0854ac3f44f2438106
+SHA512: d45b0d8e037f2d1371866597d9818c66bd7c2c5e7c27f1a5fe04211db4c68e7d12f2a2e2bc0b0802adb8732bd7c651c2a247d2f2698b6d7716d74cccead51677
 Homepage: https://crctdd.github.io/repo/
 Description: 优化并释放部分运行内存。(支持iOS 15-17)
 Name: MemTrim
@@ -26663,6 +26737,30 @@ Depiction: https://cydia.ichitaso.com/depiction/iconorder.html
 SileoDepiction: https://cydia.ichitaso.com/depiction/iconorder.json
 dev: ichitaso
 
+Package: com.ichitaso.iconorder
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Tweaks
+Maintainer: Havoc
+Installed-Size: 168
+Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Pre-Depends: firmware (>= 12.0)
+Depends: mobilesubstrate
+Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Filename: debs/iphoneos-arm64/com.ichitaso.iconorder_1.0.4_iphoneos-arm64_d18b1d11492a0a83364c118eede426948804f4dc6d04563d88f7a578f8c80921.deb
+Size: 8316
+MD5sum: 5e803ab5b638f332218dd59d3b41bb42
+SHA1: d91aff44d6823d91599ac4002dac97cdcf3e2e5d
+SHA256: d18b1d11492a0a83364c118eede426948804f4dc6d04563d88f7a578f8c80921
+SHA512: cfd2f9029df34da9fb226938d05a0fa4c6bea949a90848481b6c903b7c4f6021486bb78a2fa6c64f6c44170fd89808200a02c1ac88fdbb054a4e404236d8bb02
+Description: 崩溃或重启等情况下保留自定义图标布局 Preserve custom icon layouts by Springboard Crash or reboots etc  Springboard
+Tag: purpose::extension, compatible_min::ios12.0, compatible_max::ios18.2
+Author: ichitaso
+Name: IconOrder
+dev: ichitaso
+icon: https://huayuarc.github.io/icon/iconorder.jpg
+
 Package: com.icli.icli
 Architecture: iphoneos-arm64
 Version: 0.10.0
@@ -32398,6 +32496,25 @@ Icon: https://udevsharold.github.io/repo/depictions/com.lindo.mubx/icon/icon.png
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.lindo.mubx
 
 Package: com.lindo.mubx
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: Tweaks
+Maintainer: lindo
+Installed-Size: 4332
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Conflicts: com.restiveconch.actionbar,com.udevs.dockx,com.lindo.dockx,com.muzi.kayoko,com.lindo.typex
+Filename: debs/iphoneos-arm64/com.lindo.mubx_1.0.7_iphoneos-arm64_ee29c8ac901f4141803f0780b071807b468a096fdaba78e2848281cfc4871f8b.deb
+Size: 1113392
+MD5sum: 7e3b2b7a3ae49e0c70c0fba6a14a8ffa
+SHA1: 5bd18c59df35e6f97ee1ec064cb44c774009325f
+SHA256: ee29c8ac901f4141803f0780b071807b468a096fdaba78e2848281cfc4871f8b
+SHA512: 0a0c02f637e6814b269bc4a84ce33d29e811fafb1a4f354e137888639419475a28fa99bc2b4e49f6c47f009acc2d978526451b92564ff817afac43a4abe5f771
+Description: 参考 TypeX 和 Kayoko 实现两个插件的功能，超级键盘增强
+Name: MUBX
+Author: lindo
+icon: https://huayuarc.github.io/icon/mubx.png
+
+Package: com.lindo.mubx
 Architecture: iphoneos-arm64e
 Version: 1.0.7
 Section: Tweaks
@@ -32416,6 +32533,25 @@ Name: MUBX
 Author: lindo
 Icon: https://udevsharold.github.io/repo/depictions/com.lindo.mubx/icon/icon.png
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.lindo.mubx
+
+Package: com.lindo.mubx
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: Tweaks
+Maintainer: lindo
+Installed-Size: 4316
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Conflicts: com.restiveconch.actionbar,com.udevs.dockx,com.lindo.dockx,com.muzi.kayoko,com.lindo.typex
+Filename: debs/iphoneos-arm64e/com.lindo.mubx_1.0.7_iphoneos-arm64e_d541bb03141e3f8e9fc938c317935561d19988e488c967f5f3b2fb3524f1251a.deb
+Size: 1102640
+MD5sum: b6185b1a4d54f35fc551782b8505a9b4
+SHA1: dc198e65baa566a74b05a0c161315a5ee39ce212
+SHA256: d541bb03141e3f8e9fc938c317935561d19988e488c967f5f3b2fb3524f1251a
+SHA512: 82307284a85c2763c34dfbd6a45a600133a4dba77c493637b0107f2abc4be6effc412f3ea48575f916442cfeee959a61605f5f36d027c6369cc3a69e080ddb07
+Description: 参考 TypeX 和 Kayoko 实现两个插件的功能，超级键盘增强
+Name: MUBX
+Author: lindo
+icon: https://huayuarc.github.io/icon/mubx.png
 
 Package: com.linkwifi.wifikey
 Architecture: iphoneos-arm64
@@ -38436,6 +38572,24 @@ Section: Tweaks
 Maintainer: Muzi
 Installed-Size: 440
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.muzi.mutescheduler_1.0.1_iphoneos-arm64_2ca486ec47dce7e1c17e32d4c8a569be20169fc2f45660073234590ec99aa952.deb
+Size: 59204
+MD5sum: 91101777c260c6791bf1270e4dd48b23
+SHA1: 929f1d664644601ecdd3e94f6aff15b09203c7ad
+SHA256: 2ca486ec47dce7e1c17e32d4c8a569be20169fc2f45660073234590ec99aa952
+SHA512: a5cc7447b8d8f8abbf405f86f1f059e97fb8dde8bd02ba85f157f6b901132aa54e8bfacc37644ed95b9e4e0a78e8f2953f67214f8494abe69683735eae9c68b5
+Description: 定时静音/取消静音插件，可在设置中配置时间、静音模式与闹钟式重复周期。
+Name: MuteScheduler 定时静音
+Author: Muzi
+icon: https://huayuarc.github.io/icon/mutescheduler.png
+
+Package: com.muzi.mutescheduler
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 440
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Filename: debs/iphoneos-arm64/com.muzi.mutescheduler_1.0.1_iphoneos-arm64_855cfae6d7c6bacee6c84778f90b7134477493c0a981c3aecbf02bdbb4665dff.deb
 Size: 59252
 MD5sum: 6ca6c74f7cc2efe68916a6bfeb6c66f5
@@ -38466,6 +38620,24 @@ Name: MuteScheduler 定时静音
 Author: Muzi
 Icon: https://muzikeji.github.io/Sileo/icons/mutescheduler.png
 Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.muzi.mutescheduler.json
+
+Package: com.muzi.mutescheduler
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 440
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.muzi.mutescheduler_1.0.1_iphoneos-arm64e_9453bf64990db6f100340836380e77adfa39f643b2770010d280ebca11865e28.deb
+Size: 59132
+MD5sum: 334a695826e68ac9c36b3d9c68128b8f
+SHA1: 5496483086ee9d707f57a69c66986d3630ff2db6
+SHA256: 9453bf64990db6f100340836380e77adfa39f643b2770010d280ebca11865e28
+SHA512: d6c4bf95ce9e489bffafeecc6ad6cd8a06cec988b3b5f6e8486ec5279fb72b9740f4707503f0b036d57050a2fdff7f278d2fdf3afe9fd6c53babc8bf9c7eda97
+Description: 定时静音/取消静音插件，可在设置中配置时间、静音模式与闹钟式重复周期。
+Name: MuteScheduler 定时静音
+Author: Muzi
+icon: https://huayuarc.github.io/icon/mutescheduler.png
 
 Package: com.muzi.mutool
 Architecture: iphoneos-arm64
@@ -41206,6 +41378,24 @@ Author: Netskao
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
 
 Package: com.netskao.wcmypageinfocenter
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 220
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/iphoneos-arm64/com.netskao.wcmypageinfocenter_1.2-2_iphoneos-arm64_be095aa698372d175153b66ce5db6602f31881978d74c6b43005a511d9b72b08.deb
+Size: 66460
+MD5sum: a519c4e2da4e73ff9805ee4e82685038
+SHA1: 732a8e15e6b274b5716f9b9eeedaaab3aae87399
+SHA256: be095aa698372d175153b66ce5db6602f31881978d74c6b43005a511d9b72b08
+SHA512: fb32e86f8697170f72d944953fd404d3581b669eb9b51e718684543255e5dd64b74352072a369236273a1ad0c633d0c1c30ccb9a8c7b6e22be67cb60c62dfad3
+Description: WeChat My Page Info Center, Supported only for version 8.0.31 and above
+Name: WCMyPageInfoCenter
+Author: Netskao
+icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.netskao.wcmypageinfocenter
 Architecture: iphoneos-arm64e
 Version: 1.2-2
 Section: Tweaks
@@ -41224,6 +41414,25 @@ SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.wcmypageinf
 Name: WCMyPageInfoCenter
 Author: Netskao
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.netskao.wcmypageinfocenter
+Architecture: iphoneos-arm64e
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 220
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/iphoneos-arm64e/com.netskao.wcmypageinfocenter_1.2-2_iphoneos-arm64e_6293f2562e6fa6053842cf0c545df47055ac2b24cf14b6099df13217824ae462.deb
+Size: 66632
+MD5sum: 6bc0f9a1a19fda1901f1397f0cd0674d
+SHA1: aab3c7a11d1eb98f59e1ed342ff028f09224c033
+SHA256: 6293f2562e6fa6053842cf0c545df47055ac2b24cf14b6099df13217824ae462
+SHA512: 1264484fc2fefc6c04aeb044e22c1af657dc3a72a7ae6766c9952f0e662cc5cafecc7408a7ee47c113f3fac4830620db9652a5e57d4e0a7b1fab83217efec70d
+Description: WeChat My Page Info Center, Supported only for version 8.0.31 and above
+Name: WCMyPageInfoCenter
+Author: Netskao
+icon: https://huayuarc.github.io/icon/WeChat.jpg
 
 Package: com.netskao.wctimelinereplacefind
 Architecture: iphoneos-arm64
@@ -41285,6 +41494,42 @@ SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.
 
 Package: com.ngkhoi.26home
 Architecture: iphoneos-arm64
+Version: 1.3.14-launch-flicker-fix-zh
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 29440
+Depends: mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64/com.ngkhoi.26home_1.3.14-launch-flicker-fix-zh_iphoneos-arm64_d5ae5b2ba960aca7c3826b5f5334eace49568c7334e40c024be365eac675c6da.deb
+Size: 20551444
+MD5sum: fffa65c86908eb2d4eeca1080066ce97
+SHA1: 497b9bc978cbb5298d15e0a979f6f8a11950ce56
+SHA256: d5ae5b2ba960aca7c3826b5f5334eace49568c7334e40c024be365eac675c6da
+SHA512: 3c36b19af3b45379bb5ca238a5b2a0b852495a183edc72f542510248844056f99400fe1c7d8ffa98457f098c30244687fb0b4dfb92c4b96138edb9378cb2dff7
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（无根 rootless）
+Name: 26Home
+Author: ngkhoi
+icon: https://huayuarc.github.io/icon/26home.png
+
+Package: com.ngkhoi.26home
+Architecture: iphoneos-arm64
+Version: 1.3.7-clear-icon-controls-zh
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 29340
+Depends: mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64/com.ngkhoi.26home_1.3.7-clear-icon-controls-zh_iphoneos-arm64_69b49e1d179788e40bbe407c61bdc7200db326b5a59da916f4b0eebb5dfe6c00.deb
+Size: 20519960
+MD5sum: 4cf24f6ca4ea071e9ac48c1ce44deeea
+SHA1: 31e302a0655a5f672dd122eaea44f5b39f0a06d5
+SHA256: 69b49e1d179788e40bbe407c61bdc7200db326b5a59da916f4b0eebb5dfe6c00
+SHA512: bd36d2c33547408ae91d05b6b7fd4d56fb603e0cb1e64601f00c36f3be713c5b744a67a6116232bb434718cd20fec515cb290588948d8c2e0dfed83624e84927
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（无根 rootless）
+Name: 26Home
+Author: ngkhoi
+icon: https://huayuarc.github.io/icon/26home.png
+
+Package: com.ngkhoi.26home
+Architecture: iphoneos-arm64
 Version: 1.3.7-clear-icon-controls-zh
 Section: Tweaks
 Maintainer: ngkhoi
@@ -41301,6 +41546,24 @@ Name: 26Home
 Author: ngkhoi
 Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+
+Package: com.ngkhoi.26home
+Architecture: iphoneos-arm64
+Version: 1.3.8-cutout-custom-icon-zh
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 29408
+Depends: mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64/com.ngkhoi.26home_1.3.8-cutout-custom-icon-zh_iphoneos-arm64_38a3e42cb3b2ccbac0898a7add3f4c835aa983c98366011804d8aa4dd5388f2f.deb
+Size: 20542868
+MD5sum: 31322fc4ca85a70a2433ab06abf21d87
+SHA1: b1561ab3ec3c1c9a601e723fd30e9a62063c2307
+SHA256: 38a3e42cb3b2ccbac0898a7add3f4c835aa983c98366011804d8aa4dd5388f2f
+SHA512: d9ae10a38f4f29a2938f120b9ae87d8bd4363be2188eed14405b26fd41b278be3f26a215e84a7b618685a1774e4bc0a46247ac8a4a88404089d385115501f5bf
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（无根 rootless）
+Name: 26Home
+Author: ngkhoi
+icon: https://huayuarc.github.io/icon/26home.png
 
 Package: com.ngkhoi.26home
 Architecture: iphoneos-arm64
@@ -41342,6 +41605,24 @@ SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.
 
 Package: com.ngkhoi.26home
 Architecture: iphoneos-arm64e
+Version: 1.3.14-launch-flicker-fix-zh
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 29440
+Depends: mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64e/com.ngkhoi.26home_1.3.14-launch-flicker-fix-zh_iphoneos-arm64e_f05650a8582ab93eb5dae22d3c72ad3892bbd5e940e397c390eaaad4efbdaf4b.deb
+Size: 20550260
+MD5sum: 682f52e6a01387d1d96ee3d50af38a41
+SHA1: 4e87dd7231e93c9019a30e823928ca7e2285acfc
+SHA256: f05650a8582ab93eb5dae22d3c72ad3892bbd5e940e397c390eaaad4efbdaf4b
+SHA512: 2470dff5ae95e30221a39db5163fc201ae611ed3525e709ce3a2cda625cba1fa426a5faec4053f1c6fb00c158f63bd4fe4fbbff38b20199e3691103c81555a1b
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（隐根 RootHide）
+Name: 26Home
+Author: ngkhoi
+icon: https://huayuarc.github.io/icon/26home.png
+
+Package: com.ngkhoi.26home
+Architecture: iphoneos-arm64e
 Version: 1.3.7-clear-icon-controls-zh
 Section: Tweaks
 Maintainer: ngkhoi
@@ -41361,6 +41642,24 @@ SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.
 
 Package: com.ngkhoi.26home
 Architecture: iphoneos-arm64e
+Version: 1.3.7-clear-icon-controls-zh
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 29340
+Depends: mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64e/com.ngkhoi.26home_1.3.7-clear-icon-controls-zh_iphoneos-arm64e_98db8617afa6dca65a74c3ced7fc788dde3a91e58c3473b93438d4aaddfd4989.deb
+Size: 20520720
+MD5sum: 352bb50ae8d550ae891aeae74fe7b5e9
+SHA1: b8ab6a106fc21acd74d3eae4413a0cebebaa38ed
+SHA256: 98db8617afa6dca65a74c3ced7fc788dde3a91e58c3473b93438d4aaddfd4989
+SHA512: 6275b7aea0e78152721aa03cdd05f0984b173177669d2fd42f53b9cdc376064bc2fd1a0bf2d69aa31f8573e6e36cae0461d5e08ca8887fa384038f0740dc6a18
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（隐根 RootHide）
+Name: 26Home
+Author: ngkhoi
+icon: https://huayuarc.github.io/icon/26home.png
+
+Package: com.ngkhoi.26home
+Architecture: iphoneos-arm64e
 Version: 1.3.8-cutout-custom-icon-zh
 Section: Tweaks
 Maintainer: ngkhoi
@@ -41377,6 +41676,24 @@ Name: 26Home
 Author: ngkhoi
 Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+
+Package: com.ngkhoi.26home
+Architecture: iphoneos-arm64e
+Version: 1.3.8-cutout-custom-icon-zh
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 29408
+Depends: mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64e/com.ngkhoi.26home_1.3.8-cutout-custom-icon-zh_iphoneos-arm64e_42aca80ae9ba69d9360e2315e29a675bde9f5e0e645f7c225c22f552b3c35911.deb
+Size: 20543216
+MD5sum: df76ff56dacdb8a9c4392ff7ca806775
+SHA1: 153d33c231f2f85bf2ebba11769d362c25589903
+SHA256: 42aca80ae9ba69d9360e2315e29a675bde9f5e0e645f7c225c22f552b3c35911
+SHA512: 900617fc760f6617286922568934acb8f6586b69aa2521ca4287257dddf490dcc9af92c00eff3afb695790ec224d9e38782a42454533ef2467f31743b7d76972
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（隐根 RootHide）
+Name: 26Home
+Author: ngkhoi
+icon: https://huayuarc.github.io/icon/26home.png
 
 Package: com.nightwind.boldersreborn
 Architecture: iphoneos-arm64
@@ -42886,6 +43203,44 @@ Icon: https://jimkanuo.github.io/apt-repo/depictions/morrorlyrics/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.morrorlyrics.json
 
 Package: com.qianuo.morrorlyrics
+Architecture: iphoneos-arm64
+Version: 0.8.25
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 2088
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.qianuo.morrorlyrics_0.8.25_iphoneos-arm64_e4802ff0bfada97dba69391d6f01a77d7fe192dfeb3d0411d30a67e89d7c1f81.deb
+Size: 344212
+MD5sum: feee1753c7a87f1ac5d1f9b0ae945c2d
+SHA1: 5ff50faf21d9e8c3a30d4da64b05e674e5ba46ac
+SHA256: e4802ff0bfada97dba69391d6f01a77d7fe192dfeb3d0411d30a67e89d7c1f81
+SHA512: 6302d1356f72909dd9758b2bb000c6e2ffb456bacfdb2e8c563f6122af92ae69387439a3b10f0b07ef7e58aed3a15b34e7b1db180a7ba733d6bed9309003ef6a
+Description: Isolated music lyrics, playback clock, artwork and audio spectrum bridge, with independent native low-power mini island and Settings source selector.
+Name: MorrorLyrics 全屏歌词
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/morrorlyrics/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.morrorlyrics.json
+
+Package: com.qianuo.morrorlyrics
+Architecture: iphoneos-arm64e
+Version: 0.8.25
+Section: Tweaks
+Maintainer: qianuo
+Installed-Size: 1672
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.qianuo.morrorlyrics_0.8.25_iphoneos-arm64e_065a9a945f8cf8394ff7074b1ea0b9bf324f46ee9268e724d10226397a346ed6.deb
+Size: 303456
+MD5sum: 4d022329ae152aee060a3bfc40f66c24
+SHA1: b7fabc8e6bd195c0bb777ce3301ac4f6e9d5d991
+SHA256: 065a9a945f8cf8394ff7074b1ea0b9bf324f46ee9268e724d10226397a346ed6
+SHA512: 97f388afd375fec48a7884507561ecb5abec7df4748d955d86f615c92f7feae06dc9ca97d216bf66b7ab71ec5f87dc0c1a90c002b98b84f97784140bdf3cd17d
+Description: Isolated music lyrics, playback clock, artwork and audio spectrum bridge, with independent native low-power mini island and Settings source selector.
+Name: MorrorLyrics 全屏歌词
+Author: qianuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/morrorlyrics/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.morrorlyrics.json
+
+Package: com.qianuo.morrorlyrics
 Architecture: iphoneos-arm64e
 Version: 0.8.25
 Section: Tweaks
@@ -42921,6 +43276,46 @@ Name: SmartDeck App
 Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v2.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
+
+Package: com.qianuo.smartdeck.app
+Architecture: iphoneos-arm64
+Version: 0.7.12
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1112
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Filename: debs/iphoneos-arm64/com.qianuo.smartdeck.app_0.7.12_iphoneos-arm64_96d111791acd1da9481610c202a45e8d17ec52b54f033b86ced5c5f7367fb617.deb
+Size: 207040
+MD5sum: 6f3ff9330fb6c64035c861fbae7ef8ea
+SHA1: 51edf6051d791e877f4871d9fe57a827572cd29b
+SHA256: 96d111791acd1da9481610c202a45e8d17ec52b54f033b86ced5c5f7367fb617
+SHA512: 9f0f71895742a1174f56b61bf1f8cd1ed76be1bf511df7fb5c0b65a99640d6f4e0048787a7ea4c28b7e44e02865ebba15f65a3f68d5bcd5f9768b3e077b0979c
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Name: SmartDeck App 独立桌面
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/smartdeck/icon-v3.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.smartdeck.json
+
+Package: com.qianuo.smartdeck.app
+Architecture: iphoneos-arm64
+Version: 0.8.19
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1688
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Filename: debs/iphoneos-arm64/com.qianuo.smartdeck.app_0.8.19_iphoneos-arm64_29a22c7d6fcbefcb81ea28ad0edc955672a7e9b49d9da2533fdb66288e0dac24.deb
+Size: 357424
+MD5sum: 887f0969a9a623fe92f8031e269b7d4b
+SHA1: ad07260999fbb9e851d917e39cce90596b7f6614
+SHA256: 29a22c7d6fcbefcb81ea28ad0edc955672a7e9b49d9da2533fdb66288e0dac24
+SHA512: f0f543d821845bf1e8368b834dc35081f77d324ffb41eb7b4067e4a5425b71365d6e172462dc5f5d5a0eae83aedda1bae82db8b99cbc7cc9bea4af2a20e8e0e7
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Name: SmartDeck App 独立桌面
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/smartdeck/icon-v3.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.smartdeck.json
 
 Package: com.qianuo.smartdeck.app
 Architecture: iphoneos-arm64
@@ -42964,6 +43359,26 @@ SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartde
 
 Package: com.qianuo.smartdeck.app
 Architecture: iphoneos-arm64e
+Version: 0.7.12
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1112
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Filename: debs/iphoneos-arm64e/com.qianuo.smartdeck.app_0.7.12_iphoneos-arm64e_a2300c0cdfe4101dfc70ccf6e3beaf672481e6710e531eaac7d3f17566305288.deb
+Size: 206972
+MD5sum: 2f1ca6fcda00f0c0cabf80072c944e71
+SHA1: 0cb54befdc898eceb4f69bcbd62a54d6208224aa
+SHA256: a2300c0cdfe4101dfc70ccf6e3beaf672481e6710e531eaac7d3f17566305288
+SHA512: f0051d56acb0b1ad58b3b1a3dbc35788868dce00d62489a9c73d3e4fcc74bb252c89aad8b174957a46ab5a43466b234e3ffad74475487830ad1b077fda8bc4fa
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Name: SmartDeck App 独立桌面
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/smartdeck/icon-v3.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.smartdeck.json
+
+Package: com.qianuo.smartdeck.app
+Architecture: iphoneos-arm64e
 Version: 0.8.19
 Section: Tweaks
 Maintainer: kanuo
@@ -42981,6 +43396,26 @@ Name: SmartDeck App
 Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
+
+Package: com.qianuo.smartdeck.app
+Architecture: iphoneos-arm64e
+Version: 0.8.19
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1688
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Filename: debs/iphoneos-arm64e/com.qianuo.smartdeck.app_0.8.19_iphoneos-arm64e_eed18360e8f1cc90b64aa29f5a3ba8e524ee3c7b841728ce03cb6866ae16211f.deb
+Size: 358516
+MD5sum: 3b90f1ef6fd2e4369d5364b7e5030ed1
+SHA1: b055cac1ec2eb8a485092a0767ed1bef43e1bda0
+SHA256: eed18360e8f1cc90b64aa29f5a3ba8e524ee3c7b841728ce03cb6866ae16211f
+SHA512: 2cd2d4585becb7fa0ef979b9867e0be3e4eb17307b607014d8f735899c459980cfb937f57a2bfaf354dec5e200ef36b333d61cd2b8150c437a38a28939f2f6bc
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Name: SmartDeck App 独立桌面
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/smartdeck/icon-v3.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.smartdeck.json
 
 Package: com.qianuo.soulpaste
 Architecture: iphoneos-arm64e
@@ -53716,6 +54151,42 @@ Icon: https://muzikeji.github.io/Sileo/icons/reachplayer.png
 Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.sini921.reachplayer.json
 
 Package: com.sini921.reachplayer
+Architecture: iphoneos-arm64
+Version: 2.26-6
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 3348
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sini921.reachplayer_2.26-6_iphoneos-arm64_5f045d6e95cd5e32a6283069a52e17afe2d705901fbaa06964c626e1ed6fb489.deb
+Size: 2538448
+MD5sum: fb3cede3bc7de64a7d43ee93ee752e67
+SHA1: ffa46f0460c3723bd1fcd763d742db414a74d5d6
+SHA256: 5f045d6e95cd5e32a6283069a52e17afe2d705901fbaa06964c626e1ed6fb489
+SHA512: de65a1e555ec7ae58ae1c33f1dc8ee4aa6bcf0b75d6b1647910d74e00842462aa684e25e519a52f3502cd6b99a81ebed2b7d92953afcea0bd9cca465f947d403
+Description: 在便捷访问模式上方的空白处增加音乐控制器，基于开源优化编译。
+Name: ReachPlayer 便捷访问
+Author: ETHN & SINI & 鲨鱼
+icon: https://huayuarc.github.io/icon/reachplayer.png
+
+Package: com.sini921.reachplayer
+Architecture: iphoneos-arm64e
+Version: 2.26-6
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 3348
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sini921.reachplayer_2.26-6_iphoneos-arm64e_7aa694df6ffae0771923c7cc250c09ab7a1f229bb58100c57942e6c211e07c1c.deb
+Size: 2536080
+MD5sum: a463b13c35413e57e39516f4b34c7187
+SHA1: 604962a1974a853fba5131a680c7943be79ef10a
+SHA256: 7aa694df6ffae0771923c7cc250c09ab7a1f229bb58100c57942e6c211e07c1c
+SHA512: 5c33e178cb053dd0141b21c21241a31cd517ad957145c603bdbf5630e0699fb04ee1a56ffc3ee7f57c2ca4a2b49fd0953f75f8d7907ea5bb825351648543cd5f
+Description: 在便捷访问模式上方的空白处增加音乐控制器，基于开源优化编译。
+Name: ReachPlayer 便捷访问
+Author: ETHN & SINI & 鲨鱼
+icon: https://huayuarc.github.io/icon/reachplayer.png
+
+Package: com.sini921.reachplayer
 Architecture: iphoneos-arm64e
 Version: 2.26-6
 Section: Tweaks
@@ -54157,6 +54628,32 @@ Name: 位置自动允许一次-roothide // AllowLocationOnce-roothide
 Author: Snail <mu514983786@gmail.com>
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
 
+Package: com.snail.allowlocationonce.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: moss <moss@local>
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.snail.allowlocationonce.roothide_1.0.2_iphoneos-arm64e_a3712123f9dcf857a7a46f9b7149445655ca40f366711bf3724d7b9970ab20ce.deb
+Size: 64644
+MD5sum: b49f2f8e2c8749761dd05fcf111f8489
+SHA1: 1b7a8bceeb549c79b3d26736de0c40252f966100
+SHA256: a3712123f9dcf857a7a46f9b7149445655ca40f366711bf3724d7b9970ab20ce
+SHA512: 18315851ced851cff56935dcfd04d4fd77e2245b1e6a2dc6dd837d3f10c5c3e1471b198d7f5b8fd7db86870bca3675af5802fcdbf2683fadc0f612842eefe400
+Description: 地理位置请求弹窗，自动"允许一次"。 // When Location request pop-up, Automatically "Allow once".
+ .
+ > 此为roothide版本，不要安装错了哦~
+ > 此插件默认注入SpringBoard，无需在Bootstrap打开任何APP，只需保证Serotonin注入桌面正常即可。
+ .
+ * 修复在某些软件中未生效的问题，如在App Store等。
+ * 支持Rootless。
+ * 支持iOS14-15，支持xinaA15。
+ * 支持iOS 16 Bootstrap+Serotonin。
+Name: 位置自动允许一次-roothide // AllowLocationOnce-roothide
+Author: Snail <mu514983786@gmail.com>
+icon: https://huayuarc.github.io/icon/allowlocationonce.jpg
+
 Package: com.snail.allowlocationonce.rootless
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -54181,6 +54678,32 @@ Description: 地理位置请求弹窗，自动"允许一次"。 // When Location
 Name: 位置自动允许一次-rootless // AllowLocationOnce-rootless
 Author: Snail <mu514983786@gmail.com>
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.snail.allowlocationonce.rootless
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: moss <moss@local>
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.snail.allowlocationonce.rootless_1.0.2_iphoneos-arm64_b5d620dc25e61879ffa66d261b537d93945dacfc80eb060b76650db123533476.deb
+Size: 63992
+MD5sum: 1d50002c846c5adf3192c2ec51970693
+SHA1: ceae6843f73065dba6ef227c14b13c0aa15df06a
+SHA256: b5d620dc25e61879ffa66d261b537d93945dacfc80eb060b76650db123533476
+SHA512: 78aad20d79ce239e24a2cdc8d9611376dd4af1ec9ce973fe29b4282c2b46c2b5b9a2121daa564cafa723c01d8b97ad2c13917c283d25a950f6d701e1de4128d3
+Description: 地理位置请求弹窗，自动"允许一次"。 // When Location request pop-up, Automatically "Allow once".
+ .
+ > 此为rootless版本，不要安装错了哦~
+ > 此插件默认注入SpringBoard，无需在Bootstrap打开任何APP，只需保证Serotonin注入桌面正常即可。
+ .
+ * 修复在某些软件中未生效的问题，如在App Store等。
+ * 支持Rootless。
+ * 支持iOS14-15，支持xinaA15。
+ * 支持iOS 16 Bootstrap+Serotonin。
+Name: 位置自动允许一次-rootless // AllowLocationOnce-rootless
+Author: Snail <mu514983786@gmail.com>
+icon: https://huayuarc.github.io/icon/allowlocationonce.jpg
 
 Package: com.snail.doubletaptolock.roothide
 Architecture: iphoneos-arm64e
@@ -62088,6 +62611,24 @@ Name: 电话助手iOS16-正式版(Roothide)
 Author: xybp888
 dev: xybp888
 
+Package: com.xybp888.magiciannojailbreak.dopamine
+Architecture: iphoneos-arm64
+Version: 0.0.1-529
+Section: Tweaks
+Maintainer: xybp888 <8657156@qq.com>
+Installed-Size: 516
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.xybp888.magiciannojailbreak.dopamine_0.0.1-529_iphoneos-arm64_3ce01f55f01bea1e7e88a9a0adbeb8b2f1879af5ae380460272dd7186a853681.deb
+Size: 91860
+MD5sum: bdc7a91be93f3c2633fcb950e627ea26
+SHA1: bbb2514ab653618ed79add1f398d698fc755b8cc
+SHA256: 3ce01f55f01bea1e7e88a9a0adbeb8b2f1879af5ae380460272dd7186a853681
+SHA512: 4f1ae6056f84ba42636c9f0eb53e9424f51166eb70b3fc31430f1abb2845d79ef984633a54c63fd21773a310c8e42a0ce355a4a9ae88b6645ab177dbe8658b70
+Description: 本插件仅供学习之用,请于24小时内卸载,一切法律责任与本插件和作者无关
+Name: 魔术师
+Author: xybp888 <8657156@qq.com>
+icon: https://huayuarc.github.io/icon/mss.png
+
 Package: com.yaowell.alarmvibrate
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -62789,6 +63330,24 @@ Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
 Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
 Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
 
+Package: com.zengniu.splitview
+Architecture: iphoneos-arm64e
+Version: 0.7.66
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 816
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.zengniu.splitview_0.7.66_iphoneos-arm64e_6e481f29906c5c3aa29a10347ca6526616dfec876ca478591e2bb3cc223fbda0.deb
+Size: 225408
+MD5sum: 7c351d3ac05ed14ed397abde5b660a60
+SHA1: f20c72fd72fcc31a1e945a65f9dff421e1d84b60
+SHA256: 6e481f29906c5c3aa29a10347ca6526616dfec876ca478591e2bb3cc223fbda0
+SHA512: 21fabf1d279c881abee2c51aef7346c3079a6830c5e1169b9615653f03134dd8e3ac41b1d17cd6017775191e5cf85f38e8d738fdf5662a573b4bef78468a19ff
+Description: 带有主屏幕图标手势和基本对接的实验性实时应用程序窗口。激活码 当前时间+10分钟 Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Author: ZengNiu
+icon: https://huayuarc.github.io/icon/splitview.png
+
 Package: com.zooah.debrecords
 Architecture: iphoneos-arm64
 Version: 1.2.1
@@ -62963,6 +63522,25 @@ Author: zooah212
 icon: https://huayuarc.github.io/icon/swipedeck.png
 
 Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.5.8-6
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7528
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.zooah.swipedeck_0.5.8-6_iphoneos-arm64_5ac6b026ce15d9e5886427131fda27022c428fb06e950011a4945ade366f9303.deb
+Size: 2420116
+MD5sum: b792286fee5c31de3779944f55a650c3
+SHA1: f0c0d4e1d4a1a541ad42eb7132c9474fb9f39eb8
+SHA256: 5ac6b026ce15d9e5886427131fda27022c428fb06e950011a4945ade366f9303
+SHA512: f498a77d48866938fc5b407290930903af9db94476e37bc80b9aa8c400b1f95a10619589a70e1dfa274cc0ceaa10fc183d5f9772ef500981be31129d916c8806
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
 Architecture: iphoneos-arm64e
 Version: 0.5.2-16
 Section: Tweaks
@@ -63096,6 +63674,26 @@ MD5sum: fea4e7438058ff716ebc36350140c976
 SHA1: dc0ab8fb58c8e04c331a9b0e1d0f0ebb3e405e09
 SHA256: 99e790561a1a742b6a139f5f9c5ab2463db410793c14e06d4b49b1fd743632ec
 SHA512: 4cebc8dd94622e1ce9aeb5bf54f9f3170d3705c8ab85f15eb0cc87d34981c554dd07784ddff053d09bf5f969b6cf48906fd435b248ff6e655ce0661a8488080d
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.5.8-6
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7528
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.zooah.swipedeck_0.5.8-6_iphoneos-arm64e_deffee694d7a31856359f55095082ac99a6c13ad8a3fe55aee4b87e07993b9fd.deb
+Size: 2393012
+MD5sum: 6a0a8bbd633f2e09fbff20175f91fcfc
+SHA1: f1aa72b95346e4eafe1d0adc24c0f9cf500025fc
+SHA256: deffee694d7a31856359f55095082ac99a6c13ad8a3fe55aee4b87e07993b9fd
+SHA512: e2ae08633adeb650195c9d6edd601d44ad3c610fb9c63eaffd0bf606059d353b040533a6c68076d7a44020970ed8a097f79efb89d5a82cddabdeef0dd9fcd3f2
 Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
    *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
 Name: SwipeDeck - 快捷助手
@@ -67529,6 +68127,24 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/onboarding-icon.png
 
 Package: iya.banana.multitask
+Architecture: iphoneos-arm64
+Version: 0.1.6-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2744
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/iya.banana.multitask_0.1.6-1_iphoneos-arm64_c10c8859dd36c89285d885e712413c28f45c4c054394f0618a659b09eb868ca2.deb
+Size: 486184
+MD5sum: 2ab5b93e58c71251ab2f2ad5c9c43421
+SHA1: 4cd3702dfe7fa92c2c47c729c8bfaa131c187a7e
+SHA256: c10c8859dd36c89285d885e712413c28f45c4c054394f0618a659b09eb868ca2
+SHA512: ac535c85933255be31ce4d148b078c845ac7887560c88a10545d6518159723c7ea988c9c7b98ba4a9da6f189c6c59e2bb124efc40ecb44f8b25b59844ccfa9e4
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+
+Package: iya.banana.multitask
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Section: Tweaks
@@ -67650,6 +68266,24 @@ SHA1: 842ecf7ad8d7ed87921b34cb4755f31a6a357686
 SHA256: 45466c0f554c5d544de34a364ebe467cbce6be83f71e5a7031fcdb75a8abe3a5
 SHA512: 1bb595237fda0f8e8ee21e2e1df6cfc8551684269bbcdd6d1bc8f7895de268fb9a69e3a740216479d7b1945a4e72b1712b212c0eab2ff858205ab5be917833fa
 Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+
+Package: iya.banana.multitask
+Architecture: iphoneos-arm64e
+Version: 0.1.6-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2728
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/iya.banana.multitask_0.1.6-1_iphoneos-arm64e_9131970f366b14184d04e6c62005b958628f8abf64cd5dddb7eef531657c0ded.deb
+Size: 483408
+MD5sum: 97dbd2dc690e3119cac7c0ab6fa88a2c
+SHA1: a49e16d48104b2db3bcad421aa897338238c5c04
+SHA256: 9131970f366b14184d04e6c62005b958628f8abf64cd5dddb7eef531657c0ded
+SHA512: bebb4d4e32ce980d96f94fc4f1b17c1cec1cc25f129d31b6b04e9dc3f7e9e6c217aab6170dc637318d0941075f3dad64e6749f55bc0b54b3dc50ea5e464b10c7
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
 Name: 一芽分屏 (Iya Split)
 Author: Banana
 icon: https://huayuarc.github.io/icon/onboarding-icon.png
@@ -68774,6 +69408,43 @@ Description: Change accent colours systemwide 可让你在整个系统和应用�
 Name: Accent Reborn
 Author: Paisseon
 Icon: https://paisseon.github.io/icons/Accent.png
+
+Package: lilliana.accent
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 580
+Depends: mobilesubstrate, firmware (>= 12.2), ws.hbang.alderis (>= 1.2)
+Filename: debs/iphoneos-arm64/lilliana.accent_0.0.2_iphoneos-arm64_4d003d543f081d12f31ede51aeba79f4b939ee1bf321625d9a67d5a79f16d0a7.deb
+Size: 78052
+MD5sum: be1ff425916aef726f63c309221992a4
+SHA1: 7ca2ad7b687ce48f0391a5188d3bf11684b4e53f
+SHA256: 4d003d543f081d12f31ede51aeba79f4b939ee1bf321625d9a67d5a79f16d0a7
+SHA512: 49b279c6daa642866fac3dfcf64ac4e5b03ca05db1039be25f851fa09d39c541d5fe44b7eb5ab0274ccec01032b81a3140f8a4b1d632a82c68500c089819754b
+Description: 可让你在整个系统和应用程序中更改强调色。更高效的自定义重音版本，因为它只读取一次偏好设置，而不是多次读取 Change accent colours systemwide
+Name: Accent Reborn
+Author: Paisseon
+icon: https://huayuarc.github.io/icon/accent.png
+
+Package: lilliana.accent
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 580
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.2), ws.hbang.alderis (>= 1.2)
+Filename: debs/iphoneos-arm64e/lilliana.accent_0.0.2_iphoneos-arm64e_04c189ebf1cfb8347272caeb97e9dd60d4ea1bf25b5732ba4d1a784efb0a73e9.deb
+Size: 76088
+MD5sum: 6832196d46695679d40b738869dc4a9e
+SHA1: 9a772a527902e94c3c8d5a72c2d25dcccd93798d
+SHA256: 04c189ebf1cfb8347272caeb97e9dd60d4ea1bf25b5732ba4d1a784efb0a73e9
+SHA512: bc6fdf178985558d3fc8a20701d8bb9c1c80fd5b6ee8b1778105a9c64a8a7cff3af1b2199fcf66dc9d6f326a144b15b822ad64ece206204307c1da209aa69a8d
+Description: 可让你在整个系统和应用程序中更改强调色。更高效的自定义重音版本，因为它只读取一次偏好设置，而不是多次读取 Change accent colours systemwide
+Name: Accent Reborn
+Author: Paisseon
+icon: https://huayuarc.github.io/icon/accent.png
 
 Package: lilliana.accent
 Architecture: iphoneos-arm64e
@@ -70779,6 +71450,43 @@ Name: PicsArt Crack
 Author: Netskao
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
 
+Package: netskao.picsartcrack
+Architecture: iphoneos-arm64
+Version: 1.1-5
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 376
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/netskao.picsartcrack_1.1-5_iphoneos-arm64_6c5cc83821f9df5cf037b5f9b743524faecfc7b2f5f01553c6882219eb51e64f.deb
+Size: 89348
+MD5sum: 198fc37a89fd353a0c3611cad9f2c7bb
+SHA1: 3368b2eefad7a5163281a5c204e19c0786310e52
+SHA256: 6c5cc83821f9df5cf037b5f9b743524faecfc7b2f5f01553c6882219eb51e64f
+SHA512: f9b424c1f2185c6b1a99fb2e8073648e32788605758b11e099588e1e3895f6dec64ca0733763a8053238e7a46a47d050eac064ab123736baa7de9ff920fc08e4
+Description: PicsArt美易解锁全功能，仅支持中国区20.7.9及以上版本
+Name: PicsArt Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/picsartcrack.jpg
+
+Package: netskao.picsartcrack
+Architecture: iphoneos-arm64e
+Version: 1.1-5
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 376
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/netskao.picsartcrack_1.1-5_iphoneos-arm64e_460898ed815a9c37293317629b09656737cd44c5741f775ac2fd4ea16cf4f737.deb
+Size: 89440
+MD5sum: e694c4470f0b110fd1d17aeaf150d73b
+SHA1: 45349b8243dbc201ddf6a9741d23357e777e7e0e
+SHA256: 460898ed815a9c37293317629b09656737cd44c5741f775ac2fd4ea16cf4f737
+SHA512: 005ee92343791e61461ffb8966ae9d30a9e65bc0ccbbab22eda0183be7110a309716f3dab31189eb617ae7c59265284cf05ca6554f5f38c93a9ec3dc67e909de
+Description: PicsArt美易解锁全功能，仅支持中国区20.7.9及以上版本
+Name: PicsArt Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/picsartcrack.jpg
+
 Package: netskao.ppxnoads
 Architecture: iphoneos-arm64
 Version: 1.5-5
@@ -71062,6 +71770,24 @@ SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.nolowp
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
 
 Package: nolowpowermode30secautolock
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: Brend0n
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/nolowpowermode30secautolock_1.0_iphoneos-arm64_3bf04b60d1b3611770ead1d104f4093ba9f7c7c19a46e6d3ee1a2a786af18064.deb
+Size: 3952
+MD5sum: 86b87879ccdb3d9cbf2db874d5e5c838
+SHA1: 5dd22a9b0884c7ba592e4010be54b66ddc79c122
+SHA256: 3bf04b60d1b3611770ead1d104f4093ba9f7c7c19a46e6d3ee1a2a786af18064
+SHA512: 17bc494b1548250f08e9bf101c528fcc86fb549fcaae7842db737060e1562de51ace0146fb1c42327a5545d6c8ae323ca786ef13158a4b13d6de6e3c25598c10
+Description: 在低功耗模式下本地调整自动锁定间隔.
+Name: 解除低电量30秒锁屏限制
+Author: Brend0n
+icon: https://huayuarc.github.io/icon/nolowpowermode30.jpg
+
+Package: nolowpowermode30secautolock
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -71080,6 +71806,24 @@ Author: Brend0n
 Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.nolowpowermode30secautolock
 SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.nolowpowermode30secautolock/depiction.json
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: nolowpowermode30secautolock
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/nolowpowermode30secautolock_1.0_iphoneos-arm64e_e48630847807e8f87f11c99208cf2b07a6e43dcaf82085cc5cc464ca0764d453.deb
+Size: 4268
+MD5sum: fbba6f8ae7c65c4b46c12a2bd2a28231
+SHA1: aa3da0f517dd2a25dbd942e775d5ecbf373afd4a
+SHA256: e48630847807e8f87f11c99208cf2b07a6e43dcaf82085cc5cc464ca0764d453
+SHA512: 95eabd1477e1f726ec0c09ca3d6bdf29635d68c7789f155ff89d565cc3ca7f2f3a8e1b3f8dffc3647b117fcb8aea35a826451b1147cde133188cab7705c658e3
+Description: 在低功耗模式下本地调整自动锁定间隔.
+Name: 解除低电量30秒锁屏限制
+Author: Brend0n
+icon: https://huayuarc.github.io/icon/nolowpowermode30.jpg
 
 Package: oldabi
 Architecture: iphoneos-arm64
@@ -72353,6 +73097,29 @@ SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.3.7
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 96780
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.3.7_iphoneos-arm64_564555f2cc46686a2b51a5d80a0096c7fdb55b3959c6421bb8a885dbcfb2dc05.deb
+Size: 22863852
+MD5sum: ad36c51d09ad9ada37f14f9a4952b691
+SHA1: 520e0ab853f6baa696c23b9c73472dcb9f040df2
+SHA256: 564555f2cc46686a2b51a5d80a0096c7fdb55b3959c6421bb8a885dbcfb2dc05
+SHA512: 1915a0b992d386b5dde24f917fd3f91ad6c36f43ca8ac6feb9fd8b981f3b83aacb713f3407868035f62699ad2c13cc9491336ee66da96c9342fce1d16e2aa162
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Priority: optional
@@ -72712,6 +73479,29 @@ MD5sum: 4393c04e2b3c80ae749a8493da272af9
 SHA1: 8094cf6cf106cd63a6af66f56351684c14e58997
 SHA256: 41c1d34fec11e96506e10cfcbc85eee6a580b8a24711526ccf1b2af9aabd27ff
 SHA512: 5c08815edf285763b428ce19f3c8a472ce5e1b7d19ad08527aed73382fceb82dafe7d33e6a0915e5738c3cc2bd7fd9179ac23b807a4e6d782b58461b995e66c3
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64e
+Version: 0.3.7
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 96780
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin_0.3.7_iphoneos-arm64e_2e788e2099c5f50968852acc12b83011dc8cc6a8e2caec2dcb7b82fc5fcf350c.deb
+Size: 22868348
+MD5sum: f511080e94e7d11a3cd7fca7fc4857e9
+SHA1: 72c39362ca1ffac98039c3682a65744b7e3547db
+SHA256: 2e788e2099c5f50968852acc12b83011dc8cc6a8e2caec2dcb7b82fc5fcf350c
+SHA512: d74e590c3b7d9ca37eb160c8f1cb313e469682772fed26e8a411be699004b229352a292beb14c7362aaa0d1b432251d242fb22b85c648a76eb6e0b16bb2e2f37
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
 Name: Apelin
