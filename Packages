@@ -3535,6 +3535,24 @@ icon: https://huayuarc.github.io/icon/islanddigest.png
 
 Package: com.MoWang.islanddigest
 Architecture: iphoneos-arm64
+Version: 0.3.26
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2124
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.MoWang.islanddigest_0.3.26_iphoneos-arm64_a304f0883cb166266f1603c34e416dd274f2df2b0e35396a2ced65705c2ccfde.deb
+Size: 1255096
+MD5sum: b7d463d14ed4c6e02a777c69cf684792
+SHA1: 0d9d84b6e1129c1108243d775ef41e9aeabd0c56
+SHA256: a304f0883cb166266f1603c34e416dd274f2df2b0e35396a2ced65705c2ccfde
+SHA512: 9cdbdf06651fc3753daf003df734e0fe2a8739a109b5002adbeb745aa8567454aacb75de1790a796a2d614ac073407bab7cb3c87a5ebdf4ac6fa3d17fe3c1ecb
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+icon: https://huayuarc.github.io/icon/islanddigest.png
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64
 Version: 0.3.3
 Section: Tweaks
 Maintainer: MoWang
@@ -3636,6 +3654,24 @@ MD5sum: 4d362af536671e697a2353ba8fb6929b
 SHA1: 4f4740980379de13b6bf3237314da5208b4f9cdd
 SHA256: 46d0932dd6f322eb4226771e5597f09972d4f3448399567a203ee3c93b9957e7
 SHA512: 015be629f87fd5f03e2fce25d5a841781c309ca2b09b17928a65c1c467573cae56b2a1f635d0d3f2a6c51b41d7120763341b0ac09d21e8f1ec0de958d7210909
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+icon: https://huayuarc.github.io/icon/islanddigest.png
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64e
+Version: 0.3.26
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2124
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.MoWang.islanddigest_0.3.26_iphoneos-arm64e_311ed8963d198862091ed474d602da4820fe3325caa16ac30785c9e4d679074f.deb
+Size: 1255644
+MD5sum: 5119c09be8caf2d25ab46ecbc8db4055
+SHA1: 079bd4b5ea8ab413d4927f6e82c9fe40d1eeacfa
+SHA256: 311ed8963d198862091ed474d602da4820fe3325caa16ac30785c9e4d679074f
+SHA512: f3bd4ba659ef51d31d3c92de70fafe452520c54c56d7dc88924cc5f036bc87ab264568471956cb07a46acc1872be9c9a418f294f83aa2050bff22ef77f5d2b0d
 Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
 Name: 灵屿通知
 Author: MoWang
@@ -18024,6 +18060,24 @@ Author: crctdd
 icon: https://huayuarc.github.io/icon/StayAliveLite.png
 
 Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.4.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 2640
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.4.3_iphoneos-arm64_266d8b8b60001c943daadbcf490299ffef166902fe6644088ce4282c9d69317f.deb
+Size: 306948
+MD5sum: ec464a401bd699a09fe125d0c556eed5
+SHA1: 0096ff141cf60b9c620bd08e6b5f6ac8cd1d301c
+SHA256: 266d8b8b60001c943daadbcf490299ffef166902fe6644088ce4282c9d69317f
+SHA512: 9ea91da9be9453427513156175a53e9833e4d9206bfe764e2257e6b9bb4c4a415ae217d3623e2fda9eb5d747062f3329817d867f8e888791778bbf3508b90b2f
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
 Architecture: iphoneos-arm64e
 Version: 0.1.3
 Section: Tweaks
@@ -18270,6 +18324,24 @@ MD5sum: d71334d2ca38b0afb31bedfc023f1673
 SHA1: 05a883a9cf4b563088659865880a3095649a947a
 SHA256: 576d3baa039f97c64c2aff6c99e46d76e012be738a4d9dd070709fa9bef48fa6
 SHA512: 57109481b4f6571e50e023941627649496cffb7fef22c886e1de747d4b7b9b25cf03b653b77d203335c7782f1d8bf580d16df2d6cd5220c8b3bc38d8febd4503
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.4.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1328
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.4.3_iphoneos-arm64e_9bc5a43f0e0170c2effcaf42236c628e363ea41c0b956070e8ca7dd68ea408a4.deb
+Size: 203272
+MD5sum: a3f55929c8cbed7921c1c3977205f984
+SHA1: cf1b5fc4093ff25f0e118c29734a76e017515ea1
+SHA256: 9bc5a43f0e0170c2effcaf42236c628e363ea41c0b956070e8ca7dd68ea408a4
+SHA512: 2c9723a995f023a288985c3c7f14301ec449d33b1e4f937f69bc799a9ae31e0b5501c5ad27eb3b8405dc163470376c586de82cf3ba15f85d31a594ff79639da2
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Name: StayAlive Lite
 Author: crctdd
@@ -35003,6 +35075,26 @@ Author: Fouad Raheb <support@fouadraheb.com>
 Icon: https://mlgm66.github.io/icon/appdata.png
 
 Package: com.mlgm.appdata
+Architecture: iphoneos-arm64
+Version: 1.3.9
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1236
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: debs/iphoneos-arm64/com.mlgm.appdata_1.3.9_iphoneos-arm64_27d36f6e3bae44d19561c373cde8893eb38e49c036e755e3d014e16d18f19ce0.deb
+Size: 214624
+MD5sum: 3d7218c5f8faa600d992a7d1ebf766d1
+SHA1: ff6534cb9770ecf165afceef373cce0408b277e0
+SHA256: 27d36f6e3bae44d19561c373cde8893eb38e49c036e755e3d014e16d18f19ce0
+SHA512: ca5ee6ef2c2be4a26f4d45ae48da50098cad0aa52be1c5c2366b4b1b741ff57d4648ad5da86da9823c1831c51be0ce844a1f48b5ba33c653837d71245f9c8b70
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Name: AppData
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+
+Package: com.mlgm.appdata
 Architecture: iphoneos-arm64e
 Version: 1.3.7
 Section: Tweaks
@@ -35037,6 +35129,26 @@ MD5sum: 3c0d5a8cbcf412f95d7acb536082f1d0
 SHA1: 4b4877d3548148f15c66d0e5a91eb627bc75958b
 SHA256: 8a4e56e9d3173fe0332e3214e36221fc560a25772d0803ba3a5378fec51beb25
 SHA512: d77fbef57c4e65144fbf44fc9d213160f2df320be6aa51a743fd599fc991b482c0c2eb8193c6acf5e6593cc240027440712cfa294245c71a5d9e565d62e514d7
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Name: AppData
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+
+Package: com.mlgm.appdata
+Architecture: iphoneos-arm64e
+Version: 1.3.9
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1236
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: debs/iphoneos-arm64e/com.mlgm.appdata_1.3.9_iphoneos-arm64e_90f39a2c8af1a3edcf19df49a597113839842026f94649c09d6b28d57f5754d1.deb
+Size: 212936
+MD5sum: cde7a5f63236d771bf156a644386be55
+SHA1: f04bcfb89095fd6580f7b6087d9c307c24793bd4
+SHA256: 90f39a2c8af1a3edcf19df49a597113839842026f94649c09d6b28d57f5754d1
+SHA512: 449f6ac8bb0584666620e6c9e3b9aee17e148f211c76946dbf85402d16251e5215ecbd3ec4726c46053760c484bffd8a9614baaf04e72d5f47c0007536407a90
 Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
 Name: AppData
 Author: Fouad Raheb <support@fouadraheb.com>
@@ -35100,6 +35212,25 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 
 Package: com.mlgm.clippa
+Architecture: iphoneos-arm64
+Version: 1.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 36732
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.mlgm.clippa_1.1_iphoneos-arm64_589084650bf75961faa7cc5b9101014eea6889d0c7367da43d0ec514835c9ce7.deb
+Size: 31188596
+MD5sum: ed83bf9d715b0dfeb93dbb5e9cad0884
+SHA1: 060ef0f0559bcbe30b332e4dd9d92faa88906d36
+SHA256: 589084650bf75961faa7cc5b9101014eea6889d0c7367da43d0ec514835c9ce7
+SHA512: 97250ed0f823c7906a77e7feafd80a469b0481d86eaeb4c68a2ff02240e07682e3526bc3cf02cf6e0ae311f98286497e040eb33cf60a8d0b0b3dccfa67eaf32a
+Description: 截图与悬浮贴图工具。
+Name: Clippa
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+
+Package: com.mlgm.clippa
 Architecture: iphoneos-arm64e
 Version: 1.0.3
 Priority: optional
@@ -35156,6 +35287,25 @@ Name: Clippa
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 
+Package: com.mlgm.clippa
+Architecture: iphoneos-arm64e
+Version: 1.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 36728
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.mlgm.clippa_1.1_iphoneos-arm64e_aa300ba63aebe1a5525ed8d70c99b22b27395f2026312c0fe6f96439533e60a0.deb
+Size: 31188552
+MD5sum: f559b4d1f206b696236d2d2662093caa
+SHA1: 6fa34df6d6ca33d962379ec3c06bc206f5da57ad
+SHA256: aa300ba63aebe1a5525ed8d70c99b22b27395f2026312c0fe6f96439533e60a0
+SHA512: 3f27a424189c64164d9daff2ea42dc0e2d0b8809dcc21ef5c357193fecd96e3a554eb723ecd9ff1403e81bd51eb149be11ac68c614c09cbd2bae5cf20f3ed0b3
+Description: 截图与悬浮贴图工具。
+Name: Clippa
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+
 Package: com.mlgm.clone
 Architecture: iphoneos-arm64
 Version: 0.1.6
@@ -35176,6 +35326,25 @@ Icon: https://mlgm66.github.io/icon/clone.png
 Author: mlgm
 
 Package: com.mlgm.clone
+Architecture: iphoneos-arm64
+Version: 0.2.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5320
+Depends: firmware (>= 15.0), ellekit (>= 1.2), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: debs/iphoneos-arm64/com.mlgm.clone_0.2.1_iphoneos-arm64_9dba424bd7bb87b29a0ad803942b3abe74f4f62daa7831610eac365a7b2399cc.deb
+Size: 804052
+MD5sum: 20679402e6a731b5a5cb00400278422f
+SHA1: 2d70a2842c195853aa8503ea85a09f1b26a806c3
+SHA256: 9dba424bd7bb87b29a0ad803942b3abe74f4f62daa7831610eac365a7b2399cc
+SHA512: bf6fad871bed746a3725838968a14458dbe60193fb5bc4c48614956a18217937058fe2e1b27d6a326a205c45ff4955c8cb9d73a506126cba7058d96126eb14c2
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Author: mlgm
+
+Package: com.mlgm.clone
 Architecture: iphoneos-arm64e
 Version: 0.1.6
 Priority: optional
@@ -35189,6 +35358,25 @@ MD5sum: 4a8994e15c86d3b1638275c6cf03100e
 SHA1: 12f8de10c8dd3b06228f547d3e721cf45cca1af2
 SHA256: ab2c5a13fe849948f3414aa1de1c857ffeb21c6f0085a31d041d94e34b02cbd7
 SHA512: 94374d19fc7d4a0418d3cbdb396691b5130b12d807dc0ffb156c320e5e3206e843f06d338f4c4f1eb8a3e67b14349345403fc587ad3cba9ca6381b3fc4feb134
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Author: mlgm
+
+Package: com.mlgm.clone
+Architecture: iphoneos-arm64e
+Version: 0.2.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5300
+Depends: firmware (>= 15.0), ellekit (>= 1.2-1), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: debs/iphoneos-arm64e/com.mlgm.clone_0.2.1_iphoneos-arm64e_14f5b95d5953a4680e24d23a65b7db5f4f76b15f1c178799c3bbc23541c637c3.deb
+Size: 805264
+MD5sum: 7b944467d09091ca4c8db63d8ffa8257
+SHA1: 2bad5bc262e4c2e6424ded1e7448314b33e4082f
+SHA256: 14f5b95d5953a4680e24d23a65b7db5f4f76b15f1c178799c3bbc23541c637c3
+SHA512: 6ec6b9f91f4a5aa9775e0c01daba455980189a5ded78d52c7df56fad98bc1c27e0a2ff4222e3a6f7b84cf2bb1cf08a16a1d25c8205a05c79b993868ac3693765
 Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
 Name: Clone
 Icon: https://mlgm66.github.io/icon/clone.png
@@ -35339,6 +35527,24 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/idata.png
 
 Package: com.mlgm.idata
+Architecture: iphoneos-arm64
+Version: 1.3.6
+Section: Applications
+Maintainer: mlgm
+Installed-Size: 8252
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: debs/iphoneos-arm64/com.mlgm.idata_1.3.6_iphoneos-arm64_33c98b7d5dbdc38c5d01423665034e8ecf2be532d7a0d18a8f88983ee27c240b.deb
+Size: 2475864
+MD5sum: 5e35e3367082f6fcac7c8433c54940fc
+SHA1: e0d6878cb4085a64d59c00200b769cf221b9336c
+SHA256: 33c98b7d5dbdc38c5d01423665034e8ecf2be532d7a0d18a8f88983ee27c240b
+SHA512: 1f53d15d6ab9b70ba19ef07f4b685b429b6f8faa0c7f0d0d69b7bf2f8ed0ac97b30a42196c77dd34236677d58423c141c0368c7ad96072d119ebf8e76ea48dfc
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.idata
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -35482,6 +35688,24 @@ Name: iData
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/idata.png
 
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64e
+Version: 1.3.6
+Section: Applications
+Maintainer: mlgm
+Installed-Size: 8252
+Depends: firmware (>= 15.0), apt, dpkg, roothide
+Filename: debs/iphoneos-arm64e/com.mlgm.idata_1.3.6_iphoneos-arm64e_b5dd1024a39caf1ea0e0be05a8f9014ee8ca86d9d8a537a0c68e24a87747db11.deb
+Size: 2476572
+MD5sum: 048f255906210a27007547d7b991d895
+SHA1: c34d35c448caf97b5f8867c239dd8541b1e01bb3
+SHA256: b5dd1024a39caf1ea0e0be05a8f9014ee8ca86d9d8a537a0c68e24a87747db11
+SHA512: f3f035e674dcd0d992e343d4a1e4bf17e868c515bc5a0626705ba9611620fd2f1dc1aa5da3f51b8ae9de1c2342ca1c7b4abd6ceee404d42e37b8efb52b1407b7
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
 Package: com.mlgm.ilog
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -35555,6 +35779,24 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/ilog.png
 
 Package: com.mlgm.ilog
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Section: Applications
+Maintainer: mlgm
+Installed-Size: 2580
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.mlgm.ilog_1.3.1_iphoneos-arm64_36579d9ba102bca8467db4d9f1c614a50b900b35120811e17a123e7069acb7fb.deb
+Size: 1559448
+MD5sum: f7409a722962506f0be61b313b8d7864
+SHA1: 075838fcff4f18e0a906f042a7124eab954289fd
+SHA256: 36579d9ba102bca8467db4d9f1c614a50b900b35120811e17a123e7069acb7fb
+SHA512: 0416d193768153dc0ff7867ac702f20660a913e3e41452c981b2f8b9f12ebbfc32fdde3187fe5304c7dafbcde418e4ca9099be7374d76788ee84cce9e04fc2e7
+Description: 查看、预览、分享和清理 iOS 日志
+Name: iLog
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+
+Package: com.mlgm.ilog
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -35621,6 +35863,24 @@ MD5sum: 45d2a920541d65a7dd99aceea3a4ef97
 SHA1: 1a5f6c5e22aeefef528e8555f9b85ddf0843f809
 SHA256: c20498f3750e0e6d7272bd6c55bf548c925d63ac69fb63a8f55c731c1c4904d0
 SHA512: c961058b1b9e22732567b8bb5c4f0bdd6ea1721155bd26bde4585adbf67d5123922cfd92b4ba84fa61801552c01a44c82442bf7076d158bf1c260c022270ef51
+Description: 查看、预览、分享和清理 iOS 日志
+Name: iLog
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+
+Package: com.mlgm.ilog
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Section: Applications
+Maintainer: mlgm
+Installed-Size: 2580
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.mlgm.ilog_1.3.1_iphoneos-arm64e_e2847d66935eaa9379054a94dee438f30ca3dc57945f3369c38a45cd99573d0b.deb
+Size: 1559212
+MD5sum: 4f695f6271626ab2c3c70d89d58b512d
+SHA1: 7d70cc63373526b67d65a9454b90716cca096a38
+SHA256: e2847d66935eaa9379054a94dee438f30ca3dc57945f3369c38a45cd99573d0b
+SHA512: 9350446321299c66fd1c359e95491e511fce98df1f319ceb0bde3b277d55072616007cdc7adf9d3a8b5373a3863b9cc3705b48fe06ee1f806eaa2c87791854d7
 Description: 查看、预览、分享和清理 iOS 日志
 Name: iLog
 Author: mlgm
@@ -35927,6 +36187,27 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.kayoko
+Architecture: iphoneos-arm
+Version: 5.1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3896
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm/com.mlgm.kayoko_5.1.2_iphoneos-arm_7653cf93f7e5da2d7a1e75e44b6bdb35c97419a68fd900e1c9fe108d9a062594.deb
+Size: 823740
+MD5sum: 09330bcfe7ca9d9b7b0246886fc88d73
+SHA1: 92d70961fa3e9a1f704c6a52163bb4112871a1d6
+SHA256: 7653cf93f7e5da2d7a1e75e44b6bdb35c97419a68fd900e1c9fe108d9a062594
+SHA512: 716a94e65324fcc4d23c883e2087397aa98dcbd8540681c756922ad1a056171eb8e41d306b40126c7d5cc464b85f9e21e0f30c62c7afef70f0874a9060100092
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
 Architecture: iphoneos-arm64
 Version: 4.5
 Section: Tweaks
@@ -36196,6 +36477,27 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 5.1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3896
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_5.1.2_iphoneos-arm64_9cd8b3a3e3fde3409e89e8f7d97ac3461ddbe4de250efffe3825c566bc87ed32.deb
+Size: 826912
+MD5sum: 6be0c046db5672e23301dec257bab167
+SHA1: 0753edd96064fc115d131123ba711c58d3b5af07
+SHA256: 9cd8b3a3e3fde3409e89e8f7d97ac3461ddbe4de250efffe3825c566bc87ed32
+SHA512: 3e353748103f5eda0d0387b8b8bd3cc84c5a07c3b1635481c2519bed4520c42195da1cf235be8775e9a8254f16a7d9daaac6a0868342617cd3087145c292f8ce
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
 Architecture: iphoneos-arm64e
 Version: 4.5
 Section: Tweaks
@@ -36458,6 +36760,27 @@ MD5sum: 7f3db8bad10201975aed1e7ecf16b102
 SHA1: efab348e51f023606747f342e107803167b97148
 SHA256: 0251f2d3ed659592c156bc9eb7618210cd1c02cf0f1ed66ef6195270511440ef
 SHA512: 132a8bd60d76a1ab75a6afa392e9f81d983666bdd62a45f45a7b892817f73acf482834505bb3d1a3fd5523b71379383063428df6455d5b51f6b5b0b57971d5aa
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3864
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_5.1.2_iphoneos-arm64e_923cbad2aa983b546afdc494f847e7121579a779014274f54a9e8c4067cb4b82.deb
+Size: 813712
+MD5sum: 1b1f91f25d6c28129513df451180e064
+SHA1: 6f1d20a517fdb6fef6abf87d4f8cb9b6a7bc6f7e
+SHA256: 923cbad2aa983b546afdc494f847e7121579a779014274f54a9e8c4067cb4b82
+SHA512: 5e3be1fc0cd09b4443058cf61f3ac27771502d8e536162cc034598887da8ab4c43a36abf6c3eaf018d5f12549aefc9aede97ad666f12eec012aa26f2c232419c
 Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
 Name: Kayoko
 Author: mlgm
@@ -37581,6 +37904,24 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/taploom.png
 
 Package: com.mlgm.taploom
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1124
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.mlgm.taploom_1.1.8_iphoneos-arm64_614f4b8213a3d078746d398f5e61f84a14a6f31732b60668119b4b93f54ca3d9.deb
+Size: 184820
+MD5sum: c1920b101a256e590793fc02d0b29a12
+SHA1: ef8304d70d9845187d82c44f997823d2d34a6a0f
+SHA256: 614f4b8213a3d078746d398f5e61f84a14a6f31732b60668119b4b93f54ca3d9
+SHA512: 2b4be4aea1df3b612fe9bc8939b8b3fccd96609244e754d0298c428b321afdf5ac6fc60d74ab5deca4824d27b9a28a4740f4a4c18a77fee9fdf33348d53f81f5
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
+Package: com.mlgm.taploom
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Section: Tweaks
@@ -37652,6 +37993,24 @@ Name: Taploom
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/taploom.png
 
+Package: com.mlgm.taploom
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1124
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.mlgm.taploom_1.1.8_iphoneos-arm64e_c208ba62778619e2d52b3765e50ba281bd7be3d05f59e09d0072991070e7161b.deb
+Size: 184904
+MD5sum: 52907e0d20d0c2974d9da0edd812656c
+SHA1: a64f0da87778b493b966def5137b2be5aef645fc
+SHA256: c208ba62778619e2d52b3765e50ba281bd7be3d05f59e09d0072991070e7161b
+SHA512: bff7e962b1e1408bec287ee83bc4de3449fca1182fcfb9241624b129c638c95f8c3a189ea41d7686dc97db9f7f892b9a7b9d491094819923970e8ba87f42f2ca
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
 Package: com.mlgm.watchfix
 Architecture: iphoneos-arm64
 Version: 2.1
@@ -37671,6 +38030,24 @@ Author: 577FKJ
 Icon: https://mlgm66.github.io/icon/watchfix.png
 
 Package: com.mlgm.watchfix
+Architecture: iphoneos-arm64
+Version: 2.1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5432
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.mlgm.watchfix_2.1.1_iphoneos-arm64_1ea24741dba42d5e98b7edee12519a5f60ff50d47358b5fb04c6b1443c43d44a.deb
+Size: 839332
+MD5sum: 6e093f23899d95a7fa5e7131ac9cb55c
+SHA1: 1364eb56c610a8ed196f2363f4945fe7e9580f67
+SHA256: 1ea24741dba42d5e98b7edee12519a5f60ff50d47358b5fb04c6b1443c43d44a
+SHA512: 8629ed7e1593ebe4dbc77758f01fe4ae0ab34544eaa1ffef7735270680c3695ed653e61e8e7943152aee5fd7254cbe4548bbf55f2ad0b942f6c5aa9145c2ce47
+Description: 解决 Apple Watch 连接问题
+Name: WatchFix
+Author: 577FKJ
+Icon: https://mlgm66.github.io/icon/watchfix.png
+
+Package: com.mlgm.watchfix
 Architecture: iphoneos-arm64e
 Version: 2.1
 Section: Tweaks
@@ -37683,6 +38060,24 @@ MD5sum: 6e2f025a95a87e8c60f77ae795c3d850
 SHA1: 6cb68c42866ef6739ec812c1c359cedfc361d2bf
 SHA256: 30b8f3cc38025b0d65278eecc4362e87801bbc359a68e950316318b97d0ecb7b
 SHA512: 8f3ceebb9d3ee6d1530e30e160ad95c45fd835f4f83a8df5235d788363ca6350582b69f06367702368c391adbde15ef27799c076d4970247d3276521c24621b4
+Description: 解决 Apple Watch 连接问题
+Name: WatchFix
+Author: 577FKJ
+Icon: https://mlgm66.github.io/icon/watchfix.png
+
+Package: com.mlgm.watchfix
+Architecture: iphoneos-arm64e
+Version: 2.1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5360
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.mlgm.watchfix_2.1.1_iphoneos-arm64e_238a19fc1d242d1c07104398eb1c106cf356c7ea747d80992a31f30967a038c5.deb
+Size: 832012
+MD5sum: b4ee84413ceb240d4f8f97018a273a08
+SHA1: a84b31548e3671828f0720b6ac7cbc98e18d4efe
+SHA256: 238a19fc1d242d1c07104398eb1c106cf356c7ea747d80992a31f30967a038c5
+SHA512: 0afec390d28932ce6152c1c1e8d4cdf2a606129f7597dffcfd2705152f4049dd972676c3e54472599ddadcd6b6bad72594a970ebd38e8077d27f1407cbc3011d
 Description: 解决 Apple Watch 连接问题
 Name: WatchFix
 Author: 577FKJ
@@ -57264,6 +57659,319 @@ SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.susudear.scre
 
 Package: com.susudear.screencore
 Architecture: iphoneos-arm64
+Version: 2.0.3+windowscheduler.12-79.duo3.43
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 6309
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Filename: debs/iphoneos-arm64/com.susudear.screencore_2.0.3+windowscheduler.12-79.duo3.43_iphoneos-arm64_0d4bf2d2ca17aadf9002320d1d5a056762fe1e36cda2e4cd08dd3af6d9e6a8f1.deb
+Size: 1017196
+MD5sum: d9e6ddb15d78b1fbb9d72e15d24161cc
+SHA1: 0abde9aeaa8ed3af964fac79c189a31f8762d7e9
+SHA256: 0d4bf2d2ca17aadf9002320d1d5a056762fe1e36cda2e4cd08dd3af6d9e6a8f1
+SHA512: 33f03ede14d6128d88d4c01da68f2b82c41fe7fb522e76e93846a71295bd45c245921e9ebde1d0ea5697e0ef29b9954d3659145b1569fe04b5ad102bac742bad
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-12。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明保留在包内使用说明书，设置首页不再显示长说明。
+ 安装后重启桌面。
+ 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
+ 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
+ App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
+ 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
+ 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
+ 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
+ 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
+ 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
+ 长按收藏 App 原地松手打开自由独立窗口，不受普通浮窗数量、单窗口替换或自动边缘停靠限制。
+ 独立窗口沿用分屏比例，不依赖 App 跳转弹窗开关；普通切换保留它，同 App 复用原窗口。
+ 保留放大退出修复、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 设置新增移除底部系统 Dock 开关，默认关闭，更改立即生效；不影响键盘或应用内底栏。
+ 保留长按独立窗口、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 修复键盘图层或承载窗口晚到时显示接入丢失，以及不可见原生宿主误接管造成的键盘空白。
+ 就绪恢复限定当前小窗及原版键盘显示请求，收起和切换取消旧重试；保留输入框避让与正常切换速度。
+ 新增 5:3 普通分屏比例，沿用 16:9 的键盘显示与输入框避让流程。
+ 同步应用画布、全屏交接和退出还原；跳转小窗保持原始比例，其他功能基于 .12-13。
+ 移除 4:3，保留原始比例、16:9、5:3；旧 4:3 设置自动迁移为 5:3。
+ 切换比例不再自动注销，确认后关闭并重新打开普通小窗生效；已打开小窗保持自己的比例。
+ 保留原设置保存及同步通知、手动注销、键盘与输入框避让和悬浮球适配。
+ 左右侧边向内滑动可实时临时放大，松手平滑恢复；侧边滑动替代移动。
+ 新增放大灵敏度滑条 1–8，默认 2；显示宽高分别不超过屏幕对应尺寸的 4 倍。
+ 保留 .12-17 的比例免注销、原有键盘避让、悬浮球适配和启动保护。
+ 底部向上滑动松手将小窗临时收进灵动岛，保留原应用会话。
+ 进出带缩放、位移和淡入淡出；保留 .12-18 侧边临时放大及原有键盘与悬浮球适配。
+ 保留原有键盘、悬浮球、灵动岛动画及启动失败保护，不增加固定等待。
+ 底部点击和上滑统一收进灵动岛后执行原生关闭，结束隐藏小窗托管。
+ 新增 16:10、18:10 普通分屏比例，沿用 16:9 键盘显示、输入框避让及收起还原。
+ 同步真实应用画布、全屏输入和退出尺寸恢复；切换比例免注销，已有小窗保留原比例。
+ 保留 .12-21 灵动岛动画范围，其他出入场动画、键盘兼容和悬浮球适配保持原有实现。
+ 恢复原有浮窗柔和阴影，硬黑边改为底部聚焦的柔和投影；聚焦阴影深浅 0–100%，默认 40%。
+ 新增实时圆角半径滑条 0–60，默认 24；全屏保持直角，支持缩放与返回小窗。
+ 保留 .12-22 全部窗口比例、键盘避让、悬浮球及原有动画范围。
+ 文件分享等待接收小窗画面和入场就绪再投递，复用已打开目标窗口，避免普通启动覆盖分享页面。
+ 保留文件 URL、Actions、沙盒授权和回调；启动失败完整请求回退系统打开一次。
+ 保留 .12-24 键盘避让、快捷栏、悬浮球、窗口动画、比例、阴影和圆角设置。
+ 新增点击顶部通知横条用小窗打开开关，默认关闭、即时生效，独立于 App 跳转弹窗。
+ 保留系统通知跳转动作、来源及回调；复用已打开小窗，启动失败回退系统一次。
+ 保留 .12-25 分享修复、键盘避让、快捷栏、悬浮球、动画、比例及阴影设置。
+ 修复分享、通知启动等待期间的系统栈回调生命周期，避免延迟交付导致 SpringBoard 安全模式。
+ 保留通知小窗开关、文件分享及此前功能；安装后重新启动 SpringBoard 生效。
+ .12-28 修正此前通知独立小窗行为：横幅通知改用所选比例的普通分屏，遵循窗口数量及单窗口模式。
+ 原版通知分屏开关与调度通知开关均可启用；通知不再创建原始比例跳转小窗，文件分享保留独立小窗。
+ 保留 .12-27 回调生命周期修复、启动失败保护及原有键盘、快捷栏、悬浮球和动画；安装后重新启动 SpringBoard。
+ .12-29 横幅普通分屏补上灵动岛入场动画，已打开窗口复用原场景并重播入场。
+ 原始通知响应直接投递对应分屏场景，保留消息参数；防止工作区重复投递，失败完整回退。
+ 保留所选比例、窗口上限、单窗口、键盘、分享、快捷栏、悬浮球及原有启动保护；安装后重启 SpringBoard。
+ .12-32 基于 .12-29：修复 iOS17 退出分屏/原生全屏后的残留小窗画布及黑底。
+ 同步原生画布重绘，拦截同一前台场景的旧比例回写；保留键盘字段、原动画和返回图标。
+ 仅新增 iOS17 SpringBoard 模块，旧二进制全部保留；安装后重启 SpringBoard。
+ .12-33 iOS 17 全屏前静默恢复原始尺寸，冻结小窗遮住重布局，成功回执后等待约 1 秒。
+ 保留原版全屏交接与失败回退、返回图标、键盘避让、普通切换速度；其他系统不启用新流程。
+ .12-34 保留 .12-33 全屏前静默恢复与失败回退。
+ iOS17 全屏成功后，限 4 次重新提交原生画布以触发应用重绘；键盘高度、焦点及方向字段不改。
+ 非 iOS17 系统不启用；系统远程合成表面的真机表现仍需验证。
+ .12-35 移除圆形菜单手势上的重复呼回，由 QuickLaunch 自行按其打开方式处理。
+ 保留底部关闭、入岛动画、键盘及其他窗口调度逻辑。
+ .12-36 新增窗口消失动画选择：原始动画、粒子消散、华为风格，默认保留原始动画。
+ 用于小窗关闭及普通替换退场；保留原有入场、全屏交接、键盘避让及 QuickLaunch 独立呼回。
+ .12-37 修复消失效果设置页点击闪退，细化粒子，分离原位侵蚀与稀疏飘散，取消颗粒放大。
+ 保留三种选择、现有键盘与全屏流程、QuickLaunch 独立呼回和窗口启动失败保护。
+ .12-38 重做独立细粒消散：原生 GPU Compute、原图取色、向下散落及连续湍流，华为风格增加柔和 Bloom。
+ 保留原始动画、设置页修复、键盘与全屏流程、QuickLaunch 独立呼回和窗口启动失败保护。
+ .12-39 细化沙粒并降低硬亮点；两种效果均斜向上随风飘散，原图边缘柔和渐隐，华为风格改为不规则侵蚀。
+ 保留原始动画、键盘与全屏流程、悬浮球适配、QuickLaunch 隔离及启动失败保护。
+ .12-40 保留 .12-39 粒子消散，华为风格替换为风沙消散：细沙随风卷动，末段留少量浮尘并淡出。
+ 设置可选原始动画、粒子消散、风沙消散；保留键盘、全屏、悬浮球适配及启动失败保护。
+ .12-41 四种独立消失效果：原始动画、粒子消散、风沙消散、华为消散。
+ 粒子按提示词采样约1500粒，从左向右擦除、右上飘散并缩小；风沙弧形上浮后慢消散，华为独立恢复。
+ .12-42 重做像素碎落、弧形飘散、华为消散，原始动画继续保留；取消双翼方案。
+ 像素碎落采用右上至左下斜线和下落碎片；华为消散采用中部缺口、不规则扩散与边缘卷动，约两秒。
+ .12-43 新增独立窗口呼出动画：原始动画、碎片聚合，聚合约 0.46 秒，默认原始动画。
+ 删除华为消散；关闭保留原始、像素碎落和弧形飘散。呼出关闭独立设置，无须注销。
+ .12-44 删除碎片聚合呼出及对应设置，恢复原有入场响应；旧呼出偏好不再生效。
+ 新增花瓣消散，粉白花瓣翻转飘散并带柔和粉雾，约两秒。原始、像素碎落和弧形飘散保留。
+ .12-45 花瓣消散改为与像素碎落相同的右上至左下斜线推进，取消中部扩散。
+ 保留两秒时长、花瓣翻转和粉雾，呼出继续使用原始流程。
+ .12-46 像素碎落和花瓣改为被风吹走的曲线轨迹，先向右散开，再斜向上扬并轻微摆动。
+ 右上至左下的消散边缘、原有时长和花瓣粉雾保持不变。
+ .12-47 消散显示缓冲改为后台获取，防止等待阻塞界面；旧帧合并，迟到缓冲安全丢弃。
+ 花瓣捕获和渲染降至 1.5 倍像素密度，减少重复 GPU 计算；消散边缘改为细小不规则剥离，保留风向和时长。
+ .12-48 修复消散不显示：恢复 .12-46 首帧提交顺序，取消等待显示回调的绘制门槛并增加完成兜底。
+ 保留自然花瓣边缘、弯曲风向和两秒时长；保留降低渲染开销，撤回后台取帧。
+ .12-49 花瓣先密集覆盖窗口，窗口在花瓣堆内消失后，花瓣再弯曲向右上方飘散。
+ 保留约两秒时长与启动保护；其他消失动画、键盘、全屏和悬浮球逻辑保持原有流程。
+ .12-50 花瓣后续取帧移出主线程，繁忙时合并最新进度，缓存花瓣与粉雾减少重复计算。
+ 柔化花瓣覆盖前沿和单片边缘，保留花瓣堆内消失、约两秒时长与首帧启动保护。
+ .12-51 移除设置首页的功能与快捷操作长说明，保留所有功能设置。
+ .12-52 新增独立“玫瑰花瓣”消失选项，深红宽瓣卷边，覆盖前沿与轮廓更加柔和。
+ 保留原有四种选择、约两秒花瓣时长、后台取帧和精简设置首页。
+ .12-53 修复原生窗口退出期间快速重开被拒绝，普通启动保持立即响应。
+ QuickLaunch 的 ScreenCore 错误使用中文，真实失败仍保留原错误码。
+ 玫瑰花瓣替换为星光消散，五角星亮芯、柔和光晕和错落闪烁；其他消失动画保留。
+ .12-54 新增图标切换的独立抽屉模式：左侧 ARC 已选 App，右侧原始比例界面。
+ 目标就绪后横向抽屉切换，输入时全屏、键盘收起恢复；保留原有模式和消失动画。
+ .12-55 抽屉页面与窄栏直边对齐，使用统一外围阴影；普通小窗圆角设置不变。
+ 抽屉大小与普通小窗尺寸隔离，调整模式新增双指捏合缩放和随手势中心移动。
+ .12-56 抽屉工具支持 ARC 和 QuickLaunch URL 列表调用，移除窗口内模式入口。
+ 调整模式使用灰黑透明画布，单指移动、双指缩放，再点调整完成。
+ 最大化提交实际全屏页面画布，顶部底部填满、四角直边，控件避开系统安全区域。
+ .12-57 抽屉输入提交真实全宽画布，收起键盘保持输入前的最大化状态。
+ 抽屉全屏使用黑色状态内容；关闭恢复普通比例记录，修复重新开小窗时比例串用。
+ .12-58 抽屉全屏及输入时使用黑色状态前景，退出还原原色。
+ 键盘展开和收回同步折叠/展开窄栏，尺寸与画布均就绪后再交接，避免转场露出桌面。
+ .12-59 抽屉键盘展开和收回统一裁剪与画布坐标，阻止迟到尺寸回调重设位置和比例。
+ .12-60 抽屉新建直接使用目标比例；键盘输入使用真实全窗口画布并校正迟到事务。
+ 普通小窗入场校正残留 App 表面，保留原生比例与虚拟显示配置，修复右侧和底部留白。
+ 状态栏时间、日期定时更新时保持黑色，退出恢复。
+ .12-61 TIM 普通小窗独立布局刷新；电话助手时钟按 App 深浅外观适配并恢复原色。
+ 移除抽屉调整按钮，保留原有角部缩放；补齐呼出、退出和大小切换转场，独立记忆抽屉位置大小。
+ .12-62 移除状态栏强制黑色及电话助手时钟适配，颜色由系统和原插件控制。
+ 抽屉初始化限制为 SpringBoard，合并镜像加载回调，去除设置中重复扫描风险。
+ 抽屉呼出采用真实页面与窄栏同步轻动效，覆盖冷启动及复用窗口，无呼出截图等待。
+ .12-63 全屏抽屉窄栏与页面从左右两侧进入，退出反向滑出，修复原生宿主拆除中断退场。
+ 增加侧栏与 ARC 共用的图标大小、间距和方形/圆形设置，修改后无需注销。
+ .12-64 修复抽屉入场前闪屏，保护新建和复用窗口，拒绝和超时立即释放。
+ 图标最大 200%，间距可收紧至 -32；侧栏自适应宽度，圆形使用实际图片边界裁剪。
+ .12-65 抽屉等待真实内容与启动占位层撤下后再同步入场，修复呼出先显示白底。
+ 真实侧栏同步缩放布局，键盘侧栏不拆装，页面交接不再交叉淡入新旧侧栏。
+ 最大化保留原生逻辑宽度、匹配页面宽高比并整体缩放，防止聊天内容溢出右侧。
+ .12-66 取消加长画布，抽屉使用固定原生尺寸并在宿主内完整映射，修复右侧溢出和底部留白风险。
+ 键盘和侧栏几何变化保留已提交的同尺寸表面；普通模式和实际尺寸变更保留原重试。
+ 入场空遮罩防直接图层重置露白，等待稳定刷新后同步滑入，全屏呼出约 0.46 秒。
+ .12-67 新增实时窄边栏宽度调节，右侧应用按实际可用宽度布局，取消非等比拉伸。
+ 启动页随抽屉同步进入，统一入场时间线；暂未就绪不解除隐藏，保留启动失败保护。
+ .12-68 移除侧栏应用选中外框，取消初始触摸等待，按下即时反馈。
+ 键盘收放带着真实图标同步滑动，避免收回后突然显示，保留启动与回退保护。
+ .12-69 新增侧栏左右切换按钮与同步滑动转场，方向随抽屉尺寸记忆。
+ 新增侧栏背景颜色与透明度设置，实时更新且只改变底色，不淡化图标和按钮。
+ .12-70 最大化抽屉的应用横屏请求改为原生全屏交接，由系统旋转，保留返回抽屉图标。
+ 忙碌请求合并等待，后台取消；启动失败保留抽屉，普通小窗旋转不变。
+ .12-71 全屏抽屉接缝上下圆弧，左右镜像；缩小后四角同弧，保持场景尺寸与输入布局。
+ 背景颜色点选、双色渐变、独立背景透明度，共享 ARC/侧栏图标底部阴影。
+ 抖音全屏增加有限布局刷新兼容，实际播放器效果需设备验证。
+ .12-72 移除普通窗口旧角标、独立收藏应用栏及相关设置，抽屉使用 ARC 应用列表。
+ 保留抽屉、共享切换保护、原生全屏返回控件、键盘和悬浮球适配。
+ .12-73 普通小窗透明穿透系统工具，键盘保留并上移避让，透明度可调。
+ 抽屉独立于普通小窗数量和调度，内容与侧栏层级低于普通小窗。
+ .12-77.duo.3 修订横屏分隔条、画面预览、重复应用拦截与独立键盘几何。
+ ARC 与配套 QuickLaunch 可选应用；横屏左右、竖屏上下，真实画布调整，不缩放拉伸。
+ 拖动预览、松手单次提交；图标选择、主动横屏、输入全屏及满槽新应用普通小窗。
+ .12-79.duo3.43 横屏保持 Duo，键盘自由移动、布局记忆及四角贴合修复。
+ 普通横屏视频小窗仅在 Duo 竖屏生效；主动横屏及旋转期间不自动转小窗。
+ 记忆中心和缩放独立于原生临时偏移；原生重置或迟到回调不覆盖用户布局。
+ 拖动从当前位置开始，两轴自由移动，不向上跳、不限制边界；四角线形标记紧贴可见键盘。
+ 弹起前冻结画面，场景准备后原子替换；快速反转复用过渡层，不交叉叠影。
+ 上屏普通横屏小窗自动恢复下屏显示，视频退出回到最新双窗比例。
+ 主动旋转需系统及 UIKit 确认后同步 App 与原横屏分离键盘，失败回退。
+ 拖动仅预览下屏，松手重排一次；普通与自由布局均不改变横屏小窗。
+ 视频退出等待下屏调整结束，恢复最新分割位置，不回到旧比例。
+ 保留 .33 原生显示链、原始纹理尺寸、纹理补偿和会话保护。
+ 仅 Duo 横屏接管原移动条的位移，其他模式继续原生拖动，不自动避让。
+ 任意一个角拖动调整大小，保留44pt透明触摸区域，无箭头无底色。
+ 收起和重新弹出保留手动大小、位置，左右横屏分开记忆，其他模式不读取。
+ 上屏视频复用原会话临时普通横屏，显式退出后接回原窗口；下屏保持。
+ Duo 竖屏键盘收起采用单层画面交接，避免先回全屏位置及新旧画面重影。
+ 重复横屏布局与相同在途方向请求合并，尺寸变化、反向和超时可正常更新。
+ 抽屉及侧栏位于 Duo 上方；重复应用在启动和切换前提示并拦截。
+ 保留普通小窗、抽屉及竖屏输入路径、滑条、折叠工具栏和视频适配。
+ 未连接手机；iOS 17 及微信输入法真实方向和完整显示需要实机确认。
+Name: screencore-窗口调度版
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/screencore/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.susudear.screencore.json
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Install-Environment: standard-rootless-var-jb
+X-Rootless-Input-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Rootless-Revision: exact11-libroot-paths.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: 64fc26d41398f82dee8c641dc82a401d5dc908d5ef75deb55fb5af6334f8762e
+X-Core-Identity-Revision: expected-author-kanuo.1
+X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Geometry-Base-SHA256: e9cabb058422ab075eac379c15438bf6a962e86bccfa870ee7bc62cc8b286028
+X-Native-Jump-Geometry: popup-only-native-size.1
+X-Native-Jump-Base-SHA256: ff0edfa8b9ce6ee38054136a0e2da0d69004907dad70e00d8b8f24f74fa171fc
+X-Keyboard-Compatibility: scene-identity-and-bounded-readiness.2
+X-Keyboard-Base-SHA256: 1c77fd6f0c7c721d645a293c16d7b8cf6fa15178fd31adfd426b8c1812492fd4
+X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
+X-Fullscreen-Exit-Base-SHA256: cc28b5bc9408b504b09179029545c90c7d3fd6f110af80b2a8b520f76e5204e0
+X-Favorite-Standalone: independent-policy-normal-split-geometry.1
+X-Favorite-Standalone-Base-SHA256: f76ac941e43f74f0c57dff7b93ea3907d6af4e739b3497b865c555c3e2fa09a7
+X-Fullscreen-Native-Canvas: physical-screen-reversible-queued-geometry.1
+X-Fullscreen-Base-SHA256: 472fac2e6b474876df278e7c5fb457f443d155e1b34981d21e26f7ee38038bf6
+X-Fullscreen-Rendered-Canvas: instance-settings-hosted-resize-ack-validation.1
+X-Fullscreen-Rendered-Base-SHA256: 311a97ab829ac8dbcdd53964dab86477b1b30576a23e690f6fe5c7d1790db0a1
+X-Native-Fullscreen-Return: native-promotion-scoped-nonkey-icon.1
+X-Native-Fullscreen-Base-SHA256: 74aa276a95ac2633d2ecf174254bc04b9aded83084d61109cb9fffe723cdfaf8
+X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
+X-Native-Fullscreen-Canvas-Handoff: atomic-hosted-resize.1
+X-Native-Fullscreen-Scene-State: scoped-input-layout.1
+X-Aspect-Ratio: native,16:9,5:3,16:10,18:10; per-session-canvas.1
+X-Aspect-Ratio-Base-SHA256: 0ecd946fe8210a79f69b117a809a96eaa6036dd9bbcbb61187d5b4f3405b7552
+X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
+X-Edge-Peek-Base-SHA256: 1ff51ada1bd3ab5fb66cf2e6e413f00288ed6297dc2371e7abe1a6339ce69368
+X-Island-Return: quicklaunch.partial-circle.release-only.live-layer.1
+X-Island-Return-Base-SHA256: 76d12fe7881aa670d48c803cba862da8f0ed818384b3fce40fabde218ad9a926
+X-Quick-Recall: visual-circle.release-only.last-successful-app.closed-reopen.1
+X-Quick-Recall-Base-SHA256: ea86c6685947647de6e0309e68da1685d8cab97ca753b2dc38739ebd9628401d
+X-Island-Native-Close: tap.upward.native-close.island-reentry.1
+X-Island-Native-Close-Base-SHA256: 9337e212690b7db01dd89a6922f68b0a549e58a0a286e31803d4e878b87e0417
+X-Window-Frame: focused-shadow.opacity0-100.live-radius0-60.2
+X-Window-Frame-Base-SHA256: 25c1a2491d0237dbaf104ebd289a7c7557fb2667a60ad471b22d83673d2489f8
+X-Window-Shadow: native-shadow-preserved.with-bottom-focused-shadow.2
+X-Share-Handoff: host-ready.single-native-request.reuse-existing.failure-fallback.1
+X-Share-Handoff-Base-SHA256: 587ef9652b337e67a1ef2213b1ad32a60331fb9ba528a8fcaff49a86b2614751
+X-Notification-Popup: banner-only.default-off.live.independent.host-ready.native-payload.1
+X-Notification-Popup-Base-SHA256: 1c9c1b96474d1b81955a2a16ce5d37bb92fd6572c11869f68241d0d1bce323e4
+X-Callback-Lifetime: copy-native-completion.copy-queued-delivery.once.release.1
+X-Callback-Lifetime-Base-SHA256: e11118d5183f5af780b7b0c35c0e6035f9e06035f48fa49344bf94f1cafc69d5
+X-Notification-Split: ordinary.selected-ratio.native-pref.limits.original-animation.host-ready.1
+X-Notification-Split-Base-SHA256: 6eb880a626a2e224327547ed99639889ce2d38febc372c90e7b8361552c5f948
+X-Notification-Direct: hosted.response.actions-once.island.native-entrance.warm-replay.1
+X-Notification-Direct-Base-SHA256: 99e4d0d1b3bf61ac028ca0b601fb176286cd983c6cd7b70b6b229256962b9f65
+X-Native-Canvas: ios17.close-promote.scene-repaint.late-settings.1
+X-Native-Canvas-Base-SHA256: d1fbe97b7cbf3cac4806cba5683d411e797a89fdfe00377000191cc63b40e922
+X-Silent-Fullscreen: ios17.snapshot.native-restore.settle1s.native-rollback.1
+X-Silent-Fullscreen-Base-SHA256: 38b2a728fac1a45c4e16b217621dbe1c80e840df780354a4f3e0eb1dd0b944e4
+X-Native-Canvas-Repaint: ios17.foreground.success.bounded4.preserve-input.1
+X-Native-Canvas-Repaint-Base-SHA256: ed2b6815afa0ae10668723f3561b4dbaa0768d8ba2ebe0a4c272eae9cff723a9
+X-Radial-Recall-Owner: quicklaunch
+X-Window-Disappear: original.dust.huawei-style.bounded-compositor.1
+X-Window-Disappear-Revision: settings-action.fine-grain.stationary-erosion.2
+X-Window-Particle-GPU: compute.texture-alpha.fractal-wind.soft-bloom.1
+X-Window-Particle-Softening: upward-wind.irregular-feather.gaussian-grains.1
+X-Window-Sandstorm: legacy-dust-preserved.curl-grains.residual-dust.1
+X-Window-Arc-Effects: four-modes.prompt1500.rising-sand.huawei-restored.1
+X-Window-Textured-Fragments: video-diagonal-fall.arc.huawei-center-curl.original-texture.2
+X-Window-Effects-43: dismiss-original.diagonal.arc.huawei-removed
+X-Window-Arrival: original.diagonal-assembly.0.46.native-accepted.shared-budget.1
+X-Window-Effects-44: native-entry.petals.2sec.pixel.arc.huawei-removed
+X-Window-Effects-45: petals.top-right-to-bottom-left.soft-diagonal.2sec
+X-Window-Effects-46: pixel.petals.curved-up-right-wind.original-timing
+X-Window-Effects-47: async-drawable.coalesced-ticks.petals-scale1.5.frayed-soft-edge
+X-Window-Effects-48: restored-submission.gpu-completion-fallback.idempotent-reveal
+X-Window-Effects-49: petals.cover-erase-lift.no-image-ghost
+X-Window-Effects-50: petal-backpressure.cached-sprites.soft-front
+X-Window-Effects-52: rose-petals.separate-mode5.soft-rim.cached-atlas
+X-Window-Launch-Recovery: closing-state4.bounded3sec.latest-choice.chinese-ql-errors.1
+X-Window-Effects-53: glowing-stars.mode5.cached-fivepoint-halo.curved-wind
+X-Window-Drawer: arc-selected.native-ratio.icon-toggle.keyboard-fullscreen.1
+X-Drawer-Isolation: square-seam.separate-persistence.edit-pinch.1
+X-Drawer-Tools: external-url.persistent-editor.real-fullpage.rollback.1
+X-Drawer-Input: full-canvas.saved-maximize.native-status.normal-ratio.1
+X-Drawer-Input-58: dark-status.scoped-foreground.assembly-motion.dual-barrier.1
+X-Drawer-Alignment-59: current-session-canvas.local-clip.no-native-refit.1
+X-Drawer-Canvas-60: native-entry.full-window.input.authoritative-canvas.ordinary-repaint.clock-refresh.1
+X-Drawer-Interaction-61: tim-entry.callassist-clock.assembly-size.entry.exit.placement.1
+X-Drawer-Settings-62: native-status.no-clock-scan.springboard-only.coalesced.1
+X-Drawer-63: fullscreen.opposing-slides.native-arc-shared-icons.1
+X-Drawer-64: pre-attach.visibility.atomic-reveal.true-circle.extended-icons.1
+X-Drawer-65: hosted-ready.no-startup-cover.live-rail.atomic-handoff.native-width-fit.1
+X-Drawer-66: fixed-native-canvas.local-xy-fit.retained-surface.masked-entry.stable-refresh.1
+X-Drawer-67: live-rail-width.real-usable-canvas.uniform-fit.startup-slide.deferred-hold.1
+X-Drawer-68: no-selection-frame.immediate-touch.live-input-rail.synchronized-return.1
+X-Drawer-69: remembered-edge.paired-slide.background-rgb.background-only-alpha.1
+X-Drawer-70: app-landscape.native-fullscreen.restore-display.drawer-return.deferred-cancel.1
+X-Drawer-71: mirrored-inner-corners.palette.gradient.background-alpha.icon-shadow.video-canvas.1
+X-Drawer-72: legacy-controls-retired.no-hidden-hit-targets.arc-drawer-preserved.1
+X-Passthrough-73: ordinary-only.layer-input-gate.keyboard-retained.1
+X-Duo-77: snapshot-preview.landscape-divider.keyboard-owner.duplicate-guard.3
+X-Duo3-Repair: 12-79.duo3.43
+X-Duo3-Repair-Base: 2.0.3+windowscheduler.12-77.duo.3
+
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64
 Version: 2.0.4
 Section: Tweaks
 Maintainer: SuSu
@@ -58536,6 +59244,316 @@ X-Drawer-69: remembered-edge.paired-slide.background-rgb.background-only-alpha.1
 X-Drawer-70: app-landscape.native-fullscreen.restore-display.drawer-return.deferred-cancel.1
 X-Drawer-71: mirrored-inner-corners.palette.gradient.background-alpha.icon-shadow.video-canvas.1
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.susudear.screencore.json
+
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64e
+Version: 2.0.3+windowscheduler.12-79.duo3.43
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 4514
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Filename: debs/iphoneos-arm64e/com.susudear.screencore_2.0.3+windowscheduler.12-79.duo3.43_iphoneos-arm64e_1c9de13efc5f8204a373ed8e7a1c1f3fba0d784df79e3b1fbdc0d1ab6758e33c.deb
+Size: 823268
+MD5sum: b3d3056e504cd81161cab09c47c3591c
+SHA1: 5d98773f4863d84398a7d9d52830ac53ed749908
+SHA256: 1c9de13efc5f8204a373ed8e7a1c1f3fba0d784df79e3b1fbdc0d1ab6758e33c
+SHA512: 289da133ba870ce3a798fa8694999bdcbf4189d6c5380fbcdd1ec05b017748211456ccb159b606c9d78c044e6cdc743b752ec56cfe58c342bc59b8ffb7b7ad4b
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-12。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明保留在包内使用说明书，设置首页不再显示长说明。
+ 安装后重启桌面。
+ 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
+ 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
+ App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
+ 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
+ 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
+ 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
+ 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
+ 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
+ 长按收藏 App 原地松手打开自由独立窗口，不受普通浮窗数量、单窗口替换或自动边缘停靠限制。
+ 独立窗口沿用分屏比例，不依赖 App 跳转弹窗开关；普通切换保留它，同 App 复用原窗口。
+ 保留放大退出修复、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 设置新增移除底部系统 Dock 开关，默认关闭，更改立即生效；不影响键盘或应用内底栏。
+ 保留长按独立窗口、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 修复键盘图层或承载窗口晚到时显示接入丢失，以及不可见原生宿主误接管造成的键盘空白。
+ 就绪恢复限定当前小窗及原版键盘显示请求，收起和切换取消旧重试；保留输入框避让与正常切换速度。
+ 新增 5:3 普通分屏比例，沿用 16:9 的键盘显示与输入框避让流程。
+ 同步应用画布、全屏交接和退出还原；跳转小窗保持原始比例，其他功能基于 .12-13。
+ 移除 4:3，保留原始比例、16:9、5:3；旧 4:3 设置自动迁移为 5:3。
+ 切换比例不再自动注销，确认后关闭并重新打开普通小窗生效；已打开小窗保持自己的比例。
+ 保留原设置保存及同步通知、手动注销、键盘与输入框避让和悬浮球适配。
+ 左右侧边向内滑动可实时临时放大，松手平滑恢复；侧边滑动替代移动。
+ 新增放大灵敏度滑条 1–8，默认 2；显示宽高分别不超过屏幕对应尺寸的 4 倍。
+ 保留 .12-17 的比例免注销、原有键盘避让、悬浮球适配和启动保护。
+ 底部向上滑动松手将小窗临时收进灵动岛，保留原应用会话。
+ 进出带缩放、位移和淡入淡出；保留 .12-18 侧边临时放大及原有键盘与悬浮球适配。
+ 保留原有键盘、悬浮球、灵动岛动画及启动失败保护，不增加固定等待。
+ 底部点击和上滑统一收进灵动岛后执行原生关闭，结束隐藏小窗托管。
+ 新增 16:10、18:10 普通分屏比例，沿用 16:9 键盘显示、输入框避让及收起还原。
+ 同步真实应用画布、全屏输入和退出尺寸恢复；切换比例免注销，已有小窗保留原比例。
+ 保留 .12-21 灵动岛动画范围，其他出入场动画、键盘兼容和悬浮球适配保持原有实现。
+ 恢复原有浮窗柔和阴影，硬黑边改为底部聚焦的柔和投影；聚焦阴影深浅 0–100%，默认 40%。
+ 新增实时圆角半径滑条 0–60，默认 24；全屏保持直角，支持缩放与返回小窗。
+ 保留 .12-22 全部窗口比例、键盘避让、悬浮球及原有动画范围。
+ 文件分享等待接收小窗画面和入场就绪再投递，复用已打开目标窗口，避免普通启动覆盖分享页面。
+ 保留文件 URL、Actions、沙盒授权和回调；启动失败完整请求回退系统打开一次。
+ 保留 .12-24 键盘避让、快捷栏、悬浮球、窗口动画、比例、阴影和圆角设置。
+ 新增点击顶部通知横条用小窗打开开关，默认关闭、即时生效，独立于 App 跳转弹窗。
+ 保留系统通知跳转动作、来源及回调；复用已打开小窗，启动失败回退系统一次。
+ 保留 .12-25 分享修复、键盘避让、快捷栏、悬浮球、动画、比例及阴影设置。
+ 修复分享、通知启动等待期间的系统栈回调生命周期，避免延迟交付导致 SpringBoard 安全模式。
+ 保留通知小窗开关、文件分享及此前功能；安装后重新启动 SpringBoard 生效。
+ .12-28 修正此前通知独立小窗行为：横幅通知改用所选比例的普通分屏，遵循窗口数量及单窗口模式。
+ 原版通知分屏开关与调度通知开关均可启用；通知不再创建原始比例跳转小窗，文件分享保留独立小窗。
+ 保留 .12-27 回调生命周期修复、启动失败保护及原有键盘、快捷栏、悬浮球和动画；安装后重新启动 SpringBoard。
+ .12-29 横幅普通分屏补上灵动岛入场动画，已打开窗口复用原场景并重播入场。
+ 原始通知响应直接投递对应分屏场景，保留消息参数；防止工作区重复投递，失败完整回退。
+ 保留所选比例、窗口上限、单窗口、键盘、分享、快捷栏、悬浮球及原有启动保护；安装后重启 SpringBoard。
+ .12-32 基于 .12-29：修复 iOS17 退出分屏/原生全屏后的残留小窗画布及黑底。
+ 同步原生画布重绘，拦截同一前台场景的旧比例回写；保留键盘字段、原动画和返回图标。
+ 仅新增 iOS17 SpringBoard 模块，旧二进制全部保留；安装后重启 SpringBoard。
+ .12-33 iOS 17 全屏前静默恢复原始尺寸，冻结小窗遮住重布局，成功回执后等待约 1 秒。
+ 保留原版全屏交接与失败回退、返回图标、键盘避让、普通切换速度；其他系统不启用新流程。
+ .12-34 保留 .12-33 全屏前静默恢复与失败回退。
+ iOS17 全屏成功后，限 4 次重新提交原生画布以触发应用重绘；键盘高度、焦点及方向字段不改。
+ 非 iOS17 系统不启用；系统远程合成表面的真机表现仍需验证。
+ .12-35 移除圆形菜单手势上的重复呼回，由 QuickLaunch 自行按其打开方式处理。
+ 保留底部关闭、入岛动画、键盘及其他窗口调度逻辑。
+ .12-36 新增窗口消失动画选择：原始动画、粒子消散、华为风格，默认保留原始动画。
+ 用于小窗关闭及普通替换退场；保留原有入场、全屏交接、键盘避让及 QuickLaunch 独立呼回。
+ .12-37 修复消失效果设置页点击闪退，细化粒子，分离原位侵蚀与稀疏飘散，取消颗粒放大。
+ 保留三种选择、现有键盘与全屏流程、QuickLaunch 独立呼回和窗口启动失败保护。
+ .12-38 重做独立细粒消散：原生 GPU Compute、原图取色、向下散落及连续湍流，华为风格增加柔和 Bloom。
+ 保留原始动画、设置页修复、键盘与全屏流程、QuickLaunch 独立呼回和窗口启动失败保护。
+ .12-39 细化沙粒并降低硬亮点；两种效果均斜向上随风飘散，原图边缘柔和渐隐，华为风格改为不规则侵蚀。
+ 保留原始动画、键盘与全屏流程、悬浮球适配、QuickLaunch 隔离及启动失败保护。
+ .12-40 保留 .12-39 粒子消散，华为风格替换为风沙消散：细沙随风卷动，末段留少量浮尘并淡出。
+ 设置可选原始动画、粒子消散、风沙消散；保留键盘、全屏、悬浮球适配及启动失败保护。
+ .12-41 四种独立消失效果：原始动画、粒子消散、风沙消散、华为消散。
+ 粒子按提示词采样约1500粒，从左向右擦除、右上飘散并缩小；风沙弧形上浮后慢消散，华为独立恢复。
+ .12-42 重做像素碎落、弧形飘散、华为消散，原始动画继续保留；取消双翼方案。
+ 像素碎落采用右上至左下斜线和下落碎片；华为消散采用中部缺口、不规则扩散与边缘卷动，约两秒。
+ .12-43 新增独立窗口呼出动画：原始动画、碎片聚合，聚合约 0.46 秒，默认原始动画。
+ 删除华为消散；关闭保留原始、像素碎落和弧形飘散。呼出关闭独立设置，无须注销。
+ .12-44 删除碎片聚合呼出及对应设置，恢复原有入场响应；旧呼出偏好不再生效。
+ 新增花瓣消散，粉白花瓣翻转飘散并带柔和粉雾，约两秒。原始、像素碎落和弧形飘散保留。
+ .12-45 花瓣消散改为与像素碎落相同的右上至左下斜线推进，取消中部扩散。
+ 保留两秒时长、花瓣翻转和粉雾，呼出继续使用原始流程。
+ .12-46 像素碎落和花瓣改为被风吹走的曲线轨迹，先向右散开，再斜向上扬并轻微摆动。
+ 右上至左下的消散边缘、原有时长和花瓣粉雾保持不变。
+ .12-47 消散显示缓冲改为后台获取，防止等待阻塞界面；旧帧合并，迟到缓冲安全丢弃。
+ 花瓣捕获和渲染降至 1.5 倍像素密度，减少重复 GPU 计算；消散边缘改为细小不规则剥离，保留风向和时长。
+ .12-48 修复消散不显示：恢复 .12-46 首帧提交顺序，取消等待显示回调的绘制门槛并增加完成兜底。
+ 保留自然花瓣边缘、弯曲风向和两秒时长；保留降低渲染开销，撤回后台取帧。
+ .12-49 花瓣先密集覆盖窗口，窗口在花瓣堆内消失后，花瓣再弯曲向右上方飘散。
+ 保留约两秒时长与启动保护；其他消失动画、键盘、全屏和悬浮球逻辑保持原有流程。
+ .12-50 花瓣后续取帧移出主线程，繁忙时合并最新进度，缓存花瓣与粉雾减少重复计算。
+ 柔化花瓣覆盖前沿和单片边缘，保留花瓣堆内消失、约两秒时长与首帧启动保护。
+ .12-51 移除设置首页的功能与快捷操作长说明，保留所有功能设置。
+ .12-52 新增独立“玫瑰花瓣”消失选项，深红宽瓣卷边，覆盖前沿与轮廓更加柔和。
+ 保留原有四种选择、约两秒花瓣时长、后台取帧和精简设置首页。
+ .12-53 修复原生窗口退出期间快速重开被拒绝，普通启动保持立即响应。
+ QuickLaunch 的 ScreenCore 错误使用中文，真实失败仍保留原错误码。
+ 玫瑰花瓣替换为星光消散，五角星亮芯、柔和光晕和错落闪烁；其他消失动画保留。
+ .12-54 新增图标切换的独立抽屉模式：左侧 ARC 已选 App，右侧原始比例界面。
+ 目标就绪后横向抽屉切换，输入时全屏、键盘收起恢复；保留原有模式和消失动画。
+ .12-55 抽屉页面与窄栏直边对齐，使用统一外围阴影；普通小窗圆角设置不变。
+ 抽屉大小与普通小窗尺寸隔离，调整模式新增双指捏合缩放和随手势中心移动。
+ .12-56 抽屉工具支持 ARC 和 QuickLaunch URL 列表调用，移除窗口内模式入口。
+ 调整模式使用灰黑透明画布，单指移动、双指缩放，再点调整完成。
+ 最大化提交实际全屏页面画布，顶部底部填满、四角直边，控件避开系统安全区域。
+ .12-57 抽屉输入提交真实全宽画布，收起键盘保持输入前的最大化状态。
+ 抽屉全屏使用黑色状态内容；关闭恢复普通比例记录，修复重新开小窗时比例串用。
+ .12-58 抽屉全屏及输入时使用黑色状态前景，退出还原原色。
+ 键盘展开和收回同步折叠/展开窄栏，尺寸与画布均就绪后再交接，避免转场露出桌面。
+ .12-59 抽屉键盘展开和收回统一裁剪与画布坐标，阻止迟到尺寸回调重设位置和比例。
+ .12-60 抽屉新建直接使用目标比例；键盘输入使用真实全窗口画布并校正迟到事务。
+ 普通小窗入场校正残留 App 表面，保留原生比例与虚拟显示配置，修复右侧和底部留白。
+ 状态栏时间、日期定时更新时保持黑色，退出恢复。
+ .12-61 TIM 普通小窗独立布局刷新；电话助手时钟按 App 深浅外观适配并恢复原色。
+ 移除抽屉调整按钮，保留原有角部缩放；补齐呼出、退出和大小切换转场，独立记忆抽屉位置大小。
+ .12-62 移除状态栏强制黑色及电话助手时钟适配，颜色由系统和原插件控制。
+ 抽屉初始化限制为 SpringBoard，合并镜像加载回调，去除设置中重复扫描风险。
+ 抽屉呼出采用真实页面与窄栏同步轻动效，覆盖冷启动及复用窗口，无呼出截图等待。
+ .12-63 全屏抽屉窄栏与页面从左右两侧进入，退出反向滑出，修复原生宿主拆除中断退场。
+ 增加侧栏与 ARC 共用的图标大小、间距和方形/圆形设置，修改后无需注销。
+ .12-64 修复抽屉入场前闪屏，保护新建和复用窗口，拒绝和超时立即释放。
+ 图标最大 200%，间距可收紧至 -32；侧栏自适应宽度，圆形使用实际图片边界裁剪。
+ .12-65 抽屉等待真实内容与启动占位层撤下后再同步入场，修复呼出先显示白底。
+ 真实侧栏同步缩放布局，键盘侧栏不拆装，页面交接不再交叉淡入新旧侧栏。
+ 最大化保留原生逻辑宽度、匹配页面宽高比并整体缩放，防止聊天内容溢出右侧。
+ .12-66 取消加长画布，抽屉使用固定原生尺寸并在宿主内完整映射，修复右侧溢出和底部留白风险。
+ 键盘和侧栏几何变化保留已提交的同尺寸表面；普通模式和实际尺寸变更保留原重试。
+ 入场空遮罩防直接图层重置露白，等待稳定刷新后同步滑入，全屏呼出约 0.46 秒。
+ .12-67 新增实时窄边栏宽度调节，右侧应用按实际可用宽度布局，取消非等比拉伸。
+ 启动页随抽屉同步进入，统一入场时间线；暂未就绪不解除隐藏，保留启动失败保护。
+ .12-68 移除侧栏应用选中外框，取消初始触摸等待，按下即时反馈。
+ 键盘收放带着真实图标同步滑动，避免收回后突然显示，保留启动与回退保护。
+ .12-69 新增侧栏左右切换按钮与同步滑动转场，方向随抽屉尺寸记忆。
+ 新增侧栏背景颜色与透明度设置，实时更新且只改变底色，不淡化图标和按钮。
+ .12-70 最大化抽屉的应用横屏请求改为原生全屏交接，由系统旋转，保留返回抽屉图标。
+ 忙碌请求合并等待，后台取消；启动失败保留抽屉，普通小窗旋转不变。
+ .12-71 全屏抽屉接缝上下圆弧，左右镜像；缩小后四角同弧，保持场景尺寸与输入布局。
+ 背景颜色点选、双色渐变、独立背景透明度，共享 ARC/侧栏图标底部阴影。
+ 抖音全屏增加有限布局刷新兼容，实际播放器效果需设备验证。
+ .12-72 移除普通窗口旧角标、独立收藏应用栏及相关设置，抽屉使用 ARC 应用列表。
+ 保留抽屉、共享切换保护、原生全屏返回控件、键盘和悬浮球适配。
+ .12-73 普通小窗透明穿透系统工具，键盘保留并上移避让，透明度可调。
+ 抽屉独立于普通小窗数量和调度，内容与侧栏层级低于普通小窗。
+ .12-77.duo.3 修订横屏分隔条、画面预览、重复应用拦截与独立键盘几何。
+ ARC 与配套 QuickLaunch 可选应用；横屏左右、竖屏上下，真实画布调整，不缩放拉伸。
+ 拖动预览、松手单次提交；图标选择、主动横屏、输入全屏及满槽新应用普通小窗。
+ .12-79.duo3.43 横屏保持 Duo，键盘自由移动、布局记忆及四角贴合修复。
+ 普通横屏视频小窗仅在 Duo 竖屏生效；主动横屏及旋转期间不自动转小窗。
+ 记忆中心和缩放独立于原生临时偏移；原生重置或迟到回调不覆盖用户布局。
+ 拖动从当前位置开始，两轴自由移动，不向上跳、不限制边界；四角线形标记紧贴可见键盘。
+ 弹起前冻结画面，场景准备后原子替换；快速反转复用过渡层，不交叉叠影。
+ 上屏普通横屏小窗自动恢复下屏显示，视频退出回到最新双窗比例。
+ 主动旋转需系统及 UIKit 确认后同步 App 与原横屏分离键盘，失败回退。
+ 拖动仅预览下屏，松手重排一次；普通与自由布局均不改变横屏小窗。
+ 视频退出等待下屏调整结束，恢复最新分割位置，不回到旧比例。
+ 保留 .33 原生显示链、原始纹理尺寸、纹理补偿和会话保护。
+ 仅 Duo 横屏接管原移动条的位移，其他模式继续原生拖动，不自动避让。
+ 任意一个角拖动调整大小，保留44pt透明触摸区域，无箭头无底色。
+ 收起和重新弹出保留手动大小、位置，左右横屏分开记忆，其他模式不读取。
+ 上屏视频复用原会话临时普通横屏，显式退出后接回原窗口；下屏保持。
+ Duo 竖屏键盘收起采用单层画面交接，避免先回全屏位置及新旧画面重影。
+ 重复横屏布局与相同在途方向请求合并，尺寸变化、反向和超时可正常更新。
+ 抽屉及侧栏位于 Duo 上方；重复应用在启动和切换前提示并拦截。
+ 保留普通小窗、抽屉及竖屏输入路径、滑条、折叠工具栏和视频适配。
+ 未连接手机；iOS 17 及微信输入法真实方向和完整显示需要实机确认。
+Name: screencore-窗口调度版
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/screencore/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.susudear.screencore.json
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Core-Identity-Revision: expected-author-kanuo.1
+X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Geometry-Base-SHA256: 619767fdd4d744203cef45ca1d5cd370b5f9a5521850034a21ddf3523a7c2701
+X-Native-Jump-Geometry: popup-only-native-size.1
+X-Native-Jump-Base-SHA256: 2bc5d7e4c7c8ab8b0fe6117bc5fbd98a784701d429016984ce6a570ac54b131e
+X-Keyboard-Compatibility: scene-identity-and-bounded-readiness.2
+X-Keyboard-Base-SHA256: 19a90341e8511ab23a40f8f1ca23d3410a72cac82690501f9b7924bf3f33ef3b
+X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
+X-Fullscreen-Exit-Base-SHA256: 2dbe5dde47fdac2b813d9cb27434286885af7e29ee8b6f783a5ea86557fe9a58
+X-Favorite-Standalone: independent-policy-normal-split-geometry.1
+X-Favorite-Standalone-Base-SHA256: c09cf505d87431c352c80b52dfdf435801a3422b77cd0ee875ab481e35e55b34
+X-Fullscreen-Native-Canvas: physical-screen-reversible-queued-geometry.1
+X-Fullscreen-Base-SHA256: 60dcbb8f1b3dd67d1b0e8e6ba861883515b9dc279ba1fe805acc156d7bba5270
+X-Fullscreen-Rendered-Canvas: instance-settings-hosted-resize-ack-validation.1
+X-Fullscreen-Rendered-Base-SHA256: e68c9aa0f0da74a9601ef610ef3db3e9ef6a29042b7a60ea3c7ae24235bd45ba
+X-Native-Fullscreen-Return: native-promotion-scoped-nonkey-icon.1
+X-Native-Fullscreen-Base-SHA256: 52c3ba9af8bb6d2b7dd5c42428ff7f73b3ab48518d2d56448a732f0804c5ead3
+X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
+X-Native-Fullscreen-Canvas-Handoff: atomic-hosted-resize.1
+X-Native-Fullscreen-Scene-State: scoped-input-layout.1
+X-Aspect-Ratio: native,16:9,5:3,16:10,18:10; per-session-canvas.1
+X-Aspect-Ratio-Base-SHA256: 5ec1fc7e5e318cb821f4054b1896b3a076767057c0322a0c308c73496ce3f2f5
+X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
+X-Edge-Peek-Base-SHA256: e6162a232679122468fd9b044c146b80a70012c13528653b959898661e62f034
+X-Island-Return: quicklaunch.partial-circle.release-only.live-layer.1
+X-Island-Return-Base-SHA256: 74085fb00c17c77e682898c612f5f0b81a6c11b1d9785a45a3c8082ee25e43d9
+X-Quick-Recall: visual-circle.release-only.last-successful-app.closed-reopen.1
+X-Quick-Recall-Base-SHA256: 75ab5199f8dcef7fa67d1a2d80e829afebae527a013e572cc00d12b64556a47d
+X-Island-Native-Close: tap.upward.native-close.island-reentry.1
+X-Island-Native-Close-Base-SHA256: 7b353b2ddf77e44670048e23343c25a17e2ee0bb95925952ae23e4d82f24aa3c
+X-Window-Frame: focused-shadow.opacity0-100.live-radius0-60.2
+X-Window-Frame-Base-SHA256: ee3347687d22acc4906f7780f980aeab2098073457fa7f33cb4e46862cd3285a
+X-Window-Shadow: native-shadow-preserved.with-bottom-focused-shadow.2
+X-Share-Handoff: host-ready.single-native-request.reuse-existing.failure-fallback.1
+X-Share-Handoff-Base-SHA256: 48e538e0e85410939a9b0b482eb8a74993b11b15fb36a9ee0367c1938c93b0ef
+X-Notification-Popup: banner-only.default-off.live.independent.host-ready.native-payload.1
+X-Notification-Popup-Base-SHA256: 441cc97916c58e49a53b4e87410555286f4c0a7b594966bdf92bfa18937d569f
+X-Callback-Lifetime: copy-native-completion.copy-queued-delivery.once.release.1
+X-Callback-Lifetime-Base-SHA256: 6e9f45ba8884516854ad6feba846af29a507183a513d1807b267faa5d3aa53f2
+X-Notification-Split: ordinary.selected-ratio.native-pref.limits.original-animation.host-ready.1
+X-Notification-Split-Base-SHA256: e1076fd5d1882c5114f516f118049a3e2fbe3a23c3e03c4b5057b6f06b8a4788
+X-Notification-Direct: hosted.response.actions-once.island.native-entrance.warm-replay.1
+X-Notification-Direct-Base-SHA256: 1f128e25b080d38c101e2e8752856ce597960888fe7108614b006febfd2aabf3
+X-Native-Canvas: ios17.close-promote.scene-repaint.late-settings.1
+X-Native-Canvas-Base-SHA256: cf087de4922c218cbad052e94b1a01caff49ffe94ed76ded78c6a0cbbdeeb089
+X-Silent-Fullscreen: ios17.snapshot.native-restore.settle1s.native-rollback.1
+X-Silent-Fullscreen-Base-SHA256: 9bdb597040d06c750e2e4c74c4df32fd8e23103e7c6117ae80109caed3409da1
+X-Native-Canvas-Repaint: ios17.foreground.success.bounded4.preserve-input.1
+X-Native-Canvas-Repaint-Base-SHA256: 355f781a87674cb64585f0ac153fa9fce279ddb28d09a12498686175eee09025
+X-Radial-Recall-Owner: quicklaunch
+X-Window-Disappear: original.dust.huawei-style.bounded-compositor.1
+X-Window-Disappear-Revision: settings-action.fine-grain.stationary-erosion.2
+X-Window-Particle-GPU: compute.texture-alpha.fractal-wind.soft-bloom.1
+X-Window-Particle-Softening: upward-wind.irregular-feather.gaussian-grains.1
+X-Window-Sandstorm: legacy-dust-preserved.curl-grains.residual-dust.1
+X-Window-Arc-Effects: four-modes.prompt1500.rising-sand.huawei-restored.1
+X-Window-Textured-Fragments: video-diagonal-fall.arc.huawei-center-curl.original-texture.2
+X-Window-Effects-43: dismiss-original.diagonal.arc.huawei-removed
+X-Window-Arrival: original.diagonal-assembly.0.46.native-accepted.shared-budget.1
+X-Window-Effects-44: native-entry.petals.2sec.pixel.arc.huawei-removed
+X-Window-Effects-45: petals.top-right-to-bottom-left.soft-diagonal.2sec
+X-Window-Effects-46: pixel.petals.curved-up-right-wind.original-timing
+X-Window-Effects-47: async-drawable.coalesced-ticks.petals-scale1.5.frayed-soft-edge
+X-Window-Effects-48: restored-submission.gpu-completion-fallback.idempotent-reveal
+X-Window-Effects-49: petals.cover-erase-lift.no-image-ghost
+X-Window-Effects-50: petal-backpressure.cached-sprites.soft-front
+X-Window-Effects-52: rose-petals.separate-mode5.soft-rim.cached-atlas
+X-Window-Launch-Recovery: closing-state4.bounded3sec.latest-choice.chinese-ql-errors.1
+X-Window-Effects-53: glowing-stars.mode5.cached-fivepoint-halo.curved-wind
+X-Window-Drawer: arc-selected.native-ratio.icon-toggle.keyboard-fullscreen.1
+X-Drawer-Isolation: square-seam.separate-persistence.edit-pinch.1
+X-Drawer-Tools: external-url.persistent-editor.real-fullpage.rollback.1
+X-Drawer-Input: full-canvas.saved-maximize.native-status.normal-ratio.1
+X-Drawer-Input-58: dark-status.scoped-foreground.assembly-motion.dual-barrier.1
+X-Drawer-Alignment-59: current-session-canvas.local-clip.no-native-refit.1
+X-Drawer-Canvas-60: native-entry.full-window.input.authoritative-canvas.ordinary-repaint.clock-refresh.1
+X-Drawer-Interaction-61: tim-entry.callassist-clock.assembly-size.entry.exit.placement.1
+X-Drawer-Settings-62: native-status.no-clock-scan.springboard-only.coalesced.1
+X-Drawer-63: fullscreen.opposing-slides.native-arc-shared-icons.1
+X-Drawer-64: pre-attach.visibility.atomic-reveal.true-circle.extended-icons.1
+X-Drawer-65: hosted-ready.no-startup-cover.live-rail.atomic-handoff.native-width-fit.1
+X-Drawer-66: fixed-native-canvas.local-xy-fit.retained-surface.masked-entry.stable-refresh.1
+X-Drawer-67: live-rail-width.real-usable-canvas.uniform-fit.startup-slide.deferred-hold.1
+X-Drawer-68: no-selection-frame.immediate-touch.live-input-rail.synchronized-return.1
+X-Drawer-69: remembered-edge.paired-slide.background-rgb.background-only-alpha.1
+X-Drawer-70: app-landscape.native-fullscreen.restore-display.drawer-return.deferred-cancel.1
+X-Drawer-71: mirrored-inner-corners.palette.gradient.background-alpha.icon-shadow.video-canvas.1
+X-Drawer-72: legacy-controls-retired.no-hidden-hit-targets.arc-drawer-preserved.1
+X-Passthrough-73: ordinary-only.layer-input-gate.keyboard-retained.1
+X-Duo-77: snapshot-preview.landscape-divider.keyboard-owner.duplicate-guard.3
+X-Duo3-Repair: 12-79.duo3.43
+X-Duo3-Repair-Base: 2.0.3+windowscheduler.12-77.duo.3
 
 Package: com.susudear.screencore
 Architecture: iphoneos-arm64e
@@ -61814,6 +62832,24 @@ icon: https://huayuarc.github.io/icon/freecut.png
 Author: yzdmm2024
 
 Package: com.wacljcr.superscreenshot
+Architecture: iphoneos-arm64
+Version: 8.0.41
+Section: Tweaks
+Maintainer: yzdmm2024
+Installed-Size: 2408
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.wacljcr.superscreenshot_8.0.41_iphoneos-arm64_21f326bb9138e3d0876a8fba8ecb98b5118d79eb15264588a167675c50145ac1.deb
+Size: 460632
+MD5sum: de5866d5c5d43004b6daa31b372f473a
+SHA1: 6336d00c8206599cd82e14545355b88ab9846c9c
+SHA256: 21f326bb9138e3d0876a8fba8ecb98b5118d79eb15264588a167675c50145ac1
+SHA512: dd1a1b49653d92e7bec7459a1a285f225e76aac2e986a3906dd4eea0a1c6402d73332c14fc41ad090de35a119f59aec7da63412f295b42de8a86ad37f5b902d2
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图；触发方式支持双指上滑与「自定义手势」——录制一笔专属形状（圆圈 / 对勾 / Z 等），以后只有画出同样的形状才触发，避免打游戏误碰）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+Name: 超级截图
+icon: https://huayuarc.github.io/icon/freecut.png
+Author: yzdmm2024
+
+Package: com.wacljcr.superscreenshot
 Architecture: iphoneos-arm64e
 Version: 7.3.0-1+debug
 Section: Tweaks
@@ -61884,6 +62920,25 @@ MD5sum: f4144ca0f1256e5cbfc40045b5889643
 SHA1: f30fec2607d5b8e2d079c74f4ef87f1ce6044582
 SHA256: 8a7c4afb507a7b773420947977948ef9a1c34a68e7dea584c44585a7392acda4
 SHA512: 425ea567e60380ffe4781be80303be182def08c101403b676a123b7f6ad1676676b4af270b4ad8259582223030d725aa781b1f12899a38aa0f66520a7fca9d7a
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图；触发方式支持双指上滑与「自定义手势」——录制一笔专属形状（圆圈 / 对勾 / Z 等），以后只有画出同样的形状才触发，避免打游戏误碰）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+Name: 超级截图
+icon: https://huayuarc.github.io/icon/freecut.png
+Author: yzdmm2024
+
+Package: com.wacljcr.superscreenshot
+Architecture: iphoneos-arm64e
+Version: 8.0.41
+Section: Tweaks
+Maintainer: yzdmm2024
+Installed-Size: 2408
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.wacljcr.superscreenshot_8.0.41_iphoneos-arm64e_c6fd5a168a3affb75a9a06108f191ff150c2a7d9d825f4c936c318da74bce5d8.deb
+Size: 458864
+MD5sum: 2b17aa250d09fb0086ce83138fe4130d
+SHA1: 58df25d65a7221fa67696c1ee624af273f592b3e
+SHA256: c6fd5a168a3affb75a9a06108f191ff150c2a7d9d825f4c936c318da74bce5d8
+SHA512: 7a9571afe770a8890bcff23213b46b4925015e442e912f13a37e3d1593af097b800da1a0e9662a7761c793c67b2611bfb4e3361a840863eca41ffa3fd24d50d0
 Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图；触发方式支持双指上滑与「自定义手势」——录制一笔专属形状（圆圈 / 对勾 / Z 等），以后只有画出同样的形状才触发，避免打游戏误碰）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
 Name: 超级截图
 icon: https://huayuarc.github.io/icon/freecut.png
@@ -63598,6 +64653,42 @@ Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
 Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
 
 Package: com.zengniu.splitview
+Architecture: iphoneos-arm64
+Version: 0.7.130
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 2877
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.zengniu.splitview_0.7.130_iphoneos-arm64_97341cccaf862146aa569a753b16ef85f35c8b908551e83ffb040eaae0b85db0.deb
+Size: 598464
+MD5sum: 9b15de526cec7adacee9e0037d7903ef
+SHA1: 7cb5330d753db400af52c56c6df0802ec00fd9b5
+SHA256: 97341cccaf862146aa569a753b16ef85f35c8b908551e83ffb040eaae0b85db0
+SHA512: 56570fe1f71a0929cd1d9094a812a8056c506b804c5436ff49a5a61f500dde28f37b77a56835f1057c3a1c4df8d7ba6d18454900ef2131ae91b10f73cb8974cf
+Description: 让 App 以小窗呈现，在主分屏、实时空挂、悬浮图标与底部下探卡片之间切换。主分屏可直接操作 App，并支持移动、等比缩放和旋转。激活码 当前时间+10分钟 Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+
+Package: com.zengniu.splitview
+Architecture: iphoneos-arm64e
+Version: 0.7.130
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 1435
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.zengniu.splitview_0.7.130_iphoneos-arm64e_6105bab0df65f637867d9438803aecda1a7c88f1a86bab1b89481bcd251b59d3.deb
+Size: 393140
+MD5sum: 22f44c07af9d1483b0631020ccb6d1b0
+SHA1: 712e54985076cf8b9c3035c77c905622c53641a8
+SHA256: 6105bab0df65f637867d9438803aecda1a7c88f1a86bab1b89481bcd251b59d3
+SHA512: b08fc480f67310d216beb3dd5313eb7d05ef96437382f6aaf23174ffb57763d5e38071e07bc9accee592c030c9ed6c83cbd258f6edb0b55c804a0293f12c5303
+Description: 让 App 以小窗呈现，在主分屏、实时空挂、悬浮图标与底部下探卡片之间切换。主分屏可直接操作 App，并支持移动、等比缩放和旋转。激活码 当前时间+10分钟 Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+
+Package: com.zengniu.splitview
 Architecture: iphoneos-arm64e
 Version: 0.7.66
 Section: Tweaks
@@ -63808,6 +64899,25 @@ Author: zooah212
 icon: https://huayuarc.github.io/icon/swipedeck.png
 
 Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.5.9-12
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7788
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.zooah.swipedeck_0.5.9-12_iphoneos-arm64_ad38b8fdf15b1bb9ff488bbd68cfa9485e012486ae0fbe07224acae48b01e48c.deb
+Size: 2489080
+MD5sum: 6df76b8cb5b9ec0747c6bfe7f621054f
+SHA1: cd98de25b18a62e9d36a3effc7114c1e5d732d3a
+SHA256: ad38b8fdf15b1bb9ff488bbd68cfa9485e012486ae0fbe07224acae48b01e48c
+SHA512: 50b426d4b8ec1ecbf91072bd5b4e5d7e303bb2749d94ee84184d7447143953fb2c40391d7fb4b5a6223d36ddfcfdc8538d83512ab2209bc7e4d084a5ee9e3f3d
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
 Architecture: iphoneos-arm64e
 Version: 0.5.2-16
 Section: Tweaks
@@ -63961,6 +65071,26 @@ MD5sum: 6a0a8bbd633f2e09fbff20175f91fcfc
 SHA1: f1aa72b95346e4eafe1d0adc24c0f9cf500025fc
 SHA256: deffee694d7a31856359f55095082ac99a6c13ad8a3fe55aee4b87e07993b9fd
 SHA512: e2ae08633adeb650195c9d6edd601d44ad3c610fb9c63eaffd0bf606059d353b040533a6c68076d7a44020970ed8a097f79efb89d5a82cddabdeef0dd9fcd3f2
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.5.9-12
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7788
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.zooah.swipedeck_0.5.9-12_iphoneos-arm64e_7b67a822ac3f0e02be9ec8ce5ea9c5be233d9429c1dfc1e0a244fa20a190f444.deb
+Size: 2459412
+MD5sum: e9092bf3799db7022ce48af96b715afe
+SHA1: 527449d7a31d5eef755b0ca5e54c291b46459c6a
+SHA256: 7b67a822ac3f0e02be9ec8ce5ea9c5be233d9429c1dfc1e0a244fa20a190f444
+SHA512: 14828c0375d49d715c9d34413ffc14710db4fc67a2a85cf4ac8afb334152d82e723c6caa1bf46adb2ddf7a5fd3bdd905abd59d9774cb38c85675efa80330a340
 Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
    *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
 Name: SwipeDeck - 快捷助手
@@ -67372,6 +68502,24 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/ios27animation.png
 
 Package: iya.banana.ios27animation
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3584
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/iya.banana.ios27animation_1.0.2_iphoneos-arm64_b9fd6091ee34d74d34f47b91487eb88a567a8d58928ff0a6f437d103d466fadf.deb
+Size: 875360
+MD5sum: 8344a27becb3cbc22ebc9380641073a6
+SHA1: 0e87b63344bcccdf3f4b142f335dd2a9d5e9c049
+SHA256: b9fd6091ee34d74d34f47b91487eb88a567a8d58928ff0a6f437d103d466fadf
+SHA512: e5c93219487e10d6091e3e8d92a119c16b7564c46ee2370525f99004d9af89404b2cc302a9002ada2051e123fac7d30c313c27c5999ebf2595331b870300dc31
+Description: 为iOS15-18带来iOS27风格的系统动画。iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Name: iOS27 Animation
+Author: Banana
+icon: https://huayuarc.github.io/icon/ios27animation.png
+
+Package: iya.banana.ios27animation
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Section: Tweaks
@@ -67384,6 +68532,24 @@ MD5sum: 5e0dc76bbb7bb10ee11d774928b44c53
 SHA1: be9cf000d54ae53fad7a5ca6934ab6c72a431198
 SHA256: 563821053f2cee007338d2f04b5650c85dcabe263e6de44397656ce3ee84af28
 SHA512: 8e8abc1d9ae8ff264c76c58385b865e750569ac9dd3545570c6fc06b64f54b6e0073ddfce36bf2afd4d7074f1cc32ffc97d301551ce8e4999c96c9c084119e5b
+Description: 为iOS15-18带来iOS27风格的系统动画。iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Name: iOS27 Animation
+Author: Banana
+icon: https://huayuarc.github.io/icon/ios27animation.png
+
+Package: iya.banana.ios27animation
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3584
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/iya.banana.ios27animation_1.0.2_iphoneos-arm64e_32805f047fabb366130b2bf27e747926df71aee5464728131e7e8b5efb5b2308.deb
+Size: 875252
+MD5sum: dfe50067c19fa13814780018e5ef36eb
+SHA1: 19b9d7a1a095b5558075e36db8079fb0e7b5756f
+SHA256: 32805f047fabb366130b2bf27e747926df71aee5464728131e7e8b5efb5b2308
+SHA512: 9f55b9f045c8b9b1956a539a75a360bb7115b2817828ecd8ce3cc86a975153921c7dd9de155db188f9d2ec90c703b58a3b409f9f19ea632289fc22314bf10285
 Description: 为iOS15-18带来iOS27风格的系统动画。iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
 Name: iOS27 Animation
 Author: Banana
@@ -72590,6 +73756,25 @@ icon: https://huayuarc.github.io/icon/qqantirecall.jpg
 
 Package: re.frida.server
 Architecture: iphoneos-arm64
+Version: 16.1.4
+Priority: optional
+Section: Utilities
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 60116
+Conflicts: re.frida.server64
+Filename: debs/iphoneos-arm64/re.frida.server_16.1.4_iphoneos-arm64_0097a1bbb7752971210bf4d8a2ebc245b89d7564188cb4fa9b6eda54f9b79a68.deb
+Size: 16243276
+MD5sum: b50f7b3240ca48484483e2fc8a93fed8
+SHA1: 3a3614595080283bba1eb504a5368cb6bc0a35de
+SHA256: 0097a1bbb7752971210bf4d8a2ebc245b89d7564188cb4fa9b6eda54f9b79a68
+SHA512: 9d5cedbea9cd7b83421ad40d1c0c6fcbe1fb44c194869407e7f27863ab238c39925c1856490a41e0476206307b9b1d73b8b0f9ffe123d0fa9404fe0c4d73f6d5
+Homepage: https://frida.re/
+Description: Observe and reprogram running programs.
+Name: Frida
+Author: Frida Developers <oleavr@nowsecure.com>
+
+Package: re.frida.server
+Architecture: iphoneos-arm64
 Version: 17.25.1
 Priority: optional
 Section: Development
@@ -72607,6 +73792,44 @@ Description: Observe and reprogram running programs.
 Name: Frida
 Author: Frida Developers <oleavr@nowsecure.com>
 icon: https://huayuarc.github.io/icon/frida.jpg
+
+Package: re.frida.server
+Architecture: iphoneos-arm64
+Version: 17.25.1
+Priority: optional
+Section: Utilities
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 78484
+Conflicts: re.frida.server64
+Filename: debs/iphoneos-arm64/re.frida.server_17.25.1_iphoneos-arm64_113a29830d7fa905ff6854aca0395e2b03ed794843190d70ab59e76721189a6c.deb
+Size: 23491020
+MD5sum: 894874dfce7c89634a60f1cc367bc6b3
+SHA1: fc5732fc627db92b794f6b66652302e4540e5ad0
+SHA256: 113a29830d7fa905ff6854aca0395e2b03ed794843190d70ab59e76721189a6c
+SHA512: b653dd5dee7b2f7660e15d928bce4befae1a69a3c1bc220fd0d11596b3b884e52f9128b5c1c15bff66b30e70cb273b9395aa789b2b68f5951924a71a35c88db8
+Homepage: https://frida.re/
+Description: Observe and reprogram running programs.
+Name: Frida
+Author: Frida Developers <oleavr@nowsecure.com>
+
+Package: re.frida.server
+Architecture: iphoneos-arm64
+Version: 17.26.1
+Priority: optional
+Section: Utilities
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 78484
+Conflicts: re.frida.server64
+Filename: debs/iphoneos-arm64/re.frida.server_17.26.1_iphoneos-arm64_862b0d5fee8e5ae00e1022cb5543ff340a76df20cb27a3fabe36e9689f353fbb.deb
+Size: 23492012
+MD5sum: 306bea1a50e7077912dc45997f8e0ac9
+SHA1: f122e827ad20c990197ca1cc34121d166aaee1b4
+SHA256: 862b0d5fee8e5ae00e1022cb5543ff340a76df20cb27a3fabe36e9689f353fbb
+SHA512: 9157f768f5ef6fb5c13f100ab11106ee005e136b6fa7fe61be871c7841a684c8cca21283de265209e698648aec41278b4423c40aeaee39d780882e188c2ab5cb
+Homepage: https://frida.re/
+Description: Observe and reprogram running programs.
+Name: Frida
+Author: Frida Developers <oleavr@nowsecure.com>
 
 Package: re.frida.server
 Architecture: iphoneos-arm64
@@ -72630,6 +73853,25 @@ icon: https://huayuarc.github.io/icon/frida.jpg
 
 Package: re.frida.server
 Architecture: iphoneos-arm64e
+Version: 16.1.4
+Priority: optional
+Section: Utilities
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 60104
+Conflicts: re.frida.server64
+Filename: debs/iphoneos-arm64e/re.frida.server_16.1.4_iphoneos-arm64e_e7286dc934b6a3b46649a67df2d0ef2f50f7d1805ba2b074c7079e213de1f14f.deb
+Size: 16338676
+MD5sum: 35abd710b55e5f651c97d6ada5758daf
+SHA1: ea028032ac77c8176a846a3110afa1779c2a645c
+SHA256: e7286dc934b6a3b46649a67df2d0ef2f50f7d1805ba2b074c7079e213de1f14f
+SHA512: fdfec975febe5d5e6c85ad18de3133363d8f7457a2c4a4adefa7b03c61b0f4d5cc54b6d7efab46dadfebb372e0e9ff7b8c7fd587e0733d3742b64ef497abc9ed
+Homepage: https://frida.re/
+Description: Observe and reprogram running programs.
+Name: Frida
+Author: Frida Developers <oleavr@nowsecure.com>
+
+Package: re.frida.server
+Architecture: iphoneos-arm64e
 Version: 17.25.1
 Priority: optional
 Section: Development
@@ -72647,6 +73889,25 @@ Description: Observe and reprogram running programs.
 Name: Frida
 Author: Frida Developers <oleavr@nowsecure.com>
 icon: https://huayuarc.github.io/icon/frida.jpg
+
+Package: re.frida.server
+Architecture: iphoneos-arm64e
+Version: 17.25.1
+Priority: optional
+Section: Utilities
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 78466
+Conflicts: re.frida.server64
+Filename: debs/iphoneos-arm64e/re.frida.server_17.25.1_iphoneos-arm64e_e1546b23f6dd5a92d8da0fdaff5085b4a45ec8973aae9ede836d8044d93fab90.deb
+Size: 23533396
+MD5sum: a79f79617c85c9519135912889198f29
+SHA1: 41e86d62c8f2931865324b93ac914abbb3dd1fed
+SHA256: e1546b23f6dd5a92d8da0fdaff5085b4a45ec8973aae9ede836d8044d93fab90
+SHA512: af4297225644a2006658ae0172e51ae265a9d792df2abda96d37c0d1c9f1ea0d5eee14cfa6fa9e6a49979c96a831d413877a2c852b8a2c8b48aebc1c8e2b9364
+Homepage: https://frida.re/
+Description: Observe and reprogram running programs.
+Name: Frida
+Author: Frida Developers <oleavr@nowsecure.com>
 
 Package: re.frida.server
 Architecture: iphoneos-arm64e
@@ -73387,6 +74648,29 @@ SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.4.0
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 96764
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.4.0_iphoneos-arm64_c377601e4c8cc2982a4440971807e8ef6b669657c3883e8e8cffbd3d9a85b966.deb
+Size: 22864604
+MD5sum: 1c086854b2a2d96687af3e6ded9eabd0
+SHA1: 33198a6654ec2cffebf0203931fc3def6b014fbe
+SHA256: c377601e4c8cc2982a4440971807e8ef6b669657c3883e8e8cffbd3d9a85b966
+SHA512: 5a9ce0324526ec7b0576fcc74d4eb5af5938230ddfb6cad7af912e1e354d433e779b5d004923df304f752b5e2afd8eac8cd713be59d86f3a63f201ef583dbdea
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Priority: optional
@@ -73769,6 +75053,29 @@ MD5sum: f511080e94e7d11a3cd7fca7fc4857e9
 SHA1: 72c39362ca1ffac98039c3682a65744b7e3547db
 SHA256: 2e788e2099c5f50968852acc12b83011dc8cc6a8e2caec2dcb7b82fc5fcf350c
 SHA512: d74e590c3b7d9ca37eb160c8f1cb313e469682772fed26e8a411be699004b229352a292beb14c7362aaa0d1b432251d242fb22b85c648a76eb6e0b16bb2e2f37
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64e
+Version: 0.4.0
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 96764
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin_0.4.0_iphoneos-arm64e_953cc5e0846bf28459e6b29857484557a7737d1082041540b00207f73c8c7eac.deb
+Size: 22868104
+MD5sum: e271c61bce75a287a39cb684f72e5d10
+SHA1: a3161e20b13a866d813124a7dd97d3c9ccb00340
+SHA256: 953cc5e0846bf28459e6b29857484557a7737d1082041540b00207f73c8c7eac
+SHA512: 67b856ac9e2b7c1794c11b759bd729a67464fe8fc0f089a8b0a030ef6acb171398cf372a1f50febb0c9b4e218381060388d9b07ee1682bcd04c04c76d8d99903
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
 Name: Apelin
@@ -74546,6 +75853,50 @@ Name: Apelin Tweak Development
 Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
 Depiction: https://owngoal-dev.github.io/Apelin/
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.fastfetch
+Architecture: iphoneos-arm64
+Version: 2.71.0
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 1836
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.fastfetch_2.71.0_iphoneos-arm64_cccf70b9458c8338d3c4c02763d24eb48fb1ec34abc16da7d460cec0776acb4f.deb
+Size: 470196
+MD5sum: f29bb16bf9aed8dbd43738f92ca298bf
+SHA1: 53d6ab30ad3150abf354da486fddad48976ad134
+SHA256: cccf70b9458c8338d3c4c02763d24eb48fb1ec34abc16da7d460cec0776acb4f
+SHA512: a9e4ff0c2805d102729086e737e46a7bd7c60aad6d2cd569ab9ea1fa515c6e257e63927e5a06f13c49ea392542009d9417ccebe825bc1f2d4bcb62b562a85925
+Description: System information, printed prettily
+ Run `fastfetch` in a terminal to see your device, iOS version, uptime, memory,
+ storage and more, laid out beside an Apple logo. Ready-made looks live in
+ /usr/share/fastfetch; your own settings go in
+ ~/.config/fastfetch/config.jsonc.
+Name: fastfetch
+Author: Carter Li <https://github.com/fastfetch-cli/fastfetch>
+
+Package: wiki.qaq.fastfetch
+Architecture: iphoneos-arm64e
+Version: 2.71.0
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 1836
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.fastfetch_2.71.0_iphoneos-arm64e_cbc8aab527dbb3bf71408b6f30636d96235a07301e22047f7ae6812d102d9604.deb
+Size: 470132
+MD5sum: fb18531c29637502f755b89e733910c3
+SHA1: cd494c15a4269987736f8e81acfa6c1de5d6f9e6
+SHA256: cbc8aab527dbb3bf71408b6f30636d96235a07301e22047f7ae6812d102d9604
+SHA512: 2c39aa9b4c0598f1c8afc43836ccf6484aeb3b33c5f94bd71e7b2f2fba17f0e5708256b49d255e4755493b9a56ee40bff79ce28dc79d6eb70f7e4ce515285a60
+Description: System information, printed prettily
+ Run `fastfetch` in a terminal to see your device, iOS version, uptime, memory,
+ storage and more, laid out beside an Apple logo. Ready-made looks live in
+ /usr/share/fastfetch; your own settings go in
+ ~/.config/fastfetch/config.jsonc.
+Name: fastfetch
+Author: Carter Li <https://github.com/fastfetch-cli/fastfetch>
 
 Package: wiki.qaq.fila
 Architecture: iphoneos-arm64
@@ -76324,6 +77675,30 @@ Name: kk
 Author: EYHN <https://github.com/EYHN/kwwk>
 
 Package: wiki.qaq.kk
+Architecture: iphoneos-arm64
+Version: 0.1.112
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 26032
+Depends: firmware (>= 15.0), uikittools
+Filename: debs/iphoneos-arm64/wiki.qaq.kk_0.1.112_iphoneos-arm64_0c8565dd69c8efdd09add52b4f7ced327c560a31647c5a4d2479ba798c9198f7.deb
+Size: 5681764
+MD5sum: 6b8a57b8712863422422edad070a63c7
+SHA1: 4df8578aa184ad4e46e6013753296141f8058d7c
+SHA256: 0c8565dd69c8efdd09add52b4f7ced327c560a31647c5a4d2479ba798c9198f7
+SHA512: 7799fa9329fa6e54497263a1787458c62e6757039e27ec9743768462794095b8d33d369cfe940f2a804ebf47ef24571a2bbf968958da4b7ca4c6f1ae2a427238
+Description: A coding agent that uses the subscription you have
+ Ask for a change in plain language and kk reads your files, writes the code and
+ runs the commands to make it happen. Run `kk` in a terminal, then `/login` to
+ sign in with Anthropic, ChatGPT, Copilot, Cursor, Kimi, Grok, Z.AI or
+ OpenRouter — or use an API key for any OpenAI-compatible service. It is a
+ native binary, so it starts fast and pulls in no Node or Bun. Also installed
+ as `kwwk`.
+Name: kk
+Author: EYHN <https://github.com/EYHN/kwwk>
+
+Package: wiki.qaq.kk
 Architecture: iphoneos-arm64e
 Version: 0.1.111
 Priority: optional
@@ -76337,6 +77712,30 @@ MD5sum: 81776e59b803a0af6be9a7af09a82ee7
 SHA1: c799a105871d9a257d4785518cbe6360317fb0c4
 SHA256: 9f32c9fef3a4588fbfbb5111e84cd57c6a7a62a1080a7f78b2bbf33b1f4e07e7
 SHA512: e6a4905c732987c016ca7dd33cadf89fcdd9666d5d8653e2b0831ea2f3ffde4845a1a36ab6adf6912117fd12b9af490171b1e2e85974afa6fc1f92d67f8764eb
+Description: A coding agent that uses the subscription you have
+ Ask for a change in plain language and kk reads your files, writes the code and
+ runs the commands to make it happen. Run `kk` in a terminal, then `/login` to
+ sign in with Anthropic, ChatGPT, Copilot, Cursor, Kimi, Grok, Z.AI or
+ OpenRouter — or use an API key for any OpenAI-compatible service. It is a
+ native binary, so it starts fast and pulls in no Node or Bun. Also installed
+ as `kwwk`.
+Name: kk
+Author: EYHN <https://github.com/EYHN/kwwk>
+
+Package: wiki.qaq.kk
+Architecture: iphoneos-arm64e
+Version: 0.1.112
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 26036
+Depends: firmware (>= 15.0), uikittools
+Filename: debs/iphoneos-arm64e/wiki.qaq.kk_0.1.112_iphoneos-arm64e_1f8c066f50e665f2bfcf4895b581aa46636a3155bb65b814797122ffb15160f9.deb
+Size: 5680176
+MD5sum: 606b7e4de05d5049f8226a47118cb5dd
+SHA1: 7745848bd1bc8edeeaa6c187e144048622007ed2
+SHA256: 1f8c066f50e665f2bfcf4895b581aa46636a3155bb65b814797122ffb15160f9
+SHA512: cd1ff5b313d2a6162834f0e491cf41df4e3d6a7745e7c9f11bb8481df555db8f5873eeafa4c60905f9291db0570c1055198ee621074dbdbe20aa324d3de3af98
 Description: A coding agent that uses the subscription you have
  Ask for a change in plain language and kk reads your files, writes the code and
  runs the commands to make it happen. Run `kk` in a terminal, then `/login` to
