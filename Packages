@@ -71246,6 +71246,45 @@ Name: Reverie
 Author: Paisseon
 Icon: https://paisseon.github.io/icons/Reverie.png
 
+Package: local.amap.twotabs
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: 你的iPhone不止于此
+Maintainer: 祁厅长
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/local.amap.twotabs_1.1_iphoneos-arm64_2ee328648bb70881b171dd08d38f3756fed2642ba4acce0a0bd90d163b3a1b45.deb
+Size: 145696
+MD5sum: bbe5b0a5a795a4d2a70f5bf1c9a90f59
+SHA1: 89ffc5363a4317155e0ea2c47c052c7b4ef6535e
+SHA256: 2ee328648bb70881b171dd08d38f3756fed2642ba4acce0a0bd90d163b3a1b45
+SHA512: 61955664a0459f32c5562a92c9791e3a0cbcf0f10640dd9fac94e065be5126aca96c8a41fa7b7d4fb78e2d21cd78027fde2e2ec4c6a7d6004a2239dee0275c37
+Description: 人民的高德，不忘初心砥砺前行
+ * 净化高德地图烦人的弹窗卡片视图
+ * 长按首页激活
+Name: 人民的高德
+Icon: https://qi-ting-zhang.github.io/sileo/images/icon/rmdgd.png
+Author: 祁厅长
+
+Package: local.amap.twotabs
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: 你的iPhone不止于此
+Maintainer: 祁厅长
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/local.amap.twotabs_1.1_iphoneos-arm64e_3b79d8ce95deaccd986d31712bf63c51747a7ba05d08049b45ece00760cf222c.deb
+Size: 145884
+MD5sum: a02d8469d370cbe0dda23e0f14ec3e15
+SHA1: 43da722b18397b8bd7eb800e8d642d20a0200f10
+SHA256: 3b79d8ce95deaccd986d31712bf63c51747a7ba05d08049b45ece00760cf222c
+SHA512: 91bd430186352105a8f59e029d391c4a4912513023f1907b9bb368c6c7cd3681d336c2ea744b4e6c0a0d636cd682f2df4e01cddc9c3c99d341b8af2767baf683
+Description: 人民的高德，不忘初心砥砺前行
+ * 净化高德地图烦人的弹窗卡片视图
+ * 长按首页激活
+Name: 人民的高德
+Icon: https://qi-ting-zhang.github.io/sileo/images/icon/rmdgd.png
+Author: 祁厅长
+
 Package: local.apelin.nomo
 Architecture: iphoneos-arm64
 Version: 0.0.2
