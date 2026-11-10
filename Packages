@@ -20656,6 +20656,63 @@ Name: Little16
 Author: michaelmelita1 & daodao
 icon: https://huayuarc.github.io/icon/little16.jpg
 
+Package: com.dao.pogr
+Architecture: iphoneos-arm
+Version: 0.5.5
+Section: Tweaks
+Maintainer: Ruphane
+Installed-Size: 624
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Filename: debs/iphoneos-arm/com.dao.pogr_0.5.5_iphoneos-arm_cce8203eefcc9dbfc9ec324546d80efe021c12a932c355b4c7cf10b2cbf644d8.deb
+Size: 82532
+MD5sum: c58b0b26f8b578dab25a317ae2e8f2a6
+SHA1: 01daf8c7f1265e67d8f0a94ad21b6ab3fa3db2ee
+SHA256: cce8203eefcc9dbfc9ec324546d80efe021c12a932c355b4c7cf10b2cbf644d8
+SHA512: cac4f49b730ff6047b651343d7b75948e5243d14463fed8dc4985abf0fc942f2ca67616b7c7af81e8a1a766a8c50348b90826a3111c97d2d9545554c4ce90b10
+Description: 将AirPodsPro2伪装成AirPodsPro，让其在旧iOS系统上更好地运行；支持 iOS16和USB-C版AirPodsPro2；支持AirPods4；自行实测！
+Name: PodsGrant
+Author: Ruphane
+icon: https://huayuarc.github.io/icon/PodsGrant.png
+
+Package: com.dao.pogr
+Architecture: iphoneos-arm64
+Version: 0.5.5
+Section: Tweaks
+Maintainer: Ruphane
+Installed-Size: 452
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Filename: debs/iphoneos-arm64/com.dao.pogr_0.5.5_iphoneos-arm64_bdceb083948bf610c86c91bca014e8c970bd5061db26e199442380897f657f3d.deb
+Size: 76140
+MD5sum: c07edd50ba338b3efe1ef44a4cc3231c
+SHA1: 3587d97342230a66d020315520865c8b87096896
+SHA256: bdceb083948bf610c86c91bca014e8c970bd5061db26e199442380897f657f3d
+SHA512: c2fc05e09ca5c3f129ae00962aae08f123bdf35dcae0c07e5275a9c80fcb7283e627455a601d5671252b825ae7d8538dcba19b7f56019e0330fa7daa42817213
+Description: 将AirPodsPro2伪装成AirPodsPro，让其在旧iOS系统上更好地运行；支持 iOS16和USB-C版AirPodsPro2；支持AirPods4；自行实测！
+Name: PodsGrant
+Author: Ruphane
+icon: https://huayuarc.github.io/icon/PodsGrant.png
+
+Package: com.dao.pogr
+Architecture: iphoneos-arm64e
+Version: 0.5.5
+Section: Tweaks
+Maintainer: Ruphane
+Installed-Size: 620
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Filename: debs/iphoneos-arm64e/com.dao.pogr_0.5.5_iphoneos-arm64e_532b1c77e4d18be242bfa137d7a914d88319b1ef5aa144830b772038397d4f2e.deb
+Size: 79784
+MD5sum: 119a75d3d3ab2e7ca0620767fdfcb9cf
+SHA1: 4b38629ac1348e267e992003bdeee1dd36dd1b13
+SHA256: 532b1c77e4d18be242bfa137d7a914d88319b1ef5aa144830b772038397d4f2e
+SHA512: f4fe28c44ff953e236e4963e70e892bffa09063bfe3486fb5ae692858fcc4d599cf77df4184add0edc8c8f044598af81ae7c600d9e0275d150dfa4477d9edfc0
+Description: 将AirPodsPro2伪装成AirPodsPro，让其在旧iOS系统上更好地运行；支持 iOS16和USB-C版AirPodsPro2；支持AirPods4；自行实测！
+Name: PodsGrant
+Author: Ruphane
+icon: https://huayuarc.github.io/icon/PodsGrant.png
+
 Package: com.dao.pulloverx
 Architecture: iphoneos-arm64
 Version: 2.2.1
@@ -22822,6 +22879,42 @@ Description: 抖音搜索下方禁止猜你想看刷新。
 Name: 抖音搜索禁止刷新
 Author: 航
 icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hang.gdqj
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 112
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.hang.gdqj_1.0_iphoneos-arm64_21e9eb1b2a2efc72252dc6e50e5d98e6c67a21525924e3a7101a9d296f7dd304.deb
+Size: 19216
+MD5sum: a85691ac8f4de70e8878d6e33b723655
+SHA1: 897749b87d9834cd72aed1e886c15abb5c39db47
+SHA256: 21e9eb1b2a2efc72252dc6e50e5d98e6c67a21525924e3a7101a9d296f7dd304
+SHA512: f1c5ed8bab7ea6024dbbe5cafd91b9af19650b38b76b6cbfefc7e0fddde261e98c067397b095a69c2514ce111d3910834b35cca419331c2fb2d786301e75f173
+Description: 测试版本；17.03，去开屏 + 去弹窗广告 + 低栏长按设置
+Name: 航の缺德地图净化
+Author: 航
+icon: https://huayuarc.github.io/icon/gaodeclean.jpg
+
+Package: com.hang.gdqj
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 112
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.hang.gdqj_1.0_iphoneos-arm64e_d918ac6a5110c3699221b42138dd2ce762e0f9e9abd5d0c0bb8e235ececfad03.deb
+Size: 19160
+MD5sum: 0048b6087e300e26849a3dd3f3fddbe8
+SHA1: 3b468c0fe9a464ca0d6d2c483d3ec770eb60e30f
+SHA256: d918ac6a5110c3699221b42138dd2ce762e0f9e9abd5d0c0bb8e235ececfad03
+SHA512: be6772ec123055948d8d14bfd460318976003c9d8d2f1cb903be8061c271b7cf0eeb6af4094fabaa57dd9fc88d438c518605751af032a22f140b288fc571346d
+Description: 测试版本；17.03，去开屏 + 去弹窗广告 + 低栏长按设置
+Name: 航の缺德地图净化
+Author: 航
+icon: https://huayuarc.github.io/icon/gaodeclean.jpg
 
 Package: com.hang.kayoko
 Architecture: iphoneos-arm64
@@ -27185,6 +27278,48 @@ Author: be-huge & doimty
 icon: https://huayuarc.github.io/icon/Insulation.png
 
 Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 1892
+Provides: com.be-huge.insulation
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Filename: debs/iphoneos-arm64/com.huayuarc.insulation_1.0_iphoneos-arm64_fda48b3d5db1da3a0886cee4d3fbf37d2ac1427be544343109a728f57b71dabe.deb
+Size: 195184
+MD5sum: d40561b51f6fd00018787f24290c227b
+SHA1: 867fd609a2cf25d993e5bc0bba604ddca206c2bc
+SHA256: fda48b3d5db1da3a0886cee4d3fbf37d2ac1427be544343109a728f57b71dabe
+SHA512: ffb8827d3446c1959aa59ce504af5ae6477c51fb46964dd3d6a0ece8ec064b89ad8f4ec211f898e1cd21579dca7f883baec6c54d24ee50c793a1c914c8b3ddeb
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 2284
+Provides: com.be-huge.insulation
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Filename: debs/iphoneos-arm64/com.huayuarc.insulation_1.0.5_iphoneos-arm64_b6a387e7e789e3bf16bb456dd2d1b48a2b95a7832566490092b628bf8b009e1c.deb
+Size: 207348
+MD5sum: 4becf658cf958cbffbaf5e4ef2fe4f1c
+SHA1: ce0ccea94b78f8a1bfada3409877bd19d1184100
+SHA256: b6a387e7e789e3bf16bb456dd2d1b48a2b95a7832566490092b628bf8b009e1c
+SHA512: dcfe9fdbf8fb49aae78ca2bd64b783b5aa90a5e277e849a8f5690750d9ffc21168e56d7ce41b8cbebfdc7f948e5b4b7e2f509bae0b18e1c24e40b1b15de7336c
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，120Hz。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -27201,6 +27336,48 @@ SHA1: 17345c8a39c8175c064bacb1b79cfba054736965
 SHA256: 992d531a2685d4dd653998f2fcd4d697ea1af987b6f7a5af3d1081012a2d479d
 SHA512: 78db7e05aba0074446bd65fbc5c4620c8a6fe3024d9318a2ce3979dbf9f99130c296c12e26f18b3bd6f8903cf0628d918d791cf0939c843c326006238342472f
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及  120Hz
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 1844
+Provides: com.be-huge.insulation
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Filename: debs/iphoneos-arm64e/com.huayuarc.insulation_1.0_iphoneos-arm64e_f33132cfe3d5f96145af623b24e5b1ff89ba6d0834a7b16e451a0f245a6f327c.deb
+Size: 191636
+MD5sum: d20899efaf3ff1c3fcfbae9f295c9b8b
+SHA1: bf8dedc50cf40b4e4b4cde0c67050409a6457e89
+SHA256: f33132cfe3d5f96145af623b24e5b1ff89ba6d0834a7b16e451a0f245a6f327c
+SHA512: d6f6c6e6e47826630dd9eb474cb937565e142d553ffeff234c84066d8ccb74a9468195a80e5095c35d58ebb767a95bf62f936960869a68375a4f558452bdd703
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 2236
+Provides: com.be-huge.insulation
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Filename: debs/iphoneos-arm64e/com.huayuarc.insulation_1.0.5_iphoneos-arm64e_0e3183fd4c76b776220b5c0e28fde989e58352e0b43d3dc92034bb647f42c625.deb
+Size: 204668
+MD5sum: 670411032f2392438f46fedf92cdc0ee
+SHA1: 056ea7344e3a77c4e981465c4cb6a2dbff1b6ae4
+SHA256: 0e3183fd4c76b776220b5c0e28fde989e58352e0b43d3dc92034bb647f42c625
+SHA512: 3aab187d316c679140a2c3379b85ac0bbe32a7b23176397cf9bd08981c629eacf224d43789b6e9c31024812607328bf31c8bc2e1fa56c175d4ba617076b27a74
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，120Hz。
 Name: insulation
 Author: be-huge & doimty
 icon: https://huayuarc.github.io/icon/Insulation.png
@@ -46473,6 +46650,27 @@ Icon: https://qq391160.github.io/repo/icons/thermal.png
 
 Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64
+Version: 2.0.495
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4396
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.495_iphoneos-arm64_e3203119db275ad83da4ebad8f2f9b74861c3c9d67b603f47cf31339978f14d6.deb
+Size: 663664
+MD5sum: e4f33eced8ca28c8f8fc8af4b462b06e
+SHA1: dc67efcf737e41054fa0e5922bda082409f9beb7
+SHA256: e3203119db275ad83da4ebad8f2f9b74861c3c9d67b603f47cf31339978f14d6
+SHA512: a832309f1d9fd3fd825618b0f007534e51e22a6b3c72221b734f32883762f01c3429e8a8957b9f0c5ea1d3ec0f2d9adba9e6e9b2c79bb2185624ad76d99a6a4b
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
 Version: 2.0.5
 Priority: optional
 Section: Tweaks
@@ -46998,6 +47196,27 @@ MD5sum: 15619b5dba1dfc0e1b53b6db67c9e3f2
 SHA1: 58c90014056668a2d895f15707e3ef51b382a243
 SHA256: 7d5572cd75559ee41bf67ec34b0437767822aa7e939619ea49ae61e55c695972
 SHA512: 55aef4b38de899765cd2a7942215a36b07d6ff1776db4b2629f26722c2d42ac6237a1de5501d999000c11278e980586691ae489b03776b5911838e91c782648d
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.495
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4700
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.495_iphoneos-arm64e_0bfa467b1752b2b12695eba4967ecd00da8cf44291606a7ba6713d9d1355283f.deb
+Size: 735068
+MD5sum: 69e2132c3429bcc3bf50f90c39b8e9f7
+SHA1: dad2ac19d7ff4e3554a4f499f757c85f3bdb3727
+SHA256: 0bfa467b1752b2b12695eba4967ecd00da8cf44291606a7ba6713d9d1355283f
+SHA512: 8c326fe098ff21ebfb34ac7d0ef2d880d2594d60bebed8999f65b9bf6fb6e8aa9dfad24de2d208b4208d33a5af937dc29e3a37181856752589fdca677bb9f432
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
@@ -67688,6 +67907,24 @@ Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.sp
 Author: ZengNiu
 
 Package: com.zengniu.splitview
+Architecture: iphoneos-arm64
+Version: 0.8.90
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 3507
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.zengniu.splitview_0.8.90_iphoneos-arm64_653ce86ed3c46faffea1edac13af09e76825ee5ad535b31b0b7811b8abd7b5b4.deb
+Size: 730420
+MD5sum: c3997a972d3c5ac343976d06f3483c8b
+SHA1: 5e0401a431cd4f4052b25dc25c9f56c9bda3b77b
+SHA256: 653ce86ed3c46faffea1edac13af09e76825ee5ad535b31b0b7811b8abd7b5b4
+SHA512: 8019b86207240c420b1dd8dafb287e1c77ae101c890da7b7973feb227f02d363b6e3872460f4699fd0289ca04a43a5ec0a7102be43414a52931a5f92eca6700f
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+
+Package: com.zengniu.splitview
 Architecture: iphoneos-arm64e
 Version: 0.7.130
 Section: Tweaks
@@ -67722,6 +67959,25 @@ Description: 带有主屏幕图标手势和基本对接的实验性实时应用�
 Name: 曾牛-分屏🐮
 Author: ZengNiu
 icon: https://huayuarc.github.io/icon/splitview.png
+
+Package: com.zengniu.splitview
+Architecture: iphoneos-arm64e
+Version: 0.8.90
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 3507
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.zengniu.splitview_0.8.90_iphoneos-arm64e_271243b6f94bf438ca083d081c5e0fcc4d7cccd6e3b0c58d3e0bdabcf79eaaa2.deb
+Size: 730128
+MD5sum: 8b7f74d27b1617e585be549bcec7677d
+SHA1: 61bf97b9903f728440650c530d1a44fa32eeb747
+SHA256: 271243b6f94bf438ca083d081c5e0fcc4d7cccd6e3b0c58d3e0bdabcf79eaaa2
+SHA512: c6ea245761a37281cfef3bdbc115733c68ad7c123a7ba2c52f9d812af197dda065ba1e7b919aa422029631a41fcfcf50e8e4fc1f29761fa01e421af68cd502af
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
 
 Package: com.zooah.debrecords
 Architecture: iphoneos-arm64
