@@ -22428,6 +22428,24 @@ Author: evgeniy558
 icon: https://huayuarc.github.io/icon/controlcenter18.png
 SileoDepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/Depiction/depiction.json
 
+Package: com.example.safesim
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 436
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.example.safesim_1.2_iphoneos-arm64e_e3cceb39a6709781324a784ca07ef2f39141b70c472827c99121fe0cb0ac6781.deb
+Size: 32180
+MD5sum: 03b2590a5edc1386294b3c0b241441fb
+SHA1: c5c9fb705f1a4c6b739671214c7c4b3d8f26c826
+SHA256: e3cceb39a6709781324a784ca07ef2f39141b70c472827c99121fe0cb0ac6781
+SHA512: 56dfee69e36e6db52a3c855935c9d5cd7f660fadd6632a9aee5992e7c123f0bddb44d22f917575f5deb2ccda9d30343f04dd972c20c4fe612341cfa340e858ad
+Description: 在控制中心快速开启或关闭手机卡。
+Name: SafeSIM
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/safesim.png
+
 Package: com.example.wifileasekeeper
 Architecture: iphoneos-arm64
 Version: 1.0.10
@@ -26268,6 +26286,25 @@ Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/ccsim.jpg
 
 Package: com.huayuarc.ccsim
+Architecture: iphoneos-arm64
+Version: 2.1
+Section: Tweaks
+Maintainer: Huayuarc
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.netskao.ccsim.pro, com.netskao.ccsim, com.huayuarc.ccsimfix
+Replaces: com.netskao.ccsim.pro, com.netskao.ccsim, com.huayuarc.ccsimfix
+Filename: debs/iphoneos-arm64/com.huayuarc.ccsim_2.1_iphoneos-arm64_d0805d517a452e897d02f1aa7e03d710e766a574b9f4f7f09667c160746b0699.deb
+Size: 66140
+MD5sum: 9b07b55e7d1abf2da8e0d0790d0dde5e
+SHA1: d26e87b00c7837334f7c02d63048a66dc8b2befc
+SHA256: d0805d517a452e897d02f1aa7e03d710e766a574b9f4f7f09667c160746b0699
+SHA512: 44a207eb824e437368f24b406350451915e22f9843bbc3f474cfc04dddf7957abbf2e261352db6fdd9c827bff71e62adba566e0d013e4991a052a2a55be7353e
+Description: 控制中心 SIM 卡管理：单击或长按均展开同一 SIM 管理面板，点卡即可启用 / 关闭。
+Name: CCSIM
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+
+Package: com.huayuarc.ccsim
 Architecture: iphoneos-arm64e
 Version: 2.0.12
 Section: Tweaks
@@ -26301,6 +26338,25 @@ SHA1: 5bba8bce3e30422d289045871ae6f98eb2b4fa46
 SHA256: da06a4918e4defdae6d0183007ac9c73d6041c2191b29faa02ce8f9e8a905fbf
 SHA512: 9f0e85542855152b1fcfe1232cb0fcfec0a20fd3f1db426ab2a578de428d8be59e6c2f402321d761d5be13ae82b7195c7cc3d7588a465b3e8dae41a3d35eed06
 Description: 控制中心 SIM 卡管理：面板里点一张卡就直接启用 / 关闭它（支持点击与长按）。
+Name: CCSIM
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+
+Package: com.huayuarc.ccsim
+Architecture: iphoneos-arm64e
+Version: 2.1
+Section: Tweaks
+Maintainer: Huayuarc
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.netskao.ccsim.pro, com.netskao.ccsim, com.huayuarc.ccsimfix
+Replaces: com.netskao.ccsim.pro, com.netskao.ccsim, com.huayuarc.ccsimfix
+Filename: debs/iphoneos-arm64e/com.huayuarc.ccsim_2.1_iphoneos-arm64e_9c635bf75d19d6b6a8ffb475147054939c88725ee9c056c1bb769c251f132649.deb
+Size: 54840
+MD5sum: 95a0624420e3ef7e7bc2daa50367b232
+SHA1: ace3e00bad123fc50ed3ae60f9cb3ec3048b3f3e
+SHA256: 9c635bf75d19d6b6a8ffb475147054939c88725ee9c056c1bb769c251f132649
+SHA512: fabe1f9a4e3041b2b1bb6eefb466cdcc67299acd12fd312b06ed7f71ea2462316f0a693bb1eacc260122e6f21d5f109c85dfecf2cbf700ced17e52a26287697c
+Description: 控制中心 SIM 卡管理：单击或长按均展开同一 SIM 管理面板，点卡即可启用 / 关闭。
 Name: CCSIM
 Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/ccsim.jpg
@@ -27341,6 +27397,27 @@ Author: be-huge & doimty
 icon: https://huayuarc.github.io/icon/Insulation.png
 
 Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 2268
+Provides: com.be-huge.insulation
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Filename: debs/iphoneos-arm64/com.huayuarc.insulation_1.0.7_iphoneos-arm64_3f6234d686b71d49cb29b3c45836eb087364f6fa457d06de9e6d402a18bc6da1.deb
+Size: 208512
+MD5sum: b3f7f56aaacd540e1d35617fa0ab4ca8
+SHA1: 14f19de338fa8817c38f97fe0b31dfd9b17e9978
+SHA256: 3f6234d686b71d49cb29b3c45836eb087364f6fa457d06de9e6d402a18bc6da1
+SHA512: 572a34ae7f1a3c61a8c8941129509b2774f1a93ec9583ec89b84fcfdf21efeec08a2ac456f2663279eb68f1d0f63fba1b9dc459851543c6538a8d723d38b9d7e
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，Hello 120Hz。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -27419,6 +27496,27 @@ MD5sum: 89b5dae2fd291c00b7495ba593581739
 SHA1: 3301938cfed48c88e14ff93bee9561f53033902b
 SHA256: caeb0a78cf543b2623fb4e925a5c57112f4b313abdd0fdb89043925aee7c3fd3
 SHA512: 7474a8f7683d4e9f6e4a15881ff5d8b72ae1fc1e75e0a528b60e6764054c2c6262ddffb7cfe9cb058e16adcf4c6af01cc0864b8991567da57bcf47a7550e6113
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，Hello 120Hz。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 2220
+Provides: com.be-huge.insulation
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Filename: debs/iphoneos-arm64e/com.huayuarc.insulation_1.0.7_iphoneos-arm64e_c06a0d9c0736fd46fb86e1775566dc270db9fc6cc992697ba4711539008bd8fd.deb
+Size: 205736
+MD5sum: 6239d615a308f4335e67907161111b8c
+SHA1: ed0db10107fc033ac27a52e6f29d0610da0c6c40
+SHA256: c06a0d9c0736fd46fb86e1775566dc270db9fc6cc992697ba4711539008bd8fd
+SHA512: 74cd0a16af8a86bdc8fcf342457feef03bdcfa781e8747ef2247bfa8c6c1edf1e8173bd69423c1003358b9ef2e48c26921738d1ef0b58cdb55bac14edb8470c7
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，Hello 120Hz。
 Name: insulation
 Author: be-huge & doimty
@@ -68202,6 +68300,24 @@ Section: Tweaks
 Maintainer: ZengNiu
 Installed-Size: 3507
 Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.zengniu.splitview_0.8.90_iphoneos-arm64_036e9dc4f444d2cccb76476ea9594fb49f3c1ee4c330a5650ff9d6e3dfb423b4.deb
+Size: 729968
+MD5sum: 444de7cbe584000c75a8f1a6963a1ff7
+SHA1: ad1d26af01799da09eec7710fc9d0702a669cfd8
+SHA256: 036e9dc4f444d2cccb76476ea9594fb49f3c1ee4c330a5650ff9d6e3dfb423b4
+SHA512: 92857c68daad64a6157e31bccbc807c6eb67fdd467a5cf7d0b958c8db940cb090bab2185ffab8e9717a0508467509a36e2c49b17c2fbe66f82ab610ede18a3f4
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+
+Package: com.zengniu.splitview
+Architecture: iphoneos-arm64
+Version: 0.8.90
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 3507
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
 Filename: debs/iphoneos-arm64/com.zengniu.splitview_0.8.90_iphoneos-arm64_653ce86ed3c46faffea1edac13af09e76825ee5ad535b31b0b7811b8abd7b5b4.deb
 Size: 730420
 MD5sum: c3997a972d3c5ac343976d06f3483c8b
@@ -68267,6 +68383,64 @@ Description: Experimental live app windows with Home Screen icon gestures and ba
 Name: 曾牛-分屏🐮
 Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
 Author: ZengNiu
+
+Package: com.zengniu.splitview
+Architecture: iphoneos-arm64e
+Version: 0.8.97
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 1885
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.zengniu.splitview_0.8.97_iphoneos-arm64e_c9fcb43bd23cefdfa933f5a7c031d50877621c17eff350ceb470b5ccf1d28896.deb
+Size: 516172
+MD5sum: 17f9f29c55f47012b36673969e5ede6b
+SHA1: 6ea540345863cb3d0d654e092e621a0491415e23
+SHA256: c9fcb43bd23cefdfa933f5a7c031d50877621c17eff350ceb470b5ccf1d28896
+SHA512: 78990c2a6313a27f34f1b97a33c54f945a8a0c7328753778b088f286a65f30d34ac9eebcc2584fac4a55aa1d3ec4b1059534dd2c0deb6b684276780f85be56dc
+Description: Live app windows with gesture controls, docked panels and independent launchpads.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+
+Package: com.zengniu.splitview.compat
+Architecture: iphoneos-arm64
+Version: 0.8.25
+Section: Tweaks
+Maintainer: ZengNiu
+Depends: firmware (>= 15.1), mobilesubstrate, preferenceloader
+Conflicts: com.zengniu.splitview
+Filename: debs/iphoneos-arm64/com.zengniu.splitview.compat_0.8.25_iphoneos-arm64_5c813433cab29afbba273ee84772f4bbe7f8ccb21b00419c69036b2619fd7b8c.deb
+Size: 949572
+MD5sum: 544599d145b04bac8ca8074b066fe590
+SHA1: 8b9f544482ed261960c5d885b436b8f6e252ec70
+SHA256: 5c813433cab29afbba273ee84772f4bbe7f8ccb21b00419c69036b2619fd7b8c
+SHA512: 90483c259a13f6ccaa7cf42ecc3d68ab93e1af1275ecb2715ca688a67fc2f6d88fd9389afde66939f29da483443e6046d1d5a56f0c8150933a514636cc1e9293
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛分屏 151617 兼容版
+Author: ZengNiu
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Depiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/index.html
+SileoDepiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/depiction.json
+
+Package: com.zengniu.splitview.compat
+Architecture: iphoneos-arm64e
+Version: 0.8.25
+Section: Tweaks
+Maintainer: ZengNiu
+Depends: firmware (>= 15.1), mobilesubstrate, preferenceloader
+Conflicts: com.zengniu.splitview
+Filename: debs/iphoneos-arm64e/com.zengniu.splitview.compat_0.8.25_iphoneos-arm64e_210fd1c6488b31fdf141463a27b44ca509f34ca8d61047fad3cc521dc6b86200.deb
+Size: 624328
+MD5sum: 302fa868d4ef2303763cf6e3ebdf824c
+SHA1: 013594c406bf8d0acd89a18d57a927f3d138b7a5
+SHA256: 210fd1c6488b31fdf141463a27b44ca509f34ca8d61047fad3cc521dc6b86200
+SHA512: 26c23fe12e0589d8616be17480d75a55186ad1a95594a321702578b2d0a16ad03d7db5e3ad8f1dacc7b04ee43c6ebbc98c98066b49454881bc41795b7e06c929
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛分屏 151617 兼容版
+Author: ZengNiu
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Depiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/index.html
+SileoDepiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/depiction.json
 
 Package: com.zooah.debrecords
 Architecture: iphoneos-arm64
@@ -68480,6 +68654,25 @@ Author: zooah212
 icon: https://huayuarc.github.io/icon/swipedeck.png
 
 Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.6.1-2
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7924
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.zooah.swipedeck_0.6.1-2_iphoneos-arm64_666adbd31e91b4a39700668eea0838aabbd480e911ac19ad387e745b7cb58f7d.deb
+Size: 2568204
+MD5sum: d0d87f065d88c623432c522925c26f23
+SHA1: 69cc5ea462af5850fc557fbe2fd25f9eef33dc30
+SHA256: 666adbd31e91b4a39700668eea0838aabbd480e911ac19ad387e745b7cb58f7d
+SHA512: d1897b129d2ff2983a77f1ae8de70711419405624bf19bc4f0a739c07f1f23dc32816b54b8a035307f5e0f8fcbdc1cc4504671378a456fcd98b297dedc0092a4
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+  *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
 Architecture: iphoneos-arm64e
 Version: 0.5.2-16
 Section: Tweaks
@@ -68655,6 +68848,26 @@ SHA256: 7b67a822ac3f0e02be9ec8ce5ea9c5be233d9429c1dfc1e0a244fa20a190f444
 SHA512: 14828c0375d49d715c9d34413ffc14710db4fc67a2a85cf4ac8afb334152d82e723c6caa1bf46adb2ddf7a5fd3bdd905abd59d9774cb38c85675efa80330a340
 Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
    *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.6.1-2
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7924
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.zooah.swipedeck_0.6.1-2_iphoneos-arm64e_399e971df4f733222984449fe22e7e3684761c36d4d2b68f1484d9dbd32a20be.deb
+Size: 2537620
+MD5sum: f67c8753aa740a77788af517404324ed
+SHA1: 7a550debe027b06e867d44654ef9cc39afc8088b
+SHA256: 399e971df4f733222984449fe22e7e3684761c36d4d2b68f1484d9dbd32a20be
+SHA512: 48e7378cd8af2dbf19e76db1f437b3d70f733113ae693bbb5fc93630f4adc71e6ef3fe3b18134656a30ccb4bac08d2646f766a210b67e707a012e8f3bba69d65
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+  *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
 Name: SwipeDeck - 快捷助手
 Author: zooah212
 icon: https://huayuarc.github.io/icon/swipedeck.png
@@ -70652,6 +70865,23 @@ Author: Junhong
 icon: https://huayuarc.github.io/icon/myeyeclean.jpg
 
 Package: im.mjh.myeyeclean
+Architecture: iphoneos-arm64
+Version: 0.2.0
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 168
+Filename: debs/iphoneos-arm64/im.mjh.myeyeclean_0.2.0_iphoneos-arm64_7da78b613b9f8fabe6f998181a0d012c4dcd940bca472973b80d4fc96b2c6ebe.deb
+Size: 7596
+MD5sum: 275595b03c232bd4c4fa97298302dcbc
+SHA1: 5030713146db794e5b5ca8d499529e7697359d5c
+SHA256: 7da78b613b9f8fabe6f998181a0d012c4dcd940bca472973b80d4fc96b2c6ebe
+SHA512: da5affcdf431052574954403bf692d0053b11fd788e3287dcec975f9570e15756fca5c36f77f2ce30407ef75deea25623c8060ecade173c6e786a2e8fdce29a6
+Description: 喵眼精灵 / 乔安智联去广告：关闭开屏/插屏/信息流/Banner/激励视频，拦截广告跳转
+Name: 喵眼精灵去广告
+Author: Junhong
+icon: https://huayuarc.github.io/icon/myeyeclean.jpg
+
+Package: im.mjh.myeyeclean
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Section: Tweaks
@@ -70664,6 +70894,23 @@ SHA1: 098b97fe26cd780168f79b0e5a3135f1f5e01e6f
 SHA256: c644fbf3ab1419e4b68eed68f0dd1ff987f69a660bcc61dd9e56a2848e5cc62a
 SHA512: 6827e0eeda855f149e5b3f8a6cb03372f62b2fb5886c558aa0791e8bf28a9939a3f9ffad9641e68b2206e620f9c3a5d1800248d2da10df28179325f879c1d1d0
 Description: 喵眼精灵去广告：掐断开屏/插屏/信息流/Banner/激励视频加载，拦截广告跳转app
+Name: 喵眼精灵去广告
+Author: Junhong
+icon: https://huayuarc.github.io/icon/myeyeclean.jpg
+
+Package: im.mjh.myeyeclean
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 168
+Filename: debs/iphoneos-arm64e/im.mjh.myeyeclean_0.2.0_iphoneos-arm64e_68167c987bed7cc9605e1bc5ce2631db081fe21ac8240890f2d0e8a521b65e74.deb
+Size: 7564
+MD5sum: ecad3062bd4f1475b4e39eb58c534220
+SHA1: 63d3c8c420fa4d3926daab16a049efeff165d780
+SHA256: 68167c987bed7cc9605e1bc5ce2631db081fe21ac8240890f2d0e8a521b65e74
+SHA512: 0e83d50aff6139a250adc463193fcbd99bf0db152d1af4d4393dfae1c14a65d244ba50165aea5afe0a391cf67032124eb7d48e44fe0127f891021520471e377d
+Description: 喵眼精灵 / 乔安智联去广告：关闭开屏/插屏/信息流/Banner/激励视频，拦截广告跳转
 Name: 喵眼精灵去广告
 Author: Junhong
 icon: https://huayuarc.github.io/icon/myeyeclean.jpg
