@@ -27454,6 +27454,27 @@ Author: be-huge & doimty
 icon: https://huayuarc.github.io/icon/Insulation.png
 
 Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 2268
+Provides: com.be-huge.insulation
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Filename: debs/iphoneos-arm64/com.huayuarc.insulation_1.0.8_iphoneos-arm64_42f9d5b8fa79ccda975c643e4a5449ce7bcb80acf2cb9533b49d16a07d464337.deb
+Size: 209648
+MD5sum: fbfca429d520598d2b13f4e7b69e174e
+SHA1: d515b32fea1b2c1eebc4c011367b304ef09e6eae
+SHA256: 42f9d5b8fa79ccda975c643e4a5449ce7bcb80acf2cb9533b49d16a07d464337
+SHA512: 3551e8015bb834086d61f5226349b3b3a466bb73fd88e00be1e815e637d7ebe0e7946e4c167b729b0758855b12fc01a2f742d84110624db9bcad177624fc4ba5
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，Hello 120Hz。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -27553,6 +27574,27 @@ MD5sum: 6239d615a308f4335e67907161111b8c
 SHA1: ed0db10107fc033ac27a52e6f29d0610da0c6c40
 SHA256: c06a0d9c0736fd46fb86e1775566dc270db9fc6cc992697ba4711539008bd8fd
 SHA512: 74cd0a16af8a86bdc8fcf342457feef03bdcfa781e8747ef2247bfa8c6c1edf1e8173bd69423c1003358b9ef2e48c26921738d1ef0b58cdb55bac14edb8470c7
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，Hello 120Hz。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 2220
+Provides: com.be-huge.insulation
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Filename: debs/iphoneos-arm64e/com.huayuarc.insulation_1.0.8_iphoneos-arm64e_e4b67289de823a647bbaf5132cdafb6996d877f05c27075b3fc5422a13472c38.deb
+Size: 207008
+MD5sum: ccac3ad9db1d783f132038a60bd12dd7
+SHA1: bc95b1d07926f645ecde05c18738bd31a3cf2b70
+SHA256: e4b67289de823a647bbaf5132cdafb6996d877f05c27075b3fc5422a13472c38
+SHA512: ca4dc68dfc46fc828edbce5eb93e8cdb938b5f34ef85130b6f94818de94652d199c9830a65a946c7277044a4dfd77bdcf7e050ad54050bd4d13d796d3c3c2889
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，Hello 120Hz。
 Name: insulation
 Author: be-huge & doimty
