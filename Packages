@@ -4866,6 +4866,119 @@ Name: LockScreenRestore
 Author: aronsz26
 Icon: https://aronsz26.github.io/depictions/lockscreenrestore/depiction/icon.png
 
+Package: com.assitdev.qujiankuaima
+Architecture: iphoneos-arm64
+Version: 3.5.6-6+debug
+Priority: optional
+Section: Tweaks
+Maintainer: AssitDev <dev@example.com>
+Installed-Size: 3588
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.assitdev.qujiankuaima.roothide
+Filename: debs/iphoneos-arm64/com.assitdev.qujiankuaima_3.5.6-6+debug_iphoneos-arm64_e4d3e6bd0eeaafaec6a53cbcf567fa95dbba27c3db5eb7dfd985ec7cad9945a6.deb
+Size: 544864
+MD5sum: caf3211e6448e6b8730981f0a7209f29
+SHA1: 1f73781639b139970d4f0ab932fc2e1dc063204c
+SHA256: e4d3e6bd0eeaafaec6a53cbcf567fa95dbba27c3db5eb7dfd985ec7cad9945a6
+SHA512: b836393f19285fefdd3ab14f783a0216d9e8ab7ffa0e1ba501ad1a91148189950174f447d0d932cf5be5fc078ae94837991a89457a551ed29a4a1ca5f18bbac5
+Description: 本机抓码清单 + 桌面悬浮入口 + 查件面板，数据只写本机 plist。
+ 通知投递 → 本机正则抓「取件码 / 取餐码 / 货架号 / 凭 XXXX 取件」及自定义关键词
+ → 识别菜鸟、丰巢、各家快递、美团 / 饿了么并归类去重 → 悬浮入口一键展开清单
+ → 点开清单：点一下复制、左滑已取 / 删除、筛选 → 剪贴板添加、新码顶部横幅。
+ 3.4.3 新增 / 修复：
+ · 卡片右侧的到期倒计时只认原文明确写出的时间（今天 21 点前 / 明天 12 点前 / 24 小时内 /
+   3 天内 / X 月 X 日）；原文没写就不显示，不再拿「柜机 36 小时」之类的猜测值糊弄人。
+ · 去掉自相矛盾的「超 24h」角标（它算的是「抓到多久了」，不是「离超期还有多久」），
+   现在只剩一个真实倒计时；带零头的写成「明天 14:30 前」，不再把 14:59 说成 14 点。
+ · 来源行不再显示「电脑导入」，来源和标题重复时（如短信）只留一处。
+ · 认不出具体快递的卡片，左侧改成来源图标（短信气泡 / 铃铛 / 取景框 / 剪贴板），不再是一个「码」字。
+ · 侧栏小蓝条支持拖出来：按住即可拖到屏幕任意位置，松手时离边栏 52pt 内自动吸附，
+   停在中就留在原地；双击归位到边栏；设置里新增「左边 / 右边 / 自由摆放」。
+ 3.4.2 新增 / 修复：
+ · 新增「在途快递」：从短信 / 通知原文里认出运单号（顺丰 SF、圆通 YT、中通 73/75/76/78、
+   申通 77、韵达 43/46、极兔 JT、京东 JD、邮政 9/1、EMS），自动查最新轨迹并缓存在本机。
+   悬浮面板底部新增「在途」页签，桌面 App 首页新增「在途快递」入口，支持手动加单号、
+   下拉刷新、点开看最近 6 条轨迹、一键浏览器看全程。查询只在刷新时联网，30 分钟节流。
+ · 修复卡片上「来源」与「到期时间」挤在一起互相盖住：到期文字改成按实际宽度右对齐，
+   时间 / 来源行只用到它左边的空间。
+ 3.4.1 修复（安装不再卡住）：
+ · postinst 只写日志就立即返回，uicache / launchctl / 重启 SpringBoard 全部挪到
+   nohup 后台脚本执行，dpkg 不再等待，Sileo 不会转圈卡死。
+ · root 更新守护进程脚本随包安装到 /var/jb/usr/libexec，不再依赖 heredoc 现场生成。
+ 3.4.0 新增：
+ · 解析器重写：多段连字符 8-3-2015 / 5-5-9-13 / 2-3-05025、字母段 A88123 / H-01485 /
+   D4-7048、纯数字 470812 / 72778、「请凭0614-056取件」全部支持。
+ · 两层锚点 + 兜底评分：关键词锚点、凭引导锚点都抓不到时，用特征词 + 动作词 + 码形
+   打分（>=3 分才采纳），包裹不会静默消失。
+ · 负样本排除：手机号 / 掩码号、运单号 / 订单号、年份日期、时间、A区123格 里的数字、
+   快递员尾号、银行与登录验证码、10086 流量提醒，一个都不会再误抓。
+ · 清单顶部统计「未取 N 件 · 今日到期 N 件」；列表按驿站 / 柜机分组，标题右侧显示
+   同一家有几件；卡片右侧显示「还剩 5 小时 / 今天 21 点前 / 已超 2 小时」。
+ · 悬浮入口换成贴边的小渐变竖线（9×132），不显示未取条数、不挡屏幕，点击展开面板。
+ 3.3.0 保留：排序拖动与恢复默认、每个入口单独开关、深链多级回退、液态风格、
+ 抖音 / 抖音极速版 / 小红书入口、root 更新守护进程（推包即自动安装）。
+ 悬浮入口挂在独立置顶窗口，插件 dylib 同时带 arm64 与 arm64e 切片（A12+ SpringBoard 必需）。
+Name: 取件快码 Assit
+Author: AssitDev
+icon: https://huayuarc.github.io/icon/qujiankuaima.png
+
+Package: com.assitdev.qujiankuaima
+Architecture: iphoneos-arm64e
+Version: 3.5.6-6+debug
+Priority: optional
+Section: Tweaks
+Maintainer: AssitDev <dev@example.com>
+Installed-Size: 3588
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.assitdev.qujiankuaima.r-o-o-t-l-e-s-s-
+Filename: debs/iphoneos-arm64e/com.assitdev.qujiankuaima_3.5.6-6+debug_iphoneos-arm64e_4be5091ffc6fa7f56d5d951d3493d82c5ed52e3015852a713fedd35257d8df1c.deb
+Size: 534016
+MD5sum: 19348d69f52e8d8619650c1e88509e00
+SHA1: 4671f578cd8a16476c5a669d724655c9f177c70e
+SHA256: 4be5091ffc6fa7f56d5d951d3493d82c5ed52e3015852a713fedd35257d8df1c
+SHA512: dcd17ff4b1ee333f1ca6b20b37b8631ea9ab3ae0f0c1e606d72d5fbba0abd8d2c1b7cfa72242808b0fc4e74311597e664480ad780dc62e8f5c18521d7d744eaa
+Description: 本机抓码清单 + 桌面悬浮入口 + 查件面板，数据只写本机 plist。
+ 通知投递 → 本机正则抓「取件码 / 取餐码 / 货架号 / 凭 XXXX 取件」及自定义关键词
+ → 识别菜鸟、丰巢、各家快递、美团 / 饿了么并归类去重 → 悬浮入口一键展开清单
+ → 点开清单：点一下复制、左滑已取 / 删除、筛选 → 剪贴板添加、新码顶部横幅。
+ 3.4.3 新增 / 修复：
+ · 卡片右侧的到期倒计时只认原文明确写出的时间（今天 21 点前 / 明天 12 点前 / 24 小时内 /
+   3 天内 / X 月 X 日）；原文没写就不显示，不再拿「柜机 36 小时」之类的猜测值糊弄人。
+ · 去掉自相矛盾的「超 24h」角标（它算的是「抓到多久了」，不是「离超期还有多久」），
+   现在只剩一个真实倒计时；带零头的写成「明天 14:30 前」，不再把 14:59 说成 14 点。
+ · 来源行不再显示「电脑导入」，来源和标题重复时（如短信）只留一处。
+ · 认不出具体快递的卡片，左侧改成来源图标（短信气泡 / 铃铛 / 取景框 / 剪贴板），不再是一个「码」字。
+ · 侧栏小蓝条支持拖出来：按住即可拖到屏幕任意位置，松手时离边栏 52pt 内自动吸附，
+   停在中就留在原地；双击归位到边栏；设置里新增「左边 / 右边 / 自由摆放」。
+ 3.4.2 新增 / 修复：
+ · 新增「在途快递」：从短信 / 通知原文里认出运单号（顺丰 SF、圆通 YT、中通 73/75/76/78、
+   申通 77、韵达 43/46、极兔 JT、京东 JD、邮政 9/1、EMS），自动查最新轨迹并缓存在本机。
+   悬浮面板底部新增「在途」页签，桌面 App 首页新增「在途快递」入口，支持手动加单号、
+   下拉刷新、点开看最近 6 条轨迹、一键浏览器看全程。查询只在刷新时联网，30 分钟节流。
+ · 修复卡片上「来源」与「到期时间」挤在一起互相盖住：到期文字改成按实际宽度右对齐，
+   时间 / 来源行只用到它左边的空间。
+ 3.4.1 修复（安装不再卡住）：
+ · postinst 只写日志就立即返回，uicache / launchctl / 重启 SpringBoard 全部挪到
+   nohup 后台脚本执行，dpkg 不再等待，Sileo 不会转圈卡死。
+ · root 更新守护进程脚本随包安装到 /var/jb/usr/libexec，不再依赖 heredoc 现场生成。
+ 3.4.0 新增：
+ · 解析器重写：多段连字符 8-3-2015 / 5-5-9-13 / 2-3-05025、字母段 A88123 / H-01485 /
+   D4-7048、纯数字 470812 / 72778、「请凭0614-056取件」全部支持。
+ · 两层锚点 + 兜底评分：关键词锚点、凭引导锚点都抓不到时，用特征词 + 动作词 + 码形
+   打分（>=3 分才采纳），包裹不会静默消失。
+ · 负样本排除：手机号 / 掩码号、运单号 / 订单号、年份日期、时间、A区123格 里的数字、
+   快递员尾号、银行与登录验证码、10086 流量提醒，一个都不会再误抓。
+ · 清单顶部统计「未取 N 件 · 今日到期 N 件」；列表按驿站 / 柜机分组，标题右侧显示
+   同一家有几件；卡片右侧显示「还剩 5 小时 / 今天 21 点前 / 已超 2 小时」。
+ · 悬浮入口换成贴边的小渐变竖线（9×132），不显示未取条数、不挡屏幕，点击展开面板。
+ 3.3.0 保留：排序拖动与恢复默认、每个入口单独开关、深链多级回退、液态风格、
+ 抖音 / 抖音极速版 / 小红书入口、root 更新守护进程（推包即自动安装）。
+ 悬浮入口挂在独立置顶窗口，插件 dylib 同时带 arm64 与 arm64e 切片（A12+ SpringBoard 必需）。
+Name: 取件快码 Assit
+Author: AssitDev
+icon: https://huayuarc.github.io/icon/qujiankuaima.png
+
 Package: com.axs.ahsfilter
 Architecture: iphoneos-arm64
 Version: 5.2.0-3
@@ -34544,6 +34657,42 @@ Author: Kernelrw <drtramadolmorphine@gmail.com>
 Name: Adytum
 Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
 
+Package: com.korboy.icli
+Architecture: iphoneos-arm64
+Version: 1.0.0+korboy4
+Section: Development
+Maintainer: icli
+Provides: com.icli.icli (= 1.0.0+korboy4)
+Depends: firmware (>= 15.0)
+Conflicts: com.icli.icli
+Replaces: com.icli.icli
+Filename: debs/iphoneos-arm64/com.korboy.icli_1.0.0+korboy4_iphoneos-arm64_a0e1a8cf971fde870dfed762b0b817bb9ce1cbda201143ed26330839e2cbc2f5.deb
+Size: 3776604
+MD5sum: 443553f246e09af29510ca6edbeea85d
+SHA1: 9b56781177f4317b809109f9a2b8dbe23f8865da
+SHA256: a0e1a8cf971fde870dfed762b0b817bb9ce1cbda201143ed26330839e2cbc2f5
+SHA512: 06de8e4360292cf35540e821dd8b796f6f015df6cbf81e49302feaefdeabdeddc55d4226c9fea4b022215775d44a7245f1db0cbb132a4d1944fc04c045440e73
+Description: On-device iOS control CLI
+Name: icli
+
+Package: com.korboy.icli
+Architecture: iphoneos-arm64e
+Version: 1.0.0+korboy4
+Section: Development
+Maintainer: icli
+Provides: com.icli.icli (= 1.0.0+korboy4)
+Depends: firmware (>= 15.0)
+Conflicts: com.icli.icli
+Replaces: com.icli.icli
+Filename: debs/iphoneos-arm64e/com.korboy.icli_1.0.0+korboy4_iphoneos-arm64e_133599b290bf39cf1c28bca8846d9d8b31b721146348ed5cb7e1fec889b1ef71.deb
+Size: 3779848
+MD5sum: fca11d89344cc296b2ca6035649a84a8
+SHA1: 1820f2f0c035a159a315208bf2c86c4290640944
+SHA256: 133599b290bf39cf1c28bca8846d9d8b31b721146348ed5cb7e1fec889b1ef71
+SHA512: 27fc7a48bb2cfca4259350d90f9f9a9c572e76c2e4a15310b4f57d3f94174c1e80fe3b3936885eba6c345718e55b60be68037322c938bb08df0b1b6f7d5e67e4
+Description: On-device iOS control CLI
+Name: icli
+
 Package: com.layii.ccrnd
 Architecture: iphoneos-arm64
 Version: 0.0.1-27+debug
@@ -37563,6 +37712,25 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 
 Package: com.mlgm.clippa
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 36696
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.mlgm.clippa_1.1.2_iphoneos-arm64_36f013c9320a2750bb518b3fc4e5f2fc9d894895332448f508a7598b5f7ad6e8.deb
+Size: 31189940
+MD5sum: 00bd2f89ecd966a8324389fc666cfd58
+SHA1: e6df8eaaf8a5424aa69d08d66aa2c54d2bf7155d
+SHA256: 36f013c9320a2750bb518b3fc4e5f2fc9d894895332448f508a7598b5f7ad6e8
+SHA512: 95ef03bb46242bdb3cefe86a68f3005edadf1759201c45011b9bcacf9e3692c159779862a442ecaa553e819e6d9c9b5498abd55b4f0fa02c0fe08c8798ed7af6
+Description: 截图与悬浮贴图工具。
+Name: Clippa
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+
+Package: com.mlgm.clippa
 Architecture: iphoneos-arm64e
 Version: 1.0.3
 Priority: optional
@@ -37657,6 +37825,25 @@ Name: Clippa
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 
+Package: com.mlgm.clippa
+Architecture: iphoneos-arm64e
+Version: 1.1.2
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 36692
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.mlgm.clippa_1.1.2_iphoneos-arm64e_35e154ce7b47183c1d42d5947505eb9747ac55c7fd7fb678bb0571b85c5c3b87.deb
+Size: 31189252
+MD5sum: 0169162c4bd7316ea657ca875e3578ca
+SHA1: ee68ad9fa117ade84100cf43e3635c2727d4309e
+SHA256: 35e154ce7b47183c1d42d5947505eb9747ac55c7fd7fb678bb0571b85c5c3b87
+SHA512: bf1219297e46efd41226e887d6af097251a2813eda80914407485ddc681735f76df42dff836c2173aecee6c52813309dcc678d894e3da11d3a679e135ee02753
+Description: 截图与悬浮贴图工具。
+Name: Clippa
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+
 Package: com.mlgm.clone
 Architecture: iphoneos-arm64
 Version: 0.1.6
@@ -37734,6 +37921,25 @@ Icon: https://mlgm66.github.io/icon/clone.png
 Author: mlgm
 
 Package: com.mlgm.clone
+Architecture: iphoneos-arm64
+Version: 0.6
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5136
+Depends: firmware (>= 15.0), ellekit (>= 1.2), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: debs/iphoneos-arm64/com.mlgm.clone_0.6_iphoneos-arm64_44dcf5f902c6cfd2ef3fc92a09ce2c05e0da20d7458d3599d0ecd02da536a651.deb
+Size: 822600
+MD5sum: 6bbc591930f218e4d6563cc872d15327
+SHA1: 9314a260ed7be133456e48f17d369ba51b863e5d
+SHA256: 44dcf5f902c6cfd2ef3fc92a09ce2c05e0da20d7458d3599d0ecd02da536a651
+SHA512: b66cdbb1fb8ddcaff2a7f45395158c6e1d8a41b525df573da5fc1d8bf989aab3f7f7b602efc7bf5f82bcda583e7882845a2db47ff538122cc2f6c6a059f32ab7
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Author: mlgm
+
+Package: com.mlgm.clone
 Architecture: iphoneos-arm64e
 Version: 0.1.6
 Priority: optional
@@ -37804,6 +38010,25 @@ MD5sum: 786f010de63da51904ff288215c39677
 SHA1: d04a3dac46c69527b814a258c5569ce5f0acc225
 SHA256: 55cedd0932570b2b1ab89a9a348ccef0e7bf63148c033fe9c60f7532777476b3
 SHA512: b557c1edbd4ae9c9da2745e553536ed0dd8e72c460cd884f5895a65bc590b2ce7845d7d06585f0cf9cf64828d294af4ecd174fe6944436711a102b8f68b4d452
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Author: mlgm
+
+Package: com.mlgm.clone
+Architecture: iphoneos-arm64e
+Version: 0.6
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5120
+Depends: firmware (>= 15.0), ellekit (>= 1.2-1), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: debs/iphoneos-arm64e/com.mlgm.clone_0.6_iphoneos-arm64e_e2eb5bcb9a67d867008e11e2167451d6f81e8fc21387414f7741ba2639a1a8cb.deb
+Size: 817164
+MD5sum: 104b57d599765e7ea9d74c2c17383bb3
+SHA1: a51c71e4a4e2e7948a338a20d5e63d130fb1f3ac
+SHA256: e2eb5bcb9a67d867008e11e2167451d6f81e8fc21387414f7741ba2639a1a8cb
+SHA512: d82424e520a01558159c0b46d415d40abc0dfdd7207f63d7b9f04233a362c8602b485378e0b1537ac33885922d80ad1029a4aaa2c04caf334ac5bb0966be61ab
 Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
 Name: Clone
 Icon: https://mlgm66.github.io/icon/clone.png
@@ -37914,6 +38139,24 @@ SHA1: fc040bb1e389e3ef553178143a122ed0b7956046
 SHA256: cfb2b9d63ee061bf630c3d05d35a9b8f90421d00e9f7136336fb305e40dce054
 SHA512: 1466649d8c15050912fb1b9190848c109bc219bdae7959b49b5507a4d7bb1a67fa2acb21e92455d14d62e9647e888f37b269a0f081348d22d4ddf145054a7616
 Description: Filza 5.x 的 RootHide 动态补丁，收藏夹增加常用随机化路径目录。(原版 Filza 已适配 RootHide，如遇崩溃等问题需重装 Filza)
+Name: Filza Patch
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+
+Package: com.mlgm.filzapatch
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 178
+Depends: firmware (>= 15.0), mobilesubstrate, uikittools, com.tigisoftware.filza64bit (= 5.0.1-4)
+Conflicts: roothide.patches.filza
+Filename: debs/iphoneos-arm64e/com.mlgm.filzapatch_1.1.3_iphoneos-arm64e_fddee45d6ee6062397e4bd59f8ad9ad3185448777cc941e9c39ec386ef20fc13.deb
+Size: 8104
+MD5sum: 668b2a3b36a6762e02c330b9a34eada3
+SHA1: 7115585b0d8fea0161bda3961eba2d46c3679258
+SHA256: fddee45d6ee6062397e4bd59f8ad9ad3185448777cc941e9c39ec386ef20fc13
+SHA512: 39964533c2230882e7ab7032e1fe520cd20c32718e7db39a0a4f521dbc25c61cc0d698051c3079362a81e07cc5d0259f7de36a9e56bbed2a0774e7b041a16a36
+Description: 适用于 Filza 5.0.1-4，增加常用随机化路径收藏、调整 Documents 路径，并注册 filza:// 跳转。
 Name: Filza Patch
 Icon: https://mlgm66.github.io/icon/FilzaPatch.png
 
@@ -65620,6 +65863,25 @@ Author: Tsangbaby
 Icon: https://tsangbaby.github.io/Icon/Galaxy.png
 SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
 
+Package: com.tsangbaby.galaxy
+Architecture: iphoneos-arm64e
+Version: 0.6.4
+Section: Tweaks
+Maintainer: Tsangbaby
+Installed-Size: 2960
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.tsangbaby.galaxy_0.6.4_iphoneos-arm64e_25a7673e894ecda173c6b8416d9968331b49b36cf3a2b911e8c91827e4cbe710.deb
+Size: 656692
+MD5sum: efd0d369c48618d9232de0a66c00369c
+SHA1: 65a16a635027e760785906b8a2a076fa0032fb12
+SHA256: 25a7673e894ecda173c6b8416d9968331b49b36cf3a2b911e8c91827e4cbe710
+SHA512: 1d2c5fd0c33b99e81884286cdf11db4f654b87c6f2390bfa2377ef1b0c3060667f235dcab6270b03d8c9a972c2cc587033c3a8881924e96f92cb76414d3d99fe
+Description: Independent circular app launcher for iOS 15 and later.
+Name: Galaxy
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+
 Package: com.tsangbaby.kayoko
 Architecture: iphoneos-arm64
 Version: 5.0
@@ -67002,6 +67264,24 @@ Name: Random Icon Flip
 Author: Tsangbaby
 Icon: https://tsangbaby.github.io/Icon/RandomIconFlip.png
 SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.randomiconsflip/depiction.json
+
+Package: com.tsangbaby.springanimation
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: Tsangbaby
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.tsangbaby.springanimation_0.0.2_iphoneos-arm64e_824034d359975c9beb17cf7b57726318249dd51544426cb4e8b402f30f46d3bc.deb
+Size: 3040
+MD5sum: 34a364e17ae73c390fe4a03c904321d5
+SHA1: a9bd0a7165a4063d1eefd9bc2453c2c06c84df2d
+SHA256: 824034d359975c9beb17cf7b57726318249dd51544426cb4e8b402f30f46d3bc
+SHA512: 824e98e09a2da35f54b0ffc6a2220a33d779a29bad8230d17478ca7ceb89dfe552f042d91dbb5f7f66de99a4a24cdc1bb44d3ac8c041ff0af7ee7f0a146c8d76
+Description: 神奇的交互动画
+Name: SpringAnimation
+Author: Tsangbaby
+icon: https://huayuarc.github.io/icon/springanimation.jpg
 
 Package: com.tune.h3kbhook
 Architecture: iphoneos-arm64
@@ -72395,6 +72675,23 @@ Author: Junhong
 Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
 
 Package: im.mjh.doleo
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 1008
+Filename: debs/iphoneos-arm64/im.mjh.doleo_1.0.4_iphoneos-arm64_57f023743dadf42117301f14dfb45acefcbedd92e2c4102b932549ac830fc209.deb
+Size: 241740
+MD5sum: 7826c03479a3ba5c189546525fe94d7c
+SHA1: 5d05785a77dffe56f1eeb250535a2acde9a7d13b
+SHA256: 57f023743dadf42117301f14dfb45acefcbedd92e2c4102b932549ac830fc209
+SHA512: 5c4801d1dc3fc62c043f5dc657f04d84ec1b191a81e7311f4df2eed36a49ef901306c5ba5a0af5b6f1c9faac46d9ad3aa003589b1c697473e571fcb63700a890
+Description: Download and keep local DEB packages in Sileo.
+Name: Doleo
+Author: Junhong
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
+
+Package: im.mjh.doleo
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -72473,6 +72770,23 @@ SHA1: 5c85e5994d47b9306109169883c5722483ab16bb
 SHA256: ad6add6f7bb91436168d697c1084fc73982043b73e08ca63ce514578a1d91844
 SHA512: 5398cdc51f718c5a2bc2bbdfe434ef69ed585d96b5b916eddb52aeed572d437857445b03a461e299b927908ddc0bcf191d72d209f8e0cc4d18e171eb4003094c
 Description: 在Sileo中下载并保留本地DEB软件包。Download and keep local DEB packages in Sileo.
+Name: Doleo
+Author: Junhong
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
+
+Package: im.mjh.doleo
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 1008
+Filename: debs/iphoneos-arm64e/im.mjh.doleo_1.0.4_iphoneos-arm64e_a17afd4e2a9200bddaa1f93fbb75e2a4f454cd6158abdc85bebc13ed7d858158.deb
+Size: 241776
+MD5sum: 533cf5a925bbfde6100741c116a357fe
+SHA1: 2a00e280ff010ea81827e56b8f8acf94f0a847cd
+SHA256: a17afd4e2a9200bddaa1f93fbb75e2a4f454cd6158abdc85bebc13ed7d858158
+SHA512: f1313f52781e3c70ff0e93c2f6c37ec4768d2c2a5a8da4e7641c8877aebc5d032e16d5fb94f6695086f09ff0661106ef899809bcd96c18f068845a9bc87a70e8
+Description: Download and keep local DEB packages in Sileo.
 Name: Doleo
 Author: Junhong
 Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
@@ -83462,6 +83776,31 @@ Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.ighostvt
 Architecture: iphoneos-arm64
+Version: 1.6.29
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 16856
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64/wiki.qaq.ighostvt_1.6.29_iphoneos-arm64_b1b458191d493a4534702db62b130fcbe1315fba2032c1f3b47159f9f16d58d1.deb
+Size: 5017836
+MD5sum: 51ca5f73f3092e886dc240554ccbfc7e
+SHA1: 4c97a043f3bd34e963652a6e26473e8f19a0051d
+SHA256: b1b458191d493a4534702db62b130fcbe1315fba2032c1f3b47159f9f16d58d1
+SHA512: 54993fb7cdaff0f4e7da7a37aa96ee230376c9eaf37af5f4bc94921614bb07f6d760241068fc3b6134978ea6628b626fb594fd9887295c046c78dc438d48b64b
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64
 Version: 1.6.5
 Priority: optional
 Section: Terminal Support
@@ -83824,6 +84163,31 @@ MD5sum: 02a52abe559ca11a626cbaa8c5497c47
 SHA1: 81ef0de575635c2d993cc82be77acc8e99a6eea3
 SHA256: d218f35f66c33add5769c2d0dcb63e55fe840b48a37202561121d1aa7a6bd33e
 SHA512: 478f24c56d1aeda3cfd488fa21c033f213630ad39c6d7650010d18838a927c05678423fff31bd92feb2f3bf6b9d3beceb00893bd1ec3932ead383e7faa987c5a
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64e
+Version: 1.6.29
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 16856
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64e/wiki.qaq.ighostvt_1.6.29_iphoneos-arm64e_975c56e310731af18d2175f1a464447e0ed1457db4586dd1a6e2f86a638503ee.deb
+Size: 5016296
+MD5sum: 20deb39ceac6a6a4b4e19fa3e1e0a6df
+SHA1: 48a64a509d2f1f2e25e9d58f8c056c33d0bd7e04
+SHA256: 975c56e310731af18d2175f1a464447e0ed1457db4586dd1a6e2f86a638503ee
+SHA512: 06d9c18ab4f36c6edcd48504781c5898e7a72559025e9ef3e1558785c16dd6aacc2f92d5d7d7acd69c53f3021de3012a8a97233c874cfbed4bbda6fca7088b12
 Description: Ghostty-powered terminal for iOS
  A real terminal on your device, drawn by the same engine as Ghostty on the
  desktop. Your shell keeps running in the background, so a build you started
