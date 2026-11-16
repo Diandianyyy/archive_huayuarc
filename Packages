@@ -22541,6 +22541,43 @@ Author: evgeniy558
 icon: https://huayuarc.github.io/icon/controlcenter18.png
 SileoDepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/Depiction/depiction.json
 
+Package: com.example.noticelisttweak
+Architecture: iphoneos-arm64
+Version: 1.0.1~test16+h2l1
+Section: Tweaks
+Maintainer: Local User
+Installed-Size: 759
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.example.noticelisttweak_1.0.1~test16+h2l1_iphoneos-arm64_10de38b12dcb34f2dc8ae85a205a9f13f822dcd3a0dba217e2975e79b7890e6d.deb
+Size: 166256
+MD5sum: 663b05512d9af9183a3b920901cdd224
+SHA1: 0ba95da5f056b653a98475f52c7db1c66288af66
+SHA256: 10de38b12dcb34f2dc8ae85a205a9f13f822dcd3a0dba217e2975e79b7890e6d
+SHA512: f8c9e3b6bc26de33662bb3afcbd86480048a1bfe569eea5dfc233648245c80e609d8b47b6bcff9dd3d7c1805e1331d52407ebe0b68f934de951df56716d4128e
+Description: RootHide notification-list, app-icon and banner dust effects; experimental device test.
+Author: Local User
+Name: 通知消散
+icon: https://huayuarc.github.io/icon/noticelisttweak.png
+
+Package: com.example.noticelisttweak
+Architecture: iphoneos-arm64e
+Version: 1.0.1~test16+h2l1
+Section: Tweaks
+Maintainer: Local User
+Installed-Size: 759
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.example.noticelisttweak_1.0.1~test16+h2l1_iphoneos-arm64e_48861d285cb74e2d924433902843c69e9c9cd574f02c5471259e3bdf4c47667f.deb
+Size: 166380
+MD5sum: 8f531af584434a12fb9d08b3eb18d2cd
+SHA1: 0029468e890ca2655450b9f02427a1446eddfc9c
+SHA256: 48861d285cb74e2d924433902843c69e9c9cd574f02c5471259e3bdf4c47667f
+SHA512: acf011aaf59fb456a534e7c7d14985ee3c7497a03c2f2d228b2b44bd1c774473e69e591c2aa0e3b73e501b56e3ac06d92ef0b672e4a476d85e7af73852cb5b1c
+Description: RootHide notification-list, app-icon and banner dust effects; experimental device test.
+Author: Local User
+Name: 通知消散
+icon: https://huayuarc.github.io/icon/noticelisttweak.png
+
 Package: com.example.safesim
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -45360,6 +45397,46 @@ Tag: role::hacker
 Name: rootless-patcher
 Author: Nightwind and staturnz
 Icon: https://huayuarc.github.io/icon/patcher.jpg
+
+Package: com.ning.qqencryption
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Priority: optional
+Section: Tweaks
+Maintainer: Ning
+Depends: firmware (>= 15.0)
+Conflicts: com.ning.qqphotobase64
+Replaces: com.ning.qqphotobase64
+Filename: debs/iphoneos-arm64/com.ning.qqencryption_1.0.1_iphoneos-arm64_be93589e1c17f32ff6713f3511696da4c353e1f542e6b3c94cd972f15fa00c84.deb
+Size: 44772
+MD5sum: 466549a5e545297c000988400d6ae90d
+SHA1: 4ae450b8aa48946aab4c50fe3fab5f298fdd2886
+SHA256: be93589e1c17f32ff6713f3511696da4c353e1f542e6b3c94cd972f15fa00c84
+SHA512: b6bf6db969eadfc13d7b609df45408fdbbc3ff86f65e2cb5b78adb7e91abf7362ee2e606ea9977d7f72cc0cd5d7ba4289f3dc2fc85cbeebfe8413d028330b173
+Description: QQ static-photo Base64 containers with a circular toggle and file decode preview. Base64 provides no secrecy.
+Name: qqEncryption
+Author: Ning
+Icon: https://ningios.github.io/debs/icons/qqencryption.png
+
+Package: com.ning.qqencryption
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Priority: optional
+Section: Tweaks
+Maintainer: Ning
+Depends: firmware (>= 15.0)
+Conflicts: com.ning.qqphotobase64
+Replaces: com.ning.qqphotobase64
+Filename: debs/iphoneos-arm64e/com.ning.qqencryption_1.0.1_iphoneos-arm64e_65a78e36b6ee812586cb3a92b79eae857572a15f3ded8cfc1c08a83a4495daa3.deb
+Size: 45328
+MD5sum: b51a25a1fa518cd2226b00b17643282f
+SHA1: 67ea471118fb9f0f4b5df5f82bf1d6566f8e9957
+SHA256: 65a78e36b6ee812586cb3a92b79eae857572a15f3ded8cfc1c08a83a4495daa3
+SHA512: 32e578b985b6213e868658d9c7d58ad0ba4ee6441d912cffaef48dd9ee26469f445257d7319eb4b698308fae740adaf421632ccf0bdfb200f42a7338a88e7562
+Description: QQ static-photo Base64 containers with a circular toggle and file decode preview. Base64 provides no secrecy.
+Name: qqEncryption
+Author: Ning
+Icon: https://ningios.github.io/debs/icons/qqencryption.png
 
 Package: com.ning.simcontrol
 Architecture: iphoneos-arm64
@@ -70358,6 +70435,25 @@ Author: zooah212
 icon: https://huayuarc.github.io/icon/swipedeck.png
 
 Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.6.4-6
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 8108
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.zooah.swipedeck_0.6.4-6_iphoneos-arm64_33e3d21968cf74665541bea474a174e3c8597bb13aeb3917c682ce33e9e21987.deb
+Size: 2611524
+MD5sum: d94b8b6e14d4901f85aa33aa50faf40f
+SHA1: e257e6f0b08165218a27bcdf2d1f6e1054319dc4
+SHA256: 33e3d21968cf74665541bea474a174e3c8597bb13aeb3917c682ce33e9e21987
+SHA512: 6c948c5853e41c82ec9b28997a0ef67a169a7234612584f74b4e37b28fd2179b05b6cfc3b9d4d9929f8384a2c053f3bbf7957df0a8b2b7de1b503cf63766316c
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
 Architecture: iphoneos-arm64e
 Version: 0.5.2-16
 Section: Tweaks
@@ -70571,6 +70667,26 @@ MD5sum: 46102aabad69b1a9398ec52a947205b9
 SHA1: 37b48a5938daba07368b46a3281831738de77d4b
 SHA256: bc3c7f130fceb7bca333f6b209474fe07cb4789adfe1a5ab9fe436b9973cf377
 SHA512: 5fb39b47dd3011930da17a947de87ae8ca3f745f889a5366f44185903366c905124ca1e260e171ff7a9d12a60a4ffa6552f02b8c1fcf76f6557d68d3af2ba1ed
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.6.4-6
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 8108
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.zooah.swipedeck_0.6.4-6_iphoneos-arm64e_913a303f73a756474352526145bb259dfc822e749d0b2d82599f9e032de5b3cb.deb
+Size: 2580576
+MD5sum: 33226a1e0e287eeee63291652e294951
+SHA1: 856ca3b2882d796dcf457e6d46b9d663dd8a49a9
+SHA256: 913a303f73a756474352526145bb259dfc822e749d0b2d82599f9e032de5b3cb
+SHA512: 69cadc765c5b5b6c07635f42b67ddca68c5081065d9b317f50fc9260f6b997d4702b60dcef52ca4af022ffbaf838128cdb5f8cc36a56a3789e681763f2b2a1df
 Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
    *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
 Name: SwipeDeck - 快捷助手
