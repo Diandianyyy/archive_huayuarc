@@ -23956,6 +23956,25 @@ Author: hierarch
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.hierarch.dykiller
+Architecture: iphoneos-arm
+Version: 0.7.2
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 4608
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm/com.hierarch.dykiller_0.7.2_iphoneos-arm_ac2f933c6dd89a3fc369bccfd8cb6fdcfb207901b24b4efc4162fe0b7cf3e681.deb
+Size: 1123928
+MD5sum: c5d6170c7e6d25ef04ba700e6c1c9ca4
+SHA1: 26a83bbe19cbd8cd61a20d524170e53e9af4b74b
+SHA256: ac2f933c6dd89a3fc369bccfd8cb6fdcfb207901b24b4efc4162fe0b7cf3e681
+SHA512: 7c2753c6f94d603d143f39f40725b3e771b32d0adc9de4cb8ba33537e2df216d437786cb5af27a4fd10fc00b64436077a2c824b9791125b629d8357c1cce9cfa
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
 Architecture: iphoneos-arm64
 Version: 0.5.5
 Priority: optional
@@ -24279,6 +24298,25 @@ Author: hierarch
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64
+Version: 0.7.2
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 4608
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.hierarch.dykiller_0.7.2_iphoneos-arm64_fd642fbc3ec06a55b354d61c14b09e314916bafcc05609ce99c95c6395c877d5.deb
+Size: 1121480
+MD5sum: 3ad17f40462702f49acaa03c5326b62d
+SHA1: 9ade2bbf1748cb65dda26a839473a3a82a24fdf9
+SHA256: fd642fbc3ec06a55b354d61c14b09e314916bafcc05609ce99c95c6395c877d5
+SHA512: 5daa3fbad5eeb1f76d086a3485eb35a3799f7e6b90efe039221de7cb7d009073121dfb1af142f543178b72ae9e4f9d8c661ae31b398d8932ee89066d07fda7ce
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
 Architecture: iphoneos-arm64e
 Version: 0.5.5
 Priority: optional
@@ -24596,6 +24634,25 @@ MD5sum: f51105529c5251fa687b5d613906993c
 SHA1: 6d6aa86e06ca52bb38e3d536af0d64953ba75504
 SHA256: 98a7803e3d79d445c88224ee6e494852b10953b647bea0c93a7e5a3c238a486d
 SHA512: 2531141aaf88b860ac0f9e58c1af22c2bb67321ff209f22aa58f6fe1a52542ff60bf36df6bedec87f45e7d4d17dd46aecbbd9255dd4244033bdbaa2cef42beff
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64e
+Version: 0.7.2
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 4608
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.hierarch.dykiller_0.7.2_iphoneos-arm64e_da2ce85df8fcd536a7019cc80bdfdc19e389ef4c585c513de4387fb811d6de27.deb
+Size: 1121656
+MD5sum: d70d7a0ac1b938e64779b0a4447a100f
+SHA1: b0c7fd7c5bac06b18f2395e8093462561e148611
+SHA256: da2ce85df8fcd536a7019cc80bdfdc19e389ef4c585c513de4387fb811d6de27
+SHA512: 1fd69dc25607cab32c23eef27b76620608245abf0ab1cc6b15c796029320cd1d402e02aa2bd527a4e81eaf0392a4b06d4fb14762fd75f75532004c5bc337ff7f
 Description: 抖音 UI 增强插件（模块化 hook 框架）
 Name: DYKiller
 Author: hierarch
@@ -27708,6 +27765,44 @@ icon: https://huayuarc.github.io/icon/Insulation.png
 
 Package: com.huayuarc.insulation
 Architecture: iphoneos-arm64
+Version: 1.0.19
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 2672
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Replaces: com.huayuarc.insulation
+Filename: debs/iphoneos-arm64/com.huayuarc.insulation_1.0.19_iphoneos-arm64_e6a62bfdfb6089002b854c096ad468a62aa593242acd049a8725eee4e69e5451.deb
+Size: 243388
+MD5sum: bc8c9775ed0b5d8cbc03d01b6ad89957
+SHA1: c082f2e2997f7e174f9c8a4073792bb964385d93
+SHA256: e6a62bfdfb6089002b854c096ad468a62aa593242acd049a8725eee4e69e5451
+SHA512: de927e34b672d098681d75ccf486ac8808458ba7bb7c9922e20e2f885c1f1bb254236b66aa64e17c4668de83560c8cba58ee509ed30eac3483957941cd329b51
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64
+Version: 1.0.22
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 2672
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Replaces: com.huayuarc.insulation
+Filename: debs/iphoneos-arm64/com.huayuarc.insulation_1.0.22_iphoneos-arm64_004250126c9f0f2b618e4344d217190b2c947fba2212f42b3fc4f90185e067e1.deb
+Size: 243156
+MD5sum: 04c707b167b7dc39a2839b29d9b4e9cf
+SHA1: d5668443d4c71f8e5492c142963a70bd74806af0
+SHA256: 004250126c9f0f2b618e4344d217190b2c947fba2212f42b3fc4f90185e067e1
+SHA512: a9aa8cfc14efa7af24335895bf05bceedf89605190d15dda7b0d485382d380990dce2927c95aef0f85ad7d82283c0a17e42b637fa53cb480d96937dee16c1b86
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64
 Version: 1.0.5
 Section: Tweaks
 Maintainer: doimty
@@ -27848,6 +27943,44 @@ MD5sum: d20899efaf3ff1c3fcfbae9f295c9b8b
 SHA1: bf8dedc50cf40b4e4b4cde0c67050409a6457e89
 SHA256: f33132cfe3d5f96145af623b24e5b1ff89ba6d0834a7b16e451a0f245a6f327c
 SHA512: d6f6c6e6e47826630dd9eb474cb937565e142d553ffeff234c84066d8ccb74a9468195a80e5095c35d58ebb767a95bf62f936960869a68375a4f558452bdd703
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64e
+Version: 1.0.19
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 2624
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Replaces: com.huayuarc.insulation
+Filename: debs/iphoneos-arm64e/com.huayuarc.insulation_1.0.19_iphoneos-arm64e_946edbedea514af481bffb0acefeb237e9164521e4f375ddba99290a29fc247b.deb
+Size: 240864
+MD5sum: 185c7838012eed1081335c2d1b8dd49e
+SHA1: 22f84acb0a7209e9811d617176f44fc3158ef8de
+SHA256: 946edbedea514af481bffb0acefeb237e9164521e4f375ddba99290a29fc247b
+SHA512: d95865be9370921af195094e36bf7b5f7dc2747c364dab0106e3c0ae38cb3862ecb12d5240ce434e87964c6c52498b7d855088d638f34f0b90ee5bb3cd2bce90
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64e
+Version: 1.0.22
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 2624
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Replaces: com.huayuarc.insulation
+Filename: debs/iphoneos-arm64e/com.huayuarc.insulation_1.0.22_iphoneos-arm64e_df27cf8d50700bc3d2c3393c46557b91f850cc60f0fcdeacbd661c7d305d8caf.deb
+Size: 240552
+MD5sum: f5b53dc85b2abf76f80c071e3459c867
+SHA1: 7d7a66e061b7fc78c9ac4cf5136dd0756ad7911b
+SHA256: df27cf8d50700bc3d2c3393c46557b91f850cc60f0fcdeacbd661c7d305d8caf
+SHA512: e6f97394e70e23bdf0c0f7d39e99ccbc8f15c9c8b19930cd49b59532bfa06bd0fd035c17a5577c3a823506e4fc205b6ac5fb8a38b1d70bc2323b5868f3b3ee3d
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
 Name: insulation
 Author: be-huge & doimty
@@ -38105,6 +38238,25 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 
 Package: com.mlgm.clippa
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5488
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.mlgm.clippa.shells (>= 1.0)
+Filename: debs/iphoneos-arm64/com.mlgm.clippa_1.1.3_iphoneos-arm64_d72b68f74758c1d84c3e94ecda264b1446626ce9dcab4f4d0c7b83f4026d51dd.deb
+Size: 774456
+MD5sum: 6ac9f68c63df915bfca7775538cbb408
+SHA1: d05d4096a33b93245ddc50c6ddd7129210c47fa1
+SHA256: d72b68f74758c1d84c3e94ecda264b1446626ce9dcab4f4d0c7b83f4026d51dd
+SHA512: 5535af627580b3cb14549bb4db18b42f84d1817eacdfb5caf3ec09dae4d1639ff87d831bfb07794d0b0f7d7ecf85b805caf83fce7c61bed8c79e621bac136b79
+Description: 截图与悬浮贴图工具。
+Name: Clippa
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+
+Package: com.mlgm.clippa
 Architecture: iphoneos-arm64e
 Version: 1.0.3
 Priority: optional
@@ -38216,6 +38368,57 @@ SHA512: bf1219297e46efd41226e887d6af097251a2813eda80914407485ddc681735f76df42dff
 Description: 截图与悬浮贴图工具。
 Name: Clippa
 Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+
+Package: com.mlgm.clippa
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5484
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.mlgm.clippa.shells (>= 1.0)
+Filename: debs/iphoneos-arm64e/com.mlgm.clippa_1.1.3_iphoneos-arm64e_7b688282f8e5cd8a87c05102eeeb4f18d5b3742c5e12d39402fd84b9053185ae.deb
+Size: 772664
+MD5sum: 1bd6c2baede366f612bb604884fdc180
+SHA1: a2e9f1feedc3c077e572db4cfa673bd5308917f1
+SHA256: 7b688282f8e5cd8a87c05102eeeb4f18d5b3742c5e12d39402fd84b9053185ae
+SHA512: 27ae2555b9af55f03cbd40285a726dc4f79bcf00e5404f687f7c757c95c6a1e5ff56a4a21424fc9ba32ece767ee8e5a708e13f16cd466a4ca6d304be175c5582
+Description: 截图与悬浮贴图工具。
+Name: Clippa
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+
+Package: com.mlgm.clippa.shells
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Addons
+Maintainer: mlgm
+Installed-Size: 31208
+Filename: debs/iphoneos-arm64/com.mlgm.clippa.shells_1.0_iphoneos-arm64_e4d733cbd079992f4ca597c106b827c7d5aac3efb713a6c8fb582d93f6b32a65.deb
+Size: 30415544
+MD5sum: ef774072b624e9c1b2e3f1aba79f14ce
+SHA1: f16aebf77f6d2ddc90448a902a8e2afbd08b3092
+SHA256: e4d733cbd079992f4ca597c106b827c7d5aac3efb713a6c8fb582d93f6b32a65
+SHA512: 5625f72bd3f7391ccaa1c2beea020e71930e6f62e8eb9af7f73d490030c80ffc0b5304484e41508a5c57618cb07f0021327844d30bcbb4b1cf0bec7f853a1b50
+Description: Clippa 带壳截图所使用的机壳图片
+Name: Clippa 图片资源包
+Icon: https://mlgm66.github.io/icon/clippa.png
+
+Package: com.mlgm.clippa.shells
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Addons
+Maintainer: mlgm
+Installed-Size: 31208
+Filename: debs/iphoneos-arm64e/com.mlgm.clippa.shells_1.0_iphoneos-arm64e_ffbebaf82d921b2ec2f273bb224e2ab9f1e275346142d9f9744654882230d73e.deb
+Size: 30415700
+MD5sum: d7f2822e8de6c0864f43840fc3e8a392
+SHA1: ad3e33450aac90707bd28a458e1f2aef9d7f7466
+SHA256: ffbebaf82d921b2ec2f273bb224e2ab9f1e275346142d9f9744654882230d73e
+SHA512: ae7417a72f222071d5c9990e13462ff0a6eeffa42a4a83be7a35398f7ed1fd3c1bdea9f209ff71f7f54bae78fb4c675e05396caebaa4af298779c64c3dd62488
+Description: Clippa 带壳截图所使用的机壳图片
+Name: Clippa 图片资源包
 Icon: https://mlgm66.github.io/icon/clippa.png
 
 Package: com.mlgm.clone
@@ -38333,6 +38536,25 @@ Icon: https://mlgm66.github.io/icon/clone.png
 Author: mlgm
 
 Package: com.mlgm.clone
+Architecture: iphoneos-arm64
+Version: 0.8.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5568
+Depends: firmware (>= 15.0), ellekit (>= 1.2), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: debs/iphoneos-arm64/com.mlgm.clone_0.8.1_iphoneos-arm64_ca5015027691230ef042dee36af3f27b4600818e85f3d367f951ac8a702c4592.deb
+Size: 928504
+MD5sum: f1085c81a243aa403078095ce8cf9c73
+SHA1: 8ddcf30450791962f1b1254926a25e2f8c7c8aad
+SHA256: ca5015027691230ef042dee36af3f27b4600818e85f3d367f951ac8a702c4592
+SHA512: a9b3697b485e5ac315710684880d5c86028dbc056f0c809b9b272911bdc087172bcadd13c9f819cea51abafae77a79635a1b34bc34f4f087fd23ec7b7ed47862
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Author: mlgm
+
+Package: com.mlgm.clone
 Architecture: iphoneos-arm64e
 Version: 0.1.6
 Priority: optional
@@ -38441,6 +38663,25 @@ MD5sum: b9d1a16d2462b7b71fad8e669726721a
 SHA1: f8058fddf4a66a0a3d995463a586f19967054b37
 SHA256: a1fd5ee5bd94c09964e321f09882bafcef48a8f72a7fdfc0c62963eee27b793f
 SHA512: b648be241e10e4ef48b6a780cf67f295caee1d99ee17712a6d3471752e0747d182cab71b68fb2dc342d3530dfb83130839c219b327b455dbbc5f2147ff23eadc
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Author: mlgm
+
+Package: com.mlgm.clone
+Architecture: iphoneos-arm64e
+Version: 0.8.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5552
+Depends: firmware (>= 15.0), ellekit (>= 1.2-1), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: debs/iphoneos-arm64e/com.mlgm.clone_0.8.1_iphoneos-arm64e_58dc8fadc8abfc175dfd02dec81cd9104a2ff543021c6dcea556bddbb98b17be.deb
+Size: 924756
+MD5sum: b4d56b5817e0fcd381b086f00594c89b
+SHA1: aca28bbf914d21edcc00a97b8fe26944baabf29e
+SHA256: 58dc8fadc8abfc175dfd02dec81cd9104a2ff543021c6dcea556bddbb98b17be
+SHA512: d163c92caf5b0ff241045f13f59a09d6cd2d134e538f1385edcff2eb375c01b7ff4539a61f0425544943574d5762d61568a92ee8e1c03830cdb5332caff3a712
 Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
 Name: Clone
 Icon: https://mlgm66.github.io/icon/clone.png
@@ -70266,6 +70507,45 @@ Depiction: https://repo.zege.top/depictions/liquidglaze
 Sileodepiction: https://repo.zege.top/depictions/liquidglaze.json
 
 Package: com.zege.liquidglaze
+Architecture: iphoneos-arm64
+Version: 2.0.0-190+rootless
+Section: Tweaks
+Maintainer: 泽哥有道理
+Installed-Size: 14636
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Filename: debs/iphoneos-arm64/com.zege.liquidglaze_2.0.0-190+rootless_iphoneos-arm64_a45137c0eb5323b95bd137b3054d73e88c4fafcee843d0793eb96c9562d3acad.deb
+Size: 5399176
+MD5sum: 208305781904b3eadf01284fa360d4ab
+SHA1: c598da8a7f1fd1e17907d3b8fc9289d78849821c
+SHA256: a45137c0eb5323b95bd137b3054d73e88c4fafcee843d0793eb96c9562d3acad
+SHA512: b248530b2f076a38e973cd746236a4ffeae684abb6ce05b91d0b36b7f72349b5514966014c3f6c8f6da3c024c98b7ffb586d15722a72ef4f526e90fbc586191d
+Description: 液态琉璃 · 让整个 iOS 界面变成液态玻璃（自编版）。
+ 【功能】
+ • 液态玻璃渲染引擎（对标 iOS 26 Liquid Glass 系统）
+ • 锁屏大时钟 / 日期 / 通知 / 横幅 / 灵动岛 / 上下文菜单 / 警报渐变引擎，参数可调
+ • 小组件去背景及相应设置项
+ • 全界面导航栏液态玻璃
+ • 底部弹窗 / App 弹窗液态玻璃
+ • 灵动岛液态玻璃（上岛全元素液态）
+ • 「灵动岛」独立设置页面
+ • 锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 锁屏「通知清除按钮」透明化、「通知中心」文字直接隐藏
+ • 音量 HUD 液态玻璃
+ • 锁屏时钟随通知 / 滚动 / 编辑拖拽连续变化大小
+ 【兼容性】
+ 已验证（roothide 格式包）：iOS 17.0（roothide / Relaxin 越狱）；本包为 rootless 格式，与 roothide 版同源码、同自编二进制
+ 支持系统：iOS 16.0–17.3.1
+ 本包是 rootless（Dopamine 等无根越狱）格式；roothide 环境请装 iphoneos-arm64e 那个包。
+ 本插件包名 com.zege.liquidglaze 与历史包为两个独立插件：装了旧包不会自动收到本线更新，需重新安装本包（安装时会提示替换旧包）。
+Name: 液态琉璃 Liquid Glaze
+Author: 泽哥有道理
+Icon: https://repo.zege.top/depictions/icon-liquidglaze.png
+Depiction: https://repo.zege.top/depictions/liquidglaze
+Sileodepiction: https://repo.zege.top/depictions/liquidglaze.json
+
+Package: com.zege.liquidglaze
 Architecture: iphoneos-arm64e
 Version: 2.0.0-150
 Section: Tweaks
@@ -70316,6 +70596,43 @@ MD5sum: d730aded89d7124028306b68d279ae6a
 SHA1: 782209ddcc5d0a79520c2bd7202186537600e30a
 SHA256: 87a2565c12db580fc3d9b874b7c773f2340d511335d37470e753a05d80c0b8b2
 SHA512: d3948daee54b42dd1bfb7caf4d4aec32fcf477fec26b75f9f7b8544ffb1832faa0f295671e63f5ac947988c08584873e4e9abf5aa51775a6fb42bb758c908141
+Description: 液态琉璃 · 让整个 iOS 界面变成液态玻璃（自编版）。
+ 【功能】
+ • 液态玻璃渲染引擎（对标 iOS 26 Liquid Glass 系统）
+ • 锁屏大时钟 / 日期 / 通知 / 横幅 / 灵动岛 / 上下文菜单 / 警报渐变引擎，参数可调
+ • 小组件去背景及相应设置项
+ • 全界面导航栏液态玻璃
+ • 底部弹窗 / App 弹窗液态玻璃
+ • 灵动岛液态玻璃（上岛全元素液态）
+ • 「灵动岛」独立设置页面
+ • 锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 锁屏「通知清除按钮」透明化、「通知中心」文字直接隐藏
+ • 音量 HUD 液态玻璃
+ • 锁屏时钟随通知 / 滚动 / 编辑拖拽连续变化大小
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1
+ 本插件包名 com.zege.liquidglaze 与历史包为两个独立插件：装了旧包不会自动收到本线更新，需重新安装本包（安装时会提示替换旧包）。
+Name: 液态琉璃 Liquid Glaze
+Author: 泽哥有道理
+Icon: https://repo.zege.top/depictions/icon-liquidglaze.png
+Depiction: https://repo.zege.top/depictions/liquidglaze
+Sileodepiction: https://repo.zege.top/depictions/liquidglaze.json
+
+Package: com.zege.liquidglaze
+Architecture: iphoneos-arm64e
+Version: 2.0.0-190
+Section: Tweaks
+Maintainer: 泽哥有道理
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Filename: debs/iphoneos-arm64e/com.zege.liquidglaze_2.0.0-190_iphoneos-arm64e_e7312dd85de707854b284a770073b538e97df88f6010605bbb452bd19961d99a.deb
+Size: 5401260
+MD5sum: 16c7fae3c4b5efc092a53a310b8821b5
+SHA1: 052a74c80f3df0fd0abeb06d4cc6dbabbe97bfa3
+SHA256: e7312dd85de707854b284a770073b538e97df88f6010605bbb452bd19961d99a
+SHA512: 60dd8b0b3a1ef1f38a24637d548c457f5f3a76be63728e7c0223a094ad5a69b5e8fa41a7cfe4e2b5fb7fa9c94ff32a125f970522caefb1b0150ab926468c456d
 Description: 液态琉璃 · 让整个 iOS 界面变成液态玻璃（自编版）。
  【功能】
  • 液态玻璃渲染引擎（对标 iOS 26 Liquid Glass 系统）
@@ -71013,6 +71330,26 @@ Author: zooah212
 icon: https://huayuarc.github.io/icon/swipedeck.png
 
 Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.6.5-14
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 8248
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.zooah.swipedeck_0.6.5-14_iphoneos-arm64_eb24c92575e785c29d981adc894ca87fc4fc31e0759ec51b0904ae66559cbba0.deb
+Size: 2636280
+MD5sum: 8d41c67cf0e59b88b9f4e6404823c3cc
+SHA1: 173cf26090cd6906aa5368106b80492630cdefec
+SHA256: eb24c92575e785c29d981adc894ca87fc4fc31e0759ec51b0904ae66559cbba0
+SHA512: 2f3c313624b42a52c0fb37a1fb6ce5ed50ef947f46feb9b6eab6c961a1d298f1a5a48a038ece0a9f5820608d0c0b8a5efd46894eb345c5d91d57301bd1486984
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
 Architecture: iphoneos-arm64e
 Version: 0.5.2-16
 Section: Tweaks
@@ -71250,6 +71587,27 @@ Description: 从屏幕右下角向上滑动即可访问快速操作面板。Resp
    *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
 Name: SwipeDeck - 快捷助手
 Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.6.5-14
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 8248
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.zooah.swipedeck_0.6.5-14_iphoneos-arm64e_00415a08b533638a510801853c259ea83cfec01947c2c30e7407ec2eac06995c.deb
+Size: 2600908
+MD5sum: 1e0f96cc4de16b48392a54696a152fe7
+SHA1: 976318f02fd1131d3629e015052e72f299285401
+SHA256: 00415a08b533638a510801853c259ea83cfec01947c2c30e7407ec2eac06995c
+SHA512: c5061d899ade6abd4d356030bd6b0d98c089f0b21f0d2b063bfeb4040e0c082507b927244d9daf7d8817dd275e0068fa4857c56a3766f02976d49e7d64ee01fa
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
 icon: https://huayuarc.github.io/icon/swipedeck.png
 
 Package: com.zqbb.savephotos
@@ -72974,6 +73332,25 @@ Author: Junhong
 icon: https://huayuarc.github.io/icon/hongguo.png
 
 Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 2.2.6
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 8164
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/hongguofn_2.2.6_iphoneos-arm64_f13acc98cfdf60abf5d3373cf3a4bb8a0b562bdf9e41912f6d74e5e7f0892471.deb
+Size: 3515948
+MD5sum: 41172f4cf643f5165fbc36488d5bea80
+SHA1: e231a1c3eb1527818ceaf9c9d987359041edb6df
+SHA256: f13acc98cfdf60abf5d3373cf3a4bb8a0b562bdf9e41912f6d74e5e7f0892471
+SHA512: e6a43e6db41e77c8113f749697224f8fd47e906bb849d2cafbcf95869340defac9ce414dccf72df8e6687f2386c79a8da95f614d0006a4917816f48a08221a34
+Homepage: https://hongguo.goforit.si
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -73224,6 +73601,25 @@ MD5sum: 579ac26983c6f99d957ef293f7589fd2
 SHA1: c8353775621f9b59e3952dcf964468815b054948
 SHA256: bacaf6308d1131f1de4dfcbb6147d87da0b31d78f6fff0a15838dccbf43442ca
 SHA512: f4999e94a7c60a305e2a653a4d85d4ab2641732d02b42d91788923408814edefe1511a98bf52f695540016f3d9595998e39931cb7460584b5ee3c44ad2a33b9d
+Homepage: https://hongguo.goforit.si
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
+Architecture: iphoneos-arm64e
+Version: 2.2.6
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 8180
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/hongguofn_2.2.6_iphoneos-arm64e_75cdf1fb8257093c0849ce7195ffb4f519e19c0d2ec404b00347f29566feab57.deb
+Size: 3530640
+MD5sum: 4e691f108ccf2a6cdd474c0007fb1acf
+SHA1: 785bb5f72aca294f1959000610f8feabef7151c9
+SHA256: 75cdf1fb8257093c0849ce7195ffb4f519e19c0d2ec404b00347f29566feab57
+SHA512: 494d1f336b7e0c84e71d6b6e8ad71a100fd52018bc4d45b845b7456577f370ec0322c591fd50fafb243be0e6b997f4aeed485bd4be319b3e6451e7dd67b80677
 Homepage: https://hongguo.goforit.si
 Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
 Name: 红果净化
