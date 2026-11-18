@@ -17926,6 +17926,25 @@ Author: colorblack
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
 
 Package: com.cpdigitaldarkroom.itsevanesco
+Architecture: iphoneos-arm64
+Version: 2024.05.26-20
+Section: Tweaks
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
+Filename: debs/iphoneos-arm64/com.cpdigitaldarkroom.itsevanesco_2024.05.26-20_iphoneos-arm64_fa10f1bfc87c9580386ab5d4229be133ee43aba686b8c68ff0a6115103299342.deb
+Size: 55388
+MD5sum: 743c5d2477af6fd769ffdab529c8908a
+SHA1: 4de817c6517e58eb308a04fbbb05b989faa7de2f
+SHA256: fa10f1bfc87c9580386ab5d4229be133ee43aba686b8c68ff0a6115103299342
+SHA512: 646def99b0dc5422f8b725d6bc785967ddf023cb50364804240cbffec930026fc1b5adb8bd44d1631060695148d0c7d34c4026b5151fe89f50e65b6940bbb150
+Description: Clear your home screen after inactivity (native arm64e rebuild)
+Name: Evanesco!
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
+icon: https://huayuarc.github.io/icon/evanesco.png
+
+Package: com.cpdigitaldarkroom.itsevanesco
 Architecture: iphoneos-arm64e
 Version: 2024.05.26
 Section: Tweaks
@@ -17945,6 +17964,25 @@ Name: Evanesco!
 Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
 Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Architecture: iphoneos-arm64e
+Version: 2024.05.26-20
+Section: Tweaks
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
+Filename: debs/iphoneos-arm64e/com.cpdigitaldarkroom.itsevanesco_2024.05.26-20_iphoneos-arm64e_16de3157d291149c899baf6366d57c56e7a09138c27195af62f17f690b72a30a.deb
+Size: 50372
+MD5sum: 1ae014ddb4f73c5f78d57a1102257ba6
+SHA1: 07e38252266c70df72aa31626a998d6e0b0b9ead
+SHA256: 16de3157d291149c899baf6366d57c56e7a09138c27195af62f17f690b72a30a
+SHA512: fdaf26e5f9daa9ee16e02adcf8a934bf272e704a8fe365b694c228465c5071af3df963eab6b24cd9b233b0acb8a290f2074f366d5e7b8b92d2de0b42b0788576
+Description: Clear your home screen after inactivity (native arm64e rebuild)
+Name: Evanesco!
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
+icon: https://huayuarc.github.io/icon/evanesco.png
 
 Package: com.cracklock.7513
 Architecture: iphoneos-arm64
@@ -27803,6 +27841,28 @@ icon: https://huayuarc.github.io/icon/Insulation.png
 
 Package: com.huayuarc.insulation
 Architecture: iphoneos-arm64
+Version: 1.0.27
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 2672
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Replaces: com.huayuarc.insulation
+Filename: debs/iphoneos-arm64/com.huayuarc.insulation_1.0.27_iphoneos-arm64_a03e6cd3dabd96cf664de09607cb99555874a0a01dc67cf6b68285cef840b0a3.deb
+Size: 245076
+MD5sum: 084d8c3d51461ed2d1977d650242ac20
+SHA1: e635e3f73446870a2b743e40672383bf4cdb3e30
+SHA256: a03e6cd3dabd96cf664de09607cb99555874a0a01dc67cf6b68285cef840b0a3
+SHA512: 662a8c42f06252443ac12c2654e6ae435013269ab4de67252e836a08c708f6f37f36be037159db12d41f68a76064432fa3ac5134cb7181a60d8e50930bba0d71
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。包含设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+ 仅在本机 iPhone 14 Pro（iOS 16.1.2，隐根 roothide 黑名单环境）上测试过安装与使用；其他系统版本、机型与越狱环境请自行测试。
+ 安装或使用后出现问题（安全模式、应用闪退、设置无法进入等）请自行卸载，使用风险自负。
+ 仅供自用，不推荐安装。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64
 Version: 1.0.5
 Section: Tweaks
 Maintainer: doimty
@@ -27982,6 +28042,28 @@ SHA1: 7d7a66e061b7fc78c9ac4cf5136dd0756ad7911b
 SHA256: df27cf8d50700bc3d2c3393c46557b91f850cc60f0fcdeacbd661c7d305d8caf
 SHA512: e6f97394e70e23bdf0c0f7d39e99ccbc8f15c9c8b19930cd49b59532bfa06bd0fd035c17a5577c3a823506e4fc205b6ac5fb8a38b1d70bc2323b5868f3b3ee3d
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
+Package: com.huayuarc.insulation
+Architecture: iphoneos-arm64e
+Version: 1.0.27
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 2624
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Replaces: com.huayuarc.insulation
+Filename: debs/iphoneos-arm64e/com.huayuarc.insulation_1.0.27_iphoneos-arm64e_36687b2c425770dd652c0b4095e3037486f905c5a9877970e05c1ccf7afd2e06.deb
+Size: 242388
+MD5sum: 7b46a52abd172e588a262fba8d818887
+SHA1: 5107245c6159dbb3e8dd6a5226b883631b468c3f
+SHA256: 36687b2c425770dd652c0b4095e3037486f905c5a9877970e05c1ccf7afd2e06
+SHA512: 891dd9a9010c093ef16936640c925e77f19f30259b6febfce56c10261e3283f9204b10ed790160e4fcd8f6457563e6090d9a5f92f5f2457ff1462c7f0a4e832d
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。包含设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+ 仅在本机 iPhone 14 Pro（iOS 16.1.2，隐根 roothide 黑名单环境）上测试过安装与使用；其他系统版本、机型与越狱环境请自行测试。
+ 安装或使用后出现问题（安全模式、应用闪退、设置无法进入等）请自行卸载，使用风险自负。
+ 仅供自用，不推荐安装。
 Name: insulation
 Author: be-huge & doimty
 icon: https://huayuarc.github.io/icon/Insulation.png
