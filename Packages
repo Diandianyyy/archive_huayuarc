@@ -42094,6 +42094,44 @@ Name: 灵动岛自定义
 Author: MrShi
 Icon: https://huayuarc.github.io/icon/CCMusic.png
 
+Package: com.ms.openparticleanimation
+Architecture: iphoneos-arm64
+Version: 0.3.49
+Section: ms-tweaks
+Maintainer: ms
+Depends: preferenceloader, firmware (>= 15.0), mobilesubstrate, com.charlieleung.trollopenjb
+Conflicts: com.axs.trollliquidlaunch
+Replaces: com.axs.trollliquidlaunch
+Filename: debs/iphoneos-arm64/com.ms.openparticleanimation_0.3.49_iphoneos-arm64_4988265c4d787fd01189bf1d61d888d46fae1be0a29318a08c0c89846adc15fe.deb
+Size: 204832
+MD5sum: 0851d16b6292e368efc11d29074272f3
+SHA1: 1e1441ea9b1a98383854ff575fc88cfcc344709e
+SHA256: 4988265c4d787fd01189bf1d61d888d46fae1be0a29318a08c0c89846adc15fe
+SHA512: 8947060a65ed32baf3ad96c56ff4ce04e85d890c8bdf2c5d314d11beda15484a21697292b0f614aa2eb2ccce57d70de048ef4629db7708661ba9011756744528
+Description: Independent Metal dust dispersal and split-window assembly for TrollOpenJB
+Name: open粒子动画
+Author: ms
+Icon: https://axs66.github.io/pro/icon/trollopen.png
+
+Package: com.ms.openparticleanimation
+Architecture: iphoneos-arm64e
+Version: 0.3.49
+Section: ms-tweaks
+Maintainer: ms
+Depends: preferenceloader, firmware (>= 15.0), mobilesubstrate, com.charlieleung.trollopenjb
+Conflicts: com.axs.trollliquidlaunch
+Replaces: com.axs.trollliquidlaunch
+Filename: debs/iphoneos-arm64e/com.ms.openparticleanimation_0.3.49_iphoneos-arm64e_50489ceed381630eca3a6078ed99cc5df67ce2efa9b4933d22493c8d693c077e.deb
+Size: 205512
+MD5sum: 181493486ef61d762dca04e51b5a81d3
+SHA1: e210bcea86fa5a9ab0173e887c97db43ba80d39c
+SHA256: 50489ceed381630eca3a6078ed99cc5df67ce2efa9b4933d22493c8d693c077e
+SHA512: e890c6617b5b27cc428af56772409738e9619578ec60dc4ac0ea1ce027f83f683f99b7d175cdbeb746ddbb45f6ee655702f021c2a15ff01757eef4c513d97efa
+Description: Independent Metal dust dispersal and split-window assembly for TrollOpenJB
+Name: open粒子动画
+Author: ms
+Icon: https://axs66.github.io/pro/icon/trollopen.png
+
 Package: com.mumu.wcgg
 Architecture: iphoneos-arm64
 Version: 0.1.5
@@ -70977,6 +71015,24 @@ Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.sp
 Author: ZengNiu
 
 Package: com.zengniu.splitview
+Architecture: iphoneos-arm64
+Version: 1.6.1
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 5256
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.zengniu.splitview_1.6.1_iphoneos-arm64_1c269e8ffe12f39554f0e7fe87170a2a82ac319f8f21d10cfc0b94860ac6bc4b.deb
+Size: 1131860
+MD5sum: c7fa3fbb8ffd4df0c0acd6afd8140755
+SHA1: 7c47232545f75aeff1685d019698be3c64eca573
+SHA256: 1c269e8ffe12f39554f0e7fe87170a2a82ac319f8f21d10cfc0b94860ac6bc4b
+SHA512: 95a7cfecdcd8860dfdd9d91b94852c889e2ecf0a8fa0d896081d4a4462bbf3e9e8e903b694e654c41e370620e964c62fc6846b454403c2bc035d126017c67c28
+Description: 曾牛分屏：实时 App 小窗、多任务与手势控制。
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+
+Package: com.zengniu.splitview
 Architecture: iphoneos-arm64e
 Version: 0.7.130
 Section: Tweaks
@@ -71098,6 +71154,24 @@ MD5sum: 0cc7a1c103615b5f07609d0478e9ea60
 SHA1: a088dc5ff68b7f93d495be93dc1f7f9b5f95b3e0
 SHA256: 47fec6127e6909b89899f02999c84b86d33bf3b0e3dec6e766c48498cd44afc0
 SHA512: 10957103767df33495375ef591e9cdc6fdd0c2e13494ac9075d3009313accc44bf389ac3d6c5fba43628501fa87301c8a5569b761928802396d32209ba378511
+Description: 曾牛分屏：实时 App 小窗、多任务与手势控制。
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+
+Package: com.zengniu.splitview
+Architecture: iphoneos-arm64e
+Version: 1.6.1
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 2711
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.zengniu.splitview_1.6.1_iphoneos-arm64e_19936916a4b35dd73310bb44927836e75e0134f413827d145ac4ed08371beb71.deb
+Size: 737276
+MD5sum: 68b9495f79da196109e80e58ecfe363f
+SHA1: ed015b650eebbb8ae1cfdf1cbd6b3ff972e57f01
+SHA256: 19936916a4b35dd73310bb44927836e75e0134f413827d145ac4ed08371beb71
+SHA512: 098d8f91da706151a5277d1ff5766fddc344a09d885b6832226f63308645776c9ca33bbc57724b27fd31850839d9bd60cb942543cd961f0eeed767f324445ded
 Description: 曾牛分屏：实时 App 小窗、多任务与手势控制。
 Name: 曾牛-分屏🐮
 Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
@@ -74529,6 +74603,23 @@ Author: junhong
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
 Package: im.mjh.xianyuadblock
+Architecture: iphoneos-arm64
+Version: 3.2.5
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 2568
+Filename: debs/iphoneos-arm64/im.mjh.xianyuadblock_3.2.5_iphoneos-arm64_24b6158a8fa5329f8491f0648ad6914405d86ed4a7e08087088bc40cb0645f06.deb
+Size: 857972
+MD5sum: bdd4450cd4ab5e86e5866bc731ea6c7b
+SHA1: d45d934a511ef492b821b8831a136295a744bdf5
+SHA256: 24b6158a8fa5329f8491f0648ad6914405d86ed4a7e08087088bc40cb0645f06
+SHA512: 25127da9e0594a245a5b435597f34ab8f6bccab3b712884e2f2ea8ffffe48c3ec3e881830fc270ad938105dddf355c92ace8588fc1bc0caa84a093cfcc83a9c3
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Name: 闲鱼助手
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+
+Package: im.mjh.xianyuadblock
 Architecture: iphoneos-arm64e
 Version: 3.0.0
 Section: Tweaks
@@ -74693,6 +74784,23 @@ Name: 闲鱼助手
 Author: junhong
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
+Package: im.mjh.xianyuadblock
+Architecture: iphoneos-arm64e
+Version: 3.2.5
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 2568
+Filename: debs/iphoneos-arm64e/im.mjh.xianyuadblock_3.2.5_iphoneos-arm64e_a8c20c98796c3143791edbd206684e3c5cdd09897b18f204d02016320ce701de.deb
+Size: 857804
+MD5sum: 9f2d4dd49d6bfa20f79cebd11f06d9bc
+SHA1: 960cd63235d6aae31daf647fde94fac5c9b71fa5
+SHA256: a8c20c98796c3143791edbd206684e3c5cdd09897b18f204d02016320ce701de
+SHA512: 5c085b45c1bf4ec7bd49c9a08f41b6f45a95a7b550b6edfb17c6f100f09ade903ce3dc5a45221206ec031545465a69941939239d69e5c754ca1ad593a5d03988
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Name: 闲鱼助手
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+
 Package: im.mjh.xianyuhelper
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -74732,6 +74840,23 @@ Author: Junhong
 icon: https://huayuarc.github.io/icon/xiaoyingclean.jpg
 
 Package: im.mjh.xiaoyingclean
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 80
+Filename: debs/iphoneos-arm64/im.mjh.xiaoyingclean_0.1.1_iphoneos-arm64_0d38a12078e19500ecdafc58de74cef8182e7a8e9ba9c1f1fb78857306229ac6.deb
+Size: 9272
+MD5sum: 42706ba9430326e5cbaec539133a063e
+SHA1: 9d41bed4fbfa96e79101c4e4ab40a32aae5ad83c
+SHA256: 0d38a12078e19500ecdafc58de74cef8182e7a8e9ba9c1f1fb78857306229ac6
+SHA512: 4620b1c9dc4522451006bc2afd67b71f45c5e3cd7464f53e0976b5ae383ac0dec4b4bc68fd58966aa4523dd4e82fcc69b39741c53b3ea243a0bd79adbffe996a
+Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
+Name: 小鹰看看去广告
+Author: Junhong
+icon: https://huayuarc.github.io/icon/xiaoyingclean.jpg
+
+Package: im.mjh.xiaoyingclean
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Section: Tweaks
@@ -74743,6 +74868,23 @@ MD5sum: 63dc706968f47b603c97d869a55fec53
 SHA1: d23804f386c35312d93301e4abf88b607bc243a7
 SHA256: 982db991539eab5f10369341b5d656c277c80a3cebe8a4fc3571797a280df79e
 SHA512: 93e85a720ea8cf893da28fa2e9f6ff6118fd565b0f1534dbe65c20ed71be968cf4634f170bf90fa7f8a500ae573b1c7ffc58fc81dd4d453dee6d57d219cdf522
+Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
+Name: 小鹰看看去广告
+Author: Junhong
+icon: https://huayuarc.github.io/icon/xiaoyingclean.jpg
+
+Package: im.mjh.xiaoyingclean
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 80
+Filename: debs/iphoneos-arm64e/im.mjh.xiaoyingclean_0.1.1_iphoneos-arm64e_38f4b9c7a2b0ecdbec2e1f611ed2e3e66fb51a0f8ad3faff0906c271f0a360af.deb
+Size: 9328
+MD5sum: 12cf244c7408a70dbeb27825cfd796a4
+SHA1: 2827172e15ba816a2cda20a26f636433bdaaa5ef
+SHA256: 38f4b9c7a2b0ecdbec2e1f611ed2e3e66fb51a0f8ad3faff0906c271f0a360af
+SHA512: b125467e66a9f658c0f3afe1411f295a3f37831d598022f4f522a372a1286bba84a115520e04b22c74408eaca9c8ec3cac9519cbeceb4f564cc8667a61f473e8
 Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
 Name: 小鹰看看去广告
 Author: Junhong
@@ -77331,6 +77473,44 @@ Name: Lenticular Wallpaper
 Author: banana
 icon: https://huayuarc.github.io/icon/LenticularWallpaper.png
 
+Package: iya.banana.liquidglass27
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1070
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 19.0), preferenceloader
+Conflicts: dylv.liquidass.zh-hans, com.ngkhoi.liquidass27
+Filename: debs/iphoneos-arm64/iya.banana.liquidglass27_1.0.6_iphoneos-arm64_cb15436f7bc48ad1f83e5e40ed1597e1d0d5cf189bd46e1d62195eaa63167805.deb
+Size: 167112
+MD5sum: 9716b0a38f6792906cfde792728afd0b
+SHA1: 0cbdb5534422b899d375344a2bdeeb4f294679b1
+SHA256: cb15436f7bc48ad1f83e5e40ed1597e1d0d5cf189bd46e1d62195eaa63167805
+SHA512: 4c7e4acc7e48fb096ce599bae2af4f8c0cf237e1e034bf603bce536226f6be9d0721ad42f0c4da9e9c24774ee0b74894071ba37c7d1eb122437796f15d400d9c
+Description: Component-based Liquid Glass for iOS 15-18.
+Name: LiquidGlass27
+Author: Banana
+icon: https://huayuarc.github.io/icon/liquidglass27.png
+
+Package: iya.banana.liquidglass27
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1070
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 19.0), preferenceloader
+Conflicts: dylv.liquidass.zh-hans, com.ngkhoi.liquidass27
+Filename: debs/iphoneos-arm64e/iya.banana.liquidglass27_1.0.6_iphoneos-arm64e_a9f6328e6b37286d664e209aabf479810ce4f6ca59839ec20331908d4a902696.deb
+Size: 167096
+MD5sum: d2490a12eec757ff222647fbf1a9fc98
+SHA1: 3d61d6d86f6b13ba8a26e40a663e6cd26c9d1180
+SHA256: a9f6328e6b37286d664e209aabf479810ce4f6ca59839ec20331908d4a902696
+SHA512: c3903d31bda07c6d32c3b446175e7b032586baef2c5bbb9e4c81057247b592c873980155fcf1066b1aba7251c3d72c625ccaff5e48d137891f7ead2638ecf0ad
+Description: Component-based Liquid Glass for iOS 15-18.
+Name: LiquidGlass27
+Author: Banana
+icon: https://huayuarc.github.io/icon/liquidglass27.png
+
 Package: iya.banana.multitask
 Architecture: iphoneos-arm64
 Version: 0.1.1
@@ -78742,6 +78922,29 @@ Name: Sleipnizer for Safari
 Author: r_plus
 Sponsor: r_plus
 Icon: https://huayuarc.github.io/icon/Sleipnizer.png
+
+Package: jp.soh.reprovisions
+Architecture: iphoneos-arm64e
+Version: 1.1.94
+Priority: optional
+Section: Utilities
+Maintainer: AmorCool <admin@reprovision.dev>
+Depends: firmware (>= 15.0), zip, unzip
+Conflicts: jp.soh.reprovision
+Filename: debs/iphoneos-arm64e/jp.soh.reprovisions_1.1.94_iphoneos-arm64e_cc93ff4eef98cdf192b07a4e816a5f4fc04cb6678f6b3444a89383e9f6832730.deb
+Size: 4165268
+MD5sum: 76f0002e51a5569f85a61682065d0129
+SHA1: 7198e02eab10cf91243855c6f1097df5017c91f9
+SHA256: cc93ff4eef98cdf192b07a4e816a5f4fc04cb6678f6b3444a89383e9f6832730
+SHA512: 5680a3ef876b344139ad86677f31b808213cbe72f6afac0b45ce3669cab5a0087794137afa74032551ae6a405556be8a9f8141dc234c71089a0f4d094d1b06c1
+Description: 使用 苹果 ID 续签 IPA
+ * 仅支持 iOS 17 Relaxin 越狱
+ * 解决非巨魔设备签名 Relaxin IPA 问题
+ * Re-signing tool for iOS jailbreak(iOS17+)
+Name: ReSign 苹果 ID 续签
+Author: Coolapk@Analytics
+Icon: https://TrollStoreX.Github.io/sileodepiction/ReSign/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ReSign/js.json
 
 Package: kr.xsf1re.vnodebypass
 Architecture: iphoneos-arm64
