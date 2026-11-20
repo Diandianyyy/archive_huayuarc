@@ -71124,6 +71124,26 @@ Depiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengn
 SileoDepiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/depiction.json
 
 Package: com.zengniu.splitview.compat
+Architecture: iphoneos-arm64
+Version: 1.4.8
+Section: Tweaks
+Maintainer: ZengNiu
+Depends: firmware (>= 15.1), mobilesubstrate, preferenceloader
+Conflicts: com.zengniu.splitview
+Filename: debs/iphoneos-arm64/com.zengniu.splitview.compat_1.4.8_iphoneos-arm64_2cfafb5a516839b69a92693de700c5125ee2b6e8f1d1e1305f5789a1019812ef.deb
+Size: 1310964
+MD5sum: 4205fe9ee65fdf299b15c0d00c21f89a
+SHA1: 8d7831dbc0ca564b3cb9160cba2d96508a4f14ab
+SHA256: 2cfafb5a516839b69a92693de700c5125ee2b6e8f1d1e1305f5789a1019812ef
+SHA512: d3ec5a0c7e66863870142c36587bf2c3643ceacadad7c6adaa16cd326cf60db738f64178d36bc170fbedbde94e455c9d17694a6469fbfd17b1627bacf4e6c2dd
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛分屏 151617 兼容版
+Author: ZengNiu
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Depiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/index.html
+SileoDepiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/depiction.json
+
+Package: com.zengniu.splitview.compat
 Architecture: iphoneos-arm64e
 Version: 0.8.25
 Section: Tweaks
@@ -71136,6 +71156,26 @@ MD5sum: 302fa868d4ef2303763cf6e3ebdf824c
 SHA1: 013594c406bf8d0acd89a18d57a927f3d138b7a5
 SHA256: 210fd1c6488b31fdf141463a27b44ca509f34ca8d61047fad3cc521dc6b86200
 SHA512: 26c23fe12e0589d8616be17480d75a55186ad1a95594a321702578b2d0a16ad03d7db5e3ad8f1dacc7b04ee43c6ebbc98c98066b49454881bc41795b7e06c929
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛分屏 151617 兼容版
+Author: ZengNiu
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Depiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/index.html
+SileoDepiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/depiction.json
+
+Package: com.zengniu.splitview.compat
+Architecture: iphoneos-arm64e
+Version: 1.4.8
+Section: Tweaks
+Maintainer: ZengNiu
+Depends: firmware (>= 15.1), mobilesubstrate, preferenceloader
+Conflicts: com.zengniu.splitview
+Filename: debs/iphoneos-arm64e/com.zengniu.splitview.compat_1.4.8_iphoneos-arm64e_0c17dfc9e85ae1d583f3ab6fb2a3693a679169c079fdee46d476a8e4d67e31c3.deb
+Size: 852884
+MD5sum: 5b65579eebcd1e3969987b644035277b
+SHA1: fc353e234d5e82fbfce469ce2c6026c1fde7920e
+SHA256: 0c17dfc9e85ae1d583f3ab6fb2a3693a679169c079fdee46d476a8e4d67e31c3
+SHA512: fadfb3bae1e9d853d064c0cfd581d608a7f3238ba07e94604594bcc24910ab8106e05d1680956d78004d6a804c258e75350f33f0283ec7c4882f33867e97b501
 Description: Experimental live app windows with Home Screen icon gestures and basic docking.
 Name: 曾牛分屏 151617 兼容版
 Author: ZengNiu
@@ -71432,6 +71472,26 @@ SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.js
 icon: https://huayuarc.github.io/icon/swipedeck.png
 
 Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.6.7-5
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 8368
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.zooah.swipedeck_0.6.7-5_iphoneos-arm64_00a291d42f0c0cec0edf49f42ced2df368a0e5a22fc904181ade63b3d2f40aa7.deb
+Size: 2664892
+MD5sum: 973a91b941cdd09e6426016713d8b01e
+SHA1: df48968482bf31517a978f4bb409209002a87c70
+SHA256: 00a291d42f0c0cec0edf49f42ced2df368a0e5a22fc904181ade63b3d2f40aa7
+SHA512: 91b69bf93d181fc76f39e5945bee4113880a6603de7d89bbfd4c8028f90934967aad5a94cee59a651ecbd00a3a76222a946babb6a2d969b180472f739a2e2668
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
 Architecture: iphoneos-arm64e
 Version: 0.5.2-16
 Section: Tweaks
@@ -71685,6 +71745,27 @@ MD5sum: 1e0f96cc4de16b48392a54696a152fe7
 SHA1: 976318f02fd1131d3629e015052e72f299285401
 SHA256: 00415a08b533638a510801853c259ea83cfec01947c2c30e7407ec2eac06995c
 SHA512: c5061d899ade6abd4d356030bd6b0d98c089f0b21f0d2b063bfeb4040e0c082507b927244d9daf7d8817dd275e0068fa4857c56a3766f02976d49e7d64ee01fa
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.6.7-5
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 8368
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.zooah.swipedeck_0.6.7-5_iphoneos-arm64e_a4766c2ec7d28bdd6d7ae5f2ca5867c7849ff50e0678a61e8ec03fe184bc71eb.deb
+Size: 2635712
+MD5sum: 015f32963951933f0c85952fb86408d5
+SHA1: 5c77cf9ab3f573924db87ab1508a1650223a159f
+SHA256: a4766c2ec7d28bdd6d7ae5f2ca5867c7849ff50e0678a61e8ec03fe184bc71eb
+SHA512: a432f8ad7634534c5007338e437c72b3f14c46f91fca6419567a52e0249d5e8351554f49b2c1aa559dd4d559455d6ded37d591e7591ac818f48822a69d31187b
 Description: Quick action panel accessible by swiping up from the bottom-right corner.
              Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
 Name: SwipeDeck - 快捷助手
@@ -82196,6 +82277,23 @@ icon: https://huayuarc.github.io/icon/uuhelper.jpg
 
 Package: uuhelper
 Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 360
+Filename: debs/iphoneos-arm64/uuhelper_1.0.4_iphoneos-arm64_49de63230848c68ecc20388c07d94e673f113babc76b171c60fa7227f1ecb08a.deb
+Size: 59452
+MD5sum: 636a3a35d5f857728d798641d97f1070
+SHA1: 0260517624958b3d0b960638610bb6a79d6f7a17
+SHA256: 49de63230848c68ecc20388c07d94e673f113babc76b171c60fa7227f1ecb08a
+SHA512: cabf585151649c5fd2c493ae83231b1aaa25d352ac4265729466a87250a76c0d078c84880415b5f6d9abbd316c86943d914ad31b2b1c343d1a9fd168e40a1b54
+Description: UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。
+Name: uu 远控增强
+Author: junhong
+icon: https://huayuarc.github.io/icon/uuhelper.jpg
+
+Package: uuhelper
+Architecture: iphoneos-arm64
 Version: 1.1.0
 Section: Tweaks
 Maintainer: junhong
@@ -82249,6 +82347,23 @@ SHA256: d0874c8b82b9c1c5565dc9a98f6561b4fc641c9e727b1a2f2b2d5243c58668aa
 SHA512: 92402f4ff0b611972ba840455623c0f0ba5e4932b2acaa527bd0ba57a3a83f319b0f76fcac9060366bc685ceec9ef8f1027af3e64775643ca1965bee80a22ed5
 Description: UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。
 Name: UU 远控增强
+Author: junhong
+icon: https://huayuarc.github.io/icon/uuhelper.jpg
+
+Package: uuhelper
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 360
+Filename: debs/iphoneos-arm64e/uuhelper_1.0.4_iphoneos-arm64e_4eebf1f2cf37e707efd75cec43a0c97dbfe9129859d92beb6237f8e53d1a0cd3.deb
+Size: 59536
+MD5sum: 50bb37af2ebea621cfbb7f373df5f6c6
+SHA1: 59526b21bfef64d0e4fbc43a8b8338a34edd4f1c
+SHA256: 4eebf1f2cf37e707efd75cec43a0c97dbfe9129859d92beb6237f8e53d1a0cd3
+SHA512: d9f48b291a464958a4c7cd0b4e472d0c55840cbf1e8752478550bdb80bb7e2e254f1382e1e68092bab8e08257c8b0c789f4d1104db4252f31cd784b35eaf2a14
+Description: UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。
+Name: uu 远控增强
 Author: junhong
 icon: https://huayuarc.github.io/icon/uuhelper.jpg
 
