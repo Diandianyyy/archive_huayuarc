@@ -43324,6 +43324,26 @@ Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
 Package: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 2.2.93
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 6844
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64/com.muzi.mutool_2.2.93_iphoneos-arm64_3b2c998d2ab71fb2f89a8e0beb4ab796c6c86daf97fffe6322ea1cdefebf2463.deb
+Size: 1130484
+MD5sum: 74f592409ef871cc3498db277fc66f60
+SHA1: f9d963a938bdc453154c206937b8daa1e9da3a02
+SHA256: 3b2c998d2ab71fb2f89a8e0beb4ab796c6c86daf97fffe6322ea1cdefebf2463
+SHA512: 7f36f50a9a7857a40350646479600ce1dc38c14c3d1cb09a4e1542ed2b83d4babe162e1da4789878287da9feec8fe241dc6e4914e470cab4911c8fc3d0583db4
+Description: MUtool 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，锁屏充电大字常驻与电源菜单）；定时任务；自动禁用 SIM、卡槽管理与 IPCC 运营商配置；WiFi 永连；充电提示音与 MagSafe 动画；文件夹主题（配色、毛玻璃、大文件夹、网格大小与图标缩放）；温控（阻止降频、CPU 功率锁定、模拟降频）与锁定 120Hz 高刷；系统增强（锁屏增强、主屏幕增强、桌面增强，含 iPad 风格浮动 Dock：最近应用数量 1-3 与资源库图标可配）；录制增强（通话自动录音、录屏去 DRM 静音、锁屏继续录制与轨迹触点）；美化（状态栏前景色、隐藏时间、强制浅深色）；桌面悬浮信息药丸（多悬浮窗独立配置网速/CPU/内存/时间/农历/天气，Liquid Glass 风格）；电池健康与深度信息。全部功能受激活状态门控。
+Name: MUtool
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
 Architecture: iphoneos-arm64e
 Version: 2.1.18
 Section: Tweaks
@@ -43977,6 +43997,26 @@ MD5sum: 7d86b8a8dd4e9d084197d1d6e572da4a
 SHA1: 099a4afc347ba034d8a89cb08eb6b7081a81b613
 SHA256: 64b2f627232d38d66ccef9ce507a8e4dbd0f5b6b2710e99ee999bf5bd4a06a91
 SHA512: 7b75eb6a72faa34e8a30370edd0636b70c4bd9b9e823eab8fe4b38010df88b46eb98069a975c27783602b1f07523b208cec5f5415149c0f105927d260e82b45c
+Description: MUtool 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，锁屏充电大字常驻与电源菜单）；定时任务；自动禁用 SIM、卡槽管理与 IPCC 运营商配置；WiFi 永连；充电提示音与 MagSafe 动画；文件夹主题（配色、毛玻璃、大文件夹、网格大小与图标缩放）；温控（阻止降频、CPU 功率锁定、模拟降频）与锁定 120Hz 高刷；系统增强（锁屏增强、主屏幕增强、桌面增强，含 iPad 风格浮动 Dock：最近应用数量 1-3 与资源库图标可配）；录制增强（通话自动录音、录屏去 DRM 静音、锁屏继续录制与轨迹触点）；美化（状态栏前景色、隐藏时间、强制浅深色）；桌面悬浮信息药丸（多悬浮窗独立配置网速/CPU/内存/时间/农历/天气，Liquid Glass 风格）；电池健康与深度信息。全部功能受激活状态门控。
+Name: MUtool
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64e
+Version: 2.2.93
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 6844
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64e/com.muzi.mutool_2.2.93_iphoneos-arm64e_55a9aa03ea9d76dff7daef52ac490d09b35c23a2b91ce532a3f445bd892b8305.deb
+Size: 1128732
+MD5sum: e6c2f3f93fdf8f4617905b9e32eaae96
+SHA1: 81dfd55263dcd35867bfa3810e3190d62d7364e9
+SHA256: 55a9aa03ea9d76dff7daef52ac490d09b35c23a2b91ce532a3f445bd892b8305
+SHA512: 31a62165b0f66591186fe94b203e6839b417b26e0b9e5a86401353cb42f86fce94fef9b06ce63404b9397e1d9aa5824956941f4df6058fd2a38d01b9390284f9
 Description: MUtool 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，锁屏充电大字常驻与电源菜单）；定时任务；自动禁用 SIM、卡槽管理与 IPCC 运营商配置；WiFi 永连；充电提示音与 MagSafe 动画；文件夹主题（配色、毛玻璃、大文件夹、网格大小与图标缩放）；温控（阻止降频、CPU 功率锁定、模拟降频）与锁定 120Hz 高刷；系统增强（锁屏增强、主屏幕增强、桌面增强，含 iPad 风格浮动 Dock：最近应用数量 1-3 与资源库图标可配）；录制增强（通话自动录音、录屏去 DRM 静音、锁屏继续录制与轨迹触点）；美化（状态栏前景色、隐藏时间、强制浅深色）；桌面悬浮信息药丸（多悬浮窗独立配置网速/CPU/内存/时间/农历/天气，Liquid Glass 风格）；电池健康与深度信息。全部功能受激活状态门控。
 Name: MUtool
 Author: Muzi
@@ -71566,6 +71606,26 @@ SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.js
 icon: https://huayuarc.github.io/icon/swipedeck.png
 
 Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.6.7-6
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 8384
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.zooah.swipedeck_0.6.7-6_iphoneos-arm64_f5f6a333a7a652aa87a20722fa6816aa1e97ec83793a7630187ce194707a0822.deb
+Size: 2667244
+MD5sum: defc92abdade420e740e0cc481ecbaa1
+SHA1: 4667762ab08795219d6234ac6930a10372db62f1
+SHA256: f5f6a333a7a652aa87a20722fa6816aa1e97ec83793a7630187ce194707a0822
+SHA512: 10b1cde193c53b6492e7cc8a0be6424226fe6a78e443f767fac01dea88b593fba6e84231bf936a7d42ae3c103be90fd1aa1a6bd65694f556c6010d5454f84986
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
 Architecture: iphoneos-arm64e
 Version: 0.5.2-16
 Section: Tweaks
@@ -71840,6 +71900,27 @@ MD5sum: 015f32963951933f0c85952fb86408d5
 SHA1: 5c77cf9ab3f573924db87ab1508a1650223a159f
 SHA256: a4766c2ec7d28bdd6d7ae5f2ca5867c7849ff50e0678a61e8ec03fe184bc71eb
 SHA512: a432f8ad7634534c5007338e437c72b3f14c46f91fca6419567a52e0249d5e8351554f49b2c1aa559dd4d559455d6ded37d591e7591ac818f48822a69d31187b
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.6.7-6
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 8384
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.zooah.swipedeck_0.6.7-6_iphoneos-arm64e_dd55d2f76b2e0978dcb802285b68f7e6b1e01b12d511bb1006c60ab683452d15.deb
+Size: 2634208
+MD5sum: 69fb52dcf2f93cce50dcabf2c9e2a594
+SHA1: 5e8e3359794696570409ca46812048b0ac8a2980
+SHA256: dd55d2f76b2e0978dcb802285b68f7e6b1e01b12d511bb1006c60ab683452d15
+SHA512: 180d8f3897956f72f0d1234186a9cd19c01373daa278e63680f6413204f663708f59b6f4696cf11fc245f72ea8d057c44d9b62ca5b8fd1e686e6537dde5add89
 Description: Quick action panel accessible by swiping up from the bottom-right corner.
              Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
 Name: SwipeDeck - 快捷助手
@@ -77493,6 +77574,25 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/liquidglass27.png
 
 Package: iya.banana.liquidglass27
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1070
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 19.0), preferenceloader
+Conflicts: dylv.liquidass.zh-hans, com.ngkhoi.liquidass27
+Filename: debs/iphoneos-arm64/iya.banana.liquidglass27_1.0.7_iphoneos-arm64_e1fe39c823bedc736614427baff3651300f456ed350214150bac9713db8380a5.deb
+Size: 174188
+MD5sum: 38399db805c6cae83f45398cb7ae1aef
+SHA1: a5c3a13699ee1bdbec242275ca745d1484314d88
+SHA256: e1fe39c823bedc736614427baff3651300f456ed350214150bac9713db8380a5
+SHA512: 756e6a681ea03bcaf116180f605a2ab142243017b834a7fb9569b15e0cd034e73202c54e432cbd33e0da091aefcd726c5c43f4d42dc90fb93f3110a74a5aae0e
+Description: Component-based Liquid Glass for iOS 15-18.
+Name: LiquidGlass27
+Author: Banana
+icon: https://huayuarc.github.io/icon/liquidglass27.png
+
+Package: iya.banana.liquidglass27
 Architecture: iphoneos-arm64e
 Version: 1.0.6
 Section: Tweaks
@@ -77506,6 +77606,25 @@ MD5sum: d2490a12eec757ff222647fbf1a9fc98
 SHA1: 3d61d6d86f6b13ba8a26e40a663e6cd26c9d1180
 SHA256: a9f6328e6b37286d664e209aabf479810ce4f6ca59839ec20331908d4a902696
 SHA512: c3903d31bda07c6d32c3b446175e7b032586baef2c5bbb9e4c81057247b592c873980155fcf1066b1aba7251c3d72c625ccaff5e48d137891f7ead2638ecf0ad
+Description: Component-based Liquid Glass for iOS 15-18.
+Name: LiquidGlass27
+Author: Banana
+icon: https://huayuarc.github.io/icon/liquidglass27.png
+
+Package: iya.banana.liquidglass27
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1070
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 19.0), preferenceloader
+Conflicts: dylv.liquidass.zh-hans, com.ngkhoi.liquidass27
+Filename: debs/iphoneos-arm64e/iya.banana.liquidglass27_1.0.7_iphoneos-arm64e_6ead24aa21111a30a35582a74bfc45632d3f6af7d4694a285a54044fbdea1d75.deb
+Size: 173392
+MD5sum: 2460b1a9f17aaad48f76213547a74843
+SHA1: bb4955a79016d742b5e2338cfd440825304f348e
+SHA256: 6ead24aa21111a30a35582a74bfc45632d3f6af7d4694a285a54044fbdea1d75
+SHA512: 1e772b8274a37670e1aa91864c5f14626018481be0754f2973a512d9efc089d37dce75e0402733bc000d88778275179503ccb1cddfb571dfe709dba41be27805
 Description: Component-based Liquid Glass for iOS 15-18.
 Name: LiquidGlass27
 Author: Banana
