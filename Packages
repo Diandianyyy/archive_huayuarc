@@ -3080,6 +3080,42 @@ icon: https://huayuarc.github.io/icon/facelock.png
 Author: 404
 
 Package: com.404.facelock
+Architecture: iphoneos-arm64
+Version: 1.1.12
+Section: Tweaks
+Maintainer: 404
+Installed-Size: 480
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.404.facelock_1.1.12_iphoneos-arm64_19a7632c3beac2558afd9f399ac3db7e80351ae5b218e558a94157f8ebf65eaf.deb
+Size: 53840
+MD5sum: 791f20a7dd4c214b134cae2cb4a6a727
+SHA1: c31f0be2957c90e193e5efd8033e72d18adbb01e
+SHA256: 19a7632c3beac2558afd9f399ac3db7e80351ae5b218e558a94157f8ebf65eaf
+SHA512: 2b76f2392c930179b2f55549ddb35bc7a3fff9e1a4ba3eb4fa22653b6bf4489eb424aac345e9324b73c6ec4207c413cfe806015d7661f5b47de89afdb11878b1
+Description: 为选定的 App 加上面容 ID 锁。
+Name: 应用面容锁
+icon: https://huayuarc.github.io/icon/facelock.png
+Author: 404
+
+Package: com.404.facelock
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Section: Tweaks
+Maintainer: 404
+Installed-Size: 497
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.404.facelock_1.2.3_iphoneos-arm64_fa503a067aed525b3f482c930432a0e761830eb01b449919ae580a8d14d8a420.deb
+Size: 58128
+MD5sum: bac9fe21ceb6cd5bae86fc069979653f
+SHA1: 429ec89838324919ee61bc9e37bddee8e6e2fb18
+SHA256: fa503a067aed525b3f482c930432a0e761830eb01b449919ae580a8d14d8a420
+SHA512: 3b35a93d9d2592eb57f903708fc1dd483a97236696fb929c2f07dca7e67722fa856fb94fdb499977e5bae8d5769554af1518b022fb6223fc5e791eee431ef9b9
+Description: 为选定的 App 加上面容 ID 锁。
+Name: 应用面容锁
+icon: https://huayuarc.github.io/icon/facelock.png
+Author: 404
+
+Package: com.404.facelock
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -3092,6 +3128,42 @@ MD5sum: 50bc7dbee2b5e5403acb5c220f57d650
 SHA1: 93a8678fd7d5f7b05f29d7dc8072f056874ca321
 SHA256: 842e8e88b11aa643fe2a3efcade2a51cca013eec37c206a09d48f91d9cfc4449
 SHA512: c33faee60dabb3e87747dfa8bb77659d0c175a35b189b6aebb30c266f83caae46672b14ca76d255ae0e4b25889fdb9ce5a9889c5623935ed52e130769795004a
+Description: 为选定的 App 加上面容 ID 锁。
+Name: 应用面容锁
+icon: https://huayuarc.github.io/icon/facelock.png
+Author: 404
+
+Package: com.404.facelock
+Architecture: iphoneos-arm64e
+Version: 1.1.12
+Section: Tweaks
+Maintainer: 404
+Installed-Size: 238
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.404.facelock_1.1.12_iphoneos-arm64e_eaeec6b50ea45d90abf63080ccb0c816e1350e16767f242a0ada82426f34e8f9.deb
+Size: 43200
+MD5sum: 4b54b40da5dedf1dfaf425361172488b
+SHA1: a7937f4f26b00adc86e430097354aafb093ca508
+SHA256: eaeec6b50ea45d90abf63080ccb0c816e1350e16767f242a0ada82426f34e8f9
+SHA512: 17fa6cb019c6d2097d321d2567e90fbf0dabe578f0bbfd16855d16a73d8196ae82c00e39653eebb3c46024904a783e2a9b9e15d2726a67974473b519b1dd2adc
+Description: 为选定的 App 加上面容 ID 锁。
+Name: 应用面容锁
+icon: https://huayuarc.github.io/icon/facelock.png
+Author: 404
+
+Package: com.404.facelock
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Section: Tweaks
+Maintainer: 404
+Installed-Size: 239
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.404.facelock_1.2.3_iphoneos-arm64e_6cac0901f9c847dd9127866c06e9c9f59397b98bcf818b5f54c95bf3d4576520.deb
+Size: 46512
+MD5sum: 2e824d49bfa359a0c09954f92f87bd16
+SHA1: 7ed03565017f30c133eba67ed00c6b1cbdf19c45
+SHA256: 6cac0901f9c847dd9127866c06e9c9f59397b98bcf818b5f54c95bf3d4576520
+SHA512: ec51740c48709fec6c871220031ad6951d2e57d5a13d1fb7079e1e4ba20ace1d99f39feeb553250a54692f2e7a362d85394a97140a0209dc14683580468b0879
 Description: 为选定的 App 加上面容 ID 锁。
 Name: 应用面容锁
 icon: https://huayuarc.github.io/icon/facelock.png
@@ -18732,6 +18804,40 @@ Description: 在Filza内的.deb/.ipa/.tipa安装包长按可规范命名。
 Name: Filza Rename
 Author: crctdd
 Icon: https://huayuarc.github.io/icon/Filza.jpg
+
+Package: com.crctdd.frida-switch
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 484
+Depends: preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.crctdd.frida-switch_0.0.1_iphoneos-arm64_08750988664780aaeafcb9af5b82fb06fe456d1e89dbecfa1fc5e4e185e9b53d.deb
+Size: 56852
+MD5sum: 1eef330329827a031a072f01602bd802
+SHA1: f9dd6873df580bf11f747773be26c03f34bd31a1
+SHA256: 08750988664780aaeafcb9af5b82fb06fe456d1e89dbecfa1fc5e4e185e9b53d
+SHA512: b6a73cfccf53b6ec389c798b80e03b66bac7fafdebf51cb19d6a887ad68f168d7de9191cd7fb8bade7195e6c02f2f0bef608d1e5c026c0065ef1b632a968d653
+Description: 为 Frida 增加启用开关，支持快捷添加 IPv4 / IPv6 网络监听地址。选择“默认”恢复监听 127.0.0.1:27042，每次切换地址后，点击右上角“应用”即可生效。
+Name: Frida Switch
+Author: crctdd
+
+Package: com.crctdd.frida-switch
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 484
+Depends: preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.frida-switch_0.0.1_iphoneos-arm64e_5cbbd29b1cfc7257c84e8c238838732bcbcff9cfad7261c865cb551f1b153788.deb
+Size: 56964
+MD5sum: 4777570a75baac87d5af0bba450bf749
+SHA1: 89236bd17f584a9d5992f659d3be873382d94b45
+SHA256: 5cbbd29b1cfc7257c84e8c238838732bcbcff9cfad7261c865cb551f1b153788
+SHA512: ee9e8b344f9a0016aef97f44ff27bcec545b23cd9517362616f987395c1500da562aaadd77d3bc15a0c834483704355ac9cd276a56f9217a44f6426db0ee5774
+Description: 为 Frida 增加启用开关，支持快捷添加 IPv4 / IPv6 网络监听地址。选择“默认”恢复监听 127.0.0.1:27042，每次切换地址后，点击右上角“应用”即可生效。
+Name: Frida Switch
+Author: crctdd
 
 Package: com.crctdd.memtrim
 Architecture: iphoneos-arm64
@@ -43507,6 +43613,26 @@ Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
 Package: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 2.2.96
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 7260
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64/com.muzi.mutool_2.2.96_iphoneos-arm64_9f8d07fade3fb75571ad34d203d8c1f97b073f6c219e1b19c4c6cc0ff3376afa.deb
+Size: 1224192
+MD5sum: 1a47fa2f3e2be823a5d7c77831fa6d46
+SHA1: 28293eff071a68251b741effdc339b8d021119f8
+SHA256: 9f8d07fade3fb75571ad34d203d8c1f97b073f6c219e1b19c4c6cc0ff3376afa
+SHA512: ccdbd126792f1545db59a39e9fa6fcdec3c468a1c1c665b7236eac1e58a9ab00d9aba889ee9a856651e286954a62dd26f30e1a174559a7b37cffd01fd8ba3693
+Description: MUtool 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，锁屏充电大字常驻与电源菜单）；定时任务；自动禁用 SIM、卡槽管理与 IPCC 运营商配置；WiFi 永连；充电提示音与 MagSafe 动画；文件夹主题（配色、毛玻璃、大文件夹、网格大小与图标缩放）；温控（阻止降频、CPU 功率锁定、模拟降频）与锁定 120Hz 高刷；系统增强（锁屏增强、主屏幕增强、桌面增强，含 iPad 风格浮动 Dock：最近应用数量 1-3 与资源库图标可配）；录制增强（通话自动录音、录屏去 DRM 静音、锁屏继续录制与轨迹触点）；美化（状态栏前景色、隐藏时间、强制浅深色）；桌面悬浮信息药丸（多悬浮窗独立配置网速/CPU/内存/时间/农历/天气，Liquid Glass 风格）；电池健康与深度信息。全部功能受激活状态门控。
+Name: MUtool
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
 Architecture: iphoneos-arm64e
 Version: 2.1.18
 Section: Tweaks
@@ -44220,6 +44346,26 @@ MD5sum: e517bbe36ab2caaeba90e31c2191747d
 SHA1: c4c31ede676b45c5c4e6ec17f961e65732a0c8e8
 SHA256: 559336a72b54b0f339b94b77cdb63c6a877d62c5c943038379fc24998fb53ede
 SHA512: 0f0889df04e33f8c5ec8f1147ca9addba056cbc9e4c78fd5d6666d367fe68642ad37bbad04217cee2d180e5502d0b6079ade65397d30988b22eea3257fd7258d
+Description: MUtool 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，锁屏充电大字常驻与电源菜单）；定时任务；自动禁用 SIM、卡槽管理与 IPCC 运营商配置；WiFi 永连；充电提示音与 MagSafe 动画；文件夹主题（配色、毛玻璃、大文件夹、网格大小与图标缩放）；温控（阻止降频、CPU 功率锁定、模拟降频）与锁定 120Hz 高刷；系统增强（锁屏增强、主屏幕增强、桌面增强，含 iPad 风格浮动 Dock：最近应用数量 1-3 与资源库图标可配）；录制增强（通话自动录音、录屏去 DRM 静音、锁屏继续录制与轨迹触点）；美化（状态栏前景色、隐藏时间、强制浅深色）；桌面悬浮信息药丸（多悬浮窗独立配置网速/CPU/内存/时间/农历/天气，Liquid Glass 风格）；电池健康与深度信息。全部功能受激活状态门控。
+Name: MUtool
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64e
+Version: 2.2.96
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 7260
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64e/com.muzi.mutool_2.2.96_iphoneos-arm64e_a43caec148e49de326cf010bc940d66292cb09f9f3a1be6b50cb32326865fce2.deb
+Size: 1220984
+MD5sum: 0e06490ca0c71a9ca36f2898f4b96f1e
+SHA1: b83f41122b20f8ed1d95cf621a327c60a3930356
+SHA256: a43caec148e49de326cf010bc940d66292cb09f9f3a1be6b50cb32326865fce2
+SHA512: e6621244fbd2b8772fe6ad11a1384a8ffe7d1c17c95ee9f0a6a32a18a194de96894026418adffaffffb931d6dbdb357e2a1523bc2a9acc778747d12c9a031efa
 Description: MUtool 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，锁屏充电大字常驻与电源菜单）；定时任务；自动禁用 SIM、卡槽管理与 IPCC 运营商配置；WiFi 永连；充电提示音与 MagSafe 动画；文件夹主题（配色、毛玻璃、大文件夹、网格大小与图标缩放）；温控（阻止降频、CPU 功率锁定、模拟降频）与锁定 120Hz 高刷；系统增强（锁屏增强、主屏幕增强、桌面增强，含 iPad 风格浮动 Dock：最近应用数量 1-3 与资源库图标可配）；录制增强（通话自动录音、录屏去 DRM 静音、锁屏继续录制与轨迹触点）；美化（状态栏前景色、隐藏时间、强制浅深色）；桌面悬浮信息药丸（多悬浮窗独立配置网速/CPU/内存/时间/农历/天气，Liquid Glass 风格）；电池健康与深度信息。全部功能受激活状态门控。
 Name: MUtool
 Author: Muzi
@@ -53837,6 +53983,46 @@ Author: H5GG
 dev:
 Depiction:
 Icon: https://mlgm66.github.io/icon/h5gg.png
+
+Package: com.sharehotspotvpn.tweak
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Section: Networking
+Maintainer: zhuifeng
+Installed-Size: 752
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.sharehotspotvpn.tweak_1.1.7_iphoneos-arm64_5ae3a5277f69bdbbbb7b281d33a95bafded5cb5d31fb4d633365528d6bdc2f80.deb
+Size: 83056
+MD5sum: f99c6ac4db0b6d2b925897c4951edaab
+SHA1: d57cb294783159ba1f91ef5a4ec9a4c755f500c4
+SHA256: 5ae3a5277f69bdbbbb7b281d33a95bafded5cb5d31fb4d633365528d6bdc2f80
+SHA512: 164a819b92e20e1bbe9eb0e6bdceea21c9385c81696d7faf6afc7b45ec67c9b8fc5ab3a4540a22a13925b63121328980c078bb210d8c9767958ef37eff919759
+Description: 一键通过个人热点共享本机 Shadowrocket/VPN，连入设备零配置，支持控制中心快捷开关、DNS/UDP 转发与防 IPv6 泄露，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Name: VPN热点共享
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+
+Package: com.sharehotspotvpn.tweak
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Section: Networking
+Maintainer: zhuifeng
+Installed-Size: 400
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.sharehotspotvpn.tweak_1.1.7_iphoneos-arm64e_90bcecafd8d1c05102e12e9ec18bafbcba772fd9efe23b135ce70116a9d8f517.deb
+Size: 68960
+MD5sum: 7d5ab8e3eba9bea37a9f5eea17a966b6
+SHA1: b8e41a634109d7c9807de1245e74c82130de9668
+SHA256: 90bcecafd8d1c05102e12e9ec18bafbcba772fd9efe23b135ce70116a9d8f517
+SHA512: 574907a9960920cf26bb792fff9dabac60e5c4a1d7bb4cda68387cdba25c5cf3c7f6ec5518848e6c4468a9da07be907a76a767e3f1f116fdf16752914921a433
+Description: 一键通过个人热点共享本机 Shadowrocket/VPN，连入设备零配置，支持控制中心快捷开关、DNS/UDP 转发与防 IPv6 泄露，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Name: VPN热点共享
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
 
 Package: com.sileowallpaper.tweak
 Architecture: iphoneos-arm64
@@ -79956,6 +80142,25 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/liquidglass27.png
 
 Package: iya.banana.liquidglass27
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1092
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 19.0), preferenceloader
+Conflicts: dylv.liquidass.zh-hans, com.ngkhoi.liquidass27
+Filename: debs/iphoneos-arm64/iya.banana.liquidglass27_1.0.8_iphoneos-arm64_8eb8f21ae8345e7a645d4a5bf8b5b5c639ca948be21254315bb5d37b25a60342.deb
+Size: 180732
+MD5sum: 1b9ff3842a3cafb34cf69eaf30ebdbab
+SHA1: 35a9a1585ced58ea3960a18b4d176887a2b827c8
+SHA256: 8eb8f21ae8345e7a645d4a5bf8b5b5c639ca948be21254315bb5d37b25a60342
+SHA512: 3ea46632c3eb192ec81e5e81fb8569ad48832a783ecf5f47e5d9641e44b087b32885e6e596245cb20058630a790bc125a618d804bae0ede1fe77fcaa1fac3a8b
+Description: 为 ioS 15-18 带来可独立调节的液态玻璃界面。Component-based Liquid Glass for iOS 15-18.
+Name: LiquidGlass27
+Author: Banana
+icon: https://huayuarc.github.io/icon/liquidglass27.png
+
+Package: iya.banana.liquidglass27
 Architecture: iphoneos-arm64e
 Version: 1.0.6
 Section: Tweaks
@@ -79989,6 +80194,25 @@ SHA1: bb4955a79016d742b5e2338cfd440825304f348e
 SHA256: 6ead24aa21111a30a35582a74bfc45632d3f6af7d4694a285a54044fbdea1d75
 SHA512: 1e772b8274a37670e1aa91864c5f14626018481be0754f2973a512d9efc089d37dce75e0402733bc000d88778275179503ccb1cddfb571dfe709dba41be27805
 Description: Component-based Liquid Glass for iOS 15-18.
+Name: LiquidGlass27
+Author: Banana
+icon: https://huayuarc.github.io/icon/liquidglass27.png
+
+Package: iya.banana.liquidglass27
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1092
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 19.0), preferenceloader
+Conflicts: dylv.liquidass.zh-hans, com.ngkhoi.liquidass27
+Filename: debs/iphoneos-arm64e/iya.banana.liquidglass27_1.0.8_iphoneos-arm64e_15c8fffba2c1c3b580eb19e5b63d0aec080fd27a54ed7bf0d149546f22392681.deb
+Size: 181144
+MD5sum: f13286c12c7e07b408c8cbde7f11cab0
+SHA1: b49a654664bea05b5190e1ba5809cb1e2f28ee26
+SHA256: 15c8fffba2c1c3b580eb19e5b63d0aec080fd27a54ed7bf0d149546f22392681
+SHA512: 378380498cbf666592885b8778926da112973dbcfd223ca4097491ff26012317f4fb9259d28a4677e6cd3f6d7b5778d8a8479ce1cd8bd28eab189c27b5b21aca
+Description: 为 ioS 15-18 带来可独立调节的液态玻璃界面。Component-based Liquid Glass for iOS 15-18.
 Name: LiquidGlass27
 Author: Banana
 icon: https://huayuarc.github.io/icon/liquidglass27.png
