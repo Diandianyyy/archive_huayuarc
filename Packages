@@ -23125,6 +23125,50 @@ Name: 巨魔R
 Author: Fluoxetine为Relaxin越狱特别制作
 icon: https://huayuarc.github.io/icon/jumor.jpg
 
+Package: com.fluoxetine.luros
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Priority: optional
+Section: Utilities
+Maintainer: Fluoxetine <1103945342@users.noreply.github.com>
+Installed-Size: 165780
+Depends: firmware (>= 16.0), launchctl
+Filename: debs/iphoneos-arm64/com.fluoxetine.luros_1.0.1_iphoneos-arm64_994fa8109bf2b8c14244ed405596f21231937c33258b89611b04ef4c26990423.deb
+Size: 30590872
+MD5sum: 047c88489ad7140bc1babdf3ea0d8b6b
+SHA1: 7063ce136772ba5807166053931943bef9039129
+SHA256: 994fa8109bf2b8c14244ed405596f21231937c33258b89611b04ef4c26990423
+SHA512: 14ab138fdaa94ad7de7453595c10c7d08d3e25d257092ce643336f498f2ad15a89da979488cc51f36db85ca5629cb4b6473c235be1241506933c1c883aca1a83
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Luros is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Luros
+Icon: https://1103945342.github.io/Luros/icon.png
+Depiction: https://1103945342.github.io/Luros/
+SileoDepiction: https://1103945342.github.io/Luros/depiction.json
+Author: Fluoxetine <1103945342@users.noreply.github.com>
+
+Package: com.fluoxetine.luros
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Priority: optional
+Section: Utilities
+Maintainer: Fluoxetine <1103945342@users.noreply.github.com>
+Installed-Size: 165780
+Depends: firmware (>= 16.0), launchctl
+Filename: debs/iphoneos-arm64e/com.fluoxetine.luros_1.0.1_iphoneos-arm64e_6d85e3e2cb4549afebc0610801cbd74deae746c886a5793f7adaea99573154b2.deb
+Size: 30592152
+MD5sum: 4dd208905194322dbcbeb9d46dd5df57
+SHA1: f25e5f33c1a1bbd98832e70dc7d11dd44bae1676
+SHA256: 6d85e3e2cb4549afebc0610801cbd74deae746c886a5793f7adaea99573154b2
+SHA512: 69c4c9231a9cb8997887439f19556f27ed945fb477d0ce797b8394e34d0daeeb2643bb616ae074e4cd54e11e1f78e91ad242c74e2708b7d9eaa3f8976a00684f
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Luros is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Luros
+Icon: https://1103945342.github.io/Luros/icon.png
+Depiction: https://1103945342.github.io/Luros/
+SileoDepiction: https://1103945342.github.io/Luros/depiction.json
+Author: Fluoxetine <1103945342@users.noreply.github.com>
+
 Package: com.gdzhujun.sneakycam
 Architecture: iphoneos-arm64e
 Version: 1.3.6
@@ -34478,6 +34522,25 @@ icon: https://huayuarc.github.io/icon/triggr.png
 
 Package: com.johndie.triggr
 Architecture: iphoneos-arm64
+Version: 1.5.0+cn5.3
+Section: Tweaks
+Maintainer: 777qwq
+Installed-Size: 1912
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.johndie.triggr_1.5.0+cn5.3_iphoneos-arm64_9be1c344c87c3e31e1e4550035368cf98970bb72ef2fa8a07f380823756aba57.deb
+Size: 286112
+MD5sum: 6ff84660a2a1971cb8e007a69a01356e
+SHA1: 443ff3cc5b487882e4754654b3934d36558592d0
+SHA256: 9be1c344c87c3e31e1e4550035368cf98970bb72ef2fa8a07f380823756aba57
+SHA512: 63e1c1fb9481d12b2d92b7c88576f04ca45cd616ff25c3906b79c988d7611a271a714df9bd067d8d338faaaac64210104c843f6bd25cbdf5908d328218524607
+Description: 基于 Triggr 1.5.0 汉化修改：给按键、手势和系统事件指派动作。
+Tag: role::cydia, more::downloadable
+Name: Triggr汉化修改
+Author: 777qwq
+icon: https://huayuarc.github.io/icon/triggr.png
+
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64
 Version: 2.0.0~beta4
 Section: Tweaks
 Maintainer: John d_ie
@@ -34620,6 +34683,26 @@ SHA512: b10d3ef0a071a88f73c83d1555824d25beb6c605d22014ec7ea91d22feacab4522ce4b32
 Description: 用于无根多巴胺的Activator-lite：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
 Name: Triggr
 Author: John d_ie
+icon: https://huayuarc.github.io/icon/triggr.png
+
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64e
+Version: 1.5.0+cn5.3
+Section: Tweaks
+Maintainer: 777qwq
+Installed-Size: 1912
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.johndie.triggr_1.5.0+cn5.3_iphoneos-arm64e_a03ddbd70d4e1ed194d590fa6f3d7687498d32876adde3e0e2d3ee8739067b67.deb
+Size: 279104
+MD5sum: 1fc0979ab685ce96b0d75c6eae7e59f8
+SHA1: 6c1fc2636f7e055227f32725dbb43aabcccca22d
+SHA256: a03ddbd70d4e1ed194d590fa6f3d7687498d32876adde3e0e2d3ee8739067b67
+SHA512: 225ff78ec40a3ebebcc6bf90ebac29fcc4880f1bc282caccc44d74713c331575054acd1b1a99efa2114a7796eba01e66e623c7bf138eb76339717113d6b67edc
+Description: 基于 Triggr 1.5.0 汉化修改：给按键、手势和系统事件指派动作。
+Tag: role::cydia, more::downloadable
+Name: Triggr汉化修改
+Author: 777qwq
 icon: https://huayuarc.github.io/icon/triggr.png
 
 Package: com.johndie.triggr
@@ -37972,6 +38055,38 @@ Author: MiRO <tweaks_support@miro92.com>
 Icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/libmiroshared/js.json
 
+Package: com.mjh.threadsglass
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 476
+Filename: debs/iphoneos-arm64/com.mjh.threadsglass_1.0.1_iphoneos-arm64_e092d6bdc04f079d69147dbe66620e89b951d37e90c0f36a4992d5d86a7541e8.deb
+Size: 216196
+MD5sum: 5acf74d9de8990120bc3232e5bb6b67d
+SHA1: e8e9d50b518a910034456ce2be3f6d86c4e6ca1a
+SHA256: e092d6bdc04f079d69147dbe66620e89b951d37e90c0f36a4992d5d86a7541e8
+SHA512: 977a48587a4b80d65dc68af56b47e0172196274aafe1f77f2198e8558a5a7ad8af4a412b71ce2fadfbbe15d877267151fee218a22e1c2513fd2423e09bdbf874
+Description: Simulated glass tab-bar surface for older iOS releases
+Name: Threads 仿液态玻璃
+Author: Junhong
+
+Package: com.mjh.threadsglass
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 476
+Filename: debs/iphoneos-arm64e/com.mjh.threadsglass_1.0.1_iphoneos-arm64e_ec524905208ba66b07c27401561647bc7564b211c41f0b79a1a1a30d191e2039.deb
+Size: 218492
+MD5sum: 2b7b1dfbc780c4c91f16a860edf0df0b
+SHA1: c808d74bfa33d30283136ad8384d3500a2fe485b
+SHA256: ec524905208ba66b07c27401561647bc7564b211c41f0b79a1a1a30d191e2039
+SHA512: af2f41336919922e7c140fb8da18ee4555465733a9c523d5e192870003be02ada965dc52a6bd057a8b339cf0b7cb49f7a338ddf165abd82096220fbdde70024b
+Description: Simulated glass tab-bar surface for older iOS releases
+Name: Threads 仿液态玻璃
+Author: Junhong
+
 Package: com.mlgm.actra
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -38433,6 +38548,24 @@ Description: 上滑或长按桌面图标，即可查看和管理应用数据，�
 Name: AppData
 Author: Fouad Raheb <support@fouadraheb.com>
 Icon: https://mlgm66.github.io/icon/appdata.png
+
+Package: com.mlgm.autovarclean
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 272
+Depends: firmware (>= 15.0), mobilesubstrate, launchctl, com.mlgm.actra
+Filename: debs/iphoneos-arm64e/com.mlgm.autovarclean_1.1.1_iphoneos-arm64e_cdcf74662fb5f4b543749b4fcdb038a8ccd49e64f29bf214c64d750da8c3193a.deb
+Size: 25512
+MD5sum: 023ebc0978f7c1bd99cb5c94af71456c
+SHA1: 59d78bf2fca8e8dfeb072d1061387fea60425532
+SHA256: cdcf74662fb5f4b543749b4fcdb038a8ccd49e64f29bf214c64d750da8c3193a
+SHA512: e5697a92164384b26b9a7c90621b3e4a932ba21f2eb93850aaa68edfb43d20ca324b11b80bc8d431adc802acfc7ead567dd12401a583501bf9f125cf436e236e
+Description: 通过 Actra 执行 RootHide ManagerApp 的 Var 清理。
+Name: Auto VarClean
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/AutoVarClean.png
 
 Package: com.mlgm.clippa
 Architecture: iphoneos-arm64
@@ -38998,6 +39131,48 @@ Name: Clone
 Icon: https://mlgm66.github.io/icon/clone.png
 Author: mlgm
 
+Package: com.mlgm.fila
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Priority: optional
+Section: Utilities
+Maintainer: mlgm
+Installed-Size: 99832
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Replaces: wiki.qaq.fila
+Filename: debs/iphoneos-arm64/com.mlgm.fila_1.0.0_iphoneos-arm64_ac1292824f9c98127b73e174b9bd3044fc96292b6b68ed0ef2ac0d3a299d559f.deb
+Size: 18971212
+MD5sum: 7e64f41babed51bca68c8ab09befc97d
+SHA1: edcbf7f7899dc068ebd59fdb172db0afa4790f7f
+SHA256: ac1292824f9c98127b73e174b9bd3044fc96292b6b68ed0ef2ac0d3a299d559f
+SHA512: b6085ef44a2c8dedeb0b15ca9d9aef623e0181f98f23773d1ea283f58df9fea567ce8a272705c5b780c21d090a2e7a46560bbb859c42b338077204aaf47b5aea
+Description: Fila 文件管理器典藏版
+Name: Fila
+Icon: https://mlgm66.github.io/icon/fila.png
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: com.mlgm.fila
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Priority: optional
+Section: Utilities
+Maintainer: mlgm
+Installed-Size: 99832
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Replaces: wiki.qaq.fila
+Filename: debs/iphoneos-arm64e/com.mlgm.fila_1.0.0_iphoneos-arm64e_e267b7d6c4f226fbb4a5a3abc2ce07085efffd8d610b817d423e8933ca1e86fb.deb
+Size: 18974820
+MD5sum: 00236d698fb1f0a239281e3089a579a4
+SHA1: 019df26b023133c64f39c7ec4371743c515c6087
+SHA256: e267b7d6c4f226fbb4a5a3abc2ce07085efffd8d610b817d423e8933ca1e86fb
+SHA512: a440e41ef282deabfee06c8fbbfd679817c9cc5e7340290f024f76aebfbdcf80c88c28d90b77c1359c0d01c9e2d7a0f9135a4f30c5adf14d106d750bbfb7ca02
+Description: Fila 文件管理器典藏版
+Name: Fila
+Icon: https://mlgm66.github.io/icon/fila.png
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
 Package: com.mlgm.filzacrack
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -39121,6 +39296,24 @@ SHA1: 7115585b0d8fea0161bda3961eba2d46c3679258
 SHA256: fddee45d6ee6062397e4bd59f8ad9ad3185448777cc941e9c39ec386ef20fc13
 SHA512: 39964533c2230882e7ab7032e1fe520cd20c32718e7db39a0a4f521dbc25c61cc0d698051c3079362a81e07cc5d0259f7de36a9e56bbed2a0774e7b041a16a36
 Description: 适用于 Filza 5.0.1-4，增加常用随机化路径收藏、调整 Documents 路径，并注册 filza:// 跳转。
+Name: Filza Patch
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+
+Package: com.mlgm.filzapatch
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 143
+Depends: firmware (>= 15.0), mobilesubstrate, uikittools, com.tigisoftware.filza64bit (>> 5.0.1-5)
+Conflicts: roothide.patches.filza
+Filename: debs/iphoneos-arm64e/com.mlgm.filzapatch_1.1.5_iphoneos-arm64e_aca3102453b04d74836799581b70bb2e8d6ea510893bcb3f7c63dd99546c1116.deb
+Size: 8220
+MD5sum: e2d8aa4cae1978cb93514d5a4d892b10
+SHA1: a13e5c790380f7834e83079bc2791e9a5691c91a
+SHA256: aca3102453b04d74836799581b70bb2e8d6ea510893bcb3f7c63dd99546c1116
+SHA512: a7c733f11fc75c7b07e756787cc4d5c0ecaef6d9b4da19647225adf47713aef163f34e5a4cc24f81e3b08dc184405c595797e6b835ae16f69e9bcbeecf0df441
+Description: 为 RootHide 版 Filza 增加常用随机路径收藏，将原生 Applications 和 Documents 指向越狱根，并注册 filza:// 跳转。
 Name: Filza Patch
 Icon: https://mlgm66.github.io/icon/FilzaPatch.png
 
@@ -45905,6 +46098,24 @@ Author: NetSkao
 icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
 
 Package: com.netskao.perfectgrabber
+Architecture: iphoneos-arm64
+Version: 1.1-38
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 848
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.netskao.perfectgrabber_1.1-38_iphoneos-arm64_7acbc32655ed45524b63e85bc252d6d1450e66170c0ce3ae20037f27299da5e2.deb
+Size: 268152
+MD5sum: b6e5a95ecda61b7784c754f6deeb66bc
+SHA1: d254c89303259c0e73c25209d9650cc48dd7894b
+SHA256: 7acbc32655ed45524b63e85bc252d6d1450e66170c0ce3ae20037f27299da5e2
+SHA512: 3b3d0514f1ef391aa3f4e8b2f83f8b827f30ae704f725226375fdb31ac7f4472f875860d3f09d59716c8e8a0720ac64d83b5033514d62172a06e6cb2e23e6103
+Description: 横屏游戏时自动常驻显示时间与电量（单排），支持自定义背景色；后台听歌时显示歌名并可点按切换/暂停、上一首下一首
+Name: Ntonia-PreferenceLoader
+Author: NetSkao
+icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
+
+Package: com.netskao.perfectgrabber
 Architecture: iphoneos-arm64e
 Version: 1.1-15
 Section: Tweaks
@@ -45937,6 +46148,24 @@ SHA256: 92b79b54168499987e8dbb26ba84c457b8aab676d6ccc7c2aea232f491ec86b2
 SHA512: eb31a0c8bbe73bc78aa7b48713ddcdd206c01520b21163f18b1360d4a362c9daabb9d26aa188de8d7859d3ec2fe94ece7a8696e5421c86f973bb8a719b30b2b5
 Description: 在横屏游戏下拉一次时显示时间和电量（某些游戏不规范会无法唤出），支持自定义字体颜色，背景颜色，字体大小，字体样式，震动反馈等
 Name: Ntonia-PreferenceLoader 横屏游戏下拉
+Author: NetSkao
+icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
+
+Package: com.netskao.perfectgrabber
+Architecture: iphoneos-arm64e
+Version: 1.1-38+roothide
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 848
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.netskao.perfectgrabber_1.1-38+roothide_iphoneos-arm64e_9047bf6b711889afb5d56cc1d0e61d671be13ab00166f738251049d5eceebca5.deb
+Size: 268196
+MD5sum: 067e4714ca1c75bfef7b02e3c37bba2e
+SHA1: 6ed8dc68095a1e14277bdb01dd6c714921862802
+SHA256: 9047bf6b711889afb5d56cc1d0e61d671be13ab00166f738251049d5eceebca5
+SHA512: 2d2b09f7de06652771acc2fc14204e8ee805f698383e2aa340f521b4c458f4ef72a890e4a8310132c81dca7df63e93b0010ade680556a321c24b301a13c756ac
+Description: 横屏游戏时自动常驻显示时间与电量（单排），支持自定义背景色；后台听歌时显示歌名并可点按切换/暂停、上一首下一首
+Name: Ntonia-PreferenceLoader
 Author: NetSkao
 icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
 
@@ -72172,6 +72401,46 @@ Author: XUUᶻ
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.xuuz.douyinhelper
+Architecture: iphoneos-arm64
+Version: 2.2-8
+Priority: optional
+Section: Tweaks
+Maintainer: XUUᶻ
+Installed-Size: 17740
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.xuuz.douyinhelper_2.2-8_iphoneos-arm64_3139234c72bd3000a601bdce2869ccae36b1c8a2ee42f7361b09bbaba9567419.deb
+Size: 6865524
+MD5sum: cf3f97a58248009725176d93f186d069
+SHA1: 6bd2b4b4798ca9cee6428372da9436df6e60a656
+SHA256: 3139234c72bd3000a601bdce2869ccae36b1c8a2ee42f7361b09bbaba9567419
+SHA512: b08d11c86a17d96db06bfbd211acb50d43b3f463977958cd24ad917907d0be37d176857abd4473791fe38b2553816eec1ff5b3055c68f4800b0794e5bca98bd0
+Homepage: https://tc.uddz.cc/xuuz
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Name: 抖音助手
+Author: XUUᶻ
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.xuuz.douyinhelper
+Architecture: iphoneos-arm64
+Version: 2.2-9
+Priority: optional
+Section: Tweaks
+Maintainer: XUUᶻ
+Installed-Size: 17772
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.xuuz.douyinhelper_2.2-9_iphoneos-arm64_d3e49152e373e500a9056f7cfff6ce7b2d9a71d8acbf5f40669d87a3d2ebe523.deb
+Size: 6872904
+MD5sum: b4ae0a50cdcc64c1ab8bd6a8179a0c4a
+SHA1: 4f9613e5fce2b59aec6429d6bce01c2e3886fa1e
+SHA256: d3e49152e373e500a9056f7cfff6ce7b2d9a71d8acbf5f40669d87a3d2ebe523
+SHA512: 5d9147f572b27cee044dca129d9952030e8b3d37d303962d2bd7b9e734c2ead648c7386cc78a16cbaa9c4525d71fd7158c8a73cedb6d7dd558cebdddbcac3512
+Homepage: https://tc.uddz.cc/xuuz
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Name: 抖音助手
+Author: XUUᶻ
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.xuuz.douyinhelper
 Architecture: iphoneos-arm64e
 Version: 2.2-4
 Priority: optional
@@ -72269,6 +72538,48 @@ MD5sum: 3664e752415fb9f9c31dad6942e6967d
 SHA1: 908216f840870dec9a2cef408fabe02c355b2979
 SHA256: 8f0babe3fd98b1a4097e1817360c2bbbbf598d8468a094e7d616f5250c731556
 SHA512: 3d5d9334ff0b619bc7d696f456ba2b969e23f844eb57d18c6e19b61d8ba0c180008e709e9e0f4adbb92661a00866183c45b4d9a6072579381a09e77a5576f650
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Name: 抖音助手
+Author: XUUᶻ
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.xuuz.douyinhelper
+Architecture: iphoneos-arm64e
+Version: 2.2-8
+Priority: optional
+Section: Tweaks
+Maintainer: XUUᶻ
+Installed-Size: 17740
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.xuuz.douyinhelper_2.2-8_iphoneos-arm64e_2f1e7cec0f70ecfc4a07ba5f16d5ed6c13eff55f3f46b645dfa702a3cbc6d648.deb
+Size: 6873436
+MD5sum: 8dbc1355d00d3a5d2d3aaa09e5d9bb5e
+SHA1: 27bddeebaabf6cb7f2b126b30cb3d12e4b83d717
+SHA256: 2f1e7cec0f70ecfc4a07ba5f16d5ed6c13eff55f3f46b645dfa702a3cbc6d648
+SHA512: 59b1b639f8a377ac707c1b28ed7b3806bb62eed32af77bfca0841cdc201519b6bcb8aab86c008e3d4604e610019b2df88db0393450d7eb037dcdcf7f4507c977
+Homepage: https://tc.uddz.cc/xuuz
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Name: 抖音助手
+Author: XUUᶻ
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.xuuz.douyinhelper
+Architecture: iphoneos-arm64e
+Version: 2.2-9
+Priority: optional
+Section: Tweaks
+Maintainer: XUUᶻ
+Installed-Size: 17772
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.xuuz.douyinhelper_2.2-9_iphoneos-arm64e_29d951b544fea08b0d8a1b549d3ecb8453764347576062bc30a83d4f717beabb.deb
+Size: 6864080
+MD5sum: ecc91031558779165638568b3c1920e9
+SHA1: 6cf1c4767750b10c48d97f76dee92a915411ca91
+SHA256: 29d951b544fea08b0d8a1b549d3ecb8453764347576062bc30a83d4f717beabb
+SHA512: e03b279968ab76d2ada7a7aae20662dbc98adf7f7cc8923476cbe79d44fc7f7617ce6645ec66c12b6afecec6af3a1df4afd29c02cb4f9a4bca75dd03becf0294
+Homepage: https://tc.uddz.cc/xuuz
 Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
 Name: 抖音助手
 Author: XUUᶻ
@@ -73846,6 +74157,46 @@ Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.sp
 Depiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/index.html
 SileoDepiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/depiction.json
 
+Package: com.zhuifeng.allowringinmute
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: zhuifeng
+Installed-Size: 404
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64/com.zhuifeng.allowringinmute_1.0.0_iphoneos-arm64_c38fbc8deeec34469cd479be2298e64102f8cafd78822c54dd3488002359084b.deb
+Size: 29280
+MD5sum: faba460a5bb7a415b8e83732981e3de1
+SHA1: fb42263e9407d4b9209a0a31a6f83219a89b5666
+SHA256: c38fbc8deeec34469cd479be2298e64102f8cafd78822c54dd3488002359084b
+SHA512: 942b3e31679b37dca77d22bde939ce26aaa51ab91daf94e5320168b029f84f115d4611675a6c217da6c481ae0ff4818b810f9419cf70ef9f5f2d92b40bcbed57
+Description: 静音模式下接到电话依然正常响铃，其他通知与系统提示音保持静音
+Name: 静音响铃
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/allowringinmute/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/allowringinmute.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/allowringinmute.html
+
+Package: com.zhuifeng.allowringinmute
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: zhuifeng
+Installed-Size: 404
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64e/com.zhuifeng.allowringinmute_1.0.0_iphoneos-arm64e_828bf8e371fd1797e95aacdbccb27e6c882589bad79860aa1ad20ef159555f56.deb
+Size: 29256
+MD5sum: b164a9c3499d2ec4a56892db864e42dc
+SHA1: af25af04cc787a07bc4f970b3471ba3eb378d253
+SHA256: 828bf8e371fd1797e95aacdbccb27e6c882589bad79860aa1ad20ef159555f56
+SHA512: 4b28c930b98cd866894feb64695b529ccc1b26b2f1fb609f4c660c3b5e19fdff7261b4b7b0f972e300fd9c09b4078d387d225af7c17e8039d0d48a1b02c6bb37
+Description: 静音模式下接到电话依然正常响铃，其他通知与系统提示音保持静音
+Name: 静音响铃
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/allowringinmute/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/allowringinmute.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/allowringinmute.html
+
 Package: com.zooah.debrecords
 Architecture: iphoneos-arm64
 Version: 1.2.1
@@ -74127,6 +74478,26 @@ MD5sum: 8d41c67cf0e59b88b9f4e6404823c3cc
 SHA1: 173cf26090cd6906aa5368106b80492630cdefec
 SHA256: eb24c92575e785c29d981adc894ca87fc4fc31e0759ec51b0904ae66559cbba0
 SHA512: 2f3c313624b42a52c0fb37a1fb6ce5ed50ef947f46feb9b6eab6c961a1d298f1a5a48a038ece0a9f5820608d0c0b8a5efd46894eb345c5d91d57301bd1486984
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.6.7-16
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 8384
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.zooah.swipedeck_0.6.7-16_iphoneos-arm64_529aee3a38f8df0efbeb06c252e9ee396377da71bcddf06a98e763a0eaaf6e6b.deb
+Size: 2671952
+MD5sum: 50e79a337ca2fee611666d07d0192867
+SHA1: 62897708f745daa5392bb9f0e774b19a6a7ff2eb
+SHA256: 529aee3a38f8df0efbeb06c252e9ee396377da71bcddf06a98e763a0eaaf6e6b
+SHA512: 06042648af3b552af36fbf3fc7b621bba5837d73a52f662436f5fecbd99e144572b48b0d4d100306dcae7784d3605bfd679a4c0ca9d39659d8b3594431db2aef
 Description: Quick action panel accessible by swiping up from the bottom-right corner.
              Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
 Name: SwipeDeck - 快捷助手
@@ -74428,6 +74799,27 @@ MD5sum: 1e0f96cc4de16b48392a54696a152fe7
 SHA1: 976318f02fd1131d3629e015052e72f299285401
 SHA256: 00415a08b533638a510801853c259ea83cfec01947c2c30e7407ec2eac06995c
 SHA512: c5061d899ade6abd4d356030bd6b0d98c089f0b21f0d2b063bfeb4040e0c082507b927244d9daf7d8817dd275e0068fa4857c56a3766f02976d49e7d64ee01fa
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.6.7-16
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 8384
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.zooah.swipedeck_0.6.7-16_iphoneos-arm64e_9dc10de0753252f4eedece45c3b77d6852dbf2a0783a6b48e19fb461635bc2a2.deb
+Size: 5029688
+MD5sum: f614ebf962e526ffa877af174b439af2
+SHA1: 223238586ab174300bd23878fc252d7e38da4297
+SHA256: 9dc10de0753252f4eedece45c3b77d6852dbf2a0783a6b48e19fb461635bc2a2
+SHA512: 9e12cdf24551cd96a5471a29f02cc0221cfe393ccb8dbda5c540afd491372b0a6ba816cb3cd212e25c636731147f39222e029d31bea06f75c2daa95f286e7583
 Description: Quick action panel accessible by swiping up from the bottom-right corner.
              Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
 Name: SwipeDeck - 快捷助手
@@ -76218,6 +76610,40 @@ Author: Junhong
 icon: https://huayuarc.github.io/icon/hongguo.png
 
 Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 2.2.7
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 14536
+Filename: debs/iphoneos-arm64/hongguofn_2.2.7_iphoneos-arm64_38dd78f406c3659d7adb90a5d29a7cf3426a09b2a7692739a864f64c90e37945.deb
+Size: 7328832
+MD5sum: 598503319ce35f8e1325d9d938eeda58
+SHA1: 50c26e2680f0c447562c046dc77989548299e7ab
+SHA256: 38dd78f406c3659d7adb90a5d29a7cf3426a09b2a7692739a864f64c90e37945
+SHA512: e68a9f6eef3d3368156b3b23586642908b05000ec53cb735e17f09549d6aa81ffa84b528aabe955230a5c7511078f529437a0ca949a491db141c9bf69c3c2088
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 2.2.8
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 14792
+Filename: debs/iphoneos-arm64/hongguofn_2.2.8_iphoneos-arm64_14639b608e92a01495e2b020a337de34aafe505ea9e2f23a9591ca7576ae4fde.deb
+Size: 7454236
+MD5sum: a587f53dbd96eee25652432993344856
+SHA1: 0c5d455f6153098d845446013cd3bbef2cc32460
+SHA256: 14639b608e92a01495e2b020a337de34aafe505ea9e2f23a9591ca7576ae4fde
+SHA512: b5846150db6b3dc632274aa1d5978e560f10f6f001215713366b444626a97ef896efc2a2038da3b4db1bc2bd6e4fad6f2dec8818bc3a84757808fc6d0838cad1
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -76488,6 +76914,40 @@ SHA1: 785bb5f72aca294f1959000610f8feabef7151c9
 SHA256: 75cdf1fb8257093c0849ce7195ffb4f519e19c0d2ec404b00347f29566feab57
 SHA512: 494d1f336b7e0c84e71d6b6e8ad71a100fd52018bc4d45b845b7456577f370ec0322c591fd50fafb243be0e6b997f4aeed485bd4be319b3e6451e7dd67b80677
 Homepage: https://hongguo.goforit.si
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
+Architecture: iphoneos-arm64e
+Version: 2.2.7
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 14664
+Filename: debs/iphoneos-arm64e/hongguofn_2.2.7_iphoneos-arm64e_dc6cde6e098c2e7327ed9a6d5365d621b047e238addb5f1c2d6a85e582721d84.deb
+Size: 7379076
+MD5sum: caf9675ecda6506c47d13f1d2d251435
+SHA1: 43b191a19cb1097d01f0d41db62fb7b6aac7a364
+SHA256: dc6cde6e098c2e7327ed9a6d5365d621b047e238addb5f1c2d6a85e582721d84
+SHA512: c294458df558b69ed8cd0f4a645e9b20fded81e4bf9a1451e8937c8142404ceef2993bc27cb44e5cc0dbfbf2fa7c03f6def85abf14dbfec18c2d1b9b9f4908cd
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
+Architecture: iphoneos-arm64e
+Version: 2.2.8
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 14904
+Filename: debs/iphoneos-arm64e/hongguofn_2.2.8_iphoneos-arm64e_e071074679d27822fbf3ffbce552861995b78d1395294c9485a06c83160e8301.deb
+Size: 7505832
+MD5sum: e05b6bc1c6aa3bcdfc7a670f46e85c29
+SHA1: 657449999213fff6ed71f8be6175c90932cb3065
+SHA256: e071074679d27822fbf3ffbce552861995b78d1395294c9485a06c83160e8301
+SHA512: 729bd1b2e7a64c41d3edae92a1b8ca979ea4eed0ea4ae5a62b4515dad7aae43beb270f6613c2a46287d00c92ef09c6c554a6c6936b6cd3a04b658941805e9235
 Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
 Name: 红果净化
 Author: Junhong
@@ -80380,6 +80840,23 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/onboarding-icon.png
 
 Package: iya.banana.multitask
+Architecture: iphoneos-arm64
+Version: 0.1.8
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2788
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/iya.banana.multitask_0.1.8_iphoneos-arm64_5213b123446b474a19f2464ca582af0d24f090e710be20ca7cb403efc960493f.deb
+Size: 496660
+MD5sum: 8119f4c4983eb6177aae34047f58c91f
+SHA1: dbfc301ae6c2890dbaf6dd8358a4afcaf62afe4e
+SHA256: 5213b123446b474a19f2464ca582af0d24f090e710be20ca7cb403efc960493f
+SHA512: 58531dc8c01501bcfddf451d7be431dc10aa26dab82370156d13540735bf849b577187b6b1560a2b41793c134e31f33f682bc167051a7b0abbb5a9c1adcd837b
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+
+Package: iya.banana.multitask
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Section: Tweaks
@@ -80540,6 +81017,23 @@ Description: Adjustable split-screen, floating windows and Stage multitasking fo
 Name: 一芽分屏 (Iya Split)
 Author: Banana
 icon: https://huayuarc.github.io/icon/onboarding-icon.png
+
+Package: iya.banana.multitask
+Architecture: iphoneos-arm64e
+Version: 0.1.8
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2788
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/iya.banana.multitask_0.1.8_iphoneos-arm64e_a281be9e59879eceb4ff512ca52096c6e91307bb4cb4eb7f2c521bcb588a5c88.deb
+Size: 496432
+MD5sum: 27b7a3e80b614ca05dc58b95a7c4cdd2
+SHA1: e25e306bd98f60490169968738df866e51505465
+SHA256: a281be9e59879eceb4ff512ca52096c6e91307bb4cb4eb7f2c521bcb588a5c88
+SHA512: ac76ff3c7c3b6babad84eb137c57efd09b8055b52334ca0a4b5c860e6f14f054cbad6595427547b15a53bb22f35abb4c3b7556c6010b1f96bca510b34d1f0170
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
 
 Package: iya.banana.musichaptics
 Architecture: iphoneos-arm64
@@ -84394,6 +84888,27 @@ Author: Amy While <me@anamy.gay>
 Icon: https://getsileo.app/img/icon.png
 SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
+Package: org.mlgm.sileo
+Architecture: iphoneos-arm64e
+Version: 2.5.1-19
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Provides: org.coolstar.sileo (= 2.5.1-19)
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Conflicts: org.coolstar.sileo
+Replaces: org.coolstar.sileo
+Filename: debs/iphoneos-arm64e/org.mlgm.sileo_2.5.1-19_iphoneos-arm64e_6d125ffd82eb66b8e71510c9a758ab489262b4b550dd1c51b2e53f582d8edf1f.deb
+Size: 3107520
+MD5sum: 906fc243fcc572c9ce4483bbd25cfd4a
+SHA1: ad94f8f67d11202cb4138ce5e93919aa474edbd3
+SHA256: 6d125ffd82eb66b8e71510c9a758ab489262b4b550dd1c51b2e53f582d8edf1f
+SHA512: b14909d6e5d2e1c0bf17d8c31c49a7c0619598c4ef6c03cb7d5d5955a58db6afbe11298464363dfb72da43e32beb0ad08e3aa2df88447328ee92ec07e873dae9
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
 Package: org.shallowdream.dockpages
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -84487,6 +85002,46 @@ Author: Bailey Seymour
 icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/libcolorpicker/js.json
 Name: libcolorpicker (Unofficial)
+
+Package: org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64
+Version: 1.6.9.2
+Section: System
+Maintainer: Bailey Seymour
+Installed-Size: 304
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: debs/iphoneos-arm64/org.thebigboss.libcolorpicker_1.6.9.2_iphoneos-arm64_0a0c75360c6e4baceda6cc3938e7e4c191486f334a9fa46e60de0e73cf6a3a85.deb
+Size: 45848
+MD5sum: b05bbe826389737a38490cd9184c42b5
+SHA1: 73c2bb87dfd578a3a4f1034b80dff6bfd1cd4c3e
+SHA256: 0a0c75360c6e4baceda6cc3938e7e4c191486f334a9fa46e60de0e73cf6a3a85
+SHA512: aa69f09c8caae4f8e9c2e621418eb233ed07d79c0bb75d5215a2bcdc205df89856827676bea3c8ec304073909df441d4f2e06c481072f02e596a2dbb86d99e58
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: libcolorpicker
+Author: Bailey Seymour
+
+Package: org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64e
+Version: 1.6.9.2
+Section: System
+Maintainer: Bailey Seymour
+Installed-Size: 304
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: debs/iphoneos-arm64e/org.thebigboss.libcolorpicker_1.6.9.2_iphoneos-arm64e_e31df52c7de566c8611e48b247f322456606b5112d01b0c4f98de3f662baf671.deb
+Size: 44952
+MD5sum: 0d257710a3a12304bff1bbef0fde5459
+SHA1: 8a9556e8983f9ce3ce00021cb7d26b68ba747dca
+SHA256: e31df52c7de566c8611e48b247f322456606b5112d01b0c4f98de3f662baf671
+SHA512: 3bb5949acef8ac4c26634fc3a8812929dad3947f7ff85766d0e86779afd65c42abfb2812ced12932f5113b57a354395fbff30bfe06a0c71ebedf61ab2aefda63
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: libcolorpicker
+Author: Bailey Seymour
 
 Package: owngoal-bootstrap-vphone
 Architecture: appletvos-arm64e
