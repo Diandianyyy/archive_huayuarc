@@ -22849,6 +22849,23 @@ SileoDepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bu
 
 Package: com.example.noticelisttweak
 Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: YUE
+Installed-Size: 1873
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.example.noticelisttweak_1.0.1_iphoneos-arm64_171f135b101ffe35f56088e06cdd4d99d79823d454ab08c77993ad885137c29e.deb
+Size: 842868
+MD5sum: 5fa4fa0f392e12174fbf5809c09ea49b
+SHA1: 44678097e3b40ca5d41e95fff4ff03115c66327b
+SHA256: 171f135b101ffe35f56088e06cdd4d99d79823d454ab08c77993ad885137c29e
+SHA512: 01a31a70a461cdedd466082650d117f1e11fa330c108eaa654ce3ff99f79dac1f5c35af558eac59b433f4e6bb7a625a6b5b5e1e1e6f0a492cd7b868d0db6a0a0
+Description: Rootless notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Name: 通知消散
+Author: YUE
+
+Package: com.example.noticelisttweak
+Architecture: iphoneos-arm64
 Version: 1.0.1~test16+h2l1
 Section: Tweaks
 Maintainer: Local User
@@ -22882,6 +22899,23 @@ Description: Rootless notification-list, app-icon and banner dust effects for iO
 Name: 通知消散
 Author: YUE
 icon: https://huayuarc.github.io/icon/noticelisttweak.png
+
+Package: com.example.noticelisttweak
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: YUE
+Installed-Size: 1873
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.example.noticelisttweak_1.0.1_iphoneos-arm64e_dd11431b3b74df553297cba47505744eb5b8611da7911ea0bd0a4c1d91a646f0.deb
+Size: 842644
+MD5sum: d1897549b1c24248ae719fd27a701cc4
+SHA1: 2885f9e7486c4fbadc0ce82b654c5bfe83ad73e4
+SHA256: dd11431b3b74df553297cba47505744eb5b8611da7911ea0bd0a4c1d91a646f0
+SHA512: 492845a6b0f8824a23fb41386a60b8b6aa9e36539b6b8e898968b4e5160eb6bf94a8bc5cd2a9869ed15f30ef17eaaeccb6b9adb8367164cf0354d16d9784aad0
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Name: 通知消散
+Author: YUE
 
 Package: com.example.noticelisttweak
 Architecture: iphoneos-arm64e
@@ -26739,6 +26773,26 @@ Author: huami
 Icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.huami.dyyy
+Architecture: iphoneos-arm64
+Version: 3.0
+Priority: optional
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 2216
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.huami.dyyy_3.0_iphoneos-arm64_3df918606d9161d7df95d71af0ef7ea9f3533ad26bdeb9595d4183dac30ab714.deb
+Size: 466976
+MD5sum: 36e895c69301403ca910323e4ed32ad2
+SHA1: 223fddd1ac9268b57b30a81af98b2913740a21b9
+SHA256: 3df918606d9161d7df95d71af0ef7ea9f3533ad26bdeb9595d4183dac30ab714
+SHA512: 944bb2cb1136e3ba88f6a90c007a5f9e3c67fb8a59c110629f6795b0e03a5fe28659d58df66b8c68a8e019e99b5c4e7e9da769cd484d3354a8ff15be3acf2b94
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Name: DYYY
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+
+Package: com.huami.dyyy
 Architecture: iphoneos-arm64e
 Version: 2.2-9
 Priority: optional
@@ -26776,6 +26830,26 @@ Description: 仅供学习交流，请在 24 小时内自觉删除。VexCove目�
 Name: DYYY
 Author: huami
 Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.huami.dyyy
+Architecture: iphoneos-arm64e
+Version: 3.0
+Priority: optional
+Section: Tweaks
+Maintainer: huami
+Installed-Size: 2216
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.huami.dyyy_3.0_iphoneos-arm64e_f48cc92a4fc34418e0aa413e5125f785633e3d7c16ed6f4c91c90a0af0c98c4d.deb
+Size: 466472
+MD5sum: ef6967cdfc156115971fc1d1819f8cd5
+SHA1: 8aa2ea8472b77a478eb26ea99f218139e99cba9d
+SHA256: f48cc92a4fc34418e0aa413e5125f785633e3d7c16ed6f4c91c90a0af0c98c4d
+SHA512: e73a09b99d1032d6b7726ae41f8cb30165892b4d4b4933db0fbd1b101f0475242ce78da215e5c722ef127a6fdb7c36378ef4bbb04b1baec53bf35e9496656f07
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Name: DYYY
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
 
 Package: com.huami.wcpulse
 Architecture: iphoneos-arm64
@@ -46770,6 +46844,42 @@ Name: 数据切换
 Author: Ning&Netskao
 Icon: file:///usr/share/icons/com.ning.dataswitch.png
 
+Package: com.ning.keyboardglass
+Architecture: iphoneos-arm64
+Version: 0.2.4
+Section: Tweaks
+Maintainer: Ning
+Installed-Size: 399
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: debs/iphoneos-arm64/com.ning.keyboardglass_0.2.4_iphoneos-arm64_6f448490ce5517e6c0d09374996e3188d1deccdfc2c35275fdbf4fcb49166973.deb
+Size: 184492
+MD5sum: 300f573fbc7812cf6b7ebb0ae771a380
+SHA1: 14c70d5d35234af50e3a725d53ffae4b238e037b
+SHA256: 6f448490ce5517e6c0d09374996e3188d1deccdfc2c35275fdbf4fcb49166973
+SHA512: e88e0fe0f1d5b124763c32476c710b6600592e164b891f1cba2aa02a89722b9e46d376b514d83bbb08d6aa65733e3ec8bc9a83bf1591d21fac3cecaab3a0c29d
+Description: Adjustable glass material for system keyboards on iOS 16 and 17.
+Name: Ning Keyboard Glass
+Author: Ning
+Icon: file:///var/jb/usr/share/icons/com.ning.keyboardglass.png
+
+Package: com.ning.keyboardglass
+Architecture: iphoneos-arm64e
+Version: 0.2.4
+Section: Tweaks
+Maintainer: Ning
+Installed-Size: 399
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: debs/iphoneos-arm64e/com.ning.keyboardglass_0.2.4_iphoneos-arm64e_95869bc4f310af24787fc5e8d5914670a42299b51f7a4937c70539b1df33faa7.deb
+Size: 184220
+MD5sum: 3c4b5dd5abfe29dab952a3e8cd028e1a
+SHA1: d190a94c5f3a9c09af89a519ec284507058e8083
+SHA256: 95869bc4f310af24787fc5e8d5914670a42299b51f7a4937c70539b1df33faa7
+SHA512: 48ca7ecbfa3ea147e6b7883073d58d83904f58d4a51bcb1ff993fb2b912137db63a949cc1c70ed1dbc3b74361591fd0b39b4ec591e02b111dba3c5a1bab7d626
+Description: Adjustable glass material for system keyboards on iOS 16 and 17.
+Name: Ning Keyboard Glass
+Author: Ning
+Icon: file:///usr/share/icons/com.ning.keyboardglass.png
+
 Package: com.ning.qqencryption
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -48661,6 +48771,100 @@ Description: 微信优化的重制版，上百种功能优化你的微信。
 Name: WCRefine
 Author: 热心网友
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.qingye.screenshot
+Architecture: iphoneos-arm64
+Version: 4.9.1.6
+Section: QingYe-Tweaks
+Maintainer: 清野 <qingye@localhost>
+Installed-Size: 2218
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, com.susudear.stayshot, com.axs.snapper3tag, com.iosdump.shellx, com.axs.snapper4
+Filename: debs/iphoneos-arm64/com.qingye.screenshot_4.9.1.6_iphoneos-arm64_47c18a8bb7259f726a5adaeaed323274acb542ffc47946c3b56e9ff2b2140b16.deb
+Size: 698668
+MD5sum: fe64af39867ba701cc37c1bbe8698c47
+SHA1: d7a8d0d5e0863634a7758ade8380c5a0a2cccf0e
+SHA256: 47c18a8bb7259f726a5adaeaed323274acb542ffc47946c3b56e9ff2b2140b16
+SHA512: 297a9e444b3e6c7e771a33d5141a6da041c0209364b9c536e476bd38ebbf7a22f988822356064b52fa746d2f223005c5374c4da17303a04773eb6e12dab36b79
+Description: 一款集截图、冻结、长截图、标注、OCR、翻译与 AI 于一体的越狱截图插件。
+ * 一、核心功能
+ * 1、三路触发：音量增+电源键、长按音量减进入冻结模式、系统深链 prefs:root=qingye_freeze（插件截图）/ prefs:root=qingye_long（长截图）；
+ * 2、冻结截图：画面定格后自由取景与标注，标注内容可拖动调整位置；
+ * 3、长截图：滚动拼接 / 一镜到底两种方式，智能帧匹配自动去重拼接，清晰度 1.0x / 1.5x / 2.0x / 3.0x 可选；
+ * 4、标注工具：颜色、箭头、自由画线、文字、矩形、圆形、高亮、马赛克、撤回、删除、保存、复制；
+ * 5、文字识别 OCR：默认 PP-OCRv6 云服务，可选 PaddleOCR-VL 或改用 AI 视觉模型，半屏浮层、涂抹选择、一键复制；
+ * 6、翻译：Apple 系统翻译（免密钥）/ 百度 / 有道 / DeepL，百度另支持图片翻译通道；
+ * 7、AI 互译与问答：自填 Base URL / API Key / 模型，支持自定义提示词与对话模式，半屏浮层展示；
+ * 8、工具栏自定义：功能开关与排序、拖拽排序、图标主题（含 3 代透光）；
+ * 9、URL 联动：截图完成后点底部工具栏「URL」按钮，先收起浮层再打开任意 scheme；
+ * 10、截图仅复制：拍完只进剪贴板，不写相册。
+ * 二、使用方式
+ * 1、音量增+电源键：可选系统截图或插件截图；
+ * 2、长按音量减约 0.2 秒：进入冻结模式，取景框内可滚动，点「长截图」继续拼接；
+ * 3、截图后底部工具栏：标注 / OCR / 翻译 / 分享 / URL；
+ * 4、功能开关与排序：关闭某个动作后，对应工具栏按钮与设置行立即隐藏，打开即恢复，无需退出设置页；
+ * 5、顶部工具栏「URL」与底部工具栏「URL」是两条独立链接，各存各的，互不影响。
+ * 三、URL 联动（截图后打开链接）
+ * 1、填链接：功能开关与排序 → 底部工具栏 → URL 链接，任意 scheme 均可；
+ * 2、点「URL」按钮才会跳转；设置页那一行只负责保存，直接点它会由系统提示「不支持的 URL」，属正常现象；
+ * 3、通用写法（系统自带，任何越狱设备都能开）：prefs:root=WIFI、prefs:root=Bluetooth、shortcuts://、https://；
+ * 4、专用写法（需先装对应插件）：全局水印Pro 的 binglan://tk 仅套壳、binglan://tksy 套壳+水印、
+ *    binglan://tkwsy 套壳+全屏水印、binglan://tk&id=1 指定套壳、binglan://tk&gsmh/50 背景模糊；
+ * 5、该 scheme 没有任何接收方时，点按钮不会有反应，换一个有接收方的即可；
+ * 6、注意：全局水印Pro 收到链接后会自己再截一次图，与本插件的截图动作同时开启会重复截图。
+ * 四、兼容
+ * 1、iOS 14 及以上，rootless（/var/jb）与 roothide 双版本；
+ * 2、不依赖 CydiaSubstrate，纯运行时挂载。
+Name: Screenshot
+Author: 清野 <qingye@localhost>
+icon: https://huayuarc.github.io/icon/screenshot.png
+
+Package: com.qingye.screenshot
+Architecture: iphoneos-arm64e
+Version: 4.9.1.6
+Section: QingYe-Tweaks
+Maintainer: 清野 <qingye@localhost>
+Installed-Size: 2218
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, com.susudear.stayshot, com.axs.snapper3tag, com.iosdump.shellx, com.axs.snapper4
+Filename: debs/iphoneos-arm64e/com.qingye.screenshot_4.9.1.6_iphoneos-arm64e_75f1a518a8a231ca49b64637b2ab0f3edaee42964b852c4effb0323eb21381f2.deb
+Size: 697708
+MD5sum: 867c7833e3b0ad30c08151417b26153f
+SHA1: 3732469aca9433f116804610a9ffa34f92149760
+SHA256: 75f1a518a8a231ca49b64637b2ab0f3edaee42964b852c4effb0323eb21381f2
+SHA512: a93fb33fd3528a14ce22ad9c079dc1621070af912f1d32b8edef090918aa11ae9bbabaae35c82a9088a25e2692ba3426aefc1ec7e22a2d40f02b8e079174e60b
+Description: 一款集截图、冻结、长截图、标注、OCR、翻译与 AI 于一体的越狱截图插件。
+ * 一、核心功能
+ * 1、三路触发：音量增+电源键、长按音量减进入冻结模式、系统深链 prefs:root=qingye_freeze（插件截图）/ prefs:root=qingye_long（长截图）；
+ * 2、冻结截图：画面定格后自由取景与标注，标注内容可拖动调整位置；
+ * 3、长截图：滚动拼接 / 一镜到底两种方式，智能帧匹配自动去重拼接，清晰度 1.0x / 1.5x / 2.0x / 3.0x 可选；
+ * 4、标注工具：颜色、箭头、自由画线、文字、矩形、圆形、高亮、马赛克、撤回、删除、保存、复制；
+ * 5、文字识别 OCR：默认 PP-OCRv6 云服务，可选 PaddleOCR-VL 或改用 AI 视觉模型，半屏浮层、涂抹选择、一键复制；
+ * 6、翻译：Apple 系统翻译（免密钥）/ 百度 / 有道 / DeepL，百度另支持图片翻译通道；
+ * 7、AI 互译与问答：自填 Base URL / API Key / 模型，支持自定义提示词与对话模式，半屏浮层展示；
+ * 8、工具栏自定义：功能开关与排序、拖拽排序、图标主题（含 3 代透光）；
+ * 9、URL 联动：截图完成后点底部工具栏「URL」按钮，先收起浮层再打开任意 scheme；
+ * 10、截图仅复制：拍完只进剪贴板，不写相册。
+ * 二、使用方式
+ * 1、音量增+电源键：可选系统截图或插件截图；
+ * 2、长按音量减约 0.2 秒：进入冻结模式，取景框内可滚动，点「长截图」继续拼接；
+ * 3、截图后底部工具栏：标注 / OCR / 翻译 / 分享 / URL；
+ * 4、功能开关与排序：关闭某个动作后，对应工具栏按钮与设置行立即隐藏，打开即恢复，无需退出设置页；
+ * 5、顶部工具栏「URL」与底部工具栏「URL」是两条独立链接，各存各的，互不影响。
+ * 三、URL 联动（截图后打开链接）
+ * 1、填链接：功能开关与排序 → 底部工具栏 → URL 链接，任意 scheme 均可；
+ * 2、点「URL」按钮才会跳转；设置页那一行只负责保存，直接点它会由系统提示「不支持的 URL」，属正常现象；
+ * 3、通用写法（系统自带，任何越狱设备都能开）：prefs:root=WIFI、prefs:root=Bluetooth、shortcuts://、https://；
+ * 4、专用写法（需先装对应插件）：全局水印Pro 的 binglan://tk 仅套壳、binglan://tksy 套壳+水印、
+ *    binglan://tkwsy 套壳+全屏水印、binglan://tk&id=1 指定套壳、binglan://tk&gsmh/50 背景模糊；
+ * 5、该 scheme 没有任何接收方时，点按钮不会有反应，换一个有接收方的即可；
+ * 6、注意：全局水印Pro 收到链接后会自己再截一次图，与本插件的截图动作同时开启会重复截图。
+ * 四、兼容
+ * 1、iOS 14 及以上，rootless（/var/jb）与 roothide 双版本；
+ * 2、不依赖 CydiaSubstrate，纯运行时挂载。
+Name: Screenshot
+Author: 清野 <qingye@localhost>
+icon: https://huayuarc.github.io/icon/screenshot.png
 
 Package: com.qiop1379.swipeextenderx
 Architecture: iphoneos-arm64
@@ -72097,6 +72301,40 @@ Name: CopylogX
 Author: wkk
 icon: https://huayuarc.github.io/icon/copylogx.png
 
+Package: com.wkk.fakesignalbar
+Architecture: iphoneos-arm64
+Version: 1.0-1
+Section: Tweaks
+Maintainer: alias20 & wkk
+Installed-Size: 364
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.wkk.fakesignalbar_1.0-1_iphoneos-arm64_9c4beb187ca5ab7ec1ae1311919d39688b244891062877d0d42c5f6be34ee350.deb
+Size: 15192
+MD5sum: a99ee42c404bd71c0c20772dc901b82e
+SHA1: 586a809112a18dcb951806a3da4fb1ec61b4152a
+SHA256: 9c4beb187ca5ab7ec1ae1311919d39688b244891062877d0d42c5f6be34ee350
+SHA512: 59ec947d8119d8168ec496589a1e18e9b2eb516d8980a55bba32b259c67001b827f4eaa34a3c12ac10fb287dcb17e64fb47de65344d5f949043a5b53d3a1b1ff
+Description: 自定义状态栏显示的运营商名称、信号强度和蜂窝网络类型等。灵感来自 SniperGER 的 Signal 插件，修复且补全没有双卡时或单 eSIM 时的不生效卡2逻辑，已汉化。
+Name: Fakesignalbar
+Author: alias20 & wkk
+
+Package: com.wkk.fakesignalbar
+Architecture: iphoneos-arm64e
+Version: 1.0-1
+Section: Tweaks
+Maintainer: alias20 & wkk
+Installed-Size: 364
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/com.wkk.fakesignalbar_1.0-1_iphoneos-arm64e_b69f197fcbdf5a09072533837115ae43bc4fb98e004e1df7e7bacde3fc19680e.deb
+Size: 15212
+MD5sum: 88e05cf8cd6fa9fd44d53ce5bb019d7e
+SHA1: a7b7b8ba44710142df84f1d5807960d70f420f64
+SHA256: b69f197fcbdf5a09072533837115ae43bc4fb98e004e1df7e7bacde3fc19680e
+SHA512: b599092859468b27bbe4ce88c4dddbadce2213a1ecd0450cd8acae14207b47356f2671ba561b71e614c27383fd9b711e58362f42dac30ce972fa31a9375ab5e2
+Description: 自定义状态栏显示的运营商名称、信号强度和蜂窝网络类型等。灵感来自 SniperGER 的 Signal 插件，修复且补全没有双卡时或单 eSIM 时的不生效卡2逻辑，已汉化。
+Name: Fakesignalbar
+Author: alias20 & wkk
+
 Package: com.wkk.flex
 Architecture: iphoneos-arm64
 Version: 1.0-1
@@ -74196,6 +74434,46 @@ Author: zhuifeng
 Icon: https://temple002.github.io/zhuifeng/depictions/allowringinmute/icon.png
 SileoDepiction: https://temple002.github.io/zhuifeng/depictions/allowringinmute.json
 Depiction: https://temple002.github.io/zhuifeng/depictions/allowringinmute.html
+
+Package: com.zhuifeng.dateinfo
+Architecture: iphoneos-arm64
+Version: 1.3.8
+Section: Tweaks
+Maintainer: zhuifeng
+Installed-Size: 792
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64/com.zhuifeng.dateinfo_1.3.8_iphoneos-arm64_2ad2f97974def3cfcb7e2f72982322477e8820085a016f0199feedf99b633d74.deb
+Size: 111968
+MD5sum: b74d5de2ff0e2d2d45e8511643ebc2bc
+SHA1: 0b2f32b5fd2c01a60b28bc9879693cfca165a64e
+SHA256: 2ad2f97974def3cfcb7e2f72982322477e8820085a016f0199feedf99b633d74
+SHA512: a6a6f242b49d654d5c88233a81970c1ba0b1864f5dbae7a2f8f2db0f53a91880b3c2618732b7a2d5f94466ac074e46087c6f44fac56d79d1e669c6755b23948a
+Description: 轻点状态栏时间，展开带尖角的胶囊显示日期、星期、时分秒与实时网速，状态栏本身一个像素都不改动。
+Name: 快捷时间胶囊
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/dateinfo/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.html
+
+Package: com.zhuifeng.dateinfo
+Architecture: iphoneos-arm64e
+Version: 1.3.8
+Section: Tweaks
+Maintainer: zhuifeng
+Installed-Size: 792
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64e/com.zhuifeng.dateinfo_1.3.8_iphoneos-arm64e_38d69f66ae1b1c916e582679af668bf0c83d09ff844dd2317fe23c6d2fbf7b1a.deb
+Size: 112352
+MD5sum: df852a1e8837ece41dc6a97f21f780eb
+SHA1: cfe8f4a4490b64fa4eba907b671c50ad536e2bed
+SHA256: 38d69f66ae1b1c916e582679af668bf0c83d09ff844dd2317fe23c6d2fbf7b1a
+SHA512: 31b6e06d7d1dee5d1db803b851122f52f35e8db087924e5515eec2f377f72ef134498a548c77a6ca2cd11e0dd4cd6fd64224d2d9ec488a64b54a0cf2109d66fd
+Description: 轻点状态栏时间，展开带尖角的胶囊显示日期、星期、时分秒与实时网速，状态栏本身一个像素都不改动。
+Name: 快捷时间胶囊
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/dateinfo/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.html
 
 Package: com.zooah.debrecords
 Architecture: iphoneos-arm64
@@ -83752,6 +84030,24 @@ Author: waruhachi
 icon: https://huayuarc.github.io/icon/jikan.png
 
 Package: moe.waru.jikan
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 2712
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/moe.waru.jikan_1.2.1_iphoneos-arm64_1baeaa3596b3e2b21b833492632c256f8e6e6397b9ccb48ed8fed15a130fffb0.deb
+Size: 400232
+MD5sum: 54602ee7cffade8a7170d447d3cd926e
+SHA1: dfcbdbb02f9178320af229c90c4178cff9f8ef20
+SHA256: 1baeaa3596b3e2b21b833492632c256f8e6e6397b9ccb48ed8fed15a130fffb0
+SHA512: 434ee59393012554701da95ae3d2e1a934848582bf78967dd1c34f7e21cdc8eec432a3bd9a2ece81923cf40de6a77d6854dbfdec07494456529b42c1cfa9d668
+Description: Show time left to full charge on your lock screen
+Name: Jikan
+Author: waruhachi
+Icon: https://github.com/taikulayyds/icon/raw/refs/heads/mina/jikan.png
+
+Package: moe.waru.jikan
 Architecture: iphoneos-arm64e
 Version: 1.0.2
 Section: Tweaks
@@ -83804,6 +84100,24 @@ Description: 在锁定屏幕上显示充满电的剩余时间 Show time left to 
 Name: 锁屏充电胶囊
 Author: waruhachi
 icon: https://huayuarc.github.io/icon/jikan.png
+
+Package: moe.waru.jikan
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 2712
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/moe.waru.jikan_1.2.1_iphoneos-arm64e_451d2d878736d19182ceae1baf790d7e6480d50087ad9befe340f082beb4403f.deb
+Size: 395424
+MD5sum: ee28ad9aea6dc4ea7919eef43de3e8c1
+SHA1: 00bfe0a5bfa04ab3089cf068e534ae04545b9fc9
+SHA256: 451d2d878736d19182ceae1baf790d7e6480d50087ad9befe340f082beb4403f
+SHA512: 78c769f0513d25f847dba03932d4c791e3da094aec6a7e079ffca03fbbe591142db3038d52ba68c1c7b504cf028f9be5a4e56811b1a245d1954c0a7cd84c0236
+Description: Show time left to full charge on your lock screen
+Name: Jikan
+Author: waruhachi
+Icon: https://github.com/taikulayyds/icon/raw/refs/heads/mina/jikan.png
 
 Package: net.nyyh
 Architecture: iphoneos-arm64
@@ -84988,6 +85302,29 @@ icon: https://huayuarc.github.io/icon/dockpages.jpg
 Package: org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm64
 Version: 1.6.9.1
+Section: System
+Maintainer: Bailey Seymour
+Installed-Size: 392
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: debs/iphoneos-arm64/org.thebigboss.libcolorpicker_1.6.9.1_iphoneos-arm64_40bb8493408a53f0c8da93ee9cad2f8244daf537d13f3dc03ce7df41c4d6681e.deb
+Size: 71080
+MD5sum: b5cc8b47c46fe59896ac05b51583540b
+SHA1: 9cb1c306810bf73cc72be65c76b2d5208f1415fe
+SHA256: 40bb8493408a53f0c8da93ee9cad2f8244daf537d13f3dc03ce7df41c4d6681e
+SHA512: 084bd4bb2523b8b6aaac31377dba9813c7d90d60af746ee47beefa96ff9081d01fe0556d306f91a145749fd494f64f5df44463cbf1728bac6ad7771d4d689480
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: libcolorpicker (Unofficial)
+Author: Bailey Seymour
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=org.thebigboss.libcolorpicker
+Icon: https://p2kdev.github.io/repo/api/packageinfo/org.thebigboss.libcolorpicker/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/org.thebigboss.libcolorpicker.json
+
+Package: org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64
+Version: 1.6.9.1
 Section: Tweaks
 Maintainer: Bailey Seymour
 Depends: firmware (>= 6.0)
@@ -85022,6 +85359,30 @@ Description: An awesome library of some sort!!
 Tag: role::developer
 Name: libcolorpicker
 Author: Bailey Seymour
+
+Package: org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64e
+Version: 1.6.9.1
+Section: System
+Maintainer: Bailey Seymour
+Installed-Size: 392
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: debs/iphoneos-arm64e/org.thebigboss.libcolorpicker_1.6.9.1_iphoneos-arm64e_a9349d0351be44de073411745f14e720feeea84ab45681f287767360c2c41517.deb
+Size: 69396
+MD5sum: bb2033611f68b50304248fd2dd219ec3
+SHA1: 6b83cbce9c2c606049044b15e7de40dcd1d30e7e
+SHA256: a9349d0351be44de073411745f14e720feeea84ab45681f287767360c2c41517
+SHA512: 65c080669bb31f66b8707bdf9087052c24068ae3f2ac92b2e12b3b064ea5d32f811c02e0ef3a0f53daafb66469a269ced7468f67dba7d7cfeb019d575191f8d1
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: libcolorpicker (Unofficial)
+Author: Bailey Seymour
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=org.thebigboss.libcolorpicker
+Icon: https://p2kdev.github.io/repo/api/packageinfo/org.thebigboss.libcolorpicker/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/org.thebigboss.libcolorpicker.json
 
 Package: org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm64e
