@@ -2361,6 +2361,44 @@ Name: Hello GradientSound
 Author: zqbb
 icon: https://huayuarc.github.io/icon/gradientsound.jpg
 
+Package: cn.zqbb.hello.keyboardport
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 868
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/cn.zqbb.hello.keyboardport_1.1.0_iphoneos-arm64_481360700275c9abbf534076ff2e67c8ea2e1c2f6ed88b0e108271759c6c5db7.deb
+Size: 238676
+MD5sum: 4554b73d66ea43f1644c48f9cfddfba0
+SHA1: cbcebb9576d59222a82608f6328236f700ab830b
+SHA256: 481360700275c9abbf534076ff2e67c8ea2e1c2f6ed88b0e108271759c6c5db7
+SHA512: a19e7644645d03f5ea767625cfbbec7dbfb72284f62005f8b2032de3ace9d92c3d3ad324325083daa6483b419a48056ad49a67697c46915f2906554c2ac733aa
+Description: 独立下载可编辑雾凇词表，再与本机系统基础词库离线合并
+Name: HelloKeyboardPort
+Author: zqbb
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.keyboardport.png
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.hello.keyboardport
+
+Package: cn.zqbb.hello.keyboardport
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 868
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/cn.zqbb.hello.keyboardport_1.1.0_iphoneos-arm64e_bdc92cb11af5da265cd54d83f870347fb9e64d282355b6c7d049cb6c654f6b25.deb
+Size: 236096
+MD5sum: 1ec45e933e1b2a1ae740b14ba9108a83
+SHA1: e20faeb26a3912285ab929e4e4a9f6411b4075b5
+SHA256: bdc92cb11af5da265cd54d83f870347fb9e64d282355b6c7d049cb6c654f6b25
+SHA512: 8aca0ee81ed0f2b3c8d2817ad941d2cbef3392c57d1f0071edf281e9829c370d5ff9ade220fdbb7fa6395875f95de69e452b0ed15aaa5f507a787a4860a34d1c
+Description: 独立下载可编辑雾凇词表，再与本机系统基础词库离线合并
+Name: HelloKeyboardPort
+Author: zqbb
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.keyboardport.png
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.hello.keyboardport
+
 Package: cn.zqbb.hello.varjb
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -58720,6 +58758,25 @@ Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js
 Author: Mineek & Nathan & SINI
 
 Package: com.sini921.appstoretroller
+Architecture: iphoneos-arm64
+Version: 0.1.2-6
+Section: Tweaks
+Maintainer: SINI
+Installed-Size: 1140
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.libsandy, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.sini921.appstoretroller_0.1.2-6_iphoneos-arm64_552131d6bbe46629bf4756a573188b441f49da10aafbab00e7ac8b4d62a1d81e.deb
+Size: 238228
+MD5sum: 064c77f58c4d3e95bb5aa817519d5bd6
+SHA1: 74ca2375f3e1d961c72a1e3bcae81629fdce47ac
+SHA256: 552131d6bbe46629bf4756a573188b441f49da10aafbab00e7ac8b4d62a1d81e
+SHA512: 4a1c4e107379287bf565db3201d6f521f0adf72e8f46173dcb0996eb54d558748e6e0dc8dde39e8f0a7f9d1834996488691ce1e941a85444c9c765a56b453c85
+Description: 在AppStore中安装应用程序时伪装系统版本以安装需要更高系统版本的应用程序
+Name: AppStoreTroller
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
+
+Package: com.sini921.appstoretroller
 Architecture: iphoneos-arm64e
 Version: 0.1.2-5
 Section: Tweaks
@@ -58737,6 +58794,26 @@ Name: AppStoreTroller
 icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
 Author: Mineek & Nathan & SINI
+
+Package: com.sini921.appstoretroller
+Architecture: iphoneos-arm64e
+Version: 0.1.2-6
+Section: Tweaks
+Maintainer: SINI
+Installed-Size: 1140
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.libsandy, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.sini921.appstoretroller_0.1.2-6_iphoneos-arm64e_3ef112c231ffcf1ee663a08c8fe2a9c5746ea4593cc894c643cf00c6afc00e65.deb
+Size: 234760
+MD5sum: 4e8a0eaf31aba7e40815f61a0cb53768
+SHA1: 832364ffa89ba8038e461d6f49fc702618310be6
+SHA256: 3ef112c231ffcf1ee663a08c8fe2a9c5746ea4593cc894c643cf00c6afc00e65
+SHA512: ba25c56ef343d38d2b7e061b1125a85c77606804507f6ee329075a3f23a0774043db76d74c0b0864d7bbfe534ae85b430d0b13126df3d22d3f39b023c1e173c3
+Description: 在AppStore中安装应用程序时伪装系统版本以安装需要更高系统版本的应用程序
+Name: AppStoreTroller
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
 
 Package: com.sini921.atria
 Architecture: iphoneos-arm64
@@ -72425,6 +72502,53 @@ Description: 丝滑光标，去掉下划线。
 Name: Smoffice for 丝滑光标
 Author: wkk
 icon: https://huayuarc.github.io/icon/smoffice17.jpg
+
+Package: com.wubage.answerspeaker
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Priority: optional
+Section: Tweaks
+Maintainer: jumping8
+Installed-Size: 0
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.wubage.answerspeaker_1.0.0_iphoneos-arm64_b8df8fc17c28a4933544d259cc4ffe9476f086bf5024193be749162fc0267c45.deb
+Size: 25496
+MD5sum: 41d684b56ec8b26612c61aa91ab001d4
+SHA1: 54ddd2fc8e9ebcbaf321851222dcf161c86d2ff3
+SHA256: b8df8fc17c28a4933544d259cc4ffe9476f086bf5024193be749162fc0267c45
+SHA512: 08502fcf07ac435e839e3ec8744510dcea5ecd78ff4362fc48523366063a6a4c794ffcfb916637f6a105ef484d014769a57960796b24d5449e8aaa05de73c2a4
+Description: 来电界面增加「接听并免提」按钮，保留原生接听/拒绝按钮。
+ 全屏来电页与顶部来电横幅都会在原生接听按钮旁插入一个绿色按钮。
+ 点击后复用系统原生接听动作，再自动打开免提；不猜私有 CallKit 签名。
+ 安全设计：主线程操作、重入保护、异常熔断、崩溃自恢复、DISABLE 逃生门。
+ 设置：/var/mobile/Documents/AnswerSpeaker/config.txt
+ 日志：/var/mobile/Library/Logs/AnswerSpeaker.log
+Name: 接听免提 AnswerSpeaker
+Author: jumping8
+
+Package: com.wubage.answerspeaker
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Priority: optional
+Section: Tweaks
+Maintainer: jumping8
+Installed-Size: 0
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.wubage.answerspeaker_1.0.0_iphoneos-arm64e_41b1ce23479ddc6527191c5fbf8f8298ac0967ff0e20fdf259130d9bb0e7c1f9.deb
+Size: 26720
+MD5sum: f3173157011f9dfae332668a9bac4832
+SHA1: 9d87d9eb30d27b5d0a7df4fb8a38bd18d4340aad
+SHA256: 41b1ce23479ddc6527191c5fbf8f8298ac0967ff0e20fdf259130d9bb0e7c1f9
+SHA512: 016a38ba96918c78e3142237fc9eec6c92d2c52f82cd0191e677999b03bdfaf1b00878ac81f0cd6f27a0c8d3651a49ed3f67c7f5049325f07cfcb31e42e09bc4
+Description: 来电界面增加「接听并免提」按钮，保留原生接听/拒绝按钮。
+ 全屏来电页与顶部来电横幅都会在原生接听按钮旁插入一个绿色按钮。
+ 点击后复用系统原生接听动作，再自动打开免提；不猜私有 CallKit 签名。
+ 安全设计：主线程操作、重入保护、异常熔断、崩溃自恢复、DISABLE 逃生门。
+ 设置：/var/mobile/Documents/AnswerSpeaker/config.txt
+ 日志：/var/mobile/Library/Logs/AnswerSpeaker.log
+Name: 接听免提 AnswerSpeaker
+Author: jumping8
 
 Package: com.xamy.othellohelpervipunlock
 Architecture: iphoneos-arm64
