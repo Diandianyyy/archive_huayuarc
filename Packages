@@ -2762,6 +2762,41 @@ Name: BetterCCCrashProtect
 Author: 0xkuj
 icon: https://huayuarc.github.io/icon/Bettercc.png
 
+Package: com.0xkuj.ccbackgrounder17
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 568
+Depends: mobilesubstrate, com.opa334.ccsupport, com.opa334.altlist, firmware (>= 17.0)
+Filename: debs/iphoneos-arm64/com.0xkuj.ccbackgrounder17_1.0.0_iphoneos-arm64_1578b7f39fb8120fd42b3cc96cb818acd1412d04e49b8955de560416a27e29a8.deb
+Size: 36404
+MD5sum: 8cbd4e8f6fa0ab9a3926d7f6353c3db4
+SHA1: fbe38e7428bf4e11371acc6b97d821d485e15437
+SHA256: 1578b7f39fb8120fd42b3cc96cb818acd1412d04e49b8955de560416a27e29a8
+SHA512: 3b3e98915fdf59312780c138af6193cc6888f1dbc4c6bd57851634cdc5646b18b3ea7dd185163ecb0a43918ca03b68a4a51e5d393bf02db73ac63adcee4b1ed8
+Description: Add "Toggle Background Mode" action to Control Center, with an optional auto-toggle for chosen apps.
+Name: CCBackgrounder17
+Author: 0xkuj
+
+Package: com.0xkuj.ccbackgrounder17
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport, com.opa334.altlist, firmware (>= 17.0)
+Filename: debs/iphoneos-arm64e/com.0xkuj.ccbackgrounder17_1.0.0_iphoneos-arm64e_1b359293e32b8cb1009b6b86430f1bba99125e4bde827a129bd4fa55b57fe225.deb
+Size: 36304
+MD5sum: f879ea35c044758aa19f4288a6787243
+SHA1: 7621ff30a5ae279273145a026593a2106736acb5
+SHA256: 1b359293e32b8cb1009b6b86430f1bba99125e4bde827a129bd4fa55b57fe225
+SHA512: 3c5c095af1be03f73a5c8e6457e9b5c92db6b6fdbaf5f674e3f591107a6ab7c5a2fca620108c8da7c249e296d1404b350e6966b9753c05571359ffc6dd0f5e95
+Description: Add "Toggle Background Mode" action to Control Center, with an optional auto-toggle for chosen apps.
+Name: CCBackgrounder17
+Author: 0xkuj
+
 Package: com.0xkuj.safarix
 Architecture: iphoneos-arm64
 Version: 1.9.9.1
@@ -3556,6 +3591,24 @@ Version: 2.1.9
 Section: Tweaks
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: firmware (>= 7.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.HBWechatHelper.ailun_2.1.9_iphoneos-arm64_6d45db3c41bf38b150f164ebec1dc31dbbee4369762b65768aa64ea69fc3514e.deb
+Size: 7219084
+MD5sum: 0c3d274baa5f905349a5d54fdd6a91f6
+SHA1: 775a8acfd3c1e57c8c15b20485e5f2c315333463
+SHA256: 6d45db3c41bf38b150f164ebec1dc31dbbee4369762b65768aa64ea69fc3514e
+SHA512: 8c3ea7df4243d07ed278158670c3093b7c3c8d345de9dea59376d6ea990e71e2ae603e6ac6538083142bb1352252260f5713889b8852ef3cbababfdc829c1380
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Author: HuangBai <QQ:1343309363@qq.com>
+dev: HuangBai
+Sponsor: Mao
+Name: 黄白助手(微信娱乐插件)
+
+Package: com.HBWechatHelper.ailun
+Architecture: iphoneos-arm64
+Version: 2.1.9
+Section: Tweaks
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: firmware (>= 7.0), mobilesubstrate
 Filename: debs/iphoneos-arm64/com.HBWechatHelper.ailun_2.1.9_iphoneos-arm64_ef476a2db80e13bf33d5a2b7d31eccd6a0401fe81f6cef289277e3e343654ac0.deb
 Size: 7223088
 MD5sum: eb3730949b4d941e3d34189aa2f4bd2c
@@ -3586,6 +3639,25 @@ Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控
 Name: 黄白助手(微信插件)
 Author: HuangBai <QQ:1343309363@qq.com>
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.HBWechatHelper.ailun
+Architecture: iphoneos-arm64e
+Version: 2.1.9
+Section: Tweaks
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 7.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.HBWechatHelper.ailun_2.1.9_iphoneos-arm64e_2d2ecd4b564b4f3c11f558664b0b7560dc2251571caef6fcb343a5e5cbd940c9.deb
+Size: 7094960
+MD5sum: 8ef51af364b5cd973a9f919b6c1a5044
+SHA1: 24bc86c2ed09826f0992e88cf867e3fefc345c9e
+SHA256: 2d2ecd4b564b4f3c11f558664b0b7560dc2251571caef6fcb343a5e5cbd940c9
+SHA512: 1bfd6dad10bfb99ee5764181658cbe35ec667809667031e296fa91477a1650c913079b33e3b1827d03183305259503147f5cd88511ef28b5d488d7fc16b15513
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Author: HuangBai <QQ:1343309363@qq.com>
+dev: HuangBai
+Sponsor: Mao
+Name: 黄白助手(微信娱乐插件)
 
 Package: com.HBWechatHelper.ailun
 Architecture: iphoneos-arm64e
@@ -22941,6 +23013,23 @@ Author: YUE
 
 Package: com.example.noticelisttweak
 Architecture: iphoneos-arm64
+Version: 1.0.13+h2l1
+Section: Tweaks
+Maintainer: YUE
+Installed-Size: 1476
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.example.noticelisttweak_1.0.13+h2l1_iphoneos-arm64_a2bada09e67c75c87b0baff6c43f59b82f86c0d9766e73347b46c6f33e6268a3.deb
+Size: 344680
+MD5sum: 23df2407178e871aefefaad72698c286
+SHA1: e5b61c9eb35633c4831c866fa4448137a1d4bb88
+SHA256: a2bada09e67c75c87b0baff6c43f59b82f86c0d9766e73347b46c6f33e6268a3
+SHA512: b34f4abaec5f119e96be3e917cac1b35c25d29a55702985902bca7e9126d8a2668f0f2fd1697bd04c17a363ac3ee006a629636934a7a11530e5b087767ee404e
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Author: YUE
+Name: 通知消散
+
+Package: com.example.noticelisttweak
+Architecture: iphoneos-arm64
 Version: 1.0.1~test16+h2l1
 Section: Tweaks
 Maintainer: Local User
@@ -22988,6 +23077,23 @@ MD5sum: d1897549b1c24248ae719fd27a701cc4
 SHA1: 2885f9e7486c4fbadc0ce82b654c5bfe83ad73e4
 SHA256: dd11431b3b74df553297cba47505744eb5b8611da7911ea0bd0a4c1d91a646f0
 SHA512: 492845a6b0f8824a23fb41386a60b8b6aa9e36539b6b8e898968b4e5160eb6bf94a8bc5cd2a9869ed15f30ef17eaaeccb6b9adb8367164cf0354d16d9784aad0
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Name: 通知消散
+Author: YUE
+
+Package: com.example.noticelisttweak
+Architecture: iphoneos-arm64e
+Version: 1.0.13
+Section: Tweaks
+Maintainer: YUE
+Installed-Size: 1495
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.example.noticelisttweak_1.0.13_iphoneos-arm64e_cb08b91f2e43e18bc310e5488b44a095a589f3bb1834b348c817547236c2ea5d.deb
+Size: 344776
+MD5sum: 3f7ccfd5da3e745e80e2f01084c22409
+SHA1: b7ed4a189b760762e6c651aafc2141539e37e4d3
+SHA256: cb08b91f2e43e18bc310e5488b44a095a589f3bb1834b348c817547236c2ea5d
+SHA512: afbfc24f4aa58f6f31b80f10fb054c64a55eadc3b30be28fd5fb74d4ff826f275120b75a9f2ab98b6ef5dded7c31bacfee595bc372fd3686bcc29076938817ed
 Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
 Name: 通知消散
 Author: YUE
@@ -47130,6 +47236,25 @@ Version: 1.0.4
 Priority: optional
 Section: Tweaks
 Maintainer: Ning
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 16.0), firmware (<< 18.0), com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.ning.simcontrol_1.0.4_iphoneos-arm64e_b9f6303db966ada095d40ffb59c761b71ead113b96c3876f953ef36eb0a89ade.deb
+Size: 125204
+MD5sum: 56739263c3c57e659568b66747bdebcf
+SHA1: 2f95447749c795523f7e3905b52af2bdbc0a40ab
+SHA256: b9f6303db966ada095d40ffb59c761b71ead113b96c3876f953ef36eb0a89ade
+SHA512: 8cd23b1d8100593948d0746cff56fe89965e58e4e942e58f20cd07758e586b29d07b8c6039d738faa0fa6541f09378a1d72eecb513e0274eff740c5b43781339
+Description: Native SIM switches for the system Control Center (rootless).
+Name: SIM卡切换
+Author: Ning
+icon: https://huayuarc.github.io/icon/simcontrol.png
+
+Package: com.ning.simcontrol
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Priority: optional
+Section: Tweaks
+Maintainer: Ning
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 16.0), firmware (<< 18.0), com.opa334.ccsupport
 Filename: debs/iphoneos-arm64e/com.ning.simcontrol_1.0.4_iphoneos-arm64e_a3adaef267afad65d29523fff4a658723606195a159180b02fb76253ecc1bc04.deb
@@ -54563,6 +54688,43 @@ Author: SenseTechLab
 Sponsor: SenseTechLab
 icon: https://huayuarc.github.io/icon/DuoDash.jpg
 
+Package: com.sergy.immortalizer
+Architecture: iphoneos-arm64
+Version: 2.0.0-1
+Section: Tweaks
+Maintainer: sergy
+Installed-Size: 652
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.sergy.immortalizer_2.0.0-1_iphoneos-arm64_d8a68f014e78900662b9d938aeb9ad63e6f95685a5d1e2e1e76e3aac8a81fa5f.deb
+Size: 42844
+MD5sum: 1bcb641ce1e945bfaa85ab473f1b3a69
+SHA1: f8585a1c14ed4e4f904a02cc4b6e5bc74d262e3a
+SHA256: d8a68f014e78900662b9d938aeb9ad63e6f95685a5d1e2e1e76e3aac8a81fa5f
+SHA512: ec21d8bff2758a40451b2b5adbb847f8fb2e30223034106c0fcdf086a4ca1af2d503143c0032fd9349e64e4360398f81a6ae45578322beeb39af9fc6c4afee45
+Description: Foreground your apps even if they are in the background!
+Name: Immortalizer 真后台
+Author: sergy
+Icon: https://media.havoc.app/672ab6f3a80bcf5e2e0abe8c?w=1920&q=75
+
+Package: com.sergy.immortalizer
+Architecture: iphoneos-arm64e
+Version: 2.0.0-1
+Section: Tweaks
+Maintainer: sergy
+Installed-Size: 652
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.sergy.immortalizer_2.0.0-1_iphoneos-arm64e_42f4a3596fae376e15ce49548189bcc16aacbaaad041354e7c4a1d3db0c962bc.deb
+Size: 41344
+MD5sum: 9df6b021525e63c02c2253357fd3c995
+SHA1: e5f9cbf9954ec659b7ce8133a7ad05a41295e582
+SHA256: 42f4a3596fae376e15ce49548189bcc16aacbaaad041354e7c4a1d3db0c962bc
+SHA512: f36fd0145e3e4bd1f2a8a4d6ae0b115d93b006008ee35bad7b78ea7972584e9d52b9f27d9a66ef816798d18e4e0bda7def0020371e3a9e3cf8d4bd839d3a9985
+Description: Foreground your apps even if they are in the background!
+Name: Immortalizer 真后台
+Author: sergy
+Icon: https://media.havoc.app/672ab6f3a80bcf5e2e0abe8c?w=1920&q=75
+
 Package: com.shadow.h5ggapp
 Architecture: iphoneos-arm64
 Version: 7.9
@@ -54606,6 +54768,26 @@ SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.
 Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
 
 Package: com.sharehotspotvpn.tweak
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Section: Networking
+Maintainer: zhuifeng
+Installed-Size: 948
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.sharehotspotvpn.tweak_1.2.2_iphoneos-arm64_df81a94aca9082e54c534b39704f8e933d2d63eaa664a26cae565ecb6e85a154.deb
+Size: 94072
+MD5sum: 95ba6a7c480747f24d84d03903abea55
+SHA1: ddffa7ad801ca1ce9f99bb71bcd12f6be1cb6d01
+SHA256: df81a94aca9082e54c534b39704f8e933d2d63eaa664a26cae565ecb6e85a154
+SHA512: 66028719a46bdaf506c45efdfa60367fd4a2b1d6eae48ac02e0fdef299c6cd5769d11614f077d5a0a72dd8010a50e6b7e64ec0bdcacbda927c4521e5599aedae
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持 Wi-Fi+VPN 叠加与状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Name: VPN热点共享
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+
+Package: com.sharehotspotvpn.tweak
 Architecture: iphoneos-arm64e
 Version: 1.1.7
 Section: Networking
@@ -54619,6 +54801,26 @@ SHA1: b8e41a634109d7c9807de1245e74c82130de9668
 SHA256: 90bcecafd8d1c05102e12e9ec18bafbcba772fd9efe23b135ce70116a9d8f517
 SHA512: 574907a9960920cf26bb792fff9dabac60e5c4a1d7bb4cda68387cdba25c5cf3c7f6ec5518848e6c4468a9da07be907a76a767e3f1f116fdf16752914921a433
 Description: 一键通过个人热点共享本机 Shadowrocket/VPN，连入设备零配置，支持控制中心快捷开关、DNS/UDP 转发与防 IPv6 泄露，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Name: VPN热点共享
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+
+Package: com.sharehotspotvpn.tweak
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Section: Networking
+Maintainer: zhuifeng
+Installed-Size: 484
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.sharehotspotvpn.tweak_1.2.2_iphoneos-arm64e_f12f6dba8925f3fd538e29402b00b14530480b8ba2706ed19667c0435fd26991.deb
+Size: 77184
+MD5sum: 70e8445f0902cfa74ce9ef3c8b58a72f
+SHA1: 32a882feff5c788ed94c81e5ba1587ad64182187
+SHA256: f12f6dba8925f3fd538e29402b00b14530480b8ba2706ed19667c0435fd26991
+SHA512: f021faa89bf3d535d7381a02d94106c3fac808949ff3a1bfcb7913c759905d8b0ff2ff9a89f41641df39f707e970ad60fff95ef4fb7738323861fee6e6980734
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持 Wi-Fi+VPN 叠加与状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
 Name: VPN热点共享
 Author: zhuifeng
 Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
@@ -61678,6 +61880,41 @@ Author: H5GG
 dev:
 Depiction:
 Icon: https://mlgm66.github.io/icon/h5gg.png
+
+Package: com.sunny-guo.replace5gplus
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: Sunny-Guo
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.sunny-guo.replace5gplus_2.0_iphoneos-arm64_fcbb6b794f948b056cb741386f4b3caee8db1a52d29161e7ea3b60667a456ccd.deb
+Size: 4228
+MD5sum: 0f6b8e903a818becf35782f300e8c94a
+SHA1: 9cffe02e6e3ab1c664f53170ffd96fdb8e863bd8
+SHA256: fcbb6b794f948b056cb741386f4b3caee8db1a52d29161e7ea3b60667a456ccd
+SHA512: 49e4c505bb1dba3958e68a03f4de34b613b4b222c5276130c7799302a62382b74ba0aa04551acd1f6e03791eac5442f09288f4e5fca1f2d2dc2feb7d634681e5
+Description: 把状态栏5G+替换成5Gᴀ，2.0版新增适配CarPlay
+Name: Replace5GA
+Author: Sunny-Guo
+
+Package: com.sunny-guo.replace5gplus
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: Sunny-Guo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.sunny-guo.replace5gplus_2.0_iphoneos-arm64e_6173c6824d9633599375ab243c1b8b7f6600e7f8eeb67e614aa6ef470afc2e6b.deb
+Size: 4088
+MD5sum: 3d61a9d58331044c67d9fd3bf15bbf0c
+SHA1: d3b9261aee17ba6c7a8779bf0cb1908408071fdd
+SHA256: 6173c6824d9633599375ab243c1b8b7f6600e7f8eeb67e614aa6ef470afc2e6b
+SHA512: 8ea44db51ffe9d7582753d1fde32e69c903cf12746ebe1f8a834a88971ba2280af42b3264dcb1887618a04932ccec52426d397a184d6c8b4ff20fead1fea1ef1
+Description: 把状态栏5G+替换成5Gᴀ，2.0版新增适配CarPlay
+Name: Replace5GA
+Author: Sunny-Guo
 
 Package: com.sunshinesong.native-island
 Architecture: iphoneos-arm64
@@ -72991,6 +73228,26 @@ Author: XUUᶻ
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.xuuz.douyinhelper
+Architecture: iphoneos-arm64
+Version: 2.3-3
+Priority: optional
+Section: Tweaks
+Maintainer: XUUᶻ
+Installed-Size: 17840
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.xuuz.douyinhelper_2.3-3_iphoneos-arm64_269a03ed79b932f9ac29387125b23ab44f4a64a6a33fa3d9cf4cc5355f6368f6.deb
+Size: 6881664
+MD5sum: 3c548b0bf5dcbaa4fc423f5f6620c817
+SHA1: 44cf276613387a3f08f6f62f6354042a9177669f
+SHA256: 269a03ed79b932f9ac29387125b23ab44f4a64a6a33fa3d9cf4cc5355f6368f6
+SHA512: 06cabfaa5a8d5a4313cc6928bd4fc3fb2a34f0346e76ba67bce84ac56f72db15fc92fbaaa878fad93765666c9e1e5dbcb6dac28717c082fcc2dd3912fbd49437
+Homepage: https://tc.uddz.cc/xuuz
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Name: 抖音助手
+Author: XUUᶻ
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.xuuz.douyinhelper
 Architecture: iphoneos-arm64e
 Version: 2.2-4
 Priority: optional
@@ -73150,6 +73407,27 @@ MD5sum: d0d274ffe787efc05990da8d0da61574
 SHA1: ff146e9b0e2df9b6801d972aa21751f1ce5ca3f2
 SHA256: 3c6e63a9ec7b02f3516c01bd057582afe35e8935ca9edb8b1f81489443ee5042
 SHA512: 31dc87351c8ccb04da5eb1722094d5f15893f8f789ad86a7acf1e6d2e06c748b9f31cebdc14f7fcf80c4d38aec33e636deb9195cb3c71c2cb8174b2aa71ad84a
+Homepage: https://tc.uddz.cc/xuuz
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Name: 抖音助手
+Author: XUUᶻ
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.xuuz.douyinhelper
+Architecture: iphoneos-arm64e
+Version: 2.3-3
+Priority: optional
+Section: Tweaks
+Maintainer: XUUᶻ
+Installed-Size: 17840
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.xuuz.douyinhelper_2.3-3_iphoneos-arm64e_afe8f38b43750907de1daaa41866328fb4c3c89e0d13b89ac9f272f74ceddeab.deb
+Size: 6887532
+MD5sum: 9a15c7de11445db043749fed3f6584ba
+SHA1: 39052a7a1022c0835eba1a9ea9c7a51a22655b60
+SHA256: afe8f38b43750907de1daaa41866328fb4c3c89e0d13b89ac9f272f74ceddeab
+SHA512: 0209b83ed05b5742a37dd5df90d51ed1170ad46c21f25f65b6e207fac51c8ac61f2ccc35311e1976fe1e7abe41d8f81668d2509e1b2ef0188387a5676c9a0214
 Homepage: https://tc.uddz.cc/xuuz
 Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
 Name: 抖音助手
@@ -74789,6 +75067,26 @@ SileoDepiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.json
 Depiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.html
 
 Package: com.zhuifeng.dateinfo
+Architecture: iphoneos-arm64
+Version: 1.3.9
+Section: Tweaks
+Maintainer: zhuifeng
+Installed-Size: 792
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64/com.zhuifeng.dateinfo_1.3.9_iphoneos-arm64_71cee2f569eabf21e232dfb621eed3cb8d94aa466db132b7c27e262be2cb3f2f.deb
+Size: 117936
+MD5sum: 04ec053dff7ef21827a5eaf0bdd23e8f
+SHA1: 31b7d378e9673edb14338f341100ee385e1b9187
+SHA256: 71cee2f569eabf21e232dfb621eed3cb8d94aa466db132b7c27e262be2cb3f2f
+SHA512: 30559b661ff5037898904908637cca8ab6de0a85ecdd838a6048ce9c18870894eee6e22faabc5878747537561502231243b28d5d0ab2107eec3a991a121b150f
+Description: 轻点状态栏时间，展开带尖角的胶囊显示日期、星期、时分秒与实时网速，状态栏本身一个像素都不改动。
+Name: 快捷时间胶囊
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/dateinfo/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.html
+
+Package: com.zhuifeng.dateinfo
 Architecture: iphoneos-arm64e
 Version: 1.3.8
 Section: Tweaks
@@ -74807,6 +75105,66 @@ Author: zhuifeng
 Icon: https://temple002.github.io/zhuifeng/depictions/dateinfo/icon.png
 SileoDepiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.json
 Depiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.html
+
+Package: com.zhuifeng.dateinfo
+Architecture: iphoneos-arm64e
+Version: 1.3.9
+Section: Tweaks
+Maintainer: zhuifeng
+Installed-Size: 792
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64e/com.zhuifeng.dateinfo_1.3.9_iphoneos-arm64e_81e277ee406ebf6fc783c63f583b1d1778b1d176f2495cc14b07ee054cf21e31.deb
+Size: 117756
+MD5sum: 0d55191de0738dccda8cfb4a3c3b6429
+SHA1: f309673cdda0b227a01026ae2c4bd391e75f5738
+SHA256: 81e277ee406ebf6fc783c63f583b1d1778b1d176f2495cc14b07ee054cf21e31
+SHA512: 86843bd0d311ff81f9f7f973b3173f7429a5c62d717f890eee8988463539b3a4a9361abcd7d1f779b683fb9293503be8c19484edfd96d27103ab0d69d4ad4936
+Description: 轻点状态栏时间，展开带尖角的胶囊显示日期、星期、时分秒与实时网速，状态栏本身一个像素都不改动。
+Name: 快捷时间胶囊
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/dateinfo/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.html
+
+Package: com.zhuifeng.nobgalbumaccess
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: zhuifeng
+Installed-Size: 440
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate | ellekit, preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64/com.zhuifeng.nobgalbumaccess_1.0.2_iphoneos-arm64_97fa5ce56e7d7f3ae55bbc7d38016a04b1a05a9e95995447cfb114d4a3ff9d2f.deb
+Size: 49676
+MD5sum: 5465961cbf3d9b0e18018eea0606c722
+SHA1: f6ae0bda610860bf37dba8c616670254c65e859e
+SHA256: 97fa5ce56e7d7f3ae55bbc7d38016a04b1a05a9e95995447cfb114d4a3ff9d2f
+SHA512: 21b2b0462cfd512c87e41cd24868fd534f4d33fc4f4225bdec7c0f2f1ac3ebd5b54b3115af76e9345d24be2dc390f1ac041b3c06c3972ea402545252b18fa2b5
+Description: 禁止指定 App 在后台读取相册
+Name: 禁止后台读取相册
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/icon-nba.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/nobgalbum.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/nobgalbum.html
+
+Package: com.zhuifeng.nobgalbumaccess
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: zhuifeng
+Installed-Size: 440
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate | ellekit, preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64e/com.zhuifeng.nobgalbumaccess_1.0.2_iphoneos-arm64e_af12b9e071504234e146e7274404362049799d1aa80a15d4c939252f00ac5341.deb
+Size: 48872
+MD5sum: 4ceddef19225a22358f34b6f8f977de3
+SHA1: 978e1e39be4daa7d1317539fbd7177f0461abf30
+SHA256: af12b9e071504234e146e7274404362049799d1aa80a15d4c939252f00ac5341
+SHA512: 9c2bd2ec885c100a373afdc57f3a4c7149f5d0add24931a7ab62e896addb78a4c3e7beff53040d2ddc0f4b73cba81d13c7703a6daf0ba4fb763797530db43c93
+Description: 禁止指定 App 在后台读取相册
+Name: 禁止后台读取相册
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/icon-nba.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/nobgalbum.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/nobgalbum.html
 
 Package: com.zooah.debrecords
 Architecture: iphoneos-arm64
@@ -82733,6 +83091,29 @@ Name: Sleipnizer for Safari
 Author: r_plus
 Sponsor: r_plus
 Icon: https://huayuarc.github.io/icon/Sleipnizer.png
+
+Package: jp.soh.reprovisions
+Architecture: iphoneos-arm64e
+Version: 1.1.164
+Priority: optional
+Section: Utilities
+Maintainer: AmorCool <admin@reprovision.dev>
+Depends: firmware (>= 15.0), zip, unzip
+Conflicts: jp.soh.reprovision
+Filename: debs/iphoneos-arm64e/jp.soh.reprovisions_1.1.164_iphoneos-arm64e_f5cf8db4356bb24a6107eb639ba03ccd20ac183b44091883cc5a772f482d77d3.deb
+Size: 4200184
+MD5sum: 1f860128f2100b9974a79655e50f8281
+SHA1: 9da0c291b98626393f66718b1d1ecb35d2422dcd
+SHA256: f5cf8db4356bb24a6107eb639ba03ccd20ac183b44091883cc5a772f482d77d3
+SHA512: cbe058c7aee4890d07437930b61ef743284cbd9307cf7409cdda991681ec9943e58302a2a6cd383b8c9a724487f8f62c08900468c056fac3a435cd7f0b2fa459
+Description: 使用 苹果 ID 续签 IPA
+ * 仅支持 iOS 17 Relaxin 越狱
+ * 解决非巨魔设备签名 Relaxin IPA 问题
+ * Re-signing tool for iOS jailbreak
+Name: ReSign 苹果 ID 续签
+Author: Coolapk@Analytics
+Icon: https://TrollStoreX.Github.io/sileodepiction/ReSign/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ReSign/js.json
 
 Package: jp.soh.reprovisions
 Architecture: iphoneos-arm64e
@@ -92109,6 +92490,41 @@ Description: BigSurCenter replaces the default iOS control center with a new lig
 Icon: https://huayuarc.github.io/icon/SurCenter.png
 Name: BigSurCenter
 Author: nicho1asdev
+
+Package: xyz.cypwn.cahighfpsuzra
+Architecture: iphoneos-arm64
+Version: 2.1.2
+Section: Tweaks
+Maintainer: CyPwn
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
+Filename: debs/iphoneos-arm64/xyz.cypwn.cahighfpsuzra_2.1.2_iphoneos-arm64_e6da62c6b5aa0fcb55f1479fb569422c23e651a65e2be1517bef4de0df6a6d3f.deb
+Size: 12640
+MD5sum: 84322fe647dae0f73ba3f9f35be74684
+SHA1: 91563a8259350966ea8a47f1750ff7cc15d9e77f
+SHA256: e6da62c6b5aa0fcb55f1479fb569422c23e651a65e2be1517bef4de0df6a6d3f
+SHA512: 3fbf643f2aae116a6338f81a8053e4beafe93c8bfe565ee9405f536b41581929de181d43f0c3e93bda9b29516b2d598a6c4292cd87fb0f01067ef194245b6123
+Description: Make CoreAnimation apps use the highest available FPS. Custom FPS option added by uz.ra (@ChromiumCandy)
+Icon: https://repo.cypwn.xyz/packages/CAHighFPS-Rootless/icon.png
+Name: CAHighFPS
+Author: PoomSmart & uz.ra
+
+Package: xyz.cypwn.cahighfpsuzra
+Architecture: iphoneos-arm64e
+Version: 2.1.2
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
+Filename: debs/iphoneos-arm64e/xyz.cypwn.cahighfpsuzra_2.1.2_iphoneos-arm64e_67cd955be1383a233d8484870a2ea5ccc802d2a0cc8349d583638d4f7f1078d8.deb
+Size: 12048
+MD5sum: a7f9c4c5cc7b66ff05f77b286757917d
+SHA1: d0c9b86bcab928c80c3a554a3cf21c98829ed072
+SHA256: 67cd955be1383a233d8484870a2ea5ccc802d2a0cc8349d583638d4f7f1078d8
+SHA512: eb8d2bd96cf9cfbd1525b7927ec0c614c32fde67afd41a9437cc13372a1fdbe0b81b5899a87dfa3aaafa5712a5dbb7ce29a066dd36d4a6d480a7515d5634322c
+Description: Make CoreAnimation apps use the highest available FPS. Custom FPS option added by uz.ra (@ChromiumCandy)
+Icon: https://repo.cypwn.xyz/packages/CAHighFPS-Rootless/icon.png
+Name: CAHighFPS
+Author: PoomSmart & uz.ra
 
 Package: xyz.cypwn.fugap
 Architecture: iphoneos-arm64
