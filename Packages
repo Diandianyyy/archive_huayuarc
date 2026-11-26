@@ -59745,6 +59745,25 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/liquidglassswitch.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/liquidglassswitch/js.json
 
 Package: com.sini921.liquidglassswitch
+Architecture: iphoneos-arm64
+Version: 0.0.1-9
+Section: Tweaks
+Maintainer: SINI
+Installed-Size: 676
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
+Filename: debs/iphoneos-arm64/com.sini921.liquidglassswitch_0.0.1-9_iphoneos-arm64_3a8f63d535a5dce1d5e9fed3266e7b64c4ee8a554cc5a4fddb024fa38798aae4.deb
+Size: 118792
+MD5sum: 94872ffda1ce8c976037fc18871c8655
+SHA1: 4e9e563a2f3596dbd2afdb74aa80a7f07e97089c
+SHA256: 3a8f63d535a5dce1d5e9fed3266e7b64c4ee8a554cc5a4fddb024fa38798aae4
+SHA512: 07cdf0ef673a3123d65d1cfc17e23e7eddecaa7620d97d0ae5a40c9610753d7dad10d1b0080f380b7b436b3f0e251f7c1ad5984e9f8fedf064d21aab282c59c9
+Description: 液态玻璃开关
+Name: LiquidGlassSwitch
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/liquidglassswitch.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/liquidglassswitch/js.json
+
+Package: com.sini921.liquidglassswitch
 Architecture: iphoneos-arm64e
 Version: 0.0.1-8
 Section: Tweaks
@@ -59757,6 +59776,25 @@ MD5sum: 1a18e503164c69aeecddcbf10f367ae5
 SHA1: ed33c321836871087970fdc0a02cede5b604f868
 SHA256: 6080c8f55fd82627af9e6e6026e1d48afba618c1bb823771b983967802b6fdf6
 SHA512: e3d00c8b0bf1946b9751440027d45bf6c21aff1dee29cb67e885d1fba82692ba80d503ad256dc0630bef4ef7ee42974eef3d6d8b452cab9d2bd1887336667a64
+Description: 液态玻璃开关
+Name: LiquidGlassSwitch
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/liquidglassswitch.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/liquidglassswitch/js.json
+
+Package: com.sini921.liquidglassswitch
+Architecture: iphoneos-arm64e
+Version: 0.0.1-9
+Section: Tweaks
+Maintainer: SINI
+Installed-Size: 660
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
+Filename: debs/iphoneos-arm64e/com.sini921.liquidglassswitch_0.0.1-9_iphoneos-arm64e_1e66c47ac8283ec371cfc40b951222d7ff867e25745d2fcc9567112c84d0a53e.deb
+Size: 117008
+MD5sum: 1d2f26f13103ab61306abccfe0f594b7
+SHA1: 2d8c5b221dfd83c7fb5beaac0d22790d12c9213b
+SHA256: 1e66c47ac8283ec371cfc40b951222d7ff867e25745d2fcc9567112c84d0a53e
+SHA512: b522c019c164d780ce72192f0bcdb4764cf95057a9eb8b5090ebc2bc96c5f0c92022b2197236569619da001f9f7959ff62fccb8252b37dc5f16d5b1e5d28ad71
 Description: 液态玻璃开关
 Name: LiquidGlassSwitch
 Author: SINI
@@ -91788,6 +91826,26 @@ Description: 自用
 Name: 小红薯
 Author: 𝙓
 icon: https://huayuarc.github.io/icon/xhs.jpg
+
+Package: xyz.cypwn.aerial
+Architecture: iphoneos-arm64e
+Version: 5.1k
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/xyz.cypwn.aerial_5.1k_iphoneos-arm64e_6551720dd909c3747107d88cce055f195a25000010a99fd6a20dc5617ba067f4.deb
+Size: 14659144
+MD5sum: 57aa9843674dd00da7925be0c216354d
+SHA1: 23b674a80270b6c9ea1f79791d7710bc7649c61e
+SHA256: 6551720dd909c3747107d88cce055f195a25000010a99fd6a20dc5617ba067f4
+SHA512: 7569984d27b788b650648e01df19eee77b156824718fb0ee691aaa8adfd889c58a45ad363c9e094a301898ff283261c1b9d5d8cdcf77edde6b7c5de9e9cf0368
+Description: Stage Manager, redesigned for iOS. Cracked by trwmd34.
+Depiction: https://repo.cypwn.xyz/depiction/3630
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3630
+Icon: https://repo.cypwn.xyz/packages/Aerial-Rootless/icon.png
+Name: Aerial
+Author: uz.ra
 
 Package: xyz.cypwn.anouk
 Architecture: iphoneos-arm64
