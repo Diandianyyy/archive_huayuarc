@@ -22083,6 +22083,24 @@ Author: DY778
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.dy778.douyin
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Section: Tweaks
+Maintainer: DY778
+Installed-Size: 4824
+Depends: firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.dy778.douyin_1.1-2_iphoneos-arm64_35fd65b37037e30bf32d180cec6929e213f705fa0d95ce82f4e1f5f9b6d48d35.deb
+Size: 1557004
+MD5sum: 4d280e882734489adb2e046f025ae1a0
+SHA1: 65ccc36f72aad9f29e9293fbedf15cfadf969bd5
+SHA256: 35fd65b37037e30bf32d180cec6929e213f705fa0d95ce82f4e1f5f9b6d48d35
+SHA512: edce52d87c577b3e11d8e3c9670093809a7319a12a1f5f02616eac126e6d5f3d63b94af2f655166292e23b9531e782a3de4f670a2d8ec9d511e3404ae05957ea
+Description: DY778 · 消息留存、特别关注、直播信息、直播间工具、星牌查询、操作确认与播放增强。适配抖音 39.9.0。
+Name: DY778
+Author: DY778
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.dy778.douyin
 Architecture: iphoneos-arm64e
 Version: 1.0-1
 Section: Tweaks
@@ -22117,6 +22135,25 @@ MD5sum: f0712ebfeee3d2ecfaa73851bdd90611
 SHA1: 6202249f69ccf114d0774e5eeb36c6d0c46decb5
 SHA256: acc33a4e41d81574b1ca8ca07a5532aa6a294eec7136faa4285ad51dc5748d25
 SHA512: 1dc34810782f7ea202b92af0237a561405236e65e84af2fe65a3d43af450bf7c2d4a097fce937f25b4fd85f65ef4e77e606873c59c50c7d744c99175f18a6956
+Description: DY778 · 消息留存、特别关注、直播信息、直播间工具、星牌查询、操作确认与播放增强。适配抖音 39.9.0。
+Name: DY778
+Author: DY778
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.dy778.douyin
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Section: Tweaks
+Maintainer: DY778
+Installed-Size: 4824
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0)
+Filename: debs/iphoneos-arm64e/com.dy778.douyin_1.1-2_iphoneos-arm64e_ac070aee2b3603d12d0818de3df324075f9e9fd29d63c52554cec3294a1b8b93.deb
+Size: 1556612
+MD5sum: d76569ce572a5f42695e9ca3c0fbf7f5
+SHA1: 845010176bc515bf346f547ee89f75dae71d4823
+SHA256: ac070aee2b3603d12d0818de3df324075f9e9fd29d63c52554cec3294a1b8b93
+SHA512: 2252089419bfc399e8d40efd205fd25e5c073b365509d05da097d1f7080fde063b2c516d158cefdd61c320a4fa5723059effb516c4b440b559afe11325bc8b38
 Description: DY778 · 消息留存、特别关注、直播信息、直播间工具、星牌查询、操作确认与播放增强。适配抖音 39.9.0。
 Name: DY778
 Author: DY778
@@ -38402,6 +38439,38 @@ Name: libMiROShared
 Author: MiRO <tweaks_support@miro92.com>
 Icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/libmiroshared/js.json
+
+Package: com.mjh.spdbadblock
+Architecture: iphoneos-arm64
+Version: 0.2.0
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 92
+Filename: debs/iphoneos-arm64/com.mjh.spdbadblock_0.2.0_iphoneos-arm64_ed01c2dbb17a3387bed760e1fc2c886918a0efb5bf53daf616149b328083e939.deb
+Size: 27064
+MD5sum: 89b6de7eae1fef341d925871b6c1c2dc
+SHA1: fda413d00f0b82466e2026c4ee57e4bcc3ab79f5
+SHA256: ed01c2dbb17a3387bed760e1fc2c886918a0efb5bf53daf616149b328083e939
+SHA512: 0773db3f13df9db14dbf280a641baf761fbcb74b573807e469f96c1d721bac38ff0da04304173d937fb5e6b5220019e68d1d981a32235d57f5c34a3eba6be6db
+Description: 浦大喜奔 App 屏蔽越狱检测，移除开屏广告。
+Name: 浦大喜奔去开屏广告
+Author: Junhong
+
+Package: com.mjh.spdbadblock
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 92
+Filename: debs/iphoneos-arm64e/com.mjh.spdbadblock_0.2.0_iphoneos-arm64e_6de4b426cfbf7fda689ceb1db83a7fa009d1e049c85177c5542191bb72b241a0.deb
+Size: 23128
+MD5sum: 3b08aba87b14727a12eafc64075fc334
+SHA1: c1c536d61ca71dab374c4779ba541c7872dd14b8
+SHA256: 6de4b426cfbf7fda689ceb1db83a7fa009d1e049c85177c5542191bb72b241a0
+SHA512: 5294360848af3b54b50f03967979f388653576f4d950dc75944812344d57336ef2164548fe7e48f251c687df872918d1f74ed6afe758034cfc711eb5d35011d9
+Description: 浦大喜奔 App 屏蔽越狱检测，移除开屏广告。
+Name: 浦大喜奔去开屏广告
+Author: Junhong
 
 Package: com.mjh.threadsglass
 Architecture: iphoneos-arm64
@@ -60908,6 +60977,39 @@ Name: 抖音优化
 Author: siwenjiajia
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
+Package: com.sjj.douyin-update-block
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: SJJ
+Depends: firmware (>= 14.0), mobilesubstrate | ellekit | com.ex.substitute
+Filename: debs/iphoneos-arm64/com.sjj.douyin-update-block_1.0.2_iphoneos-arm64_ef158f3f0f07225ad289612c9d5bc3f796691cc0b1115056db7997f55e6186d3.deb
+Size: 11976
+MD5sum: bab1ed03be8a3ddc05788484e8018f99
+SHA1: b76b2bfc683a0dbb4e791a734e9993916a375f1e
+SHA256: ef158f3f0f07225ad289612c9d5bc3f796691cc0b1115056db7997f55e6186d3
+SHA512: 33c6117b9d4c7f79236f35a8ca2fd163a5c0110f2ac6498b36e655d62ae7dfaa6baf4acf47ac183fe2ea28ffd90e0d1707428b37ad989a08eefbcf3a83cb7e83
+Description: 屏蔽抖音应用内更新提示，支持抖音多开，在抖音设置中管理。
+Name: 屏蔽抖音检测更新
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.sjj.douyin-update-block
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: SJJ
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate | ellekit | com.ex.substitute
+Filename: debs/iphoneos-arm64e/com.sjj.douyin-update-block_1.0.2_iphoneos-arm64e_73d5623cad16029f59d563107e86e608d15d15aa9dcaf885d47207a25c659687.deb
+Size: 12084
+MD5sum: dd661830d97e1f0470f5c749e04b808a
+SHA1: 7a0d4070097eedbe739ba40747557d778d05dc86
+SHA256: 73d5623cad16029f59d563107e86e608d15d15aa9dcaf885d47207a25c659687
+SHA512: b52dfc9062afe454cd9b314df017882a904f260270d96143f25abec91a57be1c5c6b37afbfc6fe7ef367fa19ea651c521a8ae3e16a96f895daa101594d8fc331
+Description: 屏蔽抖音应用内更新提示，支持抖音多开，在抖音设置中管理。
+Name: 屏蔽抖音检测更新
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
 Package: com.snail.allowlocationonce.roothide
 Architecture: iphoneos-arm64e
 Version: 1.0.2
@@ -75515,6 +75617,26 @@ SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.js
 icon: https://huayuarc.github.io/icon/swipedeck.png
 
 Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.6.8-3
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 8400
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.zooah.swipedeck_0.6.8-3_iphoneos-arm64_9596b4868cb6ae5d5936940ba970deab2484fff110334c9ed9f2763a33a24efc.deb
+Size: 2675552
+MD5sum: 4b2c44e1fbd57b67ac6317345159881d
+SHA1: d6b15b2ac697aa4724cb8ba1a4957019858db56a
+SHA256: 9596b4868cb6ae5d5936940ba970deab2484fff110334c9ed9f2763a33a24efc
+SHA512: 2f019c8332b6da0f3af712ed640d2861153c28c765aeca34d500a82f5cf8a606735d58d4f512ed37d7bc1eb27fe42db52793a68112e51bc191fc48b9db08545f
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
 Architecture: iphoneos-arm64e
 Version: 0.5.2-16
 Section: Tweaks
@@ -75831,6 +75953,27 @@ MD5sum: 69fb52dcf2f93cce50dcabf2c9e2a594
 SHA1: 5e8e3359794696570409ca46812048b0ac8a2980
 SHA256: dd55d2f76b2e0978dcb802285b68f7e6b1e01b12d511bb1006c60ab683452d15
 SHA512: 180d8f3897956f72f0d1234186a9cd19c01373daa278e63680f6413204f663708f59b6f4696cf11fc245f72ea8d057c44d9b62ca5b8fd1e686e6537dde5add89
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.6.8-3
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 8400
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.zooah.swipedeck_0.6.8-3_iphoneos-arm64e_302967068d2ca8b32345c79cd23870656b1eda28a1b48cdccd737c3c31a3d652.deb
+Size: 2643180
+MD5sum: b41c31c51da672c0dc38eb0bd786f813
+SHA1: 56c4c183e2c0402ef6c40602aff5992b6ec482cd
+SHA256: 302967068d2ca8b32345c79cd23870656b1eda28a1b48cdccd737c3c31a3d652
+SHA512: 6fbddd90b3634db4aeeec8ff550d1b1198b2fe7847cca29dc5def18f5328854e53cd678c855c671d9d1b77546539c760943e708b458b62a33fbe14a20821be41
 Description: Quick action panel accessible by swiping up from the bottom-right corner.
              Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
 Name: SwipeDeck - 快捷助手
@@ -77957,6 +78100,38 @@ Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再
 Name: 醒图国际版修复工具
 Author: Junhong
 icon: https://huayuarc.github.io/icon/hypicfix.jpg
+
+Package: im.mjh.bodianadkiller
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 168
+Filename: debs/iphoneos-arm64/im.mjh.bodianadkiller_1.0.1_iphoneos-arm64_46481b4d65ddda692c13d07a3c0387f96ed4b5cb565db54276f95122c78d2edf.deb
+Size: 5672
+MD5sum: 0893d17498869af129d4f79f3f461eb2
+SHA1: 7a3f20e0b96e100bcc55022c8fb44e95448fdfec
+SHA256: 46481b4d65ddda692c13d07a3c0387f96ed4b5cb565db54276f95122c78d2edf
+SHA512: 2ef45941374b468a76913bac007e55a12b9bcd77f63fa8ca3b43f111a2cc20db87a60c354e3b9520f1aa9ad08e21b2410578c3e4a5e0e48970a9dbf96b21b94a
+Description: 波点音乐开屏广告和首页横幅广告拦截。
+Name: 波点音乐去广告
+Author: Junhong
+
+Package: im.mjh.bodianadkiller
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 168
+Filename: debs/iphoneos-arm64e/im.mjh.bodianadkiller_1.0.1_iphoneos-arm64e_9c5a640c7e23ae23c81b58691e7c9e2b429c3de9b8d68574c5691d9fc9365461.deb
+Size: 5636
+MD5sum: 3fae41b4e62a77c84cd65646ef8e3400
+SHA1: 2fda083ca54bd6f44e3cd4bba48805bfa3583a29
+SHA256: 9c5a640c7e23ae23c81b58691e7c9e2b429c3de9b8d68574c5691d9fc9365461
+SHA512: d2e73e7293800706670275c0d39ae503b5a8a2ab1a5f6f925e653c937e9a0bf70a7b8ed8e897eff3ecdb7017ef0fa10e61ffb6ffc7a9fedcb50bf8cd0ff16959
+Description: 波点音乐开屏广告和首页横幅广告拦截。
+Name: 波点音乐去广告
+Author: Junhong
 
 Package: im.mjh.doleo
 Architecture: iphoneos-arm64
