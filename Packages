@@ -23195,6 +23195,23 @@ Author: YUE
 Name: 通知消散
 
 Package: com.example.noticelisttweak
+Architecture: iphoneos-arm64
+Version: 1.0.27+h2l1
+Section: Tweaks
+Maintainer: YUE
+Installed-Size: 1613
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.example.noticelisttweak_1.0.27+h2l1_iphoneos-arm64_52be36c64c9b135f363d179f671f96fa90b09bb321e5e3eeeca5fd007f508f34.deb
+Size: 375260
+MD5sum: 336d4ff974f7c02e30c4fbb8eaeef326
+SHA1: 54cc70c4b9d5b93762f87b8213da9d8a05705503
+SHA256: 52be36c64c9b135f363d179f671f96fa90b09bb321e5e3eeeca5fd007f508f34
+SHA512: ed31c5bdf9347f1d8b7bec9dd376c9138bf92d4fd886a88df7fb7f693cc47f6dfab6e6c819183f9e081d38dae162733819f93921f868e5f11d2ce13aa186e852
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Author: YUE
+Name: 通知消散
+
+Package: com.example.noticelisttweak
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Section: Tweaks
@@ -23296,6 +23313,23 @@ MD5sum: 0cb85cc9b017739854fddb30e387e45a
 SHA1: cfc2a369b2db40d76d4a3904c2e49417493c8949
 SHA256: c458f5f8a60d7f8a6b714714acc43a7baf6abd724f7d4d2b449669c75e387bae
 SHA512: 7c244a6e3da12aef21b03176af8f8c8034144121c7be70c7c2230d26a81fe25f56fed4e048c04d4850bcb9b1c8ca6382ffaffa390f663f424ddf238a218aaf6c
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Name: 通知消散
+Author: YUE
+
+Package: com.example.noticelisttweak
+Architecture: iphoneos-arm64e
+Version: 1.0.27
+Section: Tweaks
+Maintainer: YUE
+Installed-Size: 1632
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.example.noticelisttweak_1.0.27_iphoneos-arm64e_64bbd7235db81ccbd0ea00a59d91d93c01f597d6678903c7b7f55be6a1a69c16.deb
+Size: 374036
+MD5sum: cfc558fe994186e136498729d825e7bf
+SHA1: 74dcbaa245ae3f7206e98500f3a60f8fb62b777d
+SHA256: 64bbd7235db81ccbd0ea00a59d91d93c01f597d6678903c7b7f55be6a1a69c16
+SHA512: 27a4d3e092d7796caa0bb6965f28cd2494952310d7c2a6811f713a8d5d4ddf07f7ee0abbf74174efefa8c20cf8174c8e3c10ed396167e4344e5b4565b007b370
 Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
 Name: 通知消散
 Author: YUE
@@ -52601,6 +52635,22 @@ Author: Saihgupr
 
 Package: com.saihgupr.remotecompanioncn
 Architecture: iphoneos-arm64
+Version: 440
+Section: Localization
+Maintainer: 777qwq
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.saihgupr.remotecompanioncn_440_iphoneos-arm64_030513074743aada87335959e0867d312a7956a8b3c94d0732345d1e6aa1843a.deb
+Size: 117968
+MD5sum: 66b85e1cab17c6445199c9582419c6fc
+SHA1: c42396d54b4667868f79c5ba9b5e72d1fe669f62
+SHA256: 030513074743aada87335959e0867d312a7956a8b3c94d0732345d1e6aa1843a
+SHA512: a039460985e1c4f484df50e115f305c408430b5f3ac9f0368e8e86c60ca8f3d32349a85cffa9ac8dbb71f669479f238c677a8cd694711a9f456fd36532fca336
+Description: RemoteCompanion 4.4.0 外挂汉化：1012 条精确映射 + 107 条动态正则 + Web UI 中文版。运行时注入翻译，不改动原包文件。
+Name: RemoteCompanion CN (Externalized)
+Author: 777qwq
+
+Package: com.saihgupr.remotecompanioncn
+Architecture: iphoneos-arm64
 Version: 6.0.0-cn1
 Section: Tweaks
 Maintainer: 777qwq
@@ -52616,6 +52666,23 @@ Description: RemoteCompanion的中文本地化补丁。在运行时注入翻译�
 Name: RemoteCompanion CN (Externalized)
 Author: 777qwq
 icon: https://huayuarc.github.io/icon/remotecompanioncn.jpg
+
+Package: com.saihgupr.remotecompanioncn
+Architecture: iphoneos-arm64e
+Version: 440
+Section: Localization
+Maintainer: 777qwq
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.saihgupr.remotecompanioncn_440_iphoneos-arm64e_cd59a2b932d5e40284a3ea101474a55037ad7a3f532a6625de47c768287f29fe.deb
+Size: 121052
+MD5sum: b5b1301f0d62b75b09328577f7549f9e
+SHA1: 730f3a9ea1523cb1d88de1005c2020d09ee6e36f
+SHA256: cd59a2b932d5e40284a3ea101474a55037ad7a3f532a6625de47c768287f29fe
+SHA512: 556c95532889410f888c98550de2295877cfbc89d24a9065a852e2aea84204f4b1babaefecb7e5bbb61f820b5d607082f05bef63af923641a36ad0718ea7ea2a
+Description: RemoteCompanion 4.4.0 外挂汉化：1012 条精确映射 + 107 条动态正则 + Web UI 中文版。运行时注入翻译，不改动原包文件。
+Name: RemoteCompanion CN (Externalized)
+Author: 777qwq
 
 Package: com.saihgupr.remotecompanioncn
 Architecture: iphoneos-arm64e
@@ -54987,6 +55054,26 @@ SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.
 Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
 
 Package: com.sharehotspotvpn.tweak
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Section: Networking
+Maintainer: zhuifeng
+Installed-Size: 1116
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.sharehotspotvpn.tweak_1.3.1_iphoneos-arm64_ee65bcc15725540ba53616472a562eb49545a1f9140d7b692d35a7cee28ccdc7.deb
+Size: 99044
+MD5sum: 1709e2ae1ccb7ab385ec4dd1ac029cdf
+SHA1: 4caf6af75ed63f2028674486c59189ce32d08990
+SHA256: ee65bcc15725540ba53616472a562eb49545a1f9140d7b692d35a7cee28ccdc7
+SHA512: e34014eb274789b040abea0611626dae4a0f69dd15d1194bfd0204d537a7e3ed8e179965a43de402d13f5f2c556cf781582f3c28d4d6c9e942c3f740945f4465
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持无卡/关蜂窝/飞行模式共享 Wi-Fi 与 Wi-Fi+VPN 叠加、状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Name: VPN热点共享
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+
+Package: com.sharehotspotvpn.tweak
 Architecture: iphoneos-arm64e
 Version: 1.1.7
 Section: Networking
@@ -55040,6 +55127,26 @@ SHA1: 1ebddf880d7c16b4274759119a9072d886124c6b
 SHA256: f57346cd80c4b60011c3c22fa30c6ff90c18140db9cce14d8d9f129eba5c4dfb
 SHA512: ddb92ea492a61a480aec28c6c9ac0e2f2c61d6c30466d0bb86d728b2848644cfbe165baba7e6e468ca9f31c2bf64d8e4eb341fe5636053cfefff6e491e2e2d8d
 Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持 Wi-Fi+VPN 叠加与状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Name: VPN热点共享
+Author: zhuifeng
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+
+Package: com.sharehotspotvpn.tweak
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Section: Networking
+Maintainer: zhuifeng
+Installed-Size: 556
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.sharehotspotvpn.tweak_1.3.1_iphoneos-arm64e_cb6219254c270e0bea5b7de84dd3f6b86b571c2a841a85ba0065e5ad79f9bc49.deb
+Size: 81020
+MD5sum: 9eddc4aafceb3aa5825053f7fc24675a
+SHA1: f97fa85931cd0849958a1ab683ab0591a806fdd4
+SHA256: cb6219254c270e0bea5b7de84dd3f6b86b571c2a841a85ba0065e5ad79f9bc49
+SHA512: c910661099f97ce7237f86c44f841f84deba845e9220e1a1962f1d4893b5483c9c9e64114f4b2bce73e9203448f9914a465137ab726b3328198e5a38f645b28d
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持无卡/关蜂窝/飞行模式共享 Wi-Fi 与 Wi-Fi+VPN 叠加、状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
 Name: VPN热点共享
 Author: zhuifeng
 Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
@@ -80871,6 +80978,24 @@ icon: https://huayuarc.github.io/icon/ios27animation.png
 
 Package: iya.banana.ios27animation
 Architecture: iphoneos-arm64
+Version: 1.0.14-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4148
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/iya.banana.ios27animation_1.0.14-1_iphoneos-arm64_58f434b81862e7e7f3c2c4ba7551993b09c093443ef2cb6b1436ce6ebe9be79d.deb
+Size: 1245592
+MD5sum: a1aa927fffc917931de17ebaffa262b6
+SHA1: 4e4c0f2710e57e4f83a84d38a49a46aa39164940
+SHA256: 58f434b81862e7e7f3c2c4ba7551993b09c093443ef2cb6b1436ce6ebe9be79d
+SHA512: 0712d25354ffb5e519b0215fb7902249d7477587c27f5633c71debbda215c4d518ac201f951ad1265160485fa6981734fb8274463526576231b410ba8b763b88
+Description: 为ios15-18带来ios27风格的系统动画。iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Name: iOS27 Animation
+Author: Banana
+icon: https://huayuarc.github.io/icon/ios27animation.png
+
+Package: iya.banana.ios27animation
+Architecture: iphoneos-arm64
 Version: 1.0.2
 Section: Tweaks
 Maintainer: Banana
@@ -81009,6 +81134,24 @@ SHA1: c4705a3905cc1ebd926d310398f0490af7603d6f
 SHA256: d21253fcbed7155a36bf80bae93aec768a4ce072d7c71ecfeb2e8a7585ca8a51
 SHA512: 4f194b2ee04c8865db47480c587852a8b75c29332ca0f50f994aa4c250554f057a218a875a48a4cd79787fc78bd83f2645539ade56307a13641a04fa70f676d1
 Description: iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Name: iOS27 Animation
+Author: Banana
+icon: https://huayuarc.github.io/icon/ios27animation.png
+
+Package: iya.banana.ios27animation
+Architecture: iphoneos-arm64e
+Version: 1.0.14-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4144
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/iya.banana.ios27animation_1.0.14-1_iphoneos-arm64e_252992e1d7a679ceb8c79db94a2d65a78c055b183c6bed933e4aa2e2cbcb2582.deb
+Size: 1243672
+MD5sum: 44094185d97111307d9f26707671abf3
+SHA1: 49e2cf13201e1598bd6856dfd4834abc1598b07c
+SHA256: 252992e1d7a679ceb8c79db94a2d65a78c055b183c6bed933e4aa2e2cbcb2582
+SHA512: 287fec11ec7561ad45079c4dc4b13e960fb399bc0ba0c3a08e55c40a35598a84973335f729c09b66762e88154747b5123d7c6caa4fcf3689716086eb200cc4bf
+Description: 为ios15-18带来ios27风格的系统动画。iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
 Name: iOS27 Animation
 Author: Banana
 icon: https://huayuarc.github.io/icon/ios27animation.png
